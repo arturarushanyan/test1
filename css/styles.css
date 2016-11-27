@@ -57,11 +57,11 @@ h5 {
 
 .btn-fill {
   color: #fff;
-  border: solid 2px #FF5274;
+  border: solid 2px green;
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #FF5274; }
+  background-color: green; }
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;

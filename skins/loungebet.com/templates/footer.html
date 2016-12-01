@@ -1,0 +1,36 @@
+<script type="text/javascript" src="https://2268f7ea3aac49a54df4.curacao-egaming.com/ceg-seal.js"></script>
+
+<div class="footer new" ng-controller="footerCtrl" ng-if="!conf.disableFooter && $location.path() !='/popup/'">
+
+
+
+
+
+
+
+
+    <div class="new-footer-section left">
+        <ng-include src="getTemplate('templates/footer/helppages.html')"></ng-include>
+    </div>
+    <div class="new-footer-section right">
+        <ng-include src="getTemplate('templates/footer/social.html')"></ng-include>
+        <ng-include src="getTemplate('templates/footer/copyright.html')"></ng-include>
+        <ng-include src="getTemplate('templates/footer/links.html')"></ng-include>
+        <div class="back-block">
+            <div class="license">
+                <div id="ceg-seal-container" data-ceg-seal-id="2268f7ea3aac49a54df4" data-ceg-image-size="42" data-ceg-image-type="basic-large"></div><script type="text/javascript" src="https://2268f7ea3aac49a54df4.curacao-egaming.com/ceg-seal.js"></script>
+            </div>
+            <div class="old-18-year" ng-show="conf.ageRestrictionInFooter"><p>{{conf.ageRestrictionInFooter}}+</p></div>
+            <div class="go-back feedback" ng-show="!env.authorized"><a ng-click="broadcast('feedback.toggle')" trans>Feedback</a></div>
+        <!--    <div class="go-back"><a ng-click="scrollToTop(true)" trans>back to top</a></div> -->
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+<ng-include src="getTemplate('templates/footer/paymentmethods.html')"></ng-include>
+<ng-include src="getTemplate('templates/footer/chatwidget.html')"></ng-include>

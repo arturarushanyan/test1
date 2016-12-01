@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+msgid "Games"
+msgstr "Backgammon"
+
+# 
+msgid "Casino"
+msgstr "Games"
+
+# 
+msgid "Search a casino game..."
+msgstr "Search game"
+
+# 
+msgid "play now"
+msgstr "play"
+
+# 
+msgid "CardsLast4digits"
+msgstr "Cards Last 4 digits"
+
+# 
+msgid "IdentificationNumber"
+msgstr "Identification Number"
+
+# 
+msgid "CardNumber"
+msgstr "Card Number"
+
+# 
+msgid "purse"
+msgstr "Purse"
+
+# 
+msgid "privateID"
+msgstr "Identification Number"
+
+# 
+msgid "name"
+msgstr "Firstname and Lastname"

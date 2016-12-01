@@ -1,0 +1,9 @@
+<div class="paymen-icons-list" ng-controller="footerCtrl" ng-show="paymentSystemNames.length && conf.showPaymentSystemsInFooter && $location.path() !='/popup/'">
+
+    <div class="payment-content-block" >
+        <ul>
+            <li ng-repeat="name in paymentSystemNames track by name" class="{{name}}"><span></span></li>
+
+        </ul>
+    </div>
+</div>

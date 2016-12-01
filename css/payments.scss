@@ -1,0 +1,148 @@
+.contain-footer .paymen-icons-list, .contain-footer .payment-content-block {
+    max-height: 126px;
+    height: 126px;
+}
+.contain-footer .payment-content-block {
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.payment-content-block ul {
+    text-align: center;
+}
+.payment-content-block ul li {
+    display: inline-block;
+    width: 9.5%;
+}
+.depozit-block-icon ul li {
+    background: $skin-palette-11;
+    box-shadow: inset 0 0 0 1px lighten( saturate( adjust-hue( $skin-palette-11, -3deg ), 1 ), 2 );
+    &:nth-last-child(11):first-child, &:nth-child(12) {
+        border-bottom-left-radius: 4px;
+    }
+    &:first-child {
+        border-top-left-radius: 4px;
+    }
+    &:last-child {
+        border-bottom-right-radius: 4px;
+    }
+    &:nth-child(11) {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+}
+.depozit-block-icon ul li.active-deposit div, .depozit-block-icon ul li:hover div {
+    box-shadow: inset 0 -1px 0 $hero-color;
+}
+.payment-content-block ul li span, .depozit-block-icon ul li div a, .icon-deposit-logo a, .balance-lightbox-j aside ul li span {
+    background-image: url(../../../images/payments.png?v=45);
+    background-repeat: no-repeat;
+    width: 0;
+} 
+.depozit-block-icon ul li div a {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    transition: filter .6s, opacity .6s;
+    -webkit-filter: grayscale(0%) saturate(8%);
+    opacity: 0.7;
+}
+.depozit-block-icon ul li:hover div a, .depozit-block-icon ul li.active-deposit div a {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: none;
+    -webkit-filter: grayscale(0%)saturate(80%);
+    opacity: 1;
+}
+$payments: 
+    (skrill 16 50)
+    (webmoney 91 61)
+	(DengiOnline_WebMoney 91 61)
+    (qiwi 186 22)
+    (neteller 251 60)
+    (netellernew 251 60)
+    (ukash 342 57)
+    (cash 432 44)
+    /*(ecocard 513 41)*/
+	(ecocard 4116  77)
+    (moneta 583 62)
+    (arca 673 47)
+    (arcanew 673 47)
+    (idramnew 747 63)
+    (edram 747 63)
+    (telcell 839 66)
+    (tandem 929 55)
+    (btabank 1012 63)
+    (megapay 1099 55)
+    (osmp 1181 63)
+    (mobidram 2178 65)
+    (yandex 3244 75)
+    (DengiOnline_LiqPay 1868 70)
+    (DengiOnline_EasyPay 1976 52)
+    (centili 1355 80)
+    (skrill1tap 1463 73)
+    (astropay 1668 67)
+    (yandexinvois 1771 61)
+    (yandexcash 2466 62)
+    (paytopay 1270 54)
+    (yandexbank 2274 72)
+    (wirecardnew 2378 54)
+    (wirecard 2378 54)
+    (yandexprbank 2570 80)
+    (card 3004 80)
+    (unionpay 2691 47)
+    (pugglepay 5527 70)
+    (dotpay 2912 69)
+    (bankcardam 2059 89)
+    (astropaydirect 3101 79)
+    (safecharge 3736  69)
+    (otopay 3492 73)
+    (toditocash 3606 80)
+	(cerbank 3845 33)
+	(bankform 3921 58)
+	(epro 4009  63)
+	(ecopayznew 4116  77)
+	(papaya 4231 80)
+	(voucherapi 4355 67)
+	(ym 3244 75)
+	(wm 91 61)
+	(euroset 4456  80)
+	(svyaznoy 4564 80)
+	(megafon 4691 78)
+	(mts 4812 60)
+	(tele2 4894 80)
+	(alfaclick 1771 61)
+	(sberbank 5013 48)
+	(beeline 5110 38)
+	(polycoin 5205 75)
+	(easypay 5370 80)
+	(stoloto 5682 73)
+	(tucompra 5811 75)
+	(interkassa 6411 80)
+	(interkassa_w1 6411 80)
+	(apcopay  6208 35)
+	(apcopay2 6063 70)
+	(apcopay3 6297 79)
+	(interkassa_visa 6542 48)
+	(interkassa_master 6638 52)
+	(astropaystreamline1 6746 30)
+	(astropaystreamline2 6802 30)
+	(astropaystreamline3 6862 30)
+	(astropaystreamline4 6941 80)
+	(astropaystreamline5 7076 66)
+	(astropaystreamline6 7199 30)
+	(astropaystreamline7 7261 30)
+	(astropaystreamline8 7331 45)
+	(astropaystreamline9 7400 39)
+	(astropaystreamline10 7467 46)
+	(astropaystreamline11 7545 30)
+	(astropaystreamline12 7598 46)
+	(astropaystreamline13 7667 27)
+	(astropaystreamline14 7727 43)
+;
+@each $payment in $payments {
+    $name: nth($payment, 1);
+    $x: nth($payment, 2);
+    $width: nth($payment, 3);
+    .payment-content-block ul li.#{$name} span, .depozit-block-icon ul li .#{$name} a, .icon-deposit-logo.#{$name} a, .balance-lightbox-j aside ul li span.#{$name} {
+        background-position: -#{$x}px 50%;
+        width: #{$width}px;
+    }
+}

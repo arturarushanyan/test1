@@ -1,0 +1,1866 @@
+.animation-control {
+  transform: translate3d(0, 0, 0);
+}
+.animation-control .game-control {
+  float: left;
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+.animation-control .game-control .game-team-names {
+  float: left;
+  width: 100%;
+  height: 30px;
+  background: #0e5259;
+  border-top: 1px solid #0c4b51;
+}
+.animation-control .game-control .game-team-names li {
+  float: left;
+  width: calc( 50% - 52px );
+  height: 30px;
+  padding: 0 5px;
+  font: 14px/30px Ubuntu, Arial, Helvetica, sans-serif;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #efefef;
+}
+.animation-control .game-control .game-team-names li.teams-score {
+  width: 84px;
+  padding: 0;
+  overflow: visible;
+  font-size: 20px;
+  line-height: 30px;
+}
+/*
+.animation-control .game-control .game-team-names li.teams-score span {
+  display: inline-block;
+  padding: 0 5px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.16) inset;
+}
+*/
+.animation-control .game-control .field-container {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+.animation-control .game-control .field-container .field {
+  position: relative;
+  width: 92%;
+  height: auto;
+  margin: 0 4%;
+  padding-bottom: 46.80%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+}
+.animation-control .game-control.soccer {
+  background: repeating-linear-gradient(to right, rgba(255,255,255,0.05), rgba(255,255,255,0.05) 8.333%, transparent 8.333%, transparent 16.666%),radial-gradient(ellipse at center, #39670d 0%, #509111 100%);
+}
+.animation-control .game-control.soccer .field-container .field {
+  background-image: url(../images/animation/classic/soccer-field-3d.png);
+}
+.animation-control .game-control.soccer .field-container .field .gate-l {
+  position: absolute;
+  left: -4.8%;
+  width: 11.2%;
+  height: 100%;
+  background: url("../images/animation/classic/gate-l.png") no-repeat no-repeat 100% 47%;
+  background-size: contain;
+}
+.animation-control .game-control.soccer .field-container .field .gate-r {
+  position: absolute;
+  left: auto;
+  right: -3.8%;
+  width: 11.2%;
+  height: 100%;
+  background: url("../images/animation/classic/gate-r.png") no-repeat 100% 47%;
+  background-size: contain;
+}
+.animation-control .game-control.tennis.tennis-0 {
+  background: #ae4b2a;
+}
+.animation-control .game-control.tennis.tennis-1 {
+  background: #ae4b2a;
+}
+.animation-control .game-control.tennis.tennis-2 {
+  background: #ae4b2a;
+}
+.animation-control .game-control.tennis .field-container .field {
+  background-image: url(../images/animation/classic/tennis-field-2d.png);
+  width: 94%;
+  margin: 0 3%;
+  opacity: 0.8;
+}
+.animation-control .game-control.basketball {
+  background: #d79733;
+  /* Foul
+  ------------------------*/
+  /* Free throw
+  --------------------*/
+  	/* Point
+  -------------------*/
+}
+.animation-control .game-control.basketball .field-container {
+  background: url(../images/animation/classic/floor-bg-pattern.png);
+}
+.animation-control .game-control.basketball .field-container .field {
+  background-image: url(../images/animation/classic/basketball-field-3d.png);
+  width: 94%;
+  margin: 0 3%;
+  opacity: .8;
+}
+.animation-control .game-control.basketball .basket {
+  position: absolute;
+  top: 37%;
+  background: url("../images/animation/b_basket.png") no-repeat;
+  background-size: contain;
+  width: 11.1111%;
+  height: 100%;
+  opacity: 0;
+}
+.animation-control .game-control.basketball .ball_container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.animation-control .game-control.basketball .b_ball {
+  background: url("../images/animation/basketball.jpg") 0 50%;
+  background-size: 150% 120%;
+  position: absolute;
+  width: 5.75%;
+  height: 12%;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(75, 27, 9, 0.79), inset 2px -2px 8px rgba(49, 12, 0, 0.9);
+  opacity: 0;
+}
+.animation-control .game-control.basketball .arrow {
+  position: absolute;
+  bottom: 28%;
+  width: 20%;
+  border-bottom: 0.15em dashed #fff;
+  opacity: 0;
+}
+.animation-control .game-control.basketball .arrow:after {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.31em;
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 0.4em;
+  border-style: solid;
+}
+.animation-control .game-control.basketball .Attack .attack-div {
+  top: 4.5%;
+  height: 91%;
+}
+.animation-control .game-control.basketball .Attack.home .attack-div {
+  background: linear-gradient(90deg, transparent, #ff2900);
+}
+.animation-control .game-control.basketball .Attack.home .attack-div .attack-dir {
+  border-color: transparent transparent transparent #ff2900;
+}
+.animation-control .game-control.basketball .Attack.away .attack-div {
+  background: linear-gradient(90deg, #ff2900, transparent);
+}
+.animation-control .game-control.basketball .Attack.away .attack-div .attack-dir {
+  border-color: transparent #ff2900 transparent transparent;
+}
+.animation-control .game-control.basketball .Foul .timeout-container {
+  position: absolute;
+  top: 5%;
+  width: 50%;
+  height: 91%;
+  animation: cl-ball-safe 2s ease infinite;
+}
+.animation-control .game-control.basketball .Foul .timeout-container div {
+  position: absolute;
+  width: 100%;
+  height: 35%;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px -1px 5px #000;
+}
+.animation-control .game-control.basketball .Foul .timeout-container div:first-child {
+  top: 38%;
+}
+.animation-control .game-control.basketball .Foul .timeout-container div:last-child {
+  top: 48%;
+  width: 80%;
+  margin: 0 10%;
+}
+.animation-control .game-control.basketball .Foul.home .timeout-container {
+  background: linear-gradient(90deg, transparent, rgba(255, 0, 0, 0.4));
+}
+.animation-control .game-control.basketball .Foul.home .timeout-container div:first-child {
+  animation: cl-ball-safe-down 1.2s ease 1;
+}
+.animation-control .game-control.basketball .Foul.home .timeout-container div:last-child {
+  animation: cl-ball-safe-up 1.2s ease 1;
+}
+.animation-control .game-control.basketball .Foul.away .timeout-container {
+  left: 50%;
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.4), transparent);
+}
+.animation-control .game-control.basketball .Foul.away .timeout-container div:first-child {
+  animation: cl-ball-safe-down 1.2s ease 1;
+}
+.animation-control .game-control.basketball .Foul.away .timeout-container div:last-child {
+  animation: cl-ball-safe-up 1.2s ease 1;
+}
+.animation-control .game-control.basketball .FreeThrow.away .basket, .animation-control .game-control.basketball .Free1Throw.away .basket, .animation-control .game-control.basketball .Free2Throws.away .basket, .animation-control .game-control.basketball .Free3Throws.away .basket {
+  left: 1%;
+  opacity: 1;
+}
+.animation-control .game-control.basketball .FreeThrow.away .b_ball, .animation-control .game-control.basketball .Free1Throw.away .b_ball, .animation-control .game-control.basketball .Free2Throws.away .b_ball, .animation-control .game-control.basketball .Free3Throws.away .b_ball {
+  bottom: 28%;
+  left: 46%;
+  opacity: 1;
+  animation: cl-free-kick_basket 3s infinite linear;
+}
+.animation-control .game-control.basketball .FreeThrow.away .arrow, .animation-control .game-control.basketball .Free1Throw.away .arrow, .animation-control .game-control.basketball .Free2Throws.away .arrow, .animation-control .game-control.basketball .Free3Throws.away .arrow {
+  right: 51%;
+  animation: cl-expand-arrow 3.5s infinite ease;
+}
+.animation-control .game-control.basketball .FreeThrow.away .arrow:after, .animation-control .game-control.basketball .Free1Throw.away .arrow:after, .animation-control .game-control.basketball .Free2Throws.away .arrow:after, .animation-control .game-control.basketball .Free3Throws.away .arrow:after {
+  right: 100%;
+  border-color: transparent #fff transparent transparent;
+}
+.animation-control .game-control.basketball .FreeThrow.home .basket, .animation-control .game-control.basketball .Free1Throw.home .basket, .animation-control .game-control.basketball .Free2Throws.home .basket, .animation-control .game-control.basketball .Free3Throws.home .basket {
+  right: 1%;
+  transform: scaleX(-1);
+  opacity: 1;
+}
+.animation-control .game-control.basketball .FreeThrow.home .b_ball, .animation-control .game-control.basketball .Free1Throw.home .b_ball, .animation-control .game-control.basketball .Free2Throws.home .b_ball, .animation-control .game-control.basketball .Free3Throws.home .b_ball {
+  bottom: 28%;
+  right: 46%;
+  animation: cl-free-kick_basket 3.5s infinite linear;
+  opacity: 1;
+}
+.animation-control .game-control.basketball .FreeThrow.home .arrow, .animation-control .game-control.basketball .Free1Throw.home .arrow, .animation-control .game-control.basketball .Free2Throws.home .arrow, .animation-control .game-control.basketball .Free3Throws.home .arrow {
+  left: 51%;
+  animation: cl-expand-arrow 3s infinite ease;
+}
+.animation-control .game-control.basketball .FreeThrow.home .arrow:after, .animation-control .game-control.basketball .Free1Throw.home .arrow:after, .animation-control .game-control.basketball .Free2Throws.home .arrow:after, .animation-control .game-control.basketball .Free3Throws.home .arrow:after {
+  left: 100%;
+  border-color: transparent transparent transparent #fff;
+}
+.animation-control .game-control.basketball .OnePoint .text-event, .animation-control .game-control.basketball .TwoPoints .text-event, .animation-control .game-control.basketball .ThreePoints .text-event {
+  animation: cl-text-slide 1.5s 1.2s 1 ease-out, shadow-pulse 3.5s 2s infinite;
+}
+.animation-control .game-control.basketball .OnePoint.home .basket, .animation-control .game-control.basketball .TwoPoints.home .basket, .animation-control .game-control.basketball .ThreePoints.home .basket {
+  right: 2%;
+  transform: scaleX(-1);
+  opacity: 1;
+}
+.animation-control .game-control.basketball .OnePoint.home .b_ball, .animation-control .game-control.basketball .TwoPoints.home .b_ball, .animation-control .game-control.basketball .ThreePoints.home .b_ball {
+  right: 39%;
+  opacity: 0;
+  box-shadow: 0px 30px 20px rgba(75, 27, 9, 0.43), inset 2px -2px 8px rgba(49, 12, 0, 0.9);
+  animation: cl-b_point-home 2s 0.3s 1 cubic-bezier(0, 0, 0.65, 1);
+}
+.animation-control .game-control.basketball .OnePoint.home .ball_container, .animation-control .game-control.basketball .TwoPoints.home .ball_container, .animation-control .game-control.basketball .ThreePoints.home .ball_container {
+  transform: translateY(41%);
+  animation: cl-point_cont-home 2s 0.3s 1 cubic-bezier(0, 0, 0.35, 1);
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control.basketball .OnePoint.away .basket, .animation-control .game-control.basketball .TwoPoints.away .basket, .animation-control .game-control.basketball .ThreePoints.away .basket {
+  left: 2%;
+  opacity: 1;
+}
+.animation-control .game-control.basketball .OnePoint.away .b_ball, .animation-control .game-control.basketball .TwoPoints.away .b_ball, .animation-control .game-control.basketball .ThreePoints.away .b_ball {
+  left: 40%;
+  opacity: 0;
+  box-shadow: 0px 30px 20px rgba(75, 27, 9, 0.43), inset 2px -2px 8px rgba(49, 12, 0, 0.9);
+  animation: cl-b_point-away 2s 0.3s 1 cubic-bezier(0, 0, 0.65, 1);
+}
+.animation-control .game-control.basketball .OnePoint.away .ball_container, .animation-control .game-control.basketball .TwoPoints.away .ball_container, .animation-control .game-control.basketball .ThreePoints.away .ball_container {
+  transform: translateY(41%);
+  animation: cl-point_cont-away 2s 0.3s 1 cubic-bezier(0, 0, 0.35, 1);
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control.volleyball {
+  background: #F5B653;
+  /* Point */
+  /* Ball In Play */
+}
+.animation-control .game-control.volleyball .field-container {
+  background: url(../images/animation/classic/floor-bg-pattern.png);
+}
+.animation-control .game-control.volleyball .field-container .field {
+  background-image: url(../images/animation/classic/volleyball-field-3d.png);
+  width: 94%;
+  margin: 0 3%;
+}
+.animation-control .game-control.volleyball .v_ball {
+  background: #fff;
+  position: absolute;
+  width: 5%;
+  height: 10%;
+  border-radius: 50%;
+  box-shadow: inset 4px -3px 10px rgba(54, 31, 1, 0.37);
+  opacity: 0;
+}
+.animation-control .game-control.volleyball .Point .point_container {
+  position: absolute;
+  top: 5%;
+  width: 49.5%;
+  height: 92%;
+  animation: cl-ball-safe 2s ease infinite;
+}
+.animation-control .game-control.volleyball .Point .point_container div {
+  position: absolute;
+  height: 40%;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px -1px 5px #000;
+  top: 38%;
+  width: 80%;
+  margin: 0 10%;
+}
+.animation-control .game-control.volleyball .Point.side_1 .point_container {
+  background: linear-gradient(90deg, transparent, rgba(255, 224, 0, 0.4));
+}
+.animation-control .game-control.volleyball .Point.side_1 .point_container div {
+  animation: cl-v_point 1.3s ease 1;
+}
+.animation-control .game-control.volleyball .Point.side_2 .point_container {
+  left: 49.5%;
+  background: linear-gradient(90deg, rgba(255, 224, 0, 0.4), transparent);
+}
+.animation-control .game-control.volleyball .Point.side_2 .point_container div {
+  animation: cl-v_point 1.5s ease 1;
+}
+.animation-control .game-control.volleyball .BallInPlay .ball_container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.animation-control .game-control.volleyball .BallInPlay .ball_container .v_ball, .animation-control .game-control.volleyball .BallInPlay .ball_container .v_ball_shadow {
+  position: absolute;
+  top: 20%;
+}
+.animation-control .game-control.volleyball .BallInPlay .ball_container .v_ball_shadow {
+  background: none;
+  width: 5%;
+  height: 10%;
+  border-radius: 50%;
+}
+.animation-control .game-control.volleyball .BallInPlay.side_1 .ball_container {
+  animation: cl-v_ball_in_play_y_home 1.7s 0.2s infinite cubic-bezier(0, 0, 0.35, 1);
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control.volleyball .BallInPlay.side_1 .ball_container .v_ball {
+  opacity: 0;
+  animation: cl-v_ball_in_play_x_home 1.7s 0.2s infinite cubic-bezier(0, 0, 0.65, 1);
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control.volleyball .BallInPlay.side_1 .ball_container .v_ball_shadow {
+  animation: cl-v_ball_in_play_x_shadow 1.7s 0.2s infinite cubic-bezier(0, 0, 0.65, 1);
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control.volleyball .BallInPlay.side_2 .ball_container {
+  animation: cl-v_ball_in_play_y_away 1.7s 0.2s infinite cubic-bezier(0, 0, 0.35, 1);
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control.volleyball .BallInPlay.side_2 .ball_container .v_ball {
+  opacity: 0;
+  animation: cl-v_ball_in_play_x_away 1.7s 0.2s infinite cubic-bezier(0, 0, 0.65, 1);
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control.volleyball .BallInPlay.side_2 .ball_container .v_ball_shadow {
+  animation: cl-v_ball_in_play_x_shadow_away 1.7s 0.2s infinite cubic-bezier(0, 0, 0.65, 1);
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .animation-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.animation-control .game-control .ball {
+  background-color: #fff;
+  background-image: url("../images/animation/soccer-ball-bg.png");
+  background-size: 80%;
+  width: 3.5%;
+  height: 7.5%;
+  min-width: 12px;
+  min-height: 12px;
+  border-radius: 50%;
+  box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.75), inset 0 0 5px black;
+}
+.animation-control .game-control .Corner.away > div {
+  animation: cl-ball-y-away 1.8s 0.3s infinite cubic-bezier(0, 0, 0.35, 1);
+}
+.animation-control .game-control .Corner.away > div .ball {
+  animation: cl-ball-x-away 1.8s 0.3s infinite cubic-bezier(0, 0, 0.65, 1);
+}
+.animation-control .game-control .Corner.home > div {
+  animation: cl-ball-y-home 1.9s 0.3s infinite cubic-bezier(0, 0, 0.35, 1);
+}
+.animation-control .game-control .Corner.home > div .ball {
+  position: absolute;
+  right: 0;
+  top: 0;
+  animation: cl-ball-x-home 1.9s 0.3s infinite cubic-bezier(0, 0, 0.65, 1);
+}
+.animation-control .game-control .Corner > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(85%);
+}
+.animation-control .game-control .YellowCard.home .rotator, .animation-control .game-control .RedCard.home .rotator {
+  left: 25%;
+  animation: cl-rotate 4s infinite ease-in-out;
+}
+.animation-control .game-control .YellowCard.home .rotator .card, .animation-control .game-control .RedCard.home .rotator .card {
+  animation: cl-fadeIn 4s infinite ease-in-out;
+}
+.animation-control .game-control .YellowCard.away .rotator, .animation-control .game-control .RedCard.away .rotator {
+  right: 25%;
+  animation: cl-rotate 4s infinite ease-in-out;
+}
+.animation-control .game-control .YellowCard.away .rotator .card, .animation-control .game-control .RedCard.away .rotator .card {
+  animation: cl-fadeIn 4s infinite ease-in-out;
+}
+.animation-control .game-control .rotator {
+  backface-visibility: visible;
+  transform-origin: 50% 50%;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  width: 8.5%;
+  height: 25%;
+}
+.animation-control .game-control .rotator .card {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.35em;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+.animation-control .game-control .YellowCard .card {
+  background: #ffeb00;
+}
+.animation-control .game-control .RedCard .card {
+  background: #F00;
+}
+.animation-control .game-control .ThrowIn p {
+  position: absolute;
+  top: 18%;
+  width: 80%;
+  margin: 0 10%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  animation: cl-text-slide 1.5s 0.2s 1 ease-out, cl-shadow-pulse 3.5s 1s infinite;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .ThrowIn > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(85%);
+}
+.animation-control .game-control .ThrowIn > div .ball {
+  position: absolute;
+  transform: translateX(0%);
+}
+.animation-control .game-control .ThrowIn.home > div {
+  animation: cl-ball-throw_home 1.8s 0.3s infinite cubic-bezier(0, 0, 0.35, 1);
+}
+.animation-control .game-control .ThrowIn.home > div .ball {
+  left: 40%;
+  animation: cl-throw-in_home 1.8s 0.3s infinite cubic-bezier(0, 0, 0.65, 1);
+}
+.animation-control .game-control .ThrowIn.away > div {
+  animation: cl-ball-throw_away 1.8s 0.3s infinite cubic-bezier(0, 0, 0.35, 1);
+}
+.animation-control .game-control .ThrowIn.away > div .ball {
+  left: 60%;
+  animation: cl-throw-in_away 1.8s 0.3s infinite cubic-bezier(0, 0, 0.65, 1);
+}
+.animation-control .game-control .text-event {
+  position: absolute;
+  top: 37%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0;
+  font-size: 1em;
+  text-align: center;
+  text-shadow: 1px 1px 10px #000;
+  color: #fff;
+  animation: cl-text-slide 1.5s 0.2s 1 ease-out, cl-shadow-pulse 3.5s 1s infinite;
+}
+.animation-control .game-control .Attack .attack-div, .animation-control .game-control .DangerousAttack .attack-div {
+  position: absolute;
+  background: linear-gradient(90deg, transparent, red);
+  width: 30%;
+  top: 4.5%;
+  height: 91%;
+  opacity: 0;
+}
+.animation-control .game-control .Attack .attack-div .attack-dir, .animation-control .game-control .DangerousAttack .attack-div .attack-dir {
+  position: absolute;
+  top: 45.8%;
+  margin-top: -1.5em;
+  width: 0;
+  height: 0;
+  border-width: 1.5em;
+  border-style: solid;
+}
+.animation-control .game-control .Attack p, .animation-control .game-control .DangerousAttack p {
+  position: absolute;
+  top: 42%;
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  width: 30%;
+  margin: 0 35%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0;
+}
+.animation-control .game-control .Attack.home .attack-div, .animation-control .game-control .DangerousAttack.home .attack-div {
+  left: 5%;
+  background: linear-gradient(90deg, transparent, red);
+}
+.animation-control .game-control .Attack.home .attack-div .attack-dir, .animation-control .game-control .DangerousAttack.home .attack-div .attack-dir {
+  left: 99%;
+  border-color: transparent transparent transparent red;
+}
+.animation-control .game-control .Attack.away .attack-div, .animation-control .game-control .DangerousAttack.away .attack-div {
+  right: 5%;
+  background: linear-gradient(90deg, red, transparent);
+}
+.animation-control .game-control .Attack.away .attack-div .attack-dir, .animation-control .game-control .DangerousAttack.away .attack-div .attack-dir {
+  right: 99%;
+  border-color: transparent red transparent transparent;
+}
+.animation-control .game-control .Attack.home .attack-div {
+  animation: cl-attack-home 1.3s 1 ease, cl-pulse-attack 2s 1.3s infinite ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Attack.home p {
+  animation: cl-move-right 1.3s 1 ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Attack.away .attack-div {
+  animation: cl-attack-away 1.3s 1 ease, cl-pulse-attack 2s 1.3s infinite ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Attack.away p {
+  animation: cl-move-left 1.3s 1 ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .DangerousAttack p {
+  width: 60%;
+  margin: 0 20%;
+}
+.animation-control .game-control .DangerousAttack.home .attack-div {
+  animation: cl-dangerous-attack-home 1.3s 1 ease, cl-pulse-attack 2.2s 1.3s infinite ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .DangerousAttack.home p {
+  animation: cl-move-right 1.3s 1 ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .DangerousAttack.away .attack-div {
+  animation: cl-dangerous-attack-away 1.3s 1 ease, cl-pulse-attack 2.2s 1.3s infinite ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .DangerousAttack.away p {
+  animation: cl-move-left 1.3s 1 ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .BallSafe > div {
+  position: absolute;
+  top: 4%;
+  left: 10%;
+  width: 40%;
+  height: 91%;
+  animation: cl-ball-safe 2s ease infinite;
+}
+.animation-control .game-control .BallSafe > div div {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: #fff;
+}
+.animation-control .game-control .BallSafe > div div:first-child {
+  top: 38%;
+}
+.animation-control .game-control .BallSafe > div div:last-child {
+  top: 48%;
+  width: 80%;
+  margin: 0 10%;
+}
+.animation-control .game-control .BallSafe.home > div {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4));
+}
+.animation-control .game-control .BallSafe.home > div div:first-child {
+  animation: cl-ball-safe-down 1.4s ease 1;
+}
+.animation-control .game-control .BallSafe.home > div div:last-child {
+  animation: cl-ball-safe-up 1.4s ease 1;
+}
+.animation-control .game-control .BallSafe.away > div {
+  left: 50%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.4), transparent);
+}
+.animation-control .game-control .BallSafe.away > div div:first-child {
+  animation: cl-ball-safe-down 1.5s ease 1;
+}
+.animation-control .game-control .BallSafe.away > div div:last-child {
+  animation: cl-ball-safe-up 1.5s ease 1;
+}
+.animation-control .game-control .Substitution .sub-cont {
+  opacity: 0;
+  position: absolute;
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #f00 #f00 #0f0 #0f0;
+  transform: rotate(-45deg);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  animation: cl-substitute 1.5s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Substitution .sub-cont:before, .animation-control .game-control .Substitution .sub-cont:after {
+  content: "";
+  position: absolute;
+  top: -41%;
+  left: -9%;
+  width: 0;
+  height: 0;
+  border-width: 0.5em;
+  border-style: solid;
+  border-color: transparent transparent #0f0 transparent;
+  transform: rotate(45deg);
+}
+.animation-control .game-control .Substitution .sub-cont:after {
+  top: 69%;
+  left: 41%;
+  border-color: #f00 transparent transparent transparent;
+}
+.animation-control .game-control .Substitution.home .sub-cont {
+  opacity: 1;
+  left: 30%;
+  top: 50%;
+}
+.animation-control .game-control .Substitution.away .sub-cont {
+  opacity: 1;
+  right: 30%;
+  top: 50%;
+}
+.animation-control .game-control .Offside .line {
+  position: absolute;
+  top: 5%;
+  height: 90%;
+  border-left: 0.11em dashed #fe0;
+  opacity: 0;
+}
+.animation-control .game-control .Offside .ball {
+  opacity: 0;
+  position: absolute;
+}
+.animation-control .game-control .Offside p {
+  position: absolute;
+  top: 27%;
+  left: 25%;
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  text-align: center;
+  text-shadow: 1px 1px 10px #000;
+  color: #fff;
+  opacity: 0;
+  animation: cl-text-slide 1.5s 0.2s 1 ease-out, cl-shadow-pulse 3.5s 1s infinite;
+}
+.animation-control .game-control .Offside.home .line {
+  right: 30%;
+  animation: cl-line-pulse 1.4s infinite ease-in-out;
+}
+.animation-control .game-control .Offside.home .ball {
+  animation: cl-ball-offside-home 1.4s infinite ease-out;
+}
+.animation-control .game-control .Offside.away .line {
+  left: 30%;
+  animation: cl-line-pulse 1.4s infinite ease;
+}
+.animation-control .game-control .Offside .ball {
+  animation: cl-ball-offside-away 1.4s infinite ease-out;
+}
+.animation-control .game-control .FreeKick {
+  opacity: 0;
+}
+.animation-control .game-control .FreeKick .ripple {
+  position: absolute;
+  width: 5%;
+  height: 10%;
+  margin: 3% 2% 4% 2%;
+  border-radius: 50%;
+  border: 0.1em solid #fff;
+  animation: cl-ripple-out 1.5s infinite ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .FreeKick .ball {
+  position: absolute;
+  animation: cl-free-kick 1.5s infinite linear;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .FreeKick .arrow {
+  position: absolute;
+  width: 20%;
+  border-bottom: 0.15em dashed #fff;
+  animation: cl-expand-arrow 3s infinite ease;
+}
+.animation-control .game-control .FreeKick .arrow:after {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.31em;
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 0.4em;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+}
+.animation-control .game-control .FreeKick.home {
+  opacity: 1;
+}
+.animation-control .game-control .FreeKick.home .ripple {
+  bottom: 20%;
+  left: 32%;
+}
+.animation-control .game-control .FreeKick.home .ball {
+  bottom: 31%;
+  left: 35%;
+}
+.animation-control .game-control .FreeKick.home .arrow {
+  bottom: 34%;
+  left: 37%;
+  transform-origin: 0 0;
+}
+.animation-control .game-control .FreeKick.home .arrow:after {
+  left: 100%;
+  border-color: transparent transparent transparent #fff;
+}
+.animation-control .game-control .FreeKick.away {
+  opacity: 1;
+}
+.animation-control .game-control .FreeKick.away .ripple {
+  bottom: 20%;
+  right: 32%;
+}
+.animation-control .game-control .FreeKick.away .ball {
+  bottom: 31%;
+  right: 35%;
+}
+.animation-control .game-control .FreeKick.away .arrow {
+  bottom: 34%;
+  right: 37%;
+  transform-origin: 100% 0;
+}
+.animation-control .game-control .FreeKick.away .arrow:after {
+  right: 100%;
+  border-color: transparent #fff transparent transparent;
+}
+.animation-control .game-control .Penalty {
+  opacity: 0;
+}
+.animation-control .game-control .Penalty .ball {
+  position: absolute;
+  animation: cl-penalty-ball 1s infinite linear;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.44), inset 0 0 5px black;
+}
+.animation-control .game-control .Penalty .arrow {
+  position: absolute;
+  width: 10%;
+  border-bottom: 0.18em dashed #fff;
+  animation: cl-penalty-arrow 1.5s infinite ease;
+}
+.animation-control .game-control .Penalty .arrow:after {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.31em;
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 0.4em;
+  border-style: solid;
+}
+.animation-control .game-control .Penalty.home {
+  opacity: 1;
+}
+.animation-control .game-control .Penalty.home .ball {
+  left: 14%;
+  top: 42%;
+}
+.animation-control .game-control .Penalty.home .arrow {
+  top: 48%;
+  left: 16%;
+  transform-origin: 0 0;
+  transform: rotate(180deg);
+}
+.animation-control .game-control .Penalty.home .arrow:after {
+  left: 100%;
+  border-color: transparent transparent transparent #fff;
+}
+.animation-control .game-control .Penalty.away {
+  opacity: 1;
+}
+.animation-control .game-control .Penalty.away .ball {
+  right: 14%;
+  top: 42%;
+}
+.animation-control .game-control .Penalty.away .arrow {
+  top: 48%;
+  right: 16%;
+  transform-origin: 100% 0;
+  transform: rotate(180deg);
+}
+.animation-control .game-control .Penalty.away .arrow:after {
+  right: 100%;
+  border-color: transparent #fff transparent transparent;
+}
+.animation-control .game-control .GoalKick {
+  opacity: 0;
+}
+.animation-control .game-control .GoalKick .ripple {
+  position: absolute;
+  width: 5%;
+  height: 10%;
+  margin: 3% 2% 4% 2%;
+  border-radius: 50%;
+  border: 0.1em solid #fff;
+  animation: cl-ripple-out 1.5s infinite ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .GoalKick .ball {
+  position: absolute;
+  animation: cl-free-kick 1.5s infinite linear;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .GoalKick .arrow {
+  position: absolute;
+  width: 20%;
+  border-bottom: 0.15em dashed #fff;
+  animation: cl-expand-arrow 3s infinite ease;
+}
+.animation-control .game-control .GoalKick .arrow:after {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.31em;
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 0.4em;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+}
+.animation-control .game-control .GoalKick.home {
+  opacity: 1;
+}
+.animation-control .game-control .GoalKick.home .ripple {
+  bottom: 18%;
+  left: 11%;
+}
+.animation-control .game-control .GoalKick.home .ball {
+  bottom: 28%;
+  left: 14%;
+}
+.animation-control .game-control .GoalKick.home .arrow {
+  bottom: 30%;
+  left: 15%;
+  transform-origin: 0 0;
+}
+.animation-control .game-control .GoalKick.home .arrow:after {
+  left: 100%;
+  border-color: transparent transparent transparent #fff;
+}
+.animation-control .game-control .GoalKick.away {
+  opacity: 1;
+}
+.animation-control .game-control .GoalKick.away .ripple {
+  bottom: 18%;
+  right: 11%;
+}
+.animation-control .game-control .GoalKick.away .ball {
+  bottom: 28%;
+  right: 14%;
+}
+.animation-control .game-control .GoalKick.away .arrow {
+  bottom: 30%;
+  right: 15%;
+  transform-origin: 100% 0;
+}
+.animation-control .game-control .GoalKick.away .arrow:after {
+  right: 100%;
+  border-color: transparent #fff transparent transparent;
+}
+.animation-control .game-control .Goal .ball-cont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateY(40%);
+}
+.animation-control .game-control .Goal .ball {
+  position: absolute;
+  top: 0;
+  width: 6%;
+  height: 13%;
+  box-shadow: inset 1px 1px 4px 3px rgba(0, 0, 0, 0.6), 0px 1px 3px rgba(0, 0, 0, 0.6);
+  opacity: 0;
+}
+.animation-control .game-control .Goal.home .ball-cont {
+  animation: cl-goal-up-home 2.5s 0.2s 1 cubic-bezier(0, 0, 0.35, 1);
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Goal.home .ball-cont .ball {
+  right: 38%;
+  opacity: 0;
+  animation: cl-ball-rotate 1.5s infinite linear, cl-goal-home 2.5s 1 cubic-bezier(0, 0, 0.65, 1), cl-goal-to-center-home 1s 3.5s 1 ease-out;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Goal.home p {
+  animation: cl-goal-text-home 1s 4.2s 3 ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Goal.home p.team {
+  animation: cl-goal-text-home 3s 4.2s 1 ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Goal.away .ball-cont {
+  animation: cl-goal-up-away 2.5s 0.2s 1 cubic-bezier(0, 0, 0.35, 1);
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Goal.away .ball-cont .ball {
+  right: 34%;
+  opacity: 0;
+  animation: cl-ball-rotate 1.5s infinite linear, cl-goal-away 2.5s 1 cubic-bezier(0, 0, 0.65, 1), cl-goal-to-center-away 1s 3.5s 1 ease-out;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Goal.away p {
+  animation: cl-goal-text-away 1s 4.2s 3 ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Goal.away p.team {
+  animation: cl-goal-text-away 3s 4.2s 1 ease;
+  animation-fill-mode: forwards;
+}
+.animation-control .game-control .Goal p {
+  opacity: 0;
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  width: 50%;
+  font-size: 12px;
+  text-align: center;
+  text-shadow: 1px 1px 10px #000;
+  color: #fff;
+}
+.animation-control .game-control .Goal p.team {
+  top: 54%;
+  height: 40%;
+  overflow: hidden;
+}
+.animation-control .game-control .Goal p.goal-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.animation-control .game-control .GoalkeeperSave > div {
+  position: absolute;
+  top: 12%;
+  width: 17%;
+  height: 69%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: perspective(50px);
+  animation: cl-ball-safe 2s ease infinite;
+}
+.animation-control .game-control .GoalkeeperSave p {
+  position: absolute;
+  top: 38%;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
+  animation: cl-ball-safe-down 1.4s ease 1;
+}
+.animation-control .game-control .GoalkeeperSave.home > div {
+  left: 4%;
+}
+.animation-control .game-control .GoalkeeperSave.away > div {
+  right: 4%;
+  transform: perspective(50px);
+}
+.animation-control .game-control .GoalkeeperSave.away p {
+  text-align: right;
+}
+
+/* Animation keyframes
+	------------------------------------------------------------------------------------------------------------------------ */
+/* hide animation after it is finished */
+@keyframes cl-hide-animation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* corner animation */
+@keyframes cl-ball-x-away {
+  0% {
+    transform: translateX(0%);
+    background-position: 0 0;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.5), inset 0 0 5px black;
+  }
+  50% {
+    transform: translateX(500%);
+    animation-timing-function: ease-in;
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.3), inset 0 0 5px black;
+  }
+  100% {
+    transform: translateX(250%);
+    background-position: 800% -1600%;
+    box-shadow: 0 10px 3px rgba(0, 0, 0, 0.3), inset 0 0 3px black;
+  }
+}
+@keyframes cl-ball-x-home {
+  0% {
+    transform: translateX(0%);
+    background-position: 0 0;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.5), inset 0 0 5px black;
+  }
+  50% {
+    transform: translateX(-500%);
+    animation-timing-function: ease-in;
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.3), inset 0 0 5px black;
+  }
+  100% {
+    transform: translateX(-250%);
+    background-position: 800% -1600%;
+    box-shadow: 0 10px 3px rgba(0, 0, 0, 0.3), inset 0 0 3px black;
+  }
+}
+@keyframes cl-ball-y-away {
+  0% {
+    transform: translateY(85%);
+    animation-timing-function: ease-out;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(35%);
+    opacity: 0;
+  }
+}
+@keyframes cl-ball-y-home {
+  0% {
+    transform: translateY(85%);
+    animation-timing-function: ease-out;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(35%);
+    opacity: 0;
+  }
+}
+@keyframes cl-fadeIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  15% {
+    transform: scale(1.1);
+  }
+  20% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  30% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  85% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+@keyframes cl-rotate {
+  0%, 100% {
+    opacity: 1;
+  }
+  31% {
+    transform: perspective(1050px) rotateY(0deg);
+  }
+  51% {
+    transform: perspective(1050px) rotateY(180deg);
+  }
+  70% {
+    transform: perspective(1050px) rotateY(0deg);
+  }
+}
+/* Throw in animation */
+@keyframes cl-ball-throw_home {
+  0% {
+    transform: translateY(85%);
+    animation-timing-function: ease-out;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(30%);
+    opacity: 0;
+  }
+}
+@keyframes cl-ball-throw_away {
+  0% {
+    transform: translateY(85%);
+    animation-timing-function: ease-out;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(30%);
+    opacity: 0;
+  }
+}
+@keyframes cl-throw-in_home {
+  0% {
+    background-position: 0 0;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5), inset 0 0 5px black;
+    transform: translateX(0);
+  }
+  30% {
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.3), inset 0 0 5px black;
+    animation-timing-function: ease-in;
+  }
+  60% {
+    background-position: 0 -600%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6), inset 0 -3px 6px black;
+    opacity: 1;
+  }
+  100% {
+    background-position: 0 -1600%;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.6), inset 0 -3px 6px black;
+    opacity: 0;
+    width: 3%;
+    height: 6%;
+    transform: translateX(60px);
+  }
+}
+@keyframes cl-throw-in_away {
+  0% {
+    background-position: 0 0;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5), inset 0 0 5px black;
+    transform: translateX(0);
+  }
+  30% {
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.3), inset 0 0 5px black;
+    animation-timing-function: ease-in;
+  }
+  60% {
+    background-position: 0 -600%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6), inset 0 -3px 6px black;
+    opacity: 1;
+  }
+  100% {
+    background-position: 0 -1600%;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.6), inset 0 -3px 6px black;
+    opacity: 0;
+    width: 3%;
+    height: 6%;
+    transform: translateX(-60px);
+  }
+}
+/* Text animations */
+@keyframes cl-slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(8%);
+  }
+  65% {
+    transform: translateY(-18%);
+  }
+  80% {
+    transform: translateY(10%);
+  }
+  95% {
+    transform: translateY(-4%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes cl-shadow-pulse {
+  0% {
+    text-shadow: 1px 1px 10px 1px #000;
+    opacity: 0.8;
+  }
+  50% {
+    text-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.4);
+    opacity: 0.95;
+  }
+  100% {
+    text-shadow: 1px 1px 10px 1px #000;
+    opacity: 0.8;
+  }
+}
+/* Attack/Damngerous Attack animation */
+@keyframes cl-attack-home {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    left: 30%;
+    opacity: 0.7;
+  }
+}
+@keyframes cl-attack-away {
+  0% {
+    opacity: 0;
+  }
+  100% {
+
+    right: 30%;
+    opacity: 0.7;
+  }
+}
+@keyframes cl-dangerous-attack-home {
+  0% {
+    opacity: 0;
+  }
+  100% {
+
+    left: 50%;
+    opacity: 0.7;
+  }
+}
+@keyframes cl-dangerous-attack-away {
+  0% {
+    opacity: 0;
+  }
+  100% {
+
+    right: 50%;
+    opacity: 0.7;
+  }
+}
+@keyframes cl-pulse-attack {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+@keyframes cl-move-right {
+  0% {
+    text-indent: -100%;
+    opacity: 0;
+  }
+  100% {
+    text-indent: 0;
+    opacity: 0.7;
+  }
+}
+@keyframes cl-move-left {
+  0% {
+    text-indent: 100%;
+    opacity: 0;
+  }
+  100% {
+    text-indent: 0;
+    opacity: 0.7;
+  }
+}
+/* Ball Safe animation */
+@keyframes cl-ball-safe {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+@keyframes cl-ball-safe-down {
+  0% {
+    opacity: 0;
+    top: 0;
+    animation-timing-function: ease-in-out;
+  }
+  70% {
+    opacity: 1;
+    top: 38%;
+    animation-timing-function: ease-out;
+  }
+  90% {
+    top: 33%;
+  }
+  100% {
+    top: 38%;
+  }
+}
+@keyframes cl-ball-safe-up {
+  0% {
+    opacity: 0;
+    top: 68%;
+    animation-timing-function: ease-in-out;
+  }
+  70% {
+    opacity: 1;
+    top: 48%;
+    animation-timing-function: ease-out;
+  }
+  90% {
+    top: 50%;
+  }
+  100% {
+    top: 46%;
+  }
+}
+/* Offside animation */
+@keyframes cl-line-pulse {
+  0% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0.3;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes cl-ball-offside-home {
+  0% {
+    top: 65%;
+    right: 45%;
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.3), inset 0 0 5px black;
+    width: 4%;
+    height: 8%;
+    animation-timing-function: ease-in;
+  }
+  90% {
+    opacity: 0.8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), inset 0 0 5px black;
+  }
+  100% {
+    top: 28%;
+    right: 26%;
+    opacity: 0;
+    background-position: 800% 200%;
+    width: 2.3%;
+    height: 4.4%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), inset 0 0 5px black;
+  }
+}
+@keyframes cl-ball-offside-away {
+  0% {
+    top: 65%;
+    left: 45%;
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.3), inset 0 0 5px black;
+    width: 4%;
+    height: 8%;
+    animation-timing-function: ease-in;
+  }
+  90% {
+    opacity: 0.8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), inset 0 0 5px black;
+  }
+  100% {
+    top: 28%;
+    left: 26%;
+    opacity: 0;
+    background-position: 800% 200%;
+    width: 2.3%;
+    height: 4.4%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), inset 0 0 5px black;
+  }
+}
+@keyframes cl-text-slide {
+  0% {
+    top: -20%;
+    opacity: 0;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    top: 39%;
+  }
+  88% {
+    top: 35%;
+  }
+  100% {
+    top: 37%;
+    opacity: 1;
+  }
+}
+/* Substitution animation*/
+@keyframes cl-substitute {
+  0% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(315deg);
+  }
+}
+/* Free kick animation*/
+@keyframes cl-free-kick {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -1200% 400%;
+  }
+}
+@keyframes cl-free-kick_basket {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: -1200% 50%;
+  }
+}
+@keyframes cl-ripple-out {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.8;
+  }
+  85% {
+    width: 10%;
+    height: 20%;
+    margin: 1.5% -0.5%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes cl-expand-arrow {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    width: 20%;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*Penalty animation*/
+@keyframes cl-penalty-arrow {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    width: 10%;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes cl-penalty-ball {
+  100% {
+    background-position: 1200% 0;
+  }
+}
+/* Goal animation */
+@keyframes cl-ball-rotate {
+  100% {
+    background-position: 2000% 0;
+  }
+}
+@keyframes cl-goal-up-home {
+  0%, 20% {
+    transform: translateY(40%);
+  }
+  50% {
+    transform: translateY(30%);
+    animation-timing-function: ease-in;
+  }
+  80% {
+    transform: translateY(35%);
+  }
+  100% {
+    transform: translateY(38%);
+  }
+}
+@keyframes cl-goal-home {
+  0% {
+    transform: scale(0);
+    right: 34%;
+    opacity: 0;
+  }
+  25% {
+    transform: scale(0.65);
+    right: 34%;
+    opacity: 1;
+  }
+  30% {
+    right: 34%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4), inset 0 0 5px black;
+  }
+  55% {
+    right: 14%;
+    box-shadow: 0 35px 15px rgba(0, 0, 0, 0.3), inset 0 0 5px black;
+  }
+  80% {
+    right: -2%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), inset 0 0 5px black;
+    animation-timing-function: ease;
+  }
+  100% {
+    right: 0%;
+    opacity: 1;
+    transform: scale(0.65);
+  }
+}
+@keyframes cl-goal-to-center-home {
+  0% {
+    right: 4%;
+    transform: scale(0.65);
+  }
+  100% {
+    right: 47%;
+    transform: scale(1);
+  }
+}
+@keyframes cl-goal-text-home {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* ---  */
+@keyframes cl-goal-up-away {
+  0%, 20% {
+    transform: translateY(40%);
+  }
+  50% {
+    transform: translateY(30%);
+    animation-timing-function: ease-in;
+  }
+  80% {
+    transform: translateY(35%);
+  }
+  100% {
+    transform: translateY(38%);
+  }
+}
+@keyframes cl-goal-away {
+  0% {
+    transform: scale(0);
+    left: 34%;
+    opacity: 0;
+  }
+  25% {
+    transform: scale(0.65);
+    left: 34%;
+    opacity: 1;
+  }
+  30% {
+    left: 34%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), inset 0 0 5px black;
+  }
+  55% {
+    left: 14%;
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.3), inset 0 0 5px black;
+  }
+  80% {
+    left: -2%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), inset 0 0 5px black;
+    animation-timing-function: ease;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+    transform: scale(0.65);
+  }
+}
+@keyframes cl-goal-to-center-away {
+  0% {
+    left: 4%;
+    transform: scale(0.65);
+  }
+  100% {
+    left: 47%;
+    transform: scale(1);
+  }
+}
+@keyframes cl-goal-text-away {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* Volleyball keyframes */
+@keyframes cl-v_point {
+  0% {
+    opacity: 0;
+    top: 68%;
+    animation-timing-function: ease-in;
+  }
+  25% {
+    opacity: 1;
+    top: 24%;
+    animation-timing-function: ease-out;
+  }
+  50% {
+    top: 44%;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    top: 30%;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    top: 36%;
+  }
+}
+@keyframes cl-v_ball_in_play_y_home {
+  0% {
+    opacity: 0;
+    transform: translateY(30%);
+    animation-timing-function: ease-out;
+  }
+  10%,90% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0%);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(30%);
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes cl-v_ball_in_play_x_home {
+  0% {
+    left: 15%;
+    opacity: 0;
+    background-position: 0% 0%;
+    animation-timing-function: ease-out;
+  }
+  10%,60% {
+    opacity: 1;
+  }
+  20% {
+    animation-timing-function: ease-in;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    left: 65%;
+    opacity: 0;
+    background-position: 1600% 800%;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes cl-v_ball_in_play_x_shadow {
+  0% {
+    left: 15%;
+    opacity: 0;
+    animation-timing-function: ease-out;
+    box-shadow: 0 8px 5px rgba(60, 34, 1, 0.4), inset 0 0 5px #3b4d03;
+  }
+  10%,60% {
+    opacity: 1;
+  }
+  35% {
+    box-shadow: 0 30px 15px rgba(60, 34, 1, 0.4), inset 0 0 5px #3b4d03;
+    animation-timing-function: ease-in;
+  }
+  70% {
+    box-shadow: 0 16px 10px rgba(60, 34, 1, 0.4), inset 0 0 5px #3b4d03;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    left: 65%;
+    opacity: 0;
+    animation-timing-function: ease-out;
+    box-shadow: 0 4px 3px rgba(60, 34, 1, 0.4), inset 0 0 5px #3b4d03;
+  }
+}
+@keyframes cl-v_ball_in_play_y_away {
+  0% {
+    opacity: 0;
+    transform: translateY(30%);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(0%);
+    animation-timing-function: ease-in;
+  }
+  10%,90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(30%);
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes cl-v_ball_in_play_x_away {
+  0% {
+    right: 15%;
+    opacity: 0;
+    background-position: 0% 0%;
+    animation-timing-function: ease-out;
+  }
+  10%,60% {
+    opacity: 1;
+  }
+  20% {
+    animation-timing-function: ease-in;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    right: 65%;
+    opacity: 0;
+    background-position: 1600% 800%;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes cl-v_ball_in_play_x_shadow_away {
+  0% {
+    right: 15%;
+    opacity: 0;
+    animation-timing-function: ease-out;
+    box-shadow: 0 8px 5px rgba(60, 34, 1, 0.4), inset 0 0 5px #3b4d03;
+  }
+  10%,60% {
+    opacity: 1;
+  }
+  20% {
+    box-shadow: 0 30px 15px rgba(60, 34, 1, 0.4), inset 0 0 5px #3b4d03;
+    animation-timing-function: ease-in;
+  }
+  70% {
+    box-shadow: 0 16px 10px rgba(60, 34, 1, 0.4), inset 0 0 5px #3b4d03;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    right: 65%;
+    opacity: 0;
+    animation-timing-function: ease-out;
+    box-shadow: 0 4px 3px rgba(60, 34, 1, 0.4), inset 0 0 5px #3b4d03;
+  }
+}

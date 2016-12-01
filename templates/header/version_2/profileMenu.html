@@ -1,0 +1,106 @@
+<!--User name-id-->
+<div class="separator-contain-nav user-nav-view-b new-size" id="user-settings">
+    <div class="settings-icon-contain balance-box">
+        <b class="mybets-icon-box-b user-icon-view"></b>
+        <i></i>
+        <span class="count-info-box-b"
+            ng-bind="profile.unread_count"
+            ng-show="profile.unread_count"
+        ></span>
+    </div>
+
+    <div class="nav-open-view-contain">
+        <ul>
+            <li>
+                <div class="user-info-box-b">
+                    <h3 ng-hide="conf.profileMenuHeaderFullName">{{profile[conf.profileMenuHeaderDisplayField]}}</h3>
+                 <!--   <h4 ng-show="!env.hideUsername">{{ profile[conf.profileMenuHeaderDisplayField] }}</h4> -->
+                    <h5>
+                        <span trans>ID</span>:
+                        <span>{{profile.unique_id}}</span>
+                    </h5>
+                </div>
+            </li>
+
+            <div class="drop-nav-new-b"> <!--closed-->
+                    <li class="drop-items-contain-b icon-view-box">
+                        <ul>
+                            <li ng-click="toggleSliderTab('settings')"
+                                prevent-fast-click="1.5"
+                                ng-class="{'active': env.sliderContent === 'settings'}">
+                                <i class="my-profile-icon-b"></i>
+                                <span trans>My Profile</span>
+                            </li>
+
+
+                            <li ng-click="selectBalanceMenuItem($event, 'deposit');$event.stopPropagation();"
+                                ng-class="{'active': env.sliderContent === 'deposit'}"
+                                ng-hide="conf.disableDepositPage"
+                                prevent-fast-click="1.5">
+                                <i class="balance-icon-tab-b"></i>
+                                <span trans>Balance</span>
+                            </li>
+
+
+                            <li ng-click="myBetsToggle('myBets')"
+                                prevent-fast-click
+                                ng-class="{'active': env.sliderContent === 'myBets'}"
+                                prevent-fast-click="1.5">
+                                <i class="my-bets-icon-tab-b"></i>
+                                <span trans>My bets</span>
+                            </li>
+
+<!--
+                            <li ng-if="!conf.disableHeaderMessages && conf.headerMessageIcon.enabled"
+                                ng-show="!conf.headerMessageIcon.showInTopRow"
+                                ng-class="{'active': env.sliderContent === 'messages'}"
+                                prevent-fast-click="1.5"
+                                ng-click="toggleSliderTab('messages')">
+                                <i class="messages-icon-b"></i>
+                                <span trans>Messages</span>
+                                <b ng-bind="profile.unread_count" ng-show="profile.unread_count"></b>
+                            </li>
+
+-->
+
+
+<!--                           <li ng-show="conf.enableBonuses"
+                                ng-click="toggleSliderTab('bonuses')"
+                                prevent-fast-click="1.5"
+                                ng-class="{'active': env.sliderContent === 'bonuses'}">
+                                <i class="bonuses-icon-b"></i>
+                                <span trans>Bonuses</span>
+                                <b ng-if="conf.sportEnabled"
+                                    ng-show="!env.hideBalance && profile.bonus_balance && (conf.GmsPlatform || (!isInCasino() && !isInPoker()))">
+                                    {{profile.calculatedBonus}} {{profile.currency_name|currency}}
+                                </b>
+
+                                <b ng-if="::(!conf.GmsPlatform && (casinoEnabled || conf.pokerEnabled))"
+                                    ng-show="!env.hideBalance && (env.casinoBalance !== undefined && (isInCasino() || isInPoker()) || !conf.sportEnabled)">
+                                    {{env.casinoBalance.bonus || env.casinoBalance.bonus_balance}} {{profile.currency_name|currency}}
+                                </b>
+                            </li>
+-->
+
+                            <li ng-show="conf.GmsPlatform && conf.promotionalBonuses.enable"
+                                ng-click="toggleSliderTab('promotionalBonuses')"
+                                prevent-fast-click="1.5"
+                                ng-class="{'active': env.sliderContent === 'promotionalBonuses'}">
+                                <i class="bonuses-icon-b"></i>
+                                <span trans>Bonuses</span>
+                            </li>
+
+                            <li ng-hide="env.hideLogOut" ng-click="logOut()">
+                                <i class="logout-icon-b"></i>
+                                <span trans>Log Out</span>
+                            </li>
+                        </ul>
+                    </div>
+    </div>
+
+            </li>
+        </ul>
+    </div>
+
+</div>
+<!--User name-id END-->

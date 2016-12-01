@@ -1,0 +1,1472 @@
+@font-face {
+  font-family: 'ucraftme_font';
+  src:
+    url('fonts/ucraftme_font.woff2?a2hxi2') format('woff2'),
+    url('fonts/ucraftme_font.ttf?a2hxi2') format('truetype'),
+    url('fonts/ucraftme_font.woff?a2hxi2') format('woff'),
+    url('fonts/ucraftme_font.svg?a2hxi2#ucraftme_font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="uci-"], [class*=" uci-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ucraftme_font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.uci-skype:before {
+  content: "\e900";
+}
+.uci-facebook-default:before {
+  content: "\ea67";
+}
+.uci-twitter-default:before {
+  content: "\ea68";
+}
+.uci-google-plus-default:before {
+  content: "\ea69";
+}
+.uci-instagram-default:before {
+  content: "\ea74";
+}
+.uci-linkedin-default:before {
+  content: "\ea75";
+}
+.uci-behance-default:before {
+  content: "\ea76";
+}
+.uci-dribbble-default:before {
+  content: "\ea77";
+}
+.uci-pinterest-default:before {
+  content: "\ea78";
+}
+.uci-trip-advisor-default:before {
+  content: "\ea79";
+}
+.uci-vimeo-default:before {
+  content: "\ea7a";
+}
+.uci-youtube-default:before {
+  content: "\ea7b";
+}
+.uci-Be-More-Approachable:before {
+  content: "\e9f5";
+}
+.uci-Collect-Donations:before {
+  content: "\ea6a";
+}
+.uci-Enhance-Your-Impact:before {
+  content: "\ea6b";
+}
+.uci-Find-Supporters:before {
+  content: "\ea6c";
+}
+.uci-Share-your-vision:before {
+  content: "\ea6d";
+}
+.uci-Write-a-Blog-to-Share-Your-Story:before {
+  content: "\ea6e";
+}
+.uci-a-b-test-for-more-conversions:before {
+  content: "\ea58";
+}
+.uci-ask-for-feedback:before {
+  content: "\ea59";
+}
+.uci-be-there-for-your-users:before {
+  content: "\ea5a";
+}
+.uci-create-clear-call-to-action:before {
+  content: "\ea5b";
+}
+.uci-create-early-traction:before {
+  content: "\ea5c";
+}
+.uci-highlight-the-app-fetures:before {
+  content: "\ea5d";
+}
+.uci-7-customer-support:before {
+  content: "\ea25";
+}
+.uci-Absolutely-no-coding:before {
+  content: "\ea26";
+}
+.uci-Beautifully-crafted-templates:before {
+  content: "\ea27";
+}
+.uci-Boast-about-your-product:before {
+  content: "\ea28";
+}
+.uci-Create-your-logo-for-free:before {
+  content: "\ea29";
+}
+.uci-Customizable-to-your-needs:before {
+  content: "\ea2a";
+}
+.uci-Flaunt-your-success:before {
+  content: "\ea2b";
+}
+.uci-Focus-on-user-experience:before {
+  content: "\ea2c";
+}
+.uci-Free-sub-domain-and-hosting:before {
+  content: "\ea2d";
+}
+.uci-Invite-team-members:before {
+  content: "\ea2e";
+}
+.uci-Professionally-designed-templates:before {
+  content: "\ea2f";
+}
+.uci-Responsive-design:before {
+  content: "\ea30";
+}
+.uci-Stand-out:before {
+  content: "\e9d6";
+}
+.uci-Be-Eco-Friendly:before {
+  content: "\e9d7";
+}
+.uci-Better-Storytelling:before {
+  content: "\e9d8";
+}
+.uci-Boost-online-sales:before {
+  content: "\e9d9";
+}
+.uci-Build-an-email-list:before {
+  content: "\e9da";
+}
+.uci-Build-It-Like-a-Piece-of-Art:before {
+  content: "\e9db";
+}
+.uci-Change-It-Whenever-You-Want:before {
+  content: "\e9dc";
+}
+.uci-Connect-Everything:before {
+  content: "\e9dd";
+}
+.uci-Cut-Down-on-Hundreds-of-Calls:before {
+  content: "\e9de";
+}
+.uci-Do-It-Yourself:before {
+  content: "\e9df";
+}
+.uci-Do-Things-Your-Way:before {
+  content: "\e9e0";
+}
+.uci-Easy-To-Update:before {
+  content: "\e9e1";
+}
+.uci-Educate-others:before {
+  content: "\e9e2";
+}
+.uci-Excellent-User-Experience:before {
+  content: "\e9e3";
+}
+.uci-Expand-your-network:before {
+  content: "\ea31";
+}
+.uci-Gain-reputation:before {
+  content: "\e9e5";
+}
+.uci-Get-Hired:before {
+  content: "\e9e6";
+}
+.uci-Get-Straight-To-the-Point:before {
+  content: "\e9e7";
+}
+.uci-Grow-your-business:before {
+  content: "\e9e8";
+}
+.uci-Have-everything-under-control:before {
+  content: "\e9e9";
+}
+.uci-Improve-Your-First-Impression:before {
+  content: "\e9ea";
+}
+.uci-Include-your-contact-info:before {
+  content: "\e9eb";
+}
+.uci-Look-More-Professional:before {
+  content: "\e9ec";
+}
+.uci-More-Conversions:before {
+  content: "\e9ed";
+}
+.uci-Nobody-Will-Get-Lost:before {
+  content: "\e9ee";
+}
+.uci-One-Place-for-All-Info:before {
+  content: "\e9ef";
+}
+.uci-Propel-Your-Brand:before {
+  content: "\e9f0";
+}
+.uci-Say-Hello-To-The-World:before {
+  content: "\e9f1";
+}
+.uci-Share-Your-Love-Story:before {
+  content: "\e9f2";
+}
+.uci-Share-your-story:before {
+  content: "\e9f3";
+}
+.uci-Share-your-videos:before {
+  content: "\e9f4";
+}
+.uci-Share-your-vision2:before {
+  content: "\ea62";
+}
+.uci-Small-Business-and-Product-Pages:before {
+  content: "\e9f6";
+}
+.uci-Stress-Free-Change-of-Plans:before {
+  content: "\e9f7";
+}
+.uci-Use-It-as-a-Calling-Card:before {
+  content: "\e9f8";
+}
+.uci-Amazing-Food-Pics:before {
+  content: "\e9f9";
+}
+.uci-Attract-Customers-Online:before {
+  content: "\e9fa";
+}
+.uci-Attract-new-clients:before {
+  content: "\e9fb";
+}
+.uci-Backup-and-organization:before {
+  content: "\e9fc";
+}
+.uci-Be-Where-Your-Customers-Are:before {
+  content: "\e9fd";
+}
+.uci-Be-Your-Own-Brand:before {
+  content: "\e9fe";
+}
+.uci-Better-organization:before {
+  content: "\e9ff";
+}
+.uci-Brand-Recognition:before {
+  content: "\ea00";
+}
+.uci-Build-your-brand:before {
+  content: "\ea01";
+}
+.uci-Build-Your-Online-Audience:before {
+  content: "\ea02";
+}
+.uci-Communicate-with-your-fans:before {
+  content: "\ea03";
+}
+.uci-Completely-customizable:before {
+  content: "\ea04";
+}
+.uci-Connect-All-Social-Accounts:before {
+  content: "\ea05";
+}
+.uci-Connect-with-your-audience:before {
+  content: "\ea06";
+}
+.uci-Contact-information:before {
+  content: "\ea07";
+}
+.uci-Customer-Testimonials:before {
+  content: "\ea08";
+}
+.uci-Display-Your-Tour-Packages:before {
+  content: "\ea09";
+}
+.uci-Ease-of-use:before {
+  content: "\ea0a";
+}
+.uci-Expand-your-audience:before {
+  content: "\ea0b";
+}
+.uci-First-impression:before {
+  content: "\ea0c";
+}
+.uci-Give-It-a-Personal-Touch:before {
+  content: "\ea0d";
+}
+.uci-High-quality-Pictures:before {
+  content: "\ea0e";
+}
+.uci-Improve-yourself:before {
+  content: "\ea0f";
+}
+.uci-Include-your-biography:before {
+  content: "\ea10";
+}
+.uci-Include-your-clubs-name:before {
+  content: "\ea11";
+}
+.uci-Increase-online-sales:before {
+  content: "\ea12";
+}
+.uci-Increased-Market-Share:before {
+  content: "\ea13";
+}
+.uci-Integrate-Social-Media:before {
+  content: "\ea14";
+}
+.uci-Look-professional:before {
+  content: "\ea15";
+}
+.uci-Make-an-impact:before {
+  content: "\ea16";
+}
+.uci-Make-it-responsive:before {
+  content: "\ea17";
+}
+.uci-Manage-your-personal-brand:before {
+  content: "\ea18";
+}
+.uci-Online-Booking:before {
+  content: "\ea19";
+}
+.uci-Online-Reservations:before {
+  content: "\ea1a";
+}
+.uci-Promote-your-club:before {
+  content: "\ea1b";
+}
+.uci-Share-your-work:before {
+  content: "\ea1c";
+}
+.uci-Show-off-Your-Menu:before {
+  content: "\ea1d";
+}
+.uci-Show-your-talent:before {
+  content: "\ea1e";
+}
+.uci-Showcase-Your-Work:before {
+  content: "\ea1f";
+}
+.uci-Social-Media-Icons:before {
+  content: "\ea20";
+}
+.uci-Storytelling:before {
+  content: "\ea21";
+}
+.uci-Stunning-Professional-Design:before {
+  content: "\ea22";
+}
+.uci-Tell-Your-Life-Story:before {
+  content: "\ea23";
+}
+.uci-Unique-website-look:before {
+  content: "\ea35";
+}
+.uci-Update-with-ease:before {
+  content: "\ea36";
+}
+.uci-Upload-Videos:before {
+  content: "\ea37";
+}
+.uci-Your-Contact-Information:before {
+  content: "\ea38";
+}
+.uci-Your-Website-Is-a-Competitive-Advantage:before {
+  content: "\ea39";
+}
+.uci-remove-all-icon:before {
+  content: "\ea87";
+}
+.uci-soccer-live:before {
+  content: "\e9e4";
+}
+.uci-delete2:before {
+  content: "\ea7e";
+}
+.uci-chronometer:before {
+  content: "\ea6f";
+}
+.uci-icon-close1-lsb:before {
+  content: "\ea65";
+}
+.uci-clover-token:before {
+  content: "\ea4a";
+}
+.uci-roulette-wheel-in-casino:before {
+  content: "\ea4b";
+}
+.uci-casino-roulette:before {
+  content: "\ea4c";
+}
+.uci-refund:before {
+  content: "\ea4d";
+}
+.uci-soccer-ball-variant:before {
+  content: "\ea4e";
+}
+.uci-icon-top-leagues:before {
+  content: "\ea3d";
+}
+.uci-icon-all-events:before {
+  content: "\ea3e";
+}
+.uci-icon-collapse-league:before {
+  content: "\ea3f";
+}
+.uci-icon-outrights:before {
+  content: "\ea40";
+}
+.uci-icon-statistics .path1:before {
+  content: "\ea41";
+  color: rgb(0, 0, 0);
+}
+.uci-icon-statistics .path2:before {
+  content: "\ea42";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.uci-icon-statistics .path3:before {
+  content: "\ea43";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.uci-icon-drag:before {
+  content: "\e9c9";
+}
+.uci-icon-checkbox:before {
+  content: "\e984";
+}
+.uci-icon-checkbox-empty:before {
+  content: "\e985";
+}
+.uci-icon-print:before {
+  content: "\e9c6";
+}
+.uci-icon-envelope:before {
+  content: "\e9c7";
+}
+.uci-icon-error:before {
+  content: "\e9c1";
+}
+.uci-icon-link-arrow-right:before {
+  content: "\e9b4";
+}
+.uci-icon-1-column:before {
+  content: "\e978";
+}
+.uci-icon-2-column:before {
+  content: "\e979";
+}
+.uci-icon-accepted:before {
+  content: "\e97a";
+}
+.uci-icon-arrow-down:before {
+  content: "\e97b";
+}
+.uci-icon-arrow-left:before {
+  content: "\e97c";
+}
+.uci-icon-arrow-right:before {
+  content: "\e97d";
+}
+.uci-icon-arrow-up:before {
+  content: "\e97e";
+}
+.uci-icon-arrow-multi-view:before {
+  content: "\ea24";
+}
+.uci-icon-bank:before {
+  content: "\e980";
+}
+.uci-icon-blocked:before {
+  content: "\e981";
+}
+.uci-icon-t-shirt:before {
+  content: "\e9b3";
+}
+.uci-icon-cards-yellowred:before {
+  content: "\e982";
+}
+.uci-icon-cashout:before {
+  content: "\e983";
+}
+.uci-icon-clear:before {
+  content: "\e986";
+}
+.uci-icon-close-x:before {
+  content: "\e987";
+}
+.uci-icon-close-lsb:before {
+  content: "\e988";
+}
+.uci-icon-corner:before {
+  content: "\e989";
+}
+.uci-icon-double-arrow-down:before {
+  content: "\e98a";
+}
+.uci-icon-double-arrow-up:before {
+  content: "\e98b";
+}
+.uci-icon-dragndrop-multi-view:before {
+  content: "\e98c";
+}
+.uci-icon-close_lb:before {
+  content: "\e9c8";
+}
+.uci-icon-help:before {
+  content: "\e98d";
+}
+.uci-icon-info:before {
+  content: "\e98e";
+}
+.uci-icon-live-stream .path1:before {
+  content: "\e98f";
+  color: rgb(1, 1, 1);
+}
+.uci-icon-live-stream .path2:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgba(1, 1, 1, 0.3);
+}
+.uci-icon-locked-stream:before {
+  content: "\e991";
+}
+.uci-icon-match-live:before {
+  content: "\e992";
+}
+.uci-icon-maximize:before {
+  content: "\e993";
+}
+.uci-icon-maximize-stream:before {
+  content: "\e994";
+}
+.uci-icon-minimize:before {
+  content: "\e995";
+}
+.uci-icon-minimize-stream:before {
+  content: "\e996";
+}
+.uci-icon-minus:before {
+  content: "\e997";
+}
+.uci-icon-odds-decrease:before {
+  content: "\e998";
+}
+.uci-icon-odds-increase:before {
+  content: "\e999";
+}
+.uci-icon-open-lsb:before {
+  content: "\e99a";
+}
+.uci-icon-penalty:before {
+  content: "\e99b";
+}
+.uci-icon-plus:before {
+  content: "\e99c";
+}
+.uci-icon-radio-button:before {
+  content: "\e99d";
+}
+.uci-icon-radio-button-empty:before {
+  content: "\e99e";
+}
+.uci-icon-search:before {
+  content: "\e99f";
+}
+.uci-icon-selected:before {
+  content: "\e9a0";
+}
+.uci-icon-settings:before {
+  content: "\e9a1";
+}
+.uci-icon-settings-betslip:before {
+  content: "\e9a2";
+}
+.uci-icon-speaker:before {
+  content: "\e9a3";
+}
+.uci-icon-star:before {
+  content: "\e9a4";
+}
+.uci-icon-support:before {
+  content: "\e9a5";
+}
+.uci-icon-unlocked-stream:before {
+  content: "\e9a6";
+}
+.uci-sbtodaysevents:before {
+  content: "\ea73";
+}
+.uci-sballevents:before {
+  content: "\ea70";
+}
+.uci-sbeventslist:before {
+  content: "\ea71";
+}
+.uci-sbmodernfilter:before {
+  content: "\ea72";
+}
+.uci-sbtopleagues:before {
+  content: "\ea7c";
+}
+.uci-sbfavorites:before {
+  content: "\e9b1";
+}
+.uci-sbbetslip:before {
+  content: "\e9a9";
+}
+.uci-sbgamemarkets:before {
+  content: "\ea66";
+}
+.uci-sbmultiview:before {
+  content: "\e9ab";
+}
+.uci-sboverview:before {
+  content: "\e9ac";
+}
+.uci-sbcalendar:before {
+  content: "\e9ad";
+}
+.uci-sbsearch:before {
+  content: "\e9ae";
+}
+.uci-sbsportslist:before {
+  content: "\e9af";
+}
+.uci-icon-retail-solution:before {
+  content: "\e967";
+}
+.uci-icon-target:before {
+  content: "\e972";
+}
+.uci-icon-products-icons-3rd-party:before {
+  content: "\e977";
+}
+.uci-icon-products-icons-products-backoffice2:before {
+  content: "\e948";
+}
+.uci-icon-products-icons-products-3rd-party-games:before {
+  content: "\e949";
+}
+.uci-icon-products-icons-products-affiliates:before {
+  content: "\e94a";
+}
+.uci-icon-products-icons-products-agent-system:before {
+  content: "\e94b";
+}
+.uci-icon-products-icons-products-api:before {
+  content: "\e94c";
+}
+.uci-icon-products-icons-products-backoffice:before {
+  content: "\e94d";
+}
+.uci-icon-products-icons-products-bet-cloud:before {
+  content: "\e94e";
+}
+.uci-icon-products-icons-products-betting-software:before {
+  content: "\e94f";
+}
+.uci-icon-products-icons-products-casino-suite:before {
+  content: "\e950";
+}
+.uci-icon-products-icons-products-crm:before {
+  content: "\e951";
+}
+.uci-icon-products-icons-products-data-feed-solution:before {
+  content: "\e952";
+}
+.uci-icon-products-icons-products-fantasy-sports:before {
+  content: "\e953";
+}
+.uci-icon-products-icons-products-finalcial:before {
+  content: "\e954";
+}
+.uci-icon-products-icons-products-gaming-managnemt-system:before {
+  content: "\e955";
+}
+.uci-icon-products-icons-products-gaming-software:before {
+  content: "\e956";
+}
+.uci-icon-products-icons-products-live-dealer:before {
+  content: "\e957";
+}
+.uci-icon-products-icons-products-live-scauting:before {
+  content: "\e958";
+}
+.uci-icon-products-icons-products-live-sport-video-streaming:before {
+  content: "\e959";
+}
+.uci-icon-products-icons-products-odds-feed-ccr:before {
+  content: "\e901";
+}
+.uci-icon-products-icons-products-ogwil:before {
+  content: "\e95b";
+}
+.uci-icon-products-icons-products-poker:before {
+  content: "\e95c";
+}
+.uci-icon-products-icons-products-retail-solution:before {
+  content: "\e95d";
+}
+.uci-icon-products-icons-products-sales:before {
+  content: "\e95e";
+}
+.uci-icon-products-icons-products-skill-games:before {
+  content: "\e95f";
+}
+.uci-icons_products_social_gaming:before {
+  content: "\e9a8";
+}
+.uci-icon-products-icons-products-sportsbook2:before {
+  content: "\e960";
+}
+.uci-icon-products-icons-products-spring-builder:before {
+  content: "\e961";
+}
+.uci-icon-products-icons-products-statistics:before {
+  content: "\e962";
+}
+.uci-icon-products-icons-products-support:before {
+  content: "\e963";
+}
+.uci-icon-products-icons-products-virtual-games:before {
+  content: "\e964";
+}
+.uci-icon-products-icons-products-virtual-sports:before {
+  content: "\e965";
+}
+.uci-favorite:before {
+  content: "\e947";
+}
+.uci-golive:before {
+  content: "\e925";
+}
+.uci-livedealer:before {
+  content: "\e924";
+}
+.uci-hideeye:before {
+  content: "\e922";
+}
+.uci-unhideeye:before {
+  content: "\e923";
+}
+.uci-casinocategory:before {
+  content: "\e903";
+}
+.uci-casinogames:before {
+  content: "\e904";
+}
+.uci-casinosearch:before {
+  content: "\e905";
+}
+.uci-products-fetch:before {
+  content: "\e921";
+}
+.uci-spring:before {
+  content: "\e970";
+}
+.uci-springaccount:before {
+  content: "\e96e";
+}
+.uci-sportsbook:before {
+  content: "\e96f";
+}
+.uci-change-product:before {
+  content: "\ea86";
+}
+.uci-shopifyproducts:before {
+  content: "\ea85";
+}
+.uci-shopifycart:before {
+  content: "\ea82";
+}
+.uci-shopifycollections:before {
+  content: "\ea83";
+}
+.uci-shopifyproduct:before {
+  content: "\ea84";
+}
+.uci-no-results:before {
+  content: "\ea7d";
+}
+.uci-text-editor-minus:before {
+  content: "\ea61";
+}
+.uci-text-editor-plus:before {
+  content: "\e9aa";
+}
+.uci-refunded:before {
+  content: "\ea64";
+}
+.uci-line:before {
+  content: "\ea63";
+}
+.uci-languages:before {
+  content: "\ea60";
+}
+.uci-like:before {
+  content: "\ea5e";
+}
+.uci-comment:before {
+  content: "\ea5f";
+}
+.uci-circle:before {
+  content: "\ea53";
+}
+.uci-pentagon:before {
+  content: "\ea54";
+}
+.uci-rectangle:before {
+  content: "\ea55";
+}
+.uci-Star:before {
+  content: "\ea56";
+}
+.uci-triangle:before {
+  content: "\ea57";
+}
+.uci-background:before {
+  content: "\ea51";
+}
+.uci-image-zoom:before {
+  content: "\ea52";
+}
+.uci-duplicate:before {
+  content: "\ea4f";
+}
+.uci-horizontal-align-left:before {
+  content: "\ea44";
+}
+.uci-horizontal-align-center:before {
+  content: "\ea45";
+}
+.uci-horizontal-align-right:before {
+  content: "\ea46";
+}
+.uci-vertical-align-top:before {
+  content: "\ea47";
+}
+.uci-vertical-align-center:before {
+  content: "\ea48";
+}
+.uci-vertical-align-bottom:before {
+  content: "\ea49";
+}
+.uci-undo:before {
+  content: "\e9d3";
+}
+.uci-redo:before {
+  content: "\e9d4";
+}
+.uci-bring-to-front:before {
+  content: "\ea3a";
+}
+.uci-send-to-back:before {
+  content: "\ea3b";
+}
+.uci-shapes:before {
+  content: "\ea3c";
+}
+.uci-external-page:before {
+  content: "\e97f";
+}
+.uci-heading-page:before {
+  content: "\e9d2";
+}
+.uci-subdomain:before {
+  content: "\e9d5";
+}
+.uci-parallax-effect .path1:before {
+  content: "\ea33";
+  color: rgb(1, 1, 1);
+  opacity: 0.33;
+}
+.uci-parallax-effect .path2:before {
+  content: "\ea34";
+  margin-left: -1em;
+  color: rgb(1, 1, 1);
+  opacity: 0.66;
+}
+.uci-parallax-effect .path3:before {
+  content: "\ea7f";
+  margin-left: -1em;
+  color: rgb(1, 1, 1);
+}
+.uci-fade-in-scale:before {
+  content: "\ea32";
+}
+.uci-articles-layout-1:before {
+  content: "\ed4b";
+}
+.uci-articles-layout-2:before {
+  content: "\ed4c";
+}
+.uci-quotes-layout-1:before {
+  content: "\ed4d";
+}
+.uci-quotes-layout-2:before {
+  content: "\ed4e";
+}
+.uci-effects:before {
+  content: "\e9ce";
+}
+.uci-fadein .path1:before {
+  content: "\e9cf";
+  color: rgb(35, 31, 32);
+  opacity: 0.3;
+}
+.uci-fadein .path2:before {
+  content: "\e9d0";
+  margin-left: -1em;
+  color: rgb(35, 31, 32);
+  opacity: 0.5;
+}
+.uci-fadein .path3:before {
+  content: "\e9d1";
+  margin-left: -1em;
+  color: rgb(35, 31, 32);
+  opacity: 0.8;
+}
+.uci-fade-in-up .path1:before {
+  content: "\e9cc";
+  color: rgb(0, 0, 0);
+}
+.uci-fade-in-up .path2:before {
+  content: "\e9cd";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.uci-quotes:before {
+  content: "\e9cb";
+}
+.uci-question-mark-2:before {
+  content: "\e9ca";
+}
+.uci-close-small:before {
+  content: "\e9c5";
+}
+.uci-audio:before {
+  content: "\e9c4";
+}
+.uci-download:before {
+  content: "\e9c2";
+}
+.uci-hide:before {
+  content: "\e9c3";
+}
+.uci-countdown:before {
+  content: "\e9c0";
+}
+.uci-align-horizontal-left:before {
+  content: "\e9bd";
+}
+.uci-align-horizontal-center:before {
+  content: "\e9be";
+}
+.uci-align-horizontal-right:before {
+  content: "\e9bf";
+}
+.uci-shopify:before {
+  content: "\e9bc";
+}
+.uci-articlecategories:before {
+  content: "\e9bb";
+}
+.uci-question-mark:before {
+  content: "\e9b9";
+}
+.uci-vertical-controller .path1:before {
+  content: "\e9b5";
+  color: rgb(0, 0, 0);
+}
+.uci-vertical-controller .path2:before {
+  content: "\e9b6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.uci-vertical-controller .path3:before {
+  content: "\e9b7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.uci-vertical-controller .path4:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.uci-clock-invert:before {
+  content: "\e9b2";
+}
+.uci-block-settings2:before {
+  content: "\e9b0";
+}
+.uci-disqus:before {
+  content: "\e9a7";
+}
+.uci-anchor:before {
+  content: "\e974";
+}
+.uci-list-view:before {
+  content: "\e975";
+}
+.uci-refresh:before {
+  content: "\e976";
+}
+.uci-grid-view:before {
+  content: "\e973";
+}
+.uci-restore:before {
+  content: "\e971";
+}
+.uci-menu-lines:before {
+  content: "\e95a";
+}
+.uci-status-alert:before {
+  content: "\e912";
+}
+.uci-views:before {
+  content: "\e96d";
+}
+.uci-author:before {
+  content: "\e969";
+}
+.uci-clock:before {
+  content: "\e96a";
+}
+.uci-folder:before {
+  content: "\e96b";
+}
+.uci-tag:before {
+  content: "\e96c";
+}
+.uci-articles:before {
+  content: "\e9ba";
+}
+.uci-article:before {
+  content: "\e968";
+}
+.uci-create-logo:before {
+  content: "\e966";
+}
+.uci-pages-element:before {
+  content: "\e946";
+}
+.uci-play-video .path1:before {
+  content: "\e943";
+  color: rgba(255, 255, 255, 0.5);
+}
+.uci-play-video .path2:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgba(1, 1, 1, 0.6);
+}
+.uci-play-video .path3:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.uci-invite-member:before {
+  content: "\e940";
+}
+.uci-Desktop:before {
+  content: "\e938";
+}
+.uci-Tablet:before {
+  content: "\e939";
+}
+.uci-mobile:before {
+  content: "\e93a";
+}
+.uci-Transaction:before {
+  content: "\e933";
+}
+.uci-subscription:before {
+  content: "\e934";
+}
+.uci-payment-method:before {
+  content: "\e935";
+}
+.uci-calendar:before {
+  content: "\e936";
+}
+.uci-domain:before {
+  content: "\e913";
+}
+.uci-logocreator:before {
+  content: "\e914";
+}
+.uci-buy-domain:before {
+  content: "\e917";
+}
+.uci-connect-domain:before {
+  content: "\e916";
+}
+.uci-save-block:before {
+  content: "\e92d";
+}
+.uci-sitesettings:before {
+  content: "\e92e";
+}
+.uci-block-settings:before {
+  content: "\ea80";
+}
+.uci-remove-background:before {
+  content: "\e92c";
+}
+.uci-slider-arrow-1-left:before {
+  content: "\e92a";
+}
+.uci-slider-arrow-1-right:before {
+  content: "\e92b";
+}
+.uci-logomaker:before {
+  content: "\e929";
+}
+.uci-replace-slides:before {
+  content: "\e928";
+}
+.uci-slider:before {
+  content: "\e927";
+}
+.uci-all-sites:before {
+  content: "\e926";
+}
+.uci-block-remove:before {
+  content: "\e920";
+}
+.uci-Page-collection:before {
+  content: "\e919";
+}
+.uci-facebook:before {
+  content: "\e90e";
+}
+.uci-twitter:before {
+  content: "\e911";
+}
+.uci-google-plus:before {
+  content: "\e90f";
+}
+.uci-linkedin:before {
+  content: "\e910";
+}
+.uci-instagram:before {
+  content: "\e932";
+}
+.uci-behance:before {
+  content: "\e93b";
+}
+.uci-dribbble:before {
+  content: "\e93c";
+}
+.uci-tripadvisor:before {
+  content: "\e930";
+}
+.uci-Vimeo:before {
+  content: "\e93d";
+}
+.uci-Youtube:before {
+  content: "\e93e";
+}
+.uci-pinterest:before {
+  content: "\e931";
+}
+.uci-navigation:before {
+  content: "\e90d";
+}
+.uci-socialicons:before {
+  content: "\e90b";
+}
+.uci-gallery:before {
+  content: "\e918";
+}
+.uci-media:before {
+  content: "\e90c";
+}
+.uci-logo:before {
+  content: "\e90a";
+}
+.uci-uci-account-menu:before {
+  content: "\e909";
+}
+.uci-team:before {
+  content: "\e908";
+}
+.uci-seo2:before {
+  content: "\e906";
+}
+.uci-upgrade:before {
+  content: "\e907";
+}
+.uci-uikit:before {
+  content: "\e915";
+}
+.uci-updates2:before {
+  content: "\e91a";
+}
+.uci-draganddrop-4:before {
+  content: "\e91b";
+}
+.uci-soundcloud:before {
+  content: "\e91c";
+}
+.uci-billed-to:before {
+  content: "\e937";
+}
+.uci-map:before {
+  content: "\e91d";
+}
+.uci-icon:before {
+  content: "\e91e";
+}
+.uci-style-settings:before {
+  content: "\e64b";
+}
+.uci-align-vertical-bottom:before {
+  content: "\e648";
+}
+.uci-align-vertical-center:before {
+  content: "\e649";
+}
+.uci-align-vertical-top:before {
+  content: "\e64a";
+}
+.uci-divider:before {
+  content: "\e647";
+}
+.uci-back-preview:before {
+  content: "\e646";
+}
+.uci-nav-arrow:before {
+  content: "\e644";
+}
+.uci-nav-arrow-sub:before {
+  content: "\e645";
+}
+.uci-account2:before {
+  content: "\e602";
+}
+.uci-alert:before {
+  content: "\e603";
+}
+.uci-analytics:before {
+  content: "\e604";
+}
+.uci-blocks:before {
+  content: "\e605";
+}
+.uci-bold:before {
+  content: "\e606";
+}
+.uci-button:before {
+  content: "\e607";
+}
+.uci-dashboard:before {
+  content: "\e60a";
+}
+.uci-delete:before {
+  content: "\e60b";
+}
+.uci-right-arrow:before {
+  content: "\e629";
+}
+.uci-close:before {
+  content: "\e608";
+}
+.uci-plus:before {
+  content: "\e627";
+}
+.uci-minus:before {
+  content: "\ea50";
+}
+.uci-left-arrow:before {
+  content: "\e941";
+}
+.uci-drop-up:before {
+  content: "\e60d";
+}
+.uci-up-arrow:before {
+  content: "\e638";
+}
+.uci-drop-down:before {
+  content: "\e60e";
+}
+.uci-down-arrow:before {
+  content: "\e60c";
+}
+.uci-drop-down2:before {
+  content: "\e642";
+}
+.uci-drop-up2:before {
+  content: "\e641";
+}
+.uci-elements:before {
+  content: "\e60f";
+}
+.uci-error:before {
+  content: "\e610";
+}
+.uci-uci-favorites:before {
+  content: "\e92f";
+}
+.uci-form:before {
+  content: "\e612";
+}
+.uci-grid:before {
+  content: "\e613";
+}
+.uci-go-to:before {
+  content: "\e600";
+}
+.uci-home:before {
+  content: "\e614";
+}
+.uci-upload:before {
+  content: "\e615";
+}
+.uci-image-invert:before {
+  content: "\e616";
+}
+.uci-image:before {
+  content: "\e617";
+}
+.uci-information:before {
+  content: "\e618";
+}
+.uci-italic:before {
+  content: "\e619";
+}
+.uci-linked:before {
+  content: "\e61b";
+}
+.uci-lock:before {
+  content: "\e61c";
+}
+.uci-logout:before {
+  content: "\e61d";
+}
+.uci-messages:before {
+  content: "\e61e";
+}
+.uci-notes:before {
+  content: "\e643";
+}
+.uci-crop:before {
+  content: "\e61f";
+}
+.uci-notifications:before {
+  content: "\e620";
+}
+.uci-on-off:before {
+  content: "\e621";
+}
+.uci-page-blank:before {
+  content: "\e622";
+}
+.uci-page-external:before {
+  content: "\e623";
+}
+.uci-page-heading:before {
+  content: "\e624";
+}
+.uci-pages:before {
+  content: "\e625";
+}
+.uci-paragraph:before {
+  content: "\e626";
+}
+.uci-preview:before {
+  content: "\e62a";
+}
+.uci-search:before {
+  content: "\e91f";
+}
+.uci-seo:before {
+  content: "\e62b";
+}
+.uci-settings:before {
+  content: "\e62c";
+}
+.uci-success:before {
+  content: "\e62d";
+}
+.uci-text-align-center:before {
+  content: "\e62e";
+}
+.uci-text-align-justify:before {
+  content: "\e62f";
+}
+.uci-text-align-left:before {
+  content: "\e630";
+}
+.uci-underline:before {
+  content: "\e631";
+}
+.uci-text-align-right:before {
+  content: "\e632";
+}
+.uci-text-link:before {
+  content: "\e634";
+}
+.uci-line-height:before {
+  content: "\e633";
+}
+.uci-letters-spacing:before {
+  content: "\e61a";
+}
+.uci-typography:before {
+  content: "\e640";
+}
+.uci-title:before {
+  content: "\e601";
+}
+.uci-designertools:before {
+  content: "\ea81";
+}
+.uci-templates:before {
+  content: "\e635";
+}
+.uci-unlinked:before {
+  content: "\e636";
+}
+.uci-unlock:before {
+  content: "\e637";
+}
+.uci-updates:before {
+  content: "\e639";
+}
+.uci-uppercase:before {
+  content: "\e63a";
+}
+.uci-video-play:before {
+  content: "\e63b";
+}
+.uci-video:before {
+  content: "\e63c";
+}
+.uci-colors:before {
+  content: "\e609";
+}
+.uci-notifications-dot:before {
+  content: "\e63d";
+}
+.uci-customhtml:before {
+  content: "\e942";
+}
+.uci-status-success:before {
+  content: "\e902";
+}
+.uci-checkbox-check:before {
+  content: "\e93f";
+}
+

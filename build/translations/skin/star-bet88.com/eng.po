@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+# 
+msgid "freebet_info"
+msgstr "Good 365 배팅 회사는 아주 특별한 퀴즈를 여러분께 하나씩 제공하는 중입니다!여러분들은 3가지 종류의 6-10 이벤트를 포함하는 조합배팅을 제공 받으실겁니다. 만약 여러분들중 한분이라도 6개중 6개를 맞게 예상한다면 15,000원의 상금을 받고 8개중 8개를 맞게 예상한다면 30,000원, 그리고 만약 10개중 10개를 맞게 예상하면 무려 40,000원를 받습니다.  우승 상금은 고객님들의 계좌에 3개의 조합배팅에 포함된 이벤트가 모두 끝나고 5일안에 입금이 됩니다.  만약 조합배팅이 해당되지않는 이벤트가 있는경우 퀴즈는모두 사라집니다.  모든 손님은 각각의 다른 조합배팅에 메일 한번씩만 베팅하실수가있습니다^^ 그럼 여러분들의 건승을 빕니다^^"
+
+# 
+msgid "Daily coupon"
+msgstr "Today's Bets"
+
+# 
+msgid "Popular competitions"
+msgstr "Popular Leagues"

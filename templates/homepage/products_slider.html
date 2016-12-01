@@ -1,0 +1,33 @@
+<div ng-controller="cmsSportNewsCtrl" ng-init="getHomepageBanners('products-banners-' + env.lang)" ng-hide="homepageBanners.length < 2" class="product-list-contain">
+    <vbet-loader ng-show="homepageBannersLoading"></vbet-loader>
+    <ul ng-show="!homepageBannersLoading" class="column-{{ homepageBanners.length }}">
+        <li ng-repeat="banner in homepageBanners track by $index" ng-if="!banner.custom_fields.authorized[0] || (env.authorized && banner.custom_fields.authorized[0])">
+            <a ng-if="banner.title != 'Sportsbook'" href="{{banner.link}}" target="{{banner.linktarget}}">
+                <span class="product-slider-image {{ banner.custom_fields.css[0] || banner.title.$$unwrapTrustedValue() }}" ng-style="{'background-image': 'url(' + banner.imageurl + ')'}"></span>
+                <p class="icon-container-product">
+                    <b class="{{ banner.custom_fields.css[0] || banner.title.$$unwrapTrustedValue() }}"></b>
+                </p>
+                <h4>{{ banner.title|translate }}</h4>
+                <button ng-class="{'product-jackpot-anim-j': conf.poolBettingJackpotOnHomepage && (banner.title == 'Free Quiz' || banner.title == 'Pool Betting' || banner.title === conf.poolBettingJackpotOnHomepage) && $root.poolBettingJackpot}">
+                    <span>
+                        <div ng-bind-html="banner.description"></div>
+                        <div ng-if="conf.poolBettingJackpotOnHomepage && (banner.title == 'Free Quiz' || banner.title == 'Pool Betting' || banner.title === conf.poolBettingJackpotOnHomepage) && $root.poolBettingJackpot">
+                            <span trans>Jackpot</span>:
+                            <span>{{$root.poolBettingJackpot * (currency.toto_rate || 1)|number:conf.balanceFractionSize}}</span>
+                            <span>{{conf.poolBettingCurrencyName|currency}}</span>
+                        </div>
+                    </span>
+                </button>
+            </a>
+
+            <a ng-if="banner.title == 'Sportsbook'" ng-init="sportsBookType=1" href="#/sport/?type={{sportsBookType}}">
+                <p class="icon-container-product">
+                    <b class="{{ banner.custom_fields.css[0] || banner.title.$$unwrapTrustedValue() }}"></b>
+                </p>
+                <h4>{{ banner.title|translate }}</h4>
+                <button trans>Live</button>
+                <button ng-mouseleave="sportsBookType=1" ng-mouseover="sportsBookType=0" trans>pre-match</button>
+            </a>
+        </li>
+    </ul>
+</div>

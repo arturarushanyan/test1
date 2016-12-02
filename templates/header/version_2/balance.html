@@ -17,7 +17,6 @@
                 <span class="bonus-view-mini-b" ng-show="!env.hideBalance && !headerVersion2Icons.hideLablesIsToggled && (profile.bonus_balance !== undefined)">{{profile.calculatedBonus|number:conf.balanceFractionSize}} {{profile.currency_name|currency}}</span>
             </li>
         </ul>
-        <i></i>
     </div>
     <div ng-controller="casinoLoginCtrl" class="settings-icon-contain balance-box" no-animate
          ng-if="::((!conf.GmsPlatform || conf.GmsPlatformMultipleBalance) && (casinoEnabled || conf.pokerEnabled) && availableModules.indexOf('casino') > -1)"

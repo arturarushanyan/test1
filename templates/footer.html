@@ -1,6 +1,6 @@
 <div class="black-line"></div>
 
-<div class="footer" ng-controller="footerCtrl" ng-if="!conf.disableFooter && $location.path() !='/popup/'|| $location.path() !='/'">
+<div class="footer" ng-controller="footerCtrl" ng-hide="$location.path() !='/popup/'|| $location.path() !='/'">
 
     <div class="logo" ng-class="conf.site_name"><a ng-click="scrollToTop(true)" trans>logo</a></div>
 

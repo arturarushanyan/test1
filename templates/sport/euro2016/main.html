@@ -213,7 +213,7 @@
 
                                     <div class="events-title-view-v3">
                                         <div class="mini-title-box-event-title-v3">
-                                            <div class="event-info-3" ng-class="{'event-info-2':  prematchGame.sport.alias !== 'Football'}"
+                                            <div class="event-info-3" ng-class="{'event-info-2':  prematchGame.sport.alias !== 'Soccer'}"
 
                                                  ng-show="!conf.alternativeClassicGamesLayout">
 
@@ -229,8 +229,8 @@
                                                 </div>
                                             </div>
 
-                                            <div class="odds-info"  ng-show="(competition.games[0].sport.name === 'Football') && (prematchGameViewData[0].games[0].show_type !== 'OUTRIGHT')" >
-                                                <ul ng-if="(prematchGame.sport.alias !== 'Football') && (!prematchGame.team2_name)" class="column-3" ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
+                                            <div class="odds-info"  ng-show="(competition.games[0].sport.alias === 'Soccer') && (prematchGameViewData[0].games[0].show_type !== 'OUTRIGHT')" >
+                                                <ul ng-if="(prematchGame.sport.alias !== 'Soccer') && (!prematchGame.team2_name)" class="column-3" ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
                                                     <li title="1">
                                                         <div class="market-tab" >
                                                             <div class="market-info">
@@ -264,7 +264,7 @@
                                                 </ul>
                                             </div>
                                             <div class="odds-info" ng-hide="prematchGameViewData[0].games[0].show_type == 'OUTRIGHT'">
-                                                <ul ng-if="(prematchGame.sport.alias !== 'Football') && (!prematchGame.team2_name)" class="column-3" ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
+                                                <ul ng-if="(prematchGame.sport.alias !== 'Soccer') && (!prematchGame.team2_name)" class="column-3" ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
                                                     <li title="1">
                                                         <div class="market-tab" >
                                                             <div class="market-info">

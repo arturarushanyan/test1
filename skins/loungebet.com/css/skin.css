@@ -44430,7 +44430,7 @@ top-game-block {
     font: 13px/20px Ubuntu, Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
-    padding: 0 18px 0 2px;
+    padding: 0 2px;
 }
 
 .settings-icon-contain.my-bets-b {

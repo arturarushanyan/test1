@@ -37018,7 +37018,6 @@ input[type="password"]:focus ~ .capslock-is-on-j {
 }
 @media screen and (max-width: 990px) {
     .live-calendar-16-scroll-fix-j {
-        position: static;
         float: left;
         width: 100%;
     }
@@ -44386,7 +44385,7 @@ top-game-block {
 }
 
 .separator-contain-nav.user-nav-view-b .drop-items-contain-b > ul > li {
-    padding-right: 36px;
+    padding-right:0 18px;
 }
 
 .separator-contain-nav.user-nav-view-b .drop-items-contain-b > ul > li > b {
@@ -44430,7 +44429,7 @@ top-game-block {
     font: 13px/20px Ubuntu, Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
-    padding: 0 18px 0 2px;
+    padding: 0 2px;
 }
 
 .settings-icon-contain.my-bets-b {
@@ -44849,18 +44848,18 @@ top-game-block {
     border: none;
 }
 
-.drop-items-contain-b > ul > li:before {
-    content: "";
-    display: block;
-    width: 16px;
-    height: 16px;
-    position: absolute;
-    left: 10px;
-    top: 9px;
-    border-radius: 50%;
-    background: #aaa9a1;
-    z-index: 22;
-}
+/*.drop-items-contain-b > ul > li:before {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*width: 16px;*/
+    /*height: 16px;*/
+    /*position: absolute;*/
+    /*left: 10px;*/
+    /*top: 9px;*/
+    /*border-radius: 50%;*/
+    /*background: #aaa9a1;*/
+    /*z-index: 22;*/
+/*}*/
 .leng-b + .nav-open-view-contain .drop-nav-new-b > .drop-items-contain-b > ul > li:before {
     content: "";
     display: block;
@@ -44904,18 +44903,18 @@ top-game-block {
     cursor: default;
 }
 
-.drop-items-contain-b > ul > li.active:after, .drop-items-contain-b > ul > li:hover:after, .drop-items-contain-b > ul > li.active:hover:after {
-    content: "";
-    display: block;
-    width: 6px;
-    height: 6px;
-    position: absolute;
-    left: 15px;
-    top: 14px;
-    border-radius: 50%;
-    background: #a1b5b1;
-    z-index: 33;
-}
+/*.drop-items-contain-b > ul > li.active:after, .drop-items-contain-b > ul > li:hover:after, .drop-items-contain-b > ul > li.active:hover:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*width: 6px;*/
+    /*height: 6px;*/
+    /*position: absolute;*/
+    /*left: 15px;*/
+    /*top: 14px;*/
+    /*border-radius: 50%;*/
+    /*background: #a1b5b1;*/
+    /*z-index: 33;*/
+/*}*/
 
 .drop-items-contain-b > ul > li:hover:after {
     background: #f3f2e9;

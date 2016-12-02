@@ -44,30 +44,6 @@
     <!--Settings-->
     <div class="separator-contain-nav-settings">
 
-        <!--Help-->
-        <div class="separator-contain-nav user-nav-view-b" title="Help Center">
-            <div class="settings-include-contain" id="faq-header" ng-click="openFaq()" ng-if="conf.haveFaq && conf.haveFaq==true" class="separator-contain-nav user-nav-view-b ng-scope {{headerVersion2Icons.helpIsToggled ? 'active' : ''}}"
-                 except="start-demo-tour" ng-click="headerVersion2Icons.helpIsToggled = !headerVersion2Icons.helpIsToggled">
-                <div class="settings-icon-contain help-icon-b"></div>
-            </div>
-        </div>
-        <!--Help END-->
-
-        <!--Settings-->
-        <ng-include class="settings-include-contain" src="getTemplate('templates/header/version_' + conf.header.version + '/settings.html')"
-                    ng-if="(conf.enableSettings.authorized && env.authorized) || (conf.enableSettings.notAuthorized && !env.authorized)" ng-init="settingsInit()" hide-on-click state-flag-var="headerVersion2Icons.settingsIsToggled" ></ng-include>
-        <!--Settings END-->
-
-        <!--Sound-->
-<!--         <div class="separator-contain-nav user-nav-view-b">
-            <div class="settings-include-contain">
-                <div class="fullscreen-icon-contain sound-icon-b" ></div>
-
-             </div>
-         </div>
---!>
-        <!--Sound END-->
-
         <!--Language-->
         <div class="separator-contain-nav user-nav-view-b ng-scope {{headerVersion2Icons.languageIsToggled ? 'active' : ''}}"
              ng-show="(conf.availableLanguages|count) > 1"
@@ -97,6 +73,30 @@
         </div>
         <!--Language END-->
 
+        <!--Settings-->
+        <ng-include class="settings-include-contain" src="getTemplate('templates/header/version_' + conf.header.version + '/settings.html')"
+                    ng-if="(conf.enableSettings.authorized && env.authorized) || (conf.enableSettings.notAuthorized && !env.authorized)" ng-init="settingsInit()" hide-on-click state-flag-var="headerVersion2Icons.settingsIsToggled" ></ng-include>
+        <!--Settings END-->
+
+        <!--Help-->
+        <div class="separator-contain-nav user-nav-view-b" title="Help Center">
+            <div class="settings-include-contain" id="faq-header" ng-click="openFaq()" ng-if="conf.haveFaq && conf.haveFaq==true" class="separator-contain-nav user-nav-view-b ng-scope {{headerVersion2Icons.helpIsToggled ? 'active' : ''}}"
+                 except="start-demo-tour" ng-click="headerVersion2Icons.helpIsToggled = !headerVersion2Icons.helpIsToggled">
+                <div class="settings-icon-contain help-icon-b"></div>
+            </div>
+        </div>
+        <!--Help END-->
+
+        <!--Sound-->
+<!--         <div class="separator-contain-nav user-nav-view-b">
+            <div class="settings-include-contain">
+                <div class="fullscreen-icon-contain sound-icon-b" ></div>
+
+             </div>
+         </div>
+--!>
+        <!--Sound END-->
+
         <!--FullScreen-->
         <div class="separator-contain-nav user-nav-view-b" ng-click="goFullscreen()" title="Full Screen">
             <div class="settings-include-contain">
@@ -104,6 +104,8 @@
             </div>
         </div>
         <!--FullScreen END-->
+
+
     </div>
     <!--Settings END-->
 

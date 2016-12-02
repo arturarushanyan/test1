@@ -1143,18 +1143,24 @@ VBET5.controller('mainHeaderCtrl', ['$rootScope', '$scope', '$interval', '$filte
             !document.mozFullScreenElement && !document.webkitFullscreenElement) {  // current working methods
             if (document.documentElement.requestFullscreen) {
                 document.documentElement.requestFullscreen();
+                 $scope.isActive = !$scope.isActive;
             } else if (document.documentElement.mozRequestFullScreen) {
                 document.documentElement.mozRequestFullScreen();
+                 $scope.isActive = !$scope.isActive;
             } else if (document.documentElement.webkitRequestFullscreen) {
                 document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                 $scope.isActive = !$scope.isActive;
             }
         } else {
             if (document.cancelFullScreen) {
                 document.cancelFullScreen();
+                 $scope.isActive = !$scope.isActive;
             } else if (document.mozCancelFullScreen) {
                 document.mozCancelFullScreen();
+                 $scope.isActive = !$scope.isActive;
             } else if (document.webkitCancelFullScreen) {
                 document.webkitCancelFullScreen();
+                 $scope.isActive = !$scope.isActive;
             }
         }
     };

@@ -44521,6 +44521,10 @@ top-game-block {
     float: left;
 }
 
+.settings-include-contain .nav-open-view-contain .drop-nav-new-b .drop-items-contain-b > ul > li {
+    padding: 0 10px 0 12px;
+}
+
 .settings-icon-contain.clock-set-b {
     width: auto;
     text-align: left;
@@ -44552,7 +44556,7 @@ top-game-block {
     z-index: 55;
     text-align: left;
     display: none;
-    width: 188px;
+    width: 180px;
 }
 
 .separator-contain-nav.user-nav-view-b > .nav-open-view-contain {
@@ -44860,41 +44864,43 @@ top-game-block {
     /*background: #aaa9a1;*/
     /*z-index: 22;*/
 /*}*/
-.leng-b + .nav-open-view-contain .drop-nav-new-b > .drop-items-contain-b > ul > li:before {
+.settings-icon-contain .lang_switch:before {
+    position: relative;
+    left: 0;
+    top: 4px;
+}
+
+.lang_switch:before {
     content: "";
     display: block;
     position: absolute;
     left: 10px;
-    top: 11px;
+    top: 9px;
     z-index: 34;
     width: 16px;
     height: 13px;
     border-radius: 0;
 }
-.leng-b + .nav-open-view-contain .drop-nav-new-b > .drop-items-contain-b > ul > li:first-of-type:before {
+.por:before {
     background: url(../../../images/flags.png?20160607111144) no-repeat -135px -51px;
 }
-.leng-b + .nav-open-view-contain .drop-nav-new-b > .drop-items-contain-b > ul > li:nth-of-type(2):before {
+.eng:before {
     background: url(../../../images/flags.png?20160607111144) no-repeat -109px -149px;
 }
-.leng-b + .nav-open-view-contain .drop-nav-new-b > .drop-items-contain-b > ul > li:nth-of-type(3):before {
+.spa:before {
     background: url(../../../images/flags.png?20160607111144) no-repeat -317px -149px;
 }
-.leng-b + .nav-open-view-contain .drop-nav-new-b > .drop-items-contain-b > ul > li:nth-of-type(4):before {
+.ita:before {
     background: url(../../../images/flags.png?20160607111144) no-repeat -109px -195px;
 }
-.leng-b + .nav-open-view-contain .drop-nav-new-b > .drop-items-contain-b > ul > li:nth-of-type(5):before {
+.rus:before {
     background: url(../../../images/flags.png?20160607111144) no-repeat -31px -290px;
 }
-.leng-b + .nav-open-view-contain .drop-nav-new-b > .drop-items-contain-b > ul > li:nth-of-type(6):before {
+.tur:before {
     background: url(../../../images/flags.png?20160607111144) no-repeat -343px -54px;
 }
-.leng-b + .nav-open-view-contain .drop-nav-new-b > .drop-items-contain-b > ul > li:nth-of-type(7):before {
+.chi:before {
     background: url(../../../images/flags.png?20160607111144) no-repeat -135px -123px;
-}
-
-.drop-items-contain-b > ul > li.active:before {
-    background: #fff;
 }
 
 .drop-items-contain-b > ul > li.active {
@@ -62256,3 +62262,4 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         box-shadow: none;
     }
 
+}

@@ -45828,6 +45828,7 @@ top-game-block {
     box-sizing: border-box;
     display: table-cell;
     padding: 0;
+    position: relative;
 }
 
 .view-switcher-v3 > ul > li:first-child {
@@ -61993,8 +61994,9 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
     .ico-live {
         float: right;
-        margin: -6px 0 0 -4px;
-        position: absolute;
+        margin: -6px 0 0 -30px;
+        position: relative;
+        right: -3px;
     }
     .highlight {
         color: #ff8067 !important;

@@ -31820,6 +31820,9 @@ div.draws-contain::-webkit-scrollbar-thumb:hover,
     max-height: 36px;
     opacity: 1;
 }
+.subtop-header-menu-j.poker {
+    height: 0;
+}
 .subtop-header-menu-j > ul {
     display: inline-block;
 }
@@ -44255,6 +44258,7 @@ top-game-block {
     position: absolute;
     top: 0;
     right: 0;
+    background: #0e5259;
 }
 .separator-contain-nav-help {
     float: right;

@@ -49,16 +49,17 @@ VBET5.controller('mainHeaderCtrl', ['$rootScope', '$scope', '$interval', '$filte
     $rootScope.$on('$locationChangeSuccess', setCurrentPath);
 
     var pathTypes = {
-        'casino': ['/casino', '/games', '/game', '/livedealer', '/keno', '/fantasy', '/ogwil', '/jackpot', '/financials', '/backgammon', '/belote', '/pokerklas'],
+        'casino': ['/casino', '/games', '/game', '/keno', '/fantasy', '/ogwil', '/jackpot', '/financials', '/backgammon', '/belote', '/pokerklas'],
+        'livedealer': ['/livedealer'],
         'sport': ['/sport', '/freebet', '/poolbetting', '/livecalendar', '/results', '/virtualsports', '/overview', '/multiview', '/dashboard', '/exchange', '/statistics'],
         'poker': ['/poker']
     };
     pathTypes[Config.main.homepagePageType].push('/');
 
     function isInCasino() {
-        if (!Config.main.sportEnabled) {
-            return true;
-        }
+        return pathTypes.casino.indexOf($rootScope.currentPath) !== -1;
+    }
+    function isInLivedealer() {
         return pathTypes.casino.indexOf($rootScope.currentPath) !== -1;
     }
     function isInSports() {
@@ -68,10 +69,11 @@ VBET5.controller('mainHeaderCtrl', ['$rootScope', '$scope', '$interval', '$filte
         return pathTypes.poker.indexOf($rootScope.currentPath) !== -1;
     }
     function currentPageHasSubHeader() {
-        return Config.main.enableSubHeader && isInSports() && $rootScope.currentPath !== '/' && $rootScope.currentPath !== '/poolbetting';
+        return Config.main.enableSubHeader && (isInSports() || isInCasino() || isInLivedealer() || isInPoker()) && $rootScope.currentPath !== '/' && $rootScope.currentPath !== '/poolbetting';
     }
 
     $rootScope.isInCasino = isInCasino;
+    $rootScope.isInLivedealer = isInLivedealer;
     $rootScope.isInSports = isInSports;
     $rootScope.isInPoker = isInPoker;
     $rootScope.currentPageHasSubHeader = currentPageHasSubHeader;

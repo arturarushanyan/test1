@@ -1,12 +1,33 @@
 <!--Menu-->
-<div class="subtop-header-menu-j">
+<div class="subtop-header-menu-j" ng-class="{'poker' : isInPoker()}">
 
-    <ul>
-        <li ng-if="(menu.enabled || conf[menu.enabledConfig]) && (!menu.exceptViews || menu.exceptViews.indexOf(conf.sportsLayout) === -1)"
+    <ul ng-show="isInSports()">
+        <li ng-if="(menu.enabled || conf[menu.enabledConfig]) && (!menu.exceptViews || menu.exceptViews.indexOf(conf.sportsLayout) === -1 )"
             ng-repeat="menu in conf.subHeaderItems track by menu.alias" ng-class="{'active': $location.path() === '/' + menu.alias + '/'}">
             <a ng-if="!menu.url" ng-href="{{$location.path() === '/' + menu.alias + '/' ? $location.absUrl() + '#' : '#/' + menu.alias }}">{{menu.displayName|translate}}</a>
             <a ng-if="menu.url" ng-href="{{menu.url}}" ng-click="$event.stopPropagation()" target="_blank">{{menu.displayName|translate}}</a>
         </li>
+    </ul>
+
+    <ul ng-show="isInCasino()">
+        <li ng-if="(menu.enabled || conf[menu.enabledConfig]) && (!menu.exceptViews ||  menu.exceptViews.indexOf(conf.casino) === -1)"
+            ng-repeat="menu in conf.subHeaderItemsCasino track by menu.alias" ng-class="{'active': $location.path() === '/' + menu.alias + '/'}">
+            <a ng-if="!menu.url" ng-href="{{$location.path() === '/' + menu.alias + '/' ? $location.absUrl() + '#' : '#/' + menu.alias }}">{{menu.displayName|translate}}</a>
+            <a ng-if="menu.url" ng-href="{{menu.url}}" ng-click="$event.stopPropagation()" target="_blank">{{menu.displayName|translate}}</a>
+        </li>
+        <li>
+            <a trans>Tournaments</a>
+        </li>
+        <li>
+            <a trans>Promotions</a>
+        </li>
+        <li>
+            <a trans>News</a>
+        </li>
+    </ul>
+
+    <ul ng-show="isInPoker()">
+
     </ul>
 
     <!--Clock-->

@@ -10,7 +10,7 @@
                     </h3>
                     <div class="market-icons-view-v3">
                         <ul>
-                            <li class="cashout-icon-market-v3" title="Cash-out available" trans ng-show="groupedMarkets[0].cashout && ((!$root.env.live && !!$root.partnerConfig.is_cashout_prematch))" ng-hide="$root.env.live"></li>
+                            <li class="cashout-icon-market-v3" title="Cash-out available" trans ng-show="groupedMarkets[0].cashout && ((!$root.env.live && !!$root.partnerConfig.is_cashout_prematch))" ng-hide="($root.env.live && $root.partnerConfig.is_cashout_prematch) || openGame.type==1"></li>
                             <li class="link-icon-market-v3" ng-show="!conf.hideExpressIds && (groupedMarkets[0].express_id || groupedMarkets[0].express_id == 0)" title="Events from different groups can be combined in combined bets" trans="attr-only">
                                 <span ng-hide="conf.hideExpressIds" title="Events from different groups can be combined in combined bets" trans="attr-only">{{groupedMarkets[0].express_id}}</span>
                             </li>
@@ -61,7 +61,7 @@
                     </h3>
                     <div class="market-icons-view-v3">
                         <ul>
-                            <li class="cashout-icon-market-v3" title="Cash-out available" trans ng-show="groupedMarkets[0].cashout && ((!$root.env.live && !!$root.partnerConfig.is_cashout_prematch))" ng-hide="$root.env.live"></li>
+                            <li class="cashout-icon-market-v3" title="Cash-out available" trans ng-show="groupedMarkets[0].cashout && ((!$root.env.live && !!$root.partnerConfig.is_cashout_prematch))" ng-hide="($root.env.live && $root.partnerConfig.is_cashout_prematch) || openGame.type==1"></li>
                             <li class="link-icon-market-v3" ng-show="!conf.hideExpressIds && (groupedMarkets[0].express_id || groupedMarkets[0].express_id == 0)" title="Events from different groups can be combined in combined bets" trans="attr-only">
                                 <span ng-hide="conf.hideExpressIds" title="Events from different groups can be combined in combined bets" trans="attr-only">{{groupedMarkets[0].express_id}}</span>
                             </li>
@@ -115,7 +115,7 @@
                                 <span ng-hide="conf.hideExpressIds" title="Events from different groups can be combined in combined bets" trans="attr-only">{{groupedMarkets[0].express_id}}</span>
                             </li>
 
-                            <li class="cashout-icon-market-v3" title="Cash-out available" trans ng-show="groupedMarkets[0].cashout && ((!$root.env.live && !!$root.partnerConfig.is_cashout_prematch))"></li>
+                            <li class="cashout-icon-market-v3" title="Cash-out available" trans ng-show="groupedMarkets[0].cashout && ((!$root.env.live && !!$root.partnerConfig.is_cashout_prematch))" ng-hide="($root.env.live && $root.partnerConfig.is_cashout_prematch) || openGame.type==1"></li>
                             <li class="favorite-icon-market-v3" ng-click="addToFavouriteMarkets(groupedMarkets)"></li>
                         </ul>
                     </div>

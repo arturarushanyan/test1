@@ -25,9 +25,5 @@ VBET5.controller('statisticsCtrl', ['$rootScope', '$scope', '$sce', 'Config', fu
         if (Config.env.lang === 'chi') {
             $scope.statsUrl = $sce.trustAsResourceUrl(Config.main.headerStatisticsLink + '/#/' + 'ch');
         }
-        else {
-            $scope.statsUrl = $sce.trustAsResourceUrl(Config.main.headerStatisticsLink + '/#/' + 'en');
-        }
-
     }
 }]);

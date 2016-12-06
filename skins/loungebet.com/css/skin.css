@@ -25241,7 +25241,7 @@ label.sign-in-checkbox-j input[type="checkbox"] {
     margin: 0;
 }
 label.sign-in-checkbox-j input[type="checkbox"]:checked + span:after {
-    color: #7c8292;
+    color: #468966;
 }
 label.sign-in-checkbox-j span {
     line-height: 16px;
@@ -25249,20 +25249,21 @@ label.sign-in-checkbox-j span {
 label.sign-in-checkbox-j span:before, label.sign-in-checkbox-j span:after {
     content: '';
     display: block;
-    background: #1e2639;
-    width: 16px;
-    height: 16px;
+    background: #fffef6;
+    width: 14px;
+    height: 14px;
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 4px;
     text-align: center;
+    border: 1px solid #468966;
 }
 label.sign-in-checkbox-j span:after {
     background: none;
     content: '\e6f3';
     color: transparent;
-    font: 6px/16px icomoon;
+    font: 7px/14px icomoon;
     left: 1px;
     transition: color 150ms;
 }

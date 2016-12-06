@@ -146,7 +146,7 @@ VBET5.constant('SkinConfig', {
         hidePokerLeaderboardAllButton: true,
         gameMenuSpecialText: '',
         enableNewPoker: true,
-        rememberMeCheckbox: false,
+        rememberMeCheckbox: true,
         enableNewSkillGame: true,
         disableInternalMessageSending: true,
         liveDealerEnabled: true,

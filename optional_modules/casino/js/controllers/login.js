@@ -37,7 +37,7 @@ CASINO.controller('casinoLoginCtrl', ['$rootScope', '$scope', 'TimeoutWrapper', 
     }
 
     function checkIfisInCasino() {
-        if ($rootScope.isInCasino() || $rootScope.isInPoker() || !$rootScope.conf.sportEnabled) {
+        if ($rootScope.isInCasino() || $rootScope.isInLivedealer() || $rootScope.isInPoker() || !$rootScope.conf.sportEnabled) {
             isInCasino = true;
             getCasinoBalance(true); //make an extraordinary request for not having a delay displaying casino balance when switching to casino pages
         } else {

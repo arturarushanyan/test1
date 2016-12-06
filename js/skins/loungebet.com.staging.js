@@ -16,7 +16,7 @@ VBET5.constant('SkinConfig', {
         siteTitle: {
             "por": "Loungebet - Sport betting, Casino, Online Games",
             "eng": "Loungebet - Sport betting, Casino, Online Games",
-            "esp": "Loungebet - Sport betting, Casino, Online Games",
+            "spa": "Loungebet - Sport betting, Casino, Online Games",
             "ita": "Loungebet - Sport betting, Casino, Online Games",
             "rus": "Букмекерская контора Loungebet - Онлайн ставки, покер, казино, онлайн игры",
             "tur": "Loungebet - Sport betting, Casino, Online Games",
@@ -102,6 +102,50 @@ VBET5.constant('SkinConfig', {
                 enabledConfig: "showResultsTabInSportsbook"
             }
         ],
+        subHeaderItemsCasino: [
+            {
+                alias: "casino",
+                displayName: "Lobby",
+                enabled: true
+            }
+        ],
+        subHeaderItemsPoker: [
+            {
+                alias: "poker",
+                displayName: "Home",
+                enabled: true
+            },
+            {
+                alias: "specialoffers",
+                displayName: "Special Offers",
+                enabled: true
+            },
+            {
+                alias: "news",
+                displayName: "Hold'em",
+                enabled: true
+            },
+            {
+                alias: "results",
+                displayName: "All-In or Fold",
+                enabled: true
+            },
+            {
+                alias: "overview",
+                displayName: "Omaha",
+                enabled: true
+            },
+            {
+                alias: "multiview",
+                displayName: "Fortune Spin",
+                enabled: true
+            },
+            {
+                alias: "sport",
+                displayName: "Tournament",
+                enabled: true
+            }
+        ],
         enableLayoutSwitcherInSportsbook: true,
         enableHomePageBottomBanner: false, //show banner from Wordpress instead Tournaments
         homePageLastMinuteBets: {
@@ -154,7 +198,12 @@ VBET5.constant('SkinConfig', {
         countOfRecentBetsToShow: 3,
         //statsHostname: 'http://statistics.betconstruct.com/#/en/external/page/',  // hostname for statistics. when clicking on game statistics icon, popup on this hostname is open,
         headerStatisticsLink: 'https://statistics.loungebet.com',
-        headerPokerLink: 'http://contents.good-game-network.com/leaflet/loungebet/',
+        headerPokerLink: {
+            home: 'http://contents.good-game-network.com/leaflet/loungebet/main/',
+            so:  'http://contents.good-game-network.com/leaflet/loungebet/specialoffers/',
+            hd:  'http://contents.good-game-network.com/leaflet/loungebet/holdemgamerules/',
+            aof:  'http://contents.good-game-network.com/leaflet/loungebet/holdemgamerules/'
+        },
         enableH2HStat: true,
         jackpotEnabled: false,
         newMenuItems: {virtualSport:true, games:false, liveCasino:false, fantasy: true},

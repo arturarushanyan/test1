@@ -68,6 +68,11 @@ angular.module('vbet5').service('TopMenu', ['$rootScope', '$location', '$timeout
             href: '#/multiview',
             showCondition: Config.main.liveMultiViewEnabled && (Config.main.sportsLayout !== 'modern')
         },
+        specialoffers: {
+            displayName: Translator.get("Special Offers"),
+            href: '#/poker',
+            showCondition: Config.main.headerPokerLink.home
+        },
         statistics: {
             displayName: Translator.get("Statistics"),
             href: '{{Config.main.headerStatisticsLink}}',

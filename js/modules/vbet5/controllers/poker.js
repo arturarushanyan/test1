@@ -3,6 +3,15 @@ VBET5.controller('pokerCtrl', ['$rootScope', '$scope', '$sce', 'Config', functio
 
     $scope.initPoker = function initPoker() {
         $scope.setTitle('Poker');
-        $scope.pokerUrl = $sce.trustAsResourceUrl(Config.main.headerPokerLink);
+
+        if (Config.env.lang === 'eng') {
+            $scope.pokerUrl = $sce.trustAsResourceUrl(Config.main.headerPokerLink.home + 'en');
+        }
+        if (Config.env.lang === 'chi') {
+            $scope.pokerUrl = $sce.trustAsResourceUrl(Config.main.headerPokerLink.home + 'zh-cn');
+        }
+        else {
+            $scope.pokerUrl = $sce.trustAsResourceUrl(Config.main.headerPokerLink.home + 'en');
+        }
     }
 }]);

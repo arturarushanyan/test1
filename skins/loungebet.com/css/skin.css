@@ -24456,8 +24456,13 @@ label.reg-cup-register-j:nth-of-type(even) {
 .register-steps-b .form-text > div > input:focus,
 .register-steps-b .registration-form-city > div > input:focus,
 .register-steps-b .reg-form-input-number > div > input:focus,
-.form-register-layout.signin .field-separator .form-text > input:focus {
-    border: 1px solid #7c8292;
+.form-register-layout.signin .field-separator .form-text > input:focus,
+.input-separator-b > input:active,
+.register-steps-b .form-text > div > input:active,
+.register-steps-b .registration-form-city > div > input:active,
+.register-steps-b .reg-form-input-number > div > input:active,
+.form-register-layout.signin .field-separator .form-text > input:active {
+    border: 1px solid #000000;
     padding: 0 38px 0 14px;
     transition: border-color 300ms;
 }

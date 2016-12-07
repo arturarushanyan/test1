@@ -27,7 +27,7 @@
     min-width: 980px;
     margin: 60px 0 0 0;
     padding: 3px 0 0;
-    top: 29px;
+    top: 27px;
 }
 
 .contain-gameing {
@@ -23751,10 +23751,7 @@ li.active-format:before {
     box-shadow: inset 0 0 0 50px #fbf9e8;
 }
 
-.new-default-popup-j.feedback label input[type=email]:-webkit-autofill:focus {
-    border-color: #1e2639;
-    box-shadow: 0 0 0 1px #7c8292, 0 0 0 100px #1e2639 inset;
-}
+
 
 .form-error-text-j .error-icon-f-j:before {
     color: #d14343;
@@ -31828,7 +31825,7 @@ div.draws-contain::-webkit-scrollbar-thumb:hover,
 }
 .subtop-header-menu-j > ul > li {
     display: inline-block;
-    height: 36px;
+    height: 24px;
     margin: 0 40px 0 0;
 }
 .subtop-header-menu-j > ul > li:last-child {
@@ -31837,9 +31834,9 @@ div.draws-contain::-webkit-scrollbar-thumb:hover,
 .subtop-header-menu-j > ul > li > a {
     display: block;
     box-sizing: border-box;
-    height: 36px;
+    height: 24px;
     text-decoration: none;
-    font: normal 13px/36px Ubuntu, Arial, Helvetica, sans-serif;
+    font: normal 13px/24px Ubuntu, Arial, Helvetica, sans-serif;
     transition: color 250ms, box-shadow 250ms;
     color: #c1c4cd;
 }
@@ -44217,7 +44214,7 @@ top-game-block {
 .separator-contain-nav {
     float: left;
     box-sizing: border-box;
-    padding: 0 10px;
+    padding: 0 12px;
     height: 36px;
     position: relative;
     border-left: 1px solid #0c4b51;
@@ -44433,7 +44430,7 @@ top-game-block {
     font: 13px/20px Ubuntu, Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
-    padding: 0 2px;
+    padding: 0;
 }
 
 .settings-icon-contain.my-bets-b {
@@ -44459,20 +44456,21 @@ top-game-block {
 
 .mybets-icon-box-b:before {
     content: "\e91e";
-    font-size: 18px;
+    font-size: 24px;
     display: inline-block;
-    width: 20px;
+    width: 24px;
     text-align: center;
-    margin-left: 1px;
+    margin-left: 0;
 }
 
 .mybets-icon-box-b.user-icon-view {
-    font: 16px/20px icomoon;
+    font: 16px/24px ucraftme_font;
     top: 0;
 }
 
 .mybets-icon-box-b.user-icon-view:before {
-    content: "\2b";
+    content: "\ea8e";
+    color: #c1c4cd;
 }
 
 .my-profile-icon-b:before {
@@ -44488,7 +44486,7 @@ top-game-block {
 }
 
 .logout-icon-b:before {
-    content: "\5c";
+    content: "\eabc";
 }
 
 .settings-icon-contain.balance-box {
@@ -44879,7 +44877,7 @@ top-game-block {
     display: block;
     position: absolute;
     left: 10px;
-    top: 9px;
+    top: 11px;
     z-index: 34;
     width: 16px;
     height: 13px;
@@ -44889,7 +44887,7 @@ top-game-block {
     background: url(../../../images/flags.png?20160607111144) no-repeat -135px -51px;
 }
 .eng:before {
-    background: url(../../../images/flags.png?20160607111144) no-repeat -109px -149px;
+    background: url(../../../images/flags.png?20160607111144) no-repeat -213px -77px;
 }
 .spa:before {
     background: url(../../../images/flags.png?20160607111144) no-repeat -317px -149px;
@@ -44944,16 +44942,17 @@ top-game-block {
     position: absolute;
     left: 10px;
     top: 7px;
-    font: 12px/20px icomoon;
+    font: 14px/20px icomoon;
 }
-.drop-items-contain-b.icon-view-box > ul > li:nth-child(3) > i {
+.drop-items-contain-b.icon-view-box > ul > li:nth-child(3) > i,
+.drop-items-contain-b.icon-view-box > ul > li:last-child > i{
     display: block;
     width: 20px;
     height: 20px;
     position: absolute;
     left: 8px;
     top: 7px;
-    font: 16px/20px ucraftme_font;
+    font: 18px/20px ucraftme_font;
 }
 .deposit-icon-b:before {
     content: "\e6cd";
@@ -56790,6 +56789,19 @@ div.slider-image-wrapper-b {
 }
 .scrolling-toggle-j a.active, .subtop-header-menu-j>ul>li.active>a {
     box-shadow: none;
+}
+.subtop-header-menu-j>ul>li.active>a:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 5px 6px;
+    position: relative;
+    top: 31px;
+    left: calc(50% - 6px);
+    z-index: 22;
+    border-color: rgba(211, 48, 48, 0) transparent #e6e5dc transparent;
 }
 .classic-version-euro2016 {
     box-sizing: border-box;

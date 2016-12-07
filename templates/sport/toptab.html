@@ -97,7 +97,7 @@
         <!--Language END-->
 
         <!--Settings-->
-        <ng-include class="settings-include-contain" src="getTemplate('templates/header/version_' + conf.header.version + '/settings.html')"
+        <ng-include ng-show="isInSports()" class="settings-include-contain" src="getTemplate('templates/header/version_' + conf.header.version + '/settings.html')"
                     ng-if="(conf.enableSettings.authorized && env.authorized) || (conf.enableSettings.notAuthorized && !env.authorized)" ng-init="settingsInit()" hide-on-click state-flag-var="headerVersion2Icons.settingsIsToggled" ></ng-include>
         <!--Settings END-->
 

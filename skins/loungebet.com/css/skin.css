@@ -24453,8 +24453,13 @@ label.reg-cup-register-j:nth-of-type(even) {
 .register-steps-b .form-text > div > input:focus,
 .register-steps-b .registration-form-city > div > input:focus,
 .register-steps-b .reg-form-input-number > div > input:focus,
-.form-register-layout.signin .field-separator .form-text > input:focus {
-    border: 1px solid #7c8292;
+.form-register-layout.signin .field-separator .form-text > input:focus,
+.input-separator-b > input:active,
+.register-steps-b .form-text > div > input:active,
+.register-steps-b .registration-form-city > div > input:active,
+.register-steps-b .reg-form-input-number > div > input:active,
+.form-register-layout.signin .field-separator .form-text > input:active {
+    border: 1px solid #000000;
     padding: 0 38px 0 14px;
     transition: border-color 300ms;
 }
@@ -25233,7 +25238,7 @@ label.sign-in-checkbox-j input[type="checkbox"] {
     margin: 0;
 }
 label.sign-in-checkbox-j input[type="checkbox"]:checked + span:after {
-    color: #7c8292;
+    color: #468966;
 }
 label.sign-in-checkbox-j span {
     line-height: 16px;
@@ -25241,20 +25246,21 @@ label.sign-in-checkbox-j span {
 label.sign-in-checkbox-j span:before, label.sign-in-checkbox-j span:after {
     content: '';
     display: block;
-    background: #1e2639;
-    width: 16px;
-    height: 16px;
+    background: #fffef6;
+    width: 14px;
+    height: 14px;
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 4px;
     text-align: center;
+    border: 1px solid #468966;
 }
 label.sign-in-checkbox-j span:after {
     background: none;
     content: '\e6f3';
     color: transparent;
-    font: 6px/16px icomoon;
+    font: 7px/14px icomoon;
     left: 1px;
     transition: color 150ms;
 }

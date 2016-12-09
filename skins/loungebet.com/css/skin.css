@@ -46147,7 +46147,7 @@ top-game-block {
     width: 100%;
     background: #363945;
     display: none;
-    box-shadow: 0px 4px 10px -2px #000000;
+    box-shadow: 0 4px 10px -2px #000000;
 }
 
 .time-filter-v3.active > .sub-nav-filter-time-v3 {
@@ -46169,7 +46169,7 @@ top-game-block {
     width: 100%;
     color: #7c8292;
     font: 12px/30px Arial, Helvetica, sans-serif;
-    padding: 0 8px;
+    padding: 0 1px;
     height: 30px;
     transition: color 240ms, background 240ms;
     white-space: nowrap;
@@ -49983,6 +49983,7 @@ top-game-block {
 .mini-filters-box-v3 > ul > li .time-filter-v3 {
     box-sizing: border-box;
     max-width: 120px;
+    height: 100%;
 }
 
 .mini-filters-box-v3 > ul > li > .time-filter-v3 > p {
@@ -57929,10 +57930,11 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     background: #0d4e54;
 }
 .time-filter-v3.active {
-    background: #efede4;
+    background: transparent;
 }
 .sub-nav-filter-time-v3>ul>li>span {
     box-shadow: 0 1px 0 #dcdcdc inset;
+    text-indent: 8px;
 }
 .sub-nav-filter-time-v3>ul>li {
     color: #303838;
@@ -58197,11 +58199,12 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         padding-left: 8px;
         border: 1px solid rgba(48,56,56,0.5);
         border-radius: 4px;
+        background: #efede4;
     }
     .mini-filters-box-v3 > ul > li {
         box-sizing: border-box;
         display: table-cell;
-        padding: 6px 0 3px 8px;
+        padding: 6px 0 0 8px;
         vertical-align: top;
     }
 

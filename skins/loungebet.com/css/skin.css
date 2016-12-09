@@ -24913,13 +24913,18 @@ label.reg-cup-register-j:nth-of-type(even) {
 }
 
 .block-slider.popup .form-register-layout.signin .button-sign {
+    width: 100%;
     float: left;
     margin: 0;
     padding: 0;
 }
+.block-slider.popup .form-register-layout.signin .button-sign ul {
+    float: none;
+}
 
 .block-slider.popup .form-register-layout.signin .button-sign ul li {
-    margin: 0 85px 0 0;
+    margin: 0 auto;
+    float: none;
 }
 
 .block-slider.popup .form-register-layout.signin .button-sign ul li a {

@@ -46560,6 +46560,16 @@ top-game-block {
     margin: 0 0 1px;
 }
 
+.zero-fav {
+    cursor: pointer;
+    pointer-events: hover;
+}
+.zero-fav .sports-item-v3 .sport-games-count-v3,
+.zero-fav .sports-item-v3.active .sport-games-count-v3,
+.zero-fav .sports-item-v3:hover .sport-games-count-v3 {
+    right: 0;
+}
+
 .sports-item-v3:before, .single-game-item-v3:before {
     box-sizing: border-box;
     content: "" !important;

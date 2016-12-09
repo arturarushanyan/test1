@@ -1,17 +1,17 @@
-<div class="left-nav-view-v3 favorite-nav" ng-show="myGames.length">
+<div class="left-nav-view-v3 favorite-nav"  ng-class="{'zero-fav': !myGames.length}" ng-show="myGames.length || !myGames.length ">
     <ul>
         <li>
             <div class="
                     sports-item-v3 {{sport.alias}}
-                    {{leftMenuState.favorites.expanded ? 'active' : ''}}
+                    {{(leftMenuState.favorites.expanded && myGames.length)? 'active' : ''}}
                 "
                  ng-click="leftMenuState.favorites.expanded = !leftMenuState.favorites.expanded; leftMenuClosed ? toggleLeftMenu() : void()">
                 <div class="sport-icon-v3 favorite-nav-icon-v3"></div>
                 <p>{{'Favorite games'|translate}}</p>
                 <div class="sport-games-count-v3">
-                    <span ng-show="myGames.length">{{myGames.length}}</span>
+                    <span ng-show="myGames.length>=0">{{myGames.length}}</span>
                 </div>
-                <div class="arrow-view-left"></div>
+                <div class="arrow-view-left" ng-show="myGames.length>0"></div>
             </div>
 
 

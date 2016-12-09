@@ -24929,6 +24929,15 @@ label.reg-cup-register-j:nth-of-type(even) {
     padding: 0;
     position: relative;
     font-weight: 500;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+.block-slider.popup .form-register-layout.signin .button-sign ul li a:hover {
+    color: #42454e;
+    text-decoration: underline;
 }
 
 .block-slider.popup .form-register-layout.signin .button-sign ul li.create-account-icon a:before {

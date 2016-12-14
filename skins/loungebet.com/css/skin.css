@@ -56999,6 +56999,7 @@ div.slider-image-wrapper-b {
     padding: 0 50px 0 30px;
     transition: none;
 }
+
 .single-events-b-v3 {
     box-sizing: border-box;
     float: left;
@@ -61885,6 +61886,9 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         font: 13px/16px Arial, Helvetica, sans-serif;
         font-weight: bold;
     }
+    .terms-faq ul li:nth-child(1), .terms-faq ul li:nth-child(2), .terms-faq ul li:nth-child(3), .terms-faq ul li:nth-child(4) {
+        display: none;
+    }
 
     .terms-faq ul li a{
         text-decoration: none;
@@ -61910,26 +61914,20 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
     .help-landing .terms-faq {
         max-height: 60px;
-        background: #f6f5ed;
         overflow: hidden;
         margin-left: 10px;
         margin-right: 10px;
-        border: 1px solid #bec0c6;
-        border-radius: 4px 4px 0 0;
         border-bottom: none;
-        position: fixed;
-        margin-top: calc(60% - 60px);
     }
 
     .help-landing .terms-faq ul {
-        margin-left: 0;
+        margin-left: 217px;
     }
 
     .help-landing .terms-faq ul li {
         margin: 0;
-        font: 14px/16px Arial, Helvetica, sans-serif;
+        font: 12px/16px Arial, Helvetica, sans-serif;
         font-weight: bold;
-        border-right: 1px solid #bec0c6;
     }
 
     .help-landing .terms-faq ul li a {
@@ -61938,7 +61936,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     .help-landing .terms-faq ul li.active {
-        box-shadow: 0 4px 0 #ff8067 inset;
         background: #fffef6;
     }
 

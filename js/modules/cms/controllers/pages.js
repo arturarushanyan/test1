@@ -339,7 +339,7 @@ angular.module('CMS').controller('cmsPagesCtrl', ['$location', '$rootScope', '$s
      */
     $scope.openHelpPage = function openHelpPage(slug, from) {
         if (Config.main.openHelpAsPopup === 'popup') {
-            $window.open('#/popup/?action=help&page=' + slug, Config.main.skin + 'help.popup', "scrollbars=1,width=1000,height=532,resizable=yes");
+            $window.open('#/popup/?action=help&page=' + slug, Config.main.skin + 'help.popup', "scrollbars=1,width=1000,height=568");
         } else if (Config.main.openHelpAsPopup === 'all' || (Config.main.openHelpAsPopup && from !== 'footer')) {
             var userId = $rootScope.profile && $rootScope.profile.unique_id ? $rootScope.profile.unique_id : '';
             $window.open('#/popup/?u=' + userId + '&action=help&page=' + slug, Config.main.skin + 'help.popup', "scrollbars=1,width=1900,height=1000,resizable=yes");

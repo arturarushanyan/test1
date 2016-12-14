@@ -68,17 +68,17 @@
                                             <p trans>Please verify your account to be able to log in.</p>
                                         </div>
                                     </div>
+
+                                    <div class="button-confirm">
+                                            <vbet-loader class="small-progress" ng-show="busy"></vbet-loader>
+                                            <button name="" type="submit" value="{{({true:'Verify', false:'Sign in'}[params.needVerification])|translate}}" ng-disabled="busy || forms.signinform.$invalid || forms.signinform.$pristine" ng-class="{loading:busy}"  trans>Sign in</button>
+                                    </div>
                                     <div class="button-sign">
                                         <ul ng-hide="!conf.registration.enable || conf.disableRegistrationAndLogin">
                                             <li class="create-account-icon"><a ng-click="env.showSlider = true; env.sliderContent = 'registrationForm';$event.stopPropagation()" trans>Create an account</a></li>
                                             <li class="forgot-password-icon"><a ng-click="env.showSlider = true; env.sliderContent = 'forgotPasswordForm';$event.stopPropagation()" title="Forgot your password?" trans>Forgot your password?</a></li>
                                         </ul>
                                     </div>
-                                    <div class="button-confirm">
-                                            <vbet-loader class="small-progress" ng-show="busy"></vbet-loader>
-                                            <button name="" type="submit" value="{{({true:'Verify', false:'Sign in'}[params.needVerification])|translate}}" ng-disabled="busy || forms.signinform.$invalid || forms.signinform.$pristine" ng-class="{loading:busy}"  trans>Sign in</button>
-                                    </div>
-
                                 </form>
                              </div>
                             <div class="live-chat-b-contain">

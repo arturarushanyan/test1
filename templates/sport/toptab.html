@@ -1,12 +1,33 @@
 <!--Menu-->
-<div class="subtop-header-menu-j">
+<div class="subtop-header-menu-j" ng-class="{'poker' : isInPoker()}">
 
-    <ul>
-        <li ng-if="(menu.enabled || conf[menu.enabledConfig]) && (!menu.exceptViews || menu.exceptViews.indexOf(conf.sportsLayout) === -1)"
+    <ul ng-show="isInSports()">
+        <li ng-if="(menu.enabled || conf[menu.enabledConfig]) && (!menu.exceptViews || menu.exceptViews.indexOf(conf.sportsLayout) === -1 )"
             ng-repeat="menu in conf.subHeaderItems track by menu.alias" ng-class="{'active': $location.path() === '/' + menu.alias + '/'}">
             <a ng-if="!menu.url" ng-href="{{$location.path() === '/' + menu.alias + '/' ? $location.absUrl() + '#' : '#/' + menu.alias }}">{{menu.displayName|translate}}</a>
             <a ng-if="menu.url" ng-href="{{menu.url}}" ng-click="$event.stopPropagation()" target="_blank">{{menu.displayName|translate}}</a>
         </li>
+    </ul>
+
+    <ul ng-show="isInCasino()">
+        <li ng-if="(menu.enabled || conf[menu.enabledConfig]) && (!menu.exceptViews ||  menu.exceptViews.indexOf(conf.casino) === -1)"
+            ng-repeat="menu in conf.subHeaderItemsCasino track by menu.alias" ng-class="{'active': $location.path() === '/' + menu.alias + '/'}">
+            <a ng-if="!menu.url" ng-href="{{$location.path() === '/' + menu.alias + '/' ? $location.absUrl() + '#' : '#/' + menu.alias }}">{{menu.displayName|translate}}</a>
+            <a ng-if="menu.url" ng-href="{{menu.url}}" ng-click="$event.stopPropagation()" target="_blank">{{menu.displayName|translate}}</a>
+        </li>
+        <li>
+            <a trans>Tournaments</a>
+        </li>
+        <li>
+            <a trans>Promotions</a>
+        </li>
+        <li>
+            <a trans>News</a>
+        </li>
+    </ul>
+
+    <ul ng-show="isInPoker()">
+
     </ul>
 
     <!--Clock-->
@@ -49,7 +70,7 @@
              ng-show="(conf.availableLanguages|count) > 1"
              hide-on-click state-flag-var="headerVersion2Icons.languageIsToggled">
             <div class="settings-icon-contain leng-b selected-{{env.lang}}" ng-click="headerVersion2Icons.languageIsToggled = !headerVersion2Icons.languageIsToggled"  title="Languages">
-                <span>{{conf.availableLanguages[env.lang].short}}</span>
+              <span class="lang_switch {{conf.availableLanguages[env.lang].code}}" title="lang.full|translate"></span>
             </div>
 
             <div class="nav-open-view-contain">
@@ -62,7 +83,10 @@
                             <div class="drop-items-contain-b">
                                 <ul>
                                     <li ng-repeat="lang in sortedAvailableLanguages track by lang.code"
-                                        ng-click="selectLanguage(lang.code)" ng-class="{'active': lang.code === env.lang}" class="{{lang.code}}">{{ lang.full|translate }}</li>
+                                        ng-click="selectLanguage(lang.code)" ng-class="{'active': lang.code === env.lang}" class="lang_switch {{lang.code}}">
+                                        <span class="flag-view-v3 flag-{{::region.alias | removeUselessSymbolsByRegexp: '[, ]+': 'g'}}"></span>
+                                        {{ lang.full|translate }}
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -73,7 +97,7 @@
         <!--Language END-->
 
         <!--Settings-->
-        <ng-include class="settings-include-contain" src="getTemplate('templates/header/version_' + conf.header.version + '/settings.html')"
+        <ng-include ng-show="isInSports()" class="settings-include-contain" src="getTemplate('templates/header/version_' + conf.header.version + '/settings.html')"
                     ng-if="(conf.enableSettings.authorized && env.authorized) || (conf.enableSettings.notAuthorized && !env.authorized)" ng-init="settingsInit()" hide-on-click state-flag-var="headerVersion2Icons.settingsIsToggled" ></ng-include>
         <!--Settings END-->
 

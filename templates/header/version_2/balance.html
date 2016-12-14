@@ -2,9 +2,8 @@
 <div class="separator-contain-nav user-nav-view-b new-size {{headerVersion2Icons.balanceIsToggled ? 'active' : ''}}"
      hide-on-click state-flag-var="headerVersion2Icons.balanceIsToggled">
     <div class="settings-icon-contain balance-box" no-animate
-         ng-show="(conf.GmsPlatform && !conf.GmsPlatformMultipleBalance) || (!isInCasino() && !isInPoker())"
+         ng-show="(conf.GmsPlatform && !conf.GmsPlatformMultipleBalance) || (!isInCasino() && !isInLivedealer() && !isInPoker())"
          ng-class="{'bonus': profile.bonus_balance !== undefined && profile.calculatedBonus !== 0}"
-         "
          id="wallet">
         <ul>
             <li>
@@ -20,9 +19,8 @@
     </div>
     <div ng-controller="casinoLoginCtrl" class="settings-icon-contain balance-box" no-animate
          ng-if="::((!conf.GmsPlatform || conf.GmsPlatformMultipleBalance) && (casinoEnabled || conf.pokerEnabled) && availableModules.indexOf('casino') > -1)"
-         ng-show="(env.casinoBalance !== undefined || conf.GmsPlatformMultipleBalance) && (isInCasino() || isInPoker()) || !conf.sportEnabled"
-         ng-class="{'bonus': (env.casinoBalance.bonus || env.casinoBalance.bonus_balance)}"
-         ">
+         ng-show="(env.casinoBalance !== undefined || conf.GmsPlatformMultipleBalance) && (isInCasino() || isInLivedealer()|| isInPoker()) || !conf.sportEnabled"
+         ng-class="{'bonus': (env.casinoBalance.bonus || env.casinoBalance.bonus_balance)}">
         <!--delete "env.casinoBalance.bonus" after sworm update for all sites-->
         <span class="balance-view-off" ng-show="!env.hideBalance">
             {{conf.showOnlyMainBalance ? profile.calculatedBalance : conf.GmsPlatformMultipleBalance ? profile.casino_balance : env.casinoBalance.balance|number:conf.balanceFractionSize }}

@@ -16,7 +16,7 @@ VBET5.constant('SkinConfig', {
         siteTitle: {
             "por": "Loungebet - Sport betting, Casino, Online Games",
             "eng": "Loungebet - Sport betting, Casino, Online Games",
-            "esp": "Loungebet - Sport betting, Casino, Online Games",
+            "spa": "Loungebet - Sport betting, Casino, Online Games",
             "ita": "Loungebet - Sport betting, Casino, Online Games",
             "rus": "Букмекерская контора Loungebet - Онлайн ставки, покер, казино, онлайн игры",
             "tur": "Loungebet - Sport betting, Casino, Online Games",
@@ -102,6 +102,50 @@ VBET5.constant('SkinConfig', {
                 enabledConfig: "showResultsTabInSportsbook"
             }
         ],
+        subHeaderItemsCasino: [
+            {
+                alias: "casino",
+                displayName: "Lobby",
+                enabled: true
+            }
+        ],
+        subHeaderItemsPoker: [
+            {
+                alias: "poker",
+                displayName: "Home",
+                enabled: true
+            },
+            {
+                alias: "specialoffers",
+                displayName: "Special Offers",
+                enabled: true
+            },
+            {
+                alias: "news",
+                displayName: "Hold'em",
+                enabled: true
+            },
+            {
+                alias: "results",
+                displayName: "All-In or Fold",
+                enabled: true
+            },
+            {
+                alias: "overview",
+                displayName: "Omaha",
+                enabled: true
+            },
+            {
+                alias: "multiview",
+                displayName: "Fortune Spin",
+                enabled: true
+            },
+            {
+                alias: "sport",
+                displayName: "Tournament",
+                enabled: true
+            }
+        ],
         enableLayoutSwitcherInSportsbook: true,
         enableHomePageBottomBanner: false, //show banner from Wordpress instead Tournaments
         homePageLastMinuteBets: {
@@ -146,7 +190,7 @@ VBET5.constant('SkinConfig', {
         hidePokerLeaderboardAllButton: true,
         gameMenuSpecialText: '',
         enableNewPoker: true,
-        rememberMeCheckbox: false,
+        rememberMeCheckbox: true,
         enableNewSkillGame: true,
         disableInternalMessageSending: true,
         liveDealerEnabled: true,
@@ -154,7 +198,12 @@ VBET5.constant('SkinConfig', {
         countOfRecentBetsToShow: 3,
         //statsHostname: 'http://statistics.betconstruct.com/#/en/external/page/',  // hostname for statistics. when clicking on game statistics icon, popup on this hostname is open,
         headerStatisticsLink: 'https://statistics.loungebet.com',
-        headerPokerLink: 'http://contents.good-game-network.com/leaflet/loungebet/',
+        headerPokerLink: {
+            home: 'http://contents.good-game-network.com/leaflet/loungebet/main/',
+            so:  'http://contents.good-game-network.com/leaflet/loungebet/specialoffers/',
+            hd:  'http://contents.good-game-network.com/leaflet/loungebet/holdemgamerules/',
+            aof:  'http://contents.good-game-network.com/leaflet/loungebet/holdemgamerules/'
+        },
         enableH2HStat: true,
         jackpotEnabled: false,
         newMenuItems: {virtualSport:true, games:false, liveCasino:false, fantasy: true},
@@ -239,7 +288,7 @@ VBET5.constant('SkinConfig', {
         redirectOnTablets: 'https://mobile.loungebet.com/',
         about_company_text: {
             eng : '',
-            rus : ''  
+            rus : ''
         },
         //flashVersionLink: {
         //    eng: 'https://inplay.loungebet.com/inplay/?language=en',
@@ -250,14 +299,14 @@ VBET5.constant('SkinConfig', {
         menuOrder: ['sport', 'live',  'casino', 'livedealer'],
         menuItems: [
             // {
-               //title: "Promotions", link: "#/promos/", cssclass: ''
+            //title: "Promotions", link: "#/promos/", cssclass: ''
             // },
             //{name: 'Financial', displayName: 'Financials', href: '#/game/TLCTLC/provider/TLC/exid/14000'}
         ],
         liveChat: null,
 
         site_id: "401",
-         registration: {
+        registration: {
             defaultCurrency: 'EUR',
             simplified:true,
             restrictedCountries: {},
@@ -317,7 +366,7 @@ VBET5.constant('SkinConfig', {
 
     regConfig: {
         step1: [
-             {
+            {
                 "title": "Username",
                 "name": "username",
                 "placeholder": "Enter here",
@@ -554,18 +603,18 @@ VBET5.constant('SkinConfig', {
                     "validation": []
                 }
                 /*
-                ,
-                {
-                    "title": "Please enter the text shown on image",
-                    "name": "captcha_text",
-                    "type": "captcha",
-                    "placeholder": "",
-                    "required": true,
-                    "classes": "form-text",
-                    "customAttrs": [{"required": "required"}],
-                    "validation": [{"name": "required", "message": "This field is required"}, {"name": "notmatching", "message": "Text you've entered doesn't match text on image."}]
-                }
-                */
+                 ,
+                 {
+                 "title": "Please enter the text shown on image",
+                 "name": "captcha_text",
+                 "type": "captcha",
+                 "placeholder": "",
+                 "required": true,
+                 "classes": "form-text",
+                 "customAttrs": [{"required": "required"}],
+                 "validation": [{"name": "required", "message": "This field is required"}, {"name": "notmatching", "message": "Text you've entered doesn't match text on image."}]
+                 }
+                 */
             ]
         }
     },

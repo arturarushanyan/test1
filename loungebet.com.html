@@ -221,6 +221,7 @@ mixpanel.init("26ffd03c9c3e00454a98014946d5e396");</script>
         <script src="js/modules/vbet5/directives/progressbar.js"></script>
         <script src="js/modules/vbet5/directives/euro2016/multiview.js"></script>
         <script src="js/modules/vbet5/directives/subMenuCreator.js"></script>
+        <script src="js/modules/vbet5/directives/mbScrollbar.js"></script>
 
         <script src="js/modules/vbet5/filters/firstElement.js"></script>
         <script src="js/modules/vbet5/filters/translate.js"></script>
@@ -377,7 +378,7 @@ mixpanel.init("26ffd03c9c3e00454a98014946d5e396");</script>
 <div class="contain-footer tpl-container lang-{{env.lang + ' ' + $location.path().split('/').join('')}}"
      id="footerContainer"
      ng-include="getTemplate('templates/footer.html')"
-     ng-hide="$location.path() !='/popup/' || $location.path() !='/'"
+     ng-hide="$location.path() ==='/popup/' || $location.path() ==='/'"
      ng-class="{'full-screen' : casinoGameOpened, 'no-footer-nav': conf.disableFooterNav,'classic': conf.sportsLayout === 'classic', 'sb': conf.sportsLayout === 'external', 'footer-open': footerOpen, 'no-animations': conf.noAnimations, 'footer-movable' : footerMovable}"></div>
 </body>
 </html>

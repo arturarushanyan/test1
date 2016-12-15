@@ -659,6 +659,9 @@ body{
     display: block;
     position: relative;
 }
+.category-nav ul li:nth-child(5),.category-nav ul li:nth-child(6),.category-nav ul li:nth-child(7){
+    display: none;
+}
 .category-nav ul li.Poker:before{
     display: none;
 }

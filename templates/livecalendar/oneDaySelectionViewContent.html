@@ -39,18 +39,18 @@
 </div>
 <vbet-loader ng-show="gamesAreLoading"></vbet-loader>
 <div class="live-calendar-16-scroll-fix-j">
+    <div  mb-scrollbar="scrollbar('vertical', true)" style="height: 100%">
+        <div class="live-calendar-16-content-j" ng-show="!gamesAreLoading && liveCalendarAllGames.length === 0">
+            <ul class="filter-j">
+                <li class="sport-column-j">
+                    <div class="ellipsis-text">
+                        <span trans>No games found</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
 
-    <div class="live-calendar-16-content-j" ng-show="!gamesAreLoading && liveCalendarAllGames.length === 0">
-        <ul class="filter-j">
-            <li class="sport-column-j">
-                <div class="ellipsis-text">
-                    <span trans>No games found</span>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-    <div class="live-calendar-16-content-j" ng-show="!gamesAreLoading && liveCalendarAllGames.length > 0">
+        <div class="live-calendar-16-content-j" ng-show="!gamesAreLoading && liveCalendarAllGames.length > 0">
         <ul class="filter-j">
             <li class="sport-column-j">
                 <div class="ellipsis-text">
@@ -165,5 +165,6 @@
                 </div>
             </li>
         </ul>
+    </div>
     </div>
 </div>

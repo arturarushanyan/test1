@@ -36499,21 +36499,6 @@ input[type="password"]:focus ~ .capslock-is-on-j {
     overflow-x: hidden;
 
 }
-.live-calendar-16-scroll-fix-j::-webkit-scrollbar-track {
-    border-radius: 10px;
-}
-.live-calendar-16-scroll-fix-j::-webkit-scrollbar {
-    width: 4px;
-    background: #212531;
-    border-radius: 10px;
-}
-.live-calendar-16-scroll-fix-j::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background: #505768;
-}
-.live-calendar-16-scroll-fix-j::-webkit-scrollbar-thumb:hover {
-    background: #5e6678;
-}
 @media screen and (max-width: 990px) {
     .live-calendar-16-scroll-fix-j {
         float: left;
@@ -46897,7 +46882,7 @@ top-game-block {
     top: 0;
     left: 0;
     height: 100%;
-    overflow-y: scroll;
+    overflow-y:hidden;
     overflow-x: hidden;
 
     transform: translate3d(0, 0, 0);
@@ -46946,7 +46931,8 @@ top-game-block {
 .all-game-info-container-v3 {
     box-sizing: border-box;
     float: left;
-    width: 100%;
+    width: calc( 100% - 8px);
+    height: 100%;
 }
 
 .statistic-view-v3 {
@@ -49329,6 +49315,7 @@ top-game-block {
     float: left;
     width: 100%;
     height: calc(100% - 80px) !important;
+    margin-top: 2px;
 }
 .betslip-all-events-list-v3 .ngscroll-resizable {
     overflow: hidden;
@@ -57226,6 +57213,10 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     .multiview-contain.has-statistics .multi-view-game-info-v3 {
         box-sizing: border-box;
         height: 292px;
+        overflow: hidden;
+    }
+    .multiview-contain.has-statistics .multi-view-game-info-v3 .ngscroll-scrollbar-container {
+        right: 0 !important;
     }
     .multi-view-statistic-v3 {
         box-sizing: border-box;

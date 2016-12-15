@@ -31149,11 +31149,7 @@ label.results-live-j input:checked + i:before {
 
 .todays-results-j-contain {
     height: calc( 100vh - 116px);
-    overflow-x: hidden;
-    overflow-y: auto;
-    overflow-y: auto;
-    overflow-x: hidden;
-
+    overflow: hidden;
 }
 
 .todays-results-j-contain .md-progress-circular {
@@ -48444,10 +48440,17 @@ top-game-block {
     left: 0;
     top: 38px;
     right: 0;
+    overflow: hidden;
 }
-
+.livecalendar .classic-view-wrapper-v3 .center-column-v3 .live-calendar-16-scroll-fix-j .ngscroll-container ,
+.centr-market-contain .scroll-contain .ngscroll-container
+{    width: calc( 100% - 4px) !important;}
 .livecalendar .animation-video-box-v3 {
     display: none;
+}
+
+.animation-video-box-v3 + .betslip-include-v3 .batslip-contain-fixed-v3 .betslip-all-events-list-v3 > div {
+    height: auto !important;
 }
 
 .single-events-b-v3.blocked {
@@ -51202,6 +51205,8 @@ top-game-block {
     color: #ffffff;
 }
 
+.no-scrollbar .ngscroll-resizable .ngscroll-scrollbar-container {display:none;}
+.has-scrollbar .ngscroll-resizable .ngscroll-scrollbar-container {display:block;}
 
 @media screen and (max-width: 1279px) {
     .prematch-games-list {
@@ -51455,12 +51460,15 @@ top-game-block {
     box-sizing: border-box;
     float: left;
     width: 100%;
+    height: 100%;
 }
 
 .game-center-container-multi-v3 {
     box-sizing: border-box;
     float: left;
     width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .multiview-wrapper-v3 {
@@ -57216,7 +57224,11 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         height: 292px;
         overflow: hidden;
     }
-    .multiview-contain.has-statistics .multi-view-game-info-v3 .ngscroll-scrollbar-container {
+    .multiview-contain.has-statistics .multi-view-game-info-v3 .ngscroll-scrollbar-container,
+    .live-calendar-16-scroll-fix-j .ngscroll-scrollbar-container ,
+    .centr-market-contain .scroll-contain .ngscroll-scrollbar-container ,
+    .right-betslip-contain .scroll-contain .ngscroll-scrollbar-container,
+    .game-center-container-multi-v3 .ngscroll-scrollbar-container{
         right: 0 !important;
     }
     .multi-view-statistic-v3 {

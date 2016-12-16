@@ -46865,9 +46865,65 @@ top-game-block {
 }
 
 
+.contacts-blog {
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+.contacts-blog .top-text{
+    padding: 8px 65px;
+    background-color: rgba(48,61,77,.5);
+    transform: skewX(50deg);
+    position: relative;
+    right: -18px;
+}
+.contacts-blog .top-text p {
+    color: white;
+    transform: skewX(-50deg);
+    font: 16px/24px Ubuntu, Arial, Helvetica sans-serif;
+}
 
-
-
+.contacts-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    float: right;
+}
+.contacts-buttons .btn-contact {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+.contacts-buttons .btn-contact .icon {
+    font-size: 25px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 1px 2px;
+    line-height: 27px;
+}
+.contacts-buttons .btn-contact .icon.icon-whatsapp {
+    font-size: 39px;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+.contacts-buttons .btn-contact .btn-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 4px 0 8px;
+}
+.contacts-buttons .btn-contact .btn-text span:first-of-type {font-size:12px;color:white;letter-spacing: 1px;}
+.contacts-buttons .btn-contact .btn-text span:last-of-type {font-size:9px;color:white}
+.contacts-buttons .btn-contact.mail {background-color: #ff8067;}
+.contacts-buttons .btn-contact.tel {background-color: #5ab36b;}
 
 
 .games-view-wrapper-v3, .game-pinned.dashboard .games-view-wrapper-v3, .multiview .game-pinned .games-view-wrapper-v3 {
@@ -47190,6 +47246,14 @@ top-game-block {
     content: "\e68a";
     color: #028947;
 }
+
+.icon-mail-envelope-closed:before {
+    content: "\e94a";
+}
+.icon-whatsapp:before {
+    content: "\e900";
+}
+
 /*
 
 .link-icon-market-v3:before {

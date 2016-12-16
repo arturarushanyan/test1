@@ -46888,8 +46888,16 @@ top-game-block {
 .games-view-wrapper-v3.has-statistics,
 .game-pinned .games-view-wrapper-v3 {
     box-sizing: border-box;
-    overflow: inherit;
+    overflow: hidden;
 }
+.game-pinned .all-game-info-container-v3 > div > .ngscroll-resizable > .ngscroll-container {height: 100% !important; margin-top: 0 !important;}
+.game-pinned .all-game-info-container-v3 > div > .ngscroll-resizable > .ngscroll-scrollbar-container ,
+.game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:last-of-type  { display:none !important;  }
+.game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:first-of-type {
+    display: block !important;
+    overflow: hidden;
+}
+.game-pinned .all-game-info-container-v3 .live-events-view-v3 {height: calc(100% - 225px)}
 
 .game-pinned.prematch .games-view-wrapper-v3.prematch-view-v3 .all-game-info-container-v3,
 .games-view-wrapper-v3.prematch-view-v3.open > .all-game-info-container-v3,
@@ -57228,7 +57236,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     .live-calendar-16-scroll-fix-j .ngscroll-scrollbar-container ,
     .centr-market-contain .scroll-contain .ngscroll-scrollbar-container ,
     .right-betslip-contain .scroll-contain .ngscroll-scrollbar-container,
-    .game-center-container-multi-v3 .ngscroll-scrollbar-container{
+    .game-center-container-multi-v3 .ngscroll-scrollbar-container ,
+    .game-pinned .all-game-info-container-v3 .live-events-view-v3 .ngscroll-scrollbar-container{
         right: 0 !important;
     }
     .multi-view-statistic-v3 {

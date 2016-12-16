@@ -60219,6 +60219,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         display: flex;
         -webkit-justify-content: center;
         -webkit-flex-direction: row;
+        justify-content: center;
+        flex-direction: row;
     }
     .product {
         float: left;
@@ -60248,6 +60250,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         font: 24px/48px Ubuntu, Arial, Helvetica, sans-serif;
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
+        border-radius: 5px;
     }
     .product-wrap-new {
         position: relative;
@@ -60365,16 +60368,16 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
     #top-part {
         position: relative;
-        text-shadow: 0px 0px 25px #5b5c5c;
-        display: -webkit-flex;
-        -webkit-flex-direction: column;
+        text-shadow: 0 0 25px #5b5c5c;
+        display: flex;
+        flex-direction: column;
         height: calc(100vh - 440px);
         align-items: center;
-        -webkit-justify-content: center;
+        justify-content: center;
     }
     .site-title {
-        display: -webkit-flex;
-        -webkit-flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
     .welcome {
         text-transform: uppercase;
@@ -60428,14 +60431,13 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     .signin-reg-buttons-landing > ul {
-        float: left;
         box-sizing: border-box;
     }
 
     .signin-reg-buttons-landing > ul > li {
-        float: left;
         box-sizing: border-box;
         margin-right: 20px;
+        text-align : center;
     }
 
     .signin-reg-buttons-landing > ul > li  > button,

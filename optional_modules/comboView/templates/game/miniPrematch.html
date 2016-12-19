@@ -26,9 +26,8 @@
         </li>
         <li>
             <div class="all-markets-button-b"
-                ng-click="!getGame().additionalEvents ?  $event.stopPropagation() : openGameView(getGame())"
-            >
-                <p>{{getGame().additionalEvents ? '+' + getGame().additionalEvents : '0'}}</p>
+                ng-click="!getGame().additionalEvents ?  $event.stopPropagation() : openGameView(getGame())">
+                <p ng-show="conf.combo.showMoreOdds && getGame().additionalEvents" trans>More odds</p><p ng-show="!conf.combo.showMoreOdds">{{getGame().additionalEvents ? '+' + getGame().additionalEvents : '0'}}</p>
             </div>
         </li>
     </ul>

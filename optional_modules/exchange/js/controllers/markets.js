@@ -461,7 +461,7 @@ angular.module('exchange').controller('markets', ['$rootScope', '$scope', 'Zergl
                             GameInfo.updateGameStatistics($scope.openGame);
                             GameInfo.extendLiveGame($scope.openGame);
                             $scope.dotaGamesList = GameInfo.dotaGamesList;
-                            if($scope.openGame.sport.alias === "Soccer") {
+                            if($scope.openGame.sport.alias === "Soccer" || $scope.openGame.sport.alias === "CyberFootball") {
                                 GameInfo.generateTimeLineEvents($scope.openGame, $scope);
 
                                 // if ($scope.openGame.live_events) { //need this for sorting
@@ -866,8 +866,7 @@ angular.module('exchange').controller('markets', ['$rootScope', '$scope', 'Zergl
         }
     };
 
-    $scope.changeStatsMode = function changeStatsMode() {
-        $scope.flipMode = $scope.flipMode || 0;
-        $scope.flipMode = ($scope.flipMode + 1) % 3;
-    }
+    $scope.changeStatsMode = function changeStatsMode(mode) {
+        $scope.flipMode = mode;
+    };
 }]);

@@ -1,4 +1,4 @@
-<div ng-controller="casinoSpecialGamesCtrl" ng-init="loadGame('financials');activePage='Version 1'">
+<div ng-controller="casinoSpecialGamesCtrl" ng-init="loadGame('financials');checkIfEnabled('financials');setTitle('Financials');activePage='Version 1'">
     <ng-include src="getTemplate('templates/finbet/toptab.html')"></ng-include>
     <div ng-include="getTemplate('optional_modules/casino/templates/specialgames/main.html')"></div>
 </div>

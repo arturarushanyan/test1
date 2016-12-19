@@ -60269,6 +60269,28 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         z-index: 1;
     }
     .title-line:before {
+         content: '';
+         display: block;
+         position: absolute;
+         top: 0;
+         right: 0;
+         left: -48px;
+         bottom: 0;
+         background: #ff8067;
+         -webkit-transform: skew(50deg, 0deg);
+         /*-moz-transform: skew(-30deg, 0deg);*/
+         /*-ms-transform: skew(-30deg, 0deg);*/
+         transform: skew(50deg, 0deg);
+         z-index: -1;
+     }
+    .contacts-title-line{
+        position: relative;
+        height: 40px;
+        min-width: 340px;
+        left: 25px;
+        z-index: 1;
+    }
+    .contacts-title-line:before {
         content: '';
         display: block;
         position: absolute;
@@ -60276,7 +60298,22 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         right: 0;
         left: -48px;
         bottom: 0;
-        background: #ff8067;
+        background: rgba(48, 61, 77, 0.5);
+        -webkit-transform: skew(50deg, 0deg);
+        /*-moz-transform: skew(-30deg, 0deg);*/
+        /*-ms-transform: skew(-30deg, 0deg);*/
+        transform: skew(50deg, 0deg);
+        z-index: -1;
+    }
+    .contacts-title-line:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: -48px;
+        bottom: 0;
+        background: rgba(48, 61, 77, 0.5);
         -webkit-transform: skew(50deg, 0deg);
         /*-moz-transform: skew(-30deg, 0deg);*/
         /*-ms-transform: skew(-30deg, 0deg);*/
@@ -60286,6 +60323,12 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     #bottom-part {
         position: absolute;
         top: -40px
+    }
+    #top-part-contacts {
+        position: absolute;
+        top: 0;
+        float: right;
+        right: 49px ;
     }
     #footer{
         position: relative;
@@ -61333,6 +61376,14 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         width: 42px;
         height: 42px;
         box-shadow: none;
+    }
+    .license > a {
+        position: relative;
+        display: inline-block;
+        width: 42px;
+        height: 42px;
+        box-shadow: none;
+        background: url("../images/ceg-logo.png") no-repeat 0 100%;
     }
 
 }

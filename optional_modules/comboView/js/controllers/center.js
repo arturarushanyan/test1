@@ -239,6 +239,8 @@ VBET5.controller('comboViewCenterController', ['$rootScope', '$scope', 'OddServi
                             });
                         });
 
+                        competition.filteredMarkets.sort(Utils.orderSorting);
+
                         gameCallback && gameCallback(game, competition);
 
                         if (game.exclude_ids) {
@@ -352,6 +354,8 @@ VBET5.controller('comboViewCenterController', ['$rootScope', '$scope', 'OddServi
             request.where.game.start_ts = Config.env.gameTimeFilter;
         }
 
+        Utils.setCustomSportAliasesFilter(request);
+
         return request;
     }
 
@@ -385,9 +389,9 @@ VBET5.controller('comboViewCenterController', ['$rootScope', '$scope', 'OddServi
             var marketToReturn = $scope['selectedMarketFor' + type + 'Competition'][competition.id];
 
             if (!marketToReturn && competition.filteredMarketsCount) {
-                var selectedItem = Utils.getItemBySubItemProperty(competition.filteredMarkets, 'type', ['P1XP2']);
+                var selectedItem = Utils.getItemBySubItemProperty(competition.filteredMarkets, 'type', ['P1XP2']) || Utils.getItemBySubItemProperty(competition.filteredMarkets, 'type', ['P1P2']);
                 if (selectedItem) {
-                    return selectedItem.P1XP2;
+                    return selectedItem.P1XP2 || selectedItem.P1P2;
                 } else {
                     return competition.filteredMarkets[0];
                 }
@@ -419,6 +423,7 @@ VBET5.controller('comboViewCenterController', ['$rootScope', '$scope', 'OddServi
             },
             'where': {'game': {'id': game.id}}
         };
+        Utils.setCustomSportAliasesFilter(request);
 
         // 0) update breadcrumb
         $scope.updatePathInComboView(sport, region, competition, game);
@@ -457,7 +462,7 @@ VBET5.controller('comboViewCenterController', ['$rootScope', '$scope', 'OddServi
                 GameInfo.updateGameStatistics($scope.openGame);
                 GameInfo.extendLiveGame($scope.openGame);
 
-                if($scope.openGame.sport.alias === "Soccer") {
+                if($scope.openGame.sport.alias === "Soccer" || $scope.openGame.sport.alias === "CyberFootball") {
                     GameInfo.generateTimeLineEvents($scope.openGame, $scope);
                     GameInfo.addOrderingDataToSoccerGameEvents($scope.openGame);
                 }
@@ -513,9 +518,8 @@ VBET5.controller('comboViewCenterController', ['$rootScope', '$scope', 'OddServi
         });
     };
 
-    $scope.changeStatsMode = function changeStatsMode() {
-        $scope.flipMode = $scope.flipMode || 0;
-        $scope.flipMode = ($scope.flipMode + 1) % 3;
+    $scope.changeStatsMode = function changeStatsMode(mode) {
+        $scope.flipMode = mode;
     };
 
     $scope.toggleItem = function toggleItem(item) {
@@ -681,10 +685,7 @@ VBET5.controller('comboViewCenterController', ['$rootScope', '$scope', 'OddServi
 
         var request = generateRequest(where, ['sport', 'region']);
 
-        if (customSportAliasFilter) {
-            request.where.sport = request.where.sport || {};
-            request.where.sport.alias = {'@in': customSportAliasFilter};
-        }
+
 
         parentMainScope.selectedCentralView = 'liveToday';
         $scope.mainHeaderTitle = 'LIVE TODAY';
@@ -711,10 +712,6 @@ VBET5.controller('comboViewCenterController', ['$rootScope', '$scope', 'OddServi
         var where = {popularGames: true};
         var request = generateRequest(where, ['sport', 'region']);
 
-        if (customSportAliasFilter) {
-            request.where.sport = request.where.sport || {};
-            request.where.sport.alias = {'@in': customSportAliasFilter};
-        }
 
         parentMainScope.selectedCentralView = 'popularEvents';
         $scope.mainHeaderTitle = 'POPULAR';

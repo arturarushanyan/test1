@@ -56,7 +56,7 @@
                                 </li>
                             </ul>
                             <div class="filter-more-button-c" ng-if="competition.moreFilteredMarketsCount" ng-click="competitionLiveFilters[competition.id].expanded = !competitionLiveFilters[competition.id].expanded">
-                                <span>{{competition.moreFilteredMarketsCount}}</span>
+                                <span ng-show="conf.combo.showMoreOdds" trans>More odds</span> <span ng-show="!conf.combo.showMoreOdds">{{competition.moreFilteredMarketsCount}}</span>
                             </div>
                         </div>
                         <div ng-repeat="gameLight in competition.games track by $index" ng-init="game = competition.game[gameLight.id]" class="mini-game-container-template">
@@ -108,7 +108,7 @@
                                     </ul>
                                     <div class="filter-more-button-c" ng-if="competition.moreFilteredMarketsCount"
                                          ng-click="competitionPrematchFilters[competition.id].expanded = !competitionPrematchFilters[competition.id].expanded">
-                                        <span>{{competition.moreFilteredMarketsCount}}</span>
+                                        <span ng-show="conf.combo.showMoreOdds" trans>More odds</span> <span ng-show="!conf.combo.showMoreOdds">{{competition.moreFilteredMarketsCount}}</span>
                                     </div>
                                 </div>
                                 <div ng-repeat="gameLight in competition.games track by $index" ng-init="game = competition.game[gameLight.id]" class="mini-game-container-template">

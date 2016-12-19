@@ -59,10 +59,8 @@ CASINO.directive('casinoLobby', ['$rootScope', '$interval', 'Zergling', 'CConfig
                             noActiveTab = false;
                         }
 
-                        for(var j = 0, tablesLength = scope.casinoLobby[i].Tables.length; j < tablesLength; j++) {
+                        for (var j = 0, tablesLength = scope.casinoLobby[i].Tables.length; j < tablesLength; j++) {
                             var table = scope.casinoLobby[i].Tables[j];
-                            //table.gameId = table.GameId;
-                            //table.gameName = scope.casinoLobby[i].GroupName;
                             table.groupName = scope.casinoLobby[i].GroupName;
                             table.dealerImg = table.DealerImageUrl;
 
@@ -75,6 +73,13 @@ CASINO.directive('casinoLobby', ['$rootScope', '$interval', 'Zergling', 'CConfig
                                 scope.selectedLimits[table.TableId] = scope.casinoLobby[i].Tables[j].Limits[0];
                             }
                             table.selectedLimit = scope.selectedLimits[table.TableId];
+                            for (var k = 0; k < table.Statistics.length; k++) {
+                                table.Statistics[k].styles = {
+                                    'background': table.Statistics[k].BackgroundColor,
+                                    'color': table.Statistics[k].ForegroundColor
+                                }
+                            }
+
                             scope.allTables.push(table);
                         }
                     }

@@ -14,7 +14,7 @@
                                 <div>{{ game.name }}</div>
                                 <div class="play-game-button-search-wrap-j">
                                     <div class="play-game-button-search" trans ng-click="openCasinoGame(game, 'real');$event.stopPropagation();">play now</div>
-                                    <div class="play-game-button-search1" trans ng-show="!game.types.viewMode && game.types.funMode" ng-click="openCasinoGame(game, 'fun');$event.stopPropagation();">Play For Free</div>
+                                    <div class="play-game-button-search1" trans ng-show="!game.types.viewMode && game.types.funMode && cConf.funModeEnabled" ng-click="openCasinoGame(game, 'fun');$event.stopPropagation();">Play For Free</div>
                                     <div class="play-game-button-search1" trans ng-show="game.types.viewMode && !game.types.funMode" ng-click="openCasinoGame(game, 'fun');$event.stopPropagation();">View</div>
                                 </div>
 

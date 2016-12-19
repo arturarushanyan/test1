@@ -17,12 +17,10 @@
         <ng-include src="getTemplate('templates/footer/copyright.html')"></ng-include>
         <ng-include src="getTemplate('templates/footer/links.html')"></ng-include>
         <div class="back-block">
-            <div class="license">
-                <div id="ceg-seal-container" data-ceg-seal-id="2268f7ea3aac49a54df4" data-ceg-image-size="42" data-ceg-image-type="basic-large"></div><script type="text/javascript" src="https://2268f7ea3aac49a54df4.curacao-egaming.com/ceg-seal.js"></script>
-            </div>
+            <div class="license"><a ng-href="https://validator.curacao-egaming.com/95da8696-2dbc-4036-ad41-b61757ddd821" target="_blank"></a></div>
             <div class="old-18-year" ng-show="conf.ageRestrictionInFooter"><p>{{conf.ageRestrictionInFooter}}+</p></div>
             <div class="go-back feedback" ng-show="!env.authorized"><a ng-click="broadcast('feedback.toggle')" trans>Feedback</a></div>
-        <!--    <div class="go-back"><a ng-click="scrollToTop(true)" trans>back to top</a></div> -->
+            <!--    <div class="go-back"><a ng-click="scrollToTop(true)" trans>back to top</a></div> -->
         </div>
     </div>
 

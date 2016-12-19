@@ -116,7 +116,7 @@ CASINO.service('casinoData', ['CConfig', 'Config', '$http', function (CConfig, C
     };
 
     /* used for getting data from cms */
-    casinoData.getGames = function getGames(category, provider, from, to, searchCommand, restrictedGamesIds, gameId, gameExternalId) {
+    casinoData.getGames = function getGames(category, provider, from, to, searchCommand, restrictedGamesIds, gameIds, gameExternalIds) {
         var dataUrl = CConfig.dataUrl + 'getGames?partner_id=' + Config.main.site_id;
         if (category !== null && category !== 'all') {
             dataUrl += '&category=' + category;
@@ -138,11 +138,11 @@ CASINO.service('casinoData', ['CConfig', 'Config', '$http', function (CConfig, C
                 dataUrl += '&except[]=' + restrictedGamesIds[i];
             }
         }
-        if (gameId !== undefined && gameId !== null) {
-            dataUrl += '&id=' + gameId;
+        if (gameIds !== undefined && gameIds !== null) {
+            dataUrl += '&id=' + gameIds.join();
         }
-        if(gameExternalId !== undefined && gameExternalId !== null) {
-            dataUrl += '&external_id=' +gameExternalId;
+        if(gameExternalIds !== undefined && gameExternalIds !== null) {
+            dataUrl += '&external_id=' +gameExternalIds.join();
         }
         return $http.get(dataUrl);
     };

@@ -13,7 +13,7 @@
                 <a ng-href="{{game.downloads.mac}}" ng-if="userOS==='MacOS' && game.downloads.mac"><span trans>DOWNLOAD</span></a>
                 <a ng-href="{{game.downloads.linux}}" ng-if="userOS==='Linux' && game.downloads.linux"><span trans>DOWNLOAD</span></a>
             </p>
-            <p ng-if="game.types.funMode" class="fun-game">
+            <p ng-if="game.types.funMode && cConf.funModeEnabled" class="fun-game">
                 <a class="game-fun-link" ng-click="openGame(game, 'fun')">
                     <span trans>Play For Free</span>
                 </a>
@@ -62,7 +62,7 @@
                         <button ng-click="openGame(game, 'real'); $event.stopPropagation();" ng-if="game.types.realMode">
                             <span trans>Play now</span>
                         </button>
-                        <button ng-if="game.types.funMode" ng-click="openGame(game, 'fun'); $event.stopPropagation();">
+                        <button ng-if="game.types.funMode && cConf.funModeEnabled" ng-click="openGame(game, 'fun'); $event.stopPropagation();">
                             <span trans>Play For Free</span>
                         </button>
                         <button ng-if="game.types.viewMode && !$root.env.authorized" ng-click="openGame(game, 'fun'); $event.stopPropagation();">

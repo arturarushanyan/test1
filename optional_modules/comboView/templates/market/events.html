@@ -6,7 +6,7 @@
             title="{{event.name}}{{displayBase(event, market)}}"
             ng-mouseover="displayEventLimit(event, game, false, market)"
             ng-mouseleave="cancelDisplayEventLimit(event)"
-            ng-class="{'active': isEventInBetSlip(event), 'blocked': (event.price === 1 || game.is_blocked), 'correct-score-empty-cell': !event.price && !event.name}"
+            ng-class="{'active': isEventInBetSlip(event), 'blocked': ((event.price | oddConvert:'decimal') == 1 || game.is_blocked), 'correct-score-empty-cell': !event.price && !event.name}"
             ng-click="bet()(event, game, sport.id, region.id, competition.id, market, sport.alias); $event.stopPropagation();"
         >
             <div class="small-title-event-b"></div>
@@ -26,7 +26,7 @@
             title="{{event.name}}{{displayBase(event, market)}}"
             ng-mouseover="displayEventLimit(event, game, false, market)"
             ng-mouseleave="cancelDisplayEventLimit(event)"
-            ng-class="{'active': isEventInBetSlip(event), 'blocked': (event.price === 1 || game.is_blocked)}"
+            ng-class="{'active': isEventInBetSlip(event), 'blocked': ((event.price | oddConvert:'decimal') == 1 || game.is_blocked)}"
             ng-show="event && event.name"
             ng-click="bet()(event, game, sport.id, region.id, competition.id, market, sport.alias); $event.stopPropagation();"
         >
@@ -47,7 +47,7 @@
             title="{{event.name}}"
             ng-mouseover="displayEventLimit(event, game, false, market)"
             ng-mouseleave="cancelDisplayEventLimit(event)"
-            ng-class="{'active': isEventInBetSlip(event), 'blocked': (event.price === 1 || game.is_blocked)}"
+            ng-class="{'active': isEventInBetSlip(event), 'blocked': ((event.price | oddConvert:'decimal') == 1 || game.is_blocked)}"
             ng-show="event && event.name"
             ng-click="bet()(event, game, sport.id, region.id, competition.id, market, sport.alias); $event.stopPropagation();"
         >
@@ -66,7 +66,7 @@
             title="{{event.name}}{{displayBase(event, market)}}"
             ng-mouseover="displayEventLimit(event, game, false, market)"
             ng-mouseleave="cancelDisplayEventLimit(event)"
-            ng-class="{'active': isEventInBetSlip(event), 'blocked': (event.price === 1 || game.is_blocked)}"
+            ng-class="{'active': isEventInBetSlip(event), 'blocked': ((event.price | oddConvert:'decimal') == 1 || game.is_blocked)}"
             ng-click="bet()(event, game, sport.id, region.id, competition.id, market, sport.alias); $event.stopPropagation();"
         >
             <div class="small-title-event-b">{{event.name}}</div>
@@ -86,7 +86,7 @@
             title="{{event.name}}{{displayBase(event, market)}}"
             ng-mouseover="displayEventLimit(event, game, false, market)" 
             ng-mouseleave="cancelDisplayEventLimit(event)"
-            ng-class="{'active': isEventInBetSlip(event), 'blocked': (event.price === 1 || game.is_blocked)}"
+            ng-class="{'active': isEventInBetSlip(event), 'blocked': ((event.price | oddConvert:'decimal') == 1 || game.is_blocked)}"
             ng-show="event && event.name"
             ng-click="bet()(event, game, sport.id, region.id, competition.id, market, sport.alias); $event.stopPropagation();"
         >

@@ -61,7 +61,7 @@
                             </div>
                             <div class="numbers-view-s-lobby" ng-show="table.Statistics.length">
                                 <ul>
-                                    <li ng-repeat="stat in table.Statistics"><span style="background-color: {{stat.BackgroundColor}}; color: {{stat.ForegroundColor}}">{{stat.Value}}</span></li>
+                                    <li ng-repeat="stat in table.Statistics"><span ng-style="stat.styles">{{stat.Value}}</span></li>
                                 </ul>
                             </div>
                         </div>

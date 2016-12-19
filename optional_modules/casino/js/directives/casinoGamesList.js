@@ -21,7 +21,8 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
                 realModeEnabled: CConfig.main.realModeEnabled,
                 iconsUrl: CConfig.cUrlPrefix + (scope.useBigIcons ? CConfig.bigIconsUrl :CConfig.iconsUrl),
                 downloadEnabled: CConfig.main.downloadEnabled,
-                newCasinoDesignEnabled: CConfig.main.newCasinoDesign.enabled
+                newCasinoDesignEnabled: CConfig.main.newCasinoDesign.enabled,
+                funModeEnabled: CConfig.main.funModeEnabled
             };
             scope.templateUrl = $rootScope.conf.casinoVersion !== 2 ? 'optional_modules/casino/templates/directive/casino-games-list.html' : 'optional_modules/casino/templates/directive/casino-new-games-list.html';
             scope.userOS = $rootScope.userOS;

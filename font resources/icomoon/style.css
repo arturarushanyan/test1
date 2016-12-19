@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?n4tek4');
-  src:  url('fonts/icomoon.eot?n4tek4#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?n4tek4') format('truetype'),
-    url('fonts/icomoon.woff?n4tek4') format('woff'),
-    url('fonts/icomoon.svg?n4tek4#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?koiy8t');
+  src:  url('fonts/icomoon.eot?koiy8t#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?koiy8t') format('truetype'),
+    url('fonts/icomoon.woff?koiy8t') format('woff'),
+    url('fonts/icomoon.svg?koiy8t#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,8 +24,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-whatsapp:before {
+  content: "\e900";
+}
+.icon-star-big:before {
+  content: "\f005";
+}
+.icon-star-big-outline:before {
+  content: "\f006";
+}
+.icon-mail-envelope-closed:before {
+  content: "\e94a";
+}
 .icon-paintbrush-design-tool-interface-symbol:before {
-  content: "\e93d";
+  content: "\e949";
 }
 .icon-icons-feed-finished:before {
   content: "\e93e";
@@ -112,7 +124,7 @@
   content: "\e936";
 }
 .icon-user2:before {
-  content: "\e931";
+  content: "\e93d";
 }
 .icon-list3:before {
   content: "\e932";
@@ -121,22 +133,22 @@
   content: "\e933";
 }
 .icon-dragon-tiger:before {
-  content: "\e92d";
-}
-.icon-sicbo:before {
   content: "\e92e";
 }
-.icon-bidbac:before {
+.icon-sicbo:before {
   content: "\e92f";
 }
-.icon-vipbac:before {
+.icon-bidbac:before {
   content: "\e930";
 }
+.icon-vipbac:before {
+  content: "\e931";
+}
 .icon-live-casino2:before {
-  content: "\e92c";
+  content: "\e92d";
 }
 .icon-warning-2:before {
-  content: "\e929";
+  content: "\e92c";
 }
 .icon-ogwil3:before {
   content: "\e924";
@@ -157,22 +169,22 @@
   content: "\e928";
 }
 .icon-virtual-betting:before {
-  content: "\e922";
+  content: "\e929";
 }
 .icon-BuddyTransfer:before {
-  content: "\e91c";
-}
-.icon-Mybets:before {
   content: "\e91e";
 }
-.icon-Renew:before {
+.icon-Mybets:before {
   content: "\e91f";
 }
-.icon-Setings:before {
+.icon-Renew:before {
   content: "\e920";
 }
-.icon-Wallet:before {
+.icon-Setings:before {
   content: "\e921";
+}
+.icon-Wallet:before {
+  content: "\e922";
 }
 .icon-lc-left:before {
   content: "\e91a";
@@ -187,13 +199,13 @@
   content: "\e919";
 }
 .icon-my-bets-view-2:before {
-  content: "\e917";
-}
-.icon-my-bets-view:before {
   content: "\e918";
 }
+.icon-my-bets-view:before {
+  content: "\e91c";
+}
 .icon-24/7:before {
-  content: "\e913";
+  content: "\e917";
 }
 .icon-HD:before {
   content: "\e914";
@@ -262,7 +274,7 @@
   content: "\e902";
 }
 .icon-download-icon:before {
-  content: "\e900";
+  content: "\e901";
 }
 .icon-ios-link:before {
   content: "\e800";
@@ -703,7 +715,7 @@
   content: "\e6e0";
 }
 .icon-blocked-deleted:before {
-  content: "\e901";
+  content: "\e913";
 }
 .icon-systemcalculator:before {
   content: "\e029";
@@ -1175,11 +1187,5 @@
 }
 .icon-envelope:before {
   content: "\e69f";
-}
-.icon-star-big:before {
-  content: "\f005";
-}
-.icon-star-big-outline:before {
-  content: "\f006";
 }
 

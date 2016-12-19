@@ -46865,9 +46865,68 @@ top-game-block {
 }
 
 
+.contacts-blog {
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+.contacts-blog .top-text{
+    padding: 8px 65px;
+    background-color: rgba(48,61,77,.5);
+    transform: skewX(50deg);
+    position: relative;
+    right: -23px;
+}
+.contacts-blog .top-text p {
+    color: white;
+    transform: skewX(-50deg);
+    font: 16px/24px Ubuntu, Arial, Helvetica sans-serif;
+}
 
-
-
+.contacts-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    float: right;
+}
+.contacts-buttons .btn-contact {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+.contacts-buttons .btn-contact .icon {
+    font-size: 25px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 1px 2px;
+    line-height: 27px;
+}
+.contacts-buttons .btn-contact .icon.icon-whatsapp {
+    font-size: 39px;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+.contacts-buttons .btn-contact .btn-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 0 6px;
+}
+.contacts-buttons > a {
+    margin-right: 10px;
+}
+.contacts-buttons .btn-contact .btn-text span:first-of-type {font-size:12px;color:white;letter-spacing: 1px;}
+.contacts-buttons .btn-contact .btn-text span:last-of-type {font-size:9px;color:white}
+.contacts-buttons .btn-contact.mail {background-color: #ff8067;}
+.contacts-buttons .btn-contact.tel {background-color: #5ab36b;}
 
 
 .games-view-wrapper-v3, .game-pinned.dashboard .games-view-wrapper-v3, .multiview .game-pinned .games-view-wrapper-v3 {
@@ -46888,8 +46947,16 @@ top-game-block {
 .games-view-wrapper-v3.has-statistics,
 .game-pinned .games-view-wrapper-v3 {
     box-sizing: border-box;
-    overflow: inherit;
+    overflow: hidden;
 }
+.game-pinned .all-game-info-container-v3 > div > .ngscroll-resizable > .ngscroll-container {height: 100% !important; margin-top: 0 !important;}
+.game-pinned .all-game-info-container-v3 > div > .ngscroll-resizable > .ngscroll-scrollbar-container ,
+.game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:last-of-type  { display:none !important;  }
+.game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:first-of-type {
+    display: block !important;
+    overflow: hidden;
+}
+.game-pinned .all-game-info-container-v3 .live-events-view-v3 {height: calc(100% - 225px)}
 
 .game-pinned.prematch .games-view-wrapper-v3.prematch-view-v3 .all-game-info-container-v3,
 .games-view-wrapper-v3.prematch-view-v3.open > .all-game-info-container-v3,
@@ -47182,6 +47249,14 @@ top-game-block {
     content: "\e68a";
     color: #028947;
 }
+
+.icon-mail-envelope-closed:before {
+    content: "\e94a";
+}
+.icon-whatsapp:before {
+    content: "\e900";
+}
+
 /*
 
 .link-icon-market-v3:before {
@@ -57213,7 +57288,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         float: left;
         width: calc(50% - 8px);
         margin: 0 8px 10px 0;
-        height: 436px;
+        height: 432px;
         background: #fffef6;
         border-radius: 4px;
         list-style: none;
@@ -57228,7 +57303,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     .live-calendar-16-scroll-fix-j .ngscroll-scrollbar-container ,
     .centr-market-contain .scroll-contain .ngscroll-scrollbar-container ,
     .right-betslip-contain .scroll-contain .ngscroll-scrollbar-container,
-    .game-center-container-multi-v3 .ngscroll-scrollbar-container{
+    .game-center-container-multi-v3 .ngscroll-scrollbar-container ,
+    .game-pinned .all-game-info-container-v3 .live-events-view-v3 .ngscroll-scrollbar-container{
         right: 0 !important;
     }
     .multi-view-statistic-v3 {
@@ -60146,6 +60222,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         display: flex;
         -webkit-justify-content: center;
         -webkit-flex-direction: row;
+        justify-content: center;
+        flex-direction: row;
     }
     .product {
         float: left;
@@ -60175,6 +60253,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         font: 24px/48px Ubuntu, Arial, Helvetica, sans-serif;
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
+        border-radius: 5px;
     }
     .product-wrap-new {
         position: relative;
@@ -60335,16 +60414,16 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
     #top-part {
         position: relative;
-        text-shadow: 0px 0px 25px #5b5c5c;
-        display: -webkit-flex;
-        -webkit-flex-direction: column;
+        text-shadow: 0 0 25px #5b5c5c;
+        display: flex;
+        flex-direction: column;
         height: calc(100vh - 440px);
         align-items: center;
-        -webkit-justify-content: center;
+        justify-content: center;
     }
     .site-title {
-        display: -webkit-flex;
-        -webkit-flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
     .welcome {
         text-transform: uppercase;
@@ -60398,14 +60477,13 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     .signin-reg-buttons-landing > ul {
-        float: left;
         box-sizing: border-box;
     }
 
     .signin-reg-buttons-landing > ul > li {
-        float: left;
         box-sizing: border-box;
         margin-right: 20px;
+        text-align : center;
     }
 
     .signin-reg-buttons-landing > ul > li  > button,

@@ -45184,7 +45184,7 @@ top-game-block {
     width: 53px;
     top: 221px;
 }
-
+.left-column-v3-header .fixed-filter + .full-menu-wrapper-box-v3 > div > .ngscroll-resizable > .ngscroll-scrollbar-container {display:none !important}
 
 .view-switcher-v3 {
     box-sizing: border-box;
@@ -45201,7 +45201,7 @@ top-game-block {
     width: 100%;
     height: 39px;
     box-shadow: none;
-    margin: 0 0 1px
+    margin: 0 0 1px;
     box-sizing: border-box;
     background: #105b63;
     color: #fff;
@@ -46871,15 +46871,6 @@ top-game-block {
     right: 16px;
 }
 
-.left-menu-closed-v3 .full-menu-wrapper-box-v3::-webkit-scrollbar {
-    width: 0px;
-    background: none;
-    border-radius: 10px;
-}
-.left-menu-closed-v3 .full-menu-wrapper-box-v3::-webkit-scrollbar-thumb {
-    background: none;
-    width: 0px;
-}
 .left-menu-closed-v3 .filter-row-v3 > ul > li {
     display: none;
 }
@@ -51505,16 +51496,6 @@ top-game-block {
         display: none;
     }
 */
-    .left-column-v3 .full-menu-wrapper-box-v3::-webkit-scrollbar {
-        width: 0px;
-        background: none;
-        border-radius: 10px;
-    }
-    .left-column-v3 .full-menu-wrapper-box-v3::-webkit-scrollbar-thumb {
-        background: none;
-        width: 0px;
-    }
-
 
     .left-column-v3 .closed-left-nav-v3 {
         right: 12px;
@@ -56994,15 +56975,12 @@ div.slider-image-wrapper-b {
     margin-top: 0;
 }
 
-
-.Soccer  + .menu-popup {display:block !important;}
 .menu-popup {
     position: fixed;
     left: calc(100%);
     z-index: 90000;
     width: 255px;
     padding: 0 24px 0 8px;
-    max-height: 350px;
     -webkit-animation: 250ms show-up;
     animation: 250ms show-up
 }
@@ -57040,6 +57018,12 @@ div.slider-image-wrapper-b {
     position: relative;
     color: white;
     border: none !important;
+}
+.menu-popup .region-items-box .ngscroll-resizable {
+    max-height: 300px;
+    overflow: hidden;
+    background-color: #e6e5dc;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .menu-popup .region-items-box .ngscroll-container {
     width: calc(100% - 6px) !important;

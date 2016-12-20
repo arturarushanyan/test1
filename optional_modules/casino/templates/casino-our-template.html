@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title data-word="Defender"></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="optional_modules/casino/css/casino-styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--Wrapper-->
+<div ng-init="loadCategories()" ng-show="!gamesInfo.length" class="full-casino-wrapper-jf" xmlns:http="http://www.w3.org/1999/xhtml">
+    <div class="casino-view-container-jf">
+
+        <!--Slider view-->
+        <div class="casino-top-container-jf">
+            <div class="slider-casino-container-jf">
+                <div ng-controller="cmsPagesCtrl" ng-init="getCasinoBanners();" class="slide-view-contain-jf">
+                    <vbet-big-slider class="mini-wrapper-slider-img" ng-if="casinoTopBanners" images="casinoTopBanners" link-click-handler="openCBannerLink" slider-template="cConf.newCasinoDesignEnabled">
+
+                    </vbet-big-slider>
+                </div>
+
+                <div class="slider-control-box-jf">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+
+            <div class="right-img-contain">
+                <div class="slide-view-contain-jf">
+                    <div class="mini-wrapper-slider-img" style="background-image: url(optional_modules/casino/images/right-img.jpg);">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Slider END-->
+
+        <!--Casino nav view-->
+        <div class="casino-nav-wrapper-jf">
+            <div class="casino-menu-box-jf">
+                <div class="casino-menu-contain-jf">
+                    <ul>
+                        <li ng-repeat="category in mainCategories track by category.id"
+                            ng-show="category.id !== -1 || myCasinoGames.length !== 0"
+                            ng-class="{'active': selectedCategory.id === category.id}"
+                            ng-click="selectCategory(category)">
+                            <a href="#">
+                                <span class="menu-icon-g icon-specials"></span>
+                                <p>{{ category.categoryName|convertCategoryName:category }}</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="search-contain-jf">
+                    <div class="mini-search-box-jf">
+                        <span class="icon-search-jf"></span>
+                        <input type="text" placeholder="Search a casino game">
+                        <p>Search</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Casino nav view END-->
+
+
+
+        <!--Game list view-->
+        <div class="casino-games-list-view-jf open-view-list">
+
+            <div class="title-category-game-b">
+                <h3><span>Table Games</span></h3>
+            </div>
+            <casino-games-list class="all-casino-games-list-box"
+                               is-new-design-enabled="cConf.newCasinoDesignEnabled"
+                               show-conditions="selectedCategory.category !== 'SkillGames'"
+                               games-list="selectedCategoryGames"
+                               games-limit="numberOfRecentGames"
+                               game-show-conditions="!(game.id === '1297' || (game.id === '1314' && !conf.ogwilEnabled))"
+                               selected-category="selectedCategory">
+            </casino-games-list>
+
+        </div>
+        <!--Game list view END-->
+
+
+
+        <!--Game list view-->
+        <div class="casino-games-list-view-jf">
+
+            <div class="title-category-game-b">
+                <h3><span>Slot</span></h3>
+            </div>
+            <casino-games-list class="all-casino-games-list-box"
+                               is-new-design-enabled="cConf.newCasinoDesignEnabled"
+                               show-conditions="selectedCategory.category !== 'SkillGames'"
+                               games-list="selectedCategoryGames"
+                               games-limit="numberOfRecentGames"
+                               game-show-conditions="!(game.id === '1297' || (game.id === '1314' && !conf.ogwilEnabled))"
+                               selected-category="selectedCategory">
+            </casino-games-list>
+
+        </div>
+        <!--Game list view END-->
+
+
+
+        <!--Game list view-->
+        <div class="casino-games-list-view-jf">
+
+            <div class="title-category-game-b">
+                <h3><span>Jackpots</span></h3>
+            </div>
+            <div class="slider-casino-container-jf">
+                <div class="winner-list-box-j">
+                    <ul>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen2.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf jackpot-b"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen3.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf jackpot-b"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen4.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf jackpot-b"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen5.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf jackpot-b"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen2.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf jackpot-b"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen4.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf jackpot-b"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen3.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf jackpot-b"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf jackpot-b"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen5.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf jackpot-b"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen3.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf jackpot-b"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="left-arrow-winners"></div>
+                    <div class="right-arrow-winners"></div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <!--Game list view END-->
+
+
+
+
+        <!--Game list view-->
+
+        <casino-games-list class="casino-games-list-view-jf" is-new-design-enabled="cConf.newCasinoDesignEnabled"
+                           show-conditions="selectedCategory.category !== 'SkillGames'"
+                           games-list="selectedCategoryGames"
+                           games-limit="numberOfRecentGames"
+                           game-show-conditions="!(game.id === '1297' || (game.id === '1314' && !conf.ogwilEnabled))"
+                           selected-category="selectedCategory">
+
+            <div class="title-category-game-b">
+                <h3><span>Video poker</span></h3>
+            </div>
+            <div class="slider-casino-container-jf">
+                <div class="winner-list-box-j">
+                    <ul>
+                        <li ng-repeat="game in gamesLimit track by game.id">
+                            <div class="game-screen-view-jf" ng-style="{'background-image': 'url({{cConf.iconsUrl + game.gameID}}.jpg)'}">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>{{game.gameName}}</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game" ng-click="openGame(game, 'real'); $event.stopPropagation();" ng-if="cConf.realModeEnabled"></button>
+                                    <span class="play-for-fun-b" ng-show="game.hasFunMode && (!env.authorized || game.id !== '1314')" ng-click="openGame(game, 'fun'); $event.stopPropagation();"><i>{{game.funModeText | translate}}</i></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="left-arrow-winners"></div>
+                    <div class="right-arrow-winners"></div>
+                </div>
+
+
+
+            </div>
+
+        </casino-games-list>
+        <!--Game list view END-->
+
+
+        <!--Game list view-->
+        <div class="casino-games-list-view-jf">
+
+            <div class="title-category-game-b">
+                <h3><span>Oder Games</span></h3>
+            </div>
+            <div class="slider-casino-container-jf">
+                <div class="winner-list-box-j">
+                    <ul>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen2.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen3.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen4.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen5.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen2.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen4.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen3.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen5.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="game-screen-view-jf" style="background-image: url(optional_modules/casino/images/game-screen3.png);">
+                                <div class="favorite-icon-jf">
+                                    <span></span>
+                                </div>
+                                <a href="#">
+                                    <span class="category-icon-view-jf"></span>
+                                    <p>Tornado farm escape</p>
+                                    <span class="star-icon-jf"><i>2.5</i></span>
+                                    <button class="play-icon-jackpot-j play-game"></button>
+                                    <span class="play-for-fun-b"><i>Play for fun</i></span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="left-arrow-winners"></div>
+                    <div class="right-arrow-winners"></div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <!--Game list view END-->
+
+
+    </div>
+</div>
+<!--Wrapper END-->
+
+</body>
+</html>

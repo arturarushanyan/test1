@@ -32624,7 +32624,7 @@ input[type="password"]:focus ~ .capslock-is-on-j {
 .slide-casino-new-img-b {
     float: left;
     width: 100%;
-    height: 320px;
+    height: 416px;
     box-sizing: border-box;
     display: block;
 }
@@ -57416,7 +57416,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* Casino Page */
 
     .body-wrapper, .body-wrapper.sport.classic {
-        background: #fffef6;
+        background: #e6e5dc;
     }
     .providers-nav-casino {
         float: left;

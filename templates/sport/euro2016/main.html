@@ -21,96 +21,94 @@
                 <div class="left-column-v3-header">
 
                     <!--switcher view-->
-                    <div class="view-switcher-v3">
-                        <ul>
-                            <li>
-                                <button ng-click ="toggleLeftMenu()">
-                                    <i class="dashboard-icon-b"></i>
-                                </button>
-                            </li>
-
-                            <li ng-class="{active:!env.live && $location.path() !== '/dashboard/'}" ng-if="::conf.customSportsBook.classic.showPrematch" ng-init="subscribeToAllGameCounts(0)">
-                                <button ng-click="($location.path() == '/sport/' || $location.path().indexOf('customsport') !== -1) ? toggleLive() : selectSportTabFromDashboard(0)" ng-disabled="!env.live && $location.path() !== '/dashboard/'">
-                                    <span trans>pre-match</span>
-                                   <!--  <b ng-bind="''+gameCounts['1']+''"></b> -->
-                                </button>
-                            </li>
-                            <li ng-class="{active:env.live && $location.path() !== '/dashboard/'}" ng-if="::conf.customSportsBook.classic.showLive">
-                                <button ng-click="($location.path() == '/sport/' || $location.path().indexOf('customsport') !== -1) ? toggleLive() : selectSportTabFromDashboard(1);" ng-disabled="env.live && $location.path() !== '/dashboard/'">
-                                    <span trans>In-Play</span>
-                                    <i class="ico-live ico-led highlight"></i>
-                                    <!-- <b ng-bind="''+gameCounts['0']+''"></b> -->
-                                </button>
-                            </li>
-
-
-                        </ul>
-
-                    </div>
-                    <!--switcher view END-->
-
-                    <!--filters-->
-                    <div class="filter-view-v3">
-                        <div class="filter-row-v3">
+                    <div ng-class="leftMenuClosed ? 'fixed-filter' : ''">
+                        <div class="view-switcher-v3">
                             <ul>
-                                <li ng-show="!env.live">
-                                    <div class="time-filter-v3" ng-class="{'active': periodDropdownOpened}">
-                                        <p ng-click="periodDropdownOpened=!periodDropdownOpened"><span>{{(selectedUpcomingPeriod ? selectedUpcomingPeriod + ' hours' : 'All')|translate}}</span> <i class="arrow-rotate-filter-v3"></i></p>
-                                        <div class="sub-nav-filter-time-v3">
-                                            <ul>
-                                                <li ng-repeat="period in upcomingPeriods track by $index" ng-click="selectPrematchTimePeriod(period);$parent.periodDropdownOpened = false" ng-class="{'icon-checkmark': period == selectedUpcomingPeriod}">
-                                                    <span>{{(period ? period + ' hours' : 'All')|translate}}</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                <li>
+                                    <button ng-click ="toggleLeftMenu()">
+                                        <i class="dashboard-icon-b"></i>
+                                    </button>
                                 </li>
-                                <li ng-show="env.live && conf.videoEnabled"
-                                    ng-click="toggleVideoFilter()"
-                                    ng-class="{'active':liveFilters.withVideo}"
-                                    title="With video"
-                                    trans="attr-only"
-                                >
-                                    <i class="video-icon-v3"></i>
+
+                                <li ng-class="{active:!env.live && $location.path() !== '/dashboard/'}" ng-if="::conf.customSportsBook.classic.showPrematch" ng-init="subscribeToAllGameCounts(0)">
+                                    <button ng-click="($location.path() == '/sport/' || $location.path().indexOf('customsport') !== -1) ? toggleLive() : selectSportTabFromDashboard(0)" ng-disabled="!env.live && $location.path() !== '/dashboard/'">
+                                        <span trans>pre-match</span>
+                                       <!--  <b ng-bind="''+gameCounts['1']+''"></b> -->
+                                    </button>
                                 </li>
-                                <!--<li>-->
-                                    <!--<i class="tv-icon-v3"></i>-->
-                                <!--</li>-->
+                                <li ng-class="{active:env.live && $location.path() !== '/dashboard/'}" ng-if="::conf.customSportsBook.classic.showLive">
+                                    <button ng-click="($location.path() == '/sport/' || $location.path().indexOf('customsport') !== -1) ? toggleLive() : selectSportTabFromDashboard(1);" ng-disabled="env.live && $location.path() !== '/dashboard/'">
+                                        <span trans>In-Play</span>
+                                        <i class="ico-live ico-led highlight"></i>
+                                        <!-- <b ng-bind="''+gameCounts['0']+''"></b> -->
+                                    </button>
+                                </li>
 
 
-<!--                                 <li ng-init="$root.noClassicScroll = !!conf.classicScrollToggleDefaultState"
-                                    ng-show="conf.enableClassicScrollToggle && conf.sportsLayout === 'euro2016' && $location.path() === '/sport/'"
-                                >
-                                    <i class="scroll-none-icon-v3 {{$root.noClassicScroll ? 'active' : ''}}"
-                                       ng-click="$root.noClassicScroll = !$root.noClassicScroll; toggleLiveSectionPin()"
-                                       title="Toggle inner scrolling" trans=""
-                                    ></i>
-                                </li> -->
                             </ul>
-                            <div class="closed-left-nav-v3"  ng-click="toggleLeftMenu()" ng-attr-title="{{leftMenuClosed ? 'Open left sidebar' : 'Close left sidebar'}}"></div>
-
-
-
 
                         </div>
+                        <!--switcher view END-->
 
-                        <div class="second-row-filter-v3">
-<!--                             <div class="search-box-v3"> -->
-<!--                                 <input type="text" placeholder="Competition or a team"> -->
-                                <include-template template-path="templates/search/sport.html" class="search-box-v3"></include-template>
-<!--                             </div> -->
+                        <!--filters-->
+                        <div class="filter-view-v3">
+                            <div class="filter-row-v3">
+                                <ul>
+                                    <li ng-show="!env.live">
+                                        <div class="time-filter-v3" ng-class="{'active': periodDropdownOpened}">
+                                            <p ng-click="periodDropdownOpened=!periodDropdownOpened"><span>{{(selectedUpcomingPeriod ? selectedUpcomingPeriod + ' hours' : 'All')|translate}}</span> <i class="arrow-rotate-filter-v3"></i></p>
+                                            <div class="sub-nav-filter-time-v3">
+                                                <ul>
+                                                    <li ng-repeat="period in upcomingPeriods track by $index" ng-click="selectPrematchTimePeriod(period);$parent.periodDropdownOpened = false" ng-class="{'icon-checkmark': period == selectedUpcomingPeriod}">
+                                                        <span>{{(period ? period + ' hours' : 'All')|translate}}</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li ng-show="env.live && conf.videoEnabled"
+                                        ng-click="toggleVideoFilter()"
+                                        ng-class="{'active':liveFilters.withVideo}"
+                                        title="With video"
+                                        trans="attr-only"
+                                    >
+                                        <i class="video-icon-v3"></i>
+                                    </li>
+                                    <!--<li>-->
+                                        <!--<i class="tv-icon-v3"></i>-->
+                                    <!--</li>-->
+
+
+    <!--                                 <li ng-init="$root.noClassicScroll = !!conf.classicScrollToggleDefaultState"
+                                        ng-show="conf.enableClassicScrollToggle && conf.sportsLayout === 'euro2016' && $location.path() === '/sport/'"
+                                    >
+                                        <i class="scroll-none-icon-v3 {{$root.noClassicScroll ? 'active' : ''}}"
+                                           ng-click="$root.noClassicScroll = !$root.noClassicScroll; toggleLiveSectionPin()"
+                                           title="Toggle inner scrolling" trans=""
+                                        ></i>
+                                    </li> -->
+                                </ul>
+                                <div class="closed-left-nav-v3"  ng-click="toggleLeftMenu()" ng-attr-title="{{leftMenuClosed ? 'Open left sidebar' : 'Close left sidebar'}}"></div>
 
 
 
 
+                            </div>
+
+                            <div class="second-row-filter-v3">
+    <!--                             <div class="search-box-v3"> -->
+    <!--                                 <input type="text" placeholder="Competition or a team"> -->
+                                    <include-template template-path="templates/search/sport.html" class="search-box-v3"></include-template>
+    <!--                             </div> -->
+
+                            </div>
                         </div>
+                        <!--filters END-->
                     </div>
-                    <!--filters END-->
-
                     <div class="full-menu-wrapper-box-v3">
                         <vbet-loader ng-show="leftMenuLiveLoading"></vbet-loader>
 
-                        <div  style="height: 100%;" mb-scrollbar="scrollbar('vertical', true)">
+                    <div style="height: 100%;"  mb-scrollbar="scrollbar('vertical', true)">
                         <div ng-show="!leftMenuLiveLoading" class="full-menu-wrapper-v3">
                             <!--Favorites-->
                             <include-template class="left-menu-wrapper-v3"
@@ -132,6 +130,7 @@
                                               ng-show="!env.live"
                             ></include-template>
                             <!--Prematch and Multiselect-->
+
                         </div>
                     </div>
 
@@ -139,6 +138,7 @@
                         <h1 ng-show="((!leftMenuLiveSports.length && env.live) || (!leftMenuPrematchSports.length && !env.live)) && !leftMenuLiveLoading && !$root.myGames.length"
                             class="now-games-menu" trans>No games found</h1>
                     </div>
+
                 </div>
             </div>
             <!--left-column END-->

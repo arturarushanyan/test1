@@ -4,7 +4,7 @@
 
             <!-- NEW BACKGAMMON PAGE -->
             <div ng-if="conf.showNewBackgammonPage" class="skillgame-landing-j backgammon-j">
-                <div ng-init="loadPage(WPConfig.backgammon.mainPageSlugs[env.lang], true)">
+                <div ng-init="loadPage('backgammon.mainPageSlugs', true)">
                     <div class="intro-section-j" ng-if="pages" ng-init="initProductBanners('backgammon')">
                         <casino-game-slider product-slides="productSlides" page-name = "Backgammon"></casino-game-slider>
                         <div class="skillgame-landing-guide button-group-j">

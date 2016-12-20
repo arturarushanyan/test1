@@ -5,7 +5,7 @@
  * casino page controller
  */
 
-CASINO.controller('casinoCtrl', ['$rootScope', '$scope', '$sce', '$location', 'TimeoutWrapper', '$filter', 'CConfig', 'Zergling', 'casinoData', 'Utils', 'casinoUtils', 'Translator', 'casinoCache', 'analytics', 'content', function ($rootScope, $scope, $sce, $location, TimeoutWrapper, $filter, CConfig, Zergling, casinoData,  Utils, casinoUtils, Translator, casinoCache, analytics, content) {
+CASINO.controller('casinoCtrl', ['$rootScope', '$scope', '$sce', '$location', '$route', 'TimeoutWrapper', '$filter', 'CConfig', 'Zergling', 'casinoData', 'Utils', 'casinoUtils', 'Translator', 'casinoCache', 'analytics', 'content', function ($rootScope, $scope, $sce, $location, $route, TimeoutWrapper, $filter, CConfig, Zergling, casinoData,  Utils, casinoUtils, Translator, casinoCache, analytics, content) {
     'use strict';
 
     TimeoutWrapper = TimeoutWrapper($scope);
@@ -34,7 +34,8 @@ CASINO.controller('casinoCtrl', ['$rootScope', '$scope', '$sce', '$location', 'T
         fourGameViewEnable: CConfig.main.fourGameViewEnable,
         hideCasinoRightBanners: CConfig.main.hideCasinoRightBanners,
         hideCasinoJackpotSlider: CConfig.main.hideCasinoJackpotSlider,
-        providerMenuDefaultOffset: CConfig.main.providerMenuDefaultOffset
+        providerMenuDefaultOffset: CConfig.main.providerMenuDefaultOffset,
+        funModeEnabled: CConfig.main.funModeEnabled
     };
     $scope.providersMenuState = {
         isClosed: true
@@ -907,5 +908,24 @@ CASINO.controller('casinoCtrl', ['$rootScope', '$scope', '$sce', '$location', 'T
     $scope.$on('casinoGamesList.toggleSaveToMyCasinoGames', function(e, game) {
         $scope.toggleSaveToMyCasinoGames(game);
     })
+
+    $scope.routeReload = function routeReload() {
+        TimeoutWrapper(function () { $route.reload(); }, 100);
+    }
+
+    $scope.$on('casino.openGameById', function (e, data) {
+        if(data.gameId !== undefined && data.playMode !== undefined && data.category != undefined){
+            casinoData.getCategory(data.category, CConfig.main.partnerID).then(function (response) {
+                var games = casinoUtils.filterByGameProvider(response.data, CConfig.main.filterByProvider);
+                angular.forEach(games, function (game) {
+                    if(game.id === data.gameId.toString()){
+                        $scope.openGame(game, data.playMode);
+                    }
+                });
+            });
+        }
+
+    });
+
 
 }]);

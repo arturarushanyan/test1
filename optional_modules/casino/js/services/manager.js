@@ -185,6 +185,9 @@ CASINO.service('casinoManager', ['$rootScope', '$window', '$sce', '$location', '
             if (gameInfo.studio) {
                 request.studio = parseInt(gameInfo.studio);
             }
+            if (game.game_options) {
+                addOptionsInRequest(game.game_options, request);
+            }
 
             Zergling.get(request, 'casino_game_url')
                 .then(
@@ -204,7 +207,10 @@ CASINO.service('casinoManager', ['$rootScope', '$window', '$sce', '$location', '
             });
         } else {
             var gameOption = game.game_options ? game.game_options : "";
-            windowUrl = CConfig.cUrlPrefix + CConfig.cGamesUrl + '?gameid=' + game.front_game_id + '&mode=' + gameMode + '&provider=' + game.provider + gameOption + '&lan=' + $rootScope.env.lang + '&partnerid=' + CConfig.main.partnerID;
+
+            var urlPrefix = CConfig.main.providersThatWorkWithCasinoBackend && CConfig.main.providersThatWorkWithCasinoBackend.providers.indexOf(game.provider) !== -1 ? CConfig.main.providersThatWorkWithCasinoBackend.url : CConfig.cUrlPrefix + CConfig.cGamesUrl;
+
+            windowUrl = urlPrefix + '?gameid=' + game.front_game_id + '&mode=' + gameMode + '&provider=' + game.provider + gameOption + '&lan=' + $rootScope.env.lang + '&partnerid=' + CConfig.main.partnerID;
             if (gameMode === 'real') {
                 Zergling.get({'game_id': parseInt(game.extearnal_game_id)}, 'casino_auth')
                     .then(
@@ -243,6 +249,16 @@ CASINO.service('casinoManager', ['$rootScope', '$window', '$sce', '$location', '
         var popup = $window.open(url, windowName, param);
         casinoManager.checkIfPopupIsBlocked(popup);
     }
+
+     function addOptionsInRequest(options, request) {
+         var list = options.split('&');
+         for (var i = 0; i < list.length; i += 1) {
+             var option = list[i].split("=");
+             if (option.length === 2) {
+                 request[option[0]] = option[1];
+             }
+         }
+     }
 
     /**
      * @ngdoc method
@@ -441,7 +457,10 @@ CASINO.service('casinoManager', ['$rootScope', '$window', '$sce', '$location', '
         gameInfo.tableId = tableId;
         gameInfo.studio = studio;
         gameInfo.limit = limit;
-        var gameUrl = CConfig.cUrlPrefix + CConfig.cGamesUrl + '?gameid=' + game.front_game_id + '&mode=' + gameType + '&provider=' + game.provider + gameOption + tableInfo +
+
+        var urlPrefix = CConfig.main.providersThatWorkWithCasinoBackend && CConfig.main.providersThatWorkWithCasinoBackend.providers.indexOf(game.provider) !== -1 ? CConfig.main.providersThatWorkWithCasinoBackend.url : CConfig.cUrlPrefix + CConfig.cGamesUrl;
+
+        var gameUrl = urlPrefix + '?gameid=' + game.front_game_id + '&mode=' + gameType + '&provider=' + game.provider + gameOption + tableInfo +
             '&lan=' + $rootScope.env.lang + '&partnerid=' + CConfig.main.partnerID;
 
 
@@ -559,6 +578,10 @@ CASINO.service('casinoManager', ['$rootScope', '$window', '$sce', '$location', '
             if (gameInfo.studio) {
                 request.studio = parseInt(gameInfo.studio);
             }
+            if (gameInfo.game.game_options) {
+                addOptionsInRequest(gameInfo.game.game_options, request);
+            }
+
             Zergling.get(request, 'casino_game_url').then(function (data) {
                 if (data && data.url) {
                     gameInfo.loadingUserData = false;

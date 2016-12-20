@@ -1,5 +1,5 @@
 <!--New poker page -->
-<div ng-init="loadPages('poker'); loadPage(WPConfig.poker.mainPageSlugs[env.lang], true); setTitle('Poker')">
+<div ng-init="loadPages('poker'); loadPage('poker.mainPageSlugs', true); setTitle('Poker')">
     <div ng-show="!showNestedFrame">
         <div ng-if="pokerPages && pages" class="skillgame-landing-j poker-j">
             <div class="intro-section-j" ng-init="initProductBanners('poker')">
@@ -40,7 +40,7 @@
 
                         <div class="intro-info-j">
                             <a ng-click="broadcast('openHelpPage', {slug: 'faq&subsub=rules&sub=poker'})" class="how-to-lplay-j" trans>How To Play</a>
-                            <a ng-if="!globalConfig.poker.tournamentsInfoLink" ng-click="scrollToSelectedItem('toutnament-list');" class="tournament-llist-j" trans>Tournament List</a>
+                            <a ng-if="!globalConfig.poker.tournamentsInfoLink && !globalConfig.poker.hideTournamentsList" ng-click="scrollToSelectedItem('toutnament-list');" class="tournament-llist-j" trans>Tournament List</a>
                             <a ng-if="globalConfig.poker.tournamentsInfoLink" ng-click="$parent.showTournamentsInfoList = true" class="tournament-llist-j" trans>Tournament List</a>
                             <a ng-if="globalConfig.poker.rakeRaceLinkInPokerPage" ng-click="broadcast('window.openPopup', {url:globalConfig.poker.rakeRaceLinkInPokerPage, title: 'rakeRace', params: 'scrollbars=1,width=1000,height=600,resizable=yes'}); $event.stopPropagation();" class="rakerace-llist-j" trans>Rake Race</a>
                         </div>
@@ -126,14 +126,58 @@
                     </div>
                 </div>
             </div>
-            <div ng-if="!globalConfig.poker.tournamentsInfoLink" id="toutnament-list" class="game-torunament-section-j">
+            <div ng-if="!globalConfig.poker.tournamentsInfoLink && !globalConfig.poker.hideTournamentsList" id="toutnament-list" class="game-torunament-section-j">
                 <h4 trans>Tournament List</h4>
                 <div ng-init="leaderboardList = getPageBySlug(pokerPages, 'leaderboards').children[0].content">
                     <div ng-bind-html="leaderboardList"></div>
                 </div>
             </div>
+            <div class="cta-buttons-j">
+                <div class="skillgame-landing-guide">
+                    <ul>
+                        <li ng-if="globalConfig.poker.instantPlayAvailable">
+                            <a ng-if="globalConfig.poker.instantPlayTarget === '_invest'" ng-click="openNestedFrame()">
+                                <button trans>Play poker now</button>
+                            </a>
+                            <a ng-if="globalConfig.poker.instantPlayTarget !== '_invest'" ng-href="{{globalConfig.poker.instantPlayLink}}" target="{{globalConfig.poker.instantPlayTarget}}">
+                                <button trans="">Play poker now</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a ng-if="userOS === 'Windows' && globalConfig.poker.downloadLink.windows" ng-href="{{ globalConfig.poker.downloadLink.windows }}">
+                                <button class="skin-j" trans>Best poker software</button>
+                            </a>
+                            <a ng-if="userOS === 'MacOS' && globalConfig.poker.downloadLink.mac" ng-href="{{ globalConfig.poker.downloadLink.mac }}">
+                                <button class="skin-j" trans>Best poker software</button>
+                            </a>
+                            <a ng-if="(userOS !== 'Windows' || !globalConfig.poker.downloadLink.windows) && (userOS!=='MacOS' || !globalConfig.poker.downloadLink.mac)" ng-click="scrollToSelectedItem('winner-list');$event.stopPropagation();">
+                                <button class="skin-j" trans>Best poker software</button>
+                            </a>
+                        </li>
+
+                        <li ng-if="globalConfig.chinesePoker.downloadLink && !globalConfig.poker.disableChinesePoker">
+                            <a ng-if="userOS === 'Windows' && globalConfig.chinesePoker.downloadLink.windows" ng-href="{{ globalConfig.chinesePoker.downloadLink.windows }}">
+                                <button trans>Chinese poker software</button>
+                            </a>
+                            <a ng-if="userOS === 'MacOS' && globalConfig.chinesePoker.downloadLink.mac" ng-href="{{ globalConfig.chinesePoker.downloadLink.mac }}">
+                                <button trans>Chinese poker software</button>
+                            </a>
+                            <a ng-if="userOS === 'Linux' && globalConfig.chinesePoker.downloadLink.linux" ng-href="{{ globalConfig.chinesePoker.downloadLink.linux }}">
+                                <button trans>Chinese poker software</button>
+                            </a>
+                        </li>
+                    </ul>
+                    <div></div>
+                    <div class="cta-info-j">
+                        <a ng-click="broadcast('openHelpPage', {slug: 'faq&subsub=rules&sub=poker'})" class="how-to-lplay-j" trans>How To Play</a>
+                        <a ng-if="!globalConfig.poker.tournamentsInfoLink && !globalConfig.poker.hideTournamentsList" ng-click="scrollToSelectedItem('toutnament-list');" class="tournament-llist-j" trans>Tournament List</a>
+                        <a ng-if="globalConfig.poker.tournamentsInfoLink" ng-click="$parent.showTournamentsInfoList = true" class="tournament-llist-j" trans>Tournament List</a>
+                        <a ng-if="globalConfig.poker.rakeRaceLinkInPokerPage" ng-click="broadcast('window.openPopup', {url:globalConfig.poker.rakeRaceLinkInPokerPage, title: 'rakeRace', params: 'scrollbars=1,width=1000,height=600,resizable=yes'}); $event.stopPropagation();" class="rakerace-llist-j" trans>Rake Race</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <vbet-loader class="page-center" ng-show="!pokerPagesLoaded"></vbet-loader>
+        <vbet-loader ng-show="!pokerPagesLoaded"></vbet-loader>
     </div>
     <div ng-if="showNestedFrame" ng-controller="casinoSpecialGamesCtrl" ng-init="loadGame('poker')" ng-include="getTemplate('optional_modules/casino/templates/specialgames/skillgame.html')"></div>
 </div>

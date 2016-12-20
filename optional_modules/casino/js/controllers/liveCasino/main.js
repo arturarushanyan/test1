@@ -806,7 +806,7 @@ CASINO.controller('liveCasinoMainCtrl', ['$rootScope', '$scope', '$sce', '$locat
                 r1: {index: 0, rotationPaused: false, list: []},
                 r2: {index: 0, rotationPaused: false, list: []}
             };
-            content.getWidget(WPConfig.bannerSlugs.livecasino[$rootScope.env.lang]).then(function (response) {
+            content.getWidget('bannerSlugs.livecasino').then(function (response) {
                 if (response.data && response.data.widgets && response.data.widgets[0]) {
                     var i, length = response.data.widgets.length;
                     for (i = 0; i < length; i += 1) {
@@ -839,7 +839,7 @@ CASINO.controller('liveCasinoMainCtrl', ['$rootScope', '$scope', '$sce', '$locat
     }
 
     function loadSlidingViewTopBanners () {
-        content.getPage(WPConfig['live-casino'].mainPageSlugs[$rootScope.env.lang], true).then(function (data) {
+        content.getPage('live-casino.mainPageSlugs', true).then(function (data) {
             $scope.productSlides = (data.data.page && data.data.page.children[0] && data.data.page.children[0].children) || [];
         });
     }
@@ -1005,5 +1005,9 @@ CASINO.controller('liveCasinoMainCtrl', ['$rootScope', '$scope', '$sce', '$locat
         if (rotatePromise) {
             $interval.cancel(rotatePromise);
         }
+    });
+
+    $scope.$on('casinoGamesList.toggleSaveToMyCasinoGames', function(e, game) {
+        $scope.toggleSaveToMyCasinoGames(game);
     });
 }]);

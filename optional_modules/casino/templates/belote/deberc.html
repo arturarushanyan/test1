@@ -1,5 +1,5 @@
 <div ng-controller="cmsPagesCtrl" ng-init="setTitle('Deberc')">
-    <div ng-show="!showNestedFrame" class="skillgame-landing-j"  ng-init="loadPage(WPConfig.deberc.mainPageSlugs[env.lang], true)">
+    <div ng-show="!showNestedFrame" class="skillgame-landing-j"  ng-init="loadPage('deberc.mainPageSlugs', true)">
         <vbet-loader ng-show="!pages"></vbet-loader>
         <div ng-if="pages">
             <div class="intro-section-j" ng-init="initProductBanners('deberc')">

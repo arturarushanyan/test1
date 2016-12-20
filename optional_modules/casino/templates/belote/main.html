@@ -3,7 +3,7 @@
         <div ng-show="!showNestedFrame">
 
             <!-- NEW BELOTE PAGE -->
-            <div ng-if="conf.showNewBelotePage" class="skillgame-landing-j belote-j"  ng-init="loadPage(WPConfig.belote.mainPageSlugs[env.lang], true)">
+            <div ng-if="conf.showNewBelotePage" class="skillgame-landing-j belote-j"  ng-init="loadPage('belote.mainPageSlugs', true)">
                 <vbet-loader ng-show="!pages"></vbet-loader>
                 <div ng-if="pages">
                     <div class="intro-section-j" ng-init="initProductBanners('belote')">

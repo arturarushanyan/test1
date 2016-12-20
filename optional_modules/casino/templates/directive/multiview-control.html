@@ -61,7 +61,7 @@
             <div class="live-casino-tables">
                 <casino-lobby ng-if="confData.liveCasino.lobby.getDataViaSwarm && selectedCategory && selectedCategory === confData.liveCasino.categoryId" active-game-id="all"></casino-lobby>
                 <iframe ng-if="!confData.liveCasino.lobby.getDataViaSwarm && selectedCategory && selectedCategory === confData.liveCasino.categoryId && liveCasinoTablesInfo.url" ng-src="{{ liveCasinoTablesInfo.url }}"></iframe>
-                <vbet-loader ng-show="loadingProcess"></vbet-loader>
+                <vbet-loader ng-show="loadingProcess && !games.length"></vbet-loader>
             </div>
 
         </div>

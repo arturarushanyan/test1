@@ -145,7 +145,9 @@ angular.module('casino').controller('casinoSpecialGamesCtrl', ['$rootScope', '$s
                         $scope.loadingUserData = false;
                     });
             } else {
-                prefix = prefix || (CConfig.cUrlPrefix + CConfig.cGamesUrl + '?gameid=' + game.gameID + '&provider=' + game.provider + '&lan=' + Config.env.lang + additionalAttrs + '&partnerid=' + CConfig.main.partnerID);
+                var urlPrefix = CConfig.main.providersThatWorkWithCasinoBackend && CConfig.main.providersThatWorkWithCasinoBackend.providers.indexOf(game.provider) !== -1 ? CConfig.main.providersThatWorkWithCasinoBackend.url : CConfig.cUrlPrefix + CConfig.cGamesUrl;
+
+                prefix = prefix || (urlPrefix + '?gameid=' + game.gameID + '&provider=' + game.provider + '&lan=' + Config.env.lang + additionalAttrs + '&partnerid=' + CConfig.main.partnerID);
                 if ($rootScope.env.authorized) {
                     Zergling.get({'game_id': parseInt(game.externalID)}, 'casino_auth').then(function (response) {
                         if (response && response.result && response.result.has_error == "False") {
@@ -210,7 +212,7 @@ angular.module('casino').controller('casinoSpecialGamesCtrl', ['$rootScope', '$s
         }
     };
 
-    $rootScope.$on('profile', function () {
+    $scope.$on('profile', function () {
         $window.postMessage({userData: AuthData.get()}, "*");
     });
 

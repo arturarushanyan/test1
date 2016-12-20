@@ -25,7 +25,7 @@
                     <div class="pley-view-buttons-b-wp">
                         <ul ng-if="mostPopularGame.link">
                             <li>
-                                <a ng-href="{{mostPopularGame.link}}" trans>Bet now!</a>
+                                <a ng-href="{{mostPopularGame.link}}" ng-click="routeReload()" trans>Bet now!</a>
                             </li>
                         </ul>
                     </div>

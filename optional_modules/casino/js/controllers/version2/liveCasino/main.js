@@ -109,8 +109,14 @@ CASINO.controller('liveCasinoVersion2MainCtrll', ['$rootScope', '$scope', '$sce'
         if (searchParams.game !== undefined) {
             var game = casinoManager.getGameById($scope.games, searchParams.game);
             var studio = searchParams.studio;
+            var table = searchParams.table;
             if (game) {
-                $scope.openGame(game, null, null, studio, searchParams.limit);
+                if(table) {
+                    $scope.openGame(game, null, table, studio, searchParams.limit);
+                } else {
+                    $scope.openTables(game, null, studio);
+                }
+
             }
         }
     }
@@ -692,7 +698,7 @@ CASINO.controller('liveCasinoVersion2MainCtrll', ['$rootScope', '$scope', '$sce'
                 r1: {index: 0, rotationPaused: false, list: []},
                 r2: {index: 0, rotationPaused: false, list: []}
             };
-            content.getWidget(WPConfig.bannerSlugs.livecasino[$rootScope.env.lang]).then(function (response) {
+            content.getWidget('bannerSlugs.livecasino').then(function (response) {
                 if (response.data && response.data.widgets && response.data.widgets[0]) {
                     var i, length = response.data.widgets.length;
                     for (i = 0; i < length; i += 1) {
@@ -725,7 +731,7 @@ CASINO.controller('liveCasinoVersion2MainCtrll', ['$rootScope', '$scope', '$sce'
     }
 
     function loadSlidingViewTopBanners () {
-        content.getPage(WPConfig['live-casino'].mainPageSlugs[$rootScope.env.lang], true).then(function (data) {
+        content.getPage('live-casino.mainPageSlugs', true).then(function (data) {
             $scope.productSlides = (data.data.page && data.data.page.children[0] && data.data.page.children[0].children) || [];
         });
     }

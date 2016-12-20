@@ -49,7 +49,9 @@ CASINO.controller('casinoMiniGamesCtrl', ['$rootScope', '$scope', '$sce', 'CConf
                     }
                 });
         } else {
-            var gameUrl = CConfig.cUrlPrefix + CConfig.cGamesUrl + "?gameid=" + gameId + "&provider=" + provider + gameOption + '&lan=' + $rootScope.env.lang + '&partnerid=' + CConfig.main.partnerID;
+            var urlPrefix = CConfig.main.providersThatWorkWithCasinoBackend && CConfig.main.providersThatWorkWithCasinoBackend.providers.indexOf(provider) !== -1 ? CConfig.main.providersThatWorkWithCasinoBackend.url : CConfig.cUrlPrefix + CConfig.cGamesUrl;
+
+            var gameUrl = urlPrefix + "?gameid=" + gameId + "&provider=" + provider + gameOption + '&lan=' + $rootScope.env.lang + '&partnerid=' + CConfig.main.partnerID;
             if ($rootScope.env.authorized) {
                 Zergling.get({'game_id': parseInt(externalId)}, 'casino_auth').then(function (response) {
                     $scope.gameIsLoading = false;

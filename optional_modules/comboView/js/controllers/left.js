@@ -40,10 +40,7 @@ VBET5.controller('comboViewLeftController', ['$scope', 'Config', 'GameInfo', 'Ut
             request.where.game.start_ts = Config.env.gameTimeFilter;
         }
 
-        if (customSportAliasFilter) {
-            request.where.sport = request.where.sport || {};
-            request.where.sport.alias = {'@in': customSportAliasFilter};
-        }
+        Utils.setCustomSportAliasesFilter(request);
 
         var updateLeftMenuSport = function updateLeftMenuSport (data) {
             $scope.leftMenuSports = Utils.objectToArray(data.sport);
@@ -91,6 +88,7 @@ VBET5.controller('comboViewLeftController', ['$scope', 'Config', 'GameInfo', 'Ut
         } else if (Config.env.gameTimeFilter) {
             request.where.game.start_ts = Config.env.gameTimeFilter;
         }
+        Utils.setCustomSportAliasesFilter(request);
 
         var updateLeftMenuRegionsForSport = function updateLeftMenuRegionsForSport (data, subid) {
             var region_array = Utils.objectToArray(data.region);
@@ -175,6 +173,7 @@ VBET5.controller('comboViewLeftController', ['$scope', 'Config', 'GameInfo', 'Ut
         } else if (Config.env.gameTimeFilter) {
             request.where.game.start_ts = Config.env.gameTimeFilter;
         }
+        Utils.setCustomSportAliasesFilter(request);
 
         var updateLeftMenuCompetitionsForTheRegion = function updateLeftMenuCompetitionsForTheRegion (data, subid) {
             var sport_data = Utils.objectToArray(data.sport);
@@ -245,7 +244,7 @@ VBET5.controller('comboViewLeftController', ['$scope', 'Config', 'GameInfo', 'Ut
                     ['id', 'start_ts', 'team1_name', 'team2_name', 'team1_external_id', 'team2_external_id', 'type', 'info', 'markets_count', 'is_blocked', 'sport_id', 'order', 'is_live']
                 ],
                 'event': ['id', 'price', 'type', 'name', 'order', 'base'],
-                'market': ['type', 'express_id', 'name', 'base', 'show_type', '@count']
+                'market': ['type', 'express_id', 'name', 'base', 'display_key', 'show_type', '@count']
             },
             'where': {
                 'competition': {'id': +competition_id},
@@ -264,7 +263,7 @@ VBET5.controller('comboViewLeftController', ['$scope', 'Config', 'GameInfo', 'Ut
         } else if (Config.env.gameTimeFilter) {
             request.where.game.start_ts = Config.env.gameTimeFilter;
         }
-
+        Utils.setCustomSportAliasesFilter(request);
         var updateLeftMenuGamesForTheCompetition = function updateLeftMenuGamesForTheCompetition (data, subid) {
             var sport_data = Utils.objectToArray(data.sport);
             var region_array = Utils.objectToArray(sport_data[0].region);
@@ -371,8 +370,6 @@ VBET5.controller('comboViewLeftController', ['$scope', 'Config', 'GameInfo', 'Ut
         });
     }
 
-    openInitialFieldsInLeftMenu();
-
     $scope.$on('comboView.timeFilter.changed', function (event) {
         openFieldsInLeftMenuAfterTimeFilter();
     });
@@ -401,4 +398,10 @@ VBET5.controller('comboViewLeftController', ['$scope', 'Config', 'GameInfo', 'Ut
             }
         });
     }
+
+    (function init() {
+        GameInfo.getProviderAvailableEvents().then(function() {
+            openInitialFieldsInLeftMenu();
+        });
+    })();
 }]);

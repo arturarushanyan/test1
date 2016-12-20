@@ -23441,11 +23441,11 @@ li.active-format:before {
 .new-default-popup-j.feedback label input[type=email],
 .new-default-popup-j.feedback label textarea {
     background: #fffef6;
-    border-color: #303838;
+    border-color: #a6aba8;
 }
 .new-default-popup-j.feedback label input[type=email]:focus,
 .new-default-popup-j.feedback label textarea:focus {
-    border-color: #7c8292;
+    border-color: #303838;
 }
 
 .new-default-popup-j.feedback label input[type=email]:-webkit-autofill {
@@ -24619,7 +24619,6 @@ label.reg-cup-register-j:nth-of-type(even) {
 }
 .block-slider.popup .form-register-layout.signin .button-sign ul li a:hover {
     color: #42454e;
-    text-decoration: underline;
 }
 
 .block-slider.popup .form-register-layout.signin .button-sign ul li.create-account-icon a:before {
@@ -57875,7 +57874,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         font: 13px Ubuntu, Arial, Helvetica, sans-serif;
         height: 36px;
         width: 100%;
-        border: 1px solid #505768;
+        border: 1px solid #a6aba8;
         color: #7c8292;
         transition: border-color 200ms;
         box-shadow: none;

@@ -53029,10 +53029,10 @@ top-game-block {
 .no-scrollbar{
     padding-right: 0px;
 }
-.has-scrollbar .ngscroll-resizable .ngscroll-scrollbar-container {
+.has-scrollbar > .ngscroll-resizable > .ngscroll-scrollbar-container {
     display: block;
 }
-.no-scrollbar .ngscroll-resizable .ngscroll-scrollbar-container {
+.no-scrollbar > .ngscroll-resizable > .ngscroll-scrollbar-container {
     display: none;
 }
 
@@ -58977,6 +58977,9 @@ div.slider-image-wrapper-b {
 .menu-popup .region-items-box .ngscroll-container {
     width: calc(100% - 6px) !important;
 }
+.menu-popup .region-items-box.no-scrollbar .ngscroll-container {
+    width: 100% !important;
+}
 
 .menu-popup .region-items-box .ngscroll-scrollbar-container {
     right: 0 !important;
@@ -59012,9 +59015,7 @@ div.slider-image-wrapper-b {
 }
 
 .full-region-info-v3 {
-
     border-radius: 4px;
-    border: 1px solid #d8d8d6;
     margin-top: 2px;
 }
 

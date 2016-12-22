@@ -13627,6 +13627,9 @@ form.ng-pristine .form-text.error input {
     font-style: normal;
 }
 
+.icon-eye:before {
+    content: "\e6b3";
+}
 .form-register-layout.signin .register-steps-b .field-separator .password-eye-ico,
 .password-eye-ico {
     font-family: 'icomoon';
@@ -45532,8 +45535,17 @@ top-game-block {
     font-weight: normal;
     transform: inherit;
     margin: 15px 0 0;
+    display: flex;
 }
-
+.settings-icon-contain.balance-box > ul > .hidden-balance {
+    height: inherit;
+    text-align: center;
+    line-height: 1em;
+}
+.icon-eye.hide-balance {
+    font-size: 20px;
+    padding: 0 0 5px 15px;
+}
 .settings-icon-contain.leng-b > i, .settings-icon-contain.balance-box > i {
     display: block;
     position: absolute;

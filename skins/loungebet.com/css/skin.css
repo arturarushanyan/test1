@@ -23963,6 +23963,7 @@ li.active-format:before {
 .new-default-popup-j.feedback .popup-wrapper-j {
     width: 430px;
     overflow: visible;
+    z-index: 10;
 }
 
 .new-default-popup-j.feedback .pu-contain-j {
@@ -24528,8 +24529,12 @@ label.reg-cup-register-j:nth-of-type(even) {
     animation: popup-bg-enter .3s ease-in-out;
 }
 
-.block-slider.popup .close {
-    display: none;
+.close-popup-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
 
 .block-slider.popup .registration-form {
@@ -24575,6 +24580,7 @@ label.reg-cup-register-j:nth-of-type(even) {
 .vertical-middle-wrapper {
     display: inline-table;
     height: 100%;
+    z-index: 10;
 }
 
 .all-popup-separator {
@@ -50322,8 +50328,10 @@ top-game-block {
     right: 0;
     overflow: hidden;
 }
+.livecalendar .classic-view-wrapper-v3 .center-column-v3 .live-calendar-16-scroll-fix-j .has-scrollbar{
+    padding-right: 0;
+}
 
-.livecalendar .classic-view-wrapper-v3 .center-column-v3 .live-calendar-16-scroll-fix-j .ngscroll-container,
 .centr-market-contain .scroll-contain .ngscroll-container {
     width: calc(100% - 4px) !important;
 }
@@ -62177,6 +62185,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         box-sizing: border-box;
         padding: 15px;
         padding-top: 100px;
+        z-index: 10;
     }
 
     .all-main-tabs-b > ul > li {

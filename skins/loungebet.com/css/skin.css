@@ -13627,6 +13627,78 @@ form.ng-pristine .form-text.error input {
     font-style: normal;
 }
 
+.form-register-layout.signin .register-steps-b .field-separator .password-eye-ico,
+.password-eye-ico {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    width: 35px;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    padding: 0;
+}
+/* Base for label styling */
+.form-text [type="checkbox"]:not(:checked),
+.form-text [type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+.form-text [type="checkbox"]:not(:checked) + label,
+.form-text [type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.form-text  [type="checkbox"]:not(:checked) + label:before,
+.form-text  [type="checkbox"]:checked + label:before {
+    font: 26px/23px icomoon;
+    content: '\e6b3';
+    color: #a6aba8;
+    position: absolute;
+    left:0; top: 2px;
+    width: 17px; height: 17px;
+}
+/* checked mark aspect */
+.form-text  [type="checkbox"]:not(:checked) + label:after,
+.form-text  [type="checkbox"]:checked + label:after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    width: 25px;
+    border: 1px solid #6b6e6c;
+    border-radius: 1px;
+    display: block;
+    transition: all 0.2s;
+}
+/* checked mark aspect changes */
+.form-text  [type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(1);
+}
+.form-text  [type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: rotate(-45deg);
+}
+/* disabled checkbox */
+.form-text  [type="checkbox"]:disabled:not(:checked) + label:before,
+.form-text  [type="checkbox"]:disabled:checked + label:before {
+    box-shadow: none;
+}
+.form-text  [type="checkbox"]:disabled:checked + label:after {
+    color: #999;
+}
+.form-text  [type="checkbox"]:disabled + label {
+    color: #aaa;
+}
+
 .fedback-info h3 {
     border-bottom: 1px solid #1e2639;
     color: #ffffff;

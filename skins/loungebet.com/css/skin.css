@@ -24592,7 +24592,7 @@ label.reg-cup-register-j:nth-of-type(even) {
     float: left;
     width: 380px;
     display: block;
-    background: #2e323e;
+    background: #fff;
     box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.15);
     position: relative;
     box-sizing: border-box;
@@ -24634,10 +24634,10 @@ label.reg-cup-register-j:nth-of-type(even) {
 
 .logo-form-b {
     float: left;
-    width: 100%;
-    height: 76px;
-    background: url("../images/logo.png") no-repeat 50% 50%/contain;
-    margin: 15px 0 20px;
+    width: 80%;
+    height: 80px;
+    background: url("../images/logo_join.png") no-repeat 50% 50%/contain;
+    margin: 0 10% 0;
 }
 
 .VBET .logo-form-b {
@@ -24847,13 +24847,11 @@ label.reg-cup-register-j:nth-of-type(even) {
 
 .register-steps-b .form-text > div > input:-webkit-autofill,
 .form-register-layout.signin .field-separator .form-text > input:-webkit-autofill {
-    box-shadow: 0 0 0 100px #2e323e inset;
     -webkit-text-fill-color: #7c8292;
 }
 
 .register-steps-b .form-text > div > input:-webkit-autofill:focus,
 .form-register-layout.signin .field-separator .form-text > input:-webkit-autofill:focus {
-    box-shadow: 0 0 0 100px #2e323e inset;
     -webkit-text-fill-color: #7c8292;
 }
 
@@ -25007,7 +25005,7 @@ label.reg-cup-register-j:nth-of-type(even) {
 
 .button-confirm > button:disabled {
     color: #212531;
-    background: #404654;
+    background: #a6aba8;
     cursor: default;
 }
 
@@ -48622,6 +48620,7 @@ top-game-block {
     justify-content: space-around;
     width: 75%;
     float: right;
+    margin-right: 6%;
 }
 
 .contacts-buttons .btn-contact {
@@ -48632,6 +48631,9 @@ top-game-block {
     cursor: pointer;
     text-decoration: none;
     outline: none;
+}
+.contacts-buttons .btn-contact:last-of-type { 
+    margin-right: 0;
 }
 
 .contacts-buttons .btn-contact .icon {
@@ -48665,11 +48667,13 @@ top-game-block {
     font-size: 11px;
     color: white;
     letter-spacing: 1px;
+    white-space: nowrap;
 }
 
 .contacts-buttons .btn-contact .btn-text span:last-of-type {
     font-size: 9px;
-    color: white
+    color: white;
+    white-space: nowrap;
 }
 
 .contacts-buttons .btn-contact.mail {
@@ -64426,4 +64430,596 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
 }
 
+@media screen and (max-width: 1600px) {
+    .new-homepage {
+        width: 100%;
+    }
+    #welcome-logo {
+    position: relative;
+    }
+    .new-logo {
+        height: 120px;
+        box-sizing: border-box;
+        width: 300px;
+    }
+    .limiter {
+        position: relative;
+        max-width: 1600px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .logo-landing {
+        height: 120px;
+        box-sizing: border-box;
+        width: 300px;
+        background: url(../images/logo.png) no-repeat 0 100%;
+    }
+    .new-logo > a {
+        width: 100%;
+        box-sizing: border-box;
+        background-size: contain;
+        height: 100%;
+    }
+    #top-part {
+        position: relative;
+        text-shadow: 0 0 25px #5b5c5c;
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 440px);
+        align-items: center;
+        justify-content: center;
+    }
+    .site-title {
+        display: flex;
+        flex-direction: column;
+    }
+    .welcome {
+        text-transform: uppercase;
+        color: #fff;
+        font: 56px/72px Ubuntu, Arial, Helvetica sans-serif;
+        text-align: center;
+    }
+    .site-info {
+        color: #fff;
+        font: 20px/36px Ubuntu, Arial, Helvetica sans-serif;
+        text-align: center;
+    }
+    .signin-reg-buttons-landing {
+        float: left;
+        padding-top: 20px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .signin-reg-buttons-landing > ul {
+        box-sizing: border-box;
+    }
+    .signin-reg-buttons-landing > ul > li {
+        box-sizing: border-box;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .signin-reg-buttons-landing > ul > li:first-child > a > button {
+        background: #468966;
+        color: #fff;
+        border: 1px solid #468966;
+    }
+    .signin-reg-buttons-landing > ul > li > button, .signin-reg-buttons-landing > ul > li > a > button {
+        height: 46px;
+        border: none;
+        background: #468966;
+        box-sizing: border-box;
+        padding: 0 60px;
+        font: 16px/18px Ubuntu, Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        text-transform: uppercase;
+        cursor: pointer;
+        min-width: 100px;
+        transition: color 180ms, background 180ms, border 180ms;
+        border-radius: 4px;
+    }
+    #product {
+        position: relative;
+        min-height: 211px;
+        background: rgba(48, 61, 77, .5);
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    #bottom-part {
+        position: absolute;
+        top: -40px;
+    }
+    .title-line {
+        position: relative;
+        height: 40px;
+        min-width: 340px;
+        left: 25px;
+        z-index: 1;
+    }
+    .title-line:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: -48px;
+        bottom: 0;
+        background: #ff8067;
+        -webkit-transform: skew(50deg, 0deg);
+        /* -moz-transform: skew(-30deg, 0deg); */
+        -ms-transform: skew(-30deg, 0deg);
+        transform: skew(50deg, 0deg);
+        z-index: -1;
+    }
+    .title-line-text {
+        color: #fff;
+        font: 20px/40px Ubuntu, Arial, Helvetica sans-serif;
+        text-align: left;
+        z-index: 2;
+        padding-right: 60px;
+    }
+    .product-block {
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        align-items: center;
+        padding: 0 10px 0px 10px;
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: center;
+        -webkit-flex-direction: row;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .product {
+        float: left;
+        width: 25%;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+    .product-wrap {
+        position: relative;
+        height: 240px;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, .3);
+        box-sizing: border-box;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    .product-wrap:hover {
+        box-shadow: 0 4px 0 #ff8067 inset;
+        background: rgba(0, 0, 0, .4);
+        transition-duration: 0.3s;
+        cursor: pointer;
+    }
+    .product-wrap:hover:before {
+        opacity: 0.3;
+        cursor: pointer;
+    }
+    .product-wrap:hover .signin-button-landing > div button {
+        transform: translateY(0);
+    }
+    .product-wrap:hover > a {
+        opacity: .3;
+    }
+    .signin-button-landing > div button {
+        transform: translateY(0);
+    }
+    .product-wrap:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 88;
+        background: #2a1915;
+        opacity: 0;
+        transition: opacity 450ms;
+        border-radius: 4px;
+    }
+    .product-wrap a {
+        display: block;
+        text-decoration: none;
+        font: 24px/48px Ubuntu, Arial, Helvetica, sans-serif;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+    .product-title {
+        text-transform: uppercase;
+        border-radius: 5px 5px 0 0;
+        color: #fff;
+        font: 26px/66px Ubuntu, Arial, Helvetica sans-serif;
+        text-align: center;
+        -moz-border-radius: 5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
+    }
+    .product-icon-container {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        display: table;
+        position: relative;
+    }
+    .product-icon-container b {
+        font: 60px/60px ucraftme_font;
+        color: #fffef6;
+        display: table-cell;
+        vertical-align: bottom;
+        transition: color 250ms;
+    }
+    .product-text {
+        position: relative;
+        padding: 10px 15px 10px 15px;
+        text-align: center;
+        border-radius: 0 0 5px 5px;
+        color: #dfdede;
+        font: 16px/26px Ubuntu, Arial, Helvetica, sans-serif;
+        -moz-border-radius: 0 0 5px 5px;
+        -webkit-border-radius: 0 0 5px 5px;
+    }
+    .product-wrap > .signin-button-landing {
+        display: block;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 90;
+        overflow: hidden;
+        padding-top: 42%;
+    }
+    .product-wrap > .signin-button-landing > div {
+        display: inline-block;
+    }
+    .product-wrap > .signin-button-landing > div button {
+        height: 36px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        border: 0;
+        transition: 260ms transform;
+        background: #468966;
+        color: #fff;
+        font: 14px/36px Ubuntu, Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 4px;
+        transform: translate3d(0, -550%, 0);
+    }
+    .product-wrap > .signin-button-landing > div button span {
+        width: 100%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0 36px;
+        box-sizing: border-box;
+    }
+    .product-icon-container > b.casino-logo:before {
+        content: "\ea4a";
+    }
+    .product-icon-container > b.play-logo:before {
+        content: "\ea4d";
+    }
+    .product-icon-container > b.sport-logo:before {
+        content: "\ea4e";
+    }
+    .product-icon-container > b.livecasino-logo:before {
+        content: "\ea4b";
+    }
+}
 
+@media screen and (max-width: 1108px) {
+    .new-homepage {
+        width: 100%;
+        height: 100vh;
+    }
+    #welcome-logo {
+    position: relative;
+    }
+    .new-logo {
+        height: 120px;
+        box-sizing: border-box;
+        width: 300px;
+    }
+    .limiter {
+        position: relative;
+        max-width: 1600px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .logo-landing {
+        height: 120px;
+        box-sizing: border-box;
+        width: 300px;
+        background: url(../images/logo.png) no-repeat 0 100%;
+      transform: translateY(80px);
+    }
+    .new-logo > a {
+        width: 100%;
+        box-sizing: border-box;
+        background-size: contain;
+        height: 100%;
+    }
+    #top-part {
+        position: relative;
+        text-shadow: 0 0 25px #5b5c5c;
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 440px);
+        align-items: center;
+        justify-content: center;
+    }
+    .site-title {
+        display: flex;
+        flex-direction: column;
+    }
+    .welcome {
+        text-transform: uppercase;
+        color: #fff;
+        font: 48px/64px Ubuntu, Arial, Helvetica sans-serif;
+        text-align: center;
+    }
+    .site-info {
+        color: #fff;
+        font: 20px/36px Ubuntu, Arial, Helvetica sans-serif;
+        text-align: center;
+    }
+    .signin-reg-buttons-landing {
+        float: left;
+        padding-top: 20px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .signin-reg-buttons-landing > ul {
+        box-sizing: border-box;
+    }
+    .signin-reg-buttons-landing > ul > li {
+        box-sizing: border-box;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .signin-reg-buttons-landing > ul > li:first-child > a > button {
+        background: #468966;
+        color: #fff;
+        border: 1px solid #468966;
+    }
+    .signin-reg-buttons-landing > ul > li > button, .signin-reg-buttons-landing > ul > li > a > button {
+        height: 46px;
+        border: none;
+        background: #468966;
+        box-sizing: border-box;
+        padding: 0 60px;
+        font: 16px/18px Ubuntu, Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        text-transform: uppercase;
+        cursor: pointer;
+        min-width: 100px;
+        transition: color 180ms, background 180ms, border 180ms;
+        border-radius: 4px;
+    }
+    #product {
+        position: absolute;
+            bottom: 0;
+        min-height: 211px;
+        background: rgba(48, 61, 77, .5);
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    #bottom-part {
+        position: absolute;
+        top: -40px;
+    }
+    .product-wrap-new {
+        position: relative;
+        height: 240px;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, .3);
+        box-sizing: border-box;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    .product-wrap-new:hover {
+        background: rgba(0, 0, 0, .4);
+        transition-duration: 0.3s;
+        cursor: pointer;
+
+    }
+    .title-line {
+        position: relative;
+        height: 40px;
+        min-width: 340px;
+        left: 25px;
+        z-index: 1;
+    }
+    .title-line:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: -48px;
+        bottom: 0;
+        background: #ff8067;
+        -webkit-transform: skew(50deg, 0deg);
+        /* -moz-transform: skew(-30deg, 0deg); */
+        -ms-transform: skew(-30deg, 0deg);
+        transform: skew(50deg, 0deg);
+        z-index: -1;
+    }
+    .title-line-text {
+        color: #fff;
+        font: 20px/40px Ubuntu, Arial, Helvetica sans-serif;
+        text-align: left;
+        z-index: 2;
+        padding-right: 60px;
+    }
+    .product-block {
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        align-items: center;
+        padding: 0 10px 0px 10px;
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: center;
+        -webkit-flex-direction: row;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .product {
+        float: left;
+        width: 25%;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+    .product .product-wrap-new a {
+         text-decoration: none;
+    }
+    .product-wrap {
+        position: relative;
+        height: 240px;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, .3);
+        box-sizing: border-box;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    .product-wrap:hover {
+        box-shadow: 0 4px 0 #ff8067 inset;
+        background: rgba(0, 0, 0, .4);
+        transition-duration: 0.3s;
+        cursor: pointer;
+    }
+    .product-wrap:hover:before {
+        opacity: 0.3;
+        cursor: pointer;
+    }
+    .product-wrap:hover .signin-button-landing > div button {
+        transform: translateY(0);
+    }
+    .product-wrap:hover > a {
+        opacity: .3;
+    }
+    .signin-button-landing > div button {
+        transform: translateY(0);
+    }
+    .product-wrap:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 88;
+        background: #2a1915;
+        opacity: 0;
+        transition: opacity 450ms;
+        border-radius: 4px;
+    }
+    .product-wrap a {
+        display: block;
+        text-decoration: none;
+        font: 24px/48px Ubuntu, Arial, Helvetica, sans-serif;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+    .product-title {
+        text-transform: uppercase;
+        border-radius: 5px 5px 0 0;
+        color: #fff;
+        font: 26px/66px Ubuntu, Arial, Helvetica sans-serif;
+        text-align: center;
+        -moz-border-radius: 5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
+    }
+    .product-icon-container {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        display: table;
+        position: relative;
+    }
+    .product-icon-container b {
+        font: 60px/60px ucraftme_font;
+        color: #fffef6;
+        display: table-cell;
+        vertical-align: bottom;
+        transition: color 250ms;
+    }
+    .product-text {
+        position: relative;
+        padding: 10px 15px 10px 15px;
+        text-align: center;
+        border-radius: 0 0 5px 5px;
+        color: #dfdede;
+        font: 16px/26px Ubuntu, Arial, Helvetica, sans-serif;
+        -moz-border-radius: 0 0 5px 5px;
+        -webkit-border-radius: 0 0 5px 5px;
+    }
+    .product-wrap > .signin-button-landing {
+        display: block;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 90;
+        overflow: hidden;
+        padding-top: 45%;
+    }
+    .product-wrap > .signin-button-landing > div {
+        display: inline-block;
+    }
+    .product-wrap > .signin-button-landing > div button {
+        height: 36px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        border: 0;
+        transition: 260ms transform;
+        background: #468966;
+        color: #fff;
+        font: 14px/36px Ubuntu, Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 4px;
+        transform: translate3d(0, -550%, 0);
+    }
+    .product-wrap > .signin-button-landing > div button span {
+        width: 100%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0 36px;
+        box-sizing: border-box;
+    }
+    .product-icon-container > b.casino-logo:before {
+        content: "\ea4a";
+    }
+    .product-icon-container > b.play-logo:before {
+        content: "\ea4d";
+    }
+    .product-icon-container > b.sport-logo:before {
+        content: "\ea4e";
+    }
+    .product-icon-container > b.livecasino-logo:before {
+        content: "\ea4b";
+    }
+}

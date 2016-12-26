@@ -506,27 +506,27 @@ body {
   color: #d14343;
 }
 
-.icon-All.Games:before {
+.icon-All.Games-casino:before {
   content: "\e955";
 }
 
-.icon-VideoSlots:before {
+.icon-VideoSlots-casino:before {
   content: "\e953";
 }
 
-.icon-jackpots:before {
+.icon-jackpots-casino:before {
   content: "\e956";
 }
 
-.icon-Table.Games:before {
+.icon-Table.Games-casino:before {
   content: "\e94a";
 }
 
-.icon-Video.Poker:before {
+.icon-Video.Poker-casino:before {
   content: "\e952";
 }
 
-.icon-Other.Games:before {
+.icon-Other.Games-casino:before {
   content: "\e94f";
 }
 
@@ -1373,6 +1373,12 @@ body {
   transform: translate3d(0, 0, 0);
 }
 
+.game-container-box-jf.ng-scope.slot-fullscreen {
+  max-width: 1477px;
+  max-height: 831px;
+  transition: max-width 180ms, max-height 180ms;
+}
+
 .game-container-box-jf > iframe {
   width: 100% !important;
   height: 100% !important;
@@ -1473,6 +1479,10 @@ body {
 
 .game-control-icons-jf:hover:before {
   color: #fbc02d;
+}
+
+.game-control-icons-jf.icon-1-b:hover:before {
+  color: #ff6767;
 }
 
 .bottom-row-game-box {

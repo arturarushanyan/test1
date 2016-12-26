@@ -1380,7 +1380,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  height: 44px;
+  height: 40px;
   border-radius: 5px 5px 0 0;
   padding: 0 15px;
   box-sizing: border-box;
@@ -1395,17 +1395,17 @@ body {
   float: left;
   position: relative;
   font-size: 14px;
-  line-height: 44px;
-  height: 44px;
-  color: #fbc02d;
+  line-height: 40px;
+  height: 40px;
+  color: #ffffff;
   margin: 0 20px 0 0;
-  padding: 0 0 0 25px;
+  padding: 0 0 0 22px;
   box-sizing: border-box;
   cursor: pointer;
 }
 
-.type-play-fun-jf.real-b-jf {
-  color: #ffffff;
+.type-play-fun-jf.active {
+  color: #fbc02d;
 }
 
 .type-play-fun-jf:before {
@@ -1413,9 +1413,9 @@ body {
   display: block;
   position: absolute;
   left: 0;
-  top: 14px;
-  width: 16px;
-  height: 16px;
+  top: 13px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background: #fbc02d;
   box-sizing: border-box;
@@ -1428,7 +1428,7 @@ body {
 .right-box-b-jf {
   float: right;
   box-sizing: border-box;
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 .game-control-icons-jf {
@@ -1441,7 +1441,7 @@ body {
 }
 
 .game-control-icons-jf:before {
-  font: 16px/20px icomoon;
+  font: 15px/20px icomoon;
   color: #ffffff;
   transition: color 300ms;
   box-sizing: border-box;
@@ -1477,7 +1477,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 44px;
+  height: 40px;
   border-radius: 0 0 5px 5px;
   padding: 0 15px;
   box-sizing: border-box;
@@ -1488,9 +1488,9 @@ body {
   box-sizing: border-box;
   padding: 0 0 0 20px;
   position: relative;
-  height: 44px;
+  height: 40px;
   font-size: 14px;
-  line-height: 44px;
+  line-height: 40px;
   color: #ffffff;
 }
 
@@ -1499,7 +1499,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  font: 16px/44px icomoon;
+  font: 16px/40px icomoon;
   color: #ffffff;
 }
 

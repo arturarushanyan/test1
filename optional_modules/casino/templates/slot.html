@@ -1463,8 +1463,8 @@
                 <div class="game-container-box-jf" ng-repeat="gameInfo in gamesInfo">
                     <div class="top-row-game-box">
                         <div class="left-box-b-jf">
-                            <div class="type-play-fun-jf">Play For Fun</div>
-                            <div class="type-play-fun-jf real-b-jf">Play For Real</div>
+                            <div class="type-play-fun-jf" ng-class="{'active': openGame.game.gameInfo === 'fun'}" ng-click="togglePlayForReal(gameInfo);$event.stopPropagation();">Play For Fun</div>
+                            <div class="type-play-fun-jf" ng-class="{'active': openGame.game.gameInfo === 'real'}" ng-click="togglePlayForReal(gameInfo);$event.stopPropagation();">Play For Real</div>
                         </div>
 
                         <div class="right-box-b-jf">

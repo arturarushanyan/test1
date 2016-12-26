@@ -9,7 +9,7 @@ VBET5.filter('convertCategoryName', function () {
     'use strict';
 
        var replacements = {
-                "All Games": "All Games"
+                "[51]": "AllGames"
         };
     return function (rawName, sportAlias) {
         if (replacements[sportAlias + rawName] !== undefined) {

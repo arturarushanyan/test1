@@ -97,16 +97,15 @@ body{
 .second-nav-block ul li{
     display: inline-block;
 }
-.conteiner.show-fix, .conteiner.show-game{
+.conteiner.show-fix {
     height: 41px;
-
     z-index: 99999;
     top: 0;
     left: 0;
     margin: 0;
     animation: mini-header 280ms ease;
 }
-.conteiner.show-fix, .conteiner.show-game{
+.conteiner.show-fix {
     height: 41px;
 
     z-index: 99999;
@@ -144,7 +143,7 @@ body{
     height: 59px;
 }
 .conteiner.show-fix .transparent-line, .conteiner.show-game .transparent-line{display: none;}
-.conteiner.show-fix .top-black, .conteiner.show-game .top-black{height: 41px;}
+.conteiner.show-fix .top-black {height: 41px;}
 .conteiner.show-fix .header-bg, .conteiner.show-fix .header-announcement, .conteiner.show-game .header-bg, .conteiner.show-game .header-announcement{ display: none;}
 .header{
     position: relative;
@@ -180,14 +179,14 @@ body{
 .clock .open-lang ul li:hover, .clock .open-lang ul li.active{background: #eee;}
 .open-lang ul li.active-format, .open-lang ul li.active-format:hover{cursor: default;}
 .open-lang ul li.active span{ font-weight: bold;}
-.conteiner.show-fix .clock .open-lang, .conteiner.show-game .clock .open-lang{top: 41px;}
+.conteiner.show-fix .clock .open-lang {top: 41px;}
 .clock .open-lang .arrow-sport{left: 4px;right: auto;}
 .clock span{
     min-width: 64px;
     position: absolute;
     transform: translate3d(0,0,0);
 }
-.conteiner.show-fix .clock, .conteiner.show-game .clock {
+.conteiner.show-fix .clock  {
     height: 27px;
     padding: 14px 0 0 50px;
 }

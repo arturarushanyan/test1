@@ -193,7 +193,7 @@
 .flag-Venezuela { background: url('../images/flags.png?20160607111144') no-repeat -161px -313px; width: 16px; height: 13px; }
 .flag-Vietnam { background: url('../images/flags.png?20160607111144') no-repeat -187px -313px; width: 16px; height: 13px; }
 .flag-Wales { background: url('../images/flags.png?20160607111144') no-repeat -5px -339px; width: 16px; height: 16px; }
-.flag-World, .flag-2969 { background: url('../images/flags.png?20160607111144') no-repeat -31px -338px; width: 16px; height: 16px; }
+.flag-World, .flag-2969 { background: url('../images/flags.png?20160607111144') no-repeat -31px -338px !important; width: 16px; height: 16px; }
 .flag-Yemen { background: url('../images/flags.png?20160607111144') no-repeat -213px -313px; width: 16px; height: 13px; }
 .flag-Zambia { background: url('../images/flags.png?20160607111144') no-repeat -239px -313px; width: 16px; height: 13px; }
 .flag-Zimbabwe { background: url('../images/flags.png?20160607111144') no-repeat -57px -339px; width: 16px; height: 16px; }

@@ -148,7 +148,7 @@
                     <div class="region-item-row-v3">
                         <div class="region-items-box">
                             <div class="full-region-info-v3" ng-repeat="region in sport.regions track by region.id" ng-if="!sport.isFavoriteCompetition">
-                                <div class="region-item-v3" ng-class="{'active': leftMenuState.prematch.region[region.id].expanded}"
+                                <div class="region-item-v3" ng-class="{'active': leftMenuState.prematch.region[region.id].expanded && hover}"
 
                                      ng-click="expandLeftMenuPrematchRegion(region, sport); selectRegion(region)">
                                     <div class="flag-view-v3 flag-{{::region.alias | removeUselessSymbolsByRegexp: '[, ]+': 'g'}}"></div>

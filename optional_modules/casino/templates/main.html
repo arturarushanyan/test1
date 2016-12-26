@@ -1,4 +1,4 @@
-<div ng-controller="casinoCtrl"
+<div ng-controller="casinoVersion2Ctrl"
      ng-init="checkIfEnabled('casino'); setTitle(('Casino'|translate));"
      watch-resize middle-screen-mode="true"
      ng-class="{'casino-mainpage-wrapper-b': cConf.newCasinoDesignEnabled}">
@@ -14,6 +14,6 @@
         <p trans>No games found</p>
     </div>
     <div ng-show="allGames && allGames.length" ng-include="getTemplate('optional_modules/casino/templates/popup-games.html')"></div>
-    <div ng-include="getTemplate('optional_modules/casino/templates/big-game.html')" ng-if="gamesInfo.length" class="big-games-overflow"></div>
+    <div ng-include="getTemplate('optional_modules/casino/templates/slot.html')" ng-if="gamesInfo.length" class="big-games-overflow"></div>
 </div>
 <!--Casino END-->

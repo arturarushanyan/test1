@@ -1,4 +1,4 @@
-<div ng-show="!gamesInfo.length" class="center-contain-casino-b" id="casinoScrollable">
+<div ng-show="!gamesInfo.length" class="center-contain-casino-b">
     <div class="casino-top-slider-wrapper">
         <!--Slider-->
         <div ng-controller="cmsPagesCtrl" ng-init="getCasinoBanners();"  class="slider-view-casino-b">
@@ -69,22 +69,8 @@
         <!--</div>-->
 
 
-        <div class="fixed-nav-wrapper-casino-view" fixonscroll scrollable-area-id="casinoScrollable" header-id="main-header-container" default-offset="{{providerMenuDefaultOffset}}">
-            <div class="providers-nav-casino" ng-class="{'closed': providersMenuState.isClosed}" id="providerMenu" ng-show="!cConf.hideCasinoProvidersRow">
-                <ul sub-menu-creator="casino">
-                    <!-- <div class="contaien-country" data-step="3" data-position="bottom" data-intro="Select region" trans="attr-only">-->
-                    <li ng-repeat="provider in providers track by $index">
-                        <a ng-click="selectProvider(provider)"
-                           ng-class="{'active': selections.providerName === provider.name}">
-                            <span>{{ provider.title|translate }}</span>
-                        </a>
-                    </li>
-                    <!-- </div>-->
-                </ul>
-                <div ng-show="subMenuItemShowBtn"  class="more-button-prviter-nav" ng-click="toggleProvidersMenu()">
-                    <span trans>More</span>
-                </div>
-            </div>
+        <div class="fixed-nav-wrapper-casino-view">
+
 
             <div class="casino-left-menu-v-2">
                 <div class="search-category-nav-contain">

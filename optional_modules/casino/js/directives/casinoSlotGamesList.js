@@ -1,4 +1,4 @@
-CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScope, CConfig) {
+CASINO.directive('casinoSlotGamesList', ['$rootScope', 'CConfig', function($rootScope, CConfig) {
     'use strict';
 
     return {
@@ -24,7 +24,7 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
                 newCasinoDesignEnabled: CConfig.main.newCasinoDesign.enabled,
                 funModeEnabled: CConfig.main.funModeEnabled
             };
-            scope.templateUrl = $rootScope.conf.casinoVersion !== 2 ? 'optional_modules/casino/templates/directive/casino-games-list.html' : 'optional_modules/casino/templates/directive/casino-new-games-list.html';
+            scope.templateUrl = 'optional_modules/casino/templates/directive/casino-games-list.html';
             scope.userOS = $rootScope.userOS;
             scope.openGame = function openGame(game, mode) {
                 scope.$emit('casinoGamesList.openGame', {game: game, playMode: mode});

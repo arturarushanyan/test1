@@ -56045,7 +56045,7 @@ div.slider-image-wrapper-b {
 }
 
 .body-wrapper.homepage {
-    background: #171c2c url(../../../images/backgrounds/loungebet_landing.jpg) 50% 0 no-repeat fixed;
+    background: #171c2c url(../../../images/backgrounds/loungebet_landing_1.jpg) 50% 0 no-repeat fixed;
 }
 @media screen and (min-width: 1900px) {
     .body-wrapper.homepage {
@@ -57023,7 +57023,7 @@ div.slider-image-wrapper-b {
 .menu-popup-arrow {
     position: absolute;
     top: 9px;
-    left: 2px;
+    left: 0px;
     border-width: 7px 6px 7px 0;
     border-style: solid;
     border-color: transparent;
@@ -61776,6 +61776,9 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         height: 42px;
         box-shadow: none;
         background: url("../images/ceg-logo.png") no-repeat 0 100%;
+    }
+    .slot-mode {
+        display: none !important;
     }
 
 }

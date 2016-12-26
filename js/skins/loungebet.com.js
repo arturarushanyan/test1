@@ -173,6 +173,7 @@ VBET5.constant('SkinConfig', {
         defaultTimeFormat: 'DD/MM/YYYY LT',
         ogwilEnabled: true,
         casinoEnabled: true,
+        //casinoVersion: 2,
         transferEnabled: false,
         liveCalendarEnabled: true,
         liveCalendarInLeftMenu: false,

@@ -46701,7 +46701,10 @@ top-game-block {
 .classic-version-euro2016 .game-video-detached {
     box-sizing: border-box;
     box-shadow: 0 0 15px #000000;
-    padding: 31px 0 0;
+    padding: 40px 0 0;
+}
+.classic-version-euro2016 .game-video-detached .video-player-control.volume-control > span{
+    width: 30px;
 }
 
 .classic-version-euro2016 .detached-game-container > .animation-video-title-row-v3 {

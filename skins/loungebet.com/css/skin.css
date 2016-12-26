@@ -59014,14 +59014,13 @@ div.slider-image-wrapper-b {
     margin-top: 0;
 }
 
-.menu-popup {
+.sports-item-v3 + .menu-popup {
     position: fixed;
     left: calc(100%);
     z-index: 90000;
     width: 255px;
     padding: 0 24px 0 8px;
-    -webkit-animation: 250ms show-up;
-    animation: 250ms show-up
+    /*animation: 250ms show-up;*/
 }
 
 @keyframes show-up {

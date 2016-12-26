@@ -1433,8 +1433,8 @@
 
     <!--Slot Interface-->
 
-    <div class="slot-interface-jf" ng-style="{background: gamesInfo.length === 1 && gamesInfo[0].game.background && 'url(' + gamesInfo[0].game.background + ') no-repeat 50% 0'}">
-        <div class="game-view-wrapper-jf">
+    <div class="slot-interface-jf" ng-class="{'bg-image' : casinoGameOpened }" >
+        <div class="game-view-wrapper-jf" ng-style="{background: gamesInfo.length === 1 && gamesInfo[0].game.background && 'url(' + gamesInfo[0].game.background + ') no-repeat 50% 0'}">
             <div class="left-game-screen-view-m">
 
                 <div class="slot-view-top-menu-container">
@@ -1463,8 +1463,8 @@
                 <div class="game-container-box-jf" ng-repeat="gameInfo in gamesInfo">
                     <div class="top-row-game-box">
                         <div class="left-box-b-jf">
-                            <div class="type-play-fun-jf" ng-class="{'active': openGame.game.gameInfo === 'fun'}" ng-click="togglePlayForReal(gameInfo);$event.stopPropagation();">Play For Fun</div>
-                            <div class="type-play-fun-jf" ng-class="{'active': openGame.game.gameInfo === 'real'}" ng-click="togglePlayForReal(gameInfo);$event.stopPropagation();">Play For Real</div>
+                            <div class="type-play-fun-jf" ng-class="{'active': gameInfo.gameMode === 'fun'}" ng-click="togglePlayForReal(gameInfo);$event.stopPropagation();">Play For Fun</div>
+                            <div class="type-play-fun-jf" ng-class="{'active': gameInfo.gameMode === 'real'}" ng-click="togglePlayForReal(gameInfo);$event.stopPropagation();">Play For Real</div>
                         </div>
 
                         <div class="right-box-b-jf">

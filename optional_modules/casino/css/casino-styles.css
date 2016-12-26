@@ -1246,6 +1246,10 @@ body {
   box-sizing: border-box;
 }
 
+.slot-interface-jf.bg-image {
+  background: #171c2c url(../../../images/backgrounds/slot-bg.jpg)  no-repeat 50% 0 ;
+}
+
 .game-view-wrapper-jf {
   position: absolute;
   width: 100%;
@@ -1417,12 +1421,12 @@ body {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: #fbc02d;
+  background: #ffffff;
   box-sizing: border-box;
 }
 
-.type-play-fun-jf.real-b-jf:before {
-  background: #ffffff;
+.type-play-fun-jf.active:before {
+  background: #fbc02d;
 }
 
 .right-box-b-jf {

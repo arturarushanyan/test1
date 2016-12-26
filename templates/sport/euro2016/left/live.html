@@ -116,7 +116,12 @@
             <div ng-show="leftMenuClosed && hover" class="menu-popup">
                 <span class="menu-popup-arrow"></span>
                 <div class="menu-popup-holder">
-                    <div class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}} menu-popup-head ">{{sport.name}}</div>
+                    <div class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}} menu-popup-head ">
+                        {{sport.name}}
+                        <div class="sport-games-count-v3">
+                          <span>{{sport.game}}</span>
+                        </div>
+                    </div>
                     <div class="region-items-box" mb-scrollbar="scrollbar('vertical', true)" style="height: 100%;padding:0;">
                         <div class="full-region-info-v3
                         {{leftMenuState.live.region[region.id].expanded ? 'active' : ''}}

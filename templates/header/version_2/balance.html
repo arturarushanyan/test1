@@ -17,7 +17,7 @@
             </li >
             <li ng-click="balanceHide=!balanceHide" class="hidden-balance" ng-show="balanceHide">Show <br> balance</li>
         </ul>
-        <span ng-click="balanceHide=!balanceHide"  ng-attr-title="{{balanceHide ? 'Show balance' : 'Hide balance'}}" ng-class="{'hidden-eye': !balanceHide}" class="icon-eye hide-balance"></span>
+        <span ng-click="balanceHide=!balanceHide"  ng-attr-title="{{balanceHide ? 'Show balance' : 'Hide balance'}}" ng-class="{'hidden-eye': balanceHide}" class="icon-eye hide-balance"></span>
     </div>
     <div ng-controller="casinoLoginCtrl" class="settings-icon-contain balance-box" no-animate
          ng-if="::((!conf.GmsPlatform || conf.GmsPlatformMultipleBalance) && (casinoEnabled || conf.pokerEnabled) && availableModules.indexOf('casino') > -1)"

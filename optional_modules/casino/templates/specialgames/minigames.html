@@ -1,6 +1,6 @@
 <div ng-controller="casinoMiniGamesCtrl" ng-mouseover="rotationPaused = true;"
      ng-mouseleave="rotationPaused = false;">
-    <div ng-if="showGames" class="mini-game-container-j" ng-class="{'closed':hideIframe}">
+    <div class="mini-game-container-j" ng-class="{'closed':hideIframe}">
         <div class="choose-minigame-j">
             <div class="minigame-selectbox-j" ng-if="gameOptions.games && gameOptions.games.length > 1">
                 <select ng-model="gameOptions.selectedIndex" ng-change="loadGame()">

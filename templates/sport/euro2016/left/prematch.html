@@ -156,7 +156,7 @@
                     <div class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}} menu-popup-head ">
                         {{sport.name}}
                     </div>
-                    <div class="region-items-box" mb-scrollbar="scrollbar('vertical', true)" style="height: 100%">
+                    <div class="region-items-box" mb-scrollbar="scrollbar('vertical', true)" style="height: 100%;padding:0">
                         <div class="full-region-info-v3" ng-repeat="region in sport.regions track by region.id"
                              ng-if="!sport.isFavoriteCompetition">
                             <div class="region-item-v3"

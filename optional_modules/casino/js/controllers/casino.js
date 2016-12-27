@@ -861,6 +861,39 @@ CASINO.controller('casinoCtrl', ['$rootScope', '$scope', '$sce', '$location', '$
     };
 
     /**
+     * @ngdoc method
+     * @name fullScreen
+     * @methodOf vbet5.controller:mainHeaderCtrl
+     * @description  go to fullscreen mode
+     */
+    $scope.goFullscreen = function goFullscreen() {
+        if (!document.fullscreenElement &&    // alternative standard method
+            !document.mozFullScreenElement && !document.webkitFullscreenElement) {  // current working methods
+            if (document.documentElement.requestFullscreen) {
+                document.documentElement.requestFullscreen();
+                $scope.isActive = !$scope.isActive;
+            } else if (document.documentElement.mozRequestFullScreen) {
+                document.documentElement.mozRequestFullScreen();
+                $scope.isActive = !$scope.isActive;
+            } else if (document.documentElement.webkitRequestFullscreen) {
+                document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                $scope.isActive = !$scope.isActive;
+            }
+        } else {
+            if (document.cancelFullScreen) {
+                document.cancelFullScreen();
+                $scope.isActive = !$scope.isActive;
+            } else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+                $scope.isActive = !$scope.isActive;
+            } else if (document.webkitCancelFullScreen) {
+                document.webkitCancelFullScreen();
+                $scope.isActive = !$scope.isActive;
+            }
+        }
+    };
+
+    /**
      * transfer functionality for gaminator provider. It will be removed after 2 months
      */
     $scope.gpTransferModel = {};

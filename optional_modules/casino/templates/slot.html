@@ -1433,8 +1433,8 @@
 
     <!--Slot Interface-->
 
-    <div class="slot-interface-jf" ng-style="{background: gamesInfo.length === 1 && gamesInfo[0].game.background && 'url(' + gamesInfo[0].game.background + ') no-repeat 50% 0'}">
-        <div class="game-view-wrapper-jf">
+    <div class="slot-interface-jf" ng-class="{'bg-image' : casinoGameOpened }" >
+        <div class="game-view-wrapper-jf" ng-style="{background: gamesInfo.length === 1 && gamesInfo[0].game.background && 'url(' + gamesInfo[0].game.background + ') no-repeat 50% 0'}">
             <div class="left-game-screen-view-m">
 
                 <div class="slot-view-top-menu-container">
@@ -1460,17 +1460,17 @@
                 </div>
 
 
-                <div class="game-container-box-jf" ng-repeat="gameInfo in gamesInfo">
+                <div class="game-container-box-jf" ng-class="{'slot-fullscreen' : isActive  }" ng-repeat="gameInfo in gamesInfo">
                     <div class="top-row-game-box">
                         <div class="left-box-b-jf">
-                            <div class="type-play-fun-jf">Play For Fun</div>
-                            <div class="type-play-fun-jf real-b-jf">Play For Real</div>
+                            <div class="type-play-fun-jf" ng-class="{'active': gameInfo.gameMode === 'fun'}" ng-click="togglePlayForReal(gameInfo);$event.stopPropagation();">Play For Fun</div>
+                            <div class="type-play-fun-jf" ng-class="{'active': gameInfo.gameMode === 'real'}" ng-click="togglePlayForReal(gameInfo);$event.stopPropagation();">Play For Real</div>
                         </div>
 
                         <div class="right-box-b-jf">
                             <div class="game-control-icons-jf icon-1-b" ng-click="toggleSaveToMyCasinoGames(gameInfo.game)"></div>
                             <div class="game-control-icons-jf icon-2-b"></div>
-                            <div class="game-control-icons-jf icon-3-b"></div>
+                            <div class="game-control-icons-jf icon-3-b" ng-click="openGameInNewWindow(gameInfo.id)"></div>
                             <div class="game-control-icons-jf icon-4-b" ng-click="goFullscreen()"></div>
                             <div class="game-control-icons-jf icon-5-b" ng-click="closeGame(gameInfo.id)"></div>
                         </div>

@@ -380,6 +380,39 @@ CASINO.controller('skillGamesMainCtrl', ['$rootScope', '$scope', '$location', 'C
 
     /**
      * @ngdoc method
+     * @name fullScreen
+     * @methodOf vbet5.controller:mainHeaderCtrl
+     * @description  go to fullscreen mode
+     */
+    $scope.goFullscreen = function goFullscreen() {
+        if (!document.fullscreenElement &&    // alternative standard method
+            !document.mozFullScreenElement && !document.webkitFullscreenElement) {  // current working methods
+            if (document.documentElement.requestFullscreen) {
+                document.documentElement.requestFullscreen();
+                $scope.isActive = !$scope.isActive;
+            } else if (document.documentElement.mozRequestFullScreen) {
+                document.documentElement.mozRequestFullScreen();
+                $scope.isActive = !$scope.isActive;
+            } else if (document.documentElement.webkitRequestFullscreen) {
+                document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                $scope.isActive = !$scope.isActive;
+            }
+        } else {
+            if (document.cancelFullScreen) {
+                document.cancelFullScreen();
+                $scope.isActive = !$scope.isActive;
+            } else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+                $scope.isActive = !$scope.isActive;
+            } else if (document.webkitCancelFullScreen) {
+                document.webkitCancelFullScreen();
+                $scope.isActive = !$scope.isActive;
+            }
+        }
+    };
+
+    /**
+     * @ngdoc method
      * @name refreshGame
      * @methodOf CASINO.controller:skillGamesMainCtrl
      * @description find game by id in opened games and relaod it

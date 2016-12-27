@@ -46701,7 +46701,10 @@ top-game-block {
 .classic-version-euro2016 .game-video-detached {
     box-sizing: border-box;
     box-shadow: 0 0 15px #000000;
-    padding: 31px 0 0;
+    padding: 40px 0 0;
+}
+.classic-version-euro2016 .game-video-detached .video-player-control.volume-control > span{
+    width: 30px;
 }
 
 .classic-version-euro2016 .detached-game-container > .animation-video-title-row-v3 {
@@ -47556,6 +47559,9 @@ top-game-block {
 .left-menu-closed-v3 .sport-games-count-v3 > span {
     display: none;
 }
+.left-menu-closed-v3 .menu-popup-holder .sport-games-count-v3 > span {
+    display: block;
+}
 
 .left-menu-closed-v3 .arrow-view-left {
     display: none;
@@ -47564,6 +47570,7 @@ top-game-block {
 .left-menu-closed-v3 .sports-item-v3 {
     width: 100%;
     padding: 0 0 0 37px;
+    border-radius: 4px 4px 0 0;
 }
 
 .left-menu-closed-v3 .closed-left-nav-v3:before {
@@ -47860,6 +47867,10 @@ top-game-block {
     transition: right 300ms;
 }
 
+.menu-popup-holder .sports-item-v3:hover .sport-games-count-v3{
+    right: 0;
+}
+
 .region-games-count-v3 {
     box-sizing: border-box;
     position: absolute;
@@ -48098,6 +48109,11 @@ top-game-block {
 
 .full-region-info-v3.no-regions:last-child > .region-item-v3.ng-hide ~ .games-list-nav-v3 .games-list-mini-view-v3 {
     margin-bottom: -2px;
+}
+
+.menu-popup .full-region-info-v3.no-regions:last-child > .region-item-v3.ng-hide ~ .games-list-nav-v3 .games-list-mini-view-v3 {
+    margin-bottom: 0;
+    border-radius: 0;
 }
 
 .competition-title-v3 {
@@ -59083,7 +59099,7 @@ div.slider-image-wrapper-b {
     border-radius: 3px;
 }
 .menu-popup-holder .region-items-box {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.5);
 }
 
 .menu-popup-head {
@@ -59096,7 +59112,7 @@ div.slider-image-wrapper-b {
 }
 
 .menu-popup .region-items-box .ngscroll-resizable {
-    max-height: 300px;
+    max-height: 305px;
     overflow: hidden;
     background-color: #e6e5dc;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
@@ -59110,8 +59126,8 @@ div.slider-image-wrapper-b {
 }
 
 .menu-popup .region-items-box .ngscroll-scrollbar-container {
-    right: 0 !important;
-    top: 2px !important;
+    right: 1px !important;
+    top: 0px !important;
 }
 
 .sports-item-v3 {
@@ -59211,6 +59227,9 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
 .full-region-info-v3.no-regions {
     margin: 0 0 3px;
+}
+.menu-popup-holder .full-region-info-v3.no-regions {
+    margin-bottom:0;
 }
 
 .competition-title-v3 {

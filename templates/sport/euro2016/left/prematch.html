@@ -14,7 +14,7 @@
                 <p>{{sport.name}}</p>
                 <div class="arrow-view-left"></div>
                 <div class="sport-games-count-v3">
-                    <span ng-show="sport.game">{{sport.game}}</span>
+                    <span ng-if="sport.game">{{sport.game}}</span>
                 </div>
             </div>
             <div ng-if="!leftMenuClosed" class="region-item-row-v3">
@@ -155,6 +155,9 @@
                 <div class="menu-popup-holder">
                     <div class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}} menu-popup-head ">
                         {{sport.name}}
+                        <div class="sport-games-count-v3">
+                            <span>{{sport.game}}</span>
+                        </div>
                     </div>
                     <div class="region-items-box" mb-scrollbar="scrollbar('vertical', true)" style="height: 100%;padding:0">
                         <div class="full-region-info-v3" ng-repeat="region in sport.regions track by region.id"

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?koiy8t');
-  src:  url('fonts/icomoon.eot?koiy8t#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?koiy8t') format('truetype'),
-    url('fonts/icomoon.woff?koiy8t') format('woff'),
-    url('fonts/icomoon.svg?koiy8t#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?y5dr5o');
+  src:  url('fonts/icomoon.eot?y5dr5o#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?y5dr5o') format('truetype'),
+    url('fonts/icomoon.woff?y5dr5o') format('woff'),
+    url('fonts/icomoon.svg?y5dr5o#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,45 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Achievements:before {
+  content: "\e94b";
+}
+.icon-Tournaments:before {
+  content: "\e955";
+}
+.icon-Rounded-Rectangle-2:before {
+  content: "\e956";
+}
+.icon-icon:before {
+  content: "\e957";
+}
+.icon-Video-Poker:before {
+  content: "\e954";
+}
+.icon-Favorites:before {
+  content: "\e94c";
+}
+.icon-Oders:before {
+  content: "\e94d";
+}
+.icon-SPECIALS:before {
+  content: "\e94e";
+}
+.icon-icon_web-_Wheel-of-dice:before {
+  content: "\e94f";
+}
+.icon-VideoSlots:before {
+  content: "\e950";
+}
+.icon-search-J:before {
+  content: "\e951";
+}
+.icon-All-Games:before {
+  content: "\e952";
+}
+.icon-Rectangle-12-copy:before {
+  content: "\e953";
+}
 .icon-whatsapp:before {
   content: "\e900";
 }
@@ -32,9 +71,6 @@
 }
 .icon-star-big-outline:before {
   content: "\f006";
-}
-.icon-mail-envelope-closed:before {
-  content: "\e94a";
 }
 .icon-paintbrush-design-tool-interface-symbol:before {
   content: "\e949";
@@ -725,6 +761,9 @@
 }
 .icon-arrow-right-two:before {
   content: "\e92b";
+}
+.icon-mail-envelope-closed:before {
+  content: "\e94a";
 }
 .icon-cross-close:before {
   content: "\e117";

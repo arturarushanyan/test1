@@ -1,13 +1,4 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title data-word="Defender"></title>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link href="optional_modules/casino/css/casino-styles.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-<!--Wrapper-->
+﻿<!--Wrapper-->
 <div ng-show="!gamesInfo.length" class="full-casino-wrapper-jf">
     <div class="casino-view-container-jf">
 
@@ -31,10 +22,10 @@
             </div>
 
 
-            <div class="right-img-contain">
+            <div ng-init="loadPopularGameBanner('banner-most-popular-game-' + env.lang)" class="right-img-contain" >
                 <div class="slide-view-contain-jf">
-                    <div class="mini-wrapper-slider-img" style="background-image: url(optional_modules/casino/images/right-img.jpg);">
-                        <a href="#"></a>
+                    <div class="mini-wrapper-slider-img" style="background-image: url({{mostPopularGame.imageurl}});">
+                        <a ng-href="{{mostPopularGame.link}}" ng-click="routeReload()"></a>
                     </div>
                 </div>
             </div>

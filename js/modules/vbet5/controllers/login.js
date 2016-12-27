@@ -314,8 +314,11 @@ angular.module('vbet5').controller('loginCtrl', ['$scope', '$rootScope', 'Timeou
                     subscribeForMessages();
 
                     login.resolve(data);
-                    $location.url('/sport/?type=0');
 
+                    if($location.path() == '/'){
+                        $location.url('/sport/?type=0');
+                    }
+                    
                 },
                 function (data) {
                     console.log('login failed', data);

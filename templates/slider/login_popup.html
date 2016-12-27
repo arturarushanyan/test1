@@ -29,7 +29,7 @@
 
                                                 <input ng-model="user.password" id="signinform-password-input" numpad type="{{inputType}}" placeholder="Enter your password" focus-on="login.formOpened.andUsernameIsAvailable" required="required"  autocomplete="off" trans ng-keypress="passwordKeyPress($event)">
                                                 <input class="password-eye" type="checkbox" id="checkbox" ng-model="passwordCheckbox" ng-click="hideShowPassword();icoClicked = !icoClicked;" />
-                                                <label ng-attr-title="{{icoClicked ? 'Show password' : 'Hide password'}}" class="password-eye-ico" for="checkbox"></label>
+                                                <label ng-attr-title="{{icoClicked ? 'Show password' : 'Hide password'}}" ng-show="user.password.length" class="password-eye-ico" for="checkbox"></label>
 
                                                 <div ng-if="conf.showCapsLockHint && capsLockIsOn" class="capslock-is-on-j" trans>Caps Lock is On</div>
                                             </div>

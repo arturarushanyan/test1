@@ -47570,7 +47570,6 @@ top-game-block {
 .left-menu-closed-v3 .sports-item-v3 {
     width: 100%;
     padding: 0 0 0 37px;
-    border-radius: 4px 4px 0 0;
 }
 
 .left-menu-closed-v3 .closed-left-nav-v3:before {
@@ -59120,6 +59119,7 @@ div.slider-image-wrapper-b {
 
 .menu-popup .region-items-box .ngscroll-container {
     width: calc(100% - 6px) !important;
+    padding-top: 1px;
 }
 .menu-popup .region-items-box.no-scrollbar .ngscroll-container {
     width: 100% !important;
@@ -59130,12 +59130,18 @@ div.slider-image-wrapper-b {
     top: 0px !important;
 }
 
+.menu-popup-holder > .sports-item-v3 {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
 .sports-item-v3 {
     box-sizing: border-box;
     float: left;
     width: 100%;
     height: 34px;
     margin: 0;
+    margin-bottom: 1px;
     position: relative;
     background: #3d9bb7;
     padding: 0 30px 0 37px;
@@ -59150,8 +59156,7 @@ div.slider-image-wrapper-b {
 }
 
 .games-list-mini-view-v3 {
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 4px;
 }
 
 .prematch-view .region-item-v3.active + .games-list-nav-v3 {
@@ -59228,8 +59233,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 .full-region-info-v3.no-regions {
     margin: 0 0 3px;
 }
-.menu-popup-holder .full-region-info-v3.no-regions {
-    margin-bottom:0;
+.full-region-info-v3.no-regions:last-child {
+    margin-bottom: 0;
 }
 
 .competition-title-v3 {

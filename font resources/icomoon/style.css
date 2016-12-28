@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?y5dr5o');
-  src:  url('fonts/icomoon.eot?y5dr5o#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?y5dr5o') format('truetype'),
-    url('fonts/icomoon.woff?y5dr5o') format('woff'),
-    url('fonts/icomoon.svg?y5dr5o#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?fbn9kj');
+  src:  url('fonts/icomoon.eot?fbn9kj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?fbn9kj') format('truetype'),
+    url('fonts/icomoon.woff?fbn9kj') format('woff'),
+    url('fonts/icomoon.svg?fbn9kj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cancel-music:before {
+  content: "\e958";
+}
 .icon-Achievements:before {
   content: "\e94b";
 }

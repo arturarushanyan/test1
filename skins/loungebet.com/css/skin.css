@@ -9218,7 +9218,7 @@ rzslider span.rz-pointer.rz-active:after {
 }
 
 /*remove scroll*/
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 980px) {
     .body-wrapper .contain-gameing {
         position: relative;
         background: #111522;
@@ -34295,7 +34295,7 @@ input[type="password"]:focus ~ .capslock-is-on-j {
     min-width: 0;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 980px) {
     .body-wrapper.widgetlivegame.classic .centr-market-contain {
         min-width: 0;
     }
@@ -59408,7 +59408,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     background: none;
 }
 
-@media screen and (min-width: 1108px) {
+@media screen and (min-width: 980px) {
 
     .sub-nav-filter-time-v3 {
         background: #fffef6;

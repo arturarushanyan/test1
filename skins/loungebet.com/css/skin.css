@@ -65975,7 +65975,7 @@ body {
     position: absolute;
     left: -4px;
     top: -4px;
-    background-image: url("../images/sprite-marks.png");
+    background-image: url("../optional_modules/casino/images/sprite-marks.png");
     background-repeat: no-repeat;
     width: 78px;
     height: 77px;
@@ -65988,7 +65988,7 @@ body {
     background-position: 0 0;
 }
 
-.top-b {
+.top-b, .Guns.N.Roses {
     display: block;
     background-position: 0 -271px;
 }
@@ -66121,14 +66121,19 @@ body {
     background: #ffd267;
     padding: 8px 0 2px;
     position: relative;
-    font: 16px/20px icomoon;
+    font: 20px/20px icomoon;
     text-align: center;
     transform: translate3d(0, -100px, 0);
     transition: transform 450ms;
 }
 
 .favorite-icon-jf > span:before {
-    content: "\e94c";
+    content: "\e6e1";
+    color: #ff6767;
+}
+
+.favorite-icon-jf.active > span:before {
+    content: "\e6df";
     color: #ff6767;
 }
 
@@ -66151,7 +66156,7 @@ body {
 }
 
 .favorite-icon-jf > span:hover:before {
-    animation: play-b 500ms infinite;
+    animation: play-b 500ms;
     display: block;
     animation-fill-mode: forwards;
 }
@@ -66595,6 +66600,21 @@ body {
     background: #fbc02d;
 }
 
+.center-box-b-jf {
+    box-sizing: border-box;
+}
+.game-title-jf {
+    position: absolute;
+    line-height: 40px;
+    height: 40px;
+    color: #ffffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    width: calc(100% - 28px);
+    z-index: -10;
+}
+
 .right-box-b-jf {
     float: right;
     box-sizing: border-box;
@@ -66634,15 +66654,30 @@ body {
 }
 
 .icon-5-b:before {
-    content: "\e6ee";
+    content: "\e958";
+}
+
+.icon-4-b.active:before {
+    content: "\6e";
 }
 
 .game-control-icons-jf:hover:before {
     color: #fbc02d;
 }
 
-.game-control-icons-jf.icon-1-b:hover:before {
+.game-control-icons-jf.icon-1-b:hover:before,
+.game-control-icons-jf.icon-1-b.active:before{
     color: #ff6767;
+}
+
+.game-control-icons-jf.icon-1-b {
+    animation: favInactive 2s;
+    animation-fill-mode: forwards;
+}
+.game-control-icons-jf.icon-1-b.active {
+    animation: favActive 3s;
+    animation-fill-mode: forwards;
+
 }
 
 .bottom-row-game-box {
@@ -66892,7 +66927,7 @@ body {
     cursor: pointer;
 }
 .games-info-list-r-j  .casino-games-list-view-jf .game-screen-view-jf .favorite-icon-jf > span {
-    font: 14px/14px icomoon;
+    font: 18px/14px icomoon;
     padding: 8px 0 2px;
 }
 .games-info-list-r-j  .casino-games-list-view-jf .game-screen-view-jf .favorite-icon-jf > span:after {
@@ -67143,5 +67178,28 @@ body {
         overflow: hidden;
     }
 }
+@keyframes favInactive {
+    0% {
+        transform: scale(0.5);
+        opacity: 0; }
+    10% {
+        transform: scale(1);
+        opacity: 1; } }
+
+@keyframes favActive {
+    0% {
+        transform: scale(2.5);
+        opacity: 0;        }
+    5% {
+        transform: scale(1);
+        opacity: 1; }
+    10% {
+        transform: scale(1.5); }
+    15% {
+        transform: scale(1); }
+    20% {
+        transform: scale(1); }
+    100% {
+        opacity: 1;  } }
 
 

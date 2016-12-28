@@ -48572,26 +48572,6 @@ top-game-block {
     overflow: hidden;
 }
 
-@media screen and (max-width: 1365px) {
-
-    .left-menu-closed-v3 > .left-column-v3:hover {
-        max-width: 224px;
-        position: absolute;
-        z-index: 300;
-        -webkit-transition: width 0.5s;
-        box-shadow: 0 30px 50px 0px #000;
-        width: 224px
-    }
-
-    .left-menu-closed-v3 > .left-column-v3 {
-
-        position: absolute;
-        background: #e6e5dc;
-
-    }
-
-}
-
 .left-menu-closed-v3 .full-menu-wrapper-box-v3 > .md-progress-circular {
     display: none;
 }
@@ -53236,7 +53216,7 @@ top-game-block {
     }
 
     .left-menu-closed-v3 > .center-column-v3 {
-        width: calc(100% - 330px);
+        width: calc(100% - 350px);
     }
 
     .dashboard-view-v3 > .live-events-column-v3:first-child {
@@ -53244,17 +53224,6 @@ top-game-block {
         width: 100%;
         padding-right: 6px;
     }
-}
-
-@media screen and (min-width: 1365px) {
-    .dashboard-view-v3 > .live-events-column-v3 {
-        width: 100%;
-    }
-
-    .left-menu-closed-v3 > .center-column-v3 {
-        width: calc(100% - 330px);
-    }
-
 }
 
 @media screen and (min-width: 1440px) {
@@ -53315,123 +53284,6 @@ top-game-block {
     }
 }
 
-@media screen and (max-width: 1365px) {
-    .left-column-v3 .left-column-v3:after {
-        box-sizing: border-box;
-        display: none;
-    }
-
-    .left-column-v3 .sport-games-count-v3 > span {
-        display: none;
-    }
-
-    .left-column-v3 .arrow-view-left {
-        display: none;
-    }
-
-    .left-column-v3 .sports-item-v3 {
-        width: 100%;
-        padding: 0 0 0 37px;
-    }
-
-    .left-column-v3 .closed-left-nav-v3:before {
-        box-sizing: border-box;
-        content: "\e99a";
-    }
-
-    .left-column-v3 > .left-column-v3 {
-        max-width: 54px;
-        overflow: hidden;
-    }
-
-    .left-column-v3 .full-menu-wrapper-box-v3 > .md-progress-circular {
-        display: none;
-    }
-
-    .left-column-v3 > .center-column-v3 {
-        width: calc(100% - 350px);
-    }
-
-    .left-column-v3 .region-item-row-v3 {
-        display: none;
-    }
-
-    .left-column-v3 .filter-row-v3 > ul > li {
-        display: none;
-    }
-
-    .search-box-v3 .block-search > input[type=text] {
-        display: none;
-    }
-
-    .search-box-v3:before {
-        font: 16px/30px icomoon;
-        right: 9px;
-    }
-
-    .view-switcher-v3 > ul > li:nth-child(2) {
-        min-width: 46px;
-        border-radius: 4px 4px 0 0;
-    }
-
-    .view-switcher-v3 > ul > li:first-child {
-        display: none;
-    }
-
-    .view-switcher-v3 {
-        overflow: hidden;
-        border-radius: 4px 4px 0 0;
-    }
-
-    .left-menu-closed-v3 .view-switcher-v3 > ul > li:nth-child(2) > button {
-        border-radius: 4px 0 0 0;
-    }
-
-    /*
-    .left-column-v3 .search-box-v3 {
-        display: none;
-    }
-*/
-    .left-column-v3 .closed-left-nav-v3 {
-        right: 12px;
-    }
-
-    .left-column-v3 .left-header > ul > p {
-        display: none;
-    }
-
-    .left-column-v3 .filter-view-v3 .switcher-view-b {
-        right: -2px;
-    }
-
-    .left-column-v3 {
-
-        width: 54px;
-
-    }
-
-    .left-menu-closed-v3 > .center-column-v3 {
-        width: calc(100% - 350px);
-        margin-left: 54px;
-    }
-
-    .center-column-v3 {
-        width: calc(100% - 350px);
-    }
-
-}
-
-@media screen and (min-width: 1366px) {
-    .center-column-v3 {
-        width: calc(100% - 520px);
-    }
-}
-
-@media screen and (min-width: 1367px) {
-    .center-column-v3 {
-        width: calc(100% - 546px);
-    }
-}
 
 .full-multiview-wrapper-v3 {
     box-sizing: border-box;
@@ -63985,11 +63837,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
             width: calc(100% - 624px);
         }
     }
-    @media screen and (max-width: 1365px) {
-        .betslip-expanded .center-column-v3 {
-            width: calc(100% - 454px);
-        }
-    }
+
     @media screen and (max-width: 1280px) {
         .game-center-container-multi-v3 .dndPlaceholder, .game-center-container-multi-v3 .multiview-contain {
             width: 100%;
@@ -66996,6 +66844,69 @@ body {
         padding: 0;
     }
 }
+
+@media screen and (min-width: 1366px) {
+    .center-column-v3 {
+        width: calc(100% - 520px);
+    }
+}
+@media screen and (max-width: 1365px) {
+
+    .search-box-v3 .block-search > input[type=text] {
+        display: none;
+    }
+
+    .search-box-v3:before {
+        font: 16px/30px icomoon;
+        right: 9px;
+    }
+
+    .view-switcher-v3 > ul > li:nth-child(2) {
+        min-width: 46px;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .view-switcher-v3 > ul > li:first-child {
+        display: none;
+    }
+
+    .view-switcher-v3 {
+        overflow: hidden;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .left-column-v3{
+         position: absolute;
+        z-index: 1000;
+    }
+
+    .center-column-v3 {
+        width: calc(100% - 350px);
+        margin-left: 53px;
+    }
+
+    .betslip-expanded .center-column-v3 {
+        width: calc(100% - 454px);
+    }
+    .dashboard-view-v3 > .live-events-column-v3 {
+        width: 100%;
+    }
+
+    .left-menu-closed-v3>.left-column-v3 {
+        box-shadow:none;
+    }
+    .left-column-v3 {
+        transition: width .5s;
+        box-shadow: 0 30px 50px 0 #000;
+        background: #e6e5dc;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    .center-column-v3 {
+        width: calc(100% - 546px);
+    }
+}
 @media screen and (max-width: 1250px) {
     .casino-menu-contain-jf > ul > li > a > p, .mini-search-box-jf > p {
         font-size: 14px;
@@ -67119,6 +67030,7 @@ body {
         transform: inherit;
     }
 }
+
 @media screen and (max-width: 680px) {
     .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j {
         height: 114px;
@@ -67190,7 +67102,6 @@ body {
     10% {
         transform: scale(1);
         opacity: 1; } }
-
 @keyframes favActive {
     0% {
         transform: scale(2.5);

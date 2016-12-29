@@ -192,8 +192,9 @@
             <div class="right-betslip-contain">
                 <div class="scroll-contain"
                      ng-class="{'animated-block': openGame.last_event || (openGame.video_id && conf.videoEnabled && !isVideoDetached)}">
-                    <div mb-scrollbar="scrollbar('vertical', true)" style="height: 100%">
+
                         <div class="todays-results-j-contain" ng-init="todayResults()">
+                            <div mb-scrollbar="scrollbar('vertical', true)" style="height: 100%">
                             <div class="todays-results-j" ng-show="!todayGameListLoaded">
                                 <div class="results-header-j">
                                     <h2 trans>Today's Results</h2>

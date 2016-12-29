@@ -12,7 +12,7 @@
                             <span></span>
                         </div>
                         <a ng-click="openGame(game, 'real'); $event.stopPropagation();">
-                            <span class="category-icon-view-jf"></span>
+                            <span class="category-icon-view-jf {{game.name}}"></span>
                             <p>{{game.name}}</p>
                             <span class="star-icon-jf"><i>2.5</i></span>
                             <button ng-show="$root.env.authorized"class="play-icon-jackpot-j play-game" ng-click="openGame(game, 'real'); $event.stopPropagation();" ng-if="game.types.realMode"></button>

@@ -24,7 +24,7 @@ VBET5.directive('loadMore', ['$window', '$timeout', function ($window, $timeout)
                 var body = document.body, html = document.documentElement;
                 var docHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
                 var windowBottom = windowHeight + window.pageYOffset;
-                return windowBottom + bottomOffset >= docHeight;
+                return windowBottom + bottomOffset <= docHeight;
             }
 
             angular.element($window).bind("scroll", function () {

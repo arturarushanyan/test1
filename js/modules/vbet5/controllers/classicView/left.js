@@ -470,12 +470,12 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
      *
      * @param {boolean} val - set defined value
      */
-    $scope.toggleLeftMenu = function toggleLeftMenu(val) {
+    $scope.toggleLeftMenu = (function toggleLeftMenu(val) {
         $scope.leftMenuClosed = val !== undefined ? !val : !$scope.leftMenuClosed;
 
         Storage.set('leftMenuToggleState', $scope.leftMenuClosed);
         $scope.$emit('leftMenu.closed', $scope.leftMenuClosed);
-    };
+    });
 
     /**
      * @ngdoc method

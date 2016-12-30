@@ -47600,10 +47600,6 @@ top-game-block {
     overflow: visible !important;
 }
 
-.left-menu-closed-v3 .view-switcher-v3 {
-    overflow: hidden;
-}
-
 .full-menu-wrapper-box-v3 > .md-progress-circular {
     margin: 50px auto auto;
     width: 60px;
@@ -48748,8 +48744,12 @@ top-game-block {
 .game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:last-of-type {
     display: none !important;
 }
+.game-pinned .prematch-games-list + .live-game-view-contain-v3 .all-game-info-container-v3 .live-events-view-v3 .ngscroll-scrollbar-container {
+    top: 8px !important;
+}
 .game-pinned .prematch-view-v3 .prematch-games-list + .live-game-view-contain-v3 .all-game-info-container-v3 .live-events-view-v3 .ngscroll-scrollbar-container {
     right: -8px !Important;
+    top: 0 !important;
 }
 .game-pinned .prematch-view-v3 .prematch-games-list + .live-game-view-contain-v3 .all-game-info-container-v3 .live-events-view-v3 .ngscroll-scrollbar-container:hover,
 .game-pinned .prematch-view-v3 .prematch-games-list + .live-game-view-contain-v3 .all-game-info-container-v3 .live-events-view-v3 .ngscroll-scrollbar-container:focus,
@@ -53213,9 +53213,15 @@ top-game-block {
     }
 
     .prematch-view-v3 .all-game-info-container-v3 {
-        padding: 0;
+        padding: 8px;
+        width: 100%;
     }
-
+    .prematch-view-v3 .all-game-info-container-v3 .ngscroll-container{
+        width:calc(100% - 8px);
+    }
+    .game-pinned .prematch-view-v3 .prematch-games-list + .live-game-view-contain-v3 .all-game-info-container-v3 .live-events-view-v3 .ngscroll-scrollbar-container {
+        top: 0 !important;
+    }
     .prematch-list-view-v3 .md-progress-circular {
         margin-top: 50px;
     }
@@ -63903,7 +63909,11 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
             width: 100%;
             margin: 0 0 10px;
         }
+        .games-view-wrapper-v3 {overflow: visible}
+        .game-center-container-multi-v3 {overflow: visible}
+        .game-center-container-multi-v3 .ngscroll-scrollbar-container {right: -8px !important;}
     }
+
     .betslip-expanded .right-column-v3 {
         width: 400px;
     }
@@ -66927,7 +66937,6 @@ body {
     }
 
     .view-switcher-v3 {
-        overflow: hidden;
         border-radius: 4px 4px 0 0;
     }
 

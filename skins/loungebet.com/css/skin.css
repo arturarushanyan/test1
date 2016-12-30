@@ -65898,7 +65898,7 @@ body {
     position: absolute;
     left: -4px;
     top: -4px;
-    background-image: url("../optional_modules/casino/images/sprite-marks.png");
+    background-image: url("../../../optional_modules/casino/images/sprite-marks.png");
     background-repeat: no-repeat;
     width: 78px;
     height: 77px;
@@ -65911,12 +65911,12 @@ body {
     background-position: 0 0;
 }
 
-.top-b, .Guns.N.Roses {
+.top-b, .Guns.N.Roses, .Ducksn.Eggs, .Lights, .Jack.and.the.Beanstalk, .Space {
     display: block;
     background-position: 0 -271px;
 }
 
-.new-b {
+.new-b, .Tarzan, .Jungle.Trouble {
     display: block;
     background-position: 0 -141px;
 }

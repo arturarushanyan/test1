@@ -707,7 +707,8 @@ CASINO.constant('SkinCConfig', {
             enabled: true
         },
         filterByProvider: ['EVL','TLC','IGG'],
-        showAllGamesOnHomepage: true
+        showAllGamesOnHomepage: true,
+        favourtieGamesCategoryEnabled: true
     },
     login: {
         url: '/global/partners/rml.php'

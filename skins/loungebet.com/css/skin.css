@@ -65571,12 +65571,12 @@ body {
 
 .icon-specials:before {
     content: "\e950";
-    color: #d14343;
+    color: #ff6767;
 }
 
-.icon-favorites:before {
-    content: "\e94e";
-    color: #d14343;
+.icon-Favourites-casino:before {
+    content: "\e6df";
+    color: #ff6767;
 }
 
 .icon-All.Games-casino:before {

@@ -37599,6 +37599,7 @@ input[type="password"]:focus ~ .capslock-is-on-j {
     text-transform: none;
     top: 4px;
     left: 5px;
+    border-radius: 100%;
 }
 
 .lc16-sport-selector-j ul li i.all-sports-j:before {

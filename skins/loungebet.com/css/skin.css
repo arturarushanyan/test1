@@ -49672,6 +49672,7 @@ top-game-block {
     padding: 0;
     max-height: 100%;
     background: #fffef6;
+    border-radius: 4px 4px 0 0;
 }
 
 .favorite-game-open-euro2016 > .prematch-games-list {
@@ -50020,6 +50021,9 @@ top-game-block {
     border-right: 1px solid #c3c3c3;
     border-left: 1px solid #c3c3c3;
     border-bottom: 1px solid #c3c3c3;
+}
+.time-info-game-box-v3 .game-events-view-v3:last-of-type{
+    border-radius: 0 0 4px 4px ;
 }
 
 .prematch-list-view-v3.prematch .mini-title-box-gameview-v3 {

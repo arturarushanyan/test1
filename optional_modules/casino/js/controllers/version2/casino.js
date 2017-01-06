@@ -53,7 +53,7 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
     var FAVOURITE_CATEGORY = {
         id: -1,
         name: 'favouriteGames',
-        title: 'Favourite Games'
+        title: 'Favourites'
     };
     var ALL_GAMES_CATEGORY = {
         id: 'all',

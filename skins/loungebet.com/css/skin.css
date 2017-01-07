@@ -64069,6 +64069,10 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         height: 54px;
     }
 
+    .user-nav-wrapper .settings-include-contain:last-child .new-size {
+        padding: 0 16px 0 17px;
+    }
+
     .scores-table .ico-led {
         float: left;
         width: 20px;

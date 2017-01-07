@@ -58083,6 +58083,7 @@ div.slider-image-wrapper-b {
     height: 37px;
     box-shadow: none;
     margin: 0 0 1px;
+    overflow:hidden;
 }
 
 .filter-view-v3 {
@@ -58093,6 +58094,7 @@ div.slider-image-wrapper-b {
     background: #fffef6;
     margin: 0 0 1px;
     padding: 3px 8px 0 7px;
+    overflow:hidden;
 }
 
 .sports-item-v3 {

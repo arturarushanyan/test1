@@ -59016,6 +59016,10 @@ div.slider-image-wrapper-b {
     border: none !important;
 }
 
+.menu-popup-head.border-radius {
+    border-radius: 4px !important;
+}
+
 .menu-popup .region-items-box .ngscroll-resizable {
     max-height: 305px;
     overflow: hidden;

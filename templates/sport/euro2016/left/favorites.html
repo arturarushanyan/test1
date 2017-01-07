@@ -66,11 +66,11 @@
             <div ng-show="leftMenuClosed && favorite" class="menu-popup">
                 <span class="menu-popup-arrow"></span>
                 <div class="menu-popup-holder">
-                    <div class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}} menu-popup-head ">{{'Favorite games'|translate}}
+                    <div ng-class="{'border-radius' : !myGames.length}" class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}} menu-popup-head ">{{'Favorite games'|translate}}
                         <div class="sport-games-count-v3">
                             <span>{{myGames.length}}</span>
                         </div></div>
-                    <div class="region-items-box" mb-scrollbar="scrollbar('vertical', true)" style="height: 100%;padding:0">
+                    <div class="region-items-box" ng-if="myGames.length" mb-scrollbar="scrollbar('vertical', true)" style="height: 100%;padding:0">
                         <div class="full-region-info-v3">
                             <div class="games-list-nav-v3">
 

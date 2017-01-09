@@ -37599,6 +37599,7 @@ input[type="password"]:focus ~ .capslock-is-on-j {
     text-transform: none;
     top: 4px;
     left: 5px;
+    border-radius: 100%;
 }
 
 .lc16-sport-selector-j ul li i.all-sports-j:before {
@@ -49671,6 +49672,7 @@ top-game-block {
     padding: 0;
     max-height: 100%;
     background: #fffef6;
+    border-radius: 4px 4px 0 0;
 }
 
 .favorite-game-open-euro2016 > .prematch-games-list {
@@ -50019,6 +50021,9 @@ top-game-block {
     border-right: 1px solid #c3c3c3;
     border-left: 1px solid #c3c3c3;
     border-bottom: 1px solid #c3c3c3;
+}
+.time-info-game-box-v3 .game-events-view-v3:last-of-type{
+    border-radius: 0 0 4px 4px ;
 }
 
 .prematch-list-view-v3.prematch .mini-title-box-gameview-v3 {
@@ -58078,6 +58083,7 @@ div.slider-image-wrapper-b {
     height: 37px;
     box-shadow: none;
     margin: 0 0 1px;
+    overflow:hidden;
 }
 
 .filter-view-v3 {
@@ -58088,6 +58094,7 @@ div.slider-image-wrapper-b {
     background: #fffef6;
     margin: 0 0 1px;
     padding: 3px 8px 0 7px;
+    overflow:hidden;
 }
 
 .sports-item-v3 {
@@ -59009,6 +59016,10 @@ div.slider-image-wrapper-b {
     position: relative;
     color: white;
     border: none !important;
+}
+
+.menu-popup-head.border-radius {
+    border-radius: 4px !important;
 }
 
 .menu-popup .region-items-box .ngscroll-resizable {
@@ -64056,6 +64067,10 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
     .new-size {
         height: 54px;
+    }
+
+    .user-nav-wrapper .settings-include-contain:last-child .new-size {
+        padding: 0 16px 0 17px;
     }
 
     .scores-table .ico-led {

@@ -1,6 +1,6 @@
 <div class="left-nav-view-v3">
     <ul>
-        <li ng-mouseover="hover = true" ng-mouseout="hover = false"
+        <li ng-mouseover="hover = true"  ng-mouseleave="hover = false"
             ng-repeat="sport in leftMenuLiveSports track by sport.id"
             ng-hide="sport.hideSport || sport.hide"
             id="sport-{{sport.alias}}" ng-class="{{leftMenuClosed ? 'left-menu-closed-item' : ''}}">
@@ -113,7 +113,7 @@
 
                 <div class="sport-icon-v3 iconsize {{!sport.alias ? sport.name :sport.alias}}"></div>
             </div>
-            <div ng-show="leftMenuClosed && hover" class="menu-popup">
+            <div ng-if="leftMenuClosed && hover" ng-mouseover="hover = true" ng-mouseout="hover = false" class="menu-popup">
                 <span class="menu-popup-arrow"></span>
                 <div class="menu-popup-holder">
                     <div class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}} menu-popup-head ">

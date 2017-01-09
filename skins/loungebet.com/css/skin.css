@@ -40698,6 +40698,7 @@ top-game-block {
     float: left;
     box-sizing: border-box;
     margin: 0;
+    border-right: 1px solid #bec0c6;
 }
 
 .first-level-history-tab > ul > li {
@@ -62308,7 +62309,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         height: 37px;
         border-bottom: 1px solid #fffef6;
         box-shadow: 0 4px 0 #ff8067 inset;
-        border-right: 1px solid #bec0c6;
     }
 
     .profile-tab-contain-b {
@@ -62346,7 +62346,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         box-sizing: border-box;
         display: inline-block;
         padding: 0 10px;
-        margin: 0 1px 0 0;
+        margin: 0;
         text-align: center;
         font: 12px/36px Ubuntu, Arial, Helvetica, sans-serif;
         min-width: 140px;
@@ -62358,7 +62358,11 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         background: #f6f5ed;
         border-radius: 0px;
         border-bottom: 1px solid #bec0c6;
+        border-left: 1px solid #bec0c6;
         font-weight: 500;
+    }
+    .first-level-history-tab > ul > li:first-child {
+        border-left: none;
     }
 
     .all-history-lightbox-contain.profile .all-history-lightbox-content {
@@ -62368,7 +62372,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     .balance-lightbox-j {
         background-color: #fffef6;
         width: 100%;
-        margin-top: -132px;
+        margin-top: -131px;
         height: calc(100% + 132px);
         float: left;
         padding: 0 10px 10px;
@@ -62376,6 +62380,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         z-index: 90;
         border-radius: 0 0 4px 4px;
         border: 1px solid #c4c3b9;
+        border-top: none;
     }
 
     .first-level-history-tab {

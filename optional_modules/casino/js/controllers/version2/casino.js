@@ -727,3 +727,4 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
 
     init();
 }]);
+

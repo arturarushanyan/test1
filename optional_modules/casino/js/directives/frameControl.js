@@ -21,14 +21,14 @@ CASINO.directive('frameControl', ['$window', '$timeout', 'UserAgent', function (
 
             switch (attr.numberOfWindow) {
                 case "1":
-                    wWidth = $window.innerWidth - 60;
-                    wHeight = $window.innerHeight - 95;
+                    wWidth = $window.innerWidth - 360;
+                    wHeight = $window.innerHeight - 195;
                     if (attr.aspectRatio && attr.aspectRatio !== '0' && attr.aspectRatio !== '') {
                         var ratios = attr.aspectRatio.split(':');
                         var originWidth = wHeight * ratios[0] / ratios[1];
 
                         scaleWidth = wWidth / originWidth;
-                        scaleHeight = 1;
+                        scaleHeight = 0.94;
                         scale = scaleWidth <= scaleHeight ? scaleWidth : scaleHeight;
 
                         definitiveWidth = scale * originWidth;

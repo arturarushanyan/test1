@@ -65525,7 +65525,7 @@ body {
 .casino-nav-wrapper-jf {
     float: left;
     width: 100%;
-    margin: 15px 0;
+    margin: 10px 0;
     text-align: center;
     box-sizing: border-box;
 }
@@ -65569,7 +65569,7 @@ body {
     height: 50px;
     box-sizing: border-box;
     display: block;
-    font: 26px/50px icomoon;
+    font: 32px/50px icomoon;
     color: #52a178;
     text-align: center;
 }
@@ -65622,7 +65622,7 @@ body {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 22px;
     color: #5b5b5b;
     text-transform: uppercase;
@@ -65718,7 +65718,7 @@ body {
 .casino-games-list-view-jf {
     float: left;
     width: 100%;
-    margin: 5px 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -65807,15 +65807,15 @@ body {
 .game-screen-view-jf:before {
     content: "";
     width: 100%;
-    height: 60px;
+    height: 50%;
     z-index: 44;
     display: block;
     position: absolute;
     bottom: 0;
     left: 0;
-    background: -moz-linear-gradient(top, rgba(16, 91, 99, 0) 0%, rgba(16, 91, 99, 0.95) 60%, rgba(16, 91, 99, 0.96) 100%);
-    background: -webkit-linear-gradient(top, rgba(16, 91, 99, 0) 0%, rgba(16, 91, 99, 0.95) 60%, rgba(16, 91, 99, 0.96) 100%);
-    background: linear-gradient(to bottom, rgba(16, 91, 99, 0) 0%, rgba(16, 91, 99, 0.95) 60%, rgba(16, 91, 99, 0.96) 100%);
+    background: -moz-linear-gradient(top,transparent,rgba(0,0,0,.7));
+    background: -webkit-linear-gradient(top,transparent,rgba(0,0,0,.7));
+    background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.7))
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00105b63', endColorstr='#f5105b63',GradientType=0 );
     border-radius: 0 0 4px 4px;
     transition: height 400ms;
@@ -65929,7 +65929,7 @@ body {
 .casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul {
     position: relative;
     height: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul > li {
@@ -66335,7 +66335,8 @@ body {
 }
 
 .slot-interface-jf.bg-image {
-    background: #171c2c url(../../../images/backgrounds/slot-bg.jpg)  no-repeat 50% 0 ;
+    background: #171c2c url(../../../images/backgrounds/slot-bg.jpg);
+    background-size: cover;
 }
 
 .game-view-wrapper-jf {
@@ -66452,10 +66453,6 @@ body {
     background: rgba(0, 0, 0, 0.6);
     box-shadow: 0 0 100px #000;
     border-radius: 5px;
-    width: 100%;
-    height: 100%;
-    max-width: 1266px;
-    max-height: 712px;
     padding: 40px 8px;
     box-sizing: content-box;
     transform: translate3d(0, 0, 0);
@@ -66467,10 +66464,12 @@ body {
     transition: max-width 180ms, max-height 180ms;
 }
 
+/*
 .game-container-box-jf > iframe {
-    width: 100% !important;
-    height: 100% !important;
-}
+     width: 100% !important;
+     height: 100% !important;
+ }
+ */
 
 .top-row-game-box {
     float: left;
@@ -66902,7 +66901,7 @@ body {
     }
 
     .casino-menu-contain-jf > ul > li > a > p, .mini-search-box-jf > p {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 1400px) {

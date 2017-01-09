@@ -7812,7 +7812,7 @@ rzslider span.rz-pointer.rz-active:after {
 
 .multiview-contain .live-game-container .sport-title, .dndPlaceholder .game-score-multiset ul.title, .dndPlaceholder .live-game-container .sport-title {
     height: 40px;
-    border: 0;
+    border-top: 2px solid rgba(65, 68, 68, 0.1);
     transition-duration: 200ms;
     line-height: 40px;
     overflow: hidden;

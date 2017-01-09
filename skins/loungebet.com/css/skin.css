@@ -63001,6 +63001,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         height: 36px;
         position: relative;
         border-left: 1px solid #e6e5dc;
+        border-right: 1px solid #e6e5dc;
     }
 
     /* scrolls - start */

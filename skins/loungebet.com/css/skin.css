@@ -53190,6 +53190,15 @@ top-game-block {
     display: none !important
 }
 
+.left-column-v3-header .fixed-filter + .full-menu-wrapper-box-v3 .left-nav-view-v3 > ul > li {
+    width: 46px;
+    margin: 0 0 2px 0;
+}
+.left-column-v3-header .fixed-filter + .full-menu-wrapper-box-v3 .left-nav-view-v3 > ul > li .sport-icon-v3 {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+}
 
 .has-scrollbar {
     padding-right: 4px;

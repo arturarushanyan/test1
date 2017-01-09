@@ -62013,6 +62013,9 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     .event-view-title.AutoRacing {
         background: #4d4d4d;
     }
+    .sports-item-v3.AutoRacing + .menu-popup .menu-popup-arrow {
+        border-right-color: #4d4d4d;
+    }
 
     .sports-item-v3.AutoRacing > p {
         color: #fff;

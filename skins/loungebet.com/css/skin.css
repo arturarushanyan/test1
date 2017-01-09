@@ -58463,7 +58463,7 @@ div.slider-image-wrapper-b {
     position: relative;
     height: 28px;
     background: #ede6d6;
-    box-shadow: 0;
+    box-shadow: none;
     padding: 0 26px 0 0;
 }
 

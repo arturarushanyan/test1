@@ -40551,7 +40551,7 @@ top-game-block {
     position: absolute;
     width: 48px;
     height: 48px;
-    top: 0;
+    top: -4px;
     right: 0;
     text-align: center;
     font: 10px/48px icomoon;

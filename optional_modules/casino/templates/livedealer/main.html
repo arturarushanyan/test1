@@ -1,12 +1,12 @@
 <!--Live Dealer-->
-<div ng-controller="liveCasinoMainCtrl" ng-init="checkIfEnabled('liveDealer'); setTitle('Live casino');" watch-resize middle-screen-mode="true">
+<div ng-controller="liveCasinoVersion2MainCtrll" ng-init="checkIfEnabled('liveDealer'); setTitle('Live casino');" watch-resize middle-screen-mode="true">
     <div class="casino-main" ng-show="!gamesInfo.length">
         <div class="menu-games dealer" ng-show="dealerPages && dealerPages.length > 1">
             <div class="subtop-game-menu-j" no-animate>
                 <ul class="j-resize-950-1280">
                     <div class="contein-nav-g">
                         <li ng-repeat="page in dealerPages track by page.id" ng-class="{'active': page.id === selectedDealerPage.id}">
-                        <a ng-click="selectDealerPage(page)">{{ page.title }}</a>
+                            <a ng-click="selectDealerPage(page)">{{ page.title }}</a>
                         </li>
                     </div>
                 </ul>
@@ -19,22 +19,12 @@
                 <div class="contein-slider">
                     <div class="games-slider">
                         <h3 trans="">Live casino</h3>
-                        <ul>
-                            <li ng-repeat="game in games track by game.id" ng-class="{'casino-live-dealer' : wideMode}">
-                                <a ng-click="openTables(game, 'real'); $event.stopPropagation();">
-                                    <p class="play-button"><span trans>play now</span></p>
-                                    <img ng-src="{{cConf.iconsUrl + game.gameID}}.jpg" alt="">
-                                </a>
-
-                                <p class="fun-game">
-                                    <a class="game-fun-link" ng-show="game.hasFunMode && !env.authorized" ng-click="openTables(game, 'demo'); $event.stopPropagation();"><span trans>VIEW</span></a>
-                                </p>
-                                <div class="popular-game-name">
-                                    <p><a title="{{game.gameName}}"> {{ game.gameName|translate }} </a></p>
-                                    <div class="fav-block"><a ng-click="toggleSaveToMyCasinoGames(game)" ng-class="{'star-active': isFromSaved(game.id)}">star</a></div>
-                                </div>
-                            </li>
-                        </ul>
+                        <casino-games-list
+                                is-new-design-enabled="cConf.newCasinoDesignEnabled"
+                                show-conditions="true"
+                                games-list="games"
+                                game-show-conditions="true">
+                        </casino-games-list>
                     </div>
                 </div>
             </div>
@@ -49,7 +39,7 @@
     </div>
 
     <div class="error-block-ld" ng-show="errorStatus && dealerPagesLoaded && (!dealerPages.length || selectedDealerPage.slug == 'home')">
-    <div class="info-text-error-ld">
+        <div class="info-text-error-ld">
             <ul>
                 <li trans>Live Casino Page is currently closed for</li>
                 <li><span trans>maintenance.</span></li>
@@ -58,10 +48,10 @@
             </ul>
         </div>
     </div>
-    <div ng-show="allGames && allGames.length" ng-include="getTemplate('optional_modules/casino/templates/popup-games.html')"></div>
 
-    <div ng-include="getTemplate('optional_modules/casino/templates/big-game.html')" ng-if="gamesInfo.length"
-         class="big-games-overflow"></div>
+    <multiview-control ng-if="cConf.multiViewEnabled" wide-mode="wideMode" middle-mode="middleMode" view-count="viewCount" games-info="gamesInfo"></multiview-control>
+
+    <div ng-include="getTemplate('optional_modules/casino/templates/version_2/big-game.html')" ng-if="gamesInfo.length" class="big-games-overflow"></div>
 
     <div ng-if="selectedDealerPage.slug == 'promotion'" class="livedealer-promo">
         <div class="contain-livedealer-centr">
@@ -116,8 +106,7 @@
             </div>
         </div>
     </div>
-    <ng-include src="getTemplate('optional_modules/casino/templates/livedealer/casinoPopup.html')" ng-if="liveGamesConf.lobby.getDataViaSwarm"></ng-include>
 
-    <!--<ng-include src="getTemplate('optional_modules/casino/templates/livedealer/tables.html')"></ng-include>-->
+    <ng-include src="getTemplate('optional_modules/casino/templates/livedealer/casinoPopup.html')" ng-if="liveGamesConf.lobby.getDataViaSwarm"></ng-include>
 </div>
 <!--live dealer games-->

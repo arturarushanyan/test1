@@ -60393,7 +60393,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         background: #fffef6;
         color: #303838;
         cursor: default;
-
+        height: 37px;
+        margin-bottom: -1px;
     }
 
     .new-default-popup-j {
@@ -62287,7 +62288,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         position: relative;
         border-bottom: 1px solid #bec0c6;
         border-radius: 4px 0 0 0;
-        border-bottom: 1px;
     }
 
     .group-tabs-wrapper {
@@ -62306,7 +62306,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         background: #fffef6;
         color: #303838;
         cursor: default;
-        height: 37px;
         border-bottom: 1px solid #fffef6;
         box-shadow: 0 4px 0 #ff8067 inset;
     }
@@ -62338,7 +62337,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         margin: 0 0 10px;
         position: relative;
         border-radius: 4px 0 0 0;
-        border-bottom: 1px;
     }
 
     .first-level-history-tab > ul > li {
@@ -62357,7 +62355,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         transition: background 150ms, color 150ms;
         background: #f6f5ed;
         border-radius: 0px;
-        border-bottom: 1px solid #bec0c6;
         border-left: 1px solid #bec0c6;
         font-weight: 500;
     }
@@ -62392,7 +62389,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         margin: 0 0 0px;
         position: relative;
         border-radius: 4px 4px 0 0;
-        border-bottom: 1px;
     }
 
     .all-history-filter-container {

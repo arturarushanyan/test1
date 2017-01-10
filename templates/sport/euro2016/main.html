@@ -480,7 +480,10 @@
 
                                                 <div class="markets-count-view-v3"
                                                      ng-click="openGameFullDetails(prematchGame, selectedCompetition);selectGame(prematchGame.id);selectCompetition()">
-                                                    <span>{{prematchGame.additionalEvents ? '+' + prematchGame.additionalEvents : '' ? '1' : ''}}</span>
+                                                    <span>
+                                                        <span class="icon-separator-v3 statistic"  ng-show="prematchGame.is_stat_available" ng-click="openStatistics(prematchGame);$event.stopPropagation();" title="Statistic"></span>
+                                                        {{prematchGame.additionalEvents ? '+' + prematchGame.additionalEvents : '' ? '1' : ''}}
+                                                    </span>
                                                 </div>
 
                                             </div>

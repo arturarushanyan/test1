@@ -50760,6 +50760,26 @@ top-game-block {
     height: 162px;
 }
 
+.video-animation-vox-v3 .video-player-container .md-progress-circular, 
+.video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner,
+.video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner .md-left .md-half-circle,
+.video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner .md-right .md-half-circle {
+    width: 60px;
+    height: 60px;
+}
+.video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner .md-left, 
+.video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner .md-right {
+    height: 60px;
+    width: 30px;
+}
+
+.video-animation-vox-v3 .video-player-container .md-progress-circular.md-theme {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .classic-version-euro2016 .right-b-view-wrapper-v3 .video-player-control {
     box-sizing: border-box;
     right: 147px;

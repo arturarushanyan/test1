@@ -8481,9 +8481,9 @@ rzslider span.rz-pointer.rz-active:after {
 
 @media screen and (max-width: 1599px) {
     .right-betslip-contain {
-        width: 274px;
-        min-width: 274px;
-        max-width: 274px;
+        width: 272px;
+        min-width: 272px;
+        max-width: 272px;
     }
 
     .right-betslip-contain .scroll-contain.animated-block {
@@ -62923,7 +62923,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     .results-center-ba-j {
         float: left;
         width: 100%;
-        height: 108px;
+        height: 103px;
         margin: 0 0 17px;
         background: url(../../../images/backgrounds/results-header.jpg) no-repeat 50% 50%/cover;
         background-clip: content-box;
@@ -63013,7 +63013,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
     .todays-results-j {
         margin: 0 0px 8px;
-        float: left;
+        float: right;
         width: calc(100% - 5px);
     }
 

@@ -6472,6 +6472,7 @@ rzslider span.rz-pointer.rz-active:after {
 .live-game-container .game-content {
     font: 13px/18px Ubuntu, Arial, Helvetica, sans-serif;
     color: #ffffff;
+    overflow: hidden;
 }
 
 .live-view-information-b ul li.video-info-calendar .icon-ic_video_collection_24px:before {
@@ -53254,6 +53255,14 @@ top-game-block {
 }
 .no-scrollbar > .ngscroll-resizable > .ngscroll-scrollbar-container {
     display: none;
+}
+@media screen and (width: 1366px) {
+    .prematch-view-v3 .prematch-games-list {
+        width: calc(50% - 4px);
+    }
+    .prematch-view-v3 .live-game-view-contain-v3 {
+        width: calc(50% + 4px);
+    }
 }
 
 @media screen and (max-width: 1279px) {

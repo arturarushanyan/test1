@@ -46914,6 +46914,13 @@ top-game-block {
     margin-top: -5px;
 }
 
+.left-column-v3-header .fixed-filter .filter-view-v3 .search-box-v3:before {
+    right: 7px;
+}
+.left-column-v3-header .fixed-filter .filter-view-v3 .closed-left-nav-v3 {
+    right: 15px;
+}
+
 .left-column-v3-header .fixed-filter + .full-menu-wrapper-box-v3 {
     overflow: visible !important;
     padding-right: 0;

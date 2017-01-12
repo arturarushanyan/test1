@@ -24,7 +24,7 @@
                         <div class="region-item-v3"
                              ng-class="{'active': leftMenuState.prematch.region[region.id].expanded}"
                              ng-click="expandLeftMenuPrematchRegion(region, sport); selectRegion(region)">
-                            <div class="flag-view-v3 flag-{{::region.alias | removeUselessSymbolsByRegexp: '[, ]+': 'g'}}"></div>
+                            <div class="flag-view-v3 flag-{{::region.alias | removeUselessSymbolsByRegexp: '[,\' ]+': 'g'}}"></div>
                             <p>{{::region.name}}</p>
                             <div class="arrow-view-left"></div>
                             <div class="region-games-count-v3">

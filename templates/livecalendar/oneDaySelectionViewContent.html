@@ -109,7 +109,7 @@
             </li>
             <li class="country-column-j" title="{{game.region.name}}">
                 <div class="ellipsis-text">
-                    <i class="flag-{{game.region.alias}}"></i><span>{{game.region.name}}</span>
+                    <i class="flag-{{game.region.alias | removeUselessSymbolsByRegexp: '[,\' ]+': 'g'}}"></i><span>{{game.region.name}}</span>
                 </div>
             </li>
             <li class="league-column-j" title="{{game.competition.name}}">

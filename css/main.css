@@ -943,7 +943,7 @@ body{
 .Shorttrackspeedskating:before {content: "\e64b";}
 .Skeleton:before {content: "\e64c";}
 .SkiJump:before, .SkiJumping {background: url(../images/sport_icons.png) no-repeat 0px -1710px; }
-.Speedway{margin:-0.3em 0 0 -0.55em;}
+.Speedway,.financials{margin:-0.3em 0 0 -0.55em;}
 .Skis:before{content: "\e64e";}
 .CrossCountrySkiing {background: url(../images/sport_icons.png) no-repeat 0px -1620px; }
 .Snooker {background: url(../images/sport_icons.png) no-repeat 0px -780px; }

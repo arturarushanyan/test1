@@ -37,7 +37,7 @@
             <div class="casino-menu-box-jf">
                 <div class="casino-menu-contain-jf">
                     <ul>
-                        <li ng-repeat="category in categories track by category.id"
+                        <li ng-repeat="category in categories track by category.id" ng-hide="category.id === '65' || category.id === '95' || category.id === '93'"
 
                             ng-class="{'active': selections.category.id === category.id}"
                             ng-click="selectCategory(category)">
@@ -61,6 +61,11 @@
         <!--Casino nav view END-->
 
         <!--Game list view-->
+        <casino-slot-games-list class="casino-games-list-view-jf" is-new-design-enabled="cConf.newCasinoDesignEnabled"
+                           show-conditions="true"
+                           games-list="games"
+                           game-show-conditions="true">
+        </casino-slot-games-list>
         <casino-games-list class="casino-games-list-view-jf" is-new-design-enabled="cConf.newCasinoDesignEnabled"
                            show-conditions="true"
                            games-list="games"

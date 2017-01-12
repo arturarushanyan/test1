@@ -21,7 +21,7 @@
                             <i class="balance-icon-tab-b"></i>
                             <p>
                                 <i trans>Balance</i>
-                                <span class="balance-view-tab">{{profile.balance}} {{profile.currency_name}}</span>
+                                <span class="balance-view-tab">{{profile.balance}} {{profile.currency_name|currency}}</span>
                             </p>
                         </li>
                         <li ng-class="{'active': (env.sliderContent === 'recentBets'|| env.sliderContent === 'casinoBetHistory')}"

@@ -33,7 +33,7 @@ CASINO.constant('CConfig', {
         funModeEnabled: true,// enable/disable fun mode
         realModeEnabled: true, // enable/disable real playing mode
         providersThatHaveNotFunMode: ['MTG'],
-        providersThatWorkWithSwarm: ['GNI', 'HBN', 'PTG', 'PSN', 'NYX', 'ASG', 'MGS', 'KLG', 'VGS'],
+        providersThatWorkWithSwarm: ['PSN', 'NYX', 'ASG', 'MGS', 'KLG', 'VGS'],
         providersCustomMessages: {
             NET: {
                 message: '(NET) Please be informed that some IP addresses are blocked.',
@@ -60,7 +60,6 @@ CASINO.constant('CConfig', {
         filterByCategory: ["28", "36", "23"],
         filterByProvider: [],
         biggestWinners: {
-            showBannerInsteadOfBiggestWinners: true,
             topWinners: true,
             lastWinners: true
         }
@@ -87,7 +86,7 @@ CASINO.constant('CConfig', {
         //viewStyle: '3DView', // 3DView / ClassicView / SliderView
         view3DEnabled: false,  // the old config for liva casino view (if view3DEnabled = true then page has 3D view if view3DEnabled = false then page has viewStyle view)
         view3DBannersRotationPeriod: 5000,
-        hiddenGamesIds: ['4015', '4821'],
+        hiddenGamesIds: ['4015'],
         lobby: {
             getDataViaSwarm: true,
             updateInterval: 10000,
@@ -188,7 +187,7 @@ CASINO.constant('CConfig', {
     pokerklas: {
         id: "",
         gameID: "",
-        externalID: '2',
+        externalID: '',
         provider: 'KLG',
         downloadLink: "http://qtupdate.klasnetwork.com/windows/installers/268/2d/setup.exe",
         downloadLinkMac: "http://qtupdate.klasnetwork.com/mac/installers/268/2d/MarsBet.pkg"

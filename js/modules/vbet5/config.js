@@ -277,7 +277,7 @@ angular.module('vbet5').constant('Config', {
         },
         allowCustomHtml: false, // allow custom html scripts and html tags
         poolBettingCurrencyName: 'EUR', //currency in which jackpot will be displayed in top menu
-        availableCurrencies: ["AMD", "USD", "EUR", "GEL", "RUB", "UAH", "IRR", "GBP", "KGS", "KZT", "MDL", "LTL", "XAF", "TRY", "AZN", "BYR", "NGN", "VND", "KRW", "TJS", "RSD", "UGX", "LVL", "CHF", "MYR", "SGD", "HRK", "GHS", "RON", "CNY", "CPI", "BRL"],
+        availableCurrencies: ["AMD", "USD", "EUR", "GEL", "RUB", "UAH", "IRR", "GBP", "KGS", "KZT", "MDL", "LTL", "XAF", "TRY", "AZN", "BYR", "NGN", "VND", "KRW", "TJS", "RSD", "UGX", "LVL", "CHF", "MYR", "SGD", "HRK", "GHS", "RON", "CNY", "CPI", "BRL","MBTC"],
         balanceFractionSize: 2, //number of decimal places to round the balance value to(when displaying)
         showPointsBalance: false, // show points balance in user dropdown menu
         registration: {

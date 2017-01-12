@@ -318,7 +318,10 @@ VBET5.constant('SkinConfig', {
             editableFields: ['gender', 'first_name', 'sur_name', 'birth_date', 'country_code', 'city', 'address', 'phone_number', 'doc_number'],
             requiredEditableFields: ['country_code', 'city', 'birth_date', 'first_name', 'sur_name', 'doc_number', 'gender']
         },
-        availableCurrencies: ['EUR', 'USD','BRL'],
+        convertCurrencyName: {
+            MBT: 'mBTC'
+        },
+        availableCurrencies: ['EUR', 'USD','BRL','MBT'],
         //facebookUrl: "https://www.facebook.com/Loungebetcom",
         //googlePlusUrl: "https://plus.google.com/u/1/+Loungebetlivebetting/",
         //youtubeUrl: "https://www.youtube.com/user/VIVARObetting",
@@ -708,8 +711,8 @@ CASINO.constant('SkinCConfig', {
         },
         filterByProvider: ['EVL','TLC','IGG'],
         showAllGamesOnHomepage: true,
-        favourtieGamesCategoryEnabled: true
-
+        favourtieGamesCategoryEnabled: true,
+        specialsCategoryEnabled: true
     },
     login: {
         url: '/global/partners/rml.php'

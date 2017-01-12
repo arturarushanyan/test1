@@ -46,7 +46,7 @@
 
 
 
-<div class="subtop-header-menu-j" ng-class="{'poker' : isInPoker()}" ng-show="currentPageHasSubHeader() && (isInSports()  || isInLivedealer() || isInPoker()) && $location.path() !== '/' ">
+<div class="subtop-header-menu-j" ng-class="{'poker' : isInPoker() || casinoGameOpened}" ng-show="currentPageHasSubHeader() && (isInSports()  || isInLivedealer() || isInPoker()) && $location.path() !== '/'">
     <ng-include src="getTemplate('templates/sport/toptab.html')"></ng-include>
 </div>
 

@@ -50038,20 +50038,6 @@ top-game-block {
     border-left: 1px solid #c3c3c3;
     border-bottom: 1px solid #c3c3c3;
 }
-
-.game-events-view-v3 .markets-count-view-v3 .icon-separator-v3.statistic {
-    margin: 0;
-    float: none;
-}
-
-.game-events-view-v3 .markets-count-view-v3 {
-    padding : 0;
-}
-
-.game-events-view-v3 .markets-count-view-v3 > span {
-    padding : 0;
-}
-
 .time-info-game-box-v3 .game-events-view-v3:last-of-type{
     border-radius: 0 0 4px 4px ;
 }
@@ -50096,8 +50082,7 @@ top-game-block {
 }
 
 .mini-title-box-gameview-v3.active .mini-box-market-info-v3 > span,
-.mini-title-box-gameview-v3.active .team-names-date-icons-outright > p > span,
-.mini-title-box-gameview-v3.active .icon-separator-v3.statistic {
+.mini-title-box-gameview-v3.active .team-names-date-icons-outright > p > span {
     color: #fff;
 }
 

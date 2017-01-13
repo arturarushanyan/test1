@@ -25337,6 +25337,7 @@ label.reg-cup-register-j:nth-of-type(even) {
     height: 100%;
     left: 0;
     top: 0;
+    text-align: center;
 }
 
 .block-slider.popup .form-register-layout.signin .form-sign-in {
@@ -25400,6 +25401,81 @@ label.reg-cup-register-j:nth-of-type(even) {
   top: 0;
 }
 */
+
+.block-sign-in-form.reset-password form .form-text {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.block-sign-in-form.reset-password .register-steps-b > h2 {
+    float: left;
+    width: 100%;
+    color: #303838;
+    font: 15px/16px Ubuntu, Arial, Helvetica, sans-serif;
+    margin: 0 0 5px;
+}
+
+.block-sign-in-form.reset-password form input[type=password] {
+    background: none;
+    box-sizing: border-box;
+    padding: 0 38px 0 14px;
+    font: 13px Ubuntu, Arial, Helvetica, sans-serif;
+    height: 36px;
+    width: 100%;
+    border: 1px solid #a6aba8;
+    color: #7c8292;
+    transition: border-color 200ms;
+    box-shadow: none;
+    -webkit-text-fill-color: #7c8292;
+    border-radius: 4px;
+}
+
+.block-sign-in-form.reset-password form .form-sign-in {
+    padding: 5px 0px 20px;
+}
+
+.block-sign-in-form.reset-password form .button-sign {
+    float: none; 
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 15px 0;
+}
+
+.block-sign-in-form.reset-password form .button-sign input[type="submit"] {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    background: #468966;
+    text-transform: uppercase;
+    font: 15px Ubuntu, Arial, Helvetica, sans-serif;
+    height: 36px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0;
+    top: 0;
+    margin: 0;
+    border: 0;
+    transition: 200ms background, 200ms border-color;
+    border-radius: 4px;
+}
+
+.block-sign-in-form.reset-password .register-steps-b .form-error-text, 
+.block-sign-in-form.reset-password .register-steps-b .password-info-t {
+    top: 5px;
+}
+
+.block-sign-in-form.reset-password form .button-sign input[type="submit"]:disabled {
+    color: #ffffff;
+    background: #a6aba8;
+    cursor: default;
+}
+
+.block-sign-in-form.reset-password .register-steps-b .form-error-icon {
+    bottom: 17px;
+}
 
 .live-chat-b-contain {
     float: left;

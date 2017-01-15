@@ -49780,7 +49780,7 @@ top-game-block {
 
 .prematch-view-v3.favorite-game-open-euro2016 .all-game-info-container-v3 {
     box-sizing: border-box;
-    padding: 0;
+    width: 100%;
 }
 
 .prematch-games-list-title-v3 {

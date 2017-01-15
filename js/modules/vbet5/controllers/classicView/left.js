@@ -1524,10 +1524,12 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
 
         if (game.type == 1) {
             Config.env.live = true;
+        } else {           
+            Config.env.live = false;
         }
 
-        if (game.type == 2) {
-            Config.env.live = false;
+        if ('/multiview/' === $location.path()) {
+            Config.env.live = true;
         }
 
         $scope.gameClicked(game, game.competition, true);

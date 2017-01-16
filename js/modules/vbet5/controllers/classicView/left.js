@@ -1522,6 +1522,16 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
             $location.path('/sport');
         }
 
+        if (game.type == 1) {
+            Config.env.live = true;
+        } else {           
+            Config.env.live = false;
+        }
+
+        if ('/multiview/' === $location.path()) {
+            Config.env.live = true;
+        }
+
         $scope.gameClicked(game, game.competition, true);
     }
 }]);

@@ -228,12 +228,4 @@ VBET5.controller('searchCtrl', ['$rootScope', '$scope', 'TimeoutWrapper', '$rout
         }
     };
 
-    $scope.check = function(value) {
-        if (value) {
-            $scope.toggleLeftMenu();
-           setInterval(function(){
-                document.querySelector("#searchInput").focus();
-            },150);
-        }
-    };
 }]);

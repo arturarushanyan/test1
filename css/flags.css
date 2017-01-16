@@ -8,7 +8,7 @@
 .flag-Andorra { background: url('../images/flags.png?20160607111144') no-repeat -5px -51px; width: 16px; height: 13px; }
 .flag-Angola { background: url('../images/flags.png?20160607111144') no-repeat -31px -51px; width: 16px; height: 13px; }
 .flag-Anguilla { background: url('../images/flags.png?20160607111144') no-repeat -57px -51px; width: 16px; height: 13px; }
-.flag-AntiguaAndBarbuda,.flag-AntiguaBarbuda { background: url('../images/flags.png?20160607111144') no-repeat -83px -5px; width: 16px; height: 13px; }
+.flag-AntiguaAndBarbuda,.flag-AntiguaBarbuda,.flag-AntiguaandBarbuda { background: url('../images/flags.png?20160607111144') no-repeat -83px -5px; width: 16px; height: 13px; }
 .flag-Argentina { background: url('../images/flags.png?20160607111144') no-repeat -83px -28px; width: 16px; height: 13px; }
 .flag-Armenia { background: url('../images/flags.png?20160607111144') no-repeat -83px -51px; width: 16px; height: 13px; }
 .flag-Asia { background: url('../images/flags.png?20160607111144') no-repeat -187px -339px; width: 16px; height: 16px; }
@@ -102,7 +102,7 @@
 .flag-Africa { background: url('../images/flags.png?20160607111144') no-repeat -213px -339px; width: 16px; height: 13px; }
 .flag-Lithuania { background: url('../images/flags.png?20160607111144') no-repeat -265px -190px; width: 16px; height: 13px; }
 .flag-Luxembourg { background: url('../images/flags.png?20160607111144') no-repeat -265px -213px; width: 16px; height: 13px; }
-.flag-Macao { background: url('../images/flags.png?20160607111144') no-repeat -57px -218px; width: 16px; height: 13px; }
+.flag-Macao,.flag-Macau { background: url('../images/flags.png?20160607111144') no-repeat -57px -218px; width: 16px; height: 13px; }
 .flag-Macedonia { background: url('../images/flags.png?20160607111144') no-repeat -83px -218px; width: 16px; height: 13px; }
 .flag-Madagascar { background: url('../images/flags.png?20160607111144') no-repeat -109px -218px; width: 16px; height: 13px; }
 .flag-Malasia { background: url('../images/flags.png?20160607111144') no-repeat -135px -218px; width: 16px; height: 13px; }

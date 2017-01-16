@@ -22,7 +22,7 @@
                 <div class="left-column-v3-header">
 
                     <!--switcher view-->
-                    <div ng-class="leftMenuClosed ? 'fixed-filter' : ''">
+                    <div class="fixed-filter">
                         <div class="view-switcher-v3">
                             <ul>
                                 <li>
@@ -114,6 +114,7 @@
                         </div>
                         <!--filters END-->
                     </div>
+
                     <div class="full-menu-wrapper-box-v3">
                         <vbet-loader ng-show="leftMenuLiveLoading"></vbet-loader>
 
@@ -480,10 +481,7 @@
 
                                                 <div class="markets-count-view-v3"
                                                      ng-click="openGameFullDetails(prematchGame, selectedCompetition);selectGame(prematchGame.id);selectCompetition()">
-                                                    <span>
-                                                        <span class="icon-separator-v3 statistic"  ng-show="prematchGame.is_stat_available" ng-click="openStatistics(prematchGame);$event.stopPropagation();" title="Statistic"></span>
-                                                        {{prematchGame.additionalEvents ? '+' + prematchGame.additionalEvents : '' ? '1' : ''}}
-                                                    </span>
+                                                    <span>{{prematchGame.additionalEvents ? '+' + prematchGame.additionalEvents : '' ? '1' : ''}}</span>
                                                 </div>
 
                                             </div>

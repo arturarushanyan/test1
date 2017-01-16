@@ -37667,16 +37667,22 @@ input[type="password"]:focus ~ .capslock-is-on-j {
     display: block;
 }
 
+.lc16-sport-selector-j ul li:first-child i {
+    transform: scale(1);
+    left: 4px;
+    top: 3px;
+}
+
 .lc16-sport-selector-j ul li i {
     display: block;
-    height: 16px;
-    width: 16px;
+    height: 21px;
+    width: 20px;
     position: absolute;
     font: normal 16px/16px sport-icon;
     text-transform: none;
-    top: 4px;
-    left: 5px;
-    border-radius: 100%;
+    top: 1px;
+    left: 2px;
+    transform: scale(.8);
 }
 
 .lc16-sport-selector-j ul li i.all-sports-j:before {

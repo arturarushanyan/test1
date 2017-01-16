@@ -35,7 +35,7 @@
         <ul ng-show="leftMenuState.prematch.sport[sport.id].expanded">
             <li ng-repeat="region in sport.regions track by region.id" ng-class="{'active': leftMenuState.prematch.region[region.id].expanded , 'loading': region.loading}" ng-if="!sport.isFavoriteCompetition">
                 <a ng-click="expandLeftMenuPrematchRegion(region, sport); selectRegion(region)">
-                    <span class="flag-{{::region.alias | removeUselessSymbolsByRegexp: '[, ]+': 'g'}}"></span> {{::region.name}} <span>({{region.game}})</span>
+                    <span class="flag-{{::region.alias | removeUselessSymbolsByRegexp: '[,\' ]+': 'g'}}"></span> {{::region.name}} <span>({{region.game}})</span>
                     <b class="arrow-rotate icon-arrow-right6"></b>
                 </a>
                 <div ng-repeat="competition in region.competitions track by competition.id"

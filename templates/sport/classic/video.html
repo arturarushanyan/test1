@@ -10,6 +10,8 @@
     <div ng-if="env.authorized && !conf.video.autoPlay && (profile.balance !== 0 || profile.initial_balance)" ng-click="restoreVideo(openGame)" class="video-b-icon-arrow"></div>
 
     <div ng-if="env.authorized && !playerRemoved && openGame.video_data && (profile.balance > 0 || profile.initial_balance > 0)" ng-init="soundVolume = env.sound" class="video-player-container">
+        <vbet-loader ng-show="!videoIsLoaded"></vbet-loader>
+
         <div class="video-player-control" ng-show="videoIsLoaded">
             <span ng-click="togglePause();" ng-show="!paused" class="video-pause">Pause</span>
             <span ng-click="togglePause();" ng-show="paused" class="video-play">Play</span>

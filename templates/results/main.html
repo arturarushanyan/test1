@@ -20,6 +20,33 @@
                 <ng-include src="getTemplate('templates/sport/classic/systemCalculator.html')"></ng-include>
             </div>
             <!-- System Calculator-->
+            <!--betslip-contain-->
+            <div class="right-betslip-contain">
+                <div class="scroll-contain"
+                     ng-class="{'animated-block': openGame.last_event || (openGame.video_id && conf.videoEnabled && !isVideoDetached)}">
+
+                        <div class="todays-results-j-contain" ng-init="todayResults()">
+                            <div mb-scrollbar="scrollbar('vertical', true)" style="height: 100%">
+                            <div class="todays-results-j" ng-show="!todayGameListLoaded">
+                                <div class="results-header-j">
+                                    <h2 trans>Today's Results</h2>
+                                </div>
+                                <ul>
+                                    <li ng-show="todayGameList" ng-repeat="sport in todayGameList track by $index"
+                                        ng-click="resultsBySport(sport); requestData.dateFrom = today; requestData.dateTo = today">
+                                        <div>{{sport.sport[0].name}}</div>
+                                    </li>
+                                    <li ng-hide="todayGameList">
+                                        <div>List is empty</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <vbet-loader ng-show="todayGameListLoaded"></vbet-loader>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--betslip-contain END-->
             <!--centr-market-->
             <div class="centr-market-contain" ng-class="{'favorite-game-open': favoriteGameIsSelected}">
                 <div class="game-center-container left-menu-closed" ng-class="{'left-menu-closed': leftMenuClosed}">
@@ -187,34 +214,6 @@
                 </div>
             </div>
             <!--centr-market END-->
-
-            <!--betslip-contain-->
-            <div class="right-betslip-contain">
-                <div class="scroll-contain"
-                     ng-class="{'animated-block': openGame.last_event || (openGame.video_id && conf.videoEnabled && !isVideoDetached)}">
-
-                        <div class="todays-results-j-contain" ng-init="todayResults()">
-                            <div mb-scrollbar="scrollbar('vertical', true)" style="height: 100%">
-                            <div class="todays-results-j" ng-show="!todayGameListLoaded">
-                                <div class="results-header-j">
-                                    <h2 trans>Today's Results</h2>
-                                </div>
-                                <ul>
-                                    <li ng-show="todayGameList" ng-repeat="sport in todayGameList track by $index"
-                                        ng-click="resultsBySport(sport); requestData.dateFrom = today; requestData.dateTo = today">
-                                        <div>{{sport.sport[0].name}}</div>
-                                    </li>
-                                    <li ng-hide="todayGameList">
-                                        <div>List is empty</div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <vbet-loader ng-show="todayGameListLoaded"></vbet-loader>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--betslip-contain END-->
         </div>
     </div>
 </div>

@@ -330,7 +330,7 @@
 
                                         <div class="game-events-view-v3"
                                              ng-repeat="prematchGame in groupGames track by prematchGame.id">
-                                            <div class="mini-title-box-gameview-v3"
+                                            <div class="mini-title-box-gameview-v3" ng-hide="prematchGame.team1_name === 'EC Agua Santa U20' || prematchGame.team1_name === 'Regatas Flamengo RJ U20' || prematchGame.team1_name === 'Агуа-Санта (до 20)' || prematchGame.team1_name === 'Фламенго РЖ (до 20)' "
                                                  ng-class="{'active': selectedGame.id === prematchGame.id}">
                                                 <div class="closed-game-icon-v3"
                                                      ng-show="env.preMatchMultiSelection && !outrightSelected"

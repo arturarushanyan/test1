@@ -309,6 +309,10 @@ CASINO.controller('casinoCtrl', ['$rootScope', '$scope', '$sce', '$location', '$
                     result.unshift({id: -1, categoryName: Translator.get('Favourite Games')});
                 }
 
+                if (CConfig.main.specialsCategoryEnabled) {
+                    result.unshift({id: -2, categoryName: Translator.get('Specials')});
+                }
+
                 var categories = sortCategories(result);
                 var numberOfHPCategories = 0;
                 // maybe it's not a good idea, but it's needed for translate categoryNames

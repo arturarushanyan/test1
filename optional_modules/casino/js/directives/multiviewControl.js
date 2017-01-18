@@ -55,7 +55,7 @@ CASINO.directive('multiviewControl', ['$interval', '$timeout', 'CConfig', 'casin
 
             scope.loadMoreGames = function loadMoreGames() {
                 if (scope.gamesLimit < scope.maxCount && !scope.loadingProcess) {
-                    scope.gamesLimit += 40;
+                    scope.gamesLimit += 80;
                     getGames();
                 }
             };

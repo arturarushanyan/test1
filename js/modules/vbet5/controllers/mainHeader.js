@@ -298,7 +298,7 @@ VBET5.controller('mainHeaderCtrl', ['$rootScope', '$scope', '$interval', '$filte
 
     // Return form logic
     if (Config.main.enableFormUrl && $location.search().formUrl) {
-        $http.get($location.search().formUrl).then(
+        $http.get($location.search().formUrl).then (
             function (response) {
                 $scope.env.showSlider = true;
                 $scope.env.sliderContent = 'customContent';

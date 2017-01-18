@@ -40741,7 +40741,6 @@ top-game-block {
     font: 13px/14px Ubuntu, Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #a4a9bc;
-    text-transform: uppercase;
 }
 
 .all-main-tabs-b > ul > li > p {
@@ -40760,13 +40759,13 @@ top-game-block {
 .all-main-tabs-b > ul > li > p > i {
     font-style: normal;
     display: list-item;
+    text-transform: uppercase;
 }
 
 .all-main-tabs-b > ul > li > p > span {
     float: left;
     width: 100%;
     font: 12px/12px Ubuntu, Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
 }
 
 .id-view-tab {
@@ -44949,11 +44948,6 @@ top-game-block {
         min-width: 950px;
     }
 
-    .body-wrapper.casino .headerVersion_2 .header-wrapper {
-        padding: 0 15px;
-        max-width: 980px;
-    }
-
     .center-contain-casino-b {
         padding: 0 15px 20px;
         max-width: 980px;
@@ -45227,8 +45221,6 @@ top-game-block {
     float: left;
     width: 100%;
     box-sizing: border-box;
-    background: #171c2c;
-    box-shadow: 0 2px 0 #a61f67;
     position: relative;
 }
 
@@ -46219,17 +46211,6 @@ top-game-block {
     background: #407d5d;
     color: #f4f4f6;
     border: 1px solid #407d5d;
-}
-
-.header-bottom-row {
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-    height: 40px;
-    background: #293043;
-    padding: 0 96px;
-    max-height: 40px;
-    position: relative;
 }
 
 .header-nav-contain {
@@ -58103,6 +58084,7 @@ div.slider-image-wrapper-b {
     background: #105b63;
     max-height: 54px;
     position: relative;
+    box-shadow: 0 1px 0 #0b4046;
 }
 
 .header-nav-contain > ul > li.active > .top-menu-sub-a-t > a {
@@ -58159,7 +58141,6 @@ div.slider-image-wrapper-b {
     float: left;
     width: 100%;
     sizing: border-box;
-    box-shadow: 0 1px 0 #0b4046;
     position: relative;
 }
 
@@ -61227,7 +61208,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* Tennis */
     .sports-item-v3.Tennis,
     .event-view-title.Tennis,
-    .sport-tilte.Tennis {
+    .sport-title.Tennis {
         background: #0c6ab3;
     }
 
@@ -64532,11 +64513,10 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         box-shadow: none;
         background: url("../images/ceg-logo.png") no-repeat 0 100%;
     }
-    .slot-mode {
-        display: none !important;
-    }
 
 }
+
+
 
 @media screen and (max-width: 1600px) {
     .new-homepage {
@@ -65708,8 +65688,8 @@ body {
     transition: color 300ms;
 }
 
-.icon-specials:before {
-    content: "\e950";
+.icon-Specials-casino:before {
+    content: "\e94e";
     color: #ff6767;
 }
 
@@ -65948,7 +65928,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00105b63', endColorstr='#f5105b63',GradientType=0 );
     border-radius: 0 0 4px 4px;
     transition: height 400ms;
-    opacity: .8;
+    opacity: 1;
 }
 
 .game-screen-view-jf:hover:before {
@@ -65971,7 +65951,7 @@ body {
 .game-screen-view-jf > a > p {
     position: absolute;
     left: 0;
-    bottom: 14px;
+    bottom: 10px;
     width: 190px;
     color: #f7f7f7;
     font-size: 16px;
@@ -66001,7 +65981,7 @@ body {
 
 .game-screen-view-jf:hover > a > p,
 .game-screen-view-jf:hover .star-icon-jf {
-    opacity: 0;
+    opacity: 1;
 }
 
 .star-icon-jf > i {
@@ -66027,7 +66007,7 @@ body {
     position: absolute;
     left: -4px;
     top: -4px;
-    background-image: url("../../../optional_modules/casino/images/sprite-marks.png");
+    background-image: url("/images/sprite-marks.png");
     background-repeat: no-repeat;
     width: 78px;
     height: 77px;
@@ -66161,7 +66141,8 @@ body {
     position: absolute;
     right: 8px;
     width: 26px;
-    padding: 0 0 11px;
+    bottom: 0px;
+    padding: 11px 0 0;
     overflow: hidden;
     z-index: 111;
     cursor: pointer;
@@ -66170,18 +66151,17 @@ body {
 .favorite-icon-jf > span {
     display: inline-block;
     width: 100%;
-    background: #ffd267;
-    padding: 8px 0 2px;
+    /*background: #ffd267; */
+    padding: 2px 0 8px;
     position: relative;
     font: 20px/20px icomoon;
     text-align: center;
-    transform: translate3d(0, -100px, 0);
     transition: transform 450ms;
 }
 
 .favorite-icon-jf > span:before {
     content: "\e6e1";
-    color: #ff6767;
+    color: #fff;
 }
 
 .favorite-icon-jf.active > span:before {
@@ -66189,18 +66169,20 @@ body {
     color: #ff6767;
 }
 
+/*
 .favorite-icon-jf > span:after {
     content: "";
     display: block;
     position: absolute;
     left: 0;
-    bottom: -11px;
+    bottom: 30px;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 11px 13px 0 13px;
-    border-color: #ffd167 transparent transparent transparent;
+    border-width: 0 13px 11px;
+    border-color: transparent transparent #ffd167;
 }
+*/
 
 .game-screen-view-jf:hover .favorite-icon-jf > span {
     transition-delay: 180ms;
@@ -66449,6 +66431,10 @@ body {
     padding: 0 8px 0 0;
 }
 
+.slot-mode {
+    display: none !important;
+}
+
 .slot-interface-jf {
     position: fixed;
     width: 100%;
@@ -66535,6 +66521,10 @@ body {
 
 .right-column-top-nav-slot > .user-nav-wrapper .settings-include-contain .separator-contain-nav {
     border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.right-column-top-nav-slot > .user-nav-wrapper .settings-include-contain .separator-contain-nav.user-nav-view-b:hover {
+    background: rgba(13, 74, 81, 0.3);
 }
 
 .sign-in-buttons-slot {
@@ -66944,6 +66934,7 @@ body {
 .games-info-list-r-j > .casino-games-list-view-jf .game-screen-view-jf > a > p {
     width: 110px;
     font-size: 12px;
+    bottom: 6px;
 }
 
 .games-info-list-r-j > .casino-games-list-view-jf .play-game {
@@ -66972,14 +66963,13 @@ body {
     position: absolute;
     right: 8px;
     width: 24px;
-    padding: 0 0 11px;
+    padding: 0 0 0px;
     overflow: hidden;
     z-index: 111;
     cursor: pointer;
 }
 .games-info-list-r-j  .casino-games-list-view-jf .game-screen-view-jf .favorite-icon-jf > span {
     font: 18px/14px icomoon;
-    padding: 8px 0 2px;
 }
 .games-info-list-r-j  .casino-games-list-view-jf .game-screen-view-jf .favorite-icon-jf > span:after {
     bottom: -10px;
@@ -67195,10 +67185,6 @@ body {
         display: none;
     }
 
-    .game-screen-view-jf:hover > a > p, .game-screen-view-jf:hover .star-icon-jf {
-        opacity: 1;
-    }
-
     .game-view-m-b {
         display: block;
     }
@@ -67312,3 +67298,7 @@ body {
         opacity: 1;  } }
 
 
+.header-bottom-row.ng-scope.slot-opened {
+    background: transparent;
+    box-shadow: none;
+}

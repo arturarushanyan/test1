@@ -50,6 +50,11 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
         providerName: null
     };
 
+    var SPECIALS_CATEGORY = {
+        id: -2,
+        name: 'specials',
+        title: 'Specials'
+    };
     var FAVOURITE_CATEGORY = {
         id: -1,
         name: 'favouriteGames',
@@ -61,7 +66,7 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
         title: 'All Games'
     };
     var HOME_CATEGORY = {
-        id: '-2',
+        id: '-3',
         name: 'home',
         title: 'Home'
     };
@@ -90,6 +95,9 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
                 }
                 if (CConfig.main.favourtieGamesCategoryEnabled) {
                     $scope.categories.unshift(FAVOURITE_CATEGORY);
+                }
+                if (CConfig.main.specialsCategoryEnabled) {
+                    $scope.categories.unshift(SPECIALS_CATEGORY);
                 }
                 if (!CConfig.main.showAllGamesOnHomepage && (!CConfig.main.newCasinoDesign || !CConfig.main.newCasinoDesign.enabled)) {
                     addHomeCategory();
@@ -728,3 +736,79 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
     init();
 }]);
 
+/**
+ * @ngdoc method
+ * @name toggleSliderTab
+ * @methodOf vbet5.controller:mainHeaderCtrl
+ * @description toggles slider and switches to specified "tab"
+ *
+ * @param {string} name block name to switch to
+ * @param {boolean} dontClose optional. if true, tab will not be closed if it's open
+ * @returns {boolean} block state if after toggling (true: visible, false: hidden)
+ */
+$scope.toggleSliderTab = function toggleSliderTab(name, dontClose) {
+    if ($scope.env.sliderContent === name && $scope.env.showSlider && !dontClose) {
+        $scope.env.showSlider = false;
+        $scope.env.sliderContent = '';
+        return false;
+    } else {
+        $scope.env.showSlider = true;
+        $scope.env.sliderContent = name;
+        analytics.gaSend('send', 'event', 'slider', 'open slider',  {'page': $location.path(), 'eventLabel': name});
+        return true;
+    }
+};
+
+$rootScope.$on('toggleSliderTab', function (event, data) { $scope.toggleSliderTab(data); });
+
+/**
+ * @ngdoc method
+ * @name logOutUser
+ * @methodOf vbet5.controller:mainHeaderCtrl
+ * @description Logs user out
+ * @param {Boolean} dontClearAllData don't clear local storage data
+ */
+function logOutUser(dontClearAllData) {
+    dontClearAllData = dontClearAllData || false;
+    var logoutDone = false;
+    var doLogoutStuff = function () {
+        if (!logoutDone && $scope.env.authorized !== false) {
+            logoutDone = true;
+            $rootScope.profile = null;
+            $scope.env.authorized = false;
+            $rootScope.currency_name = null;
+            $rootScope.fbLoggedIn = false;
+            $rootScope.cannotLoginWIthFbId = false;
+            if ($rootScope.odnoModel) {
+                $rootScope.odnoModel.currentAction = null;
+                $rootScope.odnoModel.cannotLoginWIthOdno = null;
+                $rootScope.odnoModel.loggedIn = false;
+            }
+            $rootScope.loginRestored = $q.reject();
+            if (!dontClearAllData) {
+                Storage.remove('betslip');
+                Storage.remove('myGames');
+                removeAllFavorites();
+                Storage.remove('prematchMultiViewGames');
+                Storage.remove('prematchMultiViewCompetitions');
+                Storage.remove('timezone');
+            }
+            $rootScope.$broadcast('login.loggedOut');
+            DemoTour.endCurrentTour();
+            TimeoutWrapper(function() {
+                DemoTour.startTour(['demo', 'header']);
+            }, 2000);
+            $scope.closeSlider();
+            liveChat.initSFChat();
+            Zergling.unsubscribe($rootScope.profileSubId);
+            if (Config.main.liveModule.enabled) {
+                intergratedHtmlHelperAvailable.then(function () {
+                    $window.htmlHelper.logout();
+                });
+            }
+        }
+    };
+    Zergling.logout()['finally'](doLogoutStuff);
+    TimeoutWrapper(doLogoutStuff, Config.main.logoutTimeout); //in case logout fails for some reason (no network, etc.)
+}
+$scope.$on('doLogOut', logOutUser);

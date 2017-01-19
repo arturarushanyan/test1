@@ -47477,18 +47477,26 @@ top-game-block {
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search {
-    width: 227px;
+    width: 340px;
+    max-width: 340px;
     left: 46px;
 }
 
-.second-row-filter-v3.search-visible .search-box-v3 .block-search > input[type="text"] {
+.second-row-filter-v3.search-visible .search-box-v3 .block-search input[type="text"] {
     display: block;
     border-radius: 4px 4px 0 0;
     background-color: #fffef6;
+    box-shadow: 0 0 0 1px #7c8292 inset;
 }
 
-.second-row-filter-v3.search-visible .search-box-v3 .block-search > input[type="text"].border-radius {
+.second-row-filter-v3.search-visible .search-box-v3 .block-search input[type="text"].border-radius {
     border-radius: 4px !important;
+    box-shadow: 0 0 0 1px #abaaaa inset;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .menu-popup-arrow.border-color {
+    border-bottom: 1px solid #abaaaa;
+    border-left: 1px solid #abaaaa;
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .menu-popup-arrow {
@@ -47499,8 +47507,8 @@ top-game-block {
     background-color: #fffef6;
     transform: rotateZ(45deg);
     border: none;
-    border-bottom: 1px solid #abaaaa;
-    border-left: 1px solid #abaaaa;
+    border-bottom: 1px solid #7c8292;
+    border-left: 1px solid #7c8292;
     z-index: 100;
 }
 
@@ -47509,13 +47517,16 @@ top-game-block {
     left: 0;
     top: 30px;
     margin-left: 0;
-    width: 227px;
+    width: 100%;
+    border-radius: 0 0 4px 6px;
+    overflow: hidden;
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner {
     padding-top: 0;
-    border-radius: 0;
     border-top: 0;
+    border-radius: 0 0 4px 6px;
+    overflow: hidden;
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner h3 ,
@@ -47525,6 +47536,7 @@ top-game-block {
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner #result-search {
     margin-top: 0;
+    width: 100%
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner #result-search dl dd button {
@@ -47631,23 +47643,30 @@ top-game-block {
     border-radius: inherit;
 }
 
-.search-box-v3 .arrow-sport:before {
-    box-sizing: border-box;
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 4px 5px 0;
-    border-color: transparent #8a9090 transparent transparent;
-}
-
 .search-box-v3 .search-results-inner .arrow-sport {
     box-sizing: border-box;
     right: auto;
     left: -5px;
     top: 10px;
 }
+
+.search-box-v3 .search-results-inner .arrow-sport:before {
+    display: none;
+}
+
+.search-box-v3 .arrow-sport {
+    left: -5px;
+    top: 14px;
+    width: 8px;
+    height: 7px;
+    background-color: #efede4;
+    transform: rotateZ(45deg);
+    border: none;
+    border-bottom: 1px solid #7c8292;
+    border-left: 1px solid #7c8292;
+    z-index: 100;
+}
+
 
 .search-box-v3 .search-results-inner h3 {
     box-sizing: border-box;

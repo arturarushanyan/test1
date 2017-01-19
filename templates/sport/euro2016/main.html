@@ -1,4 +1,4 @@
-<div class="classic-view-wrapper-v3" ng-controller="classicViewMainCtrl"
+<div class="classic-view-wrapper-v3 betslip-expanded" ng-controller="classicViewMainCtrl"
      ng-class="{'betslip-expanded': $root.videoResizeButton && env.live }">
     <div class="classic-view-row-v3">
         <div class="classic-view-column-v3 {{leftMenuClosed ? 'left-menu-closed-v3' : ''}}">
@@ -709,7 +709,7 @@
                                                 ng-class="{'active': hideVideoAndAnimationBox}"></li>
                                             <li class="resize-icon-b-v3"
                                                 ng-click="$root.videoResizeButton = !$root.videoResizeButton"
-                                                ng-class="{'active': $root.videoResizeButton}"></li>
+                                                ng-class="{'active': !$root.videoResizeButton}"></li>
                                             <li class="pin-icon-video-v3" ng-class="{'disabled': !env.authorized}"
                                                 ng-show="openGame.activeFieldType == 'video' && openGame.tv_type !== conf.defaultStreaming.tvType && !pinnedGames[openGame.id]"
                                                 ng-click="openGame.activeFieldType='field'; detachVideo('dragable');"></li>

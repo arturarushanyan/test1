@@ -48941,10 +48941,15 @@ top-game-block {
 .games-view-wrapper-v3.open.has-statistics .live-events-view-v3 .ngscroll-scrollbar-container {
     top: 8px !important;
 }
+
+.game-pinned .all-game-info-container-v3 {
+    width: 100%;
+}
+
 .all-game-info-container-v3 {
     box-sizing: border-box;
     float: left;
-    width: calc(100% - 8px);
+    width: calc(100% - 4px);
     height: 100%;
 }
 
@@ -59598,16 +59603,24 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         margin: 0 1% 2px;
     }
 
+    .game-center-container-multi-v3 > .no-scrollbar .multiview-wrapper-v3 .multiview-contain {
+        width: calc(50% - 4px)
+    }
+
     .game-center-container-multi-v3 .dndPlaceholder, .game-center-container-multi-v3 .multiview-contain {
         box-sizing: border-box;
         float: left;
-        width: calc(50% - 8px);
+        width: calc(50% - 6px);
         margin: 0 8px 10px 0;
         height: 432px;
         background: #fffef6;
         border-radius: 4px;
         list-style: none;
         position: relative;
+    }
+ 
+    .game-center-container-multi-v3 .dndPlaceholder, .game-center-container-multi-v3 .multiview-contain:nth-child(even) {
+        margin-right: 0;
     }
 
     .multiview-contain.has-statistics .multi-view-game-info-v3 {
@@ -59619,14 +59632,17 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         margin-top: 6px !important;
     }
 
+    .game-center-container-multi-v3 .ngscroll-scrollbar-container {
+        right: -4px !important;
+    }
+
     .multi-view-game-info-v3 .ngscroll-resizable .ngscroll-scrollbar-container{
         right: -2px !important;
     }
 
     .live-calendar-16-scroll-fix-j .ngscroll-scrollbar-container,
     .centr-market-contain .scroll-contain .ngscroll-scrollbar-container,
-    .right-betslip-contain .scroll-contain .ngscroll-scrollbar-container,
-    .game-center-container-multi-v3 .ngscroll-scrollbar-container{
+    .right-betslip-contain .scroll-contain .ngscroll-scrollbar-container{
         right: 0 !important;
     }
 

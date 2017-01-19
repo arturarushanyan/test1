@@ -37667,16 +37667,22 @@ input[type="password"]:focus ~ .capslock-is-on-j {
     display: block;
 }
 
+.lc16-sport-selector-j ul li:first-child i {
+    transform: scale(1);
+    left: 4px;
+    top: 3px;
+}
+
 .lc16-sport-selector-j ul li i {
     display: block;
-    height: 16px;
-    width: 16px;
+    height: 21px;
+    width: 20px;
     position: absolute;
     font: normal 16px/16px sport-icon;
     text-transform: none;
-    top: 4px;
-    left: 5px;
-    border-radius: 100%;
+    top: 1px;
+    left: 2px;
+    transform: scale(.8);
 }
 
 .lc16-sport-selector-j ul li i.all-sports-j:before {
@@ -46979,7 +46985,6 @@ top-game-block {
     width: 46px;
     z-index: 100;
     background-color: #e6e5dc;
-    overflow: hidden;
     padding-bottom: 5px;
     padding-top: 5px;
     margin-top: -5px;
@@ -47002,11 +47007,6 @@ top-game-block {
     padding-bottom: 180px;
 }
 
-.left-column-v3-header .ngscroll-scrollbar-container:hover,
-.left-column-v3-header .ngscroll-scrollbar-container:focus,
-.left-column-v3-header .ngscroll-scrollbar-container:active {
-    right : -4px !important;
-}
 
 .view-switcher-v3 {
     box-sizing: border-box;
@@ -47474,12 +47474,87 @@ top-game-block {
     background: #ffffff;
 }
 
+.left-menu-closed-v3 .filter-view-v3 .second-row-filter-v3 {
+    overflow: hidden;
+}
+
+.left-menu-closed-v3 .filter-view-v3 .second-row-filter-v3.search-visible {
+    overflow: visible;
+}
+
 .second-row-filter-v3 {
     box-sizing: border-box;
     float: left;
     width: 100%;
     position: relative;
     margin: 6px 0 0;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search {
+    width: 340px;
+    max-width: 340px;
+    left: 46px;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search input[type="text"] {
+    display: block;
+    border-radius: 4px 4px 0 0;
+    background-color: #fffef6;
+    box-shadow: 0 0 0 1px #7c8292 inset;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search input[type="text"].border-radius {
+    border-radius: 4px !important;
+    box-shadow: 0 0 0 1px #abaaaa inset;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .menu-popup-arrow.border-color {
+    border-bottom: 1px solid #abaaaa;
+    border-left: 1px solid #abaaaa;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .menu-popup-arrow {
+    left: -4px;
+    top: 11px;
+    width: 7px;
+    height: 8px;
+    background-color: #fffef6;
+    transform: rotateZ(45deg);
+    border: none;
+    border-bottom: 1px solid #7c8292;
+    border-left: 1px solid #7c8292;
+    z-index: 100;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    margin-left: 0;
+    width: 100%;
+    border-radius: 0 0 4px 6px;
+    overflow: hidden;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner {
+    padding-top: 0;
+    border-top: 0;
+    border-radius: 0 0 4px 6px;
+    overflow: hidden;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner h3 ,
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner .arrow-sport {
+    display: none;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner #result-search {
+    margin-top: 0;
+    width: 100%
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner #result-search dl dd button {
+    padding-left: 10px;
 }
 
 .search-box-v3 {
@@ -47519,6 +47594,9 @@ top-game-block {
     background: none;
     border-radius: inherit;
     z-index: 77;
+}
+.left-menu-closed-v3 .search-box-v3 .block-search > input[type="text"] {
+    display: none;
 }
 
 .search-box-v3 .block-search:before {
@@ -47579,23 +47657,30 @@ top-game-block {
     border-radius: inherit;
 }
 
-.search-box-v3 .arrow-sport:before {
-    box-sizing: border-box;
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 4px 5px 0;
-    border-color: transparent #8a9090 transparent transparent;
-}
-
 .search-box-v3 .search-results-inner .arrow-sport {
     box-sizing: border-box;
     right: auto;
     left: -5px;
     top: 10px;
 }
+
+.search-box-v3 .search-results-inner .arrow-sport:before {
+    display: none;
+}
+
+.search-box-v3 .arrow-sport {
+    left: -5px;
+    top: 14px;
+    width: 8px;
+    height: 7px;
+    background-color: #efede4;
+    transform: rotateZ(45deg);
+    border: none;
+    border-bottom: 1px solid #7c8292;
+    border-left: 1px solid #7c8292;
+    z-index: 100;
+}
+
 
 .search-box-v3 .search-results-inner h3 {
     box-sizing: border-box;
@@ -48692,10 +48777,6 @@ top-game-block {
     right: 9px;
 }
 
-.left-menu-closed-v3 .search-box-v3 .block-search > input[type="text"] {
-    display: none;
-}
-
 .left-menu-closed-v3 .closed-left-nav-v3 {
     right: 18px;
     top: 50px;
@@ -48826,8 +48907,6 @@ top-game-block {
     margin-top: 0 !important;
 }
 
-.game-pinned .all-game-info-container-v3 > div {padding-right: 0}
-
 .game-pinned .all-game-info-container-v3 > div > .ngscroll-resizable > .ngscroll-scrollbar-container,
 .game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:last-of-type {
     display: none !important;
@@ -48839,11 +48918,7 @@ top-game-block {
     right: -8px !Important;
     top: 0 !important;
 }
-.game-pinned .prematch-view-v3 .prematch-games-list + .live-game-view-contain-v3 .all-game-info-container-v3 .live-events-view-v3 .ngscroll-scrollbar-container:hover,
-.game-pinned .prematch-view-v3 .prematch-games-list + .live-game-view-contain-v3 .all-game-info-container-v3 .live-events-view-v3 .ngscroll-scrollbar-container:focus,
-.game-pinned .prematch-view-v3 .prematch-games-list + .live-game-view-contain-v3 .all-game-info-container-v3 .live-events-view-v3 .ngscroll-scrollbar-container:active {
-    right: -8px !Important;
-}
+
 .prematch-view-v3 .prematch-games-list + .live-game-view-contain-v3 .all-game-info-container-v3 .statistic-view-v3 .live-game-container{
     margin-bottom: 8px;
 }
@@ -48856,17 +48931,7 @@ top-game-block {
 .game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:first-of-type.has-scrollbar {
     padding-right: 8px;
 }
-.game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:first-of-type.has-scrollbar .ngscroll-scrollbar-container:hover,
-.game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:first-of-type.has-scrollbar .ngscroll-scrollbar-container:active,
-.game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:first-of-type.has-scrollbar .ngscroll-scrollbar-container:focus  {
-    right: -4px !important;
-}
 
-.right-b-view-wrapper-v3 > div > .ngscroll-resizable > .ngscroll-scrollbar-container:hover,
-.right-b-view-wrapper-v3 > div > .ngscroll-resizable > .ngscroll-scrollbar-container:active,
-.right-b-view-wrapper-v3 > div > .ngscroll-resizable > .ngscroll-scrollbar-container:focus {
-    right: -4px !important;
-}
 
 .game-pinned .all-game-info-container-v3 .live-events-view-v3 {
     height: calc(100% - 225px)
@@ -48907,10 +48972,20 @@ top-game-block {
 .games-view-wrapper-v3.open.has-statistics .live-events-view-v3 .ngscroll-scrollbar-container {
     top: 8px !important;
 }
+
+.center-column-v3.game-pinned .all-game-info-container-v3 > .has-scrollbar{
+    padding-right: 0;
+}
+
+.all-game-info-container-v3 > .has-scrollbar {
+    padding-right: 8px;
+}
+
 .all-game-info-container-v3 {
     box-sizing: border-box;
     float: left;
-    width: calc(100% - 8px);
+    width: calc(100% - 4px);   
+    width: 100%;
     height: 100%;
 }
 
@@ -59173,19 +59248,12 @@ div.slider-image-wrapper-b {
 .ngscroll-scrollbar-container:focus,
 .ngscroll-scrollbar-container:active {
     background: rgb(222, 221, 215) !important;
-    width: 6px !important;
-    right: -9px !important;
-}
-.ngscroll-scrollbar-container:hover .ngscroll-scrollbar,
-.ngscroll-scrollbar-container:focus .ngscroll-scrollbar,
-.ngscroll-scrollbar-container:active .ngscroll-scrollbar{
-    width: 6px !important;
 }
 
 .ngscroll-scrollbar-container:hover .ngscroll-scrollbar:hover,
 .ngscroll-scrollbar-container:focus .ngscroll-scrollbar:focus,
 .ngscroll-scrollbar-container:active .ngscroll-scrollbar:active{
-    background: rgb(113, 112, 110) !important;
+    background: rgb(156, 155, 152) !important;
 }
 .menu-popup-holder > .sports-item-v3 {
     margin-bottom: 0;
@@ -59571,16 +59639,24 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         margin: 0 1% 2px;
     }
 
+    .game-center-container-multi-v3 > .no-scrollbar .multiview-wrapper-v3 .multiview-contain {
+        width: calc(50% - 4px)
+    }
+
     .game-center-container-multi-v3 .dndPlaceholder, .game-center-container-multi-v3 .multiview-contain {
         box-sizing: border-box;
         float: left;
-        width: calc(50% - 8px);
+        width: calc(50% - 6px);
         margin: 0 8px 10px 0;
         height: 432px;
         background: #fffef6;
         border-radius: 4px;
         list-style: none;
         position: relative;
+    }
+ 
+    .game-center-container-multi-v3 .dndPlaceholder, .game-center-container-multi-v3 .multiview-contain:nth-child(even) {
+        margin-right: 0;
     }
 
     .multiview-contain.has-statistics .multi-view-game-info-v3 {
@@ -59592,14 +59668,17 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         margin-top: 6px !important;
     }
 
+    .game-center-container-multi-v3 .ngscroll-scrollbar-container {
+        right: -4px !important;
+    }
+
     .multi-view-game-info-v3 .ngscroll-resizable .ngscroll-scrollbar-container{
         right: -2px !important;
     }
 
     .live-calendar-16-scroll-fix-j .ngscroll-scrollbar-container,
     .centr-market-contain .scroll-contain .ngscroll-scrollbar-container,
-    .right-betslip-contain .scroll-contain .ngscroll-scrollbar-container,
-    .game-center-container-multi-v3 .ngscroll-scrollbar-container{
+    .right-betslip-contain .scroll-contain .ngscroll-scrollbar-container{
         right: 0 !important;
     }
 

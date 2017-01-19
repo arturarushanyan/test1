@@ -222,6 +222,17 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
         handleDeepLinking();
     };
 
+
+    $scope.searchVisible = false;  
+    $scope.searchButton = function() {
+        if($scope.leftMenuClosed){  
+            $scope.searchVisible = !$scope.searchVisible;  
+        }
+        else{
+            return;
+        }
+    };
+
     $scope.$on('toggleLive', function (event) {
         if (event.targetScope.$id !== $scope.$id) { // event is coming from another controller
             $scope.toggleLive();
@@ -471,6 +482,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
      * @param {boolean} val - set defined value
      */
     $scope.toggleLeftMenu = (function toggleLeftMenu(val) {
+        $scope.searchVisible = false; 
         $scope.leftMenuClosed = val !== undefined ? !val : !$scope.leftMenuClosed;
 
         Storage.set('leftMenuToggleState', $scope.leftMenuClosed);

@@ -46971,7 +46971,6 @@ top-game-block {
     width: 46px;
     z-index: 100;
     background-color: #e6e5dc;
-    overflow: hidden;
     padding-bottom: 5px;
     padding-top: 5px;
     margin-top: -5px;
@@ -47461,12 +47460,75 @@ top-game-block {
     background: #ffffff;
 }
 
+.left-menu-closed-v3 .filter-view-v3 .second-row-filter-v3 {
+    overflow: hidden;
+}
+
+.left-menu-closed-v3 .filter-view-v3 .second-row-filter-v3.search-visible {
+    overflow: visible;
+}
+
 .second-row-filter-v3 {
     box-sizing: border-box;
     float: left;
     width: 100%;
     position: relative;
     margin: 6px 0 0;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search {
+    width: 227px;
+    left: 46px;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search > input[type="text"] {
+    display: block;
+    border-radius: 4px 4px 0 0;
+    background-color: #fffef6;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search > input[type="text"].border-radius {
+    border-radius: 4px !important;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .menu-popup-arrow {
+    left: -4px;
+    top: 11px;
+    width: 7px;
+    height: 8px;
+    background-color: #fffef6;
+    transform: rotateZ(45deg);
+    border: none;
+    border-bottom: 1px solid #abaaaa;
+    border-left: 1px solid #abaaaa;
+    z-index: 100;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    margin-left: 0;
+    width: 227px;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner {
+    padding-top: 0;
+    border-radius: 0;
+    border-top: 0;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner h3 ,
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner .arrow-sport {
+    display: none;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner #result-search {
+    margin-top: 0;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner #result-search dl dd button {
+    padding-left: 10px;
 }
 
 .search-box-v3 {
@@ -47506,6 +47568,9 @@ top-game-block {
     background: none;
     border-radius: inherit;
     z-index: 77;
+}
+.left-menu-closed-v3 .search-box-v3 .block-search > input[type="text"] {
+    display: none;
 }
 
 .search-box-v3 .block-search:before {
@@ -48677,10 +48742,6 @@ top-game-block {
 .left-menu-closed-v3 .search-box-v3:before {
     font: 16px/30px icomoon;
     right: 9px;
-}
-
-.left-menu-closed-v3 .search-box-v3 .block-search > input[type="text"] {
-    display: none;
 }
 
 .left-menu-closed-v3 .closed-left-nav-v3 {

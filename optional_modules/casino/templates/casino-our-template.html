@@ -60,15 +60,21 @@
         </div>
         <!--Casino nav view END-->
 
+        <!--All-->
+
+        <ng-include src="getTemplate('optional_modules/casino/templates/directive/casino-games-list.html')"></ng-include>
+
+        <!--All end
+
         <!--Game list view-->
-        <casino-games-list class="casino-games-list-view-jf" is-new-design-enabled="cConf.newCasinoDesignEnabled"
+        <casino-games-list class="games-list-jf" is-new-design-enabled="cConf.newCasinoDesignEnabled"
                            show-conditions="true"
                            games-list="games"
                            game-show-conditions="true">
         </casino-games-list>
         <vbet-loader ng-show="loadingProcess"></vbet-loader>
         <div ng-show="false" class="more-casino-games-load-b"><p load-more ng-click="loadMoreGames(); setTargetElementFixed('casinoCategories')"><span trans>Load more</span></p></div>
-        <div ng-show="selectedCategoryGames.length === 0 && !loadingProcess" class="new-casino-no-games-text"></div>
+
 
 
         <!--Game list view END-->

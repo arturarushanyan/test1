@@ -16,7 +16,7 @@
         </li>
         <li class="right-arrow" ng-class="{'disabled': openGame.setsOffset === framesCount(openGame.stats).length - visibleSetsNumber}" ng-click="slideSets('right', openGame, visibleSetsNumber, framesCount(openGame.stats).length)" ng-if="visibleSetsNumber < framesCount(openGame.stats).length"></li>
         <li class="sets-score">
-            <span>{{ "set"|convertSetName:openGame.sport.alias|translate }}</span>
+            <span>{{"set"|convertSetName:openGame.sport.alias|translate}}</span>
         </li>
     </ul>
     <ul>

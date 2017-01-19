@@ -48874,8 +48874,6 @@ top-game-block {
     margin-top: 0 !important;
 }
 
-.game-pinned .all-game-info-container-v3 > div {padding-right: 0}
-
 .game-pinned .all-game-info-container-v3 > div > .ngscroll-resizable > .ngscroll-scrollbar-container,
 .game-pinned .all-game-info-container-v3 .live-events-view-v3 > div:last-of-type {
     display: none !important;
@@ -48942,14 +48940,19 @@ top-game-block {
     top: 8px !important;
 }
 
-.game-pinned .all-game-info-container-v3 {
-    width: 100%;
+.center-column-v3.game-pinned .all-game-info-container-v3 > .has-scrollbar{
+    padding-right: 0;
+}
+
+.all-game-info-container-v3 > .has-scrollbar {
+    padding-right: 8px;
 }
 
 .all-game-info-container-v3 {
     box-sizing: border-box;
     float: left;
-    width: calc(100% - 4px);
+    width: calc(100% - 4px);   
+    width: 100%;
     height: 100%;
 }
 

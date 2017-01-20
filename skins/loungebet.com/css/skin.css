@@ -64267,6 +64267,11 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         height: 54px;
     }
 
+    .user-nav-wrapper .settings-include-contain:nth-child(2) .separator-contain-nav.user-nav-view-b.new-size .nav-open-view-contain{
+        display: block;
+        top: 55px;
+    }
+
     .user-nav-wrapper .settings-include-contain:last-child .new-size {
         padding: 0 16px 0 17px;
     }

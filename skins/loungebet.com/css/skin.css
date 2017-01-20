@@ -59195,7 +59195,7 @@ div.slider-image-wrapper-b {
 .menu-popup-arrow {
     position: absolute;
     top: 9px;
-    left: 2px;
+    left: 0.17em;
     border-width: 7px 6px 7px 0;
     border-style: solid;
     border-color: transparent;

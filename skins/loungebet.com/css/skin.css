@@ -47480,10 +47480,17 @@ top-game-block {
     margin: 6px 0 0;
 }
 
+.second-row-filter-v3.search-visible .search-box-v3 > form {
+    padding-left: 46px;
+}
+
 .second-row-filter-v3.search-visible .search-box-v3 .block-search {
     width: 340px;
     max-width: 340px;
-    left: 46px;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search form {
+    padding-left: 46px;
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search input[type="text"] {

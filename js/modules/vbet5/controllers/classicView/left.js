@@ -224,14 +224,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
 
 
     $scope.searchVisible = false;  
-    $scope.searchButton = function() {
-        if($scope.leftMenuClosed){  
-            $scope.searchVisible = !$scope.searchVisible;  
-        }
-        else{
-            return;
-        }
-    };
+   
 
     $scope.$on('toggleLive', function (event) {
         if (event.targetScope.$id !== $scope.$id) { // event is coming from another controller

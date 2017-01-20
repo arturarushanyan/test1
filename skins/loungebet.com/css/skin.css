@@ -45589,6 +45589,10 @@ top-game-block {
     font-weight: bold;
     position: relative;
     padding: 0;
+}   
+
+.separator-contain-nav:first-child .settings-icon-contain.leng-b {
+    margin: 8px 2px;
 }
 
 .settings-icon-contain.my-bets-b {

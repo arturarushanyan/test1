@@ -47490,12 +47490,15 @@ top-game-block {
     display: block;
     border-radius: 4px 4px 0 0;
     background-color: #fffef6;
-    box-shadow: 0 0 0 1px #7c8292 inset;
+    box-shadow: 0 0 0 1px #7c8292 inset; 
+    height: 36px;
+    top: -3px;
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search input[type="text"].border-radius {
     border-radius: 4px !important;
-    box-shadow: 0 0 0 1px #abaaaa inset;
+    border:1px solid #abaaaa;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 4px 6px rgba(0, 0, 0, 0.32);
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .menu-popup-arrow.border-color {
@@ -47505,25 +47508,26 @@ top-game-block {
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .menu-popup-arrow {
     left: -4px;
-    top: 11px;
+    top: 35.5%;
     width: 7px;
     height: 8px;
     background-color: #fffef6;
-    transform: rotateZ(45deg);
+    transform: rotateZ(41deg);
     border: none;
     border-bottom: 1px solid #7c8292;
     border-left: 1px solid #7c8292;
-    z-index: 100;
+    z-index: 100; 
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container {
     position: absolute;
     left: 0;
-    top: 30px;
+    top: 33px;
     margin-left: 0;
     width: 100%;
     border-radius: 0 0 4px 6px;
     overflow: hidden;
+    box-shadow: 0 45px 150px -40px #000000;
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner {
@@ -47651,7 +47655,7 @@ top-game-block {
     box-sizing: border-box;
     right: auto;
     left: -5px;
-    top: 10px;
+    top: 13px;
 }
 
 .search-box-v3 .search-results-inner .arrow-sport:before {

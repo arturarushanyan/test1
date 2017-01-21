@@ -37895,13 +37895,13 @@ input[type="password"]:focus ~ .capslock-is-on-j {
 
 .live-calendar-16-content-j li.sport-column-j i {
     display: block;
-    width: 16px;
-    height: 16px;
-    border-radius: 100%;
+    left: 8px;
+    top: 4px;
+    height: 21px;
+    width: 20px;
     position: absolute;
-    left: 10px;
-    top: 7px;
-    font: 16px/16px sport-icon;
+    font: normal 16px/16px sport-icon;
+    transform: scale(.8);
 }
 
 .live-calendar-16-content-j li.country-column-j {

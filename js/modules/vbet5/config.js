@@ -140,7 +140,7 @@ angular.module('vbet5').constant('Config', {
         expandFavoriteCompetitions: true,
         expandFavoriteCompetitionsFirst: false,
         expandMoreSportsByDefault: false,
-        expandFirstSportByDefault: false,
+        expandFirstSportByDefault: true,
         showPrematchLimit: 10, // 0 if disabled
         selectFavoritesByDefault: false, // will select favorites instead of 1st sport if there are favorite games
         selectRegionsByDefault: false, // will filter by region

@@ -131,7 +131,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
             return false;
         }
 
-        if (!Config.env.live && $scope.leftMenuPrematchSports && $scope.leftMenuPrematchSports.length) {
+        /*if (!Config.env.live && $scope.leftMenuPrematchSports && $scope.leftMenuPrematchSports.length) {
             if (!$scope.selectedSport || Utils.isObjectEmpty($scope.leftMenuState.prematch.sport) || !$scope.leftMenuState.prematch.sport[$scope.selectedSport.id] || !$scope.leftMenuState.prematch.sport[$scope.selectedSport.id].expanded) {
                 $scope.firstSport = $scope.firstSport || $scope.leftMenuPrematchSports[0];
                 if (!expandedPrematchSports[$scope.firstSport.id] && Config.main.expandFirstSportByDefault && $scope.firstSport.id !== additionalLeftMenuItems.VIRTUAL_SPORT_VIRTUALS.id) {
@@ -147,7 +147,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
                 $scope.expandLeftMenuPrematchRegion($scope.firstSport.regions[0], $scope.firstSport, true);
             }
 
-        } else if (Config.env.live && !$scope.selectedSport && $scope.leftMenuLiveSports && $scope.leftMenuLiveSports.length) {
+        } else*/ if (Config.env.live && !$scope.selectedSport && $scope.leftMenuLiveSports && $scope.leftMenuLiveSports.length) {
             $scope.selectSport($scope.leftMenuLiveSports[0]);
             $scope.leftMenuState.live.region[$scope.leftMenuLiveSports[0].regions[0].id] = {expanded : true};
             $scope.selectRegion($scope.leftMenuLiveSports[0].regions[0]);
@@ -212,7 +212,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
                 $scope.favoriteCompetitionsExpandedFlag = true;
             }
 
-            if (Config.main.disableSavingPreMatchMenuState) {
+            if (Config.main.expandFirstSportByDefault) {
                 $location.search('region', undefined);
                 $location.search('competition', undefined);
                 $location.search('sport', undefined);

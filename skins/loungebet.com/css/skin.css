@@ -17644,12 +17644,20 @@ input#uploadFilePassport {
     z-index: 99;
     -webkit-animation: timer-blink 1s steps(2, start) infinite;
     animation: timer-blink 1s steps(2, start) infinite;
+    visibility: visible;
 }
 
+@-webkit-keyframes timer-blink {
+    100% {visibility: hidden;}
+}
+@-moz-keyframes timer-blink {
+    100% {visibility: hidden;}
+}
+@-o-keyframes timer-blink {
+    100% {visibility: hidden;}
+}
 @keyframes timer-blink {
-    100% {
-        opacity: 0;
-    }
+    100% {visibility: hidden;}
 }
 
 .body-wrapper.sport.classic .live-game-container .game-info {

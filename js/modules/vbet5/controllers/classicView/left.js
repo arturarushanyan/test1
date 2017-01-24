@@ -154,6 +154,9 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
             if (!deepLinkedGameId) {
                 $scope.gameClicked($scope.leftMenuLiveSports[0].regions[0].competitions[0].games[0], $scope.leftMenuLiveSports[0].regions[0].competitions[0]);
             }
+            if(!Config.env.live && !$scope.selectedSport && $scope.leftMenuPrematchSports && $scope.leftMenuPrematchSports.length) {
+                $scope.gameClicked($scope.leftMenuPrematchSports[0].regions[0].competitions[0].games[0], $scope.leftMenuPrematchSports[0].regions[0].competitions[0]);
+            }
         }
     }
 

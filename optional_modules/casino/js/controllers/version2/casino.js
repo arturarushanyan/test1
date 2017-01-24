@@ -325,7 +325,6 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
                                     gameInfo.loadingUserData = true;
                                     $rootScope.casinoGameOpened = 1;
                                     $scope.gamesInfo.push(gameInfo);
-
                                     var loginProccesWatcher = $scope.$watch('loginInProgress', function () {
                                         if (!$rootScope.loginInProgress) {
                                             loginProccesWatcher();

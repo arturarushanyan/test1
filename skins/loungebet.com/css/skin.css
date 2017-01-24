@@ -48521,6 +48521,7 @@ top-game-block {
     right: 0;
     top: 0;
     color: #ff8067;
+    font-size: 13px;
 }
 
 .single-game-item-v3.active .team-name-1-v3 > span {
@@ -53485,7 +53486,7 @@ top-game-block {
     }
 
     .betslip-expanded .left-menu-closed-v3 > .center-column-v3 {
-        width: calc(100% - 454px);
+        width: calc(100% - 575px);
     }
 
     .betslip-expanded .right-column-v3 .buner-b {
@@ -64113,7 +64114,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
     @media screen and (min-width: 1280px) {
         .betslip-expanded .center-column-v3 {
-            width: calc(100% - 650px);
+            width: calc(100% - 750px);
         }
     }
 
@@ -64134,11 +64135,11 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     .betslip-expanded .right-column-v3 {
-        width: 400px;
+        width: 575px;
     }
 
     .betslip-expanded .video-animation-vox-v3, .betslip-expanded .video-animation-vox-v3 .video-player-container, .betslip-expanded .animation-control .game-control {
-        height: 221px;
+        height: 321px;
     }
 
     .terms-faq {
@@ -67534,4 +67535,58 @@ body {
 .header-bottom-row.ng-scope.slot-opened {
     background: transparent;
     box-shadow: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .betslip-expanded .right-column-v3 {
+        width: 500px;
+    }
+    .betslip-expanded .video-animation-vox-v3, .betslip-expanded .video-animation-vox-v3 .video-player-container, .betslip-expanded .animation-control .game-control {
+        height: 279px;
+    }
+    .betslip-expanded .left-menu-closed-v3 > .center-column-v3 {
+        width: calc(100% - 555px);
+    }
+}
+@media screen and (max-width: 1366px) {
+    .betslip-expanded .right-column-v3 {
+        width: 400px;
+    }
+    .betslip-expanded .video-animation-vox-v3, .betslip-expanded .video-animation-vox-v3 .video-player-container, .betslip-expanded .animation-control .game-control {
+        height: 223px;
+    }
+    .betslip-expanded .left-menu-closed-v3 > .center-column-v3 {
+        width: calc(100% - 454px);
+    }
+}
+@media screen and (max-width: 1440px) {
+
+    .left-menu-closed-v3 > .betslip-expanded  > .center-column-v3 {
+        width: calc(100% - 753px);
+    }
+}
+@media screen and (max-width: 1366px) {
+    .betslip-expanded .center-column-v3 {
+        width: calc(100% - 627px);
+    }
+}
+@media screen and (max-width: 1280px) {
+    .betslip-expanded .center-column-v3 {
+        width: calc(100% - 454px);
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .betslip-expanded .center-column-v3 {
+        width: calc(100% - 455px);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .betslip-expanded .center-column-v3 {
+        width: calc(100% - 825px);
+    }
+    .betslip-expanded .left-menu-closed-v3 > .center-column-v3 {
+        width: calc(100% - 629px);
+    }
 }

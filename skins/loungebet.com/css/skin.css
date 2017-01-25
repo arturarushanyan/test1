@@ -59182,7 +59182,8 @@ div.slider-image-wrapper-b {
     width: 255px;
     padding: 0 24px 0 8px;
     padding-bottom: 5px;
-    /*animation: 250ms show-up;*/
+    -webkit-animation: 400ms show-up 150ms backwards;
+    animation: 400ms show-up 150ms backwards;
 }
 
 @keyframes show-up {
@@ -59213,6 +59214,8 @@ div.slider-image-wrapper-b {
 .menu-popup-holder {
     background: #3e4f54;
     border-radius: 3px;
+    width: 100%;
+    display: inline-block;
 }
 .menu-popup-holder .region-items-box {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.5);
@@ -59236,8 +59239,13 @@ div.slider-image-wrapper-b {
     overflow: hidden;
     background-color: #e6e5dc;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+    min-height: 305px;
 }
 
+.menu-popup .region-items-box.active .ngscroll-resizable,
+.menu-popup .region-items-box.no-scrollbar .ngscroll-resizable {
+    min-height: 1px;
+}
 .menu-popup .region-items-box .ngscroll-container {
     width: calc(100% - 6px) !important;
     padding-top: 1px;

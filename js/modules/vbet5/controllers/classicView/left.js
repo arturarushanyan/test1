@@ -4,7 +4,7 @@
  * @description classic view left menu controller
  *
  */
-angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootScope', '$scope',  '$location', '$filter', '$route', 'DomHelper', 'Utils', 'Zergling', 'ConnectionService', 'GameInfo', 'Storage', 'Config', 'Translator', 'analytics', 'TimeoutWrapper', function ($rootScope, $scope, $location, $filter, $route, DomHelper, Utils, Zergling, ConnectionService, GameInfo, Storage, Config, Translator, analytics, TimeoutWrapper) {
+angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootScope', '$scope', '$location', '$window', '$filter', '$route', 'DomHelper', 'Utils', 'Zergling', 'ConnectionService', 'GameInfo', 'Storage', 'Config', 'Translator', 'analytics', 'TimeoutWrapper', function ($rootScope, $scope, $location, $window, $filter, $route, DomHelper, Utils, Zergling, ConnectionService, GameInfo, Storage, Config, Translator, analytics, TimeoutWrapper) {
     'use strict';
     TimeoutWrapper = TimeoutWrapper($scope);
     var connectionService = new ConnectionService($scope);
@@ -1574,4 +1574,21 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
 
         $scope.gameClicked(game, game.competition, true);
     }
+
+    angular.element(document).ready(function () {
+        var appWindow = angular.element($window);
+        var screenWidth = window.innerWidth;
+        function closeLeftSideBar() {
+            $scope.toggleLeftMenu(false);      
+        }
+        closeLeftSideBar();
+
+        appWindow.bind('resize', function () {  
+            console.log(screenWidth);
+            if (screenWidth < 1367 && !$scope.leftMenuClosed){
+                closeLeftSideBar();
+            }  
+        })
+    });
+    
 }]);

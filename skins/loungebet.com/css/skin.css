@@ -49830,7 +49830,7 @@ top-game-block {
     position: absolute;
     top: 0;
     left: 0;
-    width: 420px;
+    width: 520px;
     height: 100%;
     padding: 0;
     max-height: 100%;
@@ -49963,7 +49963,7 @@ top-game-block {
     top: 0;
     right: 0;
     height: 100%;
-    width: calc(100% - 420px);
+    width: calc(100% - 520px);
     padding: 0 0 0 8px;
 }
 
@@ -53396,14 +53396,6 @@ top-game-block {
 }
 .no-scrollbar > .ngscroll-resizable > .ngscroll-scrollbar-container {
     display: none;
-}
-@media screen and (width: 1366px) {
-    .prematch-view-v3 .prematch-games-list {
-        width: calc(50% - 4px);
-    }
-    .prematch-view-v3 .live-game-view-contain-v3 {
-        width: calc(50% + 4px);
-    }
 }
 
 @media screen and (max-width: 1279px) {
@@ -67588,5 +67580,54 @@ body {
     }
     .betslip-expanded .left-menu-closed-v3 > .center-column-v3 {
         width: calc(100% - 629px);
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .prematch-view-v3 .live-game-view-contain-v3 {
+        width: calc(100% - 440px);
+    }
+    .prematch-games-list {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 1590px) {
+    .prematch-view-v3 .live-game-view-contain-v3 {
+        width: calc(100% - 400px);
+    }
+    .prematch-games-list {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .prematch-view-v3 .live-game-view-contain-v3 {
+        width: calc(100% - 380px);
+    }
+    .prematch-games-list {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .prematch-view-v3 .live-game-view-contain-v3 {
+        width: calc(100% - 411px);
+    }
+    .prematch-games-list {
+        width: 411px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .prematch-games-list {
+        width: 100%;
+        height: 250px;
+    }
+    .prematch-view-v3 .live-game-view-contain-v3 {
+        top: 255px;
+        height: calc(100% - 255px);
+        width: 100%;
+        padding: 0;
     }
 }

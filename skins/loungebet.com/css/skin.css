@@ -17644,12 +17644,20 @@ input#uploadFilePassport {
     z-index: 99;
     -webkit-animation: timer-blink 1s steps(2, start) infinite;
     animation: timer-blink 1s steps(2, start) infinite;
+    visibility: visible;
 }
 
+@-webkit-keyframes timer-blink {
+    100% {visibility: hidden;}
+}
+@-moz-keyframes timer-blink {
+    100% {visibility: hidden;}
+}
+@-o-keyframes timer-blink {
+    100% {visibility: hidden;}
+}
 @keyframes timer-blink {
-    100% {
-        opacity: 0;
-    }
+    100% {visibility: hidden;}
 }
 
 .body-wrapper.sport.classic .live-game-container .game-info {
@@ -37895,13 +37903,13 @@ input[type="password"]:focus ~ .capslock-is-on-j {
 
 .live-calendar-16-content-j li.sport-column-j i {
     display: block;
-    width: 16px;
-    height: 16px;
-    border-radius: 100%;
+    left: 8px;
+    top: 4px;
+    height: 21px;
+    width: 20px;
     position: absolute;
-    left: 10px;
-    top: 7px;
-    font: 16px/16px sport-icon;
+    font: normal 16px/16px sport-icon;
+    transform: scale(.8);
 }
 
 .live-calendar-16-content-j li.country-column-j {
@@ -45603,6 +45611,10 @@ top-game-block {
     font-weight: bold;
     position: relative;
     padding: 0;
+}   
+
+.separator-contain-nav:first-child .settings-icon-contain.leng-b {
+    margin: 8px 2px;
 }
 
 .settings-icon-contain.my-bets-b {
@@ -47490,22 +47502,32 @@ top-game-block {
     margin: 6px 0 0;
 }
 
+.second-row-filter-v3.search-visible .search-box-v3 > form {
+    padding-left: 46px;
+}
+
 .second-row-filter-v3.search-visible .search-box-v3 .block-search {
     width: 340px;
     max-width: 340px;
-    left: 46px;
+}
+
+.second-row-filter-v3.search-visible .search-box-v3 .block-search form {
+    padding-left: 46px;
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search input[type="text"] {
     display: block;
     border-radius: 4px 4px 0 0;
     background-color: #fffef6;
-    box-shadow: 0 0 0 1px #7c8292 inset;
+    box-shadow: 0 0 0 1px #7c8292 inset; 
+    height: 36px;
+    top: -3px;
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search input[type="text"].border-radius {
     border-radius: 4px !important;
-    box-shadow: 0 0 0 1px #abaaaa inset;
+    border:1px solid #abaaaa;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 4px 6px rgba(0, 0, 0, 0.32);
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .menu-popup-arrow.border-color {
@@ -47515,25 +47537,26 @@ top-game-block {
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .menu-popup-arrow {
     left: -4px;
-    top: 11px;
+    top: 35.5%;
     width: 7px;
     height: 8px;
     background-color: #fffef6;
-    transform: rotateZ(45deg);
+    transform: rotateZ(41deg);
     border: none;
     border-bottom: 1px solid #7c8292;
     border-left: 1px solid #7c8292;
-    z-index: 100;
+    z-index: 100; 
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container {
     position: absolute;
     left: 0;
-    top: 30px;
+    top: 33px;
     margin-left: 0;
     width: 100%;
     border-radius: 0 0 4px 6px;
     overflow: hidden;
+    box-shadow: 0 45px 150px -40px #000000;
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container .search-results-inner {
@@ -47661,7 +47684,7 @@ top-game-block {
     box-sizing: border-box;
     right: auto;
     left: -5px;
-    top: 10px;
+    top: 13px;
 }
 
 .search-box-v3 .search-results-inner .arrow-sport:before {
@@ -58214,7 +58237,7 @@ div.slider-image-wrapper-b {
     border-style: solid;
     border-width: 0 6px 5px 6px;
     position: relative;
-    top: 31px;
+    top: 2.4em;
     left: calc(50% - 6px);
     z-index: 22;
     border-color: rgba(211, 48, 48, 0) transparent #e6e5dc transparent;
@@ -59166,7 +59189,8 @@ div.slider-image-wrapper-b {
     width: 255px;
     padding: 0 24px 0 8px;
     padding-bottom: 5px;
-    /*animation: 250ms show-up;*/
+    -webkit-animation: 400ms show-up 150ms backwards;
+    animation: 400ms show-up 150ms backwards;
 }
 
 @keyframes show-up {
@@ -59187,7 +59211,7 @@ div.slider-image-wrapper-b {
 .menu-popup-arrow {
     position: absolute;
     top: 9px;
-    left: 2px;
+    left: 0.17em;
     border-width: 7px 6px 7px 0;
     border-style: solid;
     border-color: transparent;
@@ -59197,6 +59221,8 @@ div.slider-image-wrapper-b {
 .menu-popup-holder {
     background: #3e4f54;
     border-radius: 3px;
+    width: 100%;
+    display: inline-block;
 }
 .menu-popup-holder .region-items-box {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.5);
@@ -59220,8 +59246,13 @@ div.slider-image-wrapper-b {
     overflow: hidden;
     background-color: #e6e5dc;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+    min-height: 305px;
 }
 
+.menu-popup .region-items-box.active .ngscroll-resizable,
+.menu-popup .region-items-box.no-scrollbar .ngscroll-resizable {
+    min-height: 1px;
+}
 .menu-popup .region-items-box .ngscroll-container {
     width: calc(100% - 6px) !important;
     padding-top: 1px;
@@ -64268,6 +64299,11 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
     .new-size {
         height: 54px;
+    }
+
+    .user-nav-wrapper .settings-include-contain:nth-child(2) .separator-contain-nav.user-nav-view-b.new-size .nav-open-view-contain{
+        display: block;
+        top: 55px;
     }
 
     .user-nav-wrapper .settings-include-contain:last-child .new-size {

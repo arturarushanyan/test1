@@ -290,7 +290,10 @@ angular.module('vbet5').controller('loginCtrl', ['$scope', '$rootScope', 'Timeou
                 function (data) {
                     console.log('login ok', data);
                     $rootScope.loginInProgress = false;
-                    analytics.gaSend('send', 'event', 'slider', 'login',  {'page': $location.path(), 'eventLabel': 'Success'});
+                    analytics.gaSend('send', 'event', 'slider', 'login', {
+                        'page': $location.path(),
+                        'eventLabel': 'Success'
+                    });
                     $scope.env.authorized = true;
                     Storage.set('lastLoggedInUsername', loginObj.username);
 
@@ -314,7 +317,14 @@ angular.module('vbet5').controller('loginCtrl', ['$scope', '$rootScope', 'Timeou
                     subscribeForMessages();
 
                     login.resolve(data);
+                    if ($location.path() == '/') {
+                        $location.url('/sport/');
+                    }
+                    if ($location.path() == '/casino') {
+                        $location.url('/casino');
+                    }
                 },
+
                 function (data) {
                     console.log('login failed', data);
                     $rootScope.loginInProgress = false;

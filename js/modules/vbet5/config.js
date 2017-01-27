@@ -18,6 +18,7 @@ angular.module('vbet5').constant('Config', {
         main_template: 'templates/main.html',
         skin: 'vbet.com',
         logoUrl: '#/',
+        logoUrlAuto: '#/sport/',
         appPokeristUrl: false,
         defaultTransLang: 'eng',  //default translation language
         translateToDefaultIfNotAvailable: true,  // translator will translate strings to default language if translation is not available for selected language
@@ -140,7 +141,7 @@ angular.module('vbet5').constant('Config', {
         expandFavoriteCompetitions: true,
         expandFavoriteCompetitionsFirst: false,
         expandMoreSportsByDefault: false,
-        expandFirstSportByDefault: false,
+        expandFirstSportByDefault: true,
         showPrematchLimit: 10, // 0 if disabled
         selectFavoritesByDefault: false, // will select favorites instead of 1st sport if there are favorite games
         selectRegionsByDefault: false, // will filter by region

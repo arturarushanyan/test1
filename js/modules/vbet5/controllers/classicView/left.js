@@ -4,7 +4,7 @@
  * @description classic view left menu controller
  *
  */
-angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootScope', '$scope',  '$location', '$filter', '$route', 'DomHelper', 'Utils', 'Zergling', 'ConnectionService', 'GameInfo', 'Storage', 'Config', 'Translator', 'analytics', 'TimeoutWrapper', function ($rootScope, $scope, $location, $filter, $route, DomHelper, Utils, Zergling, ConnectionService, GameInfo, Storage, Config, Translator, analytics, TimeoutWrapper) {
+angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootScope', '$scope', '$location', '$window', '$filter', '$route', 'DomHelper', 'Utils', 'Zergling', 'ConnectionService', 'GameInfo', 'Storage', 'Config', 'Translator', 'analytics', 'TimeoutWrapper', function ($rootScope, $scope, $location, $window, $filter, $route, DomHelper, Utils, Zergling, ConnectionService, GameInfo, Storage, Config, Translator, analytics, TimeoutWrapper) {
     'use strict';
     TimeoutWrapper = TimeoutWrapper($scope);
     var connectionService = new ConnectionService($scope);
@@ -131,7 +131,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
             return false;
         }
 
-        if (!Config.env.live && $scope.leftMenuPrematchSports && $scope.leftMenuPrematchSports.length) {
+        /*if (!Config.env.live && $scope.leftMenuPrematchSports && $scope.leftMenuPrematchSports.length) {
             if (!$scope.selectedSport || Utils.isObjectEmpty($scope.leftMenuState.prematch.sport) || !$scope.leftMenuState.prematch.sport[$scope.selectedSport.id] || !$scope.leftMenuState.prematch.sport[$scope.selectedSport.id].expanded) {
                 $scope.firstSport = $scope.firstSport || $scope.leftMenuPrematchSports[0];
                 if (!expandedPrematchSports[$scope.firstSport.id] && Config.main.expandFirstSportByDefault && $scope.firstSport.id !== additionalLeftMenuItems.VIRTUAL_SPORT_VIRTUALS.id) {
@@ -147,12 +147,15 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
                 $scope.expandLeftMenuPrematchRegion($scope.firstSport.regions[0], $scope.firstSport, true);
             }
 
-        } else if (Config.env.live && !$scope.selectedSport && $scope.leftMenuLiveSports && $scope.leftMenuLiveSports.length) {
+        } else*/ if (Config.env.live && !$scope.selectedSport && $scope.leftMenuLiveSports && $scope.leftMenuLiveSports.length) {
             $scope.selectSport($scope.leftMenuLiveSports[0]);
             $scope.leftMenuState.live.region[$scope.leftMenuLiveSports[0].regions[0].id] = {expanded : true};
             $scope.selectRegion($scope.leftMenuLiveSports[0].regions[0]);
             if (!deepLinkedGameId) {
                 $scope.gameClicked($scope.leftMenuLiveSports[0].regions[0].competitions[0].games[0], $scope.leftMenuLiveSports[0].regions[0].competitions[0]);
+            }
+            if(!Config.env.live && !$scope.selectedSport && $scope.leftMenuPrematchSports && $scope.leftMenuPrematchSports.length) {
+                $scope.gameClicked($scope.leftMenuPrematchSports[0].regions[0].competitions[0].games[0], $scope.leftMenuPrematchSports[0].regions[0].competitions[0]);
             }
         }
     }
@@ -212,7 +215,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
                 $scope.favoriteCompetitionsExpandedFlag = true;
             }
 
-            if (Config.main.disableSavingPreMatchMenuState) {
+            if (Config.main.expandFirstSportByDefault) {
                 $location.search('region', undefined);
                 $location.search('competition', undefined);
                 $location.search('sport', undefined);
@@ -223,15 +226,40 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
     };
 
 
-    $scope.searchVisible = false;  
-    $scope.searchButton = function() {
-        if($scope.leftMenuClosed){  
-            $scope.searchVisible = !$scope.searchVisible;  
-        }
-        else{
-            return;
+    $scope.openGame = function(sport){
+        if($scope.leftMenuClosed){
+            if(!Config.env.live && $scope.leftMenuState.prematch.sport[sport.id]) {
+                closeOtherRegions(this);
+                this.hover = true;
+                this.expandLeftMenuPrematchSport(sport, null, null, false); 
+                this.selectSport(sport, !$scope.leftMenuState.prematch.sport[sport.id].expanded);
+            } else if (Config.env.live && $scope.leftMenuState.live.sport[sport.id]) {
+                closeOtherRegions(this);
+                this.hover = true;
+                $scope.leftMenuState.live.sport[sport.id].expanded = !$scope.leftMenuState.live.sport[sport.id].expanded; 
+                this.selectSport(sport, !$scope.leftMenuState.live.sport[sport.id].expanded)
+            }
         }
     };
+
+    $scope.closeGame = function(sport){
+        if ($scope.leftMenuClosed) {
+            if (!Config.env.live) {
+                this.hover = false;
+                this.expandLeftMenuPrematchSport(sport, null, null, false); 
+                this.selectSport(sport, !$scope.leftMenuState.prematch.sport[sport.id].expanded);
+            }
+            else {
+                this.hover = false;
+                $scope.leftMenuState.live.sport[sport.id].expanded = !$scope.leftMenuState.live.sport[sport.id].expanded; 
+            }
+
+        }
+    };
+
+
+    $scope.searchVisible = false;  
+   
 
     $scope.$on('toggleLive', function (event) {
         if (event.targetScope.$id !== $scope.$id) { // event is coming from another controller
@@ -1546,4 +1574,21 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
 
         $scope.gameClicked(game, game.competition, true);
     }
+
+    angular.element(document).ready(function () {
+        var appWindow = angular.element($window);
+        var screenWidth = window.innerWidth;
+        function closeLeftSideBar() {
+            $scope.toggleLeftMenu(false);
+        }
+        closeLeftSideBar();
+
+        appWindow.bind('resize', function () {
+            console.log(screenWidth);
+            if (screenWidth < 1367 && !$scope.leftMenuClosed){
+                closeLeftSideBar();
+            }
+        })
+    });
+
 }]);

@@ -17,6 +17,7 @@ VBET5.controller('mainHeaderCtrl', ['$rootScope', '$scope', '$interval', '$filte
     $scope.StartDemoTour = DemoTour.startTour;
     Config.main.dashboardEnabled = Config.main.dashboard.enabled; // @TODO need to remove after solution is  found
     $scope.logoUrl = Config.main.logoUrl;
+    $scope.logoUrlAuto = Config.main.logoUrlAuto;
     TimeoutWrapper = TimeoutWrapper($scope);
     TopMenu.init($scope); //pass current scope to TomMenu service
 

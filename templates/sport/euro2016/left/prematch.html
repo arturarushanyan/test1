@@ -142,12 +142,21 @@
                 </div>
             </div>
 
-            <div ng-if="leftMenuClosed" ng-mouseenter="openGame(sport)" ng-mouseleave="closeGame(sport)"> 
-                <div ng-if="leftMenuClosed" class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}}">
+            <div ng-if="leftMenuClosed" 
+                ng-mouseenter="
+                hover=!hover;
+                expandLeftMenuPrematchSport(sport, null, null, false); 
+                selectSport(sport, leftMenuState.prematch.sport[sport.id].expanded)" 
+                ng-mouseleave="
+                hover=!hover;
+                expandLeftMenuPrematchSport(sport, null, null, false); 
+                selectSport(sport, !leftMenuState.prematch.sport[sport.id].expanded)"> 
+
+                <div class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}}">
                     <div class="sport-icon-v3 iconsize {{!sport.alias ? sport.name :sport.alias}}"></div>
                 </div>
 
-                <div ng-if="leftMenuClosed && hover" class="menu-popup">
+                <div ng-show="hover" class="menu-popup">
                     <span class="menu-popup-arrow"></span>
                     <div class="menu-popup-holder">
                         <div class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}} menu-popup-head">
@@ -156,7 +165,7 @@
                                 <span>{{sport.game}}</span>
                             </div>
                         </div>
-                        <div class="region-items-box"  ng-class="{'active': leftMenuState.prematch.sport[sport.id].expanded}" mb-scrollbar="scrollbar('vertical', true)" style="height: 100%;padding:0">
+                        <div class="region-items-box" ng-class="{'active': leftMenuState.prematch.sport[sport.id].expanded}" mb-scrollbar="scrollbar('vertical', true)" style="height:100%;padding:0;">
                             <div class="full-region-info-v3" ng-repeat="region in sport.regions track by region.id"
                                  ng-if="!sport.isFavoriteCompetition">
                                 <div class="region-item-v3"

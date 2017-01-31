@@ -8943,6 +8943,7 @@ div.draws-contain{
     float: left;
     width: calc(100% - 22px);
     border-radius: 0 0 4px 4px;
+    min-height: 457px;
 }
 .question-faq ul{
     float: left;

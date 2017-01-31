@@ -1625,7 +1625,7 @@ div.title-menu-b {
 .live-game-container .sport-title span {
     float: left;
     display: block;
-    max-width: calc(70% - 60px);
+    max-width: calc(70% - 70px);
     text-overflow: ellipsis;
     overflow: hidden;
 }
@@ -50440,7 +50440,7 @@ top-game-block {
 .pematch-single-game-info-2column {
     box-sizing: border-box;
     float: left;
-    width: calc(100% - 120px);
+    width: calc(100% - 180px);
     border-right: 1px solid #e6e5dc;
 }
 
@@ -57552,8 +57552,8 @@ div.slider-image-wrapper-b {
 }
 
 .contain-footer .paymen-icons-list, .contain-footer .payment-content-block-2 {
-    max-height: 60px;
-    height: 60px;
+    max-height: 68px;
+    height: 68px;
 }
 
 .contain-footer .payment-content-block {
@@ -57564,6 +57564,14 @@ div.slider-image-wrapper-b {
 .contain-footer .payment-content-block-2 {
     padding-top: 5px;
     box-sizing: border-box;
+}
+
+.payment-content-block ul p {
+    color: #d1cabb;
+    font: 12px/18px Ubuntu;
+    font-weight: 300;
+    width: 700px;
+    margin: 0 auto;
 }
 
 .payment-content-block ul {
@@ -59359,8 +59367,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
 .live-game-container .game-info .unpin-button {
 
-    background: #166a73;
-    color: #212531;
+    background: #468966;
+    color: #468966;
 }
 
 .sport-title .curr-minute-info {
@@ -59555,7 +59563,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     background: none;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (max-width: 4096px) {
 
     .sub-nav-filter-time-v3 {
         background: #fffef6;
@@ -63734,7 +63742,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     .pematch-single-game-info-outright {
         box-sizing: border-box;
         float: left;
-        width: 352px;
+        width: 100%;
     }
 
     .prem {
@@ -65388,27 +65396,19 @@ input::-ms-clear {
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url("../fonts/UbuntuRegular.eot");
-    src: url("../fonts/UbuntuRegular.eot") format("embedded-opentype"), url("../fonts/UbuntuRegular.woff2") format("woff2"), url("../fonts/UbuntuRegular.woff") format("woff"), url("../fonts/UbuntuRegular.ttf") format("truetype"), url("../fonts/UbuntuRegular.svg#UbuntuRegular") format("svg");
+    src: url("/fonts/UbuntuRegular.eot");
+    src: url("/fonts/UbuntuRegular.eot") format("embedded-opentype"), url("/fonts/UbuntuRegular.woff2") format("woff2"), url("/fonts/UbuntuRegular.woff") format("woff"), url("/fonts/UbuntuRegular.ttf") format("truetype"), url("/fonts/UbuntuRegular.svg#UbuntuRegular") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Ubuntu';
-    src: url("../fonts/UbuntuMedium.eot");
-    src: url("../fonts/UbuntuMedium.eot") format("embedded-opentype"), url("../fonts/UbuntuMedium.woff2") format("woff2"), url("../fonts/UbuntuMedium.woff") format("woff"), url("../fonts/UbuntuMedium.ttf") format("truetype"), url("../fonts/UbuntuMedium.svg#UbuntuMedium") format("svg");
+    src: url("/fonts/UbuntuMedium.eot");
+    src: url("/fonts/UbuntuMedium.eot") format("embedded-opentype"), url("/fonts/UbuntuMedium.woff2") format("woff2"), url("/fonts/UbuntuMedium.woff") format("woff"), url("/fonts/UbuntuMedium.ttf") format("truetype"), url("/fonts/UbuntuMedium.svg#UbuntuMedium") format("svg");
     font-weight: bold;
     font-style: normal;
 }
-@font-face {
-    font-family: 'icomoon';
-    src: url("../fonts/icomoon.eot");
-    src: url("../fonts/icomoon.eot") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+
 body {
     width: 100%;
     color: #000000;
@@ -67610,7 +67610,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
     .betslip-expanded .center-column-v3 {
         width: calc(100% - 825px);
     }

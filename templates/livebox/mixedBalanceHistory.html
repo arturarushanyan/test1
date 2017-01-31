@@ -12,7 +12,7 @@
     <div class="bet-info-list-separator-b" ng-repeat="balance in balanceHistory">
         <ul>
             <li class="date-id-column-b">
-                <span>{{balance.date_time|formatDate:(conf.layoutTimeFormat[conf.sportsLayout] || 'noLocaleTranslate')}} {{conf.layoutTimeFormat[conf.sportsLayout] ? (balance.date_time|formatDate:'hour':null:env.timeFormat) : ''}}</span>
+                <span>{{balance.date_time|formatDate:(conf.layoutTimeFormat[conf.sportsLayout] || 'noLocaleTranslate')}} {{conf.layoutTimeFormat[conf.sportsLayout] ? (balance.date_time|formatDate:'fullHourWithoutAmPm':null:env.timeFormat) : ''}}</span>
                 <span ng-show="balance.bet_id"><i trans>id:</i> <b>{{balance.bet_id}}</b></span>
             </li>
             <li class="bet-type-column-b">

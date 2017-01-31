@@ -256,7 +256,7 @@
                                                      ng-show="(competition.games[0].sport.alias === 'Soccer') && (prematchGameViewData[0].games[0].show_type !== 'OUTRIGHT')">
                                                     <ul ng-if="(prematchGame.sport.alias !== 'Soccer') && (!prematchGame.team2_name)"
                                                         class="column-3"
-                                                        ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
+                                                        ng-class="{'two-odds': prematchGame.firstMarket.col_count == 3}">
                                                         <li title="1">
                                                             <div class="market-tab">
                                                                 <div class="market-info">
@@ -370,7 +370,7 @@
                                                 <div class="events-list-view-v3 correct">
                                                     <ul ng-if="prematchGame.sport.alias !== 'Soccer' && selectedMarketFilter === marketFilterTypes[0]"
                                                         class="column-{{ prematchGame.firstMarket.col_count || (prematchGame.firstMarket.type == 'P1XP2' ? 3 : '2 two-odds') }}"
-                                                        ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
+                                                        ng-class="{'two-odds': prematchGame.firstMarket.col_count == 5}">
                                                         <li title="{{prematchGame.firstMarket.events.P1.name}}"
                                                             ng-mouseover="displayEventLimit(prematchGame.firstMarket.events.P1, prematchGame, false, prematchGame.firstMarket)"
                                                             ng-mouseleave="cancelDisplayEventLimit(prematchGame.firstMarket.events.P1)"

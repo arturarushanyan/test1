@@ -3,6 +3,18 @@
  *
  */
 
+/*
+*  Questions
+*
+*  1. Promo code validation
+*  2. Animation of
+*  2.1 Info tooltip toggle
+*  2.2 Password colorfoul bar
+*  3. Visibility and layers of tooltips
+*  4. When tooltips must be visible and when hidden
+*
+* */
+
 /* global Loungebet5 */
 VBET5.constant('SkinConfig', {
     additionalModules: ['exchange', 'casino', 'comboView'],
@@ -316,7 +328,7 @@ VBET5.constant('SkinConfig', {
         personalDetails: {
             readOnlyFields: ['user_id', 'email', 'affiliate_id'],
             editableFields: ['gender', 'first_name', 'sur_name', 'birth_date', 'country_code', 'city', 'address', 'phone_number', 'doc_number'],
-            requiredEditableFields: ['country_code', 'city', 'birth_date', 'first_name', 'sur_name', 'doc_number', 'gender']
+            requiredEditableFields: ['country_code', 'city', 'birth_date', 'first_name', 'sur_name', 'gender']
         },
         convertCurrencyName: {
             MBT: 'mBTC'
@@ -373,40 +385,43 @@ VBET5.constant('SkinConfig', {
                 "title": "Username",
                 "name": "username",
                 "placeholder": "Enter here",
+                "tooltip": 'Hello! Please enter your public username that will be displayed on our website. It should consist of min 4  and max 16 English letters and/or numbers.',
                 "type": "text",
                 "required": true,
                 "classes": "form-text",
-                "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[a-zA-Z0-9\\_\\-]+$/"}],
-                "validation": [{"name": "required", "message": "This field is required"}, {
+                "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[a-zA-Z0-9\\_\\-]{4,16}$/"}],
+                "validation": [{"name": "required", "message": "Oops! You forgot to enter your username."}, {
                     "name": "exists",
-                    "message": "Sorry, this username has been used already"
+                    "message": "Oops! The username has already been registered. Please enter another username."
                 }, {
                     "name": "pattern",
-                    "message": "Please, enter valid Username: only English letters, digits and symbols - _ no space is allowed"
+                    "message": "Username must consist of min 4 and max 16 English letters and/or numbers."
                 }]
             },{
                 "title": "Email Address",
                 "name": "email",
                 "type": "email",
+                "tooltip": 'Please enter your valid e-mail address. It will be used to activate your account. If you wish you can opt-out from receiving our marvelous offers as soon as you log in.',
                 "placeholder": "Enter here",
                 "required": true,
                 "classes": "form-text",
                 "customAttrs": [{"required": "required"}, {"ng-pattern": "/^([a-zA-Z0-9]+([_+\.-]?[a-zA-Z0-9]+)*)@([a-zA-Z0-9]+)(([\\-\.]?[a-zA-Z0-9]+)*)([\.])([a-z]+)([^~@!#$%^&*()_+|{}:<>?,/;'-=\\[\\]\\`\"\.\\\\])$/"}, {"prevent-input": "/^[\\S ]+$/"}],
-                "validation": [{"name": "required", "message": "This field is required"},
-                    {"name": "email", "message": 'This is not a valid email address'},
-                    {"name": "pattern", "message": 'Please enter a valid email address'},
-                    {"name": "exists", "message": "This email already exists in our database, please enter another"}]
+                "validation": [{"name": "required", "message": "Oops! You forgot to enter your e-mail address. "},
+                    {"name": "pattern", "message": "It doesn't look like an e-mail address, please check."},
+                    {"name": "exists", "message": "Ouch! The e-mail address has already been registered. Click here to reset password or click on Sign In to enter your account. Otherwise try another e-mail."},
+                    {"name": "accepted", "message": "The e-mail domain that you filled in isn’t accepted. Please enter a normal e-mail provider."}]
             },{
                 "title": "Password",
                 "name": "password",
                 "placeholder": "Password should contain at least 8 characters",
                 "type": "password",
+                "tooltip": 'Please enter your password that should consist of min 8 and max 20 characters . We recommend you not to use your  name, surname, username or date of birth in your password.',
                 "required": true,
                 "classes": "form-text",
                 "customAttrs": [{"ng-minlength": "8"}, {"type": "password"}, {"required": "required"}, {"ng-pattern": "/^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d\\[\\]\\\\`~!@#$%^&*()_+={};:<>|./?,\"'-]+$/"}, {"ng-keypress": "passwordKeyPress($event, 'password')"}],
-                "validation": [{"name": "required", "message": "This field is required"}, {
+                "validation": [{"name": "required", "message": "Oops! You forgot to enter your password. "}, {
                     "name": "minlength",
-                    "message": "Password should contain at least 8 characters"
+                    "message": "The password must consist of min 8 and max 20 characters."
                 }, {"name": "sameAsLogin", "message": "Password cannot be same as login"}, {
                     "name": "tooShort",
                     "message": "Password is too short"
@@ -418,15 +433,37 @@ VBET5.constant('SkinConfig', {
                 "title": "Confirm Password",
                 "name": "password2",
                 "type": "password",
+                "tooltip": 'Please repeat your password.',
                 "placeholder": "Confirm Password",
                 "required": true,
                 "classes": "form-text",
                 "customAttrs": [{"match": "registrationData.password"}, {"required": "required"}, {"ng-disabled": "registerform.password.$invalid"}, {"ng-keypress": "passwordKeyPress($event, 'password2')"}],
-                "validation": [{"name": "required", "message": "This field is required"}, {
+                "validation": [{"name": "required", "message": "Oops! You forgot to repeat your password."}, {
                     "name": "match",
-                    "message": "Passwords don't match"
-                }
-                ]}
+                    "message": "The passwords don't match. Please check both fields."
+                }],
+            }, {
+                "title": "Currency",
+                "name": "currency_name",
+                "type": "select",
+                "required": true,
+                "classes": "select-block big",
+                "customAttrs": [{"ng-options": "c for c in  conf.availableCurrencies track by c"}, {"ng-value": "c"}, {"ng-disabled": "currencyDisabled"}],
+                "validation": []
+            }, {
+                "title": "Promo code",
+                "name": "promo_code",
+                "type": "text",
+                "tooltip": 'Hey! If you have any promo/referral code, enter it here.',
+                "required": false,
+                "placeholder": "Enter here",
+                "classes": "form-text",
+                "customAttrs": [{"ng-disabled": "hasPromoCode"}],
+                "validation": [
+                    {"name": "pattern", "message": "Invalid promo/referral code."},
+                    {"name": "expired", "message": "Sorry, but this promo/referral code is expired."}]
+            }
+
         ],
         step2: {
             "leftCol": [
@@ -434,7 +471,7 @@ VBET5.constant('SkinConfig', {
                     "title": "First Name",
                     "name": "first_name",
                     "type": "text",
-                    "required": true,
+                    "required": false,
                     "placeholder": "Enter here",
                     "classes": "form-text first-n",
                     "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[^0-9\\[\\]\\\\`~!@#$%^&*()_+={};:<>|./?,\"'-\\s]+$/"}, {"capitaliseinput": ""}],
@@ -445,7 +482,7 @@ VBET5.constant('SkinConfig', {
                     "name": "last_name",
                     "placeholder": "Enter here",
                     "type": "text",
-                    "required": true,
+                    "required": false,
                     "classes": "form-text first-n",
                     "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[^0-9\\[\\]\\\\`~!@#$%^&*()_+={};:<>|./?,\"'-\\s]+$/"}, {"capitaliseinput": ""}],
                     "validation": [{"name": "required", "message": "This field is required"}, {"name": "pattern", "message": "Please enter a valid  last name: only letters - no space, no digits and/or symbols"}]
@@ -453,7 +490,7 @@ VBET5.constant('SkinConfig', {
                     "title": "Date of Birth",
                     "name": "birth_day",
                     "type": "select",
-                    "required": true,
+                    "required": false,
                     "classes": "select-block mini first",
                     "customAttrs": [{"required": "required"}, {"ng-options": "d for d in days"}, {"day-selector": ""}, {"month-model": "registrationData.birth_month"}, {"year-model": "registrationData.birth_year"}, {"options": "days"}, {"ng-change": "calculateAge()"}],
                     "validation": [{"name": "required", "message": "This field is required"}]
@@ -461,7 +498,7 @@ VBET5.constant('SkinConfig', {
                     "title": "",
                     "name": "birth_month",
                     "type": "select",
-                    "required": true,
+                    "required": false,
                     "classes": "select-block mini",
                     "customAttrs": [{"required": "required"}, {"ng-change": "calculateAge()"}],
                     "optionsData": "<option ng-repeat=\"month in monthNames\" value=\"{{month.val}}\">{{month.name| translate}}</option>",
@@ -470,17 +507,17 @@ VBET5.constant('SkinConfig', {
                     "title": "",
                     "name": "birth_year",
                     "type": "select",
-                    "required": true,
+                    "required": false,
                     "classes": "select-block mini",
                     "customAttrs": [{"required": "required"}, {"ng-options": "y for y in registrationData.years track by y"}, {"ng-change": "calculateAge()"}],
                     "onChange": ["calculateAge"],
-                    "validation": [{"name": "required", "message": "This field is required"}],
+                    "validation": [{"name": "required", "message": "For registration you must be at least 18 years old."}],
                     "customValidation": "<div class=\"city-form-block\" ng-class=\"{error: userAge < 18}\"> <div class=\"form-error-text\"> <div class=\"error-icon-f\"></div><p trans ng-show=\"userAge < 18 \">Registration on this site is not permitted for people under 18.</p></div>"
                 },{
                     "title": "Country",
                     "name": "country_id",
                     "type": "select",
-                    "required": true,
+                    "required": false,
                     "classes": "city-form-block new",
                     "customAttrs": [{"ng-include": "getTemplate(\"templates/slider/countries.html\")"}, {"ng-init": "preFillRegionalData()"}, {"ng-change": "checkIfCountryIsRestricted();"}],
                     "customValidation": "<div class=\"city-form-block\" ng-class=\"{error: countryIsRestricted}\"> <div class=\"form-error-text\"> <div class=\"error-icon-f\"></div><p trans ng-show=\"countryIsRestricted\">Registration on this site is not permitted in selected country.</p><p ng-show=\"altUrl4RestrictedCountry\"><span trans>You can register here:</span> <a href=\"{{altUrl4RestrictedCountry}}\">{{altUrl4RestrictedCountry}}</a></p></div>"
@@ -489,7 +526,7 @@ VBET5.constant('SkinConfig', {
                     "name": "city",
                     "placeholder": "Enter here",
                     "type": "text",
-                    "required": true,
+                    "required": false,
                     "classes": "form-text registration-form-city city",
                     "customAttrs": [{"required": "required"}],
                     "validation": [{"name": "required", "message": "This field is required"}]
@@ -498,7 +535,7 @@ VBET5.constant('SkinConfig', {
                     "title": "Gender",
                     "name": "gender",
                     "type": "select",
-                    "required": true,
+                    "required": false,
                     "classes": "select-block big",
                     "customAttrs": [{"ng-pattern": "/^[M,F]$/"}, {"ng-change": "calculateAge()"}],
                     "optionsData": "<option ng-repeat=\"gender in genders\" value=\"{{gender.val}}\">{{gender.name| translate}}</option>",
@@ -519,7 +556,7 @@ VBET5.constant('SkinConfig', {
                     "title": "Contact number",
                     "name": "phone_code",
                     "type": "text",
-                    "required": true,
+                    "required": false,
                     "classes": "form-text phone-code",
                     "customAttrs": [{"country-code-validate": ""}, {"deValidate": ""}, {"ng-maxlength": "5"}, {"required": "required"}, {"prevent-input": "[^0-9]+"}],
                     "validation": [{"name": "countryCode", "message": "Country code is not correct"}, {
@@ -531,7 +568,7 @@ VBET5.constant('SkinConfig', {
                     "title": "",
                     "name": "phone_number",
                     "type": "text",
-                    "required": true,
+                    "required": false,
                     "placeholder": "Enter number",
                     "hasCustomHtml": true,
                     "classes": "reg-form-input-number phone_number",
@@ -548,7 +585,7 @@ VBET5.constant('SkinConfig', {
                     "title": "CPF",
                     "name": "doc_number_1",
                     "type": "text",
-                    "required": true,
+                    "required": false,
                     "classes": "",
                     "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
                     "validation": [{ "name": "required", "message": "This field is required"}]
@@ -556,7 +593,7 @@ VBET5.constant('SkinConfig', {
                     "title": "",
                     "name": "doc_number_2",
                     "type": "text",
-                    "required": true,
+                    "required": false,
                     "classes": "",
                     "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
                     "validation": [{ "name": "required", "message": "This field is required"}]
@@ -564,7 +601,7 @@ VBET5.constant('SkinConfig', {
                     "title": "",
                     "name": "doc_number_3",
                     "type": "text",
-                    "required": true,
+                    "required": false,
                     "classes": "",
                     "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
                     "validation": [{ "name": "required", "message": "This field is required"}]
@@ -572,7 +609,7 @@ VBET5.constant('SkinConfig', {
                     "title": "",
                     "name": "doc_number_4",
                     "type": "text",
-                    "required": true,
+                    "required": false,
                     "classes": "",
                     "customAttrs": [{"required": "required"}, {"maxlength": "2"}, {"prevent-input": "[^0-9]+"}],
                     "validation": [{ "name": "required", "message": "This field is required"}]
@@ -581,7 +618,7 @@ VBET5.constant('SkinConfig', {
                     "title": "Security question",
                     "name": "security_question",
                     "type": "select",
-                    "required": true,
+                    "required": false,
                     "classes": "select-block big",
                     "customAttrs": [{"required": "required"}],
                     "optionsData": "<option ng-repeat=\"q in conf.registration.securityQuestion.questions track by $index\" value=\"{{q| translate}}\">{{q| translate}}</option>",
@@ -590,7 +627,7 @@ VBET5.constant('SkinConfig', {
                     "title": "Security answer",
                     "name": "security_answer",
                     "type": "text",
-                    "required": true,
+                    "required": false,
                     "placeholder": "Enter here",
                     "classes": "form-text",
                     "customAttrs": [{"required": "required"}],

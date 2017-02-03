@@ -18,9 +18,9 @@
                 <ul>
                     <li ng-hide="conf.disableRegistrationAndLogin"
                         ng-if="!conf.rfid.loginWIthRFID || conf.rfid.loginWIthRFID && conf.rfid.allowAccessWithoutRfid">
-                        <button ng-class="{'active-s': env.sliderContent === 'signInForm'}" ng-click="signin()" trans>Sign in</button>
+                        <button ng-class="{'active-s': env.sliderContent === 'signInForm'}" ng-click="signin()"  trans>Sign in</button>
                     </li>
-                    <li ng-hide="!conf.registration.enable || conf.disableRegistrationAndLogin">
+                    <li ng-show="!conf.registration.enable || conf.disableRegistrationAndLogin">
                         <button ng-click="register()" trans>Register</button>
                         <ng-include src="getTemplate('templates/header/dynamicmessage.html')"></ng-include>
                     </li>

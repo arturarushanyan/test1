@@ -59254,12 +59254,11 @@ div.slider-image-wrapper-b {
     overflow: hidden;
     background-color: #e6e5dc;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
-    min-height: 305px;
+    height: 305px !important;
 }
 
-.menu-popup .region-items-box.active .ngscroll-resizable,
-.menu-popup .region-items-box.no-scrollbar .ngscroll-resizable {
-    min-height: 1px;
+.menu-popup .region-items-box.active .ngscroll-resizable {
+    height: 100% !important;
 }
 .menu-popup .region-items-box .ngscroll-container {
     width: calc(100% - 6px) !important;

@@ -225,39 +225,6 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
         handleDeepLinking();
     };
 
-
-    $scope.openGame = function(sport){
-        if($scope.leftMenuClosed){
-            if(!Config.env.live && $scope.leftMenuState.prematch.sport[sport.id]) {
-                closeOtherRegions(this);
-                this.hover = true;
-                this.expandLeftMenuPrematchSport(sport, null, null, false);
-                this.selectSport(sport, !$scope.leftMenuState.prematch.sport[sport.id].expanded);
-            } else if (Config.env.live && $scope.leftMenuState.live.sport[sport.id]) {
-                closeOtherRegions(this);
-                this.hover = true;
-                $scope.leftMenuState.live.sport[sport.id].expanded = !$scope.leftMenuState.live.sport[sport.id].expanded;
-                this.selectSport(sport, !$scope.leftMenuState.live.sport[sport.id].expanded)
-            }
-        }
-    };
-
-    $scope.closeGame = function(sport){
-        if ($scope.leftMenuClosed) {
-            if (!Config.env.live) {
-                this.hover = false;
-                this.expandLeftMenuPrematchSport(sport, null, null, false);
-                this.selectSport(sport, !$scope.leftMenuState.prematch.sport[sport.id].expanded);
-            }
-            else {
-                this.hover = false;
-                $scope.leftMenuState.live.sport[sport.id].expanded = !$scope.leftMenuState.live.sport[sport.id].expanded;
-            }
-
-        }
-    };
-
-
     $scope.searchVisible = false;
 
 

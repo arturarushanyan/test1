@@ -10379,21 +10379,6 @@ rzslider span.rz-pointer.rz-active:after {
     white-space: nowrap;
 }
 
-body {
-    font: 13px Ubuntu, Arial, Helvetica, sans-serif;
-}
-
-.body-wrapper.sport,
-.body-wrapper.poolbetting,
-.body-wrapper.freebet {
-    background: white;
-}
-
-.body-wrapper,
-.body-wrapper.sport.classic {
-    background: #171c2c;
-}
-
 .second-nav-block {
     display: inline-block;
     text-align: center;
@@ -19645,21 +19630,6 @@ input#uploadFilePassport {
 
 .verytopmenutoggle {
     display: none;
-}
-
-.contain-footer {
-    background: #dfd8c7;
-    box-shadow: 0 -2px 20px #919191;
-    border-top: 5px solid #d1cabb;
-    z-index: 30;
-}
-
-.footer-button {
-    background: #d1cabb;
-}
-
-.footer-button.footer-button-open {
-    background: #d1cabb;
 }
 
 @media screen and (max-width: 1850px) {
@@ -29280,16 +29250,6 @@ p.info-title-j .active-j {
     }
 }
 
-.wrapper-contein {
-    padding: 0;
-}
-
-.contain-footer {
-    box-sizing: border-box;
-    height: 300px;
-    margin: 0;
-}
-
 .body-wrapper ~ .footer-button,
 .body-wrapper.homepage ~ .contain-footer {
     display: none;
@@ -29297,10 +29257,6 @@ p.info-title-j .active-j {
 
 .body-wrapper.footer-movable ~ .footer-button {
     display: block;
-}
-
-.body-wrapper.footer-movable .wrapper-contein {
-    padding: 0;
 }
 
 .contain-footer.footer-movable {
@@ -32342,10 +32298,6 @@ div.draws-contain::-webkit-scrollbar-thumb:hover,
 
 .custom-radio input[type="radio"]:checked + span:after {
     background-color: #7c8292;
-}
-
-.subheader-enabled .conteiner {
-    margin: 0 0 -8px 0;
 }
 
 .subheader-enabled .header-bg:before {
@@ -46572,23 +46524,6 @@ top-game-block {
     margin-top: 48px;
 }
 
-.body-wrapper.sport.euro2016 {
-    box-sizing: border-box;
-}
-
-.classic-version-euro2016 {
-    box-sizing: border-box;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    background: #0e151b;
-    padding: 128px 0 0;
-    min-width: 980px;
-}
-
 .classic-view-wrapper-v3 {
     box-sizing: border-box;
     float: left;
@@ -48775,10 +48710,6 @@ top-game-block {
     display: none;
 }
 
-.left-menu-closed-v3 > .center-column-v3 {
-    width: calc(100% - 350px);
-}
-
 .left-menu-closed-v3 .region-item-row-v3 {
     display: none;
 }
@@ -49018,13 +48949,6 @@ top-game-block {
     float: left;
     width: 100%;
     margin: 0;
-}
-
-.live-game-view-contain-v3 {
-    box-sizing: border-box;
-    float: left;
-    width: 100%;
-    height: 100%;
 }
 
 .live-events-view-v3 {
@@ -49782,13 +49706,6 @@ top-game-block {
     width: 100%;
 }
 
-.prematch-competition-title-v3 > p {
-    box-sizing: border-box;
-    width: 100%;
-    font: 13px/14px Ubuntu, Arial, Helvetica, sans-serif;
-    color: #b8b8b8;
-}
-
 .prematch-competition-title-v3 > p > .prematch-region-icon-v3 {
     box-sizing: border-box;
     margin: 0 6px 0 0;
@@ -49875,15 +49792,6 @@ top-game-block {
 .prematch-view-v3.favorite-game-open-euro2016 .all-game-info-container-v3 {
     box-sizing: border-box;
     width: 100%;
-}
-
-.prematch-games-list-title-v3 {
-    box-sizing: border-box;
-    float: left;
-    width: 100%;
-    height: 36px;
-    background: #2e323e;
-    border-radius: 2px 2px 0 0;
 }
 
 .prematch-games-list + .live-game-view-contain-v3 .ngscroll-resizable:nth-of-type(2) {
@@ -58274,7 +58182,7 @@ div.slider-image-wrapper-b {
     box-sizing: border-box;
     float: left;
     width: 100%;
-    height: 36px;
+    height: 40px;
     background: #105b63;
     border-radius: 4px 4px 0 0;
 }
@@ -59476,10 +59384,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     color: #ffffff;
 }
 
-.prematch-column-title-v3 > h2 {
-    color: #c1c4cd;
-}
-
 .time-filter-v3 > p {
     color: #7c8292;
     font-weight: bold;
@@ -59517,10 +59421,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 .arrow-rotate-filter-v3-black {
     color: #303838;
     font: 12px/24px icomoon;
-}
-
-.prematch-games-list-title-v3 {
-    background: #105b63;
 }
 
 .view-switcher-v3 > ul > li > button {
@@ -59569,17 +59469,17 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         border-radius: 0 0 4px 4px;
     }
 
-    .prematch-games-list-title-v3 {
-        height: 40px;
-    }
-
     .game-header-view-v3 {
         height: 40px;
     }
 
     .prematch-competition-title-v3 > p {
         font: 12px/12px Ubuntu, Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        width: 100%;
+        color: #b8b8b8;
     }
+
 
     .betslip-title-v3 {
         height: 40px;
@@ -59658,10 +59558,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         background: none;
         color: #fff;
         transition-duration: 200ms;
-    }
-
-    .prematch-column-title-v3 > h2 {
-        color: #ffffff;
     }
 
     .multiview-wrapper-v3 .live-events-column-v3 {
@@ -59837,9 +59733,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     /* Casino Page */
-    .body-wrapper, .body-wrapper.sport.classic {
-        background: #e6e5dc;
-    }
 
     .providers-nav-casino {
         float: left;
@@ -64755,15 +64648,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         transition: color 180ms, background 180ms, border 180ms;
         border-radius: 4px;
     }
-    #product {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        min-height: 211px;
-        background: rgba(48, 61, 77, .5);
-        padding-bottom: 40px;
-        padding-top: 40px;
-    }
+
     #bottom-part {
         position: absolute;
         top: -40px;
@@ -65338,21 +65223,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
 /*casino our version*/
 
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
-body {
-    line-height: 1;
-}
-
 ol, ul {
     list-style: none;
 }
@@ -65385,10 +65255,6 @@ table {
     border-spacing: 0;
 }
 
-html {
-    height: 100%;
-}
-
 input::-ms-clear {
     display: none;
 }
@@ -65406,13 +65272,6 @@ input::-ms-clear {
     src: url("/fonts/UbuntuMedium.eot") format("embedded-opentype"), url("/fonts/UbuntuMedium.woff2") format("woff2"), url("/fonts/UbuntuMedium.woff") format("woff"), url("/fonts/UbuntuMedium.ttf") format("truetype"), url("/fonts/UbuntuMedium.svg#UbuntuMedium") format("svg");
     font-weight: bold;
     font-style: normal;
-}
-
-body {
-    width: 100%;
-    color: #000000;
-    height: 100%;
-    background: #e6e5dc;
 }
 
 .full-casino-wrapper-jf {

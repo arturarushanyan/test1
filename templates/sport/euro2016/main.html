@@ -1,5 +1,5 @@
 <div class="classic-view-wrapper-v3" ng-controller="classicViewMainCtrl"
-     ng-class="{'betslip-expanded': !$root.videoResizeButton && env.live }">
+     ng-class="{'betslip-expanded': !$root.videoResizeButton && env.live && $location.path() !== '/livecalendar/' }">
     <div class="classic-view-row-v3">
         <div class="classic-view-column-v3 {{leftMenuClosed ? 'left-menu-closed-v3' : ''}}">
 
@@ -103,7 +103,7 @@
 
                             </div>
 
-                            <div class="second-row-filter-v3"  ng-mouseenter="searchVisible = true " ng-mouseleave="searchVisible = false" ng-class="{'search-visible': searchVisible && leftMenuClosed}">
+                            <div class="second-row-filter-v3"  ng-click="searchButton()" ng-class="{'search-visible': searchVisible }">
                                 <!--                             <div class="search-box-v3"> -->
                                 <!--                                 <input type="text" placeholder="Competition or a team"> -->
                                 <include-template template-path="templates/search/sport.html"
@@ -256,7 +256,7 @@
                                                      ng-show="(competition.games[0].sport.alias === 'Soccer') && (prematchGameViewData[0].games[0].show_type !== 'OUTRIGHT')">
                                                     <ul ng-if="(prematchGame.sport.alias !== 'Soccer') && (!prematchGame.team2_name)"
                                                         class="column-3"
-                                                        ng-class="{'two-odds': prematchGame.firstMarket.col_count == 3}">
+                                                        ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
                                                         <li title="1">
                                                             <div class="market-tab">
                                                                 <div class="market-info">
@@ -370,7 +370,7 @@
                                                 <div class="events-list-view-v3 correct">
                                                     <ul ng-if="prematchGame.sport.alias !== 'Soccer' && selectedMarketFilter === marketFilterTypes[0]"
                                                         class="column-{{ prematchGame.firstMarket.col_count || (prematchGame.firstMarket.type == 'P1XP2' ? 3 : '2 two-odds') }}"
-                                                        ng-class="{'two-odds': prematchGame.firstMarket.col_count == 5}">
+                                                        ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
                                                         <li title="{{prematchGame.firstMarket.events.P1.name}}"
                                                             ng-mouseover="displayEventLimit(prematchGame.firstMarket.events.P1, prematchGame, false, prematchGame.firstMarket)"
                                                             ng-mouseleave="cancelDisplayEventLimit(prematchGame.firstMarket.events.P1)"
@@ -751,7 +751,7 @@
                         <!--Betslip END-->
                         <!--Mini Games-->
                         <div class="mini-games" ng-if="conf.enableMiniGameUnderBetslip && env.live"
-                             ng-include="getTemplate('optional_modules/casino/templates/specialgames/minigames.html')"></div>
+                             ng-include="getTemplate('optional_modules/casino/templates/specialgames/mainminigames.html')"></div>
                         <!--Mini Games-->
 
                         <div class="right-banner-container"

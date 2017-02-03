@@ -1553,13 +1553,13 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
     });
 
     angular.element(document).ready(function () {
-        if($window.innerWidth < 1367){
+        if($window.innerWidth < 1366){
             closeLeftSideBar();
         }
     });
 
     function setScreenSize(value) {
-        if(value < 1367){
+        if(value < 1366){
             closeLeftSideBar()
         }
     }

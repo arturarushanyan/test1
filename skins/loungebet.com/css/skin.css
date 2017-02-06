@@ -60386,8 +60386,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         float: none;
     }
 
-    form.registration-form .register-steps-b .field-separator .Input_password.rainbow-border:after {
-        content: '';
+    form.registration-form .register-steps-b #id_password .progress  > div {
         display: block;
         position: absolute;
         top: 41px;
@@ -60580,14 +60579,9 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     .register-steps-b .form-text > div > input:-webkit-autofill,
-    .form-register-layout.signin .field-separator .form-text > input:-webkit-autofill {
-        box-shadow: 0 0 0 100px #f3f2e9 inset;
-        -webkit-text-fill-color: #7c8292;
-    }
-
-    .register-steps-b .form-text > div > input:-webkit-autofill:focus,
+    .form-register-layout.signin .field-separator .form-text > input:-webkit-autofill,
     .form-register-layout.signin .field-separator .form-text > input:-webkit-autofill:focus {
-        box-shadow: 0 0 0 100px #f3f2e9 inset;
+        box-shadow: 0 0 0 100px white inset;
         -webkit-text-fill-color: #7c8292;
     }
 

@@ -699,14 +699,14 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
             }
         };
 
-        $scope.resetFieldError = function resetFieldError(fieldName){
-            if(!Config.main.registration.enableResetError) {
-                return;
-            }
-            $scope.registrationData[fieldName] = '';
-            $scope.resetError[fieldName] = true;
-            $scope.registerform[fieldName].blur = false;
-        };
+        // $scope.resetFieldError = function resetFieldError(fieldName){
+        //     if(!Config.main.registration.enableResetError) {
+        //         return;
+        //     }
+        //     $scope.registrationData[fieldName] = '';
+        //     $scope.resetError[fieldName] = true;
+        //     $scope.registerform[fieldName].blur = false;
+        // };
 
         /**
          * @ngdoc method

@@ -15,7 +15,7 @@
 
     <!------------------------------------------------------------------      Slider  ------------------------------------------------------------------------------------------>
 
-    <div class="block-slider block-slider-{{env.sliderContent}}-t popup registration-background" no-animate class-on-scroll="slider-scroll" id="block-slider-container" ng-class="{'popup': env.sliderAsPopup[env.sliderContent]}"
+    <div class="block-slider block-slider-{{env.sliderContent}}-t popup" no-animate class-on-scroll="slider-scroll" id="block-slider-container" ng-class="{'popup': env.sliderAsPopup[env.sliderContent]}"
          hide-on-click="{{env.sliderContent!=='registrationForm'}}" state-flag-var="env.showSlider" broadcast-on-close="slider.close" except="header"
          ng-show="env.showSlider &&
             (!conf.enableMixedView || ['recentBetsCashout', 'recentBets', 'betHistory', 'casinoBetHistory','shukaBetHistory',

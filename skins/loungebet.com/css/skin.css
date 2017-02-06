@@ -67698,3 +67698,247 @@ body {
     background: transparent;
     box-shadow: none;
 }
+
+.registration-background {
+    background-color: transparent;
+}
+
+.registration-background .popup-layout-registration .close-popup-overlay {
+    background-image: url("/images/backgrounds/registration-bg.jpg");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.vertical-middle-wrapper{
+    position: absolute;
+    left: calc((100% - 404px) / 2);
+    transform: translateX(-50%);
+}
+
+.registration-background .registration_sidebar{
+    height: 100%;
+    width: 16%;
+    background-color: #254c6c;
+    opacity: 0.8;
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    padding: 1% 2% 2%;
+}
+
+
+
+
+.registration-background .registration_sidebar .top_logo:after {
+    content: "";
+    width: 273px;
+    height: 1px;
+    background-color: #e2e5e5;
+    margin: 0 auto;
+    opacity: 0.5;
+    display: inline-block;
+
+}
+
+.registration-background .sidebar_top .top_icons .icon {
+    font-size: 20px;
+    color: white;
+    padding-right: 5%;
+    line-height: 27px;
+}
+
+.registration-background .sidebar_top .top_icons .icon:last-child {
+    padding-right: 0;
+}
+
+.icon-ios:before {
+    content: "\e90c";
+}
+
+.icon-android:before {
+    content: "\e90a"
+}
+
+.icon-windows:before {
+    content: "\e90d"
+}
+
+.icon-devices:before {
+    content: "\e959"
+}
+
+.icon-phone:before {
+    content: "\e600";
+}
+
+.icon-whatsapp:before {
+    content: "\e95d";
+}
+
+.icon-email:before {
+    content: "\e69f";
+}
+
+.icon-fax:before {
+    content: "\e95c";
+}
+
+.registration-background .sidebar_top .top_icons:after {
+    content: "";
+    height: 1px;
+    width: 170px;
+    background-color: #e2e5e5;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    opacity: 0.5;
+}
+
+.registration-background .top_icons {
+    padding-top: 0.3em;
+    position: relative;
+    margin-bottom: 0.3em;
+}
+
+.registration-background .sidebar_top .sockets_layer {
+    font: 0.9em Ubuntu, Arial, Helvetica sans-serif;
+    color: #d2d2d2;
+    font-weight: 600;
+}
+
+.registration-background .secure_content .secure_logos {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.registration-background .secure_content:after {
+    content: "";
+    height: 1px;
+    width: 170px;
+    background-color: #e2e5e5;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 5%;
+    opacity: 0.5;
+}
+
+.registration-background .registration_contacts {
+    text-align: left;
+    margin-top: 5%;
+    font: 0.8em Ubuntu, Arial, Helvetica sans-serif;
+    color: #d2d2d2;
+}
+
+.registration-background .whatapp_under_txt {
+    font-size: 0.8em;
+    margin-left: 11%;
+    display: block;
+}
+
+.registration-background .sidebar_contacts .phone_number {
+    margin: 4% 0 3% 0;
+}
+
+.registration-background .top_logo img {
+    width: 100%;
+}
+
+.registration-background .secure_logos img{
+    width: 30%;
+}
+
+.registration-background .contact_info {
+    margin-bottom: 4%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.registration-background .soc_icons_text {
+    display: inline-block;
+    font: 0.8em Ubuntu, Arial, Helvetica sans-serif;
+    color: #d2d2d2;
+    font-weight: 600;
+}
+
+.registration-background .registration_social_icons {
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.registration-background .registration_text_info {
+    font-size: calc(0.5em + 0.6vmin);
+    color: #d2d2d2;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.registration-background .registration_text_info:after {
+    content: "";
+    width: 273px;
+    height: 1px;
+    background-color: #e2e5e5;
+    margin: 0 auto;
+    opacity: 0.5;
+    display: inline-block;
+
+}
+
+.registration-background .registration_contacts .icon {
+    padding-right: 15px;
+    font-size: 20px;
+    vertical-align: middle;
+} 
+
+.registration-background .registration_contacts span {
+    vertical-align: middle;
+} 
+
+.registration-background .registration_sidebar_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.registration-background .registration_sidebar_bottom span {
+    display: flex;
+    align-items: center;
+    max-width: 20%;
+    height: 1.2em;
+    float: left;
+    padding: 0 3%;
+    border-right: 1px solid rgba(226, 228, 228, 0.5);
+}
+
+.registration-background .registration_sidebar_bottom span:first-child {
+    padding-left: 0;
+}
+
+.registration-background .registration_sidebar_bottom span:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.registration-background .registration_sidebar_bottom span img {
+    width: 100%;
+    float: left;
+}
+
+
+.registration-background .contact_text {
+    font-weight: 600;
+}
+
+.registration-form {
+    overflow: hidden;
+}

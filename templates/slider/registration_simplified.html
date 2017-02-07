@@ -1,5 +1,5 @@
 <div ng-controller="RegistrationController as regCtrl" ng-init="registerByEmail = true; registrationStep = 1;regFormInit()"
-    class="form-register-layout {{conf.registration.type}}-registration">
+    class="form-register-layout {{conf.registration.type}}-registration registration-background">
     <form name="registerform"  ng-keypress="keyPress($event)" class="registration-form" novalidate="novalidate" id="simplified-reg-form">
     <!--registration step1-->
     <div class="popup-layout-registration"  ng-show="registrationStep === 1 && !registrationComplete && !registrationFailed">
@@ -109,6 +109,68 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="registration_sidebar">
+                <div class="registration_sidebar_col">
+                    <div class="top_logo">
+                        <img src="images/registration_sidebar/logo.png">
+                    </div>
+                    <div class="top_icons">
+                        <span class="icon icon-ios"></span>
+                        <span class="icon icon-android"></span>
+                        <span class="icon icon-windows"></span>
+                        <span class="icon icon-devices"></span>
+                    </div>
+                    <div class="secure">
+                        <span class="sockets_layer">Secure Sockets Layer</span>
+                        <div class="secure_content">
+                        <div class="secure_logos">
+                            <img src="images/registration_sidebar/comondo.png">
+                            <img src="images/registration_sidebar/network.png">
+                            <img src="images/registration_sidebar/geocerts.png">
+                        </div>
+                        <div class="secure_logos">
+                            <img src="images/registration_sidebar/symantes.png">
+                            <img src="images/registration_sidebar/thawte.png">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="registration_sidebar_col">
+                    <div class="registration_contacts">
+                        <span class="title">CONTACT US</span>
+                        <div class="contact_info"><span class="icon icon-phone"></span>+55 11-97154-6997</div>
+                        <div class="contact_info"><span class="icon icon-whatsapp"></span>
+                            <div>
+                                <span>+55 11-97154-6997</span>
+                                <span class="whatapp_under_txt " >Whatsapp Number</span>
+                            </div>
+                        </div>
+                        <div class="contact_info"><span class="icon icon-email"></span>Email: info@loungebet.com</div>
+                        <div class="contact_info"><span class="icon icon-fax"></span>Fax</div>
+                    </div>
+                    <div class="registration_social_icons">
+                        <div class="title">FOLLOW US:</div>
+                        <span><img src="images/registration_sidebar/fb.png"></span>
+                        <span><img src="images/registration_sidebar/tw.png"></span>
+                        <span><img src="images/registration_sidebar/in.png"></span>
+                    </div>
+                </div>
+
+                <div class="registration_sidebar_col">
+                    <dir class="registration_text_info">
+                        The website Loungebet.com is operated by Riotagaming B.V., a company registered in accordance with Curacao Law, registration No. 141341, Address: Dr. M.J. Hugenholtzweg Z/N UTS-Gebouw, Curacao; Riotagaming B.V is licensed and regulated by the Curacao Gaming Authority and operates under the License No. 1668/JAZ issued to Curaçao eGaming, Authorized and Regulated by the Government of Curaçao.
+                    </dir>
+                    <div class="registration_sidebar_bottom">
+                        <span><img src="images/registration_sidebar/bmm.png"></span>
+                        <span><img src="images/registration_sidebar/certificate_2.png"></span>
+                        <span><img src="images/registration_sidebar/layer.png"></span>
+                        <span><img src="images/registration_sidebar/18+.png"></span>
+                        <span><img src="images/registration_sidebar/Curacao.png"></span>
+                    </div>
+                </div>
+
             </div>
             <div class="close-popup-overlay" ng-click="broadcast('slider.close')"></div>
     </div>

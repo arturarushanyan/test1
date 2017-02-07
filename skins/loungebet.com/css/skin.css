@@ -67785,9 +67785,14 @@ input::-ms-clear {
         padding: 0;
     }
 }
-=======
+
 .registration-background {
     background-color: transparent;
+}
+
+.registration-background .logo-form-b {
+    width: 50%;
+    margin: 0 25% 24px;
 }
 
 .registration-background .popup-layout-registration .close-popup-overlay {
@@ -68019,7 +68024,7 @@ input::-ms-clear {
     justify-content: space-between;
 }
 
-.registration-background .registration_sidebar_col{
+.registration-background  .registration_sidebar_col {
     display: table-row;
 }
 .registration-background  .registration_sidebar_col > * {
@@ -68058,4 +68063,3 @@ input::-ms-clear {
 .registration-form {
     overflow: hidden;
 }
->>>>>>> 63e626cb22c7ceb70b28b0dbb22b5b49f7996984

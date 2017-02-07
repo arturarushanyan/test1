@@ -67924,7 +67924,7 @@ body {
 .registration-background .registration_sidebar_bottom {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .registration-background .registration_sidebar_col{
@@ -67965,16 +67965,4 @@ body {
 
 .registration-form {
     overflow: hidden;
-}
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-    .registration-background .registration_sidebar {
-        left: 98%;
-    }
-    .registration-background .vertical-middle-wrapper {
-        left: 50%;
-    }
-}
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
-
 }

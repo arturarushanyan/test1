@@ -3932,7 +3932,6 @@ div.expanded-tabs .list-result{
     top: 96%;
     border-radius: 3px;
     z-index: 2222;
-    transition-delay: 300ms;
 }
 .form-text > div:hover + .password-info-t,
 .tooltip-reg-password.password-info-t,
@@ -4376,7 +4375,7 @@ form.ng-pristine .form-error-icon, form.registration-form.ng-dirty .form-error-i
     right: 14px;
     bottom: -5px;
 }
-form.ng-dirty .form-text.error .form-error-icon, form.ng-dirty .form-text.error .form-error-text,
+form.ng-dirty .form-text.error .form-error-icon,form.ng-dirty .form-text.valid .form-error-icon, form.ng-dirty .form-text.error .form-error-text,
 form.registration-form.ng-dirty .form-text.error .form-error-icon, form.ng-dirty .form-text.error .form-error-text,
 .form-text.error .form-error-icon, .form-text.error .form-error-text, .city-form-block.error .form-error-text,
 .select-block.error .form-error-text{display: block;}

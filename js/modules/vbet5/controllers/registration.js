@@ -42,6 +42,7 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
             birth_month: '',
             phone_code: '1',
             agree: false,
+            birthagree: false,
             affiliate_id: ''
         };
 
@@ -60,7 +61,7 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
             });
         }
 
-
+        
 
         /**
          * @ngdoc method
@@ -456,10 +457,12 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
          * @description registers the user
          */
         $scope.register = function register() {
+
             $scope.busy = true;
 
-            if ($scope.registerform.$invalid || $scope.countryIsRestricted || ($scope.userAge !== undefined && $scope.userAge < minimumAllowedAge)) {
+            if ($scope.registerform.$invalid) {
                 $scope.busy = false;
+
                 return;
             }
 

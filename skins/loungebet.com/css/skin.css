@@ -15107,6 +15107,26 @@ form.ng-pristine .form-text.error input {
     color: #7c8292;
 }
 
+.popup-layout-registration .registration-ok .name-popup-registratin-b {
+    display: none;
+}
+
+.popup-layout-registration .registration-ok .register-contain-new.popup-err-success {
+    margin: 0;
+}
+
+.popup-layout-registration .registration-ok .register-contain-new.popup-err-success .closed-popup-form {
+    top: 15px;
+    right: 15px;
+}
+
+.popup-layout-registration .registration-ok .register-contain-new.popup-err-success .closed-popup-form {
+    content: '\e117';
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
 .registration-failed p.error {
     color: #f00;
 }
@@ -24926,7 +24946,7 @@ label.reg-cup-register-j:nth-of-type(even) {
 
 .register-steps-b .form-text > div:hover + .password-info-t, .register-steps-b .tooltip-reg-password.password-info-t,
 .register-steps-b .reg-form-input-number > div:hover + .password-info-t {
-    right: calc(100% + 10px);
+    right: 0;
     left: auto;
 }
 
@@ -45153,12 +45173,15 @@ top-game-block {
     margin-top: 20px;
 }
 
+/* 
+Disable registration to 
+display:none
+*/
 .homepage .header-wrapper .signin-reg-buttons-b > ul > li > button {
-    display: none;
+    display: block;
 }
-
 .header-wrapper .signin-reg-buttons-b > ul > li:nth-child(2) {
-    display: none;
+    display: block;
 }
 
 .homepage .header-wrapper .user-nav-wrapper {
@@ -46220,7 +46243,7 @@ top-game-block {
     text-align: center;
     display: inline-block;
     float: left;
-    margin-right: 5px
+    margin-right: 5px;
     padding: 0;
     font: 14px/40px Arial, Helvetica, sans-serif;
     color: #ffffff;
@@ -60093,6 +60116,245 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         border-radius: 6px;
     }
 
+    form.registration-form .register-steps-b  {
+        width: 635px;
+        padding: 24px 30px 14px 30px;
+    }
+
+    form.registration-form .register-steps-b  .closed-popup-form {
+        right: 15px;
+        top: 15px;
+    }
+
+    form.registration-form .register-steps-b  .closed-popup-form:before {
+        content: '\e117';
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    form.registration-form .register-steps-b .form-text label {
+        position: absolute;
+        margin: 0;
+        top: 15px;
+        left: 15px;
+        color: #7c8292;
+        font-size: 14px;
+        transition: 0.2s easy;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+    }
+
+    form.registration-form .register-steps-b  label.focused {
+        top: 5px;
+        line-height: 10px;
+        font-size: 10px;
+        color: #7c8292;
+        pointer-events: none;
+    }
+
+    form.registration-form .register-steps-b  input.focused {
+        padding-top: 6px;
+        color: #244747;
+        -webkit-text-fill-color:#244747;
+    }
+
+    form.registration-form .register-steps-b .account-link-b label {
+        display: inline-block;
+        padding: 0 10px 0 0;
+        color: #7c8292;
+        margin: 0;
+        width: auto;
+        float: none;
+        font-size: 12px;
+    }
+
+    form.registration-form .register-steps-b .hint {
+        border: none;
+    }
+
+    form.registration-form .register-steps-b .form-error-text,
+    form.registration-form .register-steps-b .password-info-t {
+        position: relative;
+        left: 0;
+        top: 8px;
+        width: 565px;
+        box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.07);
+        background-color: #fffef6;
+    }
+
+    form.registration-form .error-icon-f:before,
+    form.registration-form .register-steps-b .password-info-t:before{
+        display: none;
+    }
+
+    form.registration-form .form-text.valid > div > input{
+        border: 1px solid #52a178;
+    }
+
+    form.registration-form .error-icon-f {
+        width: 8px;
+        height: 8px;
+        background-color: #fffef6;
+        transform: rotateZ(45deg);
+        top: -5px;
+        left: 11px;
+        border-left: 1px solid rgba(0, 0, 0, 0.07);
+        border-top: 1px solid rgba(0, 0, 0, 0.07);
+    }
+
+    form.registration-form .form-error-text > .error-icon-f {
+        border-left: 1px solid rgba(210, 72, 72, 0.4);
+        border-top: 1px solid rgba(210, 72, 72, 0.4);
+    }
+
+    .block-slider.popup form.registration-form .register-steps-b .form-error-icon {
+        top: 12px;
+    }
+
+    .block-slider.popup form.registration-form .register-steps-b .error .form-error-icon:before {
+        content: "\e117" !important;
+    }
+    .block-slider.popup form.registration-form .register-steps-b .valid .form-error-icon:before {
+        content: "\e625" !important;
+        color: #52a178;
+        display: block;
+    }
+
+    form.registration-form .register-steps-b .field-separator .form-text > div >input  {
+        height: 44px;
+        padding-top: 8px;
+        color: #303739;
+        -webkit-text-fill-color: #303739;
+    }
+
+    form.registration-form .register-steps-b .select-block {
+        width: 278px;
+        height: 44px;
+        margin: 0 17px 15px 0;
+    }
+
+    form.registration-form .register-steps-b .select-block label {
+        position: absolute;
+        margin: 0;
+        line-height: 0;
+        font-size: 10px;
+        color: #7c8292;
+        pointer-events: none;
+        left: 15px;
+        top: 9px;
+    }
+
+    form.registration-form .register-steps-b .select-block.big .vb-select {
+        border: 1px solid #a6aba8;
+    }
+
+    form.registration-form .register-steps-b .select-block select {
+        width: 100%;
+        height: 42px;
+        padding: 8px 38px 0px 14px;
+        color: #303739;
+        -webkit-text-fill-color: #303739;
+    }
+
+    form.registration-form .register-steps-b .field-separator .form-text {
+        float: left;
+        position: relative;
+        width: 280px;
+        margin: 0 15px 15px 0;
+    }
+
+    form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text {
+        margin: 0 0 15px 0;
+    }
+
+    form.registration-form .register-steps-b .form-error-text p {
+        color: #d14343;
+    }
+
+    form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text .form-error-text,
+    form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text .password-info-t {
+        left: -295px;
+    }
+
+    form.registration-form .register-steps-b .field-separator .form-text .form-error-text.tooltipVisible {
+        height: 100%;
+        overflow: visible;
+    }
+
+    form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text .error-icon-f {
+        left: calc(100% - 22px);
+    }
+
+    form.registration-form .register-steps-b .register-contain-new .button-confirm > button {
+        background: #ff8067;
+        cursor: default;
+        width: 220px;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    form.registration-form .register-steps-b .field-separator .Input_password.rainbow-border:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 41px;
+        background-image: url(../images/rainbow_border.png);
+        width: 100%;
+        height: 3px;
+        transition: all 0.3s;
+    }
+
+    form.registration-form .mini-checkbox-b > input[type="checkbox"] + label:before {
+        width: 14px;
+        height: 14px;
+        border-radius: 3px;
+    }
+
+    form.registration-form .checkbox-separator,
+    form.registration-form .account-link-b {
+        margin: 0 0 10px 0;
+    }
+
+    form.registration-form .checkbox-separator,
+    form.registration-form .account-link-b
+
+    form.registration-form .register-steps-b .form-error-text p:first-of-type ,
+    form.registration-form .register-steps-b .password-info-t p:first-of-type {
+        padding-top: 0;
+    }
+
+    form.registration-form .register-contain-new > .account-link-b {
+        text-align: left;
+    }
+
+    form.registration-form .register-contain-new .button-confirm + .account-link-b {
+        margin-top: 15px;
+    }
+
+    form.registration-form .register-steps-b .mini-checkbox-b > .form-error-text {
+        top: 0;
+        margin-top: 25px;
+        left: -8px;
+    }
+
+    form.registration-form .select-block.big .vb-select:after {
+        font-size: 26px;
+        top: 10px;
+    }
+
+    form.registration-form .select-block.big .vb-select.open:after {
+        transform: rotateZ(180deg);
+    }
+
+    form.registration-form .select-block.mini .vb-select:after,
+    form.registration-form .select-block.big .vb-select:after,
+    form.registration-form .city-form-block.new .vb-select:after {
+        font-size: 26px;
+        top: 10px;
+        height: 24px;
+    }
+
     .block-slider.popup {
         z-index: 99999;
         top: 0;
@@ -64177,7 +64439,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         height: 26px;
     }
 
-    .game-control.soccer .flip-card > table > tbody > tr > th:nth-child(1), {
+    .game-control.soccer .flip-card > table > tbody > tr > th:nth-child(1) {
         border-radius: 4px 0 0 0;
     }
 
@@ -66044,7 +66306,7 @@ input::-ms-clear {
     left: 0;
     background: -moz-linear-gradient(top,transparent,rgba(0,0,0,.7));
     background: -webkit-linear-gradient(top,transparent,rgba(0,0,0,.7));
-    background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.7))
+    background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.7));
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00105b63', endColorstr='#f5105b63',GradientType=0 );
     border-radius: 0 0 4px 4px;
     transition: height 400ms;

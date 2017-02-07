@@ -25434,7 +25434,7 @@ label.reg-cup-register-j:nth-of-type(even) {
 }
 
 .block-sign-in-form.reset-password form .button-sign {
-    float: none; 
+    float: none;
     width: 100%;
     margin: 0;
     padding: 10px 0 15px 0;
@@ -25460,7 +25460,7 @@ label.reg-cup-register-j:nth-of-type(even) {
     border-radius: 4px;
 }
 
-.block-sign-in-form.reset-password .register-steps-b .form-error-text, 
+.block-sign-in-form.reset-password .register-steps-b .form-error-text,
 .block-sign-in-form.reset-password .register-steps-b .password-info-t {
     top: 5px;
 }
@@ -45173,8 +45173,8 @@ top-game-block {
     margin-top: 20px;
 }
 
-/* 
-Disable registration to 
+/*
+Disable registration to
 display:none
 */
 .homepage .header-wrapper .signin-reg-buttons-b > ul > li > button {
@@ -45586,7 +45586,7 @@ display:none
     font-weight: bold;
     position: relative;
     padding: 0;
-}   
+}
 
 .separator-contain-nav:first-child .settings-icon-contain.leng-b {
     margin: 8px 2px;
@@ -47477,7 +47477,7 @@ display:none
     display: block;
     border-radius: 4px 4px 0 0;
     background-color: #fffef6;
-    box-shadow: 0 0 0 1px #7c8292 inset; 
+    box-shadow: 0 0 0 1px #7c8292 inset;
     height: 36px;
     top: -3px;
 }
@@ -47503,7 +47503,7 @@ display:none
     border: none;
     border-bottom: 1px solid #7c8292;
     border-left: 1px solid #7c8292;
-    z-index: 100; 
+    z-index: 100;
 }
 
 .second-row-filter-v3.search-visible .search-box-v3 .block-search .search-results-container {
@@ -48807,7 +48807,7 @@ display:none
     text-decoration: none;
     outline: none;
 }
-.contacts-buttons .btn-contact:last-of-type { 
+.contacts-buttons .btn-contact:last-of-type {
     margin-right: 0;
 }
 
@@ -48962,7 +48962,7 @@ display:none
 .all-game-info-container-v3 {
     box-sizing: border-box;
     float: left;
-    width: calc(100% - 4px);   
+    width: calc(100% - 4px);
     width: 100%;
     height: 100%;
 }
@@ -50854,14 +50854,14 @@ display:none
     height: 162px;
 }
 
-.video-animation-vox-v3 .video-player-container .md-progress-circular, 
+.video-animation-vox-v3 .video-player-container .md-progress-circular,
 .video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner,
 .video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner .md-left .md-half-circle,
 .video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner .md-right .md-half-circle {
     width: 60px;
     height: 60px;
 }
-.video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner .md-left, 
+.video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner .md-left,
 .video-animation-vox-v3 .video-player-container .md-progress-circular .md-inner .md-right {
     height: 60px;
     width: 30px;
@@ -59604,7 +59604,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         list-style: none;
         position: relative;
     }
- 
+
     .game-center-container-multi-v3 .dndPlaceholder, .game-center-container-multi-v3 .multiview-contain:nth-child(even) {
         margin-right: 0;
     }

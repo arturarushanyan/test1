@@ -389,7 +389,7 @@ VBET5.constant('SkinConfig', {
                 "type": "text",
                 "required": true,
                 "classes": "form-text",
-                "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[a-zA-Z0-9\\_\\-]{4,16}$/"}],
+                "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[a-zA-Z0-9\\_\\-]{4,16}$/"}, {"prevent-input": "/^[\\S ]+$/"}],
                 "validation": [{"name": "required", "message": "Oops! You forgot to enter your username."}, {
                     "name": "exists",
                     "message": "Oops! The username has already been registered. Please enter another username."

@@ -60294,8 +60294,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         float: none;
     }
 
-    form.registration-form .register-steps-b .field-separator .Input_password.rainbow-border:after {
-        content: '';
+    form.registration-form .register-steps-b #id_password .progress  > div {
         display: block;
         position: absolute;
         top: 41px;
@@ -60330,6 +60329,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
     form.registration-form .register-contain-new .button-confirm + .account-link-b {
         margin-top: 15px;
+        margin-bottom:0;
     }
 
     form.registration-form .register-steps-b .mini-checkbox-b > .form-error-text {
@@ -60488,14 +60488,9 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     .register-steps-b .form-text > div > input:-webkit-autofill,
-    .form-register-layout.signin .field-separator .form-text > input:-webkit-autofill {
-        box-shadow: 0 0 0 100px #f3f2e9 inset;
-        -webkit-text-fill-color: #7c8292;
-    }
-
-    .register-steps-b .form-text > div > input:-webkit-autofill:focus,
+    .form-register-layout.signin .field-separator .form-text > input:-webkit-autofill,
     .form-register-layout.signin .field-separator .form-text > input:-webkit-autofill:focus {
-        box-shadow: 0 0 0 100px #f3f2e9 inset;
+        box-shadow: 0 0 0 100px white inset;
         -webkit-text-fill-color: #7c8292;
     }
 
@@ -67685,6 +67680,7 @@ input::-ms-clear {
     box-shadow: none;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1440px) {
     .betslip-expanded .right-column-v3 {
         width: 500px;
@@ -67787,3 +67783,277 @@ input::-ms-clear {
         padding: 0;
     }
 }
+=======
+.registration-background {
+    background-color: transparent;
+}
+
+.registration-background .popup-layout-registration .close-popup-overlay {
+    background-image: url("/images/backgrounds/registration-bg.jpg");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    -webkit-box-shadow: inset 0px -137px 148px -64px rgba(0,0,0,0.47);
+    -moz-box-shadow: inset 0px -137px 148px -64px rgba(0,0,0,0.47);
+    box-shadow: inset 0px -137px 148px -64px rgba(0,0,0,0.47);
+}
+
+.registration-background .vertical-middle-wrapper {
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.registration-background .registration_sidebar {
+    display: table;
+    height: 100%;
+    width: 334px;
+    background-color: rgba(37, 76, 108, 0.8);
+
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    padding: 1.5%;
+}
+
+.registration-background .registration_sidebar .top_logo:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #4b6564;
+    margin: 0 auto;
+    opacity: 0.5;
+    display: inline-block;
+    margin-top: 6%;
+}
+
+.registration-background .top_icons .icon {
+    font-size: 3vh;
+    color: #d2d2d2;
+    padding-right: 8%;
+    line-height: 27px;
+}
+
+.registration-background .top_icons .icon:last-child {
+    padding-right: 0;
+}
+
+.icon-ios:before {
+    content: "\e90c";
+}
+
+.icon-android:before {
+    content: "\e90a"
+}
+
+.icon-windows:before {
+    content: "\e90d"
+}
+
+.icon-devices:before {
+    content: "\e959"
+}
+
+.icon-phone:before {
+    content: "\e600";
+}
+
+.icon-whatsapp:before {
+    content: "\e95d";
+}
+
+.icon-email:before {
+    content: "\e69f";
+}
+
+.icon-fax:before {
+    content: "\e95c";
+}
+
+.registration-background .top_icons:after {
+    content: "";
+    height: 1px;
+    width: 50%;
+    background-color: #4b6564;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 10%;
+    opacity: 0.5;
+}
+
+.registration-background .secure {
+    padding-top: 4%;
+}
+
+.registration-background .top_icons {
+    position: relative;
+    padding-top: 9%;
+}
+
+.registration-background .sockets_layer {
+    font: 1.6vh Ubuntu, Arial, Helvetica sans-serif;
+    color: #d2d2d2;
+    font-weight: 600;
+    margin: 2% 0 3%;
+}
+
+.registration-background .secure .secure_content .secure_logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.registration-background .secure .secure_content:after {
+    content: "";
+    height: 1px;
+    width: 50%;
+    background-color: #4b6564;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 5%;
+    opacity: 0.5;
+}
+
+.registration-background .registration_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    color: #d2d2d2;
+    margin-top: 5%;
+}
+
+.registration-background span.whatapp_under_txt {
+    font-size: 12px;
+    margin-left: 11%;
+    margin-top: 5px;
+    display: block;
+}
+
+.registration-background .sidebar_contacts .phone_number {
+    margin: 4% 0 3% 0;
+}
+
+.registration-background .top_logo img {
+    width: 100%;
+}
+
+.registration-background .secure_logos img{
+    width: 25%;
+    margin-right: 7.5%;
+}
+
+.registration-background .secure_logos img:last-of-type {
+    margin-right: 0;
+}
+
+.registration-background .contact_info {
+    margin-bottom: 3%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vh;
+    margin-left: 0;
+}
+
+.registration-background .title {
+    display: inline-block;
+    font: 13px Ubuntu, Arial, Helvetica sans-serif;
+    color: #d2d2d2;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.registration-background .registration_social_icons {
+    text-align: left;
+    margin-top: 10%;
+}
+
+.registration-background .registration_social_icons .title {
+    margin-right: 12px;
+}
+
+.registration-background .registration_social_icons span img {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.registration-background .registration_text_info {
+    font-size: 15px;
+    line-height: 2.5vh;
+    color: #d2d2d2;
+    padding: 0;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+.registration-background .registration_text_info:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #4b6564;
+    margin: 0 auto;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+.registration-background .registration_contacts .icon {
+    padding-right: 22px;
+    font-size: 24px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.registration-background .registration_contacts span {
+    vertical-align: middle;
+    margin-bottom: 4%;
+}
+
+.registration-background .registration_sidebar_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registration-background .registration_sidebar_col{
+    display: table-row;
+}
+.registration-background  .registration_sidebar_col > * {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.registration-background .registration_sidebar_bottom span {
+    display: flex;
+    align-items: center;
+    max-width: 20%;
+    height: 1.2em;
+    float: left;
+    padding: 0 3%;
+    border-right: 1px solid rgba(75, 101, 100, 0.5);
+}
+
+.registration-background .registration_sidebar_bottom span:first-child {
+    padding-left: 0;
+}
+
+.registration-background .registration_sidebar_bottom span:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.registration-background .registration_sidebar_bottom span img {
+    width: 100%;
+    float: left;
+}
+
+.registration-background .contact_text {
+    font-weight: 600;
+}
+
+.registration-form {
+    overflow: hidden;
+}
+>>>>>>> 63e626cb22c7ceb70b28b0dbb22b5b49f7996984

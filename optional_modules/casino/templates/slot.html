@@ -80,6 +80,24 @@
                         </ul>
                     </div>
 
+                    <div class="category-filter-v3" ng-class="{'active': showCategoryDropDown}">
+                        <p ng-show="categories.length" ng-click="showCategoryDropDown = !showCategoryDropDown" hide-on-click state-flag-var="showCategoryDropDown">
+                            <span>Specials</span>
+                            <i class="category-arrow-rotate-filter-v3"></i>
+                        </p>
+                        <div class="casino-slot-menu-contain-jf">
+                            <ul>
+                                <li ng-repeat="category in categories track by category.id" ng-hide="category.id === '65' || category.id === '95' || category.id === '93'"
+                                    ng-class="{'active': selections.category.id === category.id}"
+                                    ng-click="selectCategory(category)">
+                                    <a>
+                                        <p>{{category.title | translate : null : 'Casino ' + category.title }}</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                     </div>
+
                     <div class="games-info-list-r-j">
 
 

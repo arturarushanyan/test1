@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0; font-size: 100%;vertical-align: baseline;background: transparent;}body {line-height: 1;}ol, ul, li {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;color: #FFF;font: 14px Arial, Helvetica, sans-serif;}:focus {outline: 0;}ins {text-decoration: none;}del {text-decoration: line-through;}table {border-collapse: collapse;border-spacing: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0; font-size: 100%;vertical-align: baseline;background: transparent;} ol, ul, li {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;color: #FFF;font: 14px Arial, Helvetica, sans-serif;}:focus {outline: 0;}ins {text-decoration: none;}del {text-decoration: line-through;}table {border-collapse: collapse;border-spacing: 0;}
 html{height: 100%;}
 ::selection{background: #a5aabc;}
 ::-moz-selection{background: #a5aabc;}
@@ -48,6 +48,9 @@ select{
 body{
     width: 100%;
     height: auto;
+    line-height: 1;
+    background: #e6e5dc;
+    font: 13px Ubuntu, Arial, Helvetica, sans-serif;
     overflow: visible !important;
     margin: 0 auto auto;
     -ms-user-select: none;
@@ -7377,6 +7380,13 @@ div.big-game-contain.scrolled,  div.explorer.scrolled {}
     min-width: 980px;
     display: block;
     position: relative;
+    box-sizing: border-box;
+    height: 300px;
+    margin: 0;
+    background: #dfd8c7;
+    box-shadow: 0 -2px 20px #919191;
+    border-top: 5px solid #d1cabb;
+    z-index: 30;
 }
 .contain-footer.no-footer-nav{
     display: none !important;
@@ -8942,6 +8952,7 @@ div.draws-contain{
     float: left;
     width: calc(100% - 22px);
     border-radius: 0 0 4px 4px;
+    min-height: 457px;
 }
 .question-faq ul{
     float: left;
@@ -9934,7 +9945,7 @@ div.draws-contain{
     z-index: 99999;
     bottom: 0;
     left: calc((100% - 60px) / 2);
-    background: #000000;
+    background: #d1cabb;
     font: 16px/18px icomoon;
     color: #ffffff;
     text-align: center;
@@ -9946,7 +9957,7 @@ div.draws-contain{
 .body-wrapper.no-animations ~ .footer-button{transition-duration: inherit;}
 .footer-button:hover{ opacity: 1;}
 .footer-button:before{content: "\e66d";}
-.footer-button.footer-button-open{opacity: 1;}
+.footer-button.footer-button-open{opacity: 1; background: #d1cabb;}
 .footer-button.footer-button-open:before{content: "\e66c";}
 .old-18-year{
     position: absolute;

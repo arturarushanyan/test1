@@ -401,6 +401,7 @@ angular.module('vbet5').service('TopMenu', ['$rootScope', '$location', '$timeout
 
         if (!Utils.isObjectEmpty(Config.main.domainSpecificPrefixes)) {
             $scope.logoUrl = prefixLinkIfNeeded($scope.logoUrl);
+            $scope.logoUrlAuto = prefixLinkIfNeeded($scope.logoUrlAuto);
             angular.forEach(topMenuItems, function (menuItem) {
                 menuItem.href = prefixLinkIfNeeded(menuItem.href);
             });

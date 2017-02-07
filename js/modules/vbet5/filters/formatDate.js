@@ -44,7 +44,7 @@ VBET5.filter('formatDate', [ 'Moment', 'Config',  function (Moment, Config) {
                     doNotTranslateLocale = true; // TODO see below
                     break;
                 case 'noLocaleTranslate':
-                    format = Config.env.timeFormat === '12h' ? 'DD/MM/YYYY LT' : 'DD/MM/YYYY HH:mm';
+                    format = Config.env.timeFormat === '12h' ? 'DD/MM/YYYY LT' : 'DD/MM/YYYY HH:mm:ss';
                     doNotTranslateLocale = true; // TODO see below
                     break;
                 case 'noLocaleTime':

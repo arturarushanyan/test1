@@ -1,6 +1,6 @@
-<div class="casino-games-list-view-jf open-view-list">
+<div class="casino-games-list-view-jf" ng-class="{'open-view-list': openViewList}">
     <div class="title-category-game-b">
-        <h3><span>Slot</span></h3>
+        <h3 ng-click="openViewList = !openViewList" hide-on-click state-flag-var="openViewList"><span>Slot</span></h3>
     </div>
     <div class="slider-casino-container-jf">
         <div class="winner-list-box-j">

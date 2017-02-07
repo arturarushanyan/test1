@@ -37429,6 +37429,8 @@ input[type="password"]:focus ~ .capslock-is-on-j {
     float: left;
     width: 100%;
     height: 38px;
+    border-bottom: 0;
+    border-top: 0;
 }
 
 .live-cal16-day-selector-j .lc16-left-sport-section-j, .live-cal16-day-selector-j .lc16-right-section-j {
@@ -63011,7 +63013,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         font: 10px/26px Arial, Helvetica, sans-serif;
         color: #7c8292;
         text-transform: uppercase;
-        border-bottom: 1px solid #bec0c6;
+        border-bottom: 0;
+        border-top: 0;
     }
 
     .live-calendar-16-content-j ul:nth-child(even) li {
@@ -63167,12 +63170,12 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         box-shadow: none;
         border: 0;
         pointer-events: none;
-        border-bottom: 1px solid #bec0c6;
+        border-bottom: 0
     }
 
     .live-calendar-16-content-j ul.filter-j li.coeff-column-j + .coeff-column-j + .coeff-column-j {
         border: 0;
-        border-bottom: 1px solid #bec0c6;
+        border-bottom: 0;
     }
 
     .live-calendar-16-content-j li.more-column-j {

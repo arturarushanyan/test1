@@ -1,0 +1,52 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e6e5dc;
+    color: #3e4545;
+}
+
+.account-left-container{
+    width: 250px;
+    margin: 10px;
+}
+
+.acc-main-item, .account-heading{
+    border-radius: 4px;
+    background-color: #fffef6;
+    margin-bottom: 6px;
+    height: 34px;
+}
+
+.acc-main-item p, .account-heading h4{
+    margin: 0;
+    padding: 8px 10px;
+}
+
+.account-heading{
+    background-color: #105b63;
+    color: #ffffff;
+}
+
+.accordion-container>ul{
+    list-style: none;
+    background-color: #f5f4ec;
+    padding:0;
+    margin: 4px 0 0 0;
+    border-radius: 4px;
+}
+
+.accordion-container>ul>li{
+    width: 96%;
+    margin: 5px auto 5px auto;
+    background-color: #fffef6;
+    border-radius: 4px;
+    height: 29px;
+    border: 1px solid #d0cebe;
+
+}

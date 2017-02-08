@@ -13764,7 +13764,7 @@ form.ng-pristine .form-text.error input {
     color: #303838;
 }
 
-.form-sign-in select option, .help-rules.payments .select-block select option,
+.form-sign-in select option, 
 .form-calc-poker ul li .select-block select option {
     background: #1e2639;
 }

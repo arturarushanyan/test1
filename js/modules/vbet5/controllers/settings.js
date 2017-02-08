@@ -328,7 +328,7 @@ VBET5.controller('settingsCtrl', ['$scope', '$rootScope', '$location', 'Zergling
             $rootScope.$broadcast("globalDialogs.addDialog", {
                 type: 'error',
                 title: 'Error',
-                content: Translator.get('Error occured') + ' : ' + response.data
+                content: Translator.get('Error occured') + ' : ' + response                                   .data
             });
             console.log(response);
         });

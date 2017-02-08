@@ -18,6 +18,7 @@ angular.module('vbet5').constant('Config', {
         main_template: 'templates/main.html',
         skin: 'vbet.com',
         logoUrl: '#/',
+        logoUrlAuto: '#/sport/',
         appPokeristUrl: false,
         defaultTransLang: 'eng',  //default translation language
         translateToDefaultIfNotAvailable: true,  // translator will translate strings to default language if translation is not available for selected language

@@ -50,10 +50,10 @@
 }
 .animation-control .game-control .field-container .field {
   position: relative;
-  width: 92%;
+  width: 96%;
   height: auto;
-  margin: 0 4%;
-  padding-bottom: 46.80%;
+  margin: 0 2%;
+  padding-bottom: 49.80%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 100% 95%;
@@ -92,8 +92,8 @@
 }
 .animation-control .game-control.tennis .field-container .field {
   background-image: url(../images/animation/classic/tennis-field-2d.png);
-  width: 94%;
-  margin: 0 3%;
+  width: 96%;
+  margin: 0 2%;
   opacity: 0.8;
 }
 .animation-control .game-control.basketball {
@@ -110,8 +110,8 @@
 }
 .animation-control .game-control.basketball .field-container .field {
   background-image: url(../images/animation/classic/basketball-field-3d.png);
-  width: 94%;
-  margin: 0 3%;
+  width: 96%;
+  margin: 0 2%;
   opacity: .8;
 }
 .animation-control .game-control.basketball .basket {
@@ -547,15 +547,15 @@
 
 .betslip-expanded .animation-control .game-control > .field-container > .field > .DangerousAttack.home .attack-div .attack-dir,
 .betslip-expanded .animation-control .game-control > .field-container > .field > .Attack.home .attack-div .attack-dir {
-    top: 12.5%;
-    border-width: 84px 0 84px 28px;
+    top: 8%;
+    border-width: 129px 0 129px 28px;
     right: 28px;
 }
 
 .betslip-expanded .animation-control .game-control > .field-container > .field > .DangerousAttack.away .attack-div .attack-dir,
 .betslip-expanded .animation-control .game-control > .field-container > .field > .Attack.away .attack-div .attack-dir {
-    top: 12.5%;
-    border-width: 84px 28px 84px 0;
+    top: 8%;
+    border-width: 129px 28px 129px 0;
     left: -28px;
 }
 
@@ -565,23 +565,23 @@
 }
 
 .animation-control .game-control .Attack.home .attack-div, .animation-control .game-control .DangerousAttack.home .attack-div {
-  border-width: 63px 0 62px 21px;
+  border-width: 67px 0 67px 21px;
   background: linear-gradient(90deg, transparent, red);
 }
 .animation-control .game-control .Attack.home .attack-div .attack-dir, .animation-control .game-control .DangerousAttack.home .attack-div .attack-dir {
-  border-width: 62px 0 61px 21px;
-  top: 17%;
+  border-width: 67px 0 67px 21px;
+  top: 16%;
   right: -21px;
   left: 100%;
   border-color: transparent transparent transparent red;
 }
 .animation-control .game-control .Attack.away .attack-div, .animation-control .game-control .DangerousAttack.away .attack-div {
-  border-width: 63px 21px 62px 0;
+  border-width: 67px 21px 67px 0;
   background: linear-gradient(90deg, red, transparent);
 }
 .animation-control .game-control .Attack.away .attack-div .attack-dir, .animation-control .game-control .DangerousAttack.away .attack-div .attack-dir {
-  border-width: 62px 21px 61px 0;
-  top: 17%;
+  border-width: 67px 21px 67px 0;
+  top: 16%;
   left: -21px;
   border-color: transparent red transparent transparent;
 }
@@ -1888,4 +1888,26 @@
     animation-timing-function: ease-out;
     box-shadow: 0 4px 3px rgba(60, 34, 1, 0.4), inset 0 0 5px #3b4d03;
   }
+}
+
+
+@media screen and (width: 1440px) {
+
+
+  .betslip-expanded .animation-control .game-control > .field-container > .field > .DangerousAttack.home .attack-div .attack-dir,
+  .betslip-expanded .animation-control .game-control > .field-container > .field > .Attack.home .attack-div .attack-dir {
+    top: 8%;
+    border-width: 111px 0 111px 28px;
+    right: 28px;
+  }
+
+  .betslip-expanded .animation-control .game-control > .field-container > .field > .DangerousAttack.away .attack-div .attack-dir,
+  .betslip-expanded .animation-control .game-control > .field-container > .field > .Attack.away .attack-div .attack-dir {
+    top: 8%;
+    border-width: 111px 28px 111px 0;
+    left: -28px;
+  }
+
+
+
 }

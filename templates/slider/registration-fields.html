@@ -4,24 +4,25 @@
          class="{{regItem.classes}}"
          ng-init="resetError[regItem.name] = true"
          ng-class="{
-         'error' : (!resetError[regItem.name] || registerform[regItem.name].blur) && registerform[regItem.name].$invalid && showFieldsValidation ,
-         'valid' : (!registerform[regItem.name].$invalid && showFieldsValidation )}
+         'error': (!resetError[regItem.name] || registerform[regItem.name].blur) && registerform.{{regItem.name}}.$viewValue.length && registerform[regItem.name].$invalid && showFieldsValidation ,
+         'valid' : registerform[regItem.name].$valid && showFieldsValidation }
          ">
 
-        <label for='Input_{{regItem.name}}' ng-class="focused || (registrationData[regItem.name].length && registerform[regItem.name].blur) ? 'focused': ''">
+        <label for='Input_{{regItem.name}}' ng-class="registerform.{{regItem.name}}.$viewValue.length > 0 || focused  ? 'focused': ''">
             <span ng-bind="regItem.title | translate"></span>
             <span class="hint" ng-if="regItem.required">*</span>
         </label>
 
-        <div vb-html-compiler="<input type='text' name='{{regItem.name}}' id='Input_{{regItem.name}}' ng-focus='focused = true' ng-blur='registerform[regItem.name].blur=true' ng-model='registrationData[regItem.name]'/>" custom-attrs="regItem.customAttrs"></div>
+        <div vb-html-compiler="<input type='text' name='{{regItem.name}}' id='Input_{{regItem.name}}' ng-focus='focused=true' ng-blur='registerform[regItem.name].blur=true;focused=false' ng-model='registrationData[regItem.name]'/>" custom-attrs="regItem.customAttrs"></div>
 
-        <div class="password-info-t" ng-if="resetError[regItem.name] && !registerform[regItem.name].blur" ng-show="regItem.tooltip && focused && registerform[regItem.name].$invalid">
+        <div class="password-info-t" ng-if="focused && registerform[regItem.name].$invalid">
             <div class="error-icon-f"></div>
             <p>{{regItem.tooltip|translate}}</p>
         </div>
 
-        <div class="form-error-icon" ng-click="resetFieldError(regItem.name)"></div>
-        <div ng-if="!resetError[regItem.name] || registerform[regItem.name].blur" class="form-error-text">
+        <div class="form-error-icon" ng-click="errorVisible = !errorVisible;"></div>
+
+        <div ng-if="!focused && errorVisible && !registerform[regItem.name].$valid" class="form-error-text">
             <div class="error-icon-f"></div>
             <p ng-repeat="val in regItem.validation"
                ng-show="registerform[regItem.name].$error[val.name]">
@@ -61,24 +62,26 @@
     <div ng-switch-when="email"
          class="{{regItem.classes}}"
          ng-init="resetError[regItem.name] = true"
-         ng-class="{'error': (!resetError[regItem.name] || registerform[regItem.name].blur) && registerform[regItem.name].$invalid && showFieldsValidation ,
+         ng-class="{
+         'error': (!resetError[regItem.name] || registerform[regItem.name].blur) && registerform.{{regItem.name}}.$viewValue.length && registerform[regItem.name].$invalid && showFieldsValidation ,
          'valid' : (!registerform[regItem.name].$invalid && showFieldsValidation )}
          ">
 
-        <label for='Input_{{regItem.name}}' ng-class="focused || (registrationData[regItem.name].length && registerform[regItem.name].blur) ? 'focused': ''">
+        <label for='Input_{{regItem.name}}' ng-class="registerform.{{regItem.name}}.$viewValue.length > 0 || focused  ? 'focused': ''">
             <span  ng-bind="regItem.title | translate"></span>
             <span class="hint" ng-if="regItem.required">*</span>
         </label>
 
-        <div vb-html-compiler="<input type='email' name='{{regItem.name}}' id='Input_{{regItem.name}}' ng-focus='focused = true' ng-blur='registerform[regItem.name].blur=true' ng-model='registrationData[regItem.name]'/>" custom-attrs="regItem.customAttrs"></div><!--ng-pattern='/^[\w!.%+\-]+@[\w\-]+(?:\.[\w\-]+)+$/'-->
+        <div vb-html-compiler="<input type='email' name='{{regItem.name}}' id='Input_{{regItem.name}}' ng-focus='focused = true' ng-blur='registerform[regItem.name].blur=true;focused = false' ng-model='registrationData[regItem.name]'/>" custom-attrs="regItem.customAttrs"></div><!--ng-pattern='/^[\w!.%+\-]+@[\w\-]+(?:\.[\w\-]+)+$/'-->
 
-        <div class="password-info-t" ng-if="resetError[regItem.name] && !registerform[regItem.name].blur" ng-show="regItem.tooltip && focused && registerform[regItem.name].$invalid">
+        <div class="password-info-t" ng-if="focused && registerform[regItem.name].$invalid">
             <div class="error-icon-f"></div>
             <p>{{regItem.tooltip|translate}}</p>
         </div>
 
-        <div class="form-error-icon" ng-click="resetFieldError(regItem.name)"></div>
-        <div class="form-error-text">
+        <div class="form-error-icon" ng-click="errorVisible = !errorVisible;"></div>
+
+        <div ng-if="!focused && errorVisible && !registerform[regItem.name].$valid" class="form-error-text">
             <div class="error-icon-f"></div>
             <p ng-repeat="val in regItem.validation"
                ng-show="registerform[regItem.name].$error[val.name]">
@@ -87,26 +90,32 @@
         </div>
     </div>
     <!-- INPUT TYPE PASSWORD -->
-    <div ng-switch-when="password"
+    <div id='id_{{regItem.name}}' ng-switch-when="password"
          class="{{regItem.classes}}"
          ng-init="resetError[regItem.name] = true"
-         ng-class="{'error': (!resetError[regItem.name] || registerform[regItem.name].blur) && registerform[regItem.name].$invalid && showFieldsValidation ,
+         ng-class="{
+         'error': (!resetError[regItem.name] || registerform[regItem.name].blur) && registerform.{{regItem.name}}.$viewValue.length && registerform[regItem.name].$invalid && showFieldsValidation ,
          'valid' : (!registerform[regItem.name].$invalid && showFieldsValidation )}
          ">
-        <label for='Input_{{regItem.name}}' ng-class="focused || (registrationData[regItem.name].length && registerform[regItem.name].blur) || registrationData[regItem.name].length ? 'focused': ''">
+        <label for='Input_{{regItem.name}}' ng-class="registerform.{{regItem.name}}.$viewValue.length > 0 || focused  ? 'focused': ''">
             <span ng-bind="regItem.title | translate"></span>
             <span class="hint" ng-if="regItem.required">*</span>
         </label>
 
-        <div ng-class="{'rainbow-border Input_{{regItem.name}}' : !registerform[regItem.name].$invalid}" vb-html-compiler="<input ng-init='toolTip=false' ng-focus='toolTip=true;focused=true' id='Input_{{regItem.name}}' ng-blur='toolTip=false; registerform[regItem.name].blur=true' type='password' name='{{regItem.name}}' ng-model='registrationData[regItem.name]'/>"
+        <div vb-html-compiler="<input ng-init='toolTip=false' ng-focus='toolTip=true;focused=true' id='Input_{{regItem.name}}' ng-blur='toolTip=false;registerform[regItem.name].blur=true;focused=false' type='password' name='{{regItem.name}}' ng-model='registrationData[regItem.name]'/>"
              custom-attrs="regItem.customAttrs"
              insert-after="<div ng-if='conf.showCapsLockHint && capsLockStateHolder[regItem.name]' class='capslock-is-on-j' trans>Caps Lock is On</div>"></div>
-        <div class="password-info-t" ng-if="resetError[regItem.name] && !registerform[regItem.name].blur" ng-show="regItem.tooltip && focused && registerform[regItem.name].$invalid">
+
+        <div ng-password-strength='registrationData[regItem.name]'></div>
+
+        <div class="password-info-t" ng-if="focused && registerform[regItem.name].$invalid">
             <div class="error-icon-f"></div>
             <p>{{regItem.tooltip|translate}}</p>
         </div>
-        <div class="form-error-icon" ng-click="resetFieldError(regItem.name)"></div>
-        <div class="form-error-text">
+
+        <div class="form-error-icon" ng-click="errorVisible = !errorVisible;"></div>
+
+        <div ng-if="!focused && errorVisible && !registerform[regItem.name].$valid" class="form-error-text">
             <div class="error-icon-f"></div>
             <p ng-repeat="val in regItem.validation"
                ng-show="registerform[regItem.name].$error[val.name]">
@@ -147,24 +156,25 @@
          class="{{regItem.classes}}"
          ng-init="resetError[regItem.name] = true"
          ng-class="{
-         'error' : (!resetError[regItem.name] || registerform[regItem.name].blur) && registerform[regItem.name].$invalid && showFieldsValidation ,
+         'error': (!resetError[regItem.name] || registerform[regItem.name].blur) && registerform.{{regItem.name}}.$viewValue.length && registerform[regItem.name].$invalid && showFieldsValidation ,
          'valid' : (!registerform[regItem.name].$invalid && showFieldsValidation )}
          ">
 
-        <label for='Input_{{regItem.name}}' ng-class="focused || (registrationData[regItem.name].length && registerform[regItem.name].blur) ? 'focused': ''">
+        <label for='Input_{{regItem.name}}' ng-class="registerform.{{regItem.name}}.$viewValue.length > 0 || focused  ? 'focused': ''">
             <span ng-bind="regItem.title | translate"></span>
             <span class="hint" ng-if="regItem.required">*</span>
         </label>
 
-        <div vb-html-compiler="<input type='text' name='{{regItem.name}}' id='Input_{{regItem.name}}' ng-focus='focused = true' ng-blur='registerform[regItem.name].blur=true' ng-model='registrationData[regItem.name]'/>" custom-attrs="regItem.customAttrs"></div>
+        <div vb-html-compiler="<input type='text' name='{{regItem.name}}' id='Input_{{regItem.name}}'  ng-focus='focused = true' ng-blur='registerform[regItem.name].blur=true;focused = false' ng-model='registrationData[regItem.name]'/>" custom-attrs="regItem.customAttrs"></div>
 
-        <div class="password-info-t" ng-if="resetError[regItem.name] && !registerform[regItem.name].blur" ng-show="regItem.tooltip && focused && registerform[regItem.name].$invalid">
+        <div class="password-info-t" ng-if="focused && registerform[regItem.name].$invalid">
             <div class="error-icon-f"></div>
             <p>{{regItem.tooltip|translate}}</p>
         </div>
 
-        <div class="form-error-icon" ng-click="resetFieldError(regItem.name)"></div>
-        <div ng-if="!resetError[regItem.name] || registerform[regItem.name].blur" class="form-error-text">
+        <div class="form-error-icon" ng-click="errorVisible = !errorVisible;"></div>
+
+        <div ng-if="!focused && errorVisible && !registerform[regItem.name].$valid" class="form-error-text">
             <div class="error-icon-f"></div>
             <p ng-repeat="val in regItem.validation"
                ng-show="registerform[regItem.name].$error[val.name]">

@@ -132,22 +132,22 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
         }
 
         /*if (!Config.env.live && $scope.leftMenuPrematchSports && $scope.leftMenuPrematchSports.length) {
-            if (!$scope.selectedSport || Utils.isObjectEmpty($scope.leftMenuState.prematch.sport) || !$scope.leftMenuState.prematch.sport[$scope.selectedSport.id] || !$scope.leftMenuState.prematch.sport[$scope.selectedSport.id].expanded) {
-                $scope.firstSport = $scope.firstSport || $scope.leftMenuPrematchSports[0];
-                if (!expandedPrematchSports[$scope.firstSport.id] && Config.main.expandFirstSportByDefault && $scope.firstSport.id !== additionalLeftMenuItems.VIRTUAL_SPORT_VIRTUALS.id) {
-                    $scope.expandLeftMenuPrematchSport($scope.firstSport, true, true, true);
-                }
-                if (Number($location.search().sport) === $scope.firstSport.id) {
-                    $scope.selectSport($scope.firstSport);
-                }
-            }
+         if (!$scope.selectedSport || Utils.isObjectEmpty($scope.leftMenuState.prematch.sport) || !$scope.leftMenuState.prematch.sport[$scope.selectedSport.id] || !$scope.leftMenuState.prematch.sport[$scope.selectedSport.id].expanded) {
+         $scope.firstSport = $scope.firstSport || $scope.leftMenuPrematchSports[0];
+         if (!expandedPrematchSports[$scope.firstSport.id] && Config.main.expandFirstSportByDefault && $scope.firstSport.id !== additionalLeftMenuItems.VIRTUAL_SPORT_VIRTUALS.id) {
+         $scope.expandLeftMenuPrematchSport($scope.firstSport, true, true, true);
+         }
+         if (Number($location.search().sport) === $scope.firstSport.id) {
+         $scope.selectSport($scope.firstSport);
+         }
+         }
 
-            if ($scope.firstSport.regions && $scope.firstSport.regions[0] && !expandedprematchRegions[$scope.firstSport.regions[0].id] && Utils.isObjectEmpty($scope.leftMenuState.prematch.region))
-            {
-                $scope.expandLeftMenuPrematchRegion($scope.firstSport.regions[0], $scope.firstSport, true);
-            }
+         if ($scope.firstSport.regions && $scope.firstSport.regions[0] && !expandedprematchRegions[$scope.firstSport.regions[0].id] && Utils.isObjectEmpty($scope.leftMenuState.prematch.region))
+         {
+         $scope.expandLeftMenuPrematchRegion($scope.firstSport.regions[0], $scope.firstSport, true);
+         }
 
-        } else*/ if (Config.env.live && !$scope.selectedSport && $scope.leftMenuLiveSports && $scope.leftMenuLiveSports.length) {
+         } else*/ if (Config.env.live && !$scope.selectedSport && $scope.leftMenuLiveSports && $scope.leftMenuLiveSports.length) {
             $scope.selectSport($scope.leftMenuLiveSports[0]);
             $scope.leftMenuState.live.region[$scope.leftMenuLiveSports[0].regions[0].id] = {expanded : true};
             $scope.selectRegion($scope.leftMenuLiveSports[0].regions[0]);
@@ -1553,13 +1553,13 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
     });
 
     angular.element(document).ready(function () {
-        if($window.innerWidth < 1367){
+        if($window.innerWidth < 1366){
             closeLeftSideBar();
         }
     });
 
     function setScreenSize(value) {
-        if(value < 1367){
+        if(value < 1366){
             closeLeftSideBar()
         }
     }

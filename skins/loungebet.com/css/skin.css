@@ -64295,6 +64295,12 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         background: #468966;
     }
 
+    .separator-contain-nav button:hover {
+        background: #407d5d;
+        color: #f4f4f6;
+        border: 1px solid #407d5d;
+    }
+
     .landing-signin button {
         height: 30px;
         box-sizing: border-box;

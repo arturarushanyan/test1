@@ -9,27 +9,53 @@
                                 <div class="closed-popup-form" ng-click="broadcast('slider.close')"></div>
                                 <div class="logo-form-b"></div>
                                 <div class="register-information-b">
+                                    <!-- 
                                     <h2 class="ng-binding" trans>Already have an account?</h2>
                                     <h3 trans>Cool, just login.</h3>
+                                    -->
                                 </div>
 
                                 <form name="forms.signinform" ng-submit="params.needVerification? verifySmsCode(): login()">
 
                                     <div class="form-sign-in odno-ki" ng-class="{'error-animation':signInError  && forms.signinform.$pristine}">
 
+                                        <div class="signin-error-message" ng-show="signInError && forms.signinform.$pristine && !params.needVerification">
+                                            <p trans>Please enter valid Username/E-mail address and Password.</p>
+                                        </div>
+
                                         <div class="field-separator">
-                                            <label trans>Username / Email</label>
+                                            <label for="signinform-login-input" ng-class="forms.signinform.usrname.$viewValue.length > 0 || focused  ? 'focused': ''" 
+                                            trans>Username / Email</label>
                                             <div class="form-text" ng-class="{'error':signInError  && forms.signinform.$pristine}">
-                                                <input ng-model="user.username" id="signinform-login-input" numpad type="text" placeholder="Enter your username or email" required="required" trans focus-on="login.formOpened" dont-scroll-on-focus ng-change="params.needVerification=false"  autocomplete="off">
+                                                <input 
+                                                name="usrname"
+                                                ng-model="user.username"
+                                                id="signinform-login-input" numpad 
+                                                type="text" required="required" trans
+                                                ng-focus='focused=true'
+                                                ng-blur='focused=false' 
+                                                focus-on="login.formOpened" dont-scroll-on-focus 
+                                                ng-change="params.needVerification=false"  
+                                                autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="field-separator" ng-controller="mainCtrl">
-                                            <label trans>Password</label>
+                                            <label  for="signinform-password-input" ng-class="forms.signinform.passw.$viewValue.length > 0 || focused  ? 'focused': ''"
+                                            trans>Password</label>
                                             <div class="form-text" ng-class="{'error':signInError && forms.signinform.$pristine}">
-
-                                                <input ng-model="user.password" id="signinform-password-input" numpad type="{{inputType}}" placeholder="Enter your password" focus-on="login.formOpened.andUsernameIsAvailable" required="required"  autocomplete="off" trans ng-keypress="passwordKeyPress($event)">
+                                                <input 
+                                                name="passw"
+                                                ng-model="user.password" 
+                                                id="signinform-password-input" 
+                                                numpad type="{{inputType}}"
+                                                focus-on="login.formOpened.andUsernameIsAvailable"
+                                                ng-focus='focused=true'
+                                                ng-blur='focused=false'
+                                                required="required"  
+                                                autocomplete="off" trans 
+                                                ng-keypress="passwordKeyPress($event)">
                                                 <input class="password-eye" type="checkbox" id="checkbox" ng-model="passwordCheckbox" ng-click="hideShowPassword();icoClicked = !icoClicked;" />
-                                                <label ng-attr-title="{{icoClicked ? 'Show password' : 'Hide password'}}" ng-show="user.password.length" class="password-eye-ico" for="checkbox"></label>
+                                                <label ng-attr-title="{{icoClicked ? 'Show password' : 'Hide password'}}" class="password-eye-ico" for="checkbox"></label>
 
                                                 <div ng-if="conf.showCapsLockHint && capsLockIsOn" class="capslock-is-on-j" trans>Caps Lock is On</div>
                                             </div>
@@ -65,9 +91,6 @@
 
                                         </div>
 
-                                        <div class="signin-error-message" ng-show="signInError && forms.signinform.$pristine && !params.needVerification">
-                                            <p trans>Invalid username or password.</p>
-                                        </div>
                                         <div class="signin-error-message" ng-show="signInError && forms.signinform.$pristine && params.needVerification">
                                             <p trans>Please verify your account to be able to log in.</p>
                                         </div>
@@ -79,8 +102,9 @@
                                     </div>
                                     <div class="button-sign">
                                         <ul ng-hide="!conf.registration.enable || conf.disableRegistrationAndLogin">
-                                            <li class="create-account-icon"><a ng-click="env.showSlider = true; env.sliderContent = 'registrationForm';$event.stopPropagation()" trans>Create an account</a></li>
-                                            <li class="forgot-password-icon"><a ng-click="env.showSlider = true; env.sliderContent = 'forgotPasswordForm';$event.stopPropagation()" title="Forgot your password?" trans>Forgot your password?</a></li>
+                                            <li class="forgot-password-icon"><a ng-click="env.showSlider = true; env.sliderContent = 'forgotPasswordForm';$event.stopPropagation()" title="Forgot your password?" trans>Reset password</a></li>
+                                            <li class="create-account-icon"><a ng-click="env.showSlider = true; env.sliderContent = 'registrationForm';$event.stopPropagation()" trans>Register</a></li>
+                                        
                                         </ul>
                                     </div>
                                 </form>

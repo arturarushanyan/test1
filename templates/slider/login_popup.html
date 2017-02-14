@@ -24,7 +24,7 @@
                                         </div>
 
                                         <div class="field-separator">
-                                            <label for="signinform-login-input" ng-class="forms.signinform.usrname.$viewValue.length > 0 || focused  ? 'focused': ''" 
+                                            <label for="signinform-login-input" ng-class="forms.signinform.usrname.$viewValue.length > 0 || usrname.focused  ? 'focused': ''" 
                                             trans>Username / Email</label>
                                             <div class="form-text" ng-class="{'error':signInError  && forms.signinform.$pristine}">
                                                 <input 
@@ -32,15 +32,15 @@
                                                 ng-model="user.username"
                                                 id="signinform-login-input" numpad 
                                                 type="text" required="required" trans
-                                                ng-focus='focused=true'
-                                                ng-blur='focused=false' 
+                                                ng-focus='usrname.focused=true'
+                                                ng-blur='usrname.focused=false' 
                                                 focus-on="login.formOpened" dont-scroll-on-focus 
                                                 ng-change="params.needVerification=false"  
                                                 autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="field-separator" ng-controller="mainCtrl">
-                                            <label  for="signinform-password-input" ng-class="forms.signinform.passw.$viewValue.length > 0 || focused  ? 'focused': ''"
+                                            <label  for="signinform-password-input" ng-class="forms.signinform.passw.$viewValue.length > 0 || passw.focused  ? 'focused': ''"
                                             trans>Password</label>
                                             <div class="form-text" ng-class="{'error':signInError && forms.signinform.$pristine}">
                                                 <input 
@@ -49,8 +49,8 @@
                                                 id="signinform-password-input" 
                                                 numpad type="{{inputType}}"
                                                 focus-on="login.formOpened.andUsernameIsAvailable"
-                                                ng-focus='focused=true'
-                                                ng-blur='focused=false'
+                                                ng-focus='passw.focused=true'
+                                                ng-blur='passw.focused=false'
                                                 required="required"  
                                                 autocomplete="off" trans 
                                                 ng-keypress="passwordKeyPress($event)">
@@ -109,7 +109,7 @@
                                     </div>
                                 </form>
                              </div>
-                            <div class="live-chat-b-contain">
+                            <div ng-hide="true" class="live-chat-b-contain">
                                 <div ng-click="" class="help-b" ng-if="!conf.liveChat.isSfChat && conf.liveChat.siteId && conf.liveChat.codePlan">
                                     <a pass-click-to="live-chat-button1" find="a"><span trans>Contact Support</span></a>
                                 </div>

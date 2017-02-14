@@ -570,7 +570,7 @@ angular.module('vbet5').controller('loginCtrl', ['$scope', '$rootScope', 'Timeou
                         //$scope.message = Translator.get('Invalid email');
                     }
                     else if(successResponse.result == '-1002') {
-                        $scope.passwordResetFailed = "Entered email address doesn't exist.";
+                        $scope.passwordResetFailed = "Ouch! the e-mail address isn’t registered, please check.";
                     }
                     else {
                         $scope.passwordResetFailed = 'Password reset failed.';

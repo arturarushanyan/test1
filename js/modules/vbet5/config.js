@@ -232,9 +232,9 @@ angular.module('vbet5').constant('Config', {
         settingsDefaultPage: 'details', // details, changepassword
         logoutAfterExclusion: false,
         passwordNewResetMode: false,
-        passwordResetValidationTooltip: 'Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces.',
+        passwordResetValidationTooltip: 'Please enter your password that should consist of min 8 and max 20 characters . We recommend you not to use your  name, surname, username or date of birth in your password.',
         passwordValidationPattern: "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d\\[\\]\\\\`~!@#$%^&*()_+={};:<>|./?,\"'-]+$", //for change password in settings
-        passwordValidationPatternError: 'Password must contain uppercase letters, lowercase letters and numbers.', //for change password in settings
+        passwordValidationPatternError: 'The password must consist of min 8 and max 20 characters.', //for change password in settings
         passwordValidationLength: 8, //for change password in settings
         enableFreeRenew: false,  //  'renew' for getting free money (available in free.vbet.com)
        //statsHostname: 'http://statistics.betconstruct.com/#/en/external/page/',  // hostname for statistics. when clicking on game statistics icon, popup on this hostname is open,

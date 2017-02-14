@@ -13629,7 +13629,7 @@ form.ng-pristine .form-text.error input {
     -moz-osx-font-smoothing: grayscale;
     position: absolute;
     width: 35px;
-    top: 15px;
+    top: 10px;
     right: 0;
     margin: 0;
     padding: 0;
@@ -15106,6 +15106,40 @@ form.ng-pristine .form-text.error input {
     font: 16px/22px Arial, Helvetica, sans-serif;
     color: #7c8292;
 }
+
+.registration-ok p ,
+.registration-failed p{
+    width: 100%;
+    padding: 0;
+    height: inherit;
+    display: block;
+    color: #303838;
+    font-family: Ubuntu;
+    font-size: 18px;
+}
+
+.registration-failed p {
+    margin-bottom: 20px;
+}
+
+.registration-ok p > span:first-child { 
+    display: block;
+    color: #303838;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px
+}
+
+.registration-ok p > span:last-child {
+    display: block;
+    color: #303838;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 22px
+}
+
 
 .popup-layout-registration .registration-ok .name-popup-registratin-b {
     display: none;
@@ -25182,13 +25216,11 @@ label.reg-cup-register-j:nth-of-type(even) {
 }
 
 .mini-checkbox-b > input[type="checkbox"]:checked + label:after {
-    font: 10px/16px icomoon;
+    font: 13px/13px icomoon;
     content: "\54";
     position: absolute;
-    width: 16px;
-    height: 16px;
     top: 0;
-    left: 0;
+    left: 4px;
     text-align: center;
 }
 
@@ -25303,7 +25335,6 @@ label.reg-cup-register-j:nth-of-type(even) {
     text-align: left;
     color: #404654;
     font: 12px/14px Arial, Helvetica, sans-serif;
-    padding: 5px 5px 0;
 }
 
 .register-steps-b.step-2 .form-error-text p, .register-steps-b.step-2 .password-info-t p {
@@ -25464,7 +25495,7 @@ label.reg-cup-register-j:nth-of-type(even) {
 }
 
 .block-sign-in-form.reset-password form .form-sign-in {
-    padding: 5px 0px 20px;
+    padding: 0;
 }
 
 .block-sign-in-form.reset-password form .button-sign {
@@ -25802,7 +25833,7 @@ label.sign-in-checkbox-j input[type="checkbox"] {
 }
 
 label.sign-in-checkbox-j input[type="checkbox"]:checked + span:after {
-    color: #797a7e;
+    color: #1c2021;
 }
 
 label.sign-in-checkbox-j span {
@@ -25826,11 +25857,12 @@ label.sign-in-checkbox-j span:before, label.sign-in-checkbox-j span:after {
 
 label.sign-in-checkbox-j span:after {
     background: none;
-    content: '\e6f3';
+    content: "\54";
     color: transparent;
-    font: 7px/14px icomoon;
-    left: 1px;
+    font: 13px/13px icomoon;
+    left: 4px;
     transition: color 150ms;
+    border: none;
 }
 
 .block-slider.popup.block-slider-registrationForm-t, .block-slider.popup.block-slider-signInForm-t, .block-slider.popup.block-slider-forgotPasswordForm-t {
@@ -60186,10 +60218,11 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         line-height: 16px;
     }
 
-    .block-sign-in-form .form-register-layout.signin .field-separator > label:not(.sign-in-checkbox-j) {
+    .block-sign-in-form .form-register-layout.signin .field-separator > label:not(.sign-in-checkbox-j),
+    .block-sign-in-form .reset-password .field-separator label {
         position: absolute;
         left: 14px;
-        top: 20px;
+        top: 15px;
         width: initial;
         margin: 0;
         opacity: 0.8;
@@ -60203,12 +60236,13 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     .block-sign-in-form .form-register-layout.signin .field-separator > label {
-        margin: 12px 0 20px;
+        margin: 0 0 20px;
     }
 
 
-    .block-sign-in-form .form-register-layout.signin .field-separator > label.focused  {
-        top: 10px;
+    .block-sign-in-form .form-register-layout.signin .field-separator > label.focused,
+    .block-sign-in-form .reset-password .field-separator label.focused  {
+        top: 5px;
         line-height: 10px;
         font-size: 10px;
         color: #4d585a;
@@ -60235,7 +60269,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         pointer-events: none;
     }
 
-    form.registration-form .register-steps-b  input.focused {
+    form.registration-form .register-steps-b  input.focused,
+    .block-sign-in-form .reset-password .field-separator input.focused  {
         padding-top: 6px;
         color: #244747;
         -webkit-text-fill-color:#244747;
@@ -60256,17 +60291,37 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     form.registration-form .register-steps-b .form-error-text,
-    form.registration-form .register-steps-b .password-info-t {
+    form.registration-form .register-steps-b .password-info-t ,
+    .block-slider.popup .form-sign-in.forgot-password .form-error-text ,
+    .block-sign-in-form .reset-password .field-separator .password-info-t {
         position: relative;
         left: 0;
         top: 8px;
         width: 565px;
         box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.07);
         background-color: #fffef6;
+        display: block;
+    }
+
+    .block-slider.popup .form-sign-in.forgot-password .form-error-text ,
+    .block-sign-in-form .reset-password .field-separator .password-info-t {
+        width: 100%;
+        position: relative;
+        top: 7px;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .block-slider.popup .form-sign-in.forgot-password .form-error-text p {
+        padding: 5px;
+        color: #d14343;
     }
 
     form.registration-form .error-icon-f:before,
-    form.registration-form .register-steps-b .password-info-t:before{
+    form.registration-form .register-steps-b .password-info-t:before ,
+    .form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f:before ,
+    .block-sign-in-form .reset-password .field-separator .password-info-t:before ,
+    .block-sign-in-form .reset-password .field-separator .password-info-t .error-icon-f:before {
         display: none;
     }
 
@@ -60274,7 +60329,9 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         border: 1px solid #52a178;
     }
 
-    form.registration-form .error-icon-f {
+    form.registration-form .error-icon-f ,
+    .form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f ,
+    .block-sign-in-form .reset-password .field-separator .password-info-t .error-icon-f {
         width: 8px;
         height: 8px;
         background-color: #fffef6;
@@ -60285,33 +60342,47 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         border-top: 1px solid rgba(0, 0, 0, 0.07);
     }
 
-    form.registration-form .form-error-text > .error-icon-f {
+    form.registration-form .form-error-text > .error-icon-f,
+    .form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f ,
+    .block-sign-in-form .reset-password .field-separator .form-error-text .error-icon-f ,
+    .block-sign-in-form .reset-password .field-separator .password-info-t.error {
         border-left: 1px solid rgba(210, 72, 72, 0.4);
         border-top: 1px solid rgba(210, 72, 72, 0.4);
     }
 
-    .block-slider.popup form.registration-form .register-steps-b .form-error-icon {
+    .block-slider.popup form.registration-form .register-steps-b .form-error-icon ,
+    .block-sign-in-form .reset-password .field-separator .password-info-t .form-error-icon,
+    .block-sign-in-form .reset-password .field-separator .password-info-t .form-error-icon {
         top: 12px;
     }
 
-    .block-slider.popup form.registration-form .register-steps-b .error .form-error-icon:before {
+    .block-slider.popup form.registration-form .register-steps-b .error .form-error-icon:before,
+    .block-sign-in-form .reset-password .field-separator .password-info-t.error .form-error-icon:before,{
         content: "\e117" !important;
     }
-    .block-slider.popup form.registration-form .register-steps-b .valid .form-error-icon:before {
+
+    .block-slider.popup form.registration-form .register-steps-b .valid .form-error-icon:before,
+    .block-sign-in-form .reset-password .field-separator .password-info-t.valid .form-error-icon:before{
         content: "\e625" !important;
         color: #52a178;
         display: block;
     }
 
-    form.registration-form .register-steps-b .field-separator .form-text > div > input,
-    .block-sign-in-form .form-register-layout.signin .field-separator .form-text > input {
-        height: 44px;
-        padding-top: 8px;
-        color: #303739;
-        -webkit-text-fill-color: #303739;
+    .block-sign-in-form .form-register-layout.signin .form-sign-in.forgot-password {
+        margin-bottom: 15px; 
+    } 
+
+    .block-sign-in-form .form-register-layout.signin .form-sign-in.forgot-password .form-text.error{ 
+        display: flex;
+        flex-direction: column;
     }
 
-    .block-sign-in-form .form-register-layout.signin .field-separator .form-text > input[type="password"] {
+    .block-sign-in-form .form-register-layout.signin .forgot-password .field-separator .form-text > input {
+        padding-top: 0
+    }
+
+    .block-sign-in-form .form-register-layout.signin .field-separator .form-text > input[type="password"],
+    .block-sign-in-form .reset-password .field-separator .form-text input {
         letter-spacing: 3px;
     }
 
@@ -60321,10 +60392,16 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         margin: 0 17px 15px 0;
     }
 
-    .block-sign-in-form .form-register-layout.signin .field-separator {
+    .block-sign-in-form .form-register-layout.signin .field-separator ,
+    .block-sign-in-form .reset-password .field-separator {
         position: relative;
         float: left;
-        width: 100%
+        width: 100%;
+    }
+
+    .block-sign-in-form .form-register-layout.signin .field-separator .form-text,
+    .block-sign-in-form .reset-password .field-separator .form-text {
+        margin-bottom: 15px;
     }
 
     form.registration-form .register-steps-b .select-block label {
@@ -60361,7 +60438,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         margin: 0 0 15px 0;
     }
 
-    form.registration-form .register-steps-b .form-error-text p {
+    form.registration-form .register-steps-b .form-error-text p ,
+    .block-sign-in-form .reset-password .field-separator .password-info-t.error p {
         color: #d14343;
     }
 
@@ -60391,8 +60469,12 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
     .block-sign-in-form .form-register-layout.signin .button-confirm {
         width: 220px;
-        float: none;
-        margin: 20px auto 0;
+        float: left;
+        margin: 0 85px;
+    }
+
+    .block-sign-in-form .form-sign-in.forgot-password + .button-confirm {
+        margin-top: 0;
     }
 
     .block-slider.popup .signin-error-message p {
@@ -60408,11 +60490,13 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         display: none;
     }
    
-    form.registration-form .register-steps-b #id_password .progress  > div {
+    form.registration-form .register-steps-b #id_password .progress > div ,
+    .block-sign-in-form .reset-password div.progress > div { 
         display: block;
         position: absolute;
         top: 41px;
         background-image: url(../images/rainbow_border.png);
+        background-size: cover;
         width: 100%;
         height: 3px;
         transition: all 0.3s;
@@ -60421,7 +60505,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     form.registration-form .mini-checkbox-b > input[type="checkbox"] + label:before {
         width: 14px;
         height: 14px;
-        border-radius: 3px;
+        border-radius: 2px;
     }
 
     form.registration-form .checkbox-separator,
@@ -60514,7 +60598,11 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         color: #ffffff;
     }
 
-    .input-separator-b > input, .form-register-layout.signin .field-separator .form-text > input, .register-steps-b .form-text > div > input, .register-steps-b .registration-form-city > div > input, .register-steps-b .reg-form-input-number > div > input {
+    .input-separator-b > input, .form-register-layout.signin .field-separator .form-text > input,
+    .register-steps-b .form-text > div > input, 
+    .register-steps-b .registration-form-city > div > input, 
+    .register-steps-b .reg-form-input-number > div > input,
+    .block-sign-in-form .reset-password .field-separator .form-text.error input {
         background: none;
         box-sizing: border-box;
         padding: 0 38px 0 12px;
@@ -60527,6 +60615,17 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         box-shadow: none;
         -webkit-text-fill-color: #7c8292;
         border-radius: 4px;
+    }
+
+
+    form.registration-form .register-steps-b .field-separator .form-text > div > input,
+    .block-sign-in-form .form-register-layout.signin .field-separator .form-text > input ,
+    .block-sign-in-form .reset-password .field-separator .form-text.error input {
+        height: 44px;
+        padding-top: 8px;
+        color: #303739;
+        -webkit-text-fill-color: #303739;
+        margin: 0
     }
 
     .button-confirm > button:disabled {
@@ -60552,7 +60651,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         width: 100%;
         color: #303838;
         font: 15px/16px Ubuntu, Arial, Helvetica, sans-serif;
-        margin: 0 0 5px;
+        margin: 0 0 15px;
     }
 
     .block-slider.popup .all-popup-separator .register-information-b h3 {
@@ -60563,6 +60662,21 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         margin: 0 0 5px;
         box-shadow: none;
         text-transform: none;
+    }
+
+     .block-slider.popup .block-sign-in-form .all-popup-separator .register-information-b h2 {
+        color: #303838;
+        font-family: Ubuntu;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .block-slider.popup .block-sign-in-form .all-popup-separator .register-information-b h3 {
+        color: #303838;
+        font-family: Ubuntu;
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 20px;
     }
 
     .block-slider.popup form.ng-pristine .form-error-icon:before, .block-slider.popup .form-sign-in.forgot-password .form-error-icon:before, .block-slider.popup form.registration-form.ng-dirty .form-error-icon:before {
@@ -67914,7 +68028,7 @@ input::-ms-clear {
     margin: 0 25% 24px;
 }
 
-.block-sign-in-form  .logo-form-b {
+.form-register-layout.signin .logo-form-b {
     margin: 0 10% 20px;
 }
 
@@ -68186,3 +68300,5 @@ input::-ms-clear {
 .registration-form {
     overflow: hidden;
 }
+
+

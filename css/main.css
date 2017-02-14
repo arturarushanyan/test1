@@ -5836,7 +5836,7 @@ div[class*="pagemobile"] .page-main .page-content p{text-align: center !importan
     padding: 2px 50px 0 40px;
     height: 44px;
     cursor: pointer;
-    max-width: 146px;
+    width: 220px;
 }
 .games-save-slider ul li .game-status{
     width: 100%;

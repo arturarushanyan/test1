@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?fbn9kj');
-  src:  url('fonts/icomoon.eot?fbn9kj#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?fbn9kj') format('truetype'),
-    url('fonts/icomoon.woff?fbn9kj') format('woff'),
-    url('fonts/icomoon.svg?fbn9kj#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?q8h9bo');
+  src:  url('fonts/icomoon.eot?q8h9bo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?q8h9bo') format('truetype'),
+    url('fonts/icomoon.woff?q8h9bo') format('woff'),
+    url('fonts/icomoon.svg?q8h9bo#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Balance_Management:before {
+  content: "\e959";
+}
+.icon-Close_LSB:before {
+  content: "\e95a";
+}
+.icon-expand2:before {
+  content: "\e95b";
+}
+.icon-History:before {
+  content: "\e95c";
+}
+.icon-Messages:before {
+  content: "\e95d";
+}
+.icon-My_Profile:before {
+  content: "\e95e";
+}
+.icon-Promotions:before {
+  content: "\e95f";
+}
+.icon-VIP:before {
+  content: "\e960";
+}
 .icon-cancel-music:before {
   content: "\e958";
 }

@@ -25,7 +25,7 @@
             <div class="drop-nav-new-b"> <!--closed-->
                     <li class="drop-items-contain-b icon-view-box">
                         <ul>
-                            <li ng-click="toggleSliderTab('settings')"
+                            <li ng-click="toggleSliderTab('settings');$event.stopPropagation()"
                                 prevent-fast-click="1.5"
                                 ng-class="{'active': env.sliderContent === 'settings'}">
                                 <i class="my-profile-icon-b"></i>
@@ -33,7 +33,7 @@
                             </li>
 
 
-                            <li ng-click="selectBalanceMenuItem($event, 'deposit');$event.stopPropagation();"
+                            <li ng-click="selectBalanceMenuItem($event, 'deposit');$event.stopPropagation();$event.stopPropagation()"
                                 ng-class="{'active': env.sliderContent === 'deposit'}"
                                 ng-hide="conf.disableDepositPage"
                                 prevent-fast-click="1.5">
@@ -42,7 +42,7 @@
                             </li>
 
 
-                            <li ng-click="myBetsToggle('myBets')"
+                            <li ng-click="myBetsToggle('myBets');$event.stopPropagation()"
                                 prevent-fast-click
                                 ng-class="{'active': env.sliderContent === 'myBets'}"
                                 prevent-fast-click="1.5">
@@ -83,14 +83,14 @@
 -->
 
                             <li ng-show="conf.GmsPlatform && conf.promotionalBonuses.enable"
-                                ng-click="toggleSliderTab('promotionalBonuses')"
+                                ng-click="toggleSliderTab('promotionalBonuses');$event.stopPropagation()"
                                 prevent-fast-click="1.5"
                                 ng-class="{'active': env.sliderContent === 'promotionalBonuses'}">
                                 <i class="bonuses-icon-b"></i>
                                 <span trans>Bonuses</span>
                             </li>
 
-                            <li ng-hide="env.hideLogOut" ng-click="logOut()">
+                            <li ng-hide="env.hideLogOut" ng-click="logOut();$event.stopPropagation()">
                                 <i class="logout-icon-b"></i>
                                 <span trans>Log Out</span>
                             </li>

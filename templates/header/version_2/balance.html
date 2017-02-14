@@ -1,6 +1,6 @@
 <!--balance-->
 <div class="separator-contain-nav user-nav-view-b new-size {{headerVersion2Icons.balanceIsToggled ? 'active' : ''}}"
-     hide-on-click state-flag-var="headerVersion2Icons.balanceIsToggled" ng-attr-title="{{balanceHide ? 'Show balance' : ''}}" ng-click="balanceVisible=!balanceVisible">
+     hide-on-click state-flag-var="headerVersion2Icons.balanceIsToggled" ng-attr-title="{{balanceHide ? 'Show balance' : ''}}">
     <div class="settings-icon-contain balance-box" no-animate
          ng-show="(conf.GmsPlatform && !conf.GmsPlatformMultipleBalance) || (!isInCasino() && !isInLivedealer() && !isInPoker())"
          ng-class="{'bonus': profile.bonus_balance !== undefined && profile.calculatedBonus !== 0}"
@@ -31,8 +31,7 @@
         <i></i>
         <!--delete "env.casinoBalance.bonus" after sworm update for all sites-->
     </div>
-
-    <div ng-show="!balanceHide && balanceVisible" class="nav-open-view-contain"  >
+    <div ng-show="!balanceHide" class="nav-open-view-contain"  >
         <ul>
             <li>
                 <div class="drop-nav-new-b">
@@ -48,7 +47,6 @@
                                 <span ng-show="!env.hideBalance">{{profile.currency_name|currency}}</span>
                                 </p>
                             </li>
-
                             <li>
                                 <p>
                                     <span trans>Withdrawable Balance</span>
@@ -58,7 +56,6 @@
                                     <span ng-show="!env.hideBalance">{{profile.currency_name|currency}}</span>
                                 </p>
                             </li>
-
                             <li>
                                 <p>
                                     <span trans>Total Bonus Balance</span>

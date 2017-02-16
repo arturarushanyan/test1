@@ -73,7 +73,6 @@ html,body{
     border-radius: 4px;
     background-color: #fffef6;
     margin-bottom: 6px;
-    height: 34px;
     cursor: pointer;
     font-size: 13px;
     font-weight: 500;
@@ -745,19 +744,22 @@ input[type=checkbox] + label:before{
 }
 
 .documents-table{
-    width: 100%;
+    width: calc(100% - 30px);
     border: 1px solid #c1c0ba;
     border-radius: 4px;
-    margin: 1%;
+    margin: 15px;
     table-layout:fixed;
 }
 
-.documents-table tr th,.documents-table tr td{
+.documents-table tr th,.documents-table tr td {
     height: 50px;
     text-align: center;
     vertical-align: middle;
     border: 1px solid #c1c0ba;
     border-radius: 4px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 14px;
 }
 
 .documents-table tr th{
@@ -781,3 +783,195 @@ input[type=checkbox] + label:before{
     border-bottom-right-radius: 4px;
 }
 /* DOCUMENTS SECTION STYLES END */
+
+.account-middle-container .select {
+    position: relative;
+}
+
+.account-middle-container .select:after {
+    content: "\e674";
+    font: 18px icomoon;
+    position: absolute;
+    right: 8px;
+    top: 9px;
+    height: 12px;
+    color: #000;
+}
+
+.account-middle-middle-wrapper.full-width {
+    width: calc(100% - 22px);
+    margin: 0px 10px 10px;
+}
+
+.account-middle-middle-wrapper.full-width .documents-table-wrapper {
+    margin: 10px 0;
+}
+
+.table-top-settings {
+    margin: 10px 15px 0 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #c5c5be;
+}
+
+.table-bottom {
+    margin: 10px 15px;
+}
+
+.table-top-settings .verify-button-wrapper {
+    float: right;
+    margin: 24px 0 0;
+    width: 100px;
+}
+
+.documents-table-wrapper .select-field {
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.documents-table-wrapper .select-field .dob-select {
+    display: block;
+    width: 195px;
+    float: left;
+}
+
+.documents-table-wrapper .select-field label {
+    display: block;
+    margin: 0 15px 10px 0;
+}
+
+.documents-table-wrapper .select-field.period-field .select .dob-select {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.documents-table-wrapper .select-field.period-field .date-ico .dob-select {
+    border-left: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding-left: 26px;
+
+}
+
+.documents-table-wrapper .select-field.period-field .date-ico {
+    position: relative;
+}
+
+.date-ico .date-p:before {
+    top: 7px;
+}
+
+.documents-table select {
+    width: 100%;
+}
+
+.documents-table .game-date {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+
+.documents-table .game-id {
+    text-align: left;
+    font-size: 12px;
+}
+
+.documents-table .text-uppercase {
+    text-transform: uppercase;
+}
+
+.game-id .id-number {
+    color: #cfcec7;
+}
+
+.table-bottom .select-field {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.table-bottom .select-field .dob-select {
+    width: 100px;
+}
+
+.table-bottom > .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    float: right;
+    margin: 0;
+    text-align: right;
+    width: inherit;
+}
+
+.table-bottom .pagination li.pagination-box {
+    display: inline-block;
+    background-color: #fffef6;
+    height: 34px;
+    color: #303838;
+    font-size: 14px;
+    margin-right: 8px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 34px;
+    text-align: center;
+    line-height: 1em;
+}
+
+.table-bottom .pagination li.pagination-box a {
+    padding: 10px 0;
+    width: initial;
+    height: initial;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    height: 14px;
+    transition: all .4s;
+}
+
+.table-bottom .pagination li.pagination-box a:focus ,
+.table-bottom .pagination li.pagination-box a:hover {
+    border: 1px solid #504e4e;
+}
+
+.table-bottom .pagination li.pagination-box:last-child {
+    margin-right: 0;
+}
+
+.hide {
+    display: none !important;
+}
+
+.documents-wrapper .tab-navigation {
+    margin: 20px 15px 0 15px;
+    border-bottom: 1px solid #c5c5be;
+}
+
+.documents-wrapper .tab-navigation .acc-middle-top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 15px 0 0;
+    padding: 0 0 0 35px;
+    width: 550px;
+}
+
+.documents-wrapper .tab-navigation .acc-middle-top-menu li {
+    margin-right: 35px;
+    padding-bottom: 17px;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+
+.documents-wrapper .tab-navigation .acc-middle-top-menu li.active {
+    background-color: #fffef6;
+    border-bottom: 3px solid #ff7f66;
+    opacity: 1;
+    pointer-events: none;
+    padding-bottom: 14px;
+}
+
+.documents-wrapper .tab-navigation .acc-middle-top-menu li a {
+    padding:0 ;
+}

@@ -308,7 +308,7 @@ VBET5.constant('SkinConfig', {
         //    arm: 'https://inplay.loungebet.com/inplay/?language=hy'
         //},
         oldVersionLink: false,
-        menuOrder: ['sport', 'live',  'casino', 'livedealer', 'poker'],
+        menuOrder: ['sport', 'live',  'casino', 'livedealer', 'poker', 'newaccount', 'keno'],
         menuItems: [
             // {
             //title: "Promotions", link: "#/promos/", cssclass: ''
@@ -709,6 +709,9 @@ VBET5.constant('SkinConfig', {
         downloadLink: {
             windows: 'https://casino.loungebet.com/nardi/VGammon-1.1.27-Setup.exe'
         }
+    },
+    newaccount: {
+
     },
     xDomainSlaves: '{"https://swarm6-hz.betconstruct.com:8080" : "/xdomain-proxy.html", "swarm7-hz.betconstruct.com:8080" : "/xdomain-proxy.html", "https://swarm.loungebet.com" : "/xdomain-proxy.html", "https://casino.loungebet.com" : "/global/partners/xdomain/xDomainProxy.html"}',
 

@@ -175,13 +175,21 @@ angular.module('vbet5').service('TopMenu', ['$rootScope', '$location', '$timeout
         },
         poker: {
             displayName : Translator.get("Poker"),
-            href: Config.poker.redirectOnInstantPlay ? Config.poker.instantPlayLink : "#/poker",
+            href: Config.poker.redirectOnInstantPlay ? Config.poker.instantPlayLink : "#/newpoker",
             click: function () { $rootScope.topMenuDropDown = false; $scope.closeSlider(); $scope.goToTop(); },
             classObject: {'active': false},
             staticClass: "poker ",
             dynamicClass: (Config.main.newMenuItems.poker ? 'new-top-nav': ""),
             showCondition: Config.main.pokerEnabled,
             target: Config.poker.redirectOnInstantPlay ? "_blank" : "_self"
+        },
+        newaccount: {
+            displayName : Translator.get("NewAccount"),
+            href: '#/newaccount/',
+            click: function () { $rootScope.topMenuDropDown = false; $scope.closeSlider(); $scope.goToTop(); },
+            classObject: {'active': false},
+            staticClass: "newaccount",
+            showCondition: true
         },
         livedealer: {
             specialCase: Config.main.liveDealerMenuSpecialText ? 'liveDealerMenuSpecialText' : false,
@@ -195,7 +203,7 @@ angular.module('vbet5').service('TopMenu', ['$rootScope', '$location', '$timeout
         },
         keno: {
             displayName : Translator.get("Keno"),
-            href: "#/keno",
+            href: "#/newaccount",
             click: function () { $rootScope.topMenuDropDown = false; $scope.closeSlider(); $scope.goToTop(); },
             classObject: {'active': false},
             staticClass: "keno ",

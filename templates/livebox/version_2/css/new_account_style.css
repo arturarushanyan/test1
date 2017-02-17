@@ -37,6 +37,35 @@
 .icon-VIP:before {
     content: "\e960";
 }
+
+.icon-icon_web_2-collapse-74:before {
+    content: "\e937";
+}
+.icon-arrow-down5:before {
+    content: "\e670";
+}
+.icon-success:before {
+    content: "\e966";
+}
+.icon-error:before {
+    content: "\e964";
+}
+.icon-clock2:before {
+    content: "\e963";
+}
+.icon-shapes:before {
+    content: "\e965";
+}
+.icon-return:before {
+    content: "\e961"
+}
+.icon-arrow-right5:before {
+    content: "\e672";
+}
+.icon-arrow-left5:before {
+    content: "\e66f";
+}
+
 /*ICONS END*/
 
 /*LEFT BAR STYLE START*/
@@ -62,6 +91,7 @@ html,body{
     color: #3e4545;
     font-size: 13px;
     font-weight: 500;
+    height: 100%;
 }
 
 .account-left-container{
@@ -295,9 +325,8 @@ div[data-anim~=base] {
     background-color: #fffef6;
     border: 1px solid #c1c1c1;
     border-radius: 4px;
-    width: calc(100% - 300px);
     margin-top: 10px;
-    height: 100%;
+    width: calc(100% - 300px);
 }
 
 .middle-wrapper-heading p{
@@ -463,7 +492,6 @@ div[data-anim~=base] {
     border: 1px solid #c1c1c1;
     border-radius: 4px;
     width: calc(100% - 323px);
-    height: 100%;
     margin-left: 6px;
 }
 
@@ -498,7 +526,8 @@ div[data-anim~=base] {
     border-top: 3px solid #ff7f66;
     height: 29px;
     opacity: 1;
-    pointer-events:none;
+    position: relative;
+    top: -1px
 }
 
 .account-middle-navigation>ul>li:hover{
@@ -520,7 +549,7 @@ div[data-anim~=base] {
 
 .my-account-changing-content input, .my-account-changing-content select{
     background-color: #fffef6;
-    border: 1px solid #c1c1c1;
+    border: 1px solid #3e4545;
     border-radius: 4px;
     height: 34px;
     color: #303838;
@@ -528,7 +557,6 @@ div[data-anim~=base] {
     padding-left: 10px;
     box-sizing: border-box;
 }
-
 
 .my-account-changing-content input, .country-code-select{
     width: 100%;
@@ -743,26 +771,28 @@ input[type=checkbox] + label:before{
     margin: 1%
 }
 
-.documents-table{
-    width: calc(100% - 30px);
-    border: 1px solid #c1c0ba;
+.documents-table {
+    width: calc(100% - 20px);
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 10px;
+    table-layout:auto;
+    box-shadow: 0px 0px 0px 1px  #c1c1c1;
     border-radius: 4px;
-    margin: 15px;
-    table-layout:fixed;
+    overflow: hidden;
 }
 
 .documents-table tr th,.documents-table tr td {
     position: relative;
     height: 50px;
     vertical-align: middle;
-    border: 1px solid #c1c0ba;
     background-color: #fffef6;
-    border-radius: 4px;
     padding: 0 10px;
     text-align: center;
     font-size: 14px;
     overflow: hidden;
     color: #3e4545;
+    box-shadow: 0px 0px 0px 1px #c1c1c1;
 }
 
 .documents-table tr th{
@@ -770,21 +800,6 @@ input[type=checkbox] + label:before{
     color: #006aa6;
 }
 
-.documents-table tr:first-child th:first-child{
-    border-top-left-radius: 4px;
-}
-
-.documents-table tr:first-child th:last-child{
-    border-top-right-radius: 4px;
-}
-
-.documents-table tr:last-child td:first-child{
-     border-bottom-left-radius: 4px;
- }
-
-.documents-table tr:last-child td:last-child{
-    border-bottom-right-radius: 4px;
-}
 /* DOCUMENTS SECTION STYLES END */
 
 .account-middle-container .select {
@@ -796,12 +811,16 @@ input[type=checkbox] + label:before{
     position: absolute;
     font: 14px/30px icomoon;
     content: "\e6d4";
-    color: #7c8292;
+    color: #3e4545;
     display: block;
     right: 12px;
     top: 26px;
     z-index: 5;
     cursor: pointer
+}
+
+.date-p:before {
+    color: #3e4545;
 }
 
 .account-middle-container .select:after {
@@ -814,19 +833,25 @@ input[type=checkbox] + label:before{
     color: #000;
 }
 
+.account-middle-container th > .select {
+    display: block;
+}
+
 .account-middle-container th > .select:after {
     content: "\e674";
-    font: 18px icomoon;
+    font: 22px icomoon;
     position: absolute;
-    right: -25px;
-    top: 0px;
-    height: 12px;
+    position: absolute;
+    right: 5px;
+    top: -2px;
     color: inherit;
 }
 
 .account-middle-middle-wrapper.full-width {
-    width: calc(100% - 22px);
     margin: 0px 10px 10px;
+    width: calc(100% - 22px);
+    height: calc(100% - 60px);
+    overflow-y: auto;
 }
 
 .account-middle-middle-wrapper.full-width .documents-table-wrapper {
@@ -834,13 +859,13 @@ input[type=checkbox] + label:before{
 }
 
 .table-top-settings {
-    margin: 10px 15px 0 15px;
+    margin: 20px 15px 0 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid #c5c5be;
 }
 
 .table-bottom {
-    margin: 10px 15px;
+    margin: 10px 15px 20px 15px
 }
 
 .table-top-settings .verify-button-wrapper {
@@ -892,9 +917,9 @@ input[type=checkbox] + label:before{
 }
 
 .documents-table .game-date {
-    text-align: left;
     font-weight: 600;
     margin-bottom: 3px;
+    text-align: left;
 }
 
 .documents-table .game-id {
@@ -920,78 +945,78 @@ input[type=checkbox] + label:before{
     display: block;
 }
 
-/* ICONS */
-.icon-icon_web_2-collapse-74:before {
-    content: "\e937";
-}
-
-.icon-arrow-down5:before {
-    content: "\e670";
-}
-
-.icon-checkmark:before {
-    content: "\e625";
-}
-
-.icon-cross:before {
-    content: "\e626";
-}
-
-.icon-clock:before {
-    content: "\e617";
-}
-
-.icon-blocked-deleted:before {
-    content: "\e913";
-}
-
-.icon-arrow:before {
-    content: "\e638";
-}
-
-
 .sportsbook .icon-arrow-down5 {
     font-size: 22px;
 }
 
-.documents-table.sportsbook tr td:nth-of-type(4n) {
+.documents-table.sportsbook .sportsbook-details tr td:nth-of-type(4n) {
     color: #006aa6;
+}
+
+.documents-wrapper .tab-navigation {
+    margin: 20px 15px 0 15px;
+    border-bottom: 1px solid #c5c5be;
+}
+
+.documents-wrapper .tab-navigation .acc-middle-top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 15px 0 0;
+    padding: 0 0 0 0;
+    width: 600px;
+}
+
+.documents-wrapper .tab-navigation .acc-middle-top-menu li {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+
+.documents-wrapper .tab-navigation .acc-middle-top-menu li.active {
+    background-color: #fffef6;
+    border-bottom: 3px solid #ff7f66;
+    position: relative;
+    top: 1px;
+}
+
+.documents-wrapper .tab-navigation .acc-middle-top-menu li a {
+    padding: 0;
+    padding-bottom: 17px;
 }
 
 .sportsbook td .status {
     border-radius: 100%;
     padding: 2px;
-    font-size: 16px;
-    top: 14px;
+    font-size: 20px;
+    top: 13px;
     right: 14px;
     position: absolute;
+    font-weight: 600;
 }
 
-.sportsbook .status.icon-checkmark {
-    color: green;
-    border:1px solid green;
+.sportsbook .status.icon-success {
+    color: #52a178;
 }
 
-.sportsbook .status.icon-cross {
-    color: red;
-    border:1px solid red;
+.sportsbook .status.icon-error {
+    color: #c14250;
 }
 
-.sportsbook .status.icon-blocked-deleted {
-    transform: rotate(90deg);
-    font-size: 21px;
-    padding: 0;
-    color: red;
+.sportsbook .status.icon-shapes {
+    color: #c14250;
 }
 
-.sportsbook .status.icon-clock {
-    font-size: 21px;
-    padding: 0;
-    color: #e4a7b2;
+.sportsbook .status.icon-clock2 {
+    color: #ff8067;
 }
 
 .sportsbook .sportsbook-details {
     background-color: #eee;
+}
+
+.sportsbook .sportsbook-details table th {
+    color: #3e4545;
 }
 
 .sportsbook .sportsbook-details .sport-column i:not(.ico-live) {
@@ -1020,6 +1045,7 @@ input[type=checkbox] + label:before{
 }
 
 .sportsbook .sportsbook-details .sport-column .game-details .game-name {
+    display: block;
     font-size: 13px;
     color: #3e4545;
 }
@@ -1055,12 +1081,12 @@ td .cash-out + .status  {
 }
 
 .game-id .id-number {
-    color: #cfcec7;
+    color: #c1c1c1;
 }
 
 .table-bottom .select-field {
     display: inline-flex;
-    align-items: baseline;
+    align-items: flex-end;
 }
 
 .table-bottom .select-field .dob-select {
@@ -1092,6 +1118,12 @@ td .cash-out + .status  {
     line-height: 1em;
 }
 
+.table-bottom .pagination li.pagination-box.more-boxes a {
+    border: 0;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
 .table-bottom .pagination li.pagination-box a {
     padding: 10px 0;
     width: initial;
@@ -1115,40 +1147,6 @@ td .cash-out + .status  {
     display: none !important;
 }
 
-.documents-wrapper .tab-navigation {
-    margin: 20px 15px 0 15px;
-    border-bottom: 1px solid #c5c5be;
-}
-
-.documents-wrapper .tab-navigation .acc-middle-top-menu {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 10px 15px 0 0;
-    padding: 0 0 0 0;
-    width: 750px;
-}
-
-.documents-wrapper .tab-navigation .acc-middle-top-menu li {
-    margin-right: 35px;
-    padding-bottom: 17px;
-    flex-grow: 1;
-    flex-basis: 0;
-    text-align: center;
-}
-
-.documents-wrapper .tab-navigation .acc-middle-top-menu li.active {
-    background-color: #fffef6;
-    border-bottom: 3px solid #ff7f66;
-    opacity: 1;
-    pointer-events: none;
-    padding-bottom: 14px;
-}
-
-.documents-wrapper .tab-navigation .acc-middle-top-menu li a {
-    padding:0 ;
-}
-
 .bets-tab {
     margin: 15px;
 }
@@ -1165,11 +1163,16 @@ td .cash-out + .status  {
 }
 
 .bets-tab .acc-middle-top-menu li {
+    position: relative;
     text-align: center;
     flex-grow: 1;
     flex-basis: 0;
     padding: 5px 0;
     border-right: 1px solid #c1c1c1;
+}
+
+.bets-tab .acc-middle-top-menu li:last-of-type {
+    border-right: 0;
 }
 
 .bets-tab .acc-middle-top-menu li.active {
@@ -1182,10 +1185,11 @@ td .cash-out + .status  {
 
 .bets-tab .acc-middle-top-menu .bets-quantity {
     background-color: #ff7f66;
-    margin-left: 5px;
+    position: absolute;
     border-radius: 45px;
     color: #fff;
-    padding: 3px 4px;
-
+    padding: 2px 4px;
+    right: 10%;
+    top: 8px;
 }
 

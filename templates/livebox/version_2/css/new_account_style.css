@@ -752,14 +752,17 @@ input[type=checkbox] + label:before{
 }
 
 .documents-table tr th,.documents-table tr td {
+    position: relative;
     height: 50px;
-    text-align: center;
     vertical-align: middle;
     border: 1px solid #c1c0ba;
+    background-color: #fffef6;
     border-radius: 4px;
     padding: 0 10px;
     text-align: center;
     font-size: 14px;
+    overflow: hidden;
+    color: #3e4545;
 }
 
 .documents-table tr th{
@@ -788,6 +791,19 @@ input[type=checkbox] + label:before{
     position: relative;
 }
 
+.account-middle-container .select-field .search-ico:before {
+    box-sizing: border-box;
+    position: absolute;
+    font: 14px/30px icomoon;
+    content: "\e6d4";
+    color: #7c8292;
+    display: block;
+    right: 12px;
+    top: 26px;
+    z-index: 5;
+    cursor: pointer
+}
+
 .account-middle-container .select:after {
     content: "\e674";
     font: 18px icomoon;
@@ -796,6 +812,16 @@ input[type=checkbox] + label:before{
     top: 9px;
     height: 12px;
     color: #000;
+}
+
+.account-middle-container th > .select:after {
+    content: "\e674";
+    font: 18px icomoon;
+    position: absolute;
+    right: -25px;
+    top: 0px;
+    height: 12px;
+    color: inherit;
 }
 
 .account-middle-middle-wrapper.full-width {
@@ -871,7 +897,6 @@ input[type=checkbox] + label:before{
     margin-bottom: 3px;
 }
 
-
 .documents-table .game-id {
     text-align: left;
     font-size: 12px;
@@ -879,6 +904,154 @@ input[type=checkbox] + label:before{
 
 .documents-table .text-uppercase {
     text-transform: uppercase;
+}
+
+.documents-table.sportsbook > tbody > tr > td:nth-of-type(5n) ,
+.documents-table.sportsbook > tbody > tr > td:last-of-type {
+    color: #006aa6;
+}
+
+.documents-table.sportsbook tbody tr td:last-of-type.active {
+    background-color: rgb(243, 243, 243);
+}
+
+.documents-table.sportsbook tbody tr td:last-of-type.active span:before{
+    transform: rotate(180deg);
+    display: block;
+}
+
+/* ICONS */
+.icon-icon_web_2-collapse-74:before {
+    content: "\e937";
+}
+
+.icon-arrow-down5:before {
+    content: "\e670";
+}
+
+.icon-checkmark:before {
+    content: "\e625";
+}
+
+.icon-cross:before {
+    content: "\e626";
+}
+
+.icon-clock:before {
+    content: "\e617";
+}
+
+.icon-blocked-deleted:before {
+    content: "\e913";
+}
+
+.icon-arrow:before {
+    content: "\e638";
+}
+
+
+.sportsbook .icon-arrow-down5 {
+    font-size: 22px;
+}
+
+.documents-table.sportsbook tr td:nth-of-type(4n) {
+    color: #006aa6;
+}
+
+.sportsbook td .status {
+    border-radius: 100%;
+    padding: 2px;
+    font-size: 16px;
+    top: 14px;
+    right: 14px;
+    position: absolute;
+}
+
+.sportsbook .status.icon-checkmark {
+    color: green;
+    border:1px solid green;
+}
+
+.sportsbook .status.icon-cross {
+    color: red;
+    border:1px solid red;
+}
+
+.sportsbook .status.icon-blocked-deleted {
+    transform: rotate(90deg);
+    font-size: 21px;
+    padding: 0;
+    color: red;
+}
+
+.sportsbook .status.icon-clock {
+    font-size: 21px;
+    padding: 0;
+    color: #e4a7b2;
+}
+
+.sportsbook .sportsbook-details {
+    background-color: #eee;
+}
+
+.sportsbook .sportsbook-details .sport-column i:not(.ico-live) {
+    display: block;
+    left: 10px;
+    top: 15px;
+    height: 21px;
+    width: 20px;
+    position: absolute;
+    font: 400 16px/16px sport-icon;
+}
+
+.sportsbook .sportsbook-details .sport-column i.ico-live {
+    position: absolute;
+    top: 0
+}
+
+.sportsbook .sportsbook-details .sport-column .game-details {
+    margin-left: 30px;
+    text-align: left;
+}
+
+.sportsbook .sportsbook-details .sport-column .game-details .game-region {
+    font-size: 11px;
+    color: #c1c0ba;
+}
+
+.sportsbook .sportsbook-details .sport-column .game-details .game-name {
+    font-size: 13px;
+    color: #3e4545;
+}
+
+td .bant {
+    position: absolute;
+    left: -18px;
+    top: 12px;
+    transform: rotate(-45deg);
+    width: 70px;
+    font-size: 12px;
+    background-color: #52a178;
+    color: white;
+    text-transform: uppercase;
+}
+
+td .cash-out {
+    display: block;
+    font-size: 10px;
+    background-color: #52a178;
+    color: white;
+    position: relative;
+    top: 5px;
+    padding: 3px 0;
+    border-radius: 4px;
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+}
+
+td .cash-out + .status  {
+    top: 5px;
 }
 
 .game-id .id-number {
@@ -952,8 +1125,8 @@ input[type=checkbox] + label:before{
     align-items: center;
     justify-content: flex-start;
     margin: 10px 15px 0 0;
-    padding: 0 0 0 35px;
-    width: 550px;
+    padding: 0 0 0 0;
+    width: 750px;
 }
 
 .documents-wrapper .tab-navigation .acc-middle-top-menu li {
@@ -975,3 +1148,44 @@ input[type=checkbox] + label:before{
 .documents-wrapper .tab-navigation .acc-middle-top-menu li a {
     padding:0 ;
 }
+
+.bets-tab {
+    margin: 15px;
+}
+
+.bets-tab .acc-middle-top-menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #f3f2e9;
+    border: 1px solid #c1c1c1;;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.bets-tab .acc-middle-top-menu li {
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 5px 0;
+    border-right: 1px solid #c1c1c1;
+}
+
+.bets-tab .acc-middle-top-menu li.active {
+    background-color: #fff;
+}
+
+.bets-tab .acc-middle-top-menu li a {
+    width: inherit;
+}
+
+.bets-tab .acc-middle-top-menu .bets-quantity {
+    background-color: #ff7f66;
+    margin-left: 5px;
+    border-radius: 45px;
+    color: #fff;
+    padding: 3px 4px;
+
+}
+

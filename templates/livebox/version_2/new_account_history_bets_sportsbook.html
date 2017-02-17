@@ -98,13 +98,36 @@
                     <div class="documents-table-wrapper">
                         <div class="tab-navigation">
                             <ul class="acc-middle-top-menu">
-                                <li class=""><a href="#">Sportsbook</a></li>
+                                <li class="active"><a href="#">Sportsbook</a></li>
                                 <li class=""><a href="#">Virtual Betting</a></li>
                                 <li class=""><a href="new_account_history_bets_casino.html">Casino</a></li>
-                                <li class="active"><a href="#">Live Casino</a></li>
+                                <li class=""><a href="new_account_history_bets_live_casino.html">Live Casino</a></li>
+                            </ul>
+                        </div>
+                        <div class="bets-tab">
+                            <ul class="acc-middle-top-menu">
+                                <li class="active"><a href="#">All Bets <span class="bets-quantity">99</span></a></li>
+                                <li class=""><a href="#">Open <span class="bets-quantity">99</span></a></li>
+                                <li class=""><a href="#">Won</a></li>
+                                <li class=""><a href="#">Lost</a></li>
+                                <li class=""><a href="#">Cashed Out</a></li>
+                                <li class=""><a href="#">Returned</a></li>
+                                <li class=""><a href="#">Rejected</a></li>
                             </ul>
                         </div>
                         <div class="table-top-settings">
+
+                            <div class="select-field">
+                                <label>Kind of Bet:</label>
+                                <span class="select">
+                                    <select id="games" class="dob-select" name="games">
+                                        <option value="day">All</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </select>
+                                </span>
+                            </div>
+
                             <div class="select-field period-field">
                                 <label>Period:</label>
                                 <span class="select">
@@ -183,28 +206,40 @@
                             </div>
 
                             <div class="select-field">
+                                <label>Bet ID:</label>
+                                <input id="search" class="dob-select" name="search">
+                            </div>
+
+                            <div class="select-field">
                                 <label>Search:</label>
                                 <input id="search" class="dob-select" name="search">
+                                <i class="search-ico"></i>
                             </div>
 
                             <div class="verify-button-wrapper inline-element">
                                 <button class="verify-button">Show</button>
                             </div>
                         </div>
-                        <table class="documents-table">
+                        <table class="documents-table sportsbook">
                             <tr>
                                 <th>Device</th>
-                                <th>Bet Date</th>
-                                <th>Provider</th>
-                                <th>Game</th>
-                                <th>Bet Amount</th>
-                                <th>Win</th>
-                                <th>Final Balance</th>
+                                <th>
+                                    <span class="select">
+                                        Bet Date
+                                    </span>
+                                </th>
+                                <th>Stake</th>
+                                <th>Bet Type</th>
+                                <th>Odds</th>
+                                <th>Posible Win</th>
+                                <th>Status</th>
+                                <th><span class="icon-icon_web_2-collapse-74"></span></th>
                             </tr>
                             <tr>
                                 <td>
-                                    <select id="device" class="dob-select" name="device">
-                                        <option value="Mobile">Desctop</option>
+                                    <div class="select">
+                                       <select id="device" class="dob-select" name="device">
+                                        <option value="All">All</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -237,11 +272,13 @@
                                         <option value="30">30</option>
                                         <option value="31">31</option>
                                     </select>
+                                    </div>
                                 </td>
                                 <td></td>
                                 <td>
-                                    <select id="Provider" class="dob-select" name="Provider">
-                                        <option value="Provider">Provider</option>
+                                    <div class="select">
+                                         <select id="Provider" class="dob-select" name="Provider">
+                                        <option value="All">All</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -274,11 +311,13 @@
                                         <option value="30">30</option>
                                         <option value="31">31</option>
                                     </select>
+                                    </div>
                                 </td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>Desctop</td>
@@ -293,16 +332,298 @@
                                     </div>
                                 </td>
                                 <td>
-                                    Evolution
-                                </td>
-                                <td>
-                                    Space Wars
+                                    Single
                                 </td>
                                 <td>
                                     $ 99999.99
                                 </td>
-                                <td> $ 999999.99</td>
+                                <td>
+                                    99999.99
+                                </td>
                                 <td> $ 99999999.99</td>
+                                <td> WON <span class="status icon-checkmark"></span></td>
+                                <td> <span class="icon-arrow-down5"></span> </td>
+                            </tr>
+                            <tr>
+                                <td>Mobile</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Multiple
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td>
+                                    99999.99
+                                </td>
+                                <td> $ 99999999.99</td>
+                                <td> WON <span class="status icon-checkmark"></span></td>
+                                <td> <span class="icon-arrow-down5"></span> </td>
+                            </tr>
+                            <tr>
+                                <td>Tablet</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    System
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td>
+                                    99999.99
+                                </td>
+                                <td> $ 99999999.99</td>
+                                <td> LOST <span class="status icon-cross"></span> </td>
+                                <td> <span class="icon-arrow-down5"></span> </td>
+                            </tr>
+                            <tr>
+                                <td>Tablet</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="bant">Bonus</span>
+                                    System
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td>
+                                    99999.99
+                                </td>
+                                <td> $ 99999999.99</td>
+                                <td> REJECTED <span class="status icon-blocked-deleted"></span> </td>
+                                <td><span class="icon-arrow-down5"></span> </td>
+                            </tr>
+                            <tr>
+                                <td>Tablet</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    System
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td>
+                                    99999.99
+                                </td>
+                                <td> $ 99999999.99</td>
+                                <td> OPEN
+                                    <span class="cash-out">CASH OUT $99999.99</span>
+                                    <span class="status icon-clock"></span>
+                                </td>
+                                <td class="active"><span class="icon-arrow-down5"></span> </td>
+                            </tr>
+                            <tr>
+                                <td class="sportsbook-details" colspan=8>
+                                    <table class="documents-table">
+                                        <tr>
+                                            <th>Device</th>
+                                            <th>Start Date</th>
+                                            <th>Prediction</th>
+                                            <th>Odds</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="sport-column">
+                                                    <i class="Soccer"></i>
+                                                    <div class="game-details">
+                                                        <span class="game-region">Brasil - Campeonato Carioca A</span>
+                                                        <span class="game-name">Boavista SC RJ - Nova Iguacu FC</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="game-date">
+                                                    <span class="date">20/07/2016</span>
+                                                    |
+                                                    <span class="time">16:40:02</span>
+                                                </div>
+                                            </td>
+                                            <td> Boavista SC RJ Total Goals - Over(1)</td>
+                                            <td>9999.99</td>
+                                            <td> WON
+                                                <span class="status icon-checkmark"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="sport-column">
+                                                    <i class="Soccer"></i>
+                                                    <div class="game-details">
+                                                        <span class="game-region">Brasil - Campeonato Carioca A</span>
+                                                        <span class="game-name">Boavista SC RJ - Nova Iguacu FC</span>
+                                                    </div>
+                                                    <i class="ico-live ico-led highlight"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="game-date">
+                                                    <span class="date">20/07/2016</span>
+                                                    |
+                                                    <span class="time">16:40:02</span>
+                                                </div>
+                                            </td>
+                                            <td> Boavista SC RJ Total Goals - Over(1)</td>
+                                            <td>9999.99</td>
+                                            <td> WON
+                                                <span class="status icon-checkmark"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="sport-column">
+                                                    <i class="Basketball"></i>
+                                                    <div class="game-details">
+                                                        <span class="game-region">Brasil - Campeonato Carioca A</span>
+                                                        <span class="game-name">Boavista SC RJ - Nova Iguacu FC</span>
+                                                    </div>
+                                                    <i class="ico-live ico-led highlight"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="game-date">
+                                                    <span class="date">20/07/2016</span>
+                                                    |
+                                                    <span class="time">16:40:02</span>
+                                                </div>
+                                            </td>
+                                            <td> Boavista SC RJ Total Goals - Over(1)</td>
+                                            <td>9999.99</td>
+                                            <td> OPEN
+                                                <span class="status icon-clock"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="sport-column">
+                                                    <i class="Tennis"></i>
+                                                    <div class="game-details">
+                                                        <span class="game-region">Brasil - Campeonato Carioca A</span>
+                                                        <span class="game-name">Boavista SC RJ - Nova Iguacu FC</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="game-date">
+                                                    <span class="date">20/07/2016</span>
+                                                    |
+                                                    <span class="time">16:40:02</span>
+                                                </div>
+                                            </td>
+                                            <td> Boavista SC RJ Total Goals - Over(1)</td>
+                                            <td>9999.99</td>
+                                            <td> WON
+                                                <span class="status icon-checkmark"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="sport-column">
+                                                    <i class="Basketball"></i>
+                                                    <div class="game-details">
+                                                        <span class="game-region">Brasil - Campeonato Carioca A</span>
+                                                        <span class="game-name">Boavista SC RJ - Nova Iguacu FC</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="game-date">
+                                                    <span class="date">20/07/2016</span>
+                                                    |
+                                                    <span class="time">16:40:02</span>
+                                                </div>
+                                            </td>
+                                            <td> Boavista SC RJ Total Goals - Over(1)</td>
+                                            <td>9999.99</td>
+                                            <td> OPEN
+                                                <span class="status icon-clock"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="sport-column">
+                                                    <i class="LeagueOfLegends"></i>
+                                                    <div class="game-details">
+                                                        <span class="game-region">Brasil - Campeonato Carioca A</span>
+                                                        <span class="game-name">Boavista SC RJ - Nova Iguacu FC</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="game-date">
+                                                    <span class="date">20/07/2016</span>
+                                                    |
+                                                    <span class="time">16:40:02</span>
+                                                </div>
+                                            </td>
+                                            <td> Boavista SC RJ Total Goals - Over(1)</td>
+                                            <td>9999.99</td>
+                                            <td> WON
+                                                <span class="status icon-checkmark"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="sport-column">
+                                                    <i class="Dota"></i>
+                                                    <div class="game-details">
+                                                        <span class="game-region">Brasil - Campeonato Carioca A</span>
+                                                        <span class="game-name">Boavista SC RJ - Nova Iguacu FC</span>
+                                                    </div>
+                                                    <i class="ico-live ico-led highlight"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="game-date">
+                                                    <span class="date">20/07/2016</span>
+                                                    |
+                                                    <span class="time">16:40:02</span>
+                                                </div>
+                                            </td>
+                                            <td> Boavista SC RJ Total Goals - Over(1)</td>
+                                            <td>9999.99</td>
+                                            <td> OPEN
+                                                <span class="status icon-clock"></span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Desctop</td>
@@ -317,16 +638,17 @@
                                     </div>
                                 </td>
                                 <td>
-                                    Evolution
-                                </td>
-                                <td>
-                                    Space Wars
+                                    Single
                                 </td>
                                 <td>
                                     $ 99999.99
                                 </td>
-                                <td> $ 999999.99</td>
+                                <td>
+                                    99999.99
+                                </td>
                                 <td> $ 99999999.99</td>
+                                <td> CASHED OUT <span class="status icon-checkmark"></span></td>
+                                <td> <span class="icon-arrow-down5"></span> </td>
                             </tr>
                             <tr>
                                 <td>Desctop</td>
@@ -341,136 +663,17 @@
                                     </div>
                                 </td>
                                 <td>
-                                    Evolution
-                                </td>
-                                <td>
-                                    Space Wars
+                                    Single
                                 </td>
                                 <td>
                                     $ 99999.99
                                 </td>
-                                <td> $ 999999.99</td>
+                                <td>
+                                    99999.99
+                                </td>
                                 <td> $ 99999999.99</td>
-                            </tr>
-                            <tr>
-                                <td>Desctop</td>
-                                <td>
-                                    <div class="game-date">
-                                        <span class="date">20/07/2016</span>
-                                        |
-                                        <span class="time">16:40:02</span>
-                                    </div>
-                                    <div class="game-id">
-                                        ID: <span class="id-number">99999999</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    Evolution
-                                </td>
-                                <td>
-                                    Space Wars
-                                </td>
-                                <td>
-                                    $ 99999.99
-                                </td>
-                                <td> $ 999999.99</td>
-                                <td> $ 99999999.99</td>
-                            </tr>
-                            <tr>
-                                <td>Desctop</td>
-                                <td>
-                                    <div class="game-date">
-                                        <span class="date">20/07/2016</span>
-                                        |
-                                        <span class="time">16:40:02</span>
-                                    </div>
-                                    <div class="game-id">
-                                        ID: <span class="id-number">99999999</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    Evolution
-                                </td>
-                                <td>
-                                    Space Wars
-                                </td>
-                                <td>
-                                    $ 99999.99
-                                </td>
-                                <td> $ 999999.99</td>
-                                <td> $ 99999999.99</td>
-                            </tr>
-                            <tr>
-                                <td>Desctop</td>
-                                <td>
-                                    <div class="game-date">
-                                        <span class="date">20/07/2016</span>
-                                        |
-                                        <span class="time">16:40:02</span>
-                                    </div>
-                                    <div class="game-id">
-                                        ID: <span class="id-number">99999999</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    Evolution
-                                </td>
-                                <td>
-                                    Space Wars
-                                </td>
-                                <td>
-                                    $ 99999.99
-                                </td>
-                                <td> $ 999999.99</td>
-                                <td> $ 99999999.99</td>
-                            </tr>
-                            <tr>
-                                <td>Desctop</td>
-                                <td>
-                                    <div class="game-date">
-                                        <span class="date">20/07/2016</span>
-                                        |
-                                        <span class="time">16:40:02</span>
-                                    </div>
-                                    <div class="game-id">
-                                        ID: <span class="id-number">99999999</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    Evolution
-                                </td>
-                                <td>
-                                    Space Wars
-                                </td>
-                                <td>
-                                    $ 99999.99
-                                </td>
-                                <td> $ 999999.99</td>
-                                <td> $ 99999999.99</td>
-                            </tr>
-                            <tr>
-                                <td>Desctop</td>
-                                <td>
-                                    <div class="game-date">
-                                        <span class="date">20/07/2016</span>
-                                        |
-                                        <span class="time">16:40:02</span>
-                                    </div>
-                                    <div class="game-id">
-                                        ID: <span class="id-number">99999999</span>
-                                    </div>
-                                </td>
-                                <td>
-                                    Evolution
-                                </td>
-                                <td>
-                                    Space Wars
-                                </td>
-                                <td>
-                                    $ 99999.99
-                                </td>
-                                <td> $ 999999.99</td>
-                                <td> $ 99999999.99</td>
+                                <td> RETURNED <span class="status icon-arrow"></span></td>
+                                <td> <span class="icon-arrow-down"></span></td>
                             </tr>
                         </table>
                         <div class="table-bottom hide">

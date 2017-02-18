@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Documents
+    </title>
+    <link rel="stylesheet" type="text/css" href="../../../css/fonts/default.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../../skins/loungebet.com/css/skin.css">
+    <link rel="stylesheet" type="text/css" href="css/new_account_style.css">
+    <link rel="stylesheet" type="text/css" href="css/medias.css">
+</head>
+<body>
+
+<div class="account-main-container">
+    <!-- left side start -->
+    <div class="account-left-container floating-element">
+        <div class="account-heading">
+            <p>
+                My Account
+                <span class="icon-Close_LSB"></span>
+            </p>
+        </div>
+        <div class="account-accordion">
+            <div class="acc-main-item balance-management">
+                <p>
+                    <span class="icon-Balance_Management"></span>
+                    Balance Management
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="acc-main-item my-profile">
+                <p>
+                    <span class="icon-My_Profile"></span>
+                    My Profile
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="acc-main-item history active">
+                <p>
+                    <span class="icon-History"></span>
+                    History
+                    <span class="icon-expand2"></span>
+                </p>
+                <div class="accordion-container">
+                    <ul class="my-profile-container">
+                        <li><a href="new_account_history_transactions.html">Transactions</a></li>
+                        <li><a href="#">Bets</a></li>
+                        <li><a href="#">Bonuses</a></li>
+                        <li><a href="#">Points</a></li>
+                        <li class="active"><a href="#">Access List</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="acc-main-item promotions">
+                <p>
+                    <span class="icon-Promotions"></span>
+                    Promotions
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="acc-main-item vip">
+                <p>
+                    <span class="icon-VIP"></span>
+                    VIP
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="acc-main-item messages">
+                <p>
+                    <span class="icon-Messages"></span>
+                    Messages
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+        </div>
+        <div class="fill-div"></div>
+    </div>
+    <!-- left side end -->
+
+    <!-- middle side start -->
+    <div class="account-middle-container floating-element">
+        <div class="middle-wrapper-heading">
+            <p>History</p>
+        </div>
+        <div class="account-middle-middle-wrapper full-width inline-element">
+            <div class="account-middle-navigation">
+                <ul class="acc-middle-top-menu">
+                    <li class="floating-element"><a href="new_account_history_transactions.html">Transactions</a></li>
+                    <li class="floating-element active"><a href="">Bets</a></li>
+                    <li class="floating-element"><a href="#">Bonuses</a></li>
+                    <li class="floating-element"><a href="#">Points</a></li>
+                    <li class="floating-element"><a href="new_account_history_access_list.html">Access List</a></li>
+                </ul>
+            </div>
+            <div class="my-account-changing-content" ng-view>
+                <div class="documents-wrapper">
+                    <div class="documents-table-wrapper">
+                        <div class="tab-navigation">
+                            <ul class="acc-middle-top-menu">
+                                <li class=""><a href="#">Sportsbook</a></li>
+                                <li class=""><a href="#">Virtual Betting</a></li>
+                                <li class=""><a href="new_account_history_bets_casino.html">Casino</a></li>
+                                <li class="active"><a href="#">Live Casino</a></li>
+                            </ul>
+                        </div>
+                        <div class="table-top-settings">
+                            <div class="select-field period-field">
+                                <label>Period:</label>
+                                <span class="select">
+                                      <select id="period" class="dob-select" name="period">
+                                    <option value="day">Last 7 days</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                                </span>
+                                <span class="date-ico">
+                                    <i class="date-p"></i>
+                                     <select id="period-calendar" class="dob-select" name="period">
+                                    <option value="day">14/07/2016 - 10/07/2016</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                                </span>
+                            </div>
+
+                            <div class="select-field">
+                                <label>Search:</label>
+                                <input id="search" class="dob-select" name="search">
+                            </div>
+
+                            <div class="verify-button-wrapper inline-element">
+                                <button class="verify-button">Show</button>
+                            </div>
+                        </div>
+                        <table class="documents-table">
+                            <tr>
+                                <th>Device</th>
+                                <th>Bet Date</th>
+                                <th>Provider</th>
+                                <th>Game</th>
+                                <th>Bet Amount</th>
+                                <th>Win</th>
+                                <th>Final Balance</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="select">
+                                        <select id="device" class="dob-select" name="device">
+                                            <option value="Mobile">Desctop</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+                                   </div>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <div class="select">
+                                        <select id="Provider" class="dob-select" name="Provider">
+                                            <option value="Provider">Provider</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Desctop</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Evolution
+                                </td>
+                                <td>
+                                    Space Wars
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td> $ 999999.99</td>
+                                <td> $ 99999999.99</td>
+                            </tr>
+                            <tr>
+                                <td>Desctop</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Evolution
+                                </td>
+                                <td>
+                                    Space Wars
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td> $ 999999.99</td>
+                                <td> $ 99999999.99</td>
+                            </tr>
+                            <tr>
+                                <td>Desctop</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Evolution
+                                </td>
+                                <td>
+                                    Space Wars
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td> $ 999999.99</td>
+                                <td> $ 99999999.99</td>
+                            </tr>
+                            <tr>
+                                <td>Desctop</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Evolution
+                                </td>
+                                <td>
+                                    Space Wars
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td> $ 999999.99</td>
+                                <td> $ 99999999.99</td>
+                            </tr>
+                            <tr>
+                                <td>Desctop</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Evolution
+                                </td>
+                                <td>
+                                    Space Wars
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td> $ 999999.99</td>
+                                <td> $ 99999999.99</td>
+                            </tr>
+                            <tr>
+                                <td>Desctop</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Evolution
+                                </td>
+                                <td>
+                                    Space Wars
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td> $ 999999.99</td>
+                                <td> $ 99999999.99</td>
+                            </tr>
+                            <tr>
+                                <td>Desctop</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Evolution
+                                </td>
+                                <td>
+                                    Space Wars
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td> $ 999999.99</td>
+                                <td> $ 99999999.99</td>
+                            </tr>
+                            <tr>
+                                <td>Desctop</td>
+                                <td>
+                                    <div class="game-date">
+                                        <span class="date">20/07/2016</span>
+                                        |
+                                        <span class="time">16:40:02</span>
+                                    </div>
+                                    <div class="game-id">
+                                        ID: <span class="id-number">99999999</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    Evolution
+                                </td>
+                                <td>
+                                    Space Wars
+                                </td>
+                                <td>
+                                    $ 99999.99
+                                </td>
+                                <td> $ 999999.99</td>
+                                <td> $ 99999999.99</td>
+                            </tr>
+                        </table>
+                        <div class="table-bottom hide">
+                            <div class="select-field">
+                                <label>Type:</label>
+                                <select id="games" class="dob-select" name="games">
+                                    <option value="day">Day</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                            </div>
+                            <ul class="pagination">
+                                <li class="pagination-box prev hide"><a href=""><</a></li>
+                                <li class="pagination-box"><a href="">1</a></li>
+                                <li class="pagination-box"><a href="">2</a></li>
+                                <li class="pagination-box"><a href="">3</a></li>
+                                <li class="pagination-box more-boxes"><a href="">. . .</a></li>
+                                <li class="pagination-box"><a href=""></a><li>
+                                <li class="pagination-box"><a href="">25</a></li>
+                                <li class="pagination-box next"><a href="">></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

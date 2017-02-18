@@ -225,6 +225,10 @@ angular.module('vbet5').config(['$routeProvider', '$anchorScrollProvider', 'Skin
         .when('/newaccount/', {
             templateUrl: getTemplate('templates/livebox/version_2/new_account_my_details.html'),
             reloadOnSearch: false
+        })
+        .when('/newaccount2/', {
+            templateUrl: getTemplate('templates/livebox/version_2/new_account_documents.html'),
+            reloadOnSearch: false
         });
 
 }]);

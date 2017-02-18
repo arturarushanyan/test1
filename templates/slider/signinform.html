@@ -68,22 +68,26 @@
                         <div class="register-steps-b">
                             <div class="register-contain-new">
                                 <div class="closed-popup-form" ng-click="broadcast('slider.close'); resetPasswordResult();"></div>
-                                <div class="logo-form-b"></div>
-                                <div class="register-information-b">
-                                    <h2 ng-show="!passwordResetComplete && !passwordResetFailed && !usernameOrEmailInvalid" trans>Reset password</h2>
-                                    <h3></h3>
+                                <div ng-show="!passwordResetComplete" class="register-information-b">
+                                    <h2 trans>Reset password</h2>
+                                    <h3>Enter your registered e-mail address below and the instructions for resetting the password will be sent to your e-mail.</h3>
                                 </div>
 
-                                <form name="resetPasswordForm" ng-submit="resetPassword()" novalidate="novalidate" ng-show="!passwordResetComplete && !passwordResetFailed && !usernameOrEmailInvalid">
+                                <form ng-show="!passwordResetComplete" name="resetPasswordForm" ng-submit="resetPassword()" novalidate="novalidate">
                                     <div class="form-sign-in forgot-password">
-                                        <div class="field-separator">
-                                            <label trans>Email Address</label>
-                                            <div class="form-text" ng-class="{'error': resetPasswordForm.email.$dirty && resetPasswordForm.email.$invalid}">
-                                                <input name="email" type="email" placeholder="Enter your email address" required ng-model="resetPasswordData.email" ng-pattern="/^[\w!.%+\-]+@[\w\-]+(?:\.[\w\-]+)+$/" trans>
-                                                <div class="form-error-icon" ng-show="resetPasswordForm.email.$dirty && resetPasswordForm.email.$invalid"></div>
-                                                <div class="form-error-text" ng-show="resetPasswordForm.email.$dirty && resetPasswordForm.email.$invalid">
+                                        <div class="field-separator">                                       
+                                            <div class="form-text" ng-class="{'error': (resetPasswordForm.email.$dirty && resetPasswordForm.email.$invalid) || passwordResetFailed}">
+                                                <input name="email" type="email" placeholder="Your e-mail address" required ng-model="resetPasswordData.email" ng-pattern="/^[\w!.%+\-]+@[\w\-]+(?:\.[\w\-]+)+$/" trans>
+                                                <div class="form-error-icon" ng-show="false"></div>
+                                                <div class="form-error-text" ng-show="(resetPasswordForm.email.$dirty && resetPasswordForm.email.$invalid) || passwordResetFailed">
                                                     <div class="error-icon-f"></div>
-                                                    <p trans ng-show="resetPasswordForm.email.$dirty && resetPasswordForm.email.$invalid">Please enter a valid email address</p>
+                                                    <p trans 
+                                                    ng-show="resetPasswordForm.email.$dirty && resetPasswordForm.email.$invalid && !passwordResetFailed">
+                                                        Please enter a valid email address
+                                                    </p>
+                                                    <p ng-show="passwordResetFailed">
+                                                        {{passwordResetFailed|translate}}
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -95,23 +99,20 @@
                                         <ul ng-if="conf.liveChat.isSfChat" ng-click="startSFChat()" title="Live Chat" trans="attr-only">
                                             <li><a trans>Contact Support</a></li>
                                         </ul>
-                                        <button name="" type="submit" value="{{'Reset'|translate}}" ng-disabled="!resetPasswordForm.$dirty || resetPasswordForm.$invalid || sendingForgotPassword" trans>Reset</button>
+                                        <button name="" type="submit" value="{{'Send Instructions'|translate}}" ng-disabled="!resetPasswordForm.$dirty || resetPasswordForm.$invalid || sendingForgotPassword" trans>Send Instructions</button>
                                     </div>
                                 </form>
                                 <div class="registration-ok" ng-show="passwordResetComplete">
-                                    <p><span trans>Password reset complete.</span><span trans>Please check your email.</span></p>
+                                    <p><span trans>Password Resetting E-mail Sent</span><span trans>Please check your email.</span></p>
                                     <button class="registration-done-btn" ng-click="resetPasswordResult()" trans>OK</button>
                                 </div>
-                                <div class="registration-failed" ng-show="passwordResetFailed">
-                                    <p><span>{{passwordResetFailed|translate}}</span></p>
-                                    <button class="registration-done-btn" ng-click="resetPasswordResult()" trans>OK</button>
-                                </div>
+                               
                                 <div class="registration-failed" ng-show="usernameOrEmailInvalid">
                                     <p><span trans>Username or email invalid</span></p>
                                     <button class="registration-done-btn" ng-click="resetPasswordResult()" trans>OK</button>
                                 </div>
                             </div>
-                            <div class="live-chat-b-contain">
+                            <div ng-hide="true" class="live-chat-b-contain">
                                 <!-- ngIf: !conf.liveChat.isSfChat && conf.liveChat.siteId && conf.liveChat.codePlan -->
                                 <!-- ngIf: conf.liveChat.isSfChat -->
 

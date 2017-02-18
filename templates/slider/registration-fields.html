@@ -5,8 +5,7 @@
          ng-init="resetError[regItem.name] = true"
          ng-class="{
          'error': (!resetError[regItem.name] || registerform[regItem.name].blur) && registerform.{{regItem.name}}.$viewValue.length && registerform[regItem.name].$invalid && showFieldsValidation ,
-         'valid' : registerform[regItem.name].$valid && showFieldsValidation }
-         ">
+         'valid' : registerform[regItem.name].$valid && showFieldsValidation }">
 
         <label for='Input_{{regItem.name}}' ng-class="registerform.{{regItem.name}}.$viewValue.length > 0 || focused  ? 'focused': ''">
             <span ng-bind="regItem.title | translate"></span>
@@ -142,7 +141,7 @@
              append-to-html="{{regItem.optionsData}}"
              custom-attrs="regItem.customAttrs"></div>
         <div class="form-error-icon" ng-click="resetFieldError(regItem.name)"></div>
-        <div class="form-error-text">
+        <div ng-if="!focused && errorVisible && !registerform[regItem.name].$valid" class="form-error-text">
             <div class="error-icon-f"></div>
             <p ng-repeat="val in regItem.validation"
                ng-show="registerform[regItem.name].$error[val.name]">

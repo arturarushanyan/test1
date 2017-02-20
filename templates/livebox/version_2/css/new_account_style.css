@@ -65,6 +65,9 @@
 .icon-arrow-left5:before {
     content: "\e66f";
 }
+.icon-plus3:before {
+    content: "\e62e";
+}
 
 /*ICONS END*/
 
@@ -639,6 +642,12 @@ div[data-anim~=base] {
     border: 1px solid #52a178;
     border-radius: 4px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.verify-button-wrapper.cancel button {
+    background-color: #BF3949;
+    border: 1px solid #BF3949;
 }
 
 .info-note{
@@ -1147,6 +1156,10 @@ td .cash-out + .status  {
     display: none !important;
 }
 
+.flex {
+    display: flex;
+}
+
 .bets-tab {
     margin: 15px;
 }
@@ -1193,3 +1206,216 @@ td .cash-out + .status  {
     top: 8px;
 }
 
+/* PROMOTIONS */
+
+.account-promotions .documents-table-wrapper {
+    border: none;
+}
+
+.account-promotions .documents-wrapper .tab-navigation {
+    margin-right: 0;
+}
+
+.account-promotions .documents-wrapper .promotions {
+    margin: 10px 0;
+}
+
+.account-promotions .promotions .promotion-block {
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.account-promotions .promotions .promotion-block img {
+    height: 100%;
+}
+
+.account-promotions .promotions .promotion-block .promotion-info {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.account-promotions .promotions .promotion-block .promotion-info-header .available {
+    float: right;
+    padding: 2px 10px;
+    font-size: 12px;
+    background-color: #EEBE6D;
+    color: white;
+    border-radius: 4px;
+}
+
+.account-promotions .promotions .promotion-block .promotion-info-header .start {
+    float: right;
+    padding: 2px 10px;
+    font-size: 12px;
+    background-color: #53A079;
+    color: white;
+    border-radius: 4px;
+    margin-right: 10px
+}
+
+.account-promotions .promotions .promotion-block .promotion-info-header .end {
+    float: right;
+    padding: 2px 10px;
+    font-size: 12px;
+    background-color: #BF3949;
+    color: white;
+    border-radius: 4px;
+}
+
+.account-promotions .promotions .promotion-block .promotion-info-header span:first-child {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.account-promotions .promotions .promotion-block .promotion-info-middle {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 10px);
+    padding: 20px 10px;
+}
+
+.account-promotions .promotions .promotion-block .promotion-info-middle .details .detail {
+    padding: 0 60px;
+    border-right: 1px solid #c1c1c1;
+}
+
+.account-promotions .promotions .promotion-block .promotion-info-middle .details .detail:first-child {
+    padding-left:0;
+}
+
+.account-promotions .promotions .promotion-block .promotion-info-middle .details .detail:last-child {
+    border-right: none;
+}
+
+.account-promotions .promotions .promotion-block .promotion-info-middle .details .detail > div:first-child {
+    margin-bottom: 5px;
+}
+
+.account-promotions .promotions .verify-button-wrapper {
+    text-align: right;
+    margin: 0;
+}
+
+.account-promotions .promotions .verify-button-wrapper button {
+    padding: 10px 25px;
+    width: initial;
+}
+
+.account-promotions .promotions .terms {
+    position: relative;
+    border-top: 1px solid #c1c1c1;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    width: calc(100% + 8px);
+    margin-left: -8px;
+}
+
+.account-promotions .promotions .terms .icon-plus3 {
+    font-size: 22px;
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    cursor: pointer;
+}
+
+.account-promotions .promotions .terms.active > span{
+    color: #006aa6;
+}
+
+.account-promotions .promotions .terms.active .icon-plus3:before {
+    content: '\e62d';
+}
+
+.account-promotions .promotions .terms ol li {
+    margin: 10px 0px;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.account-promotions .promotions .terms ol li:last-child {
+    margin-bottom: 0;
+}
+
+.account-promotions .promotions .promotion-progressbar {
+    position: relative;
+    width: 75%;
+    border: 5px solid #eee;
+    background-color: #c1c1c1;
+    border-radius: 10px;
+    margin: 40px 0 40px 45px;
+    align-items: center;
+}
+
+.account-promotions .promotions .promotion-progressbar .starting-price {
+    position: absolute;
+    left: -35px;
+}
+
+.account-promotions .promotions .promotion-progressbar .maximum-price {
+    position: absolute;
+    right: -55px;
+}
+
+.account-promotions .promotions .promotion-progressbar .progressbar {
+    width: 10%;
+    height: 10px;
+    background-color: #0069A7;
+    border-radius: 10px;
+    position: relative;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.account-promotions .promotions .promotion-progressbar .progressbar .tootlip-progress {
+    width: 110px;
+    color: #FFFFFF;
+    background: #0069A7;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    top: -35px;
+    right: -55px;
+}
+
+.account-promotions .promotions .promotion-progressbar .progressbar .tootlip-progress:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 49.5%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-top: 8px solid #0069A7;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+.account-promotions .promotions .promotion-progressbar > .tootlip-progress {
+    position: absolute;
+    left: calc(75% / 2 + 23px);
+    top: 18px;
+    width:140px;
+    color: #FFFFFF;
+    background: #EEBE6D;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.account-promotions .promotions .promotion-progressbar > .tootlip-progress:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-bottom: 8px solid #EEBE6D;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}

@@ -4,6 +4,7 @@
 }
 
 /*ICONS*/
+
 .icon-Balance_Management:before {
     content: "\e959";
 }
@@ -68,6 +69,18 @@
 .icon-plus3:before {
     content: "\e62e";
 }
+.icon-text2:before {
+    content: "\e644";
+}
+.icon-eye:before {
+    content: "\e6b3";
+}
+.icon-download:before {
+    content: "\e64d";
+}
+.icon-cross-close:before {
+    content: "\e117";
+}
 
 /*ICONS END*/
 
@@ -131,14 +144,11 @@ html,body{
     padding: 8px 10px;
 }
 
-
 .acc-main-item:hover{
     color: white;
     background-color: #1c89b0;
     transition: 0.5s;
 }
-
-
 
 .account-heading{
     background-color: #105b63;
@@ -324,7 +334,7 @@ div[data-anim~=base] {
 
 /*MIDDLE SIDE STYLE START*/
 /************************/
-.account-middle-container{
+.account-middle-container {
     background-color: #fffef6;
     border: 1px solid #c1c1c1;
     border-radius: 4px;
@@ -332,8 +342,10 @@ div[data-anim~=base] {
     width: calc(100% - 300px);
 }
 
-.middle-wrapper-heading p{
+.middle-wrapper-heading p {
     padding: 15px 10px;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .account-middle-left-wrapper{
@@ -645,9 +657,26 @@ div[data-anim~=base] {
     cursor: pointer;
 }
 
-.verify-button-wrapper.cancel button {
+.verify-button-wrapper button.cancel {
     background-color: #BF3949;
     border: 1px solid #BF3949;
+}
+
+.verify-button-wrapper button.blue {
+    background-color: #006AA6;
+    border: 1px solid #006AA6;
+}
+
+.verify-button-wrapper button.transparent {
+    background-color: transparent;
+    border: 1px solid #3e4545;
+    color: #3e4545;
+}
+
+.verify-button-wrapper button.disable {
+    background-color: #B6B4B6;
+    border: 1px solid #B6B4B6;
+    cursor: auto;
 }
 
 .info-note{
@@ -1419,3 +1448,347 @@ td .cash-out + .status  {
     border-right: 8px solid transparent;
     border-left: 8px solid transparent;
 }
+
+/* MESSAGES */
+
+.account-middle-container.messages {
+    padding-bottom: 10px;
+}
+
+.account-middle-container.messages .account-middle-left-wrapper {
+    padding:10px;
+}
+
+.account-middle-container.messages .account-middle-left-wrapper .verify-button-wrapper {
+    margin: 0;
+    width: 100%;
+}
+
+.account-middle-container.messages .account-middle-left-wrapper .vertical-navigation {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.account-middle-container.messages .account-middle-left-wrapper .vertical-navigation  .vertical-navigation-links {
+    background-color: #e6e5dc;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: all 0.2s;
+    overflow: hidden;
+}
+
+.account-middle-container.messages .account-middle-left-wrapper .vertical-navigation  .vertical-navigation-links a {
+    width: inherit;
+    padding: 8px;
+}
+
+.account-middle-container.messages .account-middle-left-wrapper .vertical-navigation  .vertical-navigation-links:hover {
+    background-color: #fffef6;
+    cursor: pointer;
+}
+
+.account-middle-container.messages .account-middle-left-wrapper .vertical-navigation  .vertical-navigation-links.active a{
+    background-color: #fffef6;
+    border-left: 3px solid #ff7f66;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper {
+    width:calc(100% - 343px);
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .middle-wrapper-heading {
+    position: relative;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .middle-wrapper-heading .verify-button-wrapper {
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: inherit;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .middle-wrapper-heading .verify-button-wrapper button {
+    padding: 0 20px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box {
+    width: initial;
+    margin: 0 10px 10px 10px;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-header {
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid #c1c1c1;
+    background-color: #f0efe7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-header .verify-button-wrapper {
+    margin: 0;
+    width: inherit;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-header .verify-button-wrapper button {
+    padding: 0 20px;
+    width: inherit;
+    margin-left: 15px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body {
+    margin: 10px 40px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .text {
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 25px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments {
+    margin: 20px 0;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .attachment-info {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block {
+    display: inline-block;
+    border-radius: 4px;
+    overflow: hidden;
+    width: calc(20% - 9px);
+    height: 120px;
+    position: relative;
+    margin-right: 8px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block:last-of-type {
+    margin-right: 0
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block .icon {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 38px;
+    font-size: 30px;
+    color: white;
+    z-index: 20;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgba(78, 72, 72, 0.3);
+    opacity: 0;
+    cursor: pointer;
+    transition: all .15s;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block .icon-cross-close {
+    position: absolute;
+    color: white;
+    z-index: 10;
+    right: 10px;
+    top: 10px;
+    font-size: 18px;
+    transition: all 0.15s;
+    opacity: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block .icon:hover {
+    color: #ff8067;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block .icon-eye {
+    left: 40px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block .icon-download {
+    right: 40px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block:hover .overlay {
+    top: 0;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block:hover [class^="icon-"],
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block:hover [class*=" icon-"] {
+    opacity: 1;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block img {
+    min-width: 100%;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block .title {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    z-index: 10;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(125, 125, 125, 0.7);
+    top: 75%;
+    z-index: 0;
+    transition: all .15s;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block .progressbar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    background-color: #fffef6;
+    height: 6px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block .progressbar .bar {
+    height: 6px;
+    background-color: #ff8067;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block.loading .overlay {
+    top: 0;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block.loading .title ,
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block.document .title {
+    bottom: 25px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block.document {
+    background-color: #B6B4B6;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block.document .icon-text2 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 24px;
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block.document:after {
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 0px;
+    height: 0px;
+    border-bottom: 25px solid #fffef6;
+    border-left: 25px solid rgb(154, 152, 137);
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments .img-block.document .overlay {
+    top: 100%;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .attachments + .message-form {
+    border-top: 1px solid #c1c1c1;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form + .attachments  {
+    margin-top: 20px;
+    padding-top: 0;
+    border-top: 1px solid #c1c1c1;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form + .attachments .icon-cross-close {
+    display: block;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form {
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form .select-field {
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form select {
+    width: 100%;
+    background-color: #fffef6;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    height: 34px;
+    color: #c1c1c1;
+    font-size: 14px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form .select:after {
+    color: #c1c1c1;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form textarea {
+    background-color: #fffef6;
+    resize: none;
+    width: calc(100% - 18px);
+    border: 1px solid #c1c1c1;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form .verify-button-wrapper {
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form .verify-button-wrapper button {
+    width: initial;
+    padding: 0 20px;
+    min-width: 140px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form .verify-button-wrapper button.transparent {
+    border: 1px solid #c1c1c1;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form .verify-button-wrapper button.cancel {
+    position: absolute;
+    right: 160px;
+}
+
+.account-middle-container.messages .account-middle-middle-wrapper .message-box .message-body .message-form .verify-button-wrapper button .icon-plus3 {
+    font-size: 16px;
+    float: left;
+    margin-right: 5px;
+    margin-top: -1px;
+}
+

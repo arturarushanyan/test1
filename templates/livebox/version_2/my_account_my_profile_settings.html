@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Settings
+    </title>
+    <link rel="stylesheet" type="text/css" href="../../../css/fonts/default.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../../skins/loungebet.com/css/skin.css">
+    <link rel="stylesheet" type="text/css" href="css/new_account_style.css">
+    <link rel="stylesheet" type="text/css" href="css/medias.css">
+</head>
+<body>
+
+<div class="account-main-container">
+    <!-- left side start -->
+    <div class="account-left-container floating-element">
+        <div class="account-heading">
+            <p>
+                My Account
+                <span class="icon-Close_LSB"></span>
+            </p>
+        </div>
+        <div class="account-accordion">
+            <div class="acc-main-item balance-management">
+                <p>
+                    <span class="icon-Balance_Management"></span>
+                    Balance Management
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="acc-main-item my-profile active">
+                <p>
+                    <span class="icon-My_Profile"></span>
+                    My Profile
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="accordion-container">
+                <ul class="my-profile-container">
+                    <li><a href="#">My Details</a></li>
+                    <li class="active"><a href="#">Documents</a></li>
+                    <li><a href="#">Self Limits</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+            </div>
+            <div class="acc-main-item history">
+                <p>
+                    <span class="icon-History"></span>
+                    History
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item promotions">
+                <p>
+                    <span class="icon-Promotions"></span>
+                    Promotions
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item vip">
+                <p>
+                    <span class="icon-VIP"></span>
+                    VIP
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item messages">
+                <p>
+                    <span class="icon-Messages"></span>
+                    Messages
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+        </div>
+
+        <div class="fill-div"></div>
+    </div>
+    <!-- left side end -->
+
+    <!-- middle side start -->
+    <div class="account-middle-container floating-element">
+        <div class="middle-wrapper-heading">
+            <p>My Profile</p>
+        </div>
+
+        <div class="account-middle-left-wrapper inline-element">
+            <div class="avatar-wrapper">
+
+                <div class="image-wrapper">
+                    <div class="gray-border"></div>
+                    <div class="loyalty-level-circle">3</div>
+                    <div class="circle-points-wrapper" data-anim="base wrapper">
+
+                        <div class="loyalty-points-circle" data-anim="base left"></div>
+                        <div class="loyalty-points-circle" data-anim="base right"></div>
+
+                    </div>
+                    <img src="img/avatar.jpg" alt="avatar">
+                </div>
+            </div>
+            <div class="username-heading">
+                <p class="username">John Doe</p>
+            </div>
+            <div class="button-wrapper">
+                <button class="change-avatar">Change Avatar</button>
+                <button class="file-upload">
+                    <input type="file" class="file-input">Upload Image
+                </button>
+            </div>
+            <table class="balance-table">
+                <tr class="total-balance">
+                    <td>Total Balance</td>
+                    <td>$ 601.50</td>
+                </tr>
+                <tr class="total-bonus">
+                    <td>Total Bonus Money </td>
+                    <td>$ 325.80</td>
+                </tr>
+                <tr class="withdraw-funds">
+                    <td>Withdrawable Funds </td>
+                    <td>$ 927.30</td>
+                </tr>
+            </table>
+            <div class="loyalty-wrapper">
+                <div class="loyalty-heading">
+
+                    <h4>
+                        <span class="icon-VIP"></span>
+                        Loyalty Points
+                    </h4>
+                </div>
+                <div class="loyalty-level">
+                    <p class="inline-element">Your Level Now</p>
+                    <p class="current-level inline-element">LEVEL 3</p>
+                    <div class="level-progress-bar">
+                        <span class="progress-level level-1 floating-element"></span>
+                        <span class="progress-level level-2 floating-element"></span>
+                        <span class="progress-level level-3 floating-element"></span>
+                        <span class="progress-level level-4 floating-element"></span>
+                        <span class="progress-level level-5 floating-element"></span>
+                    </div>
+                </div>
+            </div>
+        </div> <!--end middle-left-->
+
+        <!-- MIDDLE MIDDLE -->
+        <div class="account-middle-middle-wrapper inline-element">
+            <div class="account-middle-navigation">
+                <ul class="acc-middle-top-menu">
+                    <li class="floating-element"><a href="new_account_my_details.html">My Details</a></li>
+                    <li class="floating-element"><a href="new_account_documents.html">Documents</a></li>
+                    <li class="floating-element"><a href="new_account_self_limits.html">Self Limits</a></li>
+                    <li class="floating-element active"><a href="my_account_my_profile_settings.html">Settings</a></li>
+                    <li class="floating-element"><a href="my_account_my_profile_security.html">Security</a></li>
+                </ul>
+            </div>
+            <div class="my-account-changing-content" ng-view>
+                <div class="settings-wrapper">
+                    <div class="settings-heading">
+                       <h5>Settings</h5>
+                    </div>
+                    <form class="account-settings-form">
+                        <div class="floating-element settings-1">
+                            <label>Communication Language</label>
+                            <br>
+                            <select class="language-select">
+                                <option>English</option>
+                            </select>
+                            <br>
+                            <label>Odds Format</label>
+                            <br>
+                            <select class="odds-format-select">
+                                <option>Decimal</option>
+                            </select>
+                            <br>
+                            <label>Betslip Cash Out Changes</label>
+                            <br>
+                            <select class="cash-out-change-select">
+                                <option>Accept all changes</option>
+                            </select>
+                        </div>
+                        <div class="floating-element settings-2">
+                            <label>Time Zone</label>
+                            <br>
+                            <select class="time-zone-select">
+                                <option>GMT +2</option>
+                            </select>
+                            <br>
+                            <label>Betslip - Odds Changes</label>
+                            <br>
+                            <select class="odds-change-select">
+                                <option>Accept all changes</option>
+                            </select>
+                        </div>
+                        <div class="clear"></div>
+
+                        <div class="notification-wrap">
+                            <div class="notification-heading">
+                                <h5>Notifications</h5>
+                            </div>
+
+                            <div class="sms-wrap">
+                                <p>SMS</p>
+                                <div class="checkbox-div floating-element">
+                                    <input type="checkbox" name="deposit">
+                                    <label>Deposit</label>
+                                </div>
+                                <div class="checkbox-div floating-element">
+                                    <input type="checkbox" name="withdraw">
+                                    <label>Withdraw</label>
+                                </div>
+                                <div class="checkbox-div floating-element">
+                                    <input type="checkbox" name="changepass">
+                                    <label>Change Password</label>
+                                </div>
+                                <div class="checkbox-div long floating-element">
+                                    <input type="checkbox" name="updateinfo">
+                                    <label>Update Personal Information</label>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="email-wrap">
+                                <p>E-mail</p>
+                                <div class="checkbox-div floating-element">
+                                    <input type="checkbox" name="deposit">
+                                    <label>Deposit</label>
+                                </div>
+                                <div class="checkbox-div floating-element">
+                                    <input type="checkbox" name="withdraw">
+                                    <label>Withdraw</label>
+                                </div>
+                                <div class="checkbox-div floating-element">
+                                    <input type="checkbox" name="changepass">
+                                    <label>Change Password</label>
+                                </div>
+                                <div class="checkbox-div long floating-element">
+                                    <input type="checkbox" name="updateinfo">
+                                    <label>Update Personal Information</label>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="info-note">
+                                NOTE: You will get SMS, E-mail notification as soon as selected activities are done.
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- middle side end -->
+</div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        self-limits
+    </title>
+    <link rel="stylesheet" type="text/css" href="../../../css/fonts/default.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../../skins/loungebet.com/css/skin.css">
+    <link rel="stylesheet" type="text/css" href="css/new_account_style.css">
+    <link rel="stylesheet" type="text/css" href="css/medias.css">
+</head>
+<body>
+
+<div class="account-main-container">
+    <!-- left side start -->
+    <div class="account-left-container floating-element">
+        <div class="account-heading">
+            <p>
+                My Account
+                <span class="icon-Close_LSB"></span>
+            </p>
+        </div>
+        <div class="account-accordion">
+            <div class="acc-main-item balance-management">
+                <p>
+                    <span class="icon-Balance_Management"></span>
+                    Balance Management
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="acc-main-item my-profile active">
+                <p>
+                    <span class="icon-My_Profile"></span>
+                    My Profile
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="accordion-container">
+                <ul class="my-profile-container">
+                    <li ><a href="#">My Details</a></li>
+                    <li><a href="#">Documents</a></li>
+                    <li class="active"><a href="new_account_self_limits.html">Self Limits</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+            </div>
+            <div class="acc-main-item history">
+                <p>
+                    <span class="icon-History"></span>
+                    History
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item promotions">
+                <p>
+                    <span class="icon-Promotions"></span>
+                    Promotions
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item vip">
+                <p>
+                    <span class="icon-VIP"></span>
+                    VIP
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item messages">
+                <p>
+                    <span class="icon-Messages"></span>
+                    Messages
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+        </div>
+
+        <div class="fill-div"></div>
+    </div>
+    <!-- left side end -->
+
+    <!-- middle side start -->
+    <div class="account-middle-container floating-element">
+        <div class="middle-wrapper-heading">
+            <p>My Profile</p>
+        </div>
+
+        <div class="account-middle-left-wrapper inline-element">
+            <div class="avatar-wrapper">
+
+                <div class="image-wrapper">
+                    <div class="gray-border"></div>
+                    <div class="loyalty-level-circle">3</div>
+                    <div class="circle-points-wrapper" data-anim="base wrapper">
+
+                        <div class="loyalty-points-circle" data-anim="base left"></div>
+                        <div class="loyalty-points-circle" data-anim="base right"></div>
+
+                    </div>
+                    <img src="img/avatar.jpg" alt="avatar">
+                </div>
+            </div>
+            <div class="username-heading">
+                <p class="username">John Doe</p>
+            </div>
+            <div class="button-wrapper">
+                <button class="change-avatar">Change Avatar</button>
+                <button class="file-upload">
+                    <input type="file" class="file-input">Upload Image
+                </button>
+            </div>
+            <table class="balance-table">
+                <tr class="total-balance">
+                    <td>Total Balance</td>
+                    <td>$ 601.50</td>
+                </tr>
+                <tr class="total-bonus">
+                    <td>Total Bonus Money </td>
+                    <td>$ 325.80</td>
+                </tr>
+                <tr class="withdraw-funds">
+                    <td>Withdrawable Funds </td>
+                    <td>$ 927.30</td>
+                </tr>
+            </table>
+            <div class="loyalty-wrapper">
+                <div class="loyalty-heading">
+
+                    <h4>
+                        <span class="icon-VIP"></span>
+                        Loyalty Points
+                    </h4>
+                </div>
+                <div class="loyalty-level">
+                    <p class="inline-element">Your Level Now</p>
+                    <p class="current-level inline-element">LEVEL 3</p>
+                    <div class="level-progress-bar">
+                        <span class="progress-level level-1 floating-element"></span>
+                        <span class="progress-level level-2 floating-element"></span>
+                        <span class="progress-level level-3 floating-element"></span>
+                        <span class="progress-level level-4 floating-element"></span>
+                        <span class="progress-level level-5 floating-element"></span>
+                    </div>
+                </div>
+            </div>
+        </div> <!--end middle-left-->
+
+        <!-- MIDDLE MIDDLE -->
+        <div class="account-middle-middle-wrapper inline-element">
+            <div class="account-middle-navigation">
+                <ul class="acc-middle-top-menu">
+                    <li class="floating-element"><a href="new_account_my_details.html">My Details</a></li>
+                    <li class="floating-element  "><a href="new_account_documents.html">Documents</a></li>
+                    <li class="floating-element active"><a href="new_account_self_limits.html">Self Limits</a></li>
+                    <li class="floating-element"><a href="my_account_my_profile_settings.html">Settings</a></li>
+                    <li class="floating-element"><a href="my_account_my_profile_security.html">Security</a></li>
+                </ul>
+            </div>
+            <div class="my-account-changing-content" ng-view>
+                <div class="self-limits-wrapper">
+                    <ul class="self-limits-navigation">
+                        <li class="floating-element active"><a href="new_account_self_limits.html">My Limits</a></li>
+                        <li class="floating-element"><a href="new_account_self_limits_self_exclusion.html">Self Exclusion</a></li>
+                        <li class="floating-element"><a href="new_account_self_limits_account_closure.html">Account Closure</a></li>
+                        <li class="floating-element"><a href="new_account_self_limits_session_limit.html">Session Limit</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <p class="limits-info">
+                        This is where you set max deposit, max wager and max loss amount limits.If you want to increase one of your set limits your changes will be activated after 7 days. On the other hand if you would like to decrease you limits e.g. make them even stricter the changes will be effective immediately.
+                        Please note that these settings have nothing to do with the limits regarding different payment systems on the deposit page.
+                    </p>
+
+                    <form class="self-limits-form deposit-limit">
+                        <div class="self-limit-form-content">
+                            <h5>Deposit Limit</h5>
+                            <p>Here you can set limit for the maximum Deposit amount by filling the details listed below.</p>
+                            <div class="limit-inner-container">
+                                <div class="limit-amount floating-element">
+                                    <label>Amount</label>
+                                    <br>
+                                    <input type="text" name="amount">
+                                </div>
+                                <div class="limit-period floating-element">
+                                    <label>Period</label>
+                                    <br>
+                                    <select>
+                                        <option>Per Day</option>
+                                        <option>Per Week</option>
+                                        <option>Per Month</option>
+                                    </select>
+                                </div>
+                                <div class="save-limit floating-element">
+                                    <button class="save-limit-button">Set Limit</button>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                    </form>
+                    <form class="self-limits-form wager-limit">
+                        <div class="self-limit-form-content">
+                            <h5>Wager Limit</h5>
+                            <p>Here you can set limit for the maximum Wager amount by filling the details listed below.</p>
+                            <div class="limit-inner-container">
+                                <div class="limit-amount floating-element">
+                                    <label>Amount</label>
+                                    <br>
+                                    <input type="text" name="amount">
+                                </div>
+                                <div class="limit-period floating-element">
+                                    <label>Period</label>
+                                    <br>
+                                    <select>
+                                        <option>Per Day</option>
+                                        <option>Per Week</option>
+                                        <option>Per Month</option>
+                                    </select>
+                                </div>
+                                <div class="save-limit floating-element">
+                                    <button class="save-limit-button">Set Limit</button>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <form class="self-limits-form loss-limit">
+                        <div class="self-limit-form-content">
+                            <h5>Loss Limit</h5>
+                            <p>Here you can set limit for the maximum Loss amount by filling the details listed below.</p>
+                            <div class="limit-inner-container">
+                                <div class="limit-amount floating-element">
+                                    <label>Amount</label>
+                                    <br>
+                                    <input type="text" name="amount">
+                                </div>
+                                <div class="limit-period floating-element">
+                                    <label>Period</label>
+                                    <br>
+                                    <select>
+                                        <option>Per Day</option>
+                                        <option>Per Week</option>
+                                        <option>Per Month</option>
+                                    </select>
+                                </div>
+                                <div class="save-limit floating-element">
+                                    <button class="save-limit-button">Set Limit</button>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- middle side end -->
+</div>
+
+
+
+
+
+
+</body>
+</html>

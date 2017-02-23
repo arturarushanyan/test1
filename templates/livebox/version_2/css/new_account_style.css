@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Icomoon;
-    src: url(../../../../fonts/icomoon.woff);
-}
+
 
 /*ICONS*/
 .icon-Balance_Management:before {
@@ -60,7 +57,7 @@ html,body{
 .account-main-container{
     background-color: #e6e5dc;
     color: #3e4545;
-    font-size: 13px;
+    font-size: 14px !important;
     font-weight: 500;
 }
 
@@ -92,21 +89,24 @@ html,body{
     height: 14px;
     font-size: 8px;
     padding-top: 7px;
+    padding-right: 0;
+}
+
+.account-heading>p>span.icon-Close_LSB{
+    padding-right: 0
 }
 
 .acc-main-item p, .account-heading p{
     margin: 0;
     padding: 8px 10px;
+    font-size: 14px;
 }
-
 
 .acc-main-item:hover{
     color: white;
     background-color: #1c89b0;
     transition: 0.5s;
 }
-
-
 
 .account-heading{
     background-color: #105b63;
@@ -117,13 +117,14 @@ html,body{
     list-style: none;
     background-color: #f5f4ec;
     padding: 1px 0;
-    margin: 4px 0 4px 0;
-    border-radius: 4px;
+    margin: 0 0 4px 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .accordion-container>ul>li{
      width: 96%;
-     margin: 5px auto 5px auto;
+     margin: 5px auto;
      background-color: #f3f2e9;
      border-radius: 4px;
      height: 29px;
@@ -145,16 +146,21 @@ html,body{
     padding: 5px 10px;
     text-decoration: none;
     color: #3e4545;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
 }
 
 div.acc-main-item.active{
     background-color: #1c89b0;
     color: white;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-    pointer-events:none;
+    border-bottom-left-radius: 0;
+    pointer-events: none;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+div.acc-main-item.active>p>.icon-expand2{
+    transform: rotate(180deg);
 }
 
 div.acc-main-item.active:after{
@@ -166,7 +172,12 @@ div.acc-main-item.active:after{
     height: 0;
     border-top: 17px solid transparent;
     border-bottom: 17px solid transparent;
-    border-left: 10px solid #1c89b0;
+    border-left: 12px solid #1c89b0;
+    border-radius: 4px;
+}
+
+.accordion-container{
+    margin-right: 3px;
 }
 
 .accordion-container>ul>li.active{
@@ -205,6 +216,7 @@ div.acc-main-item.active:after{
     clip: rect(0px, 200px, 200px, 100px);
     transform: rotate(-90deg);
 }
+
 /* Set the sizes of the elements that make up the progress bar */
 .loyalty-points-circle {
     width: 160px;
@@ -299,6 +311,7 @@ div[data-anim~=base] {
     width: calc(100% - 300px);
     margin-top: 10px;
     height: 100%;
+    padding-bottom: 10px;
 }
 
 .middle-wrapper-heading p{
@@ -470,7 +483,7 @@ div[data-anim~=base] {
 
 .account-middle-navigation>ul{
     background-color: #f3f2e9;
-    height: 32px;
+    height: 31px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
@@ -478,6 +491,8 @@ div[data-anim~=base] {
 .account-middle-navigation>ul>li{
     width: 140px;
     height: 31px;
+    box-sizing: border-box;
+    position: relative;
     text-align: center;
     border-right: 1px solid #c1c1c1;
     border-bottom: 1px solid #c1c1c1;
@@ -491,15 +506,24 @@ div[data-anim~=base] {
 .account-middle-navigation>ul>li>a{
     padding-left: 0;
     padding-top: 8px;
+    box-sizing: border-box;
 }
 
 .account-middle-navigation>ul>li.active{
     background-color: #fffef6;
     border-bottom: 0;
-    border-top: 3px solid #ff7f66;
-    height: 29px;
     opacity: 1;
     pointer-events:none;
+}
+
+.account-middle-navigation>ul>li.active:before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #ff7f66;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .account-middle-navigation>ul>li:hover{
@@ -519,17 +543,24 @@ div[data-anim~=base] {
     margin-bottom: 10px;
 }
 
+.my-account-changing-content{
+    font-size: 13px;
+}
+
 .my-account-changing-content input, .my-account-changing-content select{
     background-color: #fffef6;
     border: 1px solid #c1c1c1;
     border-radius: 4px;
-    height: 34px;
+    height: 40px;
     color: #303838;
     font-size: 14px;
     padding-left: 10px;
     box-sizing: border-box;
 }
 
+.my-account-changing-content input:focus, .my-account-changing-content select:focus{
+    border-color: #59605e;
+}
 
 .my-account-changing-content input, .country-code-select{
     width: 100%;
@@ -538,7 +569,6 @@ div[data-anim~=base] {
 
 .my-account-changing-content input[disabled]{
     background-color: #f5f4ec;
-    opacity: 0.8;
     border: 1px solid #59605e;
 }
 
@@ -574,10 +604,11 @@ div[data-anim~=base] {
 }
 
 .my-details-wrapper label.gender-label {
-    margin: 9px;
+    margin: 13px;
+    vertical-align: top;
 }
 .my-details-bottom{
-    margin-left: 10px;
+    margin: 0 1%;
 }
 
 .address-wrapper{
@@ -606,12 +637,17 @@ div[data-anim~=base] {
 
 .verify-button-wrapper button{
     width: 100%;
-    height: 34px;
+    height: 40px;
     color: white;
-    background-color: #52a178;
-    border: 1px solid #52a178;
+    background-color: #a2aba8;
+    border: 1px solid #a2aba8;
     border-radius: 4px;
     text-transform: uppercase;
+}
+
+.verify-button-wrapper button.active{
+    background-color: #52a178;
+    border: 1px solid #52a178;
 }
 
 .info-note{
@@ -621,30 +657,67 @@ div[data-anim~=base] {
     background-color: #f3f2e9;
     padding: 10px 0;
 }
+
+.save-changes-wrap{
+    margin: 1%;
+    text-align: center;
+}
+
+button.save-changes{
+    width: 190px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #a2aba8;
+    border-radius: 4px;
+    background-color: #a2aba8;
+}
+
+button.save-changes.active{
+    background-color: #52a178;
+    border-color: #52a178;
+}
 /*MIDDLE SIDE STYLE END*/
 /* COMMON RADIO AND CHECKBOX STYLES  */
-input[type=radio],
-input[type=checkbox]{
-    /* Hide original inputs */
+input[type=radio]{
     visibility: hidden;
     position: absolute;
 }
-input[type=radio] + label:before,
-input[type=checkbox] + label:before{
+
+input[type=radio]:disabled + label{
+    opacity: 0.5;
+}
+
+input[type=radio] + label:before{
     height:12px;
     width:12px;
-    margin-right: 2px;
+    margin-right: 7px;
     content: " ";
     display:inline-block;
-    vertical-align: baseline;
+    vertical-align: top;
     border:1px solid #777;
     background: #fffef6;
 }
-input[type=radio]:checked + label:before,
-input[type=checkbox]:checked + label:before{
-    background: black;
+input[type=radio]:checked + label:before{
+    background: #fffef6;
 }
 
+input#r1:checked + label:after, input#r2:checked + label:after{
+    height: 6px;
+    width: 6px;
+    margin-right: 2px;
+    content: " ";
+    display: inline-block;
+    vertical-align: baseline;
+    background: #303838;
+    border-radius: 50%;
+    margin-left: -45px;
+    margin-bottom: 3px;
+}
+
+input#r2:checked + label:after{
+    margin-left: -66px;
+}
 
 input[type=radio] + label:before{
     border-radius:50%;
@@ -717,17 +790,19 @@ input[type=checkbox] + label:before{
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
     width: 79%;
-    height: 34px;
+    height: 40px;
     padding-left: 10px;
-    padding-top: 9px;
+    padding-top: 12px;
 }
 
 .upload-button{
     cursor: pointer;
     width: 20%;
-    height: 34px;
+    height: 40px;
     background-color: #a2aba8;
     border: 1px solid #8d9795;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
     vertical-align: bottom;
     margin-left: -4px;
     text-transform: uppercase;
@@ -735,21 +810,22 @@ input[type=checkbox] + label:before{
 }
 
 .documents-table-wrapper{
-    margin-top: 10px;
+    margin: 1% 0;
     border: 1px solid #c1c0ba;
     border-radius: 4px;
 }
 
 .documents-table-wrapper h5{
-    margin: 1%
+    margin: 1%;
 }
 
-.documents-table{
-    width: 100%;
-    border: 1px solid #c1c0ba;
+.documents-table, .documents-table tbody{
+    width: 98%;
     border-radius: 4px;
     margin: 1%;
-    table-layout:fixed;
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: separate;
 }
 
 .documents-table tr th,.documents-table tr td{
@@ -757,7 +833,9 @@ input[type=checkbox] + label:before{
     text-align: center;
     vertical-align: middle;
     border: 1px solid #c1c0ba;
-    border-radius: 4px;
+    border-top: 0;
+    border-right: 0;
+    border-spacing: 0;
 }
 
 .documents-table tr th{
@@ -780,4 +858,994 @@ input[type=checkbox] + label:before{
 .documents-table tr:last-child td:last-child{
     border-bottom-right-radius: 4px;
 }
+
+.documents-table tr:first-child th{
+    border-top: 1px solid #c1c0ba;
+}
+
+.documents-table tr th:last-child, .documents-table tr td:last-child{
+    border-right: 1px solid #c1c0ba;
+}
+
+.documents-table tr td:last-child{
+    text-transform: uppercase;
+}
+
 /* DOCUMENTS SECTION STYLES END */
+
+
+/* SELF LIMITS SECTION STYLES START */
+
+/*****mY LIMITS********start*/
+.self-limits-wrapper{
+    margin: 0 1%;
+    height: 100%;
+}
+
+.self-limits-navigation, .self-limits-navigation>li{
+    height: 50px;
+}
+
+.self-limits-navigation{
+    border-bottom: 1px solid #d4d4d0;
+}
+
+.self-limits-navigation>li{
+    width: 140px;
+    opacity: 0.8;
+}
+
+.self-limits-navigation>li:hover{
+    opacity: 1;
+}
+
+.self-limits-navigation>li.active{
+    border-bottom: 3px solid #ff7f66;
+    opacity: 1;
+}
+
+.self-limits-navigation>li>a{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.limits-info{
+    margin: 1% 0;
+}
+
+.self-limits-form{
+    border: 1px solid #c1c0ba;
+    border-radius: 4px;
+    margin: 1% 0;
+}
+
+.self-limit-form-content{
+    margin: 1%;
+}
+
+.self-limit-form-content h5{
+    margin-bottom: 1%;
+}
+
+.self-limit-form-content p{
+    margin-bottom: 30px;
+}
+
+.self-limit-form-content label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.self-limit-form-content select{
+    width: 100%;
+}
+
+.limit-amount, .limit-period, .save-limit{
+    width: 32%;
+}
+
+.limit-period{
+    margin: 0 2%;
+}
+
+.save-limit-button{
+    width: 130px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #8b9694;
+    border: 1px solid #8b9694;
+    margin-top: 24px;
+    border-radius: 4px;
+}
+
+.save-limit, .save-limit-exclusion{
+    text-align: right;
+}
+/*****mY LIMITS********end*/
+
+/*****self exclusion********start*/
+.self-limits-form.self-exclusion{
+    margin-top: 1%;
+}
+
+.self-exclusion-form-content{
+    margin: 1%;
+}
+
+.self-exclusion-form-content h5, .self-exclusion-form-content p{
+    margin-bottom: 1%;
+}
+
+.exclusion-period label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.exclusion-period select{
+    width: 285px;
+}
+
+.exclusion-period, .save-limit-exclusion{
+    width: 50%;
+}
+/*****self exclusion********end*/
+
+ /*Account closure*/
+.self-limits-form.account-closure{
+    margin-top: 1%;
+}
+
+.account-closure-form-content h5, .account-closure-form-content p{
+    margin: 1%;
+}
+
+.account-closure-form-content p:last-child{
+    margin-top: 2%;
+}
+
+.account-closure-form-content p a{
+    text-decoration: none;
+    color: #ff7f66;
+}
+/*Account closure end*/
+
+/*session limit */
+.set-session-limit{
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #e6e6e1;
+}
+
+.set-session-limit-button {
+    width: 190px;
+    height: 40px;
+    background-color: #8b9694;
+    color: white;
+    border: 1px solid #8b9694;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.self-limit-form-content p.session-limit-details-heading{
+    margin-bottom: 15px;
+}
+
+.session-limit-details>.details-info{
+    margin-bottom: 5px;
+}
+
+.range-main-sidebar{
+    width: 95%;
+    height: 9px;
+    margin: 0 auto;
+    background-color: #dfded9;
+    border: 6px solid #f3f2e9;
+    border-radius: 10px;
+    position: relative;
+ }
+
+.range-container> .range-points{
+    list-style: none;
+    padding: 0;
+    width: 95%;
+    margin: 10px auto;
+    counter-reset: step -2;
+}
+
+.range-container> .range-points>li{
+    position: relative;
+    width: calc(100% / 12 - 8px);
+    height: 5px;
+    box-sizing: border-box;
+    padding-left: 2px;
+}
+
+.range-container> .range-points>li:nth-child(2){
+    padding-left: 8px;
+}
+
+.range-container> .range-points>li:nth-child(3){
+    padding-left: 16px;
+}
+
+.range-container> .range-points>li:nth-child(4){
+    padding-left: 24px;
+}
+
+.range-container> .range-points>li:nth-child(5){
+    padding-left: 32px;
+}
+
+.range-container> .range-points>li:nth-child(6){
+    padding-left: 40px;
+}
+
+.range-container> .range-points>li:nth-child(7){
+    padding-left: 48px;
+}
+
+.range-container> .range-points>li:nth-child(8){
+    padding-left: 56px;
+}
+
+.range-container> .range-points>li:nth-child(9){
+    padding-left: 64px;
+}
+
+.range-container> .range-points>li:nth-child(10){
+    padding-left: 72px;
+}
+
+.range-container> .range-points>li:nth-child(11){
+    padding-left: 80px;
+}
+
+.range-container> .range-points>li:nth-child(12){
+    padding-left: 88px;
+}
+
+.range-container> .range-points>li:nth-child(13){
+    padding-left: 95px;
+}
+
+.range-container> .range-points>li:after{
+    content: '';
+    width: 1px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+}
+
+.range-container> .range-points>li:before{
+    content: counter(step);
+    counter-increment: step 2;
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+}
+
+/*session limit end*/
+/* SELF LIMITS SECTION STYLES END */
+
+
+
+
+/* SETTINGS SECTION STYLES Start */
+.settings-wrapper{
+    margin: 1%;
+}
+
+.settings-heading{
+    margin: 1% 0;
+}
+
+.settings-wrapper label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.settings-wrapper select{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #59605e;
+}
+
+.settings-1, .settings-2{
+    width: 49%;
+}
+
+.settings-2{
+    margin-left: 2%;
+}
+
+.notification-wrap{
+    border-top: 1px solid #c1c0ba;
+}
+
+.notification-wrap h5{
+    margin: 1% 0;
+}
+
+.sms-wrap, .email-wrap{
+    border: 1px solid #c1c0ba;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.sms-wrap p, .email-wrap p{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+input[type=checkbox]{
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.checkbox-div{
+    width: 12%;
+    margin-left: 10px;
+}
+
+.checkbox-div.long{
+    width: 18%;
+    margin-left: 5%;
+}
+
+/* SETTINGS SECTION STYLES END */
+
+/* SECURITY SECTION STYLES Start */
+.password-form{
+    width: 50%;
+    margin: 1% auto;
+}
+
+.password-form label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.password-form input{
+    margin-bottom: 20px;
+    border: 1px solid #979b97;
+}
+
+.password-form .save-new-pass{
+    text-align: center;
+}
+
+.password-form .save-new-pass button{
+    width: 190px;
+    height: 40px;
+    background-color: #8b9694;
+    color: white;
+    border: 1px solid #8b9694;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.password-form .save-new-pass button.active{
+    background-color: #52a178;
+    border-color: #52a178;
+}
+/* SECURITY SECTION STYLES END */
+
+/*88888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
+/*BALANCE MANAGEMENT START*/
+
+/*deposit withdraw start*/
+.deposit-wrapper, .withdraw-wrapper{
+    margin: 1%;
+}
+
+.payment-blue-heading{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #d6f7ff;
+    border: 1px solid #006aa6;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin: 2% 0 1%;
+}
+
+.payment-blue-heading h5{
+    margin-top: 11px;
+}
+
+.deposit-method, .withdraw-method{
+    border: 1px solid #c1c0ba;
+    border-radius: 4px;
+    margin-bottom: 1%;
+}
+
+.deposit-method:hover, .withdraw-method:hover{
+    background-color: #f3f2e9;
+    transition: 0.2s;
+}
+
+.deposit-method-logo-wrap, .withdraw-method-logo-wrap{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #c1c0ba;
+    border-radius: 4px;
+    margin: 1%;
+}
+
+.deposit-method-logo-wrap img, .withdraw-method-logo-wrap img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.info-table-wrap{
+    width: calc(94% - 250px);
+    height: 40px;
+    margin: 1%;
+}
+
+.info-table-wrap table{
+    width: 100%;
+}
+
+.info-table-wrap table tr, .info-table-wrap table tr td{
+    height: 20px;
+    padding-left: 3%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.info-table-wrap table tr:first-child td{
+    border-bottom: 1px solid #c1c0ba;
+}
+
+.deposit-button-wrap, .withdraw-button-wrap{
+    text-align: center;
+    margin: 1%;
+}
+
+.deposit-button-wrap .deposit-button, .deposit-button, .withdraw-button-wrap .withdraw-button, .withdraw-button{
+    width: 130px;
+    height: 40px;
+    background-color: #52a178;
+    border: 1px solid #52a178;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.bottom-info-part{
+    border-top: 1px solid #c1c0ba;
+    display: none;
+}
+
+.deposit-method.active:hover, .withdraw-method.active:hover{
+    background-color: #fffef6;
+}
+
+.deposit-method.active .bottom-info-part, .withdraw-method.active .bottom-info-part{
+    display: block;
+}
+
+.bottom-info-part p{
+    margin: 1%;
+}
+
+/* skrill*/
+.deposit-button-wrap.create-account, .withdraw-button-wrap.create-account{
+    height: 40px;
+}
+
+.deposit-button-wrap.create-account a, .withdraw-button-wrap.create-account a{
+   text-decoration: none;
+    color: #006aa6;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-top: 12px;
+}
+
+.deposit-left-side, .deposit-right-side, .withdraw-left-side, .withdraw-right-side{
+    margin: 1%;
+    width: 38%;
+}
+.deposit-left-side label, .deposit-right-side label, .withdraw-left-side label, .withdraw-right-side label{
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.deposit-left-side input, .my-account-changing-content input.deposit-input, .deposit-left-side select, .my-account-changing-content select.deposit-input, .withdraw-left-side input, .my-account-changing-content input.withdraw-input, .withdraw-left-side select, .my-account-changing-content select.withdraw-input{
+    border: 1px solid #979b97;
+    margin-bottom: 5px;
+}
+
+.deposit-right-side, .withdraw-right-side{
+    margin-left: 9%;
+    width: 50%;
+}
+
+.amount-blue-button{
+    width: 120px;
+    height: 40px;
+    background-color: #006aa6;
+    border: 1px solid #006aa6;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.amount-blue-button, .deposit-button.large, .my-account-changing-content input.deposit-input, .withdraw-button.large, .my-account-changing-content input.withdraw-input{
+    width: 20%;
+    margin: 0 1% 1% 0;
+}
+
+.deposit-button.large, .amount-text-wrapper, .withdraw-button.large{
+    margin-right: 0;
+    width: 37%;
+    position: relative;
+}
+
+.amount-text-wrapper:before{
+    content: '$';
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 13px;
+
+}
+
+.amount-text-wrapper.warning:after{
+    content: "!";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    font-size: 13px;
+    color: #edbe6d;
+}
+
+.amount-text-wrapper.warning input{
+    border-color: #edbe6d;
+}
+
+.my-account-changing-content input.deposit-input, .my-account-changing-content input.withdraw-input{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.top-row,.bottom-row{
+    height: 40px;
+}
+
+.top-row{
+    margin-bottom: 10px;
+}
+
+.bottom-row{
+    margin-top: 10px;
+}
+
+.deposit-amount-wrapper>.top-row>input:before, .withdraw-amount-wrapper>.top-row>input:before{
+    content: '$';
+    position: absolute;
+    font-size: 13px;
+    top: 0;
+    left: 0;
+}
+
+.deposit-button.large, .withdraw-button.large{
+    background-color: #a2aba8;
+    border: 1px solid #a2aba8;
+}
+
+.deposit-button.large.active, .withdraw-button.large.active{
+    background-color: #52a178;
+    border: 1px solid #52a178;
+}
+
+.another-method{
+    text-align: center;
+    border-top: 1px solid #c1c0ba;
+    border-bottom: 1px solid #c1c0ba;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 190px 0;
+}
+
+.another-method a{
+    display: block;
+    color: #303838;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.middle-row{
+    text-align: right;
+    height: 30px;
+    box-shadow: 1px 0 5px 1px rgba(0, 0, 0, 0.07);
+    position: relative;
+    z-index: 5;
+    border-radius: 4px;
+}
+
+.middle-row p:after{
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: -5px;
+    right: 10px;
+    background-color: #fffef6;
+    transform: rotate(225deg);
+    box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.07);
+    z-index: 6;
+}
+
+.middle-row.error p:after{
+    left: 10px;
+}
+
+.middle-row p{
+    padding: 8px;
+    position: relative;
+    z-index: 10;
+}
+
+.middle-row.warning p, .middle-row.warning a{
+    color: #edbe6d;
+}
+
+.middle-row.error p, .middle-row.error a{
+    color: #be3a49;
+    text-align: left;
+}
+
+
+.left-side-input-wrap.error input{
+    border-color: #be3a49;
+}
+
+.left-side-input-wrap{
+    position: relative;
+}
+
+.left-side-input-wrap.error:after, .visa-date.error.cvc:after{
+    content: "x";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    color: #be3a49;
+
+}
+/* skrill*/
+
+/*neteller*/
+.deposit-method.neteller.active .info-table-wrap, .withdraw-method.neteller.active .info-table-wrap{
+    width: calc(94% - 267px);
+}
+/*neteller*/
+
+/*visa and mastercard*/
+.deposit-method.visa.active .info-table-wrap, .deposit-method.mastercard.active .info-table-wrap, .dwithdraw-method.visa.active .info-table-wrap, .withdraw-method.mastercard.active .info-table-wrap{
+    width: calc(96% - 120px);
+}
+
+.deposit-left-side input[name="select-visa"], .deposit-left-side select[name="select-visa"], .deposit-left-side input[name="select-mastercard"], .deposit-left-side select[name="select-mastercard"], .withdraw-left-side input[name="select-visa"], .withdraw-left-side select[name="select-visa"], .withdraw-left-side input[name="select-mastercard"], .withdraw-left-side select[name="select-mastercard"]{
+    width: 80%;
+}
+
+.left-side-input-wrap a{
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #006aa6;
+    box-sizing: border-box;
+    width: calc(20% - 10px);
+}
+
+.left-side-input-wrap.visa.error:after, .left-side-input-wrap.mastercard.error:after{
+    content: none;
+}
+
+.visa-date, .mastercard-date{
+    width: 23%;
+}
+
+.visa-date select, .mastercard-date select{
+    width: 100%;
+}
+
+.visa-date.year, .mastercard-date.year{
+    margin-left: 2%;
+    margin-right: 4%;
+    width: 28%;
+    margin-top: 34px;
+}
+
+.middle-row.error.cvc{
+    width: 80%;
+}
+
+.visa-date.error.cvc, .mastercard-date.error.cvc{
+    position: relative;
+}
+
+.visa-date.error.cvc:after, .mastercard-date.error.cvc:after{
+    top: 44px;
+}
+
+.select-visa-month.error, .select-visa-year.error, .cvc.error, .select-mastercard-month.error, .select-mastercard-year.error{
+    border-color: #be3a49;
+}
+
+.middle-row.cvc.error p:after{
+    left: 90%;
+}
+
+
+/*visa and mastercard*/
+
+.withdraw-navigation, .withdraw-navigation>li{
+    height: 50px;
+}
+
+.withdraw-navigation{
+    border-bottom: 1px solid #d4d4d0;
+}
+
+.withdraw-navigation>li{
+    width: 140px;
+    opacity: 0.8;
+}
+
+.withdraw-navigation>li:hover{
+    opacity: 1;
+}
+
+.withdraw-navigation>li.active{
+    border-bottom: 3px solid #ff7f66;
+    opacity: 1;
+}
+
+.withdraw-navigation>li>a{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.right-floating-element.withdraw-funds-info{
+    float: right;
+    width: 200px;
+    height: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #be3a49;
+    border: 1px solid #be3a49;
+    border-radius: 4px;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+
+.withdraw-table-wrapper{
+    margin: 2% 0;
+}
+
+.withdraw-table{
+    width: 100%;
+    border-collapse: separate;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #303838;
+}
+
+.withdraw-table .opacity-span{
+    opacity: 0.5;
+}
+
+.withdraw-table tr th, .withdraw-table tr td{
+    border: 1px solid #c1c0ba;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.withdraw-table tr th{
+    background-color: #f3f2e9;
+    color: #006aa6;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.withdraw-table tr th:first-child, .withdraw-table thead, .withdraw-table thead tr {
+    border-top-left-radius: 4px;
+}
+
+.withdraw-table tr th:last-child, .withdraw-table thead, .withdraw-table thead tr {
+    border-top-right-radius: 4px;
+    border-right: 1px solid #c1c0ba;
+}
+
+.withdraw-table tr td{
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.withdraw-table tr:last-child td{
+    border-bottom: 1px solid #c1c0ba;
+}
+
+.withdraw-table tr td:last-child{
+    border-right: 1px solid #c1c0ba;
+}
+
+.withdraw-table>thead>tr>th>p.withdraw-date-info{
+    position: relative;
+}
+
+.withdraw-table>thead>tr>th>p.withdraw-date-info>span {
+    font-size: 9px;
+    position: absolute;
+    right: 2%;
+    top: 3px;
+}
+
+.withdraw-table tr td:nth-child(2){
+    text-align: left;
+    padding-left: 2%;
+}
+
+.withdraw-table tr td:nth-child(5){
+    text-transform: uppercase;
+}
+
+.withdraw-table tr td:last-child a{
+    text-decoration: none;
+    color: #be3a49;
+}
+/*deposit withdraw end*/
+.deposit-wrapper.my-cards>.payment-blue-heading{
+    margin-top: 10px;
+}
+
+.deposit-wrapper.my-cards>p{
+    margin-top: 2%;
+}
+
+.edit-button-wrap{
+    text-align: center;
+    margin: 1% 0;
+}
+
+.edit-button-wrap button{
+    width: 130px;
+    height: 40px;
+    background-color: #006aa6;
+    border: 1px solid #006aa6;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.info-table-wrap.my-card-info-wrap{
+    width: calc(94% - 370px);
+    margin-left: 0;
+}
+
+.add-card-wrapper{
+    text-align: center;
+    margin: 2%;
+}
+
+.add-card-wrapper button.add-card.long, .add-card-wrapper button.delete-card{
+    width: 240px;
+    height: 40px;
+    background-color: #52a178;
+    border: 1px solid #52a178;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.add-payment-wrap{
+    border: 1px solid #c1c0ba;
+    border-radius: 4px;
+}
+
+.add-payment-wrap form{
+    margin: 1% 10%;
+}
+
+.add-payment-wrap form label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.add-payment-wrap form input, .add-payment-wrap form select{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.f-name, .l-name{
+    width: 49%;
+}
+
+.l-name{
+    margin-left: 2%;
+}
+
+.expiry-date-wrap{
+    width: 49%;
+}
+
+.cvv-wrap{
+    margin-left: 2%;
+    width: 49%;
+}
+
+.expiry-date-wrap .expiry-month{
+    width: 30%;
+}
+
+.expiry-date-wrap .expiry-year{
+    margin-left: 2%;
+    margin-top: 24px;
+    width: 68%;
+}
+
+.gray-info{
+    opacity: 0.5;
+}
+
+.add-payment-wrap form input.last-element, .add-payment-wrap form select.last-element{
+    margin-bottom: 15px;
+}
+
+.view-my-cards-wrap{
+    text-align: center;
+    height: 40px;
+    border-top: 1px solid #c1c0ba;
+    border-bottom: 1px solid #c1c0ba;
+    margin: 5% 0;
+}
+
+.view-my-cards-wrap a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 12px;
+    box-sizing: border-box;
+    color: #303838;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.add-card-wrapper button.delete-card{
+    background-color: #be3a49;
+    border-color: #be3a49;
+    margin-left: 20px;
+}
+
+.payment-blue-heading.no-cards{
+    text-align: center;
+}
+
+
+.add-payment-wrap.no-cards{
+    border: 0;
+}
+
+/*BALANCE MANAGEMENT END*/

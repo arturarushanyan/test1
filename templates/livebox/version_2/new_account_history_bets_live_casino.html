@@ -17,7 +17,7 @@
     <div class="account-left-container floating-element">
         <div class="account-heading">
             <p>
-                My Account
+                History
                 <span class="icon-Close_LSB"></span>
             </p>
         </div>
@@ -45,10 +45,10 @@
                 <div class="accordion-container">
                     <ul class="my-profile-container">
                         <li><a href="new_account_history_transactions.html">Transactions</a></li>
-                        <li><a href="#">Bets</a></li>
+                        <li class="active"><a href="#">Bets</a></li>
                         <li><a href="#">Bonuses</a></li>
                         <li><a href="#">Points</a></li>
-                        <li class="active"><a href="#">Access List</a></li>
+                        <li><a href="#">Access List</a></li>
                     </ul>
                 </div>
             </div>
@@ -98,7 +98,7 @@
                     <div class="documents-table-wrapper">
                         <div class="tab-navigation">
                             <ul class="acc-middle-top-menu">
-                                <li class=""><a href="#">Sportsbook</a></li>
+                                <li class=""><a href="new_account_history_bets_sportsbook.html">Sportsbook</a></li>
                                 <li class=""><a href="#">Virtual Betting</a></li>
                                 <li class=""><a href="new_account_history_bets_casino.html">Casino</a></li>
                                 <li class="active"><a href="#">Live Casino</a></li>
@@ -185,6 +185,7 @@
                             <div class="select-field">
                                 <label>Search:</label>
                                 <input id="search" class="dob-select" name="search">
+                                <i class="search-ico"></i>
                             </div>
 
                             <div class="verify-button-wrapper inline-element">
@@ -193,13 +194,17 @@
                         </div>
                         <table class="documents-table">
                             <tr>
-                                <th>Device</th>
-                                <th>Bet Date</th>
-                                <th>Provider</th>
-                                <th>Game</th>
-                                <th>Bet Amount</th>
-                                <th>Win</th>
-                                <th>Final Balance</th>
+                                <th width="10%">Device</th>
+                                <th width="16%">
+                                    <span class="select">
+                                        Bet Date
+                                    </span>
+                                </th>
+                                <th width="14%">Provider</th>
+                                <th width="16%">Game</th>
+                                <th width="14%">Bet Amount</th>
+                                <th width="14%">Win</th>
+                                <th width="14%">Final Balance</th>
                             </tr>
                             <tr>
                                 <td>
@@ -516,14 +521,14 @@
                                 </select>
                             </div>
                             <ul class="pagination">
-                                <li class="pagination-box prev hide"><a href=""><</a></li>
+                                <li class="pagination-box prev hide"><a href=""><span class="icon-arrow-left5"></span></a></li>
                                 <li class="pagination-box"><a href="">1</a></li>
                                 <li class="pagination-box"><a href="">2</a></li>
                                 <li class="pagination-box"><a href="">3</a></li>
                                 <li class="pagination-box more-boxes"><a href="">. . .</a></li>
                                 <li class="pagination-box"><a href=""></a><li>
                                 <li class="pagination-box"><a href="">25</a></li>
-                                <li class="pagination-box next"><a href="">></a></li>
+                                <li class="pagination-box next"><a href=""><span class="icon-arrow-right5"></span></a></li>
                             </ul>
                         </div>
                     </div>

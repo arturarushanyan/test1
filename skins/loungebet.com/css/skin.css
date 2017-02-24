@@ -1,3 +1,7 @@
+.is-hidden {
+    display: none;
+}
+
 @font-face {
     font-family: 'icomoon';
     src: url("../../../fonts/icomoon.eot?oladcq0");

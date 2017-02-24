@@ -7,6 +7,24 @@
  */
 VBET5.controller('mainHeaderCtrl', ['$rootScope', '$scope', '$interval', '$filter', '$route', '$q', '$window', '$location', '$document', '$http', '$cookies', 'Geoip', 'GeoIPLangSwitch', 'Config', 'ConnectionService', 'Zergling', 'Storage', 'DomHelper', 'Utils', 'smoothScroll', 'Translator', 'analytics', 'AuthData', 'liveChat', 'GameInfo', 'partner', 'TopMenu', 'TimezoneService', 'TimeoutWrapper', 'DemoTour', function ($rootScope, $scope, $interval, $filter, $route, $q, $window, $location, $document, $http, $cookies, Geoip, GeoIPLangSwitch, Config, ConnectionService, Zergling, Storage, DomHelper, Utils, smoothScroll, Translator, analytics, AuthData, liveChat, GameInfo, partner, TopMenu, TimezoneService, TimeoutWrapper, DemoTour) {
     'use strict';
+
+    function fadeOut(el){
+        el.style.opacity = 1;
+        (function fade() {
+            if ((el.style.opacity -= .1) < 0) {
+                el.style.display = 'none';
+                el.classList.add('is-hidden');
+            } else {
+                requestAnimationFrame(fade);
+            }
+        })();
+    }
+
+    angular.element(document).ready(function () {
+        var el =  document.getElementById('preloader');
+        fadeOut(el);
+    });
+
     var intergratedHtmlHelperAvailable = null;
     var connectionService = new ConnectionService($scope);
 

@@ -19,7 +19,7 @@
                 }"
             >
                 <div ng-if="!item.popup && !item.broadcast" class="top-menu-sub-a-t">
-                    <a ng-href="{{item.classObject.active ? $location.absUrl() : item.href}}" ng-click="item.click()"
+                    <a ng-href="{{item.classObject.active ? $location.absUrl() : item.href}}" ng-click="item.click();setTitle('')"
                        ng-show="!item.specialCase && !item.subDisplayName && !item.supDisplayName" target="{{ item.target || '_self' }}">
                        <span ng-bind="item.displayName"></span>
                     </a>

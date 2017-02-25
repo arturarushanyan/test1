@@ -62221,7 +62221,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         color: #fff;
     }
 
-    /* LeagueOfLegends */
+    /* CallOfDuty*/
     .sports-item-v3.CallOfDuty,
     .event-view-title.CallOfDuty,
     .sport-title.CallOfDuty {
@@ -62272,13 +62272,17 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         border-right-color: #533e2b;
     }
 
-    .sports-item-v3.LeagueofLegends,
-    .event-view-title.LeagueOflegends,
-    .sport-title.LeagueOflegends {
+    .sports-item-v3.LeagueOfLegends,
+    .event-view-title.LeagueOfLegends,
+    .sport-title.LeagueOfLegends,
+    .sports-item-v3.Leagueoflegends,
+    .event-view-title.Leagueoflegends,
+    .sport-title.Leagueoflegends{
         background: #314e6e;
     }
 
-    .sports-item-v3.LeagueOflegends + .menu-popup .menu-popup-arrow {
+    .sports-item-v3.LeagueOfLegends + .menu-popup .menu-popup-arrow,
+    .sports-item-v3.Leagueolegends + .menu-popup .menu-popup-arrow {
         border-right-color: #314e6e;
     }
 

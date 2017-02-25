@@ -67952,6 +67952,11 @@ input::-ms-clear {
     .betslip-expanded .center-column-v3 {
         width: calc(100% - 627px);
     }
+    .betslip-expanded .animation-control .game-control > .field-container > .field > .DangerousAttack.home .attack-div .attack-dir,
+    .betslip-expanded .animation-control .game-control > .field-container > .field > .Attack.home .attack-div .attack-dir {
+        top: 11%;
+        border-width: 91px 0 88px 28px;
+    }
 }
 @media screen and (max-width: 1280px) {
     .betslip-expanded .center-column-v3 {

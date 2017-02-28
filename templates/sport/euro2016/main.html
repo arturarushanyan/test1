@@ -294,7 +294,7 @@
                                                     <ul ng-if="(prematchGame.sport.alias !== 'Soccer') && (!prematchGame.team2_name)"
                                                         class="column-3"
                                                         ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
-                                                        <li title="1">
+                                                        <li ng-show="groupGames[0].firstMarket.events.P1" title="1">
                                                             <div class="market-tab">
                                                                 <div class="market-info">
                                                             <span>
@@ -304,7 +304,7 @@
                                                             </div>
                                                         </li>
 
-                                                        <li title="2">
+                                                        <li ng-show="groupGames[0].firstMarket.events.P2" title="2">
                                                             <div class="market-tab">
                                                                 <div class="market-info">
                                                             <span>

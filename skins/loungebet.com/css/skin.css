@@ -50440,7 +50440,7 @@ display:none
 .pematch-single-game-info-2column {
     box-sizing: border-box;
     float: left;
-    width: calc(100% - 180px);
+    width: calc(100% - 120px);
     border-right: 1px solid #e6e5dc;
 }
 
@@ -64129,6 +64129,16 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         box-sizing: border-box;
         float: left;
         width: 100%;
+    }
+
+    .no-ways {
+        box-sizing: border-box;
+        float: left;
+        width: 100%;
+    }
+
+    .pematch-single-game-info-2column + .events-list-view-v3 > ul.column-3 > li:nth-child(2) {
+        display: none;
     }
 
     .prem {

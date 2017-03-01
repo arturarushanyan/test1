@@ -337,7 +337,12 @@
                                                      ng-click="broadcast('prematchMultiView.removeGameFromSelection', {id: prematchGame.id, competition: competition}); $event.stopPropagation()"></div>
 
                                                 <div class="pematch-single-game-info-v3"
-                                                     ng-class="{'pematch-single-game-info-2column':  prematchGame.sport.alias !== 'Soccer' && selectedMarketFilter === marketFilterTypes[0],  'pematch-single-game-info-title': !prematchGame.team1_name , 'pematch-single-game-info-outright': !prematchGame.team2_name }"
+                                                     ng-class="{
+                                                     'pematch-single-game-info-2column':  prematchGame.sport.alias !== 'Soccer' && selectedMarketFilter === marketFilterTypes[0],
+                                                       'pematch-single-game-info-title': !prematchGame.team1_name ,
+                                                       'pematch-single-game-info-outright': !prematchGame.team2_name,
+                                                       'no-ways': !prematchGame.firstMarket.events.P1 && !prematchGame.firstMarket.events.P2 && selectedMarketFilter === marketFilterTypes[0] && prematchGame.sport.alias !== 'Soccer'
+                                                        }"
                                                      ng-click="openGameFullDetails(prematchGame, selectedCompetition);selectGame(prematchGame.id);selectCompetition()"
                                                      ng-show="!conf.alternativeClassicGamesLayout"
                                                      title="{{ conf.edition.enabled ? (('Edition'|translate) + ': ' + (prematchGame.start_ts|formatDate:'edition')) : '' }}">

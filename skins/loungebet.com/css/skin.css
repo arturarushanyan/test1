@@ -49457,6 +49457,14 @@ display:none
     color: #fff;
 }
 
+.mini-title-box-gameview-v3.no-more {
+    padding-right: 0;
+}
+
+.mini-title-box-gameview-v3.no-more .no-ways {
+    border-right: 0;
+}
+
 .single-events-b-v3.blocked:before {
     box-sizing: border-box;
     display: block;

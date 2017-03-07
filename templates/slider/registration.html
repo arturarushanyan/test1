@@ -4,6 +4,7 @@
          ng-include="getTemplate('templates/slider/fbsignup.html')"></div>
 
     <div class="register" ng-show="!conf.facebookIntegration.enable">
+
         <div class="form-contain" ng-show="!registrationComplete && !registrationFailed" ng-init="regFormInit()">
             <h3 trans>Register</h3>
 
@@ -72,8 +73,6 @@
                 </div>
             </form>
         </div>
-
-
 
         <div class="popup-layout-registration registration-ok" ng-show="registrationComplete">
             <script-runner script-data="scriptContent" ng-if="scriptContent"></script-runner>

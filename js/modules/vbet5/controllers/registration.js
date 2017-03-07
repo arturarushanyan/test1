@@ -42,7 +42,6 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
             birth_month: '',
             phone_code: '1',
             agree: false,
-            birthagree: false,
             affiliate_id: ''
         };
 
@@ -61,7 +60,7 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
             });
         }
 
-        
+
 
         /**
          * @ngdoc method
@@ -457,12 +456,10 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
          * @description registers the user
          */
         $scope.register = function register() {
-
             $scope.busy = true;
 
-            if ($scope.registerform.$invalid) {
+            if ($scope.registerform.$invalid || $scope.countryIsRestricted || ($scope.userAge !== undefined && $scope.userAge < minimumAllowedAge)) {
                 $scope.busy = false;
-
                 return;
             }
 
@@ -583,6 +580,17 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
                 });
         };
 
+         /**
+         * @ngdoc method
+         * @name registrationDoneGoTo2ndStep
+         * @methodOf vbet5.controller:RegistrationController
+         * @description closes the "registration done" message and slider
+         */
+        $scope.goToNextStep = function goToNextStep() {
+            $scope.Complete2ndStep = true;
+            $scope.registrationFailed = false;
+        };
+
         /**
          * @ngdoc method
          * @name registrationDone
@@ -683,7 +691,7 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
                 $scope.registrationData.years.push(i.toString());
             }
         }
-        
+
         if(Config.main.showCapsLockHint) {
             $scope.capsLockStateHolder = {};
         }
@@ -699,14 +707,14 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
             }
         };
 
-        // $scope.resetFieldError = function resetFieldError(fieldName){
-        //     if(!Config.main.registration.enableResetError) {
-        //         return;
-        //     }
-        //     $scope.registrationData[fieldName] = '';
-        //     $scope.resetError[fieldName] = true;
-        //     $scope.registerform[fieldName].blur = false;
-        // };
+        $scope.resetFieldError = function resetFieldError(fieldName){
+            if(!Config.main.registration.enableResetError) {
+                return;
+            }
+            $scope.registrationData[fieldName] = '';
+            $scope.resetError[fieldName] = true;
+            $scope.registerform[fieldName].blur = false;
+        };
 
         /**
          * @ngdoc method

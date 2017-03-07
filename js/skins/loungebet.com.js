@@ -465,7 +465,7 @@ VBET5.constant('SkinConfig', {
             }
 
         ],
-        step2: {
+       /* step2: {
             "leftCol": [
                 {
                     "title": "First Name",
@@ -589,7 +589,8 @@ VBET5.constant('SkinConfig', {
                     "classes": "",
                     "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
                     "validation": [{ "name": "required", "message": "This field is required"}]
-                }, {
+                },
+                {
                     "title": "",
                     "name": "doc_number_2",
                     "type": "text",
@@ -597,7 +598,8 @@ VBET5.constant('SkinConfig', {
                     "classes": "",
                     "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
                     "validation": [{ "name": "required", "message": "This field is required"}]
-                }, {
+                },
+                {
                     "title": "",
                     "name": "doc_number_3",
                     "type": "text",
@@ -605,7 +607,8 @@ VBET5.constant('SkinConfig', {
                     "classes": "",
                     "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
                     "validation": [{ "name": "required", "message": "This field is required"}]
-                }, {
+                },
+                {
                     "title": "",
                     "name": "doc_number_4",
                     "type": "text",
@@ -623,7 +626,8 @@ VBET5.constant('SkinConfig', {
                     "customAttrs": [{"required": "required"}],
                     "optionsData": "<option ng-repeat=\"q in conf.registration.securityQuestion.questions track by $index\" value=\"{{q| translate}}\">{{q| translate}}</option>",
                     "validation": [{"name": "required", "message": "This field is required"}]
-                }, {
+                },
+                {
                     "title": "Security answer",
                     "name": "security_answer",
                     "type": "text",
@@ -632,7 +636,8 @@ VBET5.constant('SkinConfig', {
                     "classes": "form-text",
                     "customAttrs": [{"required": "required"}],
                     "validation": [{"name": "required", "message": "This field is required"}]
-                }, {
+                },
+                {
                     "title": "Promo code",
                     "name": "promo_code",
                     "type": "text",
@@ -641,10 +646,8 @@ VBET5.constant('SkinConfig', {
                     "classes": "form-text",
                     "customAttrs": [{"ng-disabled": "hasPromoCode"}],
                     "validation": []
-                }
-                /*
-                 ,
-                 {
+                },
+                {
                  "title": "Please enter the text shown on image",
                  "name": "captcha_text",
                  "type": "captcha",
@@ -654,9 +657,8 @@ VBET5.constant('SkinConfig', {
                  "customAttrs": [{"required": "required"}],
                  "validation": [{"name": "required", "message": "This field is required"}, {"name": "notmatching", "message": "Text you've entered doesn't match text on image."}]
                  }
-                 */
-            ]
-        }
+             ]
+        }*/
     },
 
     'env': {

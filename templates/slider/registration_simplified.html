@@ -2,8 +2,8 @@
     class="form-register-layout {{conf.registration.type}}-registration registration-background">
     <form name="registerform"  ng-keypress="keyPress($event)" class="registration-form" novalidate="novalidate" id="simplified-reg-form">
     <!--registration step1-->
-    <div class="popup-layout-registration"  ng-show="registrationStep === 1 && !registrationComplete && !registrationFailed">
-            <div class="vertical-middle-wrapper">
+    <div class="popup-layout-registration">
+            <div class="vertical-middle-wrapper"  ng-show="registrationStep === 1 && !registrationComplete && !registrationFailed">
                 <div class="all-popup-separator">
                     <div class="register-steps-b">
                             <div class="register-contain-new">
@@ -235,19 +235,17 @@
     </form>
     <!--registration step2-->
 
-    <div class="popup-layout-registration registration-ok" ng-show="registrationComplete">
+    <div class="popup-layout-registration registration-ok" ng-show="registrationComplete && !Complete2ndStep">
         <script-runner script-data="scriptContent" ng-if="scriptContent"></script-runner>
         <div class="vertical-middle-wrapper">
             <div class="all-popup-separator">
                 <div class="register-steps-b popup-errors">
                     <div class="register-contain-new popup-err-success">
                         <div class="closed-popup-form" ng-click="broadcast('slider.close')"></div>
-                        <div class="name-popup-registratin-b">
-                            <h4>Success</h4>
-                        </div>
+
                         <div class="inform-reg-popup">
                             <h5>
-                                <span trans>Registration complete.</span>
+                                <span trans>Account Activation</span>
                             </h5>
                             <h6 ng-if="conf.registration.mailIsSentAfterRegistration">
                                 <span trans>Please check your email.</span>
@@ -256,14 +254,43 @@
                         </div>
                         <div class="finish-register-buttons">
                             <div class="button-confirm">
-                                <button class="registration-done-btn" ng-click="closeRegistrationResult()" trans>OK</button>
+                                <button class="registration-done-btn" ng-click="goToNextStep()" trans>OK</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-       <div class="close-popup-overlay" ng-click="broadcast('slider.close')"></div>
+       <div class="close-popup-overlay"></div>
+    </div>
+
+    <div class="popup-layout-registration registration-ok registration-go-to-play" ng-show="registrationComplete && Complete2ndStep">
+        <script-runner script-data="scriptContent" ng-if="scriptContent"></script-runner>
+        <div class="vertical-middle-wrapper">
+            <div class="all-popup-separator">
+                <div class="register-steps-b popup-errors">
+                    <div class="register-contain-new popup-err-success">
+                        <div class="closed-popup-form" ng-click="broadcast('slider.close')"></div>
+
+                        <div class="inform-reg-popup">
+                            <h5>
+                                <span trans>Congratulations</span>
+                            </h5>
+                            <h6 ng-if="conf.registration.mailIsSentAfterRegistration">
+                                <span trans>Thanks for joining us! Your account is activated. Now you are part of our fellowship. Enjoy your time with us.</span>
+                                <u ng-if="!conf.GmsPlatform" ng-click="resendEmail()" trans>Live Chat.</u>
+                            </h6>
+                        </div>
+                        <div class="finish-register-buttons">
+                            <div class="button-confirm">
+                                <button class="registration-done-btn" ng-click="closeRegistrationResult()" trans>START PLAYING</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="close-popup-overlay" ng-click="broadcast('slider.close')"></div>
     </div>
 
     <div class="popup-layout-registration registration-failed" ng-show="registrationFailed">

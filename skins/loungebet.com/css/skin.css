@@ -1,3 +1,7 @@
+.is-hidden {
+    display: none;
+}
+
 @font-face {
     font-family: 'icomoon';
     src: url("../../../fonts/icomoon.eot?oladcq0");
@@ -49388,6 +49392,14 @@ display:none
     color: #fff;
 }
 
+.mini-title-box-gameview-v3.no-more {
+    padding-right: 0;
+}
+
+.mini-title-box-gameview-v3.no-more .no-ways {
+    border-right: 0;
+}
+
 .single-events-b-v3.blocked:before {
     box-sizing: border-box;
     display: block;
@@ -50371,7 +50383,7 @@ display:none
 .pematch-single-game-info-2column {
     box-sizing: border-box;
     float: left;
-    width: calc(100% - 180px);
+    width: calc(100% - 120px);
     border-right: 1px solid #e6e5dc;
 }
 
@@ -61989,7 +62001,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         color: #fff;
     }
 
-    /* LeagueOfLegends */
+    /* CallOfDuty*/
     .sports-item-v3.CallOfDuty,
     .event-view-title.CallOfDuty,
     .sport-title.CallOfDuty {
@@ -62040,13 +62052,17 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         border-right-color: #533e2b;
     }
 
-    .sports-item-v3.LeagueofLegends,
-    .event-view-title.LeagueOflegends,
-    .sport-title.LeagueOflegends {
+    .sports-item-v3.LeagueOfLegends,
+    .event-view-title.LeagueOfLegends,
+    .sport-title.LeagueOfLegends,
+    .sports-item-v3.Leagueoflegends,
+    .event-view-title.Leagueoflegends,
+    .sport-title.Leagueoflegends{
         background: #314e6e;
     }
 
-    .sports-item-v3.LeagueOflegends + .menu-popup .menu-popup-arrow {
+    .sports-item-v3.LeagueOfLegends + .menu-popup .menu-popup-arrow,
+    .sports-item-v3.Leagueolegends + .menu-popup .menu-popup-arrow {
         border-right-color: #314e6e;
     }
 
@@ -63892,6 +63908,16 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         box-sizing: border-box;
         float: left;
         width: 100%;
+    }
+
+    .no-ways {
+        box-sizing: border-box;
+        float: left;
+        width: 100%;
+    }
+
+    .pematch-single-game-info-2column + .events-list-view-v3 > ul.column-3 > li:nth-child(2) {
+        display: none;
     }
 
     .prem {
@@ -67712,6 +67738,11 @@ input::-ms-clear {
 @media screen and (max-width: 1366px) {
     .betslip-expanded .center-column-v3 {
         width: calc(100% - 627px);
+    }
+    .betslip-expanded .animation-control .game-control > .field-container > .field > .DangerousAttack.home .attack-div .attack-dir,
+    .betslip-expanded .animation-control .game-control > .field-container > .field > .Attack.home .attack-div .attack-dir {
+        top: 11%;
+        border-width: 91px 0 88px 28px;
     }
 }
 @media screen and (max-width: 1280px) {

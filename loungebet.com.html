@@ -57,6 +57,9 @@
 </script>
 <!-- end Mixpanel -->
 <body>
+<div ng-if="!env.isOffline || conf.oldHomepage" id="preloader" style="background-color:#fff;height:100%;width:100%;position:fixed;z-index:999999999;margin:0;top:0;left:0;right:0;">
+    <img style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 240px;" src="skins/loungebet.com/images/logo_join.png" alt="Loungebet">
+</div>
 <div class="body-wrapper {{$location.path() == '/' ? 'homepage' : ''}} {{footerMovable ? 'footer-movable' : ''}} {{$location.path().split('/').join('')}} {{(['/poolbetting/', '/freebet/', '/poker/'].indexOf($location.path()) > -1) ? 'modern' : (['/dashboard/', '/livecalendar/', '/results/', '/multiview/', '/overview/'].indexOf($location.path()) > -1 || conf.sportsLayout == 'classic') ? 'classic' : conf.sportsLayout}}" no-animate>
     <div class="wrapper-contein" ng-class="{'sports-on-left' : conf.sportsOnLeft, 'footer-open': footerOpen}">
         <!-- build:[src] //ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js -->

@@ -478,13 +478,7 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
                                 Storage.set('renewReminded', 0, Config.main.remindToRenewBalance.interval);
                             }
 
-                            if (Config.main.registration.loginRightAfterRegistration) {
-                                $scope.$emit('login.withUserPass', {
-                                    user: $scope.registrationData.username || $scope.registrationData.email || ($scope.registrationData.phone_code + $scope.registrationData.phone_number),
-                                    password: $scope.registrationData.password,
-                                    action: 'registration_completed'
-                                });
-                            }
+
                             if (Config.main.allowCustomHtml) {
                                 content.getWidget('tracking').then(function (resp) {
                                     var html = '';
@@ -587,6 +581,14 @@ angular.module('vbet5').controller('RegistrationController', ['$scope', '$rootSc
          * @description closes the "registration done" message and slider
          */
         $scope.goToNextStep = function goToNextStep() {
+            if (Config.main.registration.loginRightAfterRegistration) {
+                $scope.$emit('login.withUserPass', {
+                    user: $scope.registrationData.username || $scope.registrationData.email || ($scope.registrationData.phone_code + $scope.registrationData.phone_number),
+                    password: $scope.registrationData.password,
+                    action: 'registration_completed'
+                });
+            }
+
             $scope.Complete2ndStep = true;
             $scope.registrationFailed = false;
         };

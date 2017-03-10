@@ -60200,555 +60200,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         text-transform: uppercase;
     }
 
-    /*Login & Registration */
-    .register-steps-b {
-        float: left;
-        width: 380px;
-        display: block;
-        background: #fffef6;
-        box-shadow: none;
-        position: relative;
-        box-sizing: border-box;
-        padding: 30px;
-        z-index: 33;
-        animation: popup-enter .3s ease-in-out;
-        border-radius: 6px;
-    }
-
-    form.registration-form .register-steps-b  {
-        width: 635px;
-        padding: 24px 30px 14px 30px;
-    }
-
-    .block-sign-in-form .register-steps-b {
-        width: 450px;
-        padding: 24px 30px 18px 30px;
-    }
-
-    form.registration-form .register-steps-b  .closed-popup-form {
-        right: 15px;
-        top: 15px;
-    }
-
-    form.registration-form .register-steps-b  .closed-popup-form:before {
-        content: '\e117';
-        font-size: 20px;
-        line-height: 20px;
-    }
-
-    .block-sign-in-form .form-register-layout.signin .field-separator > label:not(.sign-in-checkbox-j),
-    .block-sign-in-form .reset-password .field-separator label {
-        position: absolute;
-        left: 14px;
-        top: 15px;
-        width: initial;
-        margin: 0;
-        opacity: 0.8;
-        color: #4d585a;
-        font-family: Ubuntu;
-        font-size: 14px;
-        z-index: 100;
-        transition: 0.2s easy;
-        -moz-transition: 0.2s ease all;
-        -webkit-transition: 0.2s ease all;
-    }
-
-    .block-sign-in-form .form-register-layout.signin .field-separator > label {
-        margin: 0 0 20px;
-    }
-
-
-    .block-sign-in-form .form-register-layout.signin .field-separator > label.focused,
-    .block-sign-in-form .reset-password .field-separator label.focused  {
-        top: 5px;
-        line-height: 10px;
-        font-size: 10px;
-        color: #4d585a;
-        pointer-events: none;
-    }
-
-    form.registration-form .register-steps-b .form-text label {
-        position: absolute;
-        margin: 0;
-        top: 15px;
-        left: 15px;
-        color: #7c8292;
-        font-size: 14px;
-        transition: 0.2s easy;
-        -moz-transition: 0.2s ease all;
-        -webkit-transition: 0.2s ease all;
-    }
-
-    form.registration-form .register-steps-b  label.focused {
-        top: 5px;
-        line-height: 10px;
-        font-size: 10px;
-        color: #7c8292;
-        pointer-events: none;
-    }
-
-    form.registration-form .register-steps-b  input.focused,
-    .block-sign-in-form .reset-password .field-separator input.focused  {
-        padding-top: 6px;
-        color: #244747;
-        -webkit-text-fill-color:#244747;
-    }
-
-    form.registration-form .register-steps-b .account-link-b label {
-        display: inline-block;
-        padding: 0 10px 0 0;
-        color: #7c8292;
-        margin: 0;
-        width: auto;
-        float: none;
-        font-size: 12px;
-    }
-
-    form.registration-form .register-steps-b .hint {
-        border: none;
-    }
-
-    form.registration-form .register-steps-b .form-error-text,
-    form.registration-form .register-steps-b .password-info-t ,
-    .block-slider.popup .form-sign-in.forgot-password .form-error-text ,
-    .block-sign-in-form .reset-password .field-separator .password-info-t {
-        position: relative;
-        left: 0;
-        top: 8px;
-        width: 565px;
-        box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.07);
-        background-color: #fffef6;
-        display: block;
-    }
-
-    .block-slider.popup .form-sign-in.forgot-password .form-error-text ,
-    .block-sign-in-form .reset-password .field-separator .password-info-t {
-        width: 100%;
-        position: relative;
-        top: 7px;
-        box-sizing: border-box;
-        float: left;
-    }
-
-    .block-slider.popup .form-sign-in.forgot-password .form-error-text p {
-        padding: 5px;
-        color: #d14343;
-    }
-
-    form.registration-form .error-icon-f:before,
-    form.registration-form .register-steps-b .password-info-t:before ,
-    .form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f:before ,
-    .block-sign-in-form .reset-password .field-separator .password-info-t:before ,
-    .block-sign-in-form .reset-password .field-separator .password-info-t .error-icon-f:before {
-        display: none;
-    }
-
-    form.registration-form .form-text.valid > div > input{
-        border: 1px solid #52a178;
-    }
-
-    form.registration-form .error-icon-f ,
-    .form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f ,
-    .block-sign-in-form .reset-password .field-separator .password-info-t .error-icon-f {
-        width: 8px;
-        height: 8px;
-        background-color: #fffef6;
-        transform: rotateZ(45deg);
-        top: -5px;
-        left: 11px;
-        border-left: 1px solid rgba(0, 0, 0, 0.07);
-        border-top: 1px solid rgba(0, 0, 0, 0.07);
-    }
-
-    form.registration-form .form-error-text > .error-icon-f,
-    .form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f ,
-    .block-sign-in-form .reset-password .field-separator .form-error-text .error-icon-f ,
-    .block-sign-in-form .reset-password .field-separator .password-info-t.error {
-        border-left: 1px solid rgba(210, 72, 72, 0.4);
-        border-top: 1px solid rgba(210, 72, 72, 0.4);
-    }
-
-    .block-slider.popup form.registration-form .register-steps-b .form-error-icon ,
-    .block-sign-in-form .reset-password .field-separator .password-info-t .form-error-icon,
-    .block-sign-in-form .reset-password .field-separator .password-info-t .form-error-icon {
-        top: 12px;
-    }
-
-    .block-slider.popup form.registration-form .register-steps-b .error .form-error-icon:before,
-    .block-sign-in-form .reset-password .field-separator .password-info-t.error .form-error-icon:before,{
-        content: "\e117" !important;
-    }
-
-    .block-slider.popup form.registration-form .register-steps-b .valid .form-error-icon:before,
-    .block-sign-in-form .reset-password .field-separator .password-info-t.valid .form-error-icon:before{
-        content: "\e625" !important;
-        color: #52a178;
-        display: block;
-    }
-
-    .block-sign-in-form .form-register-layout.signin .form-sign-in.forgot-password {
-        margin-bottom: 15px; 
-    } 
-
-    .block-sign-in-form .form-register-layout.signin .form-sign-in.forgot-password .form-text.error{ 
-        display: flex;
-        flex-direction: column;
-    }
-
-    .block-sign-in-form .form-register-layout.signin .forgot-password .field-separator .form-text > input {
-        padding-top: 0
-    }
-
-    .block-sign-in-form .form-register-layout.signin .field-separator .form-text > input[type="password"],
-    .block-sign-in-form .reset-password .field-separator .form-text input {
-        letter-spacing: 3px;
-    }
-
-    form.registration-form .register-steps-b .select-block {
-        width: 278px;
-        height: 44px;
-        margin: 0 17px 15px 0;
-    }
-
-    .block-sign-in-form .form-register-layout.signin .field-separator ,
-    .block-sign-in-form .reset-password .field-separator {
-        position: relative;
-        float: left;
-        width: 100%;
-    }
-
-    .block-sign-in-form .form-register-layout.signin .field-separator .form-text,
-    .block-sign-in-form .reset-password .field-separator .form-text {
-        margin-bottom: 15px;
-    }
-
-    form.registration-form .register-steps-b .select-block label {
-        position: absolute;
-        margin: 0;
-        line-height: 0;
-        font-size: 10px;
-        color: #7c8292;
-        pointer-events: none;
-        left: 15px;
-        top: 9px;
-    }
-
-    form.registration-form .register-steps-b .select-block.big .vb-select {
-        border: 1px solid #a6aba8;
-    }
-
-    form.registration-form .register-steps-b .select-block select {
-        width: 100%;
-        height: 42px;
-        padding: 8px 38px 0px 14px;
-        color: #303739;
-        -webkit-text-fill-color: #303739;
-    }
-
-    form.registration-form .register-steps-b .field-separator .form-text {
-        float: left;
-        position: relative;
-        width: 280px;
-        margin-bottom: 15px;
-        margin-right: 15px;
-        display: block;
-    }
-
-    form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text {
-        margin: 0 0 15px 0;
-    }
-
-    form.registration-form .register-steps-b .form-error-text p ,
-    .block-sign-in-form .reset-password .field-separator .password-info-t.error p {
-        color: #d14343;
-    }
-
-    form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text .form-error-text,
-    form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text .password-info-t {
-        left: -295px;
-    }
-
-    form.registration-form .register-steps-b .field-separator .form-text .form-error-text.tooltipVisible {
-        height: 100%;
-        overflow: visible;
-    }
-
-    form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text .error-icon-f {
-        left: calc(100% - 22px);
-    }
-
-    form.registration-form .register-steps-b .register-contain-new .button-confirm > button {
-        background: #ff8067;
-        cursor: default;
-        width: 220px;
-        margin: auto;
-        display: block;
-        float: none;
-    }
-
-
-    .block-sign-in-form .form-register-layout.signin .button-confirm ,
-    .popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup + .finish-register-buttons .button-confirm {
-        width: 220px;
-        float: left;
-        margin: 0 85px;
-    }
-
-    .block-sign-in-form .form-sign-in.forgot-password + .button-confirm {
-        margin-top: 0;
-    }
-
-    .block-slider.popup .signin-error-message p {
-        color: #d14343;
-        margin-bottom: 10px;
-        text-align: left;
-        font-size: 13px;
-        padding: 0;
-    }
-
-
-    .block-sign-in-form .signin-error-message p:before {
-        display: none;
-    }
-   
-    form.registration-form .register-steps-b #id_password .progress > div ,
-    .block-sign-in-form .reset-password div.progress > div { 
-        display: block;
-        position: absolute;
-        top: 41px;
-        background-image: url(../images/rainbow_border.png);
-        background-size: cover;
-        width: 100%;
-        height: 3px;
-        transition: all 0.3s;
-    }
-
-    form.registration-form .mini-checkbox-b > input[type="checkbox"] + label:before {
-        width: 14px;
-        height: 14px;
-        border-radius: 2px;
-    }
-
-    form.registration-form .checkbox-separator,
-    form.registration-form .account-link-b {
-        margin: 0 0 10px 0;
-    }
-
-    form.registration-form .checkbox-separator,
-    form.registration-form .account-link-b
-
-    form.registration-form .register-steps-b .form-error-text p:first-of-type ,
-    form.registration-form .register-steps-b .password-info-t p:first-of-type {
-        padding-top: 0;
-    }
-
-    form.registration-form .register-contain-new > .account-link-b {
-        text-align: left;
-    }
-
-    form.registration-form .register-contain-new .button-confirm + .account-link-b {
-        margin-top: 15px;
-        margin-bottom:0;
-    }
-
-    form.registration-form .register-steps-b .mini-checkbox-b > .form-error-text {
-        top: 0;
-        margin-top: 25px;
-        left: -8px;
-    }
-
-    form.registration-form .select-block.big .vb-select:after {
-        font-size: 26px;
-        top: 10px;
-    }
-
-    form.registration-form .select-block.big .vb-select.open:after {
-        transform: rotateZ(180deg);
-    }
-
-    form.registration-form .select-block.mini .vb-select:after,
-    form.registration-form .select-block.big .vb-select:after,
-    form.registration-form .city-form-block.new .vb-select:after {
-        font-size: 26px;
-        top: 10px;
-        height: 24px;
-    }
-
-    .block-slider.popup {
-        z-index: 99999;
-        top: 0;
-        left: 0;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.7);
-        padding: 0;
-        overflow: hidden;
-        transition-duration: inherit;
-        animation: popup-bg-enter .3s ease-in-out;
-    }
-
-    .button-confirm > button {
-        float: left;
-        width: 100%;
-        box-sizing: border-box;
-        border: none;
-        background: #468966;
-        text-transform: uppercase;
-        font: 15px Ubuntu, Arial, Helvetica, sans-serif;
-        height: 36px;
-        color: #ffffff;
-        cursor: pointer;
-        padding: 0;
-        top: 0;
-        max-width: initial;
-        margin: 0;
-        border: 0;
-        transition: 200ms background, 200ms border-color;
-        border-radius: 4px;
-    }
-
-    .register-steps-b label {
-        float: left;
-        color: #303838;
-        font: 13px/14px Ubuntu, Arial, Helvetica, sans-serif;
-        text-align: left;
-        margin: 20px 0 8px;
-    }
-
-    .button-confirm > button:hover, .button-confirm.step-2 button:hover {
-        background: #417d5e;
-        color: #ffffff;
-    }
-
-    .input-separator-b > input, .form-register-layout.signin .field-separator .form-text > input,
-    .register-steps-b .form-text > div > input, 
-    .register-steps-b .registration-form-city > div > input, 
-    .register-steps-b .reg-form-input-number > div > input,
-    .block-sign-in-form .reset-password .field-separator .form-text.error input {
-        background: none;
-        box-sizing: border-box;
-        padding: 0 38px 0 12px;
-        font: 14px Ubuntu, Arial, Helvetica, sans-serif;
-        height: 36px;
-        width: 100%;
-        border: 1px solid #a6aba8;
-        color: #7c8292;
-        transition: border-color 200ms;
-        box-shadow: none;
-        -webkit-text-fill-color: #7c8292;
-        border-radius: 4px;
-    }
-
-
-    form.registration-form .register-steps-b .field-separator .form-text > div > input,
-    .block-sign-in-form .form-register-layout.signin .field-separator .form-text > input ,
-    .block-sign-in-form .reset-password .field-separator .form-text.error input {
-        height: 44px;
-        padding-top: 8px;
-        color: #303739;
-        -webkit-text-fill-color: #303739;
-        margin: 0
-    }
-
-    .button-confirm > button:disabled {
-        color: #ffffff;
-        background: #a6aba8;
-        cursor: default;
-    }
-
-    .closed-popup-form:hover:before {
-        color: #303838;
-    }
-
-    .register-steps-b .form-text.error > div > input, .register-steps-b .reg-form-input-number.error > div > input, .form-register-layout.signin .field-separator .form-text.error > input {
-        border-color: #d14343;
-    }
-
-    .block-slider.popup .signin-error-message p, .block-slider.popup .signin-error-message p:before, .input-error-message, .input-error-message:before {
-        color: #d14343;
-    }
-
-    .block-slider.popup .register-information-b > h2 {
-        float: left;
-        width: 100%;
-        color: #303838;
-        font: 15px/16px Ubuntu, Arial, Helvetica, sans-serif;
-        margin: 0 0 15px;
-    }
-
-    .block-slider.popup .all-popup-separator .register-information-b h3,
-    .popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h6 {
-        float: left;
-        width: 100%;
-        color: #7c8292;
-        font: 16px/18px Ubuntu, Arial, Helvetica, sans-serif !important;
-        margin: 0 0 5px;
-        box-shadow: none;
-        text-transform: none;
-    }
-
-     .block-slider.popup .block-sign-in-form .all-popup-separator .register-information-b h2 ,
-     .popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h5 {
-        color: #303838;
-        font-family: Ubuntu;
-        font-size: 18px;
-        font-weight: 400;
-    }
-
-    .popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h5 {
-        margin-bottom: 15px;
-    }
-
-    .block-slider.popup .block-sign-in-form .all-popup-separator .register-information-b h3,
-    .popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h6 {
-        color: #303838;
-        font-family: Ubuntu;
-        font-size: 16px;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-
-    .block-slider.popup form.ng-pristine .form-error-icon:before, .block-slider.popup .form-sign-in.forgot-password .form-error-icon:before, .block-slider.popup form.registration-form.ng-dirty .form-error-icon:before {
-        font: 18px/22px icomoon;
-        content: "\e6eb";
-        color: #d14343;
-    }
-
-    .register-steps-b .form-error-text, .register-steps-b .password-info-t {
-        left: calc(100% + 10px);
-        width: 290px;
-        min-height: 25px;
-        padding: 5px;
-        border-radius: 2px;
-        top: 42px;
-        bottom: auto;
-        background: #dcdcdc;
-        z-index: 99;
-    }
-
-    .register-steps-b .error-icon-f:before {
-        display: block;
-        content: "";
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 6px 6px 6px 0;
-        border-color: transparent #dcdcdc transparent transparent;
-    }
-
-    .logo-form-b {
-        float: left;
-        width: 80%;
-        height: 80px;
-        background: url("../images/logo_join.png") no-repeat 50% 50%/contain;
-        margin: 0 10% 0;
-    }
-
-    .register-steps-b .form-text > div > input:-webkit-autofill,
-    .form-register-layout.signin .field-separator .form-text > input:-webkit-autofill,
-    .form-register-layout.signin .field-separator .form-text > input:-webkit-autofill:focus {
-        box-shadow: 0 0 0 100px white inset;
-        -webkit-text-fill-color: #4d585a;
-    }
 
     .account-link-b > span {
         display: inline-block;
@@ -67957,7 +67408,6 @@ input::-ms-clear {
     box-shadow: none;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 1440px) {
     .betslip-expanded .right-column-v3 {
         width: 500px;
@@ -68065,6 +67515,743 @@ input::-ms-clear {
         padding: 0;
     }
 }
+
+
+/*Login & Registration */
+
+.register-steps-b {
+    float: left;
+    width: 380px;
+    display: block;
+    background: #fffef6;
+    box-shadow: none;
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px;
+    z-index: 33;
+    animation: popup-enter .3s ease-in-out;
+    border-radius: 6px;
+}
+
+.register-steps-b > .register-contain-new {
+    float: left;
+    width: 100%;
+}
+
+.register-steps-b > .register-contain-new .reg-form-steps {
+    float: left;
+    width: 100%;
+}
+
+.register-steps-b .register-information-b {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.register-steps-b .button-confirm {
+    float: left;
+    width: 100%;
+    margin: 20px 0 0;
+    position: relative;
+}
+
+form.registration-form .register-steps-b  {
+    width: 635px;
+    padding: 24px 30px 14px 30px;
+}
+
+.block-sign-in-form .register-steps-b {
+    width: 450px;
+    padding: 24px 30px 18px 30px;
+}
+
+form.registration-form .register-steps-b  .closed-popup-form {
+    right: 15px;
+    top: 15px;
+    z-index: 55;
+    position: absolute;
+}
+
+.register-steps-b > .register-contain-new .closed-popup-form:before {
+    font: 20px/20px icomoon;
+    color: #7c8292;
+    content: "\e117";
+    cursor: pointer;
+    transition: 250ms color;
+}
+
+form.registration-form .register-steps-b  .closed-popup-form:before {
+    content: '\e117';
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.block-sign-in-form .form-register-layout.signin .field-separator > label:not(.sign-in-checkbox-j),
+.block-sign-in-form .reset-password .field-separator label {
+    position: absolute;
+    left: 14px;
+    top: 15px;
+    width: initial;
+    margin: 0;
+    opacity: 0.8;
+    color: #4d585a;
+    font-family: Ubuntu;
+    font-size: 14px;
+    z-index: 100;
+    transition: 0.2s easy;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.block-sign-in-form .form-register-layout.signin .field-separator > label {
+    margin: 0 0 20px;
+}
+
+
+.block-sign-in-form .form-register-layout.signin .field-separator > label.focused,
+.block-sign-in-form .reset-password .field-separator label.focused  {
+    top: 5px;
+    line-height: 10px;
+    font-size: 10px;
+    color: #4d585a;
+    pointer-events: none;
+}
+
+form.registration-form .register-steps-b .form-text label {
+    position: absolute;
+    margin: 0;
+    top: 15px;
+    left: 15px;
+    color: #7c8292;
+    font-size: 14px;
+    transition: 0.2s easy;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+form.registration-form .register-steps-b  label.focused {
+    top: 5px;
+    line-height: 10px;
+    font-size: 10px;
+    color: #7c8292;
+    pointer-events: none;
+}
+
+form.registration-form .register-steps-b  input.focused,
+.block-sign-in-form .reset-password .field-separator input.focused  {
+    padding-top: 6px;
+    color: #244747;
+    -webkit-text-fill-color:#244747;
+}
+
+form.registration-form .register-steps-b .account-link-b label {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    color: #7c8292;
+    margin: 0;
+    width: auto;
+    float: none;
+    font-size: 12px;
+}
+
+form.registration-form .register-steps-b .hint {
+    border: none;
+}
+
+form.registration-form .register-steps-b .form-error-text,
+form.registration-form .register-steps-b .password-info-t ,
+.block-slider.popup .form-sign-in.forgot-password .form-error-text ,
+.block-sign-in-form .reset-password .field-separator .password-info-t {
+    position: relative;
+    left: 0;
+    top: 8px;
+    width: 565px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.07);
+    background-color: #fffef6;
+    display: block;
+}
+
+.block-slider.popup .form-sign-in.forgot-password .form-error-text ,
+.block-sign-in-form .reset-password .field-separator .password-info-t {
+    width: 100%;
+    position: relative;
+    top: 7px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.block-slider.popup .form-sign-in.forgot-password .form-error-text p {
+    padding: 5px;
+    color: #d14343;
+}
+.register-steps-b .form-error-text p, .register-steps-b .password-info-t p {
+    text-align: left;
+    color: #404654;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+}
+form.registration-form .error-icon-f:before,
+form.registration-form .register-steps-b .password-info-t:before ,
+.form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f:before ,
+.block-sign-in-form .reset-password .field-separator .password-info-t:before ,
+.block-sign-in-form .reset-password .field-separator .password-info-t .error-icon-f:before {
+    display: none;
+}
+
+form.registration-form .form-text.valid > div > input{
+    border: 1px solid #52a178;
+}
+
+form.registration-form .error-icon-f ,
+.form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f ,
+.block-sign-in-form .reset-password .field-separator .password-info-t .error-icon-f {
+    width: 8px;
+    height: 8px;
+    background-color: #fffef6;
+    transform: rotateZ(45deg);
+    top: -5px;
+    left: 11px;
+    border-left: 1px solid rgba(0, 0, 0, 0.07);
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+form.registration-form .form-error-text > .error-icon-f,
+.form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f ,
+.block-sign-in-form .reset-password .field-separator .form-error-text .error-icon-f ,
+.block-sign-in-form .reset-password .field-separator .password-info-t.error {
+    border-left: 1px solid rgba(210, 72, 72, 0.4);
+    border-top: 1px solid rgba(210, 72, 72, 0.4);
+}
+
+.block-slider.popup form.registration-form .register-steps-b .form-error-icon ,
+.block-sign-in-form .reset-password .field-separator .password-info-t .form-error-icon,
+.block-sign-in-form .reset-password .field-separator .password-info-t .form-error-icon {
+    top: 12px;
+}
+
+form.ng-dirty .form-text.valid .form-error-icon {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    right: 10px;
+    bottom: 12px;
+    display: block;
+}
+
+.block-slider.popup form.registration-form .register-steps-b .error .form-error-icon:before,
+.block-sign-in-form .reset-password .field-separator .password-info-t.error .form-error-icon:before,{
+    content: "\e117" !important;
+}
+
+.block-slider.popup form.registration-form .register-steps-b .valid .form-error-icon:before,
+.block-sign-in-form .reset-password .field-separator .password-info-t.valid .form-error-icon:before{
+    content: "\e625" !important;
+    color: #52a178;
+    display: block;
+}
+
+.block-sign-in-form .form-register-layout.signin .form-sign-in.forgot-password {
+    margin-bottom: 15px;
+}
+
+.block-sign-in-form .form-register-layout.signin .form-sign-in.forgot-password .form-text.error{
+    display: flex;
+    flex-direction: column;
+}
+
+.block-sign-in-form .form-register-layout.signin .forgot-password .field-separator .form-text > input {
+    padding-top: 0
+}
+
+.block-sign-in-form .form-register-layout.signin .field-separator .form-text > input[type="password"],
+.block-sign-in-form .reset-password .field-separator .form-text input {
+    letter-spacing: 3px;
+}
+
+form.registration-form .register-steps-b .select-block {
+    width: 278px;
+    height: 44px;
+    margin: 0 17px 15px 0;
+}
+
+.block-sign-in-form .form-register-layout.signin .field-separator ,
+.block-sign-in-form .reset-password .field-separator {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.block-sign-in-form .form-register-layout.signin .field-separator .form-text,
+.block-sign-in-form .reset-password .field-separator .form-text {
+    margin-bottom: 15px;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+form.registration-form .register-steps-b .select-block label {
+    position: absolute;
+    margin: 0;
+    line-height: 0;
+    font-size: 10px;
+    color: #7c8292;
+    pointer-events: none;
+    left: 15px;
+    top: 9px;
+}
+
+form.registration-form .register-steps-b .select-block.big .vb-select {
+    border: 1px solid #a6aba8;
+}
+
+form.registration-form .register-steps-b .select-block select {
+    width: 100%;
+    height: 42px;
+    padding: 8px 38px 0px 14px;
+    color: #303739;
+    -webkit-text-fill-color: #303739;
+}
+
+form.registration-form .register-steps-b .field-separator .form-text {
+    float: left;
+    position: relative;
+    width: 280px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    display: block;
+}
+
+
+form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text {
+    margin: 0 0 15px 0;
+    float: right;
+}
+
+form.registration-form .register-steps-b .form-error-text p ,
+.block-sign-in-form .reset-password .field-separator .password-info-t.error p {
+    color: #d14343;
+}
+
+form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text .form-error-text,
+form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text .password-info-t {
+    left: -295px;
+}
+
+form.registration-form .register-steps-b .field-separator .form-text .form-error-text.tooltipVisible {
+    height: 100%;
+    overflow: visible;
+}
+
+form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text .error-icon-f {
+    left: calc(100% - 22px);
+}
+
+form.registration-form .register-steps-b .register-contain-new .button-confirm > button {
+    background: #ff8067;
+    cursor: default;
+    width: 220px;
+    margin: auto;
+    display: block;
+    float: none;
+}
+
+
+.block-sign-in-form .form-register-layout.signin .button-confirm ,
+.popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup + .finish-register-buttons .button-confirm {
+    width: 220px;
+    float: left;
+    margin: 0 85px;
+}
+
+.block-sign-in-form .form-sign-in.forgot-password + .button-confirm {
+    margin-top: 0;
+}
+
+.block-slider.popup .signin-error-message p {
+    color: #d14343;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 13px;
+    padding: 0;
+}
+
+
+.block-sign-in-form .signin-error-message p:before {
+    display: none;
+}
+
+form.registration-form .register-steps-b #id_password .progress > div ,
+.block-sign-in-form .reset-password div.progress > div {
+    display: block;
+    position: absolute;
+    top: 41px;
+    background-image: url(../images/rainbow_border.png);
+    background-size: cover;
+    width: 100%;
+    height: 3px;
+    transition: all 0.3s;
+}
+
+form.registration-form .mini-checkbox-b > input[type="checkbox"] + label:before {
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+}
+
+form.registration-form .checkbox-separator,
+form.registration-form .account-link-b {
+    margin: 0 0 10px 0;
+    float: left;
+    width: 100%;
+}
+
+form.registration-form .checkbox-separator,
+form.registration-form .account-link-b
+
+form.registration-form .register-steps-b .form-error-text p:first-of-type ,
+form.registration-form .register-steps-b .password-info-t p:first-of-type {
+    padding-top: 0;
+}
+
+form.registration-form .register-contain-new > .account-link-b {
+    float: left;
+    width: 100%;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    margin: 20px 0 0;
+    white-space: nowrap;
+    text-align: left;
+}
+
+form.registration-form .register-contain-new .button-confirm + .account-link-b {
+    margin-top: 15px;
+    margin-bottom:0;
+}
+
+form.registration-form .register-steps-b .mini-checkbox-b > .form-error-text {
+    top: 0;
+    margin-top: 25px;
+    left: -8px;
+}
+
+form.registration-form .select-block.big .vb-select:after {
+    font-size: 26px;
+    top: 10px;
+}
+
+form.registration-form .select-block.big .vb-select.open:after {
+    transform: rotateZ(180deg);
+}
+
+form.registration-form .select-block.mini .vb-select:after,
+form.registration-form .select-block.big .vb-select:after,
+form.registration-form .city-form-block.new .vb-select:after {
+    font-size: 26px;
+    top: 10px;
+    height: 24px;
+}
+
+.block-slider.popup {
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+    overflow: hidden;
+    transition-duration: inherit;
+    animation: popup-bg-enter .3s ease-in-out;
+}
+
+.button-confirm > button {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: #468966;
+    text-transform: uppercase;
+    font: 15px Ubuntu, Arial, Helvetica, sans-serif;
+    height: 36px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0;
+    top: 0;
+    max-width: initial;
+    margin: 0;
+    border: 0;
+    transition: 200ms background, 200ms border-color;
+    border-radius: 4px;
+}
+
+.register-steps-b label {
+    float: left;
+    color: #303838;
+    font: 13px/14px Ubuntu, Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 20px 0 8px;
+}
+
+.button-confirm > button:hover, .button-confirm.step-2 button:hover {
+    background: #417d5e;
+    color: #ffffff;
+}
+
+.input-separator-b > input, .form-register-layout.signin .field-separator .form-text > input,
+.register-steps-b .form-text > div > input,
+.register-steps-b .registration-form-city > div > input,
+.register-steps-b .reg-form-input-number > div > input,
+.block-sign-in-form .reset-password .field-separator .form-text.error input {
+    background: none;
+    box-sizing: border-box;
+    padding: 0 38px 0 12px;
+    font: 14px Ubuntu, Arial, Helvetica, sans-serif;
+    height: 36px;
+    width: 100%;
+    border: 1px solid #a6aba8;
+    color: #7c8292;
+    transition: border-color 200ms;
+    box-shadow: none;
+    -webkit-text-fill-color: #7c8292;
+    border-radius: 4px;
+}
+
+
+form.registration-form .register-steps-b .field-separator .form-text > div > input,
+.block-sign-in-form .form-register-layout.signin .field-separator .form-text > input ,
+.block-sign-in-form .reset-password .field-separator .form-text.error input {
+    height: 44px;
+    padding-top: 8px;
+    color: #303739;
+    -webkit-text-fill-color: #303739;
+    margin: 0
+}
+
+.button-confirm > button:disabled {
+    color: #ffffff;
+    background: #a6aba8;
+    cursor: default;
+}
+
+.closed-popup-form:hover:before {
+    color: #303838;
+}
+
+.register-steps-b .form-text.error > div > input, .register-steps-b .reg-form-input-number.error > div > input, .form-register-layout.signin .field-separator .form-text.error > input {
+    border-color: #d14343;
+}
+
+.block-slider.popup .signin-error-message p, .block-slider.popup .signin-error-message p:before, .input-error-message, .input-error-message:before {
+    color: #d14343;
+}
+
+.block-slider.popup .register-information-b > h2 {
+    float: left;
+    width: 100%;
+    color: #303838;
+    font: 15px/16px Ubuntu, Arial, Helvetica, sans-serif;
+    margin: 0 0 15px;
+}
+
+.block-slider.popup .all-popup-separator .register-information-b h3,
+.popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h6 {
+    float: left;
+    width: 100%;
+    color: #7c8292;
+    font: 16px/18px Ubuntu, Arial, Helvetica, sans-serif !important;
+    margin: 0 0 5px;
+    box-shadow: none;
+    text-transform: none;
+}
+
+.block-slider.popup .block-sign-in-form .all-popup-separator .register-information-b h2 ,
+.popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h5 {
+    color: #303838;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h5 {
+    margin-bottom: 15px;
+}
+
+.block-slider.popup .block-sign-in-form .all-popup-separator .register-information-b h3,
+.popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h6 {
+    color: #303838;
+    font-family: Ubuntu;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.block-slider.popup form.ng-pristine .form-error-icon:before,
+.block-slider.popup .form-sign-in.forgot-password .form-error-icon:before,
+.block-slider.popup form.registration-form.ng-dirty .form-error-icon:before {
+    font: 18px/22px icomoon;
+    content: "\e117";
+    color: #d14343;
+}
+
+.register-steps-b .form-error-text, .register-steps-b .password-info-t {
+    left: calc(100% + 10px);
+    width: 290px;
+    min-height: 25px;
+    padding: 5px;
+    border-radius: 2px;
+    top: 42px;
+    bottom: auto;
+    background: #dcdcdc;
+    z-index: 99;
+}
+
+.register-steps-b .error-icon-f:before {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 6px 0;
+    border-color: transparent #dcdcdc transparent transparent;
+}
+
+.logo-form-b {
+    float: left;
+    width: 80%;
+    height: 80px;
+    background: url("../images/logo_join.png") no-repeat 50% 50%/contain;
+    margin: 0 10% 0;
+}
+
+.register-steps-b .form-text > div > input:-webkit-autofill,
+.form-register-layout.signin .field-separator .form-text > input:-webkit-autofill,
+.form-register-layout.signin .field-separator .form-text > input:-webkit-autofill:focus {
+    box-shadow: 0 0 0 100px white inset;
+    -webkit-text-fill-color: #4d585a;
+}
+
+.form-register-layout.signin .closed-popup-form, .popup-layout-registration.registration-ok .closed-popup-form {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    font-size: 24px;
+    z-index: 16
+}
+
+.block-slider.popup .form-register-layout.signin .form-sign-in {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.block-slider.popup .form-register-layout.signin .button-sign {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.block-slider.popup .form-register-layout.signin .button-sign ul li:first-child a {
+    opacity: 0.7;
+    color: #303838;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    font: 13px/14px Ubuntu, Arial, Helvetica, sans-serif;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+    display: block;
+    text-decoration: none;
+    padding: 2px 0;
+    white-space: nowrap;
+}
+
+label.sign-in-checkbox-j input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    opacity: 0;
+    margin: 0;
+}
+
+.registration-ok button, .registration-failed button {
+    font: 13px/36px Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background: #468966;
+    padding: 0 50px;
+    border-radius: 4px;
+    height: 36px;
+    margin: 0;
+    position: relative;
+    top: 0;
+    border: 0;
+    /* padding: 2px 50px 0 40px; */
+    /* height: 44px; */
+    cursor: pointer;
+    width: 220px;
+}
+
+.form-register-layout.signin .register-steps-b .field-separator .password-eye-ico, .password-eye-ico {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    width: 35px;
+    top: 10px;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.mini-checkbox-b > input[type="checkbox"] {
+    opacity: 0;
+    margin: 0;
+    float: left;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    z-index: 66;
+    left: 0;
+    top: 0;
+}
+
+.register-steps-b .mini-checkbox-b > label {
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+.account-link-b > span {
+    display: inline-block;
+    color: #468966;
+    border-bottom: 1px dotted #468966;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.reg-form-steps .account-link-b > p {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    color: #7c8292;
+    margin: 0;
+    width: auto;
+    float: none;
+}
+
+/* Registration form background*/
 
 .registration-background {
     background-color: transparent;

@@ -1,7 +1,3 @@
-.is-hidden {
-    display: none;
-}
-
 @font-face {
     font-family: 'icomoon';
     src: url("../../../fonts/icomoon.eot?oladcq0");
@@ -24644,20 +24640,6 @@ label.reg-cup-register-j:nth-of-type(even) {
     margin: 0 0 0 60px;
 }
 
-<<<<<<< HEAD
-=======
-.form-register-layout.signin .closed-popup-form ,
-.popup-layout-registration.registration-ok .closed-popup-form {
-    right: 16px;
-    top: 16px
-}
-
-.form-register-layout.signin .closed-popup-form:before ,
-.popup-layout-registration.registration-ok .closed-popup-form:before{
-    font: 20px/20px icomoon;
-}
-
->>>>>>> 47a4d192a40686fc4621b482217eba55a5bda2a7
 .closed-popup-form {
     position: absolute;
     top: 20px;
@@ -25604,10 +25586,6 @@ label.reg-cup-register-j:nth-of-type(even) {
 
 .register-contain-new.popup-err-success {
     margin: 30px 0 0;
-}
-
-.popup-layout-registration.registration-ok .register-contain-new.popup-err-success {
-    margin-top: 5px;
 }
 
 .icon-popup-registration-b {
@@ -49410,14 +49388,6 @@ display:none
     color: #fff;
 }
 
-.mini-title-box-gameview-v3.no-more {
-    padding-right: 0;
-}
-
-.mini-title-box-gameview-v3.no-more .no-ways {
-    border-right: 0;
-}
-
 .single-events-b-v3.blocked:before {
     box-sizing: border-box;
     display: block;
@@ -50401,7 +50371,7 @@ display:none
 .pematch-single-game-info-2column {
     box-sizing: border-box;
     float: left;
-    width: calc(100% - 120px);
+    width: calc(100% - 180px);
     border-right: 1px solid #e6e5dc;
 }
 
@@ -60137,7 +60107,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         width: 380px;
         display: block;
         background: #fffef6;
-        box-shadow: none;
+        box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.15);
         position: relative;
         box-sizing: border-box;
         padding: 30px;
@@ -60151,14 +60121,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         padding: 24px 30px 14px 30px;
     }
 
-<<<<<<< HEAD
-=======
-    .block-sign-in-form .register-steps-b {
-        width: 450px;
-        padding: 24px 30px 18px 30px;
-    }
-
->>>>>>> 47a4d192a40686fc4621b482217eba55a5bda2a7
     form.registration-form .register-steps-b  .closed-popup-form {
         right: 15px;
         top: 15px;
@@ -60166,8 +60128,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
     form.registration-form .register-steps-b  .closed-popup-form:before {
         content: '\e117';
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 16px;
     }
 
     form.registration-form .register-steps-b .form-text label {
@@ -60298,9 +60260,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         float: left;
         position: relative;
         width: 280px;
-        margin-bottom: 15px;
-        margin-right: 15px;
-        display: block;
+        margin: 0 15px 15px 0;
     }
 
     form.registration-form .register-steps-b .field-separator:nth-child(2n) .form-text {
@@ -60334,37 +60294,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         float: none;
     }
 
-<<<<<<< HEAD
     form.registration-form .register-steps-b #id_password .progress  > div {
-=======
-
-    .block-sign-in-form .form-register-layout.signin .button-confirm ,
-    .popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup + .finish-register-buttons .button-confirm {
-        width: 220px;
-        float: left;
-        margin: 0 85px;
-    }
-
-    .block-sign-in-form .form-sign-in.forgot-password + .button-confirm {
-        margin-top: 0;
-    }
-
-    .block-slider.popup .signin-error-message p {
-        color: #d14343;
-        margin-bottom: 10px;
-        text-align: left;
-        font-size: 13px;
-        padding: 0;
-    }
-
-
-    .block-sign-in-form .signin-error-message p:before {
-        display: none;
-    }
-   
-    form.registration-form .register-steps-b #id_password .progress > div ,
-    .block-sign-in-form .reset-password div.progress > div { 
->>>>>>> 47a4d192a40686fc4621b482217eba55a5bda2a7
         display: block;
         position: absolute;
         top: 41px;
@@ -60511,8 +60441,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         margin: 0 0 5px;
     }
 
-    .block-slider.popup .all-popup-separator .register-information-b h3,
-    .popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h6 {
+    .block-slider.popup .all-popup-separator .register-information-b h3 {
         float: left;
         width: 100%;
         color: #7c8292;
@@ -60522,30 +60451,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         text-transform: none;
     }
 
-<<<<<<< HEAD
-=======
-     .block-slider.popup .block-sign-in-form .all-popup-separator .register-information-b h2 ,
-     .popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h5 {
-        color: #303838;
-        font-family: Ubuntu;
-        font-size: 18px;
-        font-weight: 400;
-    }
-
-    .popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h5 {
-        margin-bottom: 15px;
-    }
-
-    .block-slider.popup .block-sign-in-form .all-popup-separator .register-information-b h3,
-    .popup-layout-registration.registration-ok .register-contain-new.popup-err-success .inform-reg-popup > h6 {
-        color: #303838;
-        font-family: Ubuntu;
-        font-size: 16px;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-
->>>>>>> 47a4d192a40686fc4621b482217eba55a5bda2a7
     .block-slider.popup form.ng-pristine .form-error-icon:before, .block-slider.popup .form-sign-in.forgot-password .form-error-icon:before, .block-slider.popup form.registration-form.ng-dirty .form-error-icon:before {
         font: 18px/22px icomoon;
         content: "\e6eb";
@@ -60708,7 +60613,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     .closed-popup-form:before {
         font: 10px/10px icomoon;
         color: #7c8292;
-        content: "\e117";
+        content: "\e6ee";
         cursor: pointer;
         transition: 250ms color;
     }
@@ -62084,7 +61989,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         color: #fff;
     }
 
-    /* CallOfDuty*/
+    /* LeagueOfLegends */
     .sports-item-v3.CallOfDuty,
     .event-view-title.CallOfDuty,
     .sport-title.CallOfDuty {
@@ -62135,17 +62040,13 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         border-right-color: #533e2b;
     }
 
-    .sports-item-v3.LeagueOfLegends,
-    .event-view-title.LeagueOfLegends,
-    .sport-title.LeagueOfLegends,
-    .sports-item-v3.Leagueoflegends,
-    .event-view-title.Leagueoflegends,
-    .sport-title.Leagueoflegends{
+    .sports-item-v3.LeagueofLegends,
+    .event-view-title.LeagueOflegends,
+    .sport-title.LeagueOflegends {
         background: #314e6e;
     }
 
-    .sports-item-v3.LeagueOfLegends + .menu-popup .menu-popup-arrow,
-    .sports-item-v3.Leagueolegends + .menu-popup .menu-popup-arrow {
+    .sports-item-v3.LeagueOflegends + .menu-popup .menu-popup-arrow {
         border-right-color: #314e6e;
     }
 
@@ -63991,16 +63892,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         box-sizing: border-box;
         float: left;
         width: 100%;
-    }
-
-    .no-ways {
-        box-sizing: border-box;
-        float: left;
-        width: 100%;
-    }
-
-    .pematch-single-game-info-2column + .events-list-view-v3 > ul.column-3 > li:nth-child(2) {
-        display: none;
     }
 
     .prem {
@@ -67821,11 +67712,6 @@ input::-ms-clear {
 @media screen and (max-width: 1366px) {
     .betslip-expanded .center-column-v3 {
         width: calc(100% - 627px);
-    }
-    .betslip-expanded .animation-control .game-control > .field-container > .field > .DangerousAttack.home .attack-div .attack-dir,
-    .betslip-expanded .animation-control .game-control > .field-container > .field > .Attack.home .attack-div .attack-dir {
-        top: 11%;
-        border-width: 91px 0 88px 28px;
     }
 }
 @media screen and (max-width: 1280px) {

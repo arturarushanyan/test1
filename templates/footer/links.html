@@ -1,4 +1,3 @@
-<div class="about-company-footer-text"><p trans ng-bind-html="conf.about_company_text[env.lang]"></p></div>
 <div class="old-version-link" ng-show="conf.mobileVersionLink"><a ng-href="{{conf.mobileVersionLink}}" trans>Mobile version</a></div>
 <div class="old-version-link" ng-show="conf.oldVersionLink[env.lang] && (!conf.oldVersionLink.onlyOnPage || conf.oldVersionLink.onlyOnPage == $location.path())">
     <a href="{{conf.oldVersionLink[env.lang]}}&p={{$location.path().split('/').join('')|capitalise}}" target="_blank" trans>Previous version</a>

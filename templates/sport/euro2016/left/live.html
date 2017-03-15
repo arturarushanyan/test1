@@ -8,7 +8,7 @@
                 ng-click="leftMenuState.live.sport[sport.id].expanded = !leftMenuState.live.sport[sport.id].expanded; leftMenuClosed ? toggleLeftMenu() : void(); selectSport(sport, !leftMenuState.live.sport[sport.id].expanded);"
                 title="{{sport.name + (sport.game ? '(' + sport.game  + ')' : '') }}"
             >
-                <div class="sport-icon-v3 iconsize {{sport.alias}}"></div>
+                <div class="sport-icon-v3 iconsize {{sport.alias | removeUselessSymbolsByRegexp: '[, ]+': 'g'}}"></div>
                 <p>{{sport.name}}</p>
                 <div class="arrow-view-left"></div>
                 <div class="sport-games-count-v3">
@@ -106,25 +106,24 @@
             </div>
 
 
-            <div ng-if="leftMenuClosed" 
-            ng-mouseenter="
+            <div ng-if="leftMenuClosed"
+                 ng-mouseenter="
             hover=!hover;
             leftMenuState.live.sport[sport.id].expanded = !leftMenuState.live.sport[sport.id].expanded;
-            selectSport(sport, leftMenuState.live.sport[sport.id].expanded)" 
-            ng-mouseleave="
+            selectSport(sport, leftMenuState.live.sport[sport.id].expanded)"
+                 ng-mouseleave="
             hover=!hover;
             leftMenuState.live.sport[sport.id].expanded = !leftMenuState.live.sport[sport.id].expanded;
             selectSport(sport, !leftMenuState.live.sport[sport.id].expanded)"
             >
 
-                <div 
-                 title="{{sport.name + (sport.game ? '(' + sport.game  + ')' : '') }}"
+                <div
                  class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}}" >
-                    <div class="sport-icon-v3 iconsize {{!sport.alias ? sport.name :sport.alias}}"></div>
+                    <div class="sport-icon-v3 iconsize {{!sport.alias ? sport.name :sport.alias | removeUselessSymbolsByRegexp: '[, ]+': 'g'}}"></div>
                 </div>
 
                 <div ng-if="hover" class="menu-popup">
-                    <span class="menu-popup-arrow"></span>
+                <span class="menu-popup-arrow"></span>
                     <div class="menu-popup-holder">
                         <div class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}} menu-popup-head ">
                             {{sport.name}}

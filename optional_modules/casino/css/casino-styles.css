@@ -51,21 +51,6 @@ html {
 input::-ms-clear {
   display: none;
 }
-
-@font-face {
-  font-family: 'Ubuntu';
-  src: url("../fonts/UbuntuRegular.eot");
-  src: url("../fonts/UbuntuRegular.eot") format("embedded-opentype"), url("../fonts/UbuntuRegular.woff2") format("woff2"), url("../fonts/UbuntuRegular.woff") format("woff"), url("../fonts/UbuntuRegular.ttf") format("truetype"), url("../fonts/UbuntuRegular.svg#UbuntuRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Ubuntu';
-  src: url("../fonts/UbuntuMedium.eot");
-  src: url("../fonts/UbuntuMedium.eot") format("embedded-opentype"), url("../fonts/UbuntuMedium.woff2") format("woff2"), url("../fonts/UbuntuMedium.woff") format("woff"), url("../fonts/UbuntuMedium.ttf") format("truetype"), url("../fonts/UbuntuMedium.svg#UbuntuMedium") format("svg");
-  font-weight: bold;
-  font-style: normal;
-}
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot");

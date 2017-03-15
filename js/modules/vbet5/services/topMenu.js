@@ -359,15 +359,6 @@ angular.module('vbet5').service('TopMenu', ['$rootScope', '$location', '$timeout
                 case 'games':
                     menuItem.classObject.active = ($location.path() === '/games/');
                     break;
-                case 'financials':
-                    menuItem.classObject.active = ($location.path() === '/financials/') || ($location.path() === '/game/TLCTLC/provider/TLC/exid/14000');
-                    break;
-                case 'financials1':
-                    menuItem.classObject.active = ($location.path() === '/financials/');
-                    break;
-                case 'financials2':
-                    menuItem.classObject.active = ($location.path() === '/game/TLCTLC/provider/TLC/exid/14000');
-                    break;
                 default:
                     menuItem.classObject.active = $location.path() === (menuItem.activeLink ? menuItem.activeLink : ('/' + menuItem.name + '/'));
                     break;

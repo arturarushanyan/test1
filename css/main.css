@@ -1,7 +1,5 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0; font-size: 100%;vertical-align: baseline;background: transparent;} ol, ul, li {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;color: #FFF;font: 14px Arial, Helvetica, sans-serif;}:focus {outline: 0;}ins {text-decoration: none;}del {text-decoration: line-through;}table {border-collapse: collapse;border-spacing: 0;}
 html{height: 100%;}
-::selection{background: #a5aabc;}
-::-moz-selection{background: #a5aabc;}
 .content:after,
 .games-center:after,
 .casino-main-contain:after,
@@ -44,16 +42,6 @@ select{
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-body{
-    width: 100%;
-    height: auto;
-    line-height: 1;
-    background: #e6e5dc;
-    font: 13px Ubuntu, Arial, Helvetica, sans-serif;
-    overflow: visible !important;
-    margin: 0 auto auto;
-    -ms-user-select: none;
 }
 .body-wrapper{
     float: left;
@@ -871,7 +859,7 @@ body{
 .Basketball {background: url(../images/sport_icons.png) no-repeat 0px -60px; }
 .BeachHandball:before {content: "\e60a";}
 .BeachSoccer, .BeachFootball {background: url(../images/sport_icons.png) no-repeat 0px -930px; }
-.BeachVolleyball {background: url(../images/sport_icons.png) no-repeat 0px -1770px; }
+.BeachVolleyball {background: url(../images/sport_icons.png) no-repeat 0px -2040px; }
 .Biathlon {background: url(../images/sport_icons.png) no-repeat 0px -1380px; }
 .Bobsleigh:before {content: "\e60e";}
 .BallHockey, .Bandy {background: url(../images/sport_icons.png) no-repeat 0px -1350px; }
@@ -889,7 +877,7 @@ body{
 .Diving:before {content: "\e618";}
 .EBasketball {background: url(../images/sport_icons.png) no-repeat 0px -60px; }
 .Electronic:before, .ElectronicSports:before {content: "\e619";}
-.Eurovision:before {content: "\e61a";}
+.Eurovision {background: url(../images/sport_icons.png) no-repeat 0px -2128px; }
 .Fencing:before {content: "\e61c";}
 .FigureSkating:before {content: "\e61d";}
 .Floorball {background: url(../images/sport_icons.png) no-repeat 0px -1440px; }
@@ -898,7 +886,7 @@ body{
 .financials:before {content: "\e902";}
 .favorite-nav-icon-v3 {background: url(../images/sport_icons.png) no-repeat 0px -1020px; }
 .favoritecompetitions {background: url(../images/sport_icons.png) no-repeat 0px -990px; }
-.Freestyle:before, .FreestyleWrestling:before {content: "\e620";}
+.Freestyle:before, .FreestyleWrestling {background: url(../images/sport_icons.png) no-repeat 0px -2070px; }
 .GaelicFootball {background: url(../images/sport_icons.png) no-repeat 0px -1470px; }
 .Golf {background: url(../images/sport_icons.png) no-repeat 0px -510px; }
 .GrassHockey:before {content: "\e623";}
@@ -913,7 +901,7 @@ body{
 .IceHockey {background: url(../images/sport_icons.png) no-repeat 0px -120px; }
 .Judo:before {content: "\e62d";}
 .LeagueofLegends, .LeagueOfLegends, .LeagueOflegend {background: url(../images/sport_icons.png) no-repeat 0px -570px; }
-.Lacross:before {content: "\e62e";}
+.Lacross {background: url(../images/sport_icons.png) no-repeat 0px -2158px; }
 .LightAthletics:before, .Athletics:before {content: "\e62f";}
 .Lottery:before {content: "\e631";}
 .Luge:before {content: "\e632";}
@@ -924,7 +912,6 @@ body{
 .Motorsport {background: url(../images/sport_icons.png) no-repeat 0px -630px; }
 .Nascar {background: url(../images/sport_icons.png) no-repeat 0px -660px; }
 .Netball {background: url(../images/sport_icons.png) no-repeat 0px -1740px; }
-.NordicCombined:before {content: "\e63a";}
 .Olimpic:before, .Olympics:before {content: "\e63b";}
 .Oscar {background: url(../images/sport_icons.png) no-repeat 0px -1800px; }
 .Overwatch {background: url(../images/sport_icons.png) no-repeat 0px -690px; }
@@ -946,11 +933,11 @@ body{
 .Shorttrackspeedskating:before {content: "\e64b";}
 .Skeleton:before {content: "\e64c";}
 .SkiJump:before, .SkiJumping {background: url(../images/sport_icons.png) no-repeat 0px -1710px; }
-.Speedway,.financials{margin:-0.3em 0 0 -0.55em;}
+.financials{margin:-0.3em 0 0 -0.55em;}
 .Skis:before{content: "\e64e";}
 .CrossCountrySkiing {background: url(../images/sport_icons.png) no-repeat 0px -1620px; }
 .Snooker {background: url(../images/sport_icons.png) no-repeat 0px -780px; }
-.Snowboard:before {content: "\e650";}
+.Snowboard {background: url(../images/sport_icons.png) no-repeat 0px -2099px; }
 .Smite {background: url(../images/sport_icons.png) no-repeat 0px -900px; }
 .Soccer, .Football {background: url(../images/sport_icons.png) no-repeat 0px 0px; }
 .VirtualFootball:before {content: "\e651";}
@@ -959,7 +946,7 @@ body{
 .Softball:before {content: "\e653";}
 .SpecialBets {background: url(../images/sport_icons.png) no-repeat 0px -1590px; }
 .Speedskating:before {content: "\e655";}
-.Speedway:before {content: "\e656";}
+.Speedway {background: url(../images/sport_icons.png) no-repeat 0px -2007px; }
 .SportAndFun:before {content: "\e657";}
 .SportFight:before {content: "\e658";}
 .Squash {background: url(../images/sport_icons.png) no-repeat 0px -1860px; }
@@ -1006,6 +993,7 @@ body{
 .icon-sport-asia.All:before{content: "\e600";}
 .Vainglory {background: url(../images/sport_icons.png) no-repeat 0px -1200px; }
 .tik {background: url(../images/user_img.png) no-repeat 0px 0px; }
+.TVShowsandMovies{background: url(../images/sport_icons.png) no-repeat 0px -2188px; }
 
 .menu-games .contain-menu-games ul li a > span.all:before {content: "\e600";}
 .explorer-container .menu-games .contain-menu-games ul li a>span:before {
@@ -5824,9 +5812,13 @@ div[class*="pagemobile"] .page-main .page-content p{text-align: center !importan
     text-align: center;
 }
 .registration-ok p, .registration-failed p{
-    width: 1%;
-    height: 150px;
-    padding: 30px 0;
+    width: 100%;
+    padding: 0;
+    height: inherit;
+    display: block;
+    color: #303838;
+    font-family: Ubuntu;
+    font-size: 18px;
 }
 .registration-ok button, .registration-failed button{
     margin: 0;
@@ -5836,7 +5828,6 @@ div[class*="pagemobile"] .page-main .page-content p{text-align: center !importan
     padding: 2px 50px 0 40px;
     height: 44px;
     cursor: pointer;
-    width: 220px;
 }
 .games-save-slider ul li .game-status{
     width: 100%;
@@ -12470,10 +12461,9 @@ form.registration-form .form-seq-quest.error .form-error-text{display: block;}
     display: inline-block;
     background: none;
     height: 32px;
-    border: 2px solid;
     text-transform: uppercase;
     margin: 0 16px;
-    padding: 0;
+    padding: 0 16px;
     border-radius: 6px;
 }
 .live-casino-games-by-ul-column{
@@ -13781,4 +13771,7 @@ div.right-column-view-contain > .list-bet-block .quick-bet-button{top: 0;}
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.is-hidden {
+    display: none;
 }

@@ -3,15 +3,8 @@
 <input type="checkbox" id="header-collapse">
 <div class="header-bottom-row" ng-show="!conf.rfid.loginWIthRFID || conf.rfid.loginWIthRFID && env.authorized">
     <div class="header-nav-contain">
-        <ul ng-class="{'menu-dropdown': $root.topMenuDropDown, 'menu-dropdown-show': subMenuItemCount > 0}" sub-menu-creator="main">
-
-            <div class="top-menu-more" ng-show="subMenuItemCount > 0" title="More"
-                 ng-click="$root.topMenuDropDown=!$root.topMenuDropDown;" hide-on-click
-                 state-flag-var="$root.topMenuDropDown" trans="attr-only">+{{subMenuItemCount}}
-            </div>
-
+        <ul sub-menu-creator="main">
             <li ng-repeat="item in topMenu track by item.name"
-                ng-if="item.showCondition"
                 ng-class="{'active': item.classObject.active,
                    '{{::item.dynamicClass}}': true,
                    'new-info-item': item.subDisplayName || item.specialCase === 'gamesSpecialText',
@@ -19,7 +12,7 @@
                 }"
             >
                 <div ng-if="!item.popup && !item.broadcast" class="top-menu-sub-a-t">
-                    <a ng-href="{{item.classObject.active ? $location.absUrl() : item.href}}" ng-click="item.click();setTitle('')"
+                    <a ng-href="{{item.classObject.active ? $location.absUrl() : item.href}}" ng-click="item.click()"
                        ng-show="!item.specialCase && !item.subDisplayName && !item.supDisplayName" target="{{ item.target || '_self' }}">
                        <span ng-bind="item.displayName"></span>
                     </a>
@@ -53,8 +46,6 @@
                 </div>
 
             </li>
-
-
         </ul>
 
         <div class="page-settings-contain-b">
@@ -96,20 +87,6 @@
         <ul ng-controller="cmsPagesCtrl" ng-init="initSections()">
             <li ng-if="section.rootPageSlug[env.lang] && section.placement === 'topmenu'" ng-repeat="section in additionalSections" ng-class="{ 'active' : $location.path() === '/section/' + section.id }" class="noflip"><a href="#/section/{{section.id}}">{{section.name}}</a></li>
         </ul>
-
-
-
-
     </div>
-
-
-
-
-
-
-
-
-
-
 </div>
 <!--Menu END-->

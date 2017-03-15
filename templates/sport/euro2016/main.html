@@ -1,7 +1,7 @@
 <div class="classic-view-wrapper-v3" ng-controller="classicViewMainCtrl"
-     ng-class="{'betslip-expanded': !$root.videoResizeButton && env.live && $location.path() !== '/livecalendar/' }">
+     ng-class="{'betslip-expanded': !$root.videoResizeButton && env.live && $location.path() == '/sport/'}">
     <div class="classic-view-row-v3">
-        <div class="classic-view-column-v3 {{leftMenuClosed ? 'left-menu-closed-v3' : ''}}">
+        <div class="classic-view-column-v3 {{leftMenuClosed ? 'left-menu-closed-v3' : 'left-menu-opened-v3'}}">
 
             <!-- System Calculator-->
             <!--
@@ -153,6 +153,7 @@
             </div>
             <!--left-column END-->
 
+
             <!--center-column-->
             <div class="center-column-v3"
                  ng-switch="$location.path()"
@@ -253,15 +254,10 @@
                                                 </div>
 
                                                 <div class="odds-info"
-                                                     ng-show="
-                                                     ( (competition.games[0].sport.alias === 'Soccer') || 
-                                                     (competition.games[0].sport.alias === 'IceHockey') ) 
-                                                     && (prematchGameViewData[0].games[0].show_type !== 'OUTRIGHT')"
-                                                     ng-hide="(!groupGames[0].firstMarket.events.P1 && !groupGames[0].firstMarket.events.P2 && competition.games[0].sport.alias !=='Soccer')">
-                                                    <ul ng-if="( (prematchGame.sport.alias !== 'Soccer') || (prematchGame.sport.alias !== 'IceHockey') ) && (!prematchGame.team2_name)"
-                                                        class="column-3")
+                                                     ng-show="(competition.games[0].sport.alias === 'Soccer') && (prematchGameViewData[0].games[0].show_type !== 'OUTRIGHT')">
+                                                    <ul ng-if="(prematchGame.sport.alias !== 'Soccer') && (!prematchGame.team2_name)"
+                                                        class="column-3"
                                                         ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
-
                                                         <li title="1">
                                                             <div class="market-tab">
                                                                 <div class="market-info">
@@ -296,10 +292,10 @@
                                                 </div>
                                                 <div class="odds-info"
                                                      ng-hide="prematchGameViewData[0].games[0].show_type == 'OUTRIGHT'">
-                                                    <ul ng-if="(prematchGame.sport.alias !== 'Soccer') && (prematchGame.sport.alias !== 'IceHockey') && (!prematchGame.team2_name)"
+                                                    <ul ng-if="(prematchGame.sport.alias !== 'Soccer') && (!prematchGame.team2_name)"
                                                         class="column-3"
                                                         ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
-                                                        <li ng-show="groupGames[0].firstMarket.events.P1" title="1">
+                                                        <li title="1">
                                                             <div class="market-tab">
                                                                 <div class="market-info">
                                                             <span>
@@ -309,7 +305,7 @@
                                                             </div>
                                                         </li>
 
-                                                        <li ng-show="groupGames[0].firstMarket.events.P2" title="2">
+                                                        <li title="2">
                                                             <div class="market-tab">
                                                                 <div class="market-info">
                                                             <span>
@@ -335,19 +331,14 @@
 
                                         <div class="game-events-view-v3"
                                              ng-repeat="prematchGame in groupGames track by prematchGame.id">
-                                            <div class="mini-title-box-gameview-v3" ng-class="{'no-more' : !prematchGame.additionalEvents}" ng-hide="prematchGame.team1_name === 'EC Agua Santa U20' || prematchGame.team1_name === 'Regatas Flamengo RJ U20' || prematchGame.team1_name === 'Агуа-Санта (до 20)' || prematchGame.team1_name === 'Фламенго РЖ (до 20)' "
+                                            <div class="mini-title-box-gameview-v3" ng-hide="prematchGame.team1_name === 'EC Agua Santa U20' || prematchGame.team1_name === 'Regatas Flamengo RJ U20' || prematchGame.team1_name === 'Агуа-Санта (до 20)' || prematchGame.team1_name === 'Фламенго РЖ (до 20)' "
                                                  ng-class="{'active': selectedGame.id === prematchGame.id}">
                                                 <div class="closed-game-icon-v3"
                                                      ng-show="env.preMatchMultiSelection && !outrightSelected"
                                                      ng-click="broadcast('prematchMultiView.removeGameFromSelection', {id: prematchGame.id, competition: competition}); $event.stopPropagation()"></div>
 
                                                 <div class="pematch-single-game-info-v3"
-                                                     ng-class="{
-                                                     'pematch-single-game-info-2column': prematchGame.sport.alias !== 'Soccer' && prematchGame.sport.alias !== 'IceHockey' && selectedMarketFilter === marketFilterTypes[0],
-                                                       'pematch-single-game-info-title': !prematchGame.team1_name ,
-                                                       'pematch-single-game-info-outright': !prematchGame.team2_name,
-                                                       'no-ways': !prematchGame.firstMarket.events.P1 && !prematchGame.firstMarket.events.P2 && selectedMarketFilter === marketFilterTypes[0] && prematchGame.sport.alias !== 'Soccer'
-                                                        }"
+                                                     ng-class="{'pematch-single-game-info-2column':  prematchGame.sport.alias !== 'Soccer' && selectedMarketFilter === marketFilterTypes[0],  'pematch-single-game-info-title': !prematchGame.team1_name , 'pematch-single-game-info-outright': !prematchGame.team2_name }"
                                                      ng-click="openGameFullDetails(prematchGame, selectedCompetition);selectGame(prematchGame.id);selectCompetition()"
                                                      ng-show="!conf.alternativeClassicGamesLayout"
                                                      title="{{ conf.edition.enabled ? (('Edition'|translate) + ': ' + (prematchGame.start_ts|formatDate:'edition')) : '' }}">
@@ -401,7 +392,7 @@
 
                                                                         <span>
                                                                 <b ng-show="prematchGame.firstMarket.events.P1.price !== 1 && !prematchGame.is_blocked"
-                                                                   ng-class="{'factor-top-new': event.price_change > 0, 'factor-bottom-new': event.price_change < 0}">{{prematchGame.firstMarket.events.P1.price|oddConvert:$root.env.oddFormat}}</b>
+                                                                   ng-class="{'factor-top-new': event.price_change > 0, 'factor-bottom-new': event.price_change < 0}">{{prematchGame.firstMarket.events.P1.price|oddConvert:env.oddFormat}}</b>
                                                             </span>
                                                                 </div>
                                                             </div>
@@ -772,6 +763,7 @@
                 </div>
             </div>
             <!--right-column END-->
+
 
             <!--detached video container-->
             <ng-include ng-if="conf.videoEnabled && pinnedGameType === 'dragable'"

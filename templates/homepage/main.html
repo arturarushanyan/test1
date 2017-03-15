@@ -84,7 +84,7 @@
                             <div class="product-text">
                                     <span>
                                         <p trans>40,000+ pre-match events every month</p></span>
-                                <span trans>50+ types of sports</span>
+                                <span trans>140+ types of sports</span>
                             </div>
                         </a>
                         <div class="signin-button-landing" ng-show="!env.authorized">
@@ -95,10 +95,7 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-
                 <div class="product">
                     <div class="product-wrap">
                         <a class="product-link" href="#/sport/?type=0">
@@ -151,10 +148,35 @@
                     </div>
                 </div>
                 <div class="product">
+                <div class="product-wrap">
+                    <a class="product-link" href="#/livedealer/">
+                        <h2 class="product-title">
+                            <span trans>Live Casino</span>
+                        </h2>
+                        <p class="product-icon-container">
+                            <b class="livecasino-logo"></b>
+                        </p>
+                        <div class="product-text">
+                                    <span>
+                                        <p trans>Real games in real time 24/7</p></span>
+                            <span trans>HD quality streaming</span>
+                        </div>
+                    </a>
+                    <div class="signin-button-landing" ng-show="!env.authorized">
+                        <div>
+                            <button ng-click="broadcast( 'openLoginForm');goToTop();$parent.verytopMenuExpanded=false;$event.stopPropagation();">
+                                <span trans>Sign in</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                <div ng-show="conf.stagingpoker" class="product">
                     <div class="product-wrap">
-                        <a class="product-link" href="#/livedealer/">
+                        <a class="product-link" href="#/poker/">
                             <h2 class="product-title">
-                                <span trans>Live Casino</span>
+                                <span trans>Poker</span>
                             </h2>
                             <p class="product-icon-container">
                                 <b class="livecasino-logo"></b>

@@ -9,7 +9,7 @@
                                 <div class="closed-popup-form" ng-click="broadcast('slider.close')"></div>
                                 <div class="logo-form-b"></div>
                                 <div class="register-information-b">
-                                    <!-- 
+                                    <!--
                                     <h2 class="ng-binding" trans>Already have an account?</h2>
                                     <h3 trans>Cool, just login.</h3>
                                     -->
@@ -24,36 +24,36 @@
                                         </div>
 
                                         <div class="field-separator">
-                                            <label for="signinform-login-input" ng-class="forms.signinform.usrname.$viewValue.length > 0 || usrname.focused  ? 'focused': ''" 
-                                            trans>Username / Email</label>
+                                            <label for="signinform-login-input" ng-class="forms.signinform.usrname.$viewValue.length > 0 || usrname.focused  ? 'focused': ''"
+                                                   trans>Username / Email</label>
                                             <div class="form-text" ng-class="{'error':signInError  && forms.signinform.$pristine}">
-                                                <input 
-                                                name="usrname"
-                                                ng-model="user.username"
-                                                id="signinform-login-input" numpad 
-                                                type="text" required="required" trans
-                                                ng-focus='usrname.focused=true'
-                                                ng-blur='usrname.focused=false' 
-                                                focus-on="login.formOpened" dont-scroll-on-focus 
-                                                ng-change="params.needVerification=false"  
-                                                autocomplete="off">
+                                                <input
+                                                        name="usrname"
+                                                        ng-model="user.username"
+                                                        id="signinform-login-input" numpad
+                                                        type="text" required="required" trans
+                                                        ng-focus='usrname.focused=true'
+                                                        ng-blur='usrname.focused=false'
+                                                        focus-on="login.formOpened" dont-scroll-on-focus
+                                                        ng-change="params.needVerification=false"
+                                                        autocomplete="off">
                                             </div>
                                         </div>
                                         <div class="field-separator" ng-controller="mainCtrl">
                                             <label  for="signinform-password-input" ng-class="forms.signinform.passw.$viewValue.length > 0 || passw.focused  ? 'focused': ''"
-                                            trans>Password</label>
+                                                    trans>Password</label>
                                             <div class="form-text" ng-class="{'error':signInError && forms.signinform.$pristine}">
-                                                <input 
-                                                name="passw"
-                                                ng-model="user.password" 
-                                                id="signinform-password-input" 
-                                                numpad type="{{inputType}}"
-                                                focus-on="login.formOpened.andUsernameIsAvailable"
-                                                ng-focus='passw.focused=true'
-                                                ng-blur='passw.focused=false'
-                                                required="required"  
-                                                autocomplete="off" trans 
-                                                ng-keypress="passwordKeyPress($event)">
+                                                <input
+                                                        name="passw"
+                                                        ng-model="user.password"
+                                                        id="signinform-password-input"
+                                                        numpad type="{{inputType}}"
+                                                        focus-on="login.formOpened.andUsernameIsAvailable"
+                                                        ng-focus='passw.focused=true'
+                                                        ng-blur='passw.focused=false'
+                                                        required="required"
+                                                        autocomplete="off" trans
+                                                        ng-keypress="passwordKeyPress($event)">
                                                 <input class="password-eye" type="checkbox" id="checkbox" ng-model="passwordCheckbox" ng-click="hideShowPassword();icoClicked = !icoClicked;" />
                                                 <label ng-attr-title="{{icoClicked ? 'Show password' : 'Hide password'}}" class="password-eye-ico" for="checkbox"></label>
 
@@ -97,18 +97,18 @@
                                     </div>
 
                                     <div class="button-confirm">
-                                            <vbet-loader class="small-progress" ng-show="busy"></vbet-loader>
-                                            <button name="" type="submit" value="{{({true:'Verify', false:'Sign in'}[params.needVerification])|translate}}" ng-disabled="busy || forms.signinform.$invalid || forms.signinform.$pristine" ng-class="{loading:busy}"  trans>Sign in</button>
+                                        <vbet-loader class="small-progress" ng-show="busy"></vbet-loader>
+                                        <button name="" type="submit" value="{{({true:'Verify', false:'Sign in'}[params.needVerification])|translate}}" ng-disabled="busy || forms.signinform.$invalid || forms.signinform.$pristine" ng-class="{loading:busy}"  trans>Sign in</button>
                                     </div>
                                     <div class="button-sign">
                                         <ul ng-hide="!conf.registration.enable || conf.disableRegistrationAndLogin">
                                             <li class="forgot-password-icon"><a ng-click="env.showSlider = true; env.sliderContent = 'forgotPasswordForm';$event.stopPropagation()" title="Forgot your password?" trans>Reset password</a></li>
                                             <li class="create-account-icon"><a ng-click="env.showSlider = true; env.sliderContent = 'registrationForm';$event.stopPropagation()" trans>Register</a></li>
-                                        
+
                                         </ul>
                                     </div>
                                 </form>
-                             </div>
+                            </div>
                             <div ng-hide="true" class="live-chat-b-contain">
                                 <div ng-click="" class="help-b" ng-if="!conf.liveChat.isSfChat && conf.liveChat.siteId && conf.liveChat.codePlan">
                                     <a pass-click-to="live-chat-button1" find="a"><span trans>Contact Support</span></a>

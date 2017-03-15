@@ -35,7 +35,6 @@ VBET5.controller('mainHeaderCtrl', ['$rootScope', '$scope', '$interval', '$filte
     $scope.StartDemoTour = DemoTour.startTour;
     Config.main.dashboardEnabled = Config.main.dashboard.enabled; // @TODO need to remove after solution is  found
     $scope.logoUrl = Config.main.logoUrl;
-    $scope.logoUrlAuto = Config.main.logoUrlAuto;
     TimeoutWrapper = TimeoutWrapper($scope);
     TopMenu.init($scope); //pass current scope to TomMenu service
 
@@ -317,7 +316,7 @@ VBET5.controller('mainHeaderCtrl', ['$rootScope', '$scope', '$interval', '$filte
 
     // Return form logic
     if (Config.main.enableFormUrl && $location.search().formUrl) {
-        $http.get($location.search().formUrl).then (
+        $http.get($location.search().formUrl).then(
             function (response) {
                 $scope.env.showSlider = true;
                 $scope.env.sliderContent = 'customContent';
@@ -1164,24 +1163,24 @@ VBET5.controller('mainHeaderCtrl', ['$rootScope', '$scope', '$interval', '$filte
             !document.mozFullScreenElement && !document.webkitFullscreenElement) {  // current working methods
             if (document.documentElement.requestFullscreen) {
                 document.documentElement.requestFullscreen();
-                 $scope.isActive = !$scope.isActive;
+                $scope.isActive = !$scope.isActive;
             } else if (document.documentElement.mozRequestFullScreen) {
                 document.documentElement.mozRequestFullScreen();
-                 $scope.isActive = !$scope.isActive;
+                $scope.isActive = !$scope.isActive;
             } else if (document.documentElement.webkitRequestFullscreen) {
                 document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
-                 $scope.isActive = !$scope.isActive;
+                $scope.isActive = !$scope.isActive;
             }
         } else {
             if (document.cancelFullScreen) {
                 document.cancelFullScreen();
-                 $scope.isActive = !$scope.isActive;
+                $scope.isActive = !$scope.isActive;
             } else if (document.mozCancelFullScreen) {
                 document.mozCancelFullScreen();
-                 $scope.isActive = !$scope.isActive;
+                $scope.isActive = !$scope.isActive;
             } else if (document.webkitCancelFullScreen) {
                 document.webkitCancelFullScreen();
-                 $scope.isActive = !$scope.isActive;
+                $scope.isActive = !$scope.isActive;
             }
         }
     };
@@ -1297,10 +1296,10 @@ VBET5.controller('mainHeaderCtrl', ['$rootScope', '$scope', '$interval', '$filte
     };
 
     /**
-    *  Stuff for integrated sportsbook
-    *  makes sure htmlHelper object of integrated sportsbook is available before doing some stuff with it
-    *  intergratedHtmlHelperAvailable is used for that
-    * */
+     *  Stuff for integrated sportsbook
+     *  makes sure htmlHelper object of integrated sportsbook is available before doing some stuff with it
+     *  intergratedHtmlHelperAvailable is used for that
+     * */
     var d = $q.defer();
     intergratedHtmlHelperAvailable = d.promise;
     function updateHtmlHelperPromise() {

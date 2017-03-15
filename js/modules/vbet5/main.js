@@ -157,12 +157,11 @@ angular.module('vbet5').run(['$rootScope', '$location', '$routeParams', '$timeou
                 $rootScope.siteTitle = Config.main.siteTitle[title][Config.env.lang];
                 return;
             }
-            if (Config.main.siteTitle[Config.env.lang] && title.length){
+            if (Config.main.siteTitle[Config.env.lang]){
                 $rootScope.siteTitle = (title ? Translator.get(title) + ' @ ' : '') + Config.main.siteTitle[Config.env.lang];
                 return;
             }
-
-            $rootScope.siteTitle = Config.main.siteTitle[Config.env.lang];
+            $rootScope.siteTitle = (title ? Translator.get(title) + ' @ ' : '') +  Config.main.siteTitle['eng'] ;
         };
 
         if ($location.search().btag) {

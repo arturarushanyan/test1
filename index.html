@@ -89,9 +89,6 @@ mixpanel.init("26ffd03c9c3e00454a98014946d5e396");</script>
     <!-- build:[src] //ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js -->
         <script src="lib/swfobject.js"></script>
     <!-- /build -->
-    <!-- CEG license -->
-        <script type="text/javascript" src="https://2268f7ea3aac49a54df4.curacao-egaming.com/ceg-seal.js"></script>
-     <!-- /CEG license -->
 
 
     <script id="app-config" data-config-url-path=""></script>
@@ -310,7 +307,6 @@ mixpanel.init("26ffd03c9c3e00454a98014946d5e396");</script>
     <script src="js/modules/vbet5/controllers/euroCompetition.js"></script>
     <script src="js/modules/vbet5/controllers/gameDetails.js"></script>
     <script src="js/modules/vbet5/controllers/sportsbookswitchers.js"></script>
-        <script type="text/javascript" src="https://2268f7ea3aac49a54df4.curacao-egaming.com/ceg-seal.js"></script>
     <!--<script src="js/modules/vbet5/translations.js"></script>-->
 
     <!--optional js files-->
@@ -324,12 +320,12 @@ mixpanel.init("26ffd03c9c3e00454a98014946d5e396");</script>
     <div ng-view ng-class="$location.path().split('/').join('')"></div>
 	</div>
 </div>
-<div class="footer-button theme-{{theme.id}}" ng-click="footerOpen=!footerOpen" ng-class="{'footer-button-open': footerOpen}"
-     ng-hide="casinoGameOpened > 0 || conf.disableFooter"></div>
-<div class="contain-footer tpl-container lang-{{env.lang + ' ' + $location.path().split('/').join('')}}"
-     id="footerContainer"
-     ng-include="getTemplate('templates/footer.html')"
-     ng-hide="$location.path() ==='/popup/' || $location.path() ==='/'"
-     ng-class="{'full-screen' : casinoGameOpened, 'no-footer-nav': conf.disableFooterNav,'classic': conf.sportsLayout === 'classic', 'sb': conf.sportsLayout === 'external', 'footer-open': footerOpen, 'no-animations': conf.noAnimations, 'footer-movable' : footerMovable}"></div>
+    <div class="footer-button theme-{{theme.id}}" ng-click="footerOpen=!footerOpen" ng-class="{'footer-button-open': footerOpen}"
+         ng-hide="casinoGameOpened > 0 || conf.disableFooter"></div>
+    <div class="contain-footer tpl-container lang-{{env.lang + ' ' + $location.path().split('/').join('')}}"
+         id="footerContainer"
+         ng-include="getTemplate('templates/footer.html')"
+         ng-hide="$location.path() ==='/popup/' || $location.path() ==='/'"
+         ng-class="{'full-screen' : casinoGameOpened, 'no-footer-nav': conf.disableFooterNav,'classic': conf.sportsLayout === 'classic', 'sb': conf.sportsLayout === 'external', 'footer-open': footerOpen, 'no-animations': conf.noAnimations, 'footer-movable' : footerMovable}"></div>
 </body>
 </html>

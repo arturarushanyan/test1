@@ -89,10 +89,10 @@
                                       </tr>
                                     </tbody>
 
-                                    <tbody ng-repeat="system in paymentSystems | faqPayment:selectedPaymentsType:currencyHolder.selectedCurrency " ng-show="selectedPaymentsType == 'deposit' ? system.canDeposit : system.canWithdraw">
+                                    <tbody ng-show="selectedPaymentsType == 'deposit' ? system.canDeposit : system.canWithdraw">
                                       <tr ng-class="{'open-info': system.infoBlockExpanded}">
                                         <td ng-click="system.infoBlockExpanded = !system.infoBlockExpanded"><div class="payment-content-block">
-                                                <ul><li ng-class="system.name"><span></span></li></ul>
+                                                <ul><li class="neteller"><span></span></li></ul>
                                             </div>
                                         </td>
 

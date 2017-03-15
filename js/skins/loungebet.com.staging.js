@@ -27,8 +27,10 @@ VBET5.constant('SkinConfig', {
         },
         site_name: "Loungebet",
         skin: 'loungebet.com',
+        stagingpoker:true,
         htmlMetaTags: '<meta name="google-site-verification" content="N9XPR6flqy0jsrw7dTqwnxt5I_lMXOER_Tykg1o13G8"/>',
         enableHpBannerInsteadLiveGame: true,
+        videoResizeButton: false,
         geoIPLangSwitch: true,
         enableToWinInfoInWallet: false,
         resultMenuOrdering: [844, 848, 850, 852, 858],
@@ -287,8 +289,8 @@ VBET5.constant('SkinConfig', {
         },
         redirectOnTablets: 'https://mobile.loungebet.com/',
         about_company_text: {
-            eng : '',
-            rus : ''
+            'eng' : "<div id='ceg-seal-container' data-ceg-seal-id='2268f7ea3aac49a54df4' data-ceg-image-size='256' data-ceg-image-type='basic-large' ><a href='https://validator.curacao-egaming.com' target='_blank'><img src='skins/loungebet.com/images/curacao_licence.png' class='curacao_licence-logo' style='height: 45px'></a></div><script type='text/javascript' src='https://2268f7ea3aac49a54df4.curacao-egaming.com/ceg-seal.js'></script>",
+            'rus' : "<div id='ceg-seal-container' data-ceg-seal-id='2268f7ea3aac49a54df4' data-ceg-image-size='256' data-ceg-image-type='basic-large' ><a href='https://validator.curacao-egaming.com' target='_blank'><img src='skins/loungebet.com/images/curacao_licence.png' class='curacao_licence-logo' style='height: 45px'></a></div><script type='text/javascript' src='https://2268f7ea3aac49a54df4.curacao-egaming.com/ceg-seal.js'></script>",
         },
         //flashVersionLink: {
         //    eng: 'https://inplay.loungebet.com/inplay/?language=en',
@@ -367,46 +369,49 @@ VBET5.constant('SkinConfig', {
     },
     customTemplates: ["footer.html", "slider/recentbets.html", "header/main.html"],
 
-    regConfig: {
+     regConfig: {
         step1: [
             {
                 "title": "Username",
                 "name": "username",
                 "placeholder": "Enter here",
+                "tooltip": 'Hello! Please enter your public username that will be displayed on our website. It should consist of min 4  and max 16 English letters and/or numbers.',
                 "type": "text",
                 "required": true,
                 "classes": "form-text",
-                "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[a-zA-Z0-9\\_\\-]+$/"}],
-                "validation": [{"name": "required", "message": "This field is required"}, {
+                "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[a-zA-Z0-9\\_\\-]{4,16}$/"}, {"prevent-input": "/^[\\S ]+$/"}],
+                "validation": [{"name": "required", "message": "Oops! You forgot to enter your username."}, {
                     "name": "exists",
-                    "message": "Sorry, this username has been used already"
+                    "message": "Oops! The username has already been registered. Please enter another username."
                 }, {
                     "name": "pattern",
-                    "message": "Please, enter valid Username: only English letters, digits and symbols - _ no space is allowed"
+                    "message": "Username must consist of min 4 and max 16 English letters and/or numbers."
                 }]
             },{
                 "title": "Email Address",
                 "name": "email",
                 "type": "email",
+                "tooltip": 'Please enter your valid e-mail address. It will be used to activate your account. If you wish you can opt-out from receiving our marvelous offers as soon as you log in.',
                 "placeholder": "Enter here",
                 "required": true,
                 "classes": "form-text",
                 "customAttrs": [{"required": "required"}, {"ng-pattern": "/^([a-zA-Z0-9]+([_+\.-]?[a-zA-Z0-9]+)*)@([a-zA-Z0-9]+)(([\\-\.]?[a-zA-Z0-9]+)*)([\.])([a-z]+)([^~@!#$%^&*()_+|{}:<>?,/;'-=\\[\\]\\`\"\.\\\\])$/"}, {"prevent-input": "/^[\\S ]+$/"}],
-                "validation": [{"name": "required", "message": "This field is required"},
-                    {"name": "email", "message": 'This is not a valid email address'},
-                    {"name": "pattern", "message": 'Please enter a valid email address'},
-                    {"name": "exists", "message": "This email already exists in our database, please enter another"}]
+                "validation": [{"name": "required", "message": "Oops! You forgot to enter your e-mail address. "},
+                    {"name": "pattern", "message": "It doesn't look like an e-mail address, please check."},
+                    {"name": "exists", "message": "Ouch! The e-mail address has already been registered. Click here to reset password or click on Sign In to enter your account. Otherwise try another e-mail."},
+                    {"name": "accepted", "message": "The e-mail domain that you filled in isn’t accepted. Please enter a normal e-mail provider."}]
             },{
                 "title": "Password",
                 "name": "password",
                 "placeholder": "Password should contain at least 8 characters",
                 "type": "password",
+                "tooltip": 'Please enter your password that should consist of min 8 and max 20 characters . We recommend you not to use your  name, surname, username or date of birth in your password.',
                 "required": true,
                 "classes": "form-text",
                 "customAttrs": [{"ng-minlength": "8"}, {"type": "password"}, {"required": "required"}, {"ng-pattern": "/^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d\\[\\]\\\\`~!@#$%^&*()_+={};:<>|./?,\"'-]+$/"}, {"ng-keypress": "passwordKeyPress($event, 'password')"}],
-                "validation": [{"name": "required", "message": "This field is required"}, {
+                "validation": [{"name": "required", "message": "Oops! You forgot to enter your password. "}, {
                     "name": "minlength",
-                    "message": "Password should contain at least 8 characters"
+                    "message": "The password must consist of min 8 and max 20 characters."
                 }, {"name": "sameAsLogin", "message": "Password cannot be same as login"}, {
                     "name": "tooShort",
                     "message": "Password is too short"
@@ -418,17 +423,39 @@ VBET5.constant('SkinConfig', {
                 "title": "Confirm Password",
                 "name": "password2",
                 "type": "password",
+                "tooltip": 'Please repeat your password.',
                 "placeholder": "Confirm Password",
                 "required": true,
                 "classes": "form-text",
                 "customAttrs": [{"match": "registrationData.password"}, {"required": "required"}, {"ng-disabled": "registerform.password.$invalid"}, {"ng-keypress": "passwordKeyPress($event, 'password2')"}],
-                "validation": [{"name": "required", "message": "This field is required"}, {
+                "validation": [{"name": "required", "message": "Oops! You forgot to repeat your password."}, {
                     "name": "match",
-                    "message": "Passwords don't match"
-                }
-                ]}
+                    "message": "The passwords don't match. Please check both fields."
+                }],
+            }, {
+                "title": "Currency",
+                "name": "currency_name",
+                "type": "select",
+                "required": true,
+                "classes": "select-block big",
+                "customAttrs": [{"ng-options": "c for c in  conf.availableCurrencies track by c"}, {"ng-value": "c"}, {"ng-disabled": "currencyDisabled"}],
+                "validation": []
+            }, {
+                "title": "Promo code",
+                "name": "promo_code",
+                "type": "text",
+                "tooltip": 'Hey! If you have any promo/referral code, enter it here.',
+                "required": false,
+                "placeholder": "Enter here",
+                "classes": "form-text",
+                "customAttrs": [{"ng-disabled": "hasPromoCode"}],
+                "validation": [
+                    {"name": "pattern", "message": "Invalid promo/referral code."},
+                    {"name": "expired", "message": "Sorry, but this promo/referral code is expired."}]
+            }
+
         ],
-        step2: {
+        /*step2: {
             "leftCol": [
                 {
                     "title": "First Name",
@@ -617,9 +644,9 @@ VBET5.constant('SkinConfig', {
                  "customAttrs": [{"required": "required"}],
                  "validation": [{"name": "required", "message": "This field is required"}, {"name": "notmatching", "message": "Text you've entered doesn't match text on image."}]
                  }
-                 */
+
             ]
-        }
+        }*/
     },
 
     'env': {

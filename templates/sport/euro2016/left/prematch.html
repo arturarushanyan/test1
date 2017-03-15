@@ -9,7 +9,7 @@
                  ng-click="expandLeftMenuPrematchSport(sport, null, null, true); selectSport(sport, !leftMenuState.prematch.sport[sport.id].expanded)"
                  ng-show="!sport.link">
 
-                <div class="sport-icon-v3 iconsize {{!sport.alias ? sport.name :sport.alias}}"></div>
+                <div class="sport-icon-v3 iconsize {{!sport.alias ? sport.name :sport.alias | removeUselessSymbolsByRegexp: '[, ]+': 'g'}}"></div>
                 <p>{{sport.name}}</p>
                 <div class="arrow-view-left"></div>
                 <div class="sport-games-count-v3">
@@ -153,7 +153,7 @@
                 selectSport(sport, !leftMenuState.prematch.sport[sport.id].expanded)"> 
 
                 <div class="sports-item-v3 {{!sport.alias ? sport.name :sport.alias}}">
-                    <div class="sport-icon-v3 iconsize {{!sport.alias ? sport.name :sport.alias}}"></div>
+                    <div class="sport-icon-v3 iconsize {{!sport.alias ? sport.name :sport.alias | removeUselessSymbolsByRegexp: '[, ]+': 'g'}}"></div>
                 </div>
 
                 <div ng-show="hover" class="menu-popup">

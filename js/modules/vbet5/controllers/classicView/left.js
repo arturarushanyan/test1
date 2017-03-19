@@ -190,6 +190,13 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
 
     $scope.$watch('leftMenuState', function (leftMenuState) { Storage.set("leftMenuState", leftMenuState); }, true);
 
+    $scope.selectFirstPrematchGame = function selectFirstPrematchGame() {
+       TimeoutWrapper(function () {
+             document.getElementsByClassName('pematch-single-game-info-v3')[0].click();
+             console.log('First element selected');
+        }, 100);
+    }
+
     /**
      * @ngdoc method
      * @name toggleLive
@@ -210,6 +217,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
             return;
         }
         if (!Config.env.live) {
+            $scope.selectFirstPrematchGame();
             if (!$scope.favoriteCompetitionsExpandedFlag) {
                 $scope.expandLeftMenuPrematchSport(additionalLeftMenuItems.FAVORITE_COMPETITIONS, true);
                 $scope.favoriteCompetitionsExpandedFlag = true;

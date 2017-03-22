@@ -340,6 +340,7 @@
                                                 <div class="pematch-single-game-info-v3"
                                                      ng-class="{'pematch-single-game-info-2column':  prematchGame.sport.alias !== 'Soccer' && selectedMarketFilter === marketFilterTypes[0],  'pematch-single-game-info-title': !prematchGame.team1_name , 'pematch-single-game-info-outright': !prematchGame.team2_name }"
                                                      ng-click="openGameFullDetails(prematchGame, selectedCompetition);selectGame(prematchGame.id);selectCompetition()"
+                                                     ng-init="$first && $parent.$first && openGameFullDetails(prematchGame, selectedCompetition);selectGame(prematchGame.id);selectCompetition()"
                                                      ng-show="!conf.alternativeClassicGamesLayout"
                                                      title="{{ conf.edition.enabled ? (('Edition'|translate) + ': ' + (prematchGame.start_ts|formatDate:'edition')) : '' }}">
                                                     <div class="team-name-view-table-v3">

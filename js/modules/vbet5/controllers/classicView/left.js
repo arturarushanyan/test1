@@ -187,15 +187,8 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
 
 
     TimeoutWrapper(handleDeepLinking); //initial
-
+    var GameIdBeforeToggleLive;
     $scope.$watch('leftMenuState', function (leftMenuState) { Storage.set("leftMenuState", leftMenuState); }, true);
-
-    $scope.selectFirstPrematchGame = function selectFirstPrematchGame() {
-       TimeoutWrapper(function () {
-             document.getElementsByClassName('pematch-single-game-info-v3')[0].click();
-             console.log('First element selected');
-        }, 100);
-    }
 
     /**
      * @ngdoc method
@@ -209,6 +202,8 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
         $location.search('type', Number(Config.env.live));
         $scope.$emit('toggleLive');
         if (Config.env.live && liveGamesLastData) {
+            GameIdBeforeToggleLive = Number($location.search().game);
+
             updateMenuLiveGames(liveGamesLastData);
             if($scope.leftMenuLiveSports && $scope.leftMenuLiveSports.length) {
                 $scope.leftMenuState.live.sport[$scope.leftMenuLiveSports[0].id] = {expanded: true};
@@ -217,7 +212,8 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
             return;
         }
         if (!Config.env.live) {
-            $scope.selectFirstPrematchGame();
+            $scope.openGameFullDetails({id: GameIdBeforeToggleLive});
+
             if (!$scope.favoriteCompetitionsExpandedFlag) {
                 $scope.expandLeftMenuPrematchSport(additionalLeftMenuItems.FAVORITE_COMPETITIONS, true);
                 $scope.favoriteCompetitionsExpandedFlag = true;

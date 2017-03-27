@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "Daily coupon"
+msgstr "오늘의 모든 경기"
+
+
+# 
+msgid "Popular competitions"
+msgstr "주요 경기"
+
+# 
+msgid "Casino"
+msgstr "슬롯게임"
+
+
+# 
+msgid "Financials"
+msgstr "주식배팅"
+
+# 
+msgid "bet slip"
+msgstr "배팅슬립"
+
+# 
+msgid "Quick bet"
+msgstr "빠른배팅"
+
+# 
+msgid "Bank Name"
+msgstr "은행명"
+
+
+# 
+msgid "Bank Account Number"
+msgstr "계좌번호"
+
+
+# 
+msgid "Bank Account Holder"
+msgstr "예금주"

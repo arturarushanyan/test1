@@ -1,0 +1,46 @@
+<div class="gameing-wrapper" ng-controller="multiViewCtrl" ng-init="setTitle('Live MultiView')">
+    <div class="contain-gameing">
+        <div ng-class="{'mini':leftMenuClosed}" class="left-menu-wrapper-j">
+            <ng-include src="getTemplate('templates/sport/classic/leftmenu/main.html')"></ng-include>
+        </div>
+        <!-- System Calculator-->
+        <div id="system-claculator-container" ng-if="$root.showSystemCalculator" draggable allow-other-mouse-events drag-from="calculator-draggable-header">
+            <ng-include src="getTemplate('templates/sport/classic/systemCalculator.html')"></ng-include>
+        </div>
+        <!-- System Calculator-->
+        <!--centr-market-->
+            <div class="centr-market-contain ng-scope">
+                <div class="game-center-container ng-scope"  ng-class="{'left-menu-closed':leftMenuClosed}">
+                    <div class="scroll-contain multiview-wrapper" dnd-list="multiViewLiveOpenedGames" dnd-drop="dropCallback(event, index, item)">
+                            <div class="multiview-contain" ng-class="{'active' : $parent.openGame.id == game.id}" ng-repeat="game in multiViewLiveOpenedGames" ng-controller="classicViewCenterController"
+                                 dnd-effect-allowed="move" dnd-draggable="game" dnd-end="game.started = false;" ng-hide="game.started"  dnd-dragstart="game.started = true;"
+                                 dnd-moved="multiViewLiveOpenedGames.splice($index, 1);" dnd-disable-if="multiViewLiveOpenedGames.length === 1">
+                                <ng-include ng-init="openGameFullDetails(game)" src="getTemplate('templates/sport/classic/game/main.html')"></ng-include>
+                        </div>
+                    </div>
+                    <div ng-hide="multiViewLiveOpenedGames.length" class="multiview-contain no-games-multiview"><div class="dotted-border-j-mv"><span trans>Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu.</span></div></div>
+                </div>
+            </div>
+        <!--centr-market END-->
+        <!--betslip-contain-->
+        <div class="right-betslip-contain" ng-class="{'video-and-animation': hideVideoAndAnimationBox && (openGame.last_event || (openGame.video_id&& conf.videoEnabled)), 'video-and-animation-opened': !hideVideoAndAnimationBox && (openGame.last_event || openGame.video_id) && !isVideoDetached}">
+            <ng-include class="include-viewSwitcher-j" src="getTemplate('templates/sport/viewswitcher.html')"></ng-include>
+            <div class="scroll-contain" ng-class="{'animated-block': openGame.last_event || (openGame.video_id && conf.videoEnabled && !isVideoDetached)}">
+                <!-- Animation control start -->
+               <div ng-hide="pinnedGames[openGame.id] && !openGame.last_event">
+                    <div class="animation-control"
+                         ng-if="openGame.last_event || (openGame.video_id && conf.videoEnabled)"
+                         ng-include="getTemplate('templates/sport/classic/animation_video.html')">
+                    </div>
+                </div>
+                <div class="betslip-toggle" ng-click="betslipOpen=!betslipOpen" ng-class="{'betslip-button-open':betslipOpen}"><p>BetSlip</p><span class="betslip-bets-count" ng-bind="$root.betSlipBetsCount"></span></div>
+                <div class="list-bet-block" ng-if="$location.path() !== '/poolbetting/'" ng-include="getTemplate('templates/sport/betslip.html')"></div>
+                <div class="right-banner-container" ng-if="(conf.enableBannerUnderBetslip && !customSportAliasFilter) || (conf.enableBannerCustomAliasUnderBetslip && customSportAliasFilter)" ng-controller="cmsSportNewsCtrl" ng-include="getTemplate('templates/sport/classic/banners.html')"></div>
+                <div class="mini-games" ng-if="conf.enableMiniGameUnderBetslip" ng-include="getTemplate('optional_modules/casino/templates/specialgames/minigames.html')"></div>
+                <!--Спортивные новости-->
+                <div ng-show="((betSlipBetsCount === 0) || !betSlipBetsCount) && (hideVideoAndAnimationBox || !env.live) && showNewsBlock && showNewsBetSet && showNewsInClassicView" class="sport-news" ng-include="getTemplate('templates/sport/sportnews.html')" id="sport-news-sidebar" ng-if="conf.enableNews"></div>
+            </div>
+        </div>
+        <!--betslip-contain END-->
+    </div>
+</div>

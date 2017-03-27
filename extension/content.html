@@ -1,0 +1,207 @@
+<!doctype html>
+<html ng-app="VCONT" ng-controller="showHistory" ng-init="init()">
+<head>
+    <meta charset="utf-8">
+    <title>Bet History</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="skin/{{conf.skin}}/skin.css">
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/amplify.store.min.js"></script>
+    <script src="lib/moment-with-locales.min.js"></script>
+    <script src="js/vcont/vcont.js"></script>
+    <script src="services/utils.js"></script>
+    <script src="js/vcont/content.js"></script>
+    <script src="translations.js"></script>
+    <script src="config.js"></script>
+    <script src="services/translator.js"></script>
+    <script src="directives/trans.js"></script>
+    <script src="filters/translate.js"></script>
+    <script src="services/moment.js"></script>
+    <script src="filters/formatdate.js"></script>
+    <script src="services/storage.js"></script>
+
+
+</head>
+<body ng-csp>
+<div class="main-container" >
+    <div class="main-loader" ng-show="busy">
+        <span class="ball-1"></span>
+        <span class="ball-2"></span>
+        <span class="ball-3"></span>
+        <span class="ball-4"></span>
+        <span class="ball-5"></span>
+        <span class="ball-6"></span>
+        <span class="ball-7"></span>
+        <span class="ball-8"></span>
+    </div>
+
+    <div class="singin-wrapper" ng-show="!authorized && !busy">
+        <a href="http://www.vivarobet.am" target="_blank">
+            <div class="singin-logo"></div>
+        </a>
+        <form name="singinForm" ng-submit="login() ">
+            <ul>
+                <li>
+                    <input type="text" title="login" placeholder="Your login" ng-model="user.username" trans>
+                </li>
+                <li>
+                    <input type="password" placeholder="Password" ng-model="user.password" trans>
+                </li>
+                <li>
+                    <input type="submit" value="{{'Sign in'|translate}}">
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="bet-history-wrapper" ng-show="authorized && !busy">
+        <a href="http://www.vivarobet.am" target="_blank">
+            <div class="bet-history-logo"></div>
+        </a>
+        <input type="button" class="options" ng-click="openOptions()" title="{{'Options'|translate}}">
+        <input type="button" value="{{'Log out'|translate}}" ng-click="logOut()">
+
+        <div class="live-tabs">
+            <ul>
+                <li ng-class="{'active': extViewState==='live'}" ng-click="loadLive()"><a href="#" trans>Live</a></li>
+                <li ng-class="{'active': extViewState==='mybets'}" ng-click="extViewState='mybets'"><a href="#" trans>My bets</a></li>
+                <!--<li><a href="#">Casino</a></li>-->
+                <li><a href="#">
+                    <p>Balance</p>
+                    <span>{{userProfile.balance|number:conf.balanceFractionSize}} {{userProfile.currency_name}}</span>
+                </a>
+                </li>
+            </ul>
+        </div>
+        <div class="bet-history-content" ng-if="extViewState === 'mybets'">
+            <div class="contain-events-b">
+                <div class="empty-list" ng-show="!bets.length"><p trans>You have no recent bets</p></div>
+                <ul class="events-list" ng-repeat="bet in bets" ng-class="{'update': updating}">
+                    <li>
+                        <div>
+                            <div class="mini-icon-1 mini-icon-{{{'true':bet.events[0].sport_id, 'false': bet.type}[bet.type === '1']}}"></div>
+                            <span ng-if="bet.type==='1'" trans>Single</span>
+                            <span ng-if="bet.type==='2'" trans>Express</span>
+                            <span ng-if="bet.type==='3'" ><span trans>System</span> {{bet.system_min_count}}/{{bet.system_max_count}}</span>
+                            <span ng-if="bet.type==='4'" trans>Chain</span>
+                            <span class="popup-date-game"> {{bet.date_time|formatDate}}</span>
+                            <span class="popup-live-game" ng-show="event.is_live==1">Live</span>
+                        </div>
+                        <div ng-show="bet.type==='1'">
+                            <span class="event-name">{{bet.events[0].game_name}}</span>
+                            <span class="bet-info">{{bet.k}} / {{bet.amount * 1 + bet.bonus_bet_amount * 1}} {{bet.currency}}</span>
+                        </div>
+                        <div ng-show="bet.type==='1'">
+                            <span class="event-pick"><span trans>Pick</span>: {{bet.events[0].event_name + " " + (bet.events[0].basis ? (' (' + bet.events[0].basis + ')') : '')}} <span
+                                    ng-show="event.basis">({{bet.events[0].basis}})</span></span>
+                            <span class="bet-payout" ng-if="bet.outcome == 3"><span trans>Won</span>: {{bet.payout + " " + bet.currency}}</span>
+                        </div>
+                        <div class="result-bet-icon"
+                             ng-class="{'win': bet.outcome == 3, 'lost': bet.outcome==1, 'watch': bet.outcome==0}"></div>
+
+                        <div class="express-bets" ng-show="bet.type!=='1'">
+                            <ul>
+                                <li ng-repeat="event in bet.events">
+                                    <span class="event-name" title="{{event.game_name}}">{{event.game_name}}</span>
+                                    <span class="express-odds">{{event.coeficient}} </span>
+                                    <div class="express-result-bet-icon"
+                                         ng-class="{0:'watch', 1: 'lost', 2:'return', 3:'win'}[event.outcome]"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="express-bets-info" ng-show="bet.type!=='1'">
+                            <span class="express-bet-info">{{(bet.k ? (bet.k + ' / '): '') + (bet.amount * 1 + bet.bonus_bet_amount * 1)}} {{bet.currency}}</span>
+                            <span class="express-bet-payout"
+                                  ng-if="bet.outcome == 3"><span trans>Won</span>:{{bet.payout + " " + bet.currency}}</span>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+            <!--pagination-->
+            <div class="pagination" ng-show="betHistory.length">
+
+                <ul>
+                    <li class="item-prevew" ng-show="betHistoryActivePage > 1"><a
+                            ng-click="betHistoryGotoPage(betHistoryActivePage -1, true)">&#8678;</a></li>
+                    <li ng-repeat="page in betHistoryPages"
+                        ng-class="{true: 'item-active', false: 'item-dark'}[betHistoryActivePage === page]">
+                        <a ng-click="betHistoryGotoPage(page, true)" ng-show="page > 0">{{page}}</a>
+                        <span ng-show="page < 0">...</span>
+                    </li>
+
+
+                    <li class="item-next" ng-show="betHistoryActivePage < totalPages"><a
+                            ng-click="betHistoryGotoPage(betHistoryActivePage + 1, true)">&#8680;</a></li>
+                </ul>
+            </div>
+            <!--pagination END-->
+        </div>
+
+
+
+
+        <div class="live-games-content" ng-if="extViewState === 'live'">
+            <div class="live-game-icons">
+                <div class="arrow-left-button" ng-class="{'disabled': liveSportList.length < 13}" ng-click="liveSportList.length > 13 && liveSportList.unshift(liveSportList.pop())"><a href="#">left</a></div>
+                <ul>
+                    <li ng-repeat="sport in liveSportList" ng-class="{'active': (selectedLiveSportId === sport.id)}" ng-click="getSelectedSportGames(sport)"><div class="mini-icon-1 mini-icon-{{sport.id}}" title="{{sport.name}}"></div></li>
+                </ul>
+                <div class="arrow-right-button" ng-class="{'disabled': liveSportList.length < 13}" ng-click="liveSportList.length > 13 && liveSportList.push(liveSportList.shift())"><a href="#">right</a></div>
+            </div>
+
+        <div class="contain-events-b live">
+
+
+            <div class="event-info-block" ng-repeat="competition in selectedSportCompetitions track by competition.id">
+                <h3>{{competition.name}}</h3>
+
+                <ul ng-repeat="game in competition.gamesArray|orderBy:'start_ts' track by game.id">
+                    <li>
+                        <div class="event-price" ng-class="{ '1': 'arrow-t', '-1' :'arrow-b'}[game.events.P1.price_change]" >
+                            <div class="favorite-block"></div>
+                            <p>{{game.events.P1.price}}</p>
+                        </div>
+                        <div class="name-team-block">
+                            <h4><span>{{game.team1_name}}</span></h4>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="goal-info-block">
+                            <h2>Goal!</h2>
+                            <p>{{game.info.score1}} <span>{{game.info.score2}}</span></p>
+                        </div>
+
+                        <div class="event-price" ng-class="{ '1': 'arrow-t', '-1' :'arrow-b'}[game.events.X.price_change]">
+                            <p ng-if="game.marketType==='P1XP2'">{{game.events.X.price}}</p>
+                        </div>
+                        <div class="game-account-block">
+                            <p>{{game.info.score1}} <span>{{game.info.score2}}</span></p>
+                        </div>
+                        <div class="time-match-block">
+                            <p>{{game.info.current_game_state}} {{(game.info.current_game_time).replace(game.info.current_game_state, '') }}</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="event-price" ng-class="{ '1': 'arrow-t', '-1' :'arrow-b'}[game.events.P2.price_change]">
+                            <div class="view-icon-block"></div>
+                            <p>{{game.events.P2.price}}</p>
+                        </div>
+                        <div class="name-team-block">
+                            <h4><span>{{game.team2_name}}</span></h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,5672 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "Your balance is low"
+msgstr "Jūsu bilancē nav pietiekoši daudz līdzekļu"
+
+# 
+msgid "Renew to get more."
+msgstr "Atjaunojiet, lai iegūt vairāk."
+
+# 
+msgid "OK"
+msgstr "Labi"
+
+# 
+msgid "Yes"
+msgstr "Jā"
+
+# 
+msgid "No"
+msgstr "Nē"
+
+# 
+msgid "Blitz Survey"
+msgstr "Blitz aptauja"
+
+# 
+msgid "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+msgstr "Mums interesanti zināt, kādas no spēlēm, kuras ir norādītas zemāk, Jūs protat spēlēt (Jūs varat izvēlēties līdz 5 produktiem)"
+
+# 
+msgid "Chinese Poker"
+msgstr "Ķīniešu Pokers"
+
+# 
+msgid "Live Casino"
+msgstr "Live Kazino"
+
+# 
+msgid "Poker"
+msgstr "Pokers"
+
+# 
+msgid "Backgammon"
+msgstr "Nardas"
+
+# 
+msgid "Belote"
+msgstr "Blots"
+
+# 
+msgid "None of these"
+msgstr "Nekādi"
+
+# 
+msgid "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+msgstr "Paldies par piedalīšanos aptaujā. DLVbet novērtē Jūsu ieinteresētību mūsējos produktos."
+
+# 
+msgid "Submit"
+msgstr "Nosūtīt"
+
+# 
+msgid "Input Password"
+msgstr "Ieejas parole"
+
+# 
+msgid "Feedback"
+msgstr "Atsauksmes"
+
+# 
+msgid "Hello, we'd love to hear your thoughts."
+msgstr "Mēs būsim priecīgi uzzināt Jūsu atsauksmi."
+
+# 
+msgid "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+msgstr "Ja Jums ir kaut kādi jautājumi, komentāri vai piedāvājumi, lūdzu aizpildiet zemāk norādīto formu un uzspiediet Nosūtīt."
+
+# 
+msgid "Email Address"
+msgstr "E-pasta adrese"
+
+# 
+msgid "Enter your email address"
+msgstr "Ievadiet e-pasta adresi"
+
+# 
+msgid "Please enter a valid email address"
+msgstr "Ievadiet korektu e-pasta adresi"
+
+# 
+msgid "Your message"
+msgstr "Jūsu īsziņa"
+
+# 
+msgid "Send"
+msgstr "Nosūtīt"
+
+# 
+msgid "Your message has been sent."
+msgstr "Jūsu īsziņa ir nosūtīta."
+
+# 
+msgid "Live"
+msgstr "Live"
+
+# 
+msgid "pre-match"
+msgstr "Pre-mačs"
+
+# 
+msgid "No games found"
+msgstr "Piemērotas spēles nav atrastas"
+
+# 
+msgid "Games"
+msgstr "Spēles"
+
+# 
+msgid "all"
+msgstr "Visi"
+
+# 
+msgid "Today"
+msgstr "Šodien"
+
+# 
+msgid "Tomorrow"
+msgstr "Rīt"
+
+# 
+msgid "More"
+msgstr "Vairāk"
+
+# 
+msgid "Sorry the game which you chose doesn't have the type of play for fun"
+msgstr "Atvainojiet, šo spēli var spēlēt tikai uz naudu"
+
+# 
+msgid "Transfer"
+msgstr "Pārvedums"
+
+# 
+msgid "Enter"
+msgstr "Ievadiet"
+
+# 
+msgid "Withdraw from game"
+msgstr "Noņemt no spēles konta"
+
+# 
+msgid "Deposit to game"
+msgstr "Ieskaitīt spēlēs kontā"
+
+# 
+msgid "Game Balance: "
+msgstr "Spēles Bilance: "
+
+# 
+msgid "Error occured"
+msgstr "Notika kļūda"
+
+# 
+msgid "more"
+msgstr "VĒL"
+
+# 
+msgid "Select a Category"
+msgstr "Izvēlieties kategoriju"
+
+# 
+msgid "Select region"
+msgstr "Izvēlieties reģionu"
+
+# 
+msgid "All Providers"
+msgstr "Visi provaideri"
+
+# 
+msgid "left arrow"
+msgstr "Kreisā bultiņa"
+
+# 
+msgid "right arrow"
+msgstr "Labā bultiņa"
+
+# 
+msgid "Popular Games"
+msgstr "Populāras spēles"
+
+# 
+msgid "play now"
+msgstr "Spēlēt tagad"
+
+# 
+msgid "PLAY FOR FUN"
+msgstr "Spēlēt bezmaksas"
+
+# 
+msgid "TOP SLOTS"
+msgstr "TOP SLOTI"
+
+# 
+msgid "VIEW"
+msgstr "PĀRLŪKOT"
+
+# 
+msgid "Load more"
+msgstr "Ielādēt vairāk"
+
+# 
+msgid "Casino games"
+msgstr "Kazino spēles"
+
+# 
+msgid "Live casino"
+msgstr "Live Kazino"
+
+# 
+msgid "Live Lottery"
+msgstr "Live Loto"
+
+# 
+msgid "Skill games"
+msgstr "Spēles iemaņa"
+
+# 
+msgid "Virtual games"
+msgstr "Virtuālas spēles"
+
+# 
+msgid "All Multi View Games"
+msgstr "Pieejamas spēles Multi-skatā"
+
+# 
+msgid "Search"
+msgstr "Meklēšana"
+
+# 
+msgid "Points Calculator"
+msgstr "Punktu kalkulators"
+
+# 
+msgid "Buy-in"
+msgstr "Baj-in"
+
+# 
+msgid "Entrants"
+msgstr "Dalībnieki"
+
+# 
+msgid "Position"
+msgstr "Pozīcija"
+
+# 
+msgid "Points"
+msgstr "Punkti"
+
+# 
+msgid "Download"
+msgstr "Lejuplādēt"
+
+# 
+msgid "Download Beta version"
+msgstr "Lejuplādēt Beta versiju"
+
+# 
+msgid "Play now"
+msgstr "Spēlēt tagad"
+
+# 
+msgid "Armenian"
+msgstr "Armēņu"
+
+# 
+msgid "online"
+msgstr "online"
+
+# 
+msgid "Championship"
+msgstr "Čempionāts"
+
+# 
+msgid "season"
+msgstr "sezona"
+
+# 
+msgid "Play now!"
+msgstr "Spēlēt tagad!"
+
+# 
+msgid "choose your os"
+msgstr "Izvēlaties Jūsu ОS"
+
+# 
+msgid "All"
+msgstr "Visas spēles"
+
+# 
+msgid "All downloads"
+msgstr "Visas ielādes"
+
+# 
+msgid "Windows"
+msgstr "Windows"
+
+# 
+msgid "poker_requirements_windows"
+msgstr "Minimālas sistēmiskas prasības<br>Windows XP / Vista / Windows 7<br>Pentium 4 with 3 GHz (vai savienojami CPU)<br>1 GB system RAM<br> Platjoslas piekļūšana Internetam"
+
+# 
+msgid "poker_download_description_windows"
+msgstr "<ol><li>Parādīsies logs. Uzspiediet Run.</li><li>Pēc tam, kad ielāde būs pabeigta, jums var būt piedāvāts pārbaudīt izdevēju.</li><li>Uzspiediet spiedpogu Run no jauna</li><li>Nākamajā logā, lai uzstādītu programmas nodrošinājumu uzspiediet spiedpogu Tālāk</li><li>Pēc tam, kad uzstādīšana tiks pabeigta, Jūs varat atrast mūsu DLVbet nozīmīti uz darba galda.</li><li>Divreiz uzklikšķiniet uz nozīmīti, lai sākt Poker-istabu DLVbet</li></ol>"
+
+# 
+msgid "Mac OS"
+msgstr "Mac OS"
+
+# 
+msgid "poker_requirements_mac"
+msgstr "Minimālas sistēmiskas prasības<br>Mac® OS 9 vai augstāk<br>Intel® Processor<br>1 GB system RAM<br>300mb brīva HD  izplatījuma<br> Platjoslas piekļūšana Internetam<br>1024x720 minimāla displeja atļauja"
+
+# 
+msgid "poker_download_description_mac"
+msgstr "<ol><li>Lejupielādēt lietotni</li><li>Izvēlieties lietotni, veicot dubultklikšķi</ li><li>Pārvietojiet ieguves Lietotni uz Programmu</ li> <li> Noklikšķiniet uz lejupielādēto failu, lai sāktu uzstādīšanas procesu</ li > </ ol>"
+
+# 
+msgid "Linux"
+msgstr "Linux"
+
+# 
+msgid "poker_requirements_linux"
+msgstr "Pokera prasības Linux"
+
+# 
+msgid "poker_download_description_linux"
+msgstr "Linux pokera ielādes prasības"
+
+# 
+msgid "Android"
+msgstr "Android"
+
+# 
+msgid "poker_requirements_android"
+msgstr "Minimālas sistēmas prasības<br>Uzstādīta versija Adobe Air (jūs varat lejupielādēt <a href=https://play.google.com/store/apps/details?id=com.adobe.air&hl=en target=_blank> šeit </>)<br>Android versija 4.0 vai jaunāka<br>3G vai Wi-Fi savienojums"
+
+# 
+msgid "poker_download_description_android"
+msgstr "<ol><li>Pirms lejupielādēt, sistēmas iestatījumos izvēlieties Drosība> Ierīce> Atļaut nezināmos avotus</li><li>Pareizai programmas darbībai Jums jainstalē Adobe AIR </li><li>Ja šie nosacījumi ir izpildīti, Jūs varat sākt, noklikšķinot uz nozīmīti, lai lejuplādēt ielāde.</li><li>Tiklīdz lejupielādējas, programmatūra tiks uzstādīta automātiski.</li><li>Pēc uzstādīšanas, lai ieslēgtu programmu, vienkārši noklikšķiniet uz programmas nozīmīti</li></ol>"
+
+# 
+msgid "3 Steps To start the game"
+msgstr "<b>3 Soļi</b>, lai sākt spēlēt"
+
+# 
+msgid "Register"
+msgstr "Reģistrācija"
+
+# 
+msgid "Play"
+msgstr "Spēlēt"
+
+# 
+msgid "Start"
+msgstr "Starts"
+
+# 
+msgid "Download and Install"
+msgstr "Ielāde un uzstādīšana"
+
+# 
+msgid "Register your account"
+msgstr "Piereģistrējiet savu kontu"
+
+# 
+msgid "Start to Play"
+msgstr "Sāciet spēlēt"
+
+# 
+msgid "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+msgstr "Noklikšķiniet uz lejupielādēto failu, lai sāktu uzstādīšanas procesu. <br> Izpildiet norādījumus, lai pabeigtu instalēšanu."
+
+# 
+msgid "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+msgstr "Lai to izdarīt, noklikšķiniet uz pogas Reģistrācija pieteikšanās logā. <br> Ja esat jau reģistrējies, lūdzu, ievadiet savu lietotājvārdu un paroli."
+
+# 
+msgid "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+msgstr "Izbaudiet spēli mūsu pokera istabā. <br> Jautājumu un ierosinājumu gadījumā, lūdzu, sazinieties ar Klientu atbalsta dienestu."
+
+# 
+msgid "Download Windows client"
+msgstr "Lejuplādēt priekš Windows klientam"
+
+# 
+msgid "desktop"
+msgstr "desktops"
+
+# 
+msgid "Download MacOS client"
+msgstr "Lejuplādēt priekš MacOS klientam"
+
+# 
+msgid "iPhone"
+msgstr "iPhone"
+
+# 
+msgid "Instant Play"
+msgstr "Momentāla spēle"
+
+# 
+msgid "android"
+msgstr "android"
+
+# 
+msgid "Download Linux client"
+msgstr "Lejuplādēt priekš Linux klientam"
+
+# 
+msgid "linux"
+msgstr "linux"
+
+# 
+msgid "Time Period"
+msgstr "Periods"
+
+# 
+msgid "All Casino Transactions"
+msgstr "Visi Kazino darījumi"
+
+# 
+msgid "id: "
+msgstr "id: "
+
+# 
+msgid "next"
+msgstr "nāk."
+
+# 
+msgid "prev"
+msgstr "Iepriekš."
+
+# 
+msgid "Deposit to main wallet"
+msgstr "Veikt depozītu uz galveno kontu"
+
+# 
+msgid "Select a payment method"
+msgstr "Izvēlieties apmaksas veidu"
+
+# 
+msgid "Please confirm money transfer"
+msgstr "Lūdzu, apstipriniet pārvedumu"
+
+# 
+msgid "Amount: "
+msgstr "Summa: "
+
+# 
+msgid "Status:"
+msgstr "Statuss: "
+
+# 
+msgid "Unknown"
+msgstr "Nezināms"
+
+# 
+msgid "Success"
+msgstr "Veiksmīgi"
+
+# 
+msgid "Pending"
+msgstr "Gaidīšana"
+
+# 
+msgid "Failure"
+msgstr "Neveiksmīgi"
+
+# 
+msgid "Deposit Amount"
+msgstr "Depozīta summa"
+
+# 
+msgid "Payment complete"
+msgstr "Apmaksa ir pabeigta"
+
+# 
+msgid "enter amount here"
+msgstr "Ievadiet summu"
+
+# 
+msgid "Withdraw"
+msgstr "Izmaksa"
+
+# 
+msgid "Status"
+msgstr "Statuss"
+
+# 
+msgid "Withdraw from main wallet"
+msgstr "Izmaksa no galvenā maka"
+
+# 
+msgid "Username"
+msgstr "Lietotājvārds"
+
+# 
+msgid "Password"
+msgstr "Parole"
+
+# 
+msgid "User ID"
+msgstr "Lietotāja ID"
+
+# 
+msgid "Please, upload your passport scan or passport photo to ease your further withdrawals."
+msgstr "Lūdzu, ielādējiet Jūsu pases skan-kopiju vai fotoattēlu lai vienkāršotu nākamās naudas līdzekļu izmaksas."
+
+# 
+msgid "Verify Account"
+msgstr "Apstiprināt savu kontu"
+
+# 
+msgid "Withdraw Amount"
+msgstr "Izmaksas summa"
+
+# 
+msgid "available:"
+msgstr "ir pieejams:"
+
+# 
+msgid "Wallet"
+msgstr "Maks"
+
+# 
+msgid "History"
+msgstr "Vēsture"
+
+# 
+msgid "Renew"
+msgstr "Atjaunot"
+
+# 
+msgid "Deposit"
+msgstr "Depozīts"
+
+# 
+msgid "Your currency is"
+msgstr "Jūsu valūta:"
+
+# 
+msgid "From"
+msgstr "No"
+
+# 
+msgid "Casino"
+msgstr "Kazino"
+
+# 
+msgid "Main"
+msgstr "Galvenais"
+
+# 
+msgid "To"
+msgstr "Uz"
+
+# 
+msgid "Amount"
+msgstr "Summa"
+
+# 
+msgid "Wait..."
+msgstr "Uzgaidiet..."
+
+# 
+msgid "Balance"
+msgstr "Bilance"
+
+# 
+msgid "If your balance less, top up your balance now."
+msgstr "Ja Jūsu bilancē nav pietiekoši daudz līdzekļu, papildiniet to"
+
+# 
+msgid "Go to shop"
+msgstr "Uz veikalu"
+
+# 
+msgid "Main Bonus"
+msgstr "Galvenais Bonuss"
+
+# 
+msgid "Casino Bonus"
+msgstr "Kazino Bonuss"
+
+# 
+msgid "Total"
+msgstr "Kopā"
+
+# 
+msgid "Transactions"
+msgstr "Darījumi"
+
+# 
+msgid "All Transactions"
+msgstr "Visi darījumi"
+
+# 
+msgid "Bonus"
+msgstr "Bonuss"
+
+# 
+msgid "loading..."
+msgstr "ielāde..."
+
+# 
+msgid "Page not found"
+msgstr "Lapa netika atrasta"
+
+# 
+msgid "You need to login to access this page."
+msgstr "Lai apskatīt šo lapu Jums ir jāienāk savā profilā."
+
+# 
+msgid "statistic"
+msgstr "Statistika"
+
+# 
+msgid "Previous Flash version"
+msgstr "Flash versija"
+
+# 
+msgid "Fantasy Sports"
+msgstr "Fentezi Sports"
+
+# 
+msgid "OGWIL"
+msgstr "OGWIL"
+
+# 
+msgid "Jackpot"
+msgstr "Džekpots"
+
+# 
+msgid "Financials"
+msgstr "Finanšu likmes"
+
+# 
+msgid "Free Bet"
+msgstr "Bezmaksas likme"
+
+# 
+msgid "Pool Betting"
+msgstr "Totalizators"
+
+# 
+msgid "Note:"
+msgstr "Uzmanību:"
+
+# 
+msgid "You can change the layout of the sportsbook in the settings."
+msgstr "Jūs varat izmainīt Sportsbook izskatu iestatījumos."
+
+# 
+msgid "Don't show this again."
+msgstr "Vairs nerādīt."
+
+# 
+msgid "Settings"
+msgstr "Iestatījumi"
+
+# 
+msgid "Odds in"
+msgstr "Koeficienti"
+
+# 
+msgid "Decimal"
+msgstr "Decimaldāļskaitļi"
+
+# 
+msgid "Fractional"
+msgstr "Frakcionēti"
+
+# 
+msgid "American"
+msgstr "Amerikāņu"
+
+# 
+msgid "Event sounds:"
+msgstr "Notikuma skaņas:"
+
+# 
+msgid "On"
+msgstr "Iesl"
+
+# 
+msgid "Off"
+msgstr "Izsl"
+
+# 
+msgid "Hide:"
+msgstr "Noslēpt:"
+
+# 
+msgid "Time format"
+msgstr "Laika formāts"
+
+# 
+msgid "12 hours"
+msgstr "12 stundas"
+
+# 
+msgid "24 hours"
+msgstr "24 stundas"
+
+# 
+msgid "Sportsbook layout:"
+msgstr "Sportsbook izskats"
+
+# 
+msgid "Modern"
+msgstr "Moderns"
+
+# 
+msgid "Classic"
+msgstr "Klasisks"
+
+# 
+msgid "Choose color scheme:"
+msgstr "Izvēlieties krāsu shēmu:"
+
+# 
+msgid "Change language"
+msgstr "Mainīt valodu"
+
+# 
+msgid "Live Agent"
+msgstr "Live operators"
+
+# 
+msgid "Live Chat"
+msgstr "Live atbalsts"
+
+# 
+msgid "Contact Support"
+msgstr "Atbalsta dienests"
+
+# 
+msgid "FAQ"
+msgstr "BUJ"
+
+# 
+msgid "My messages"
+msgstr "Manas īsziņas"
+
+# 
+msgid "Log Out"
+msgstr "Iziet"
+
+# 
+msgid "My bets"
+msgstr "Manas likmes"
+
+# 
+msgid "My games"
+msgstr "Manas spēles"
+
+# 
+msgid "Sign in"
+msgstr "Ieiet"
+
+# 
+msgid "Recent Bets"
+msgstr "Pēdējās likmes"
+
+# 
+msgid "Bet History"
+msgstr "Likmju vēsture"
+
+# 
+msgid "Casino Bet History"
+msgstr "Kazino likmju vēsture"
+
+# 
+msgid "Sports"
+msgstr "Sporta veidi"
+
+# 
+msgid "Upcoming games"
+msgstr "Nākamās spēles"
+
+# 
+msgid "News"
+msgstr "Ziņas"
+
+# 
+msgid "Videos"
+msgstr "Video"
+
+# 
+msgid "Results"
+msgstr "Rezultāti"
+
+# 
+msgid "Sport center"
+msgstr "Sporta centrs"
+
+# 
+msgid "Calendar"
+msgstr "Kalendārs"
+
+# 
+msgid "close"
+msgstr "Aizvērt"
+
+# 
+msgid "competition or a team..."
+msgstr "turnīrs vai komanda..."
+
+# 
+msgid "Search a competition or a team..."
+msgstr "Meklēšana pēc turnīra vai komandas nosaukuma..."
+
+# 
+msgid "Search results"
+msgstr "Meklēšanas rezultāti"
+
+# 
+msgid "no results"
+msgstr "nekas nav atrasts"
+
+# 
+msgid "Search a casino game..."
+msgstr "Kazino spēles meklēšana"
+
+# 
+msgid "brain"
+msgstr "smadzenes"
+
+# 
+msgid "Winners"
+msgstr "Uzvarētāji"
+
+# 
+msgid "There are no winners yet"
+msgstr "Uzvarētāju pagaidām nav"
+
+# 
+msgid "No data"
+msgstr "Nav datu"
+
+# 
+msgid "Name"
+msgstr "Vārds"
+
+# 
+msgid "ON THE WAY"
+msgstr "Ceļā"
+
+# 
+msgid "TO VICTORY!"
+msgstr "Pie uzvaras!"
+
+# 
+msgid "Forgot your password?"
+msgstr "Aizmirsāt paroli?"
+
+# 
+msgid "Join"
+msgstr "Pievienojāties"
+
+# 
+msgid "Bet"
+msgstr "Izdariet likmes"
+
+# 
+msgid "Win"
+msgstr "Uzvariet"
+
+# 
+msgid "Draw number"
+msgstr "Izloze"
+
+# 
+msgid "End date"
+msgstr "Beigu laiks"
+
+# 
+msgid "State"
+msgstr "Statuss"
+
+# 
+msgid "Pool"
+msgstr "Pūls"
+
+# 
+msgid "Prize fund"
+msgstr "Laimestu fonds"
+
+# 
+msgid "Tickets / Variants"
+msgstr "Biļetes / Varianti"
+
+# 
+msgid "Current Draw"
+msgstr "Tekoša izloze"
+
+# 
+msgid "Draw"
+msgstr "Izloze"
+
+# 
+msgid "Event"
+msgstr "Notikums"
+
+# 
+msgid "Result"
+msgstr "Rezultāts"
+
+# 
+msgid "Bookmakers probability / bets amount (in %)"
+msgstr "Iznākumi (%) pēc bukmekeru/spēlētāju vērtējuma"
+
+# 
+msgid "min."
+msgstr "min."
+
+# 
+msgid "Tickets"
+msgstr "Kuponi"
+
+# 
+msgid "Variants"
+msgstr "Varianti"
+
+# 
+msgid "Winners (var.)"
+msgstr "Laimests (var.)"
+
+# 
+msgid "Win sum"
+msgstr "Laimesta summa"
+
+# 
+msgid "Win coef"
+msgstr "Uzvaras koeficients"
+
+# 
+msgid "All draws"
+msgstr "Visas izlozes"
+
+# 
+msgid "All bets"
+msgstr "Visas likmes"
+
+# 
+msgid "You need to confirm the agreements."
+msgstr "Jums ir jāapstiprina piekrišanu."
+
+# 
+msgid "I agree to all"
+msgstr "Es piekrītu ar"
+
+# 
+msgid "Terms & Conditions"
+msgstr "Noteikumi un Nosacījumi"
+
+# 
+msgid "You can read our Terms and Conditions by clicking corresponding links in page footer."
+msgstr "Jūs varat izlasīt Noteikumus un Nosacījumus nospiežot attiecīgo saiti zemāk."
+
+# 
+msgid "and I am over 18 years of age and have read and accepted the general terms and conditions."
+msgstr "Man ir vairāk par 18 gadiem."
+
+# 
+msgid "and I am over 21 years of age and have read and accepted the general terms and conditions."
+msgstr "Man ir vairāk par 21 gadu."
+
+# 
+msgid "Registration complete."
+msgstr "Reģistrācija ir pabeigta."
+
+# 
+msgid "Please check your email."
+msgstr "Lūdzu, pārbaudiet savu e-pastu."
+
+# 
+msgid "Registration failed due to technical error."
+msgstr "Reģistrācija uz doto brīdī nav iespējama tehnisku iemeslu dēļ."
+
+# 
+msgid "Please try again later."
+msgstr "Lūdzu, mēģiniet vēlāk."
+
+# 
+msgid "Australia"
+msgstr "Austrālija"
+
+# 
+msgid "Andorra"
+msgstr "Andora"
+
+# 
+msgid "UAE"
+msgstr "AAE"
+
+# 
+msgid "Afghanistan"
+msgstr "Afganistāna"
+
+# 
+msgid "Antigua and Barbuda"
+msgstr "Antigva un Barbuda"
+
+# 
+msgid "Albania"
+msgstr "Albānija"
+
+# 
+msgid "Armenia"
+msgstr "Armēnija"
+
+# 
+msgid "Angola"
+msgstr "Angola"
+
+# 
+msgid "Argentina"
+msgstr "Argentīna"
+
+# 
+msgid "American Samoa"
+msgstr "Amerikāņu Samoa"
+
+# 
+msgid "Austria"
+msgstr "Austrija"
+
+# 
+msgid "Aruba"
+msgstr "Аруба"
+
+# 
+msgid "Azerbaijan"
+msgstr "Azerbaidžāna"
+
+# 
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnija un Hercegovina"
+
+# 
+msgid "Barbados"
+msgstr "Barbadosa"
+
+# 
+msgid "Bangladesh"
+msgstr "Bangladeša"
+
+# 
+msgid "Belgium"
+msgstr "Beļģija"
+
+# 
+msgid "Burkina Faso"
+msgstr "Burkinafaso"
+
+# 
+msgid "Bulgaria"
+msgstr "Bulgārija"
+
+# 
+msgid "Bahrain"
+msgstr "Bahreina"
+
+# 
+msgid "Burundi"
+msgstr "Burundi"
+
+# 
+msgid "Benin"
+msgstr "Benina"
+
+# 
+msgid "Bermuda"
+msgstr "Bermuda"
+
+# 
+msgid "Brunei"
+msgstr "Bruneja"
+
+# 
+msgid "Bolivia"
+msgstr "Bolīvija"
+
+# 
+msgid "Brazil"
+msgstr "Brazīlija"
+
+# 
+msgid "Bahamas"
+msgstr "Bahamas"
+
+# 
+msgid "Bhutan"
+msgstr "Butāna"
+
+# 
+msgid "Botswana"
+msgstr "Botsvana"
+
+# 
+msgid "Belarus"
+msgstr "Baltkrievija"
+
+# 
+msgid "Belize"
+msgstr "Beliza"
+
+# 
+msgid "Canada"
+msgstr "Kanāda"
+
+# 
+msgid "Democratic Republic of the Congo"
+msgstr "Kongo Demokrātiskā Republika"
+
+# 
+msgid "Central African Republic"
+msgstr "Centrālāfrikas Republika"
+
+# 
+msgid "Republic of the Congo"
+msgstr "Kongo Republika"
+
+# 
+msgid "Switzerland"
+msgstr "Šveice"
+
+# 
+msgid "Cote d'Ivoire"
+msgstr "Kotdivuāra"
+
+# 
+msgid "Cook Islands"
+msgstr "Kuka salas"
+
+# 
+msgid "Chile"
+msgstr "Čīle"
+
+# 
+msgid "Cameroon"
+msgstr "Kamerūna"
+
+# 
+msgid "China"
+msgstr "Ķīna"
+
+# 
+msgid "Colombia"
+msgstr "Kolumbija"
+
+# 
+msgid "Costa Rica"
+msgstr "Kostarika"
+
+# 
+msgid "Cuba"
+msgstr "Kuba"
+
+# 
+msgid "Cape Verde"
+msgstr "Kaboverde"
+
+# 
+msgid "Cyprus"
+msgstr "Kipra"
+
+# 
+msgid "Czech Republic"
+msgstr "Čehija"
+
+# 
+msgid "Germany"
+msgstr "Vācija"
+
+# 
+msgid "Djibouti"
+msgstr "Džibutija"
+
+# 
+msgid "Denmark"
+msgstr "Dānija"
+
+# 
+msgid "Dominica"
+msgstr "Dominika"
+
+# 
+msgid "Dominican Republic"
+msgstr "Dominikāna"
+
+# 
+msgid "Algeria"
+msgstr "Alžīrija"
+
+# 
+msgid "Ecuador"
+msgstr "Ekvadora"
+
+# 
+msgid "Estonia"
+msgstr "Igaunija"
+
+# 
+msgid "Egypt"
+msgstr "Ēģipte"
+
+# 
+msgid "Eritrea"
+msgstr "Eritreja"
+
+# 
+msgid "Spain"
+msgstr "Spānija"
+
+# 
+msgid "Ethiopia"
+msgstr "Etiopija"
+
+# 
+msgid "Finland"
+msgstr "Somija"
+
+# 
+msgid "Fiji"
+msgstr "Fidži"
+
+# 
+msgid "Federated States of Micronesia"
+msgstr "Mikronēzija"
+
+# 
+msgid "Faroe Islands"
+msgstr "Fēru salas"
+
+# 
+msgid "France"
+msgstr "Francija"
+
+# 
+msgid "Gabon"
+msgstr "Gabona"
+
+# 
+msgid "Great Britain"
+msgstr "Lielbritānija"
+
+# 
+msgid "Grenada"
+msgstr "Grenāda"
+
+# 
+msgid "Georgia"
+msgstr "Gruzija"
+
+# 
+msgid "Ghana"
+msgstr "Gana"
+
+# 
+msgid "Gambia"
+msgstr "Gambija"
+
+# 
+msgid "Guinea"
+msgstr "Gvineja"
+
+# 
+msgid "Equatorial Guinea"
+msgstr "Ekvatoriālā Gvineja"
+
+# 
+msgid "Greece"
+msgstr "Grieķija"
+
+# 
+msgid "Guatemala"
+msgstr "Gvatemala"
+
+# 
+msgid "Guam"
+msgstr "Guama"
+
+# 
+msgid "Guinea-Bissau"
+msgstr "Gvineja-Bisava"
+
+# 
+msgid "Guyana"
+msgstr "Gajāna"
+
+# 
+msgid "Hong Kong"
+msgstr "Honkonga"
+
+# 
+msgid "Honduras"
+msgstr "Hondurasa"
+
+# 
+msgid "Croatia"
+msgstr "Horvātija"
+
+# 
+msgid "Republic of Haiti"
+msgstr "Haiti Republika"
+
+# 
+msgid "Hungary"
+msgstr "Ungārija"
+
+# 
+msgid "Indonesia"
+msgstr "Indonēzija"
+
+# 
+msgid "Ireland"
+msgstr "Īrija"
+
+# 
+msgid "Israel"
+msgstr "Izraēla"
+
+# 
+msgid "India"
+msgstr "Indija"
+
+# 
+msgid "Iraq"
+msgstr "Irāka"
+
+# 
+msgid "Iran"
+msgstr "Irāna"
+
+# 
+msgid "Iceland"
+msgstr "Islande"
+
+# 
+msgid "Italy"
+msgstr "Itālija"
+
+# 
+msgid "Jamaica"
+msgstr "Jamaika"
+
+# 
+msgid "Jordan"
+msgstr "Jordānija"
+
+# 
+msgid "Japan"
+msgstr "Japāna "
+
+# 
+msgid "Kenya"
+msgstr "Kenija"
+
+# 
+msgid "Kyrgyzstan"
+msgstr "Kirgizstāna"
+
+# 
+msgid "Cambodia"
+msgstr "Kambodža"
+
+# 
+msgid "Kiribati"
+msgstr "Kiribati"
+
+# 
+msgid "Comoros"
+msgstr "Komoru salas"
+
+# 
+msgid "Saint Kitts and Nevis"
+msgstr "Sentkitsas un Nevisas Federācija"
+
+# 
+msgid "DPRK"
+msgstr "KTDR"
+
+# 
+msgid "South Korea"
+msgstr "Dienvidkoreja"
+
+# 
+msgid "Kuwait"
+msgstr "Kuveita"
+
+# 
+msgid "Cayman Islands"
+msgstr "Kaimanu salas"
+
+# 
+msgid "Kazakhstan"
+msgstr "Kazahstāna"
+
+# 
+msgid "Laos"
+msgstr "Laosa"
+
+# 
+msgid "Lebanon"
+msgstr "Libāna"
+
+# 
+msgid "Saint Lucia"
+msgstr "Sentlūsija"
+
+# 
+msgid "Liechtenstein"
+msgstr "Lihtenšteina"
+
+# 
+msgid "Sri Lanka"
+msgstr "Šrilanka"
+
+# 
+msgid "Liberia"
+msgstr "Libērija"
+
+# 
+msgid "Lesotho"
+msgstr "Lesoto"
+
+# 
+msgid "Lithuania"
+msgstr "Lietuva"
+
+# 
+msgid "Luxemburg"
+msgstr "Luksemburga"
+
+# 
+msgid "Latvia"
+msgstr "Latvija"
+
+# 
+msgid "Libya"
+msgstr "Lībija"
+
+# 
+msgid "Morocco"
+msgstr "Maroka"
+
+# 
+msgid "Monaco"
+msgstr "Monako"
+
+# 
+msgid "Moldavia"
+msgstr "Moldova"
+
+# 
+msgid "Montenegro"
+msgstr "Melnkalne"
+
+# 
+msgid "Madagascar"
+msgstr "Madagaskara"
+
+# 
+msgid "Macedonia"
+msgstr "Maķedonija"
+
+# 
+msgid "Mali"
+msgstr "Mali"
+
+# 
+msgid "Myanmar"
+msgstr "Mjanma"
+
+# 
+msgid "Mongolia"
+msgstr "Mongolija"
+
+# 
+msgid "Mauritania"
+msgstr "Mauritānija"
+
+# 
+msgid "Malta"
+msgstr "Malta"
+
+# 
+msgid "Mauritius"
+msgstr "Maurīcija"
+
+# 
+msgid "Maldives"
+msgstr "Maldīvija"
+
+# 
+msgid "Malawi"
+msgstr "Malāvija"
+
+# 
+msgid "Mexico"
+msgstr "Meksika"
+
+# 
+msgid "Malaysia"
+msgstr "Malaizija"
+
+# 
+msgid "Mozambique"
+msgstr "Mozambika"
+
+# 
+msgid "Namibia"
+msgstr "Namībija"
+
+# 
+msgid "Niger"
+msgstr "Nigēra"
+
+# 
+msgid "Nigeria"
+msgstr "Nigērija"
+
+# 
+msgid "Nicaragua"
+msgstr "Nikaragva"
+
+# 
+msgid "Netherlands"
+msgstr "Nīderlande"
+
+# 
+msgid "Norway"
+msgstr "Norvēģija"
+
+# 
+msgid "Nepal"
+msgstr "Nepāla"
+
+# 
+msgid "Nauru"
+msgstr "Nauru"
+
+# 
+msgid "New Zealand"
+msgstr "Jaunzēlande"
+
+# 
+msgid "Oman"
+msgstr "Omāna"
+
+# 
+msgid "Panama"
+msgstr "Panama"
+
+# 
+msgid "Peru"
+msgstr "Peru"
+
+# 
+msgid "Papua New Guinea"
+msgstr "Papua - Jaungvineja"
+
+# 
+msgid "Philippines"
+msgstr "Filipīnas"
+
+# 
+msgid "Pakistan"
+msgstr "Pakistāna"
+
+# 
+msgid "Poland"
+msgstr "Polija "
+
+# 
+msgid "Puerto Rico"
+msgstr "Puertoriko"
+
+# 
+msgid "Palestine"
+msgstr "Palestīna"
+
+# 
+msgid "Portugal"
+msgstr "Portugāle"
+
+# 
+msgid "Palau"
+msgstr "Palau"
+
+# 
+msgid "Paraguay"
+msgstr "Paragvaja"
+
+# 
+msgid "Qatar"
+msgstr "Katara"
+
+# 
+msgid "Romania"
+msgstr "Rumānija"
+
+# 
+msgid "Serbia"
+msgstr "Serbija"
+
+# 
+msgid "Russia"
+msgstr "Krievija"
+
+# 
+msgid "Rwanda"
+msgstr "Ruanda"
+
+# 
+msgid "Saudi Arabia"
+msgstr "Saūda Arābija"
+
+# 
+msgid "Solomon Islands"
+msgstr "Zālamana Salas"
+
+# 
+msgid "Seychelles"
+msgstr "Seišelas"
+
+# 
+msgid "Sudan"
+msgstr "Sudāna"
+
+# 
+msgid "Sweden"
+msgstr "Zviedrija"
+
+# 
+msgid "Singapore"
+msgstr "Singapūra"
+
+# 
+msgid "Slovenia"
+msgstr "Slovēnija"
+
+# 
+msgid "Slovakia"
+msgstr "Slovākija"
+
+# 
+msgid "Sierra Leone"
+msgstr "Sjerraleone"
+
+# 
+msgid "San Marino"
+msgstr "Sanmarīno"
+
+# 
+msgid "Senegal"
+msgstr "Senegāla"
+
+# 
+msgid "Somalia"
+msgstr "Somālija"
+
+# 
+msgid "Republic of Suriname"
+msgstr "Surinama"
+
+# 
+msgid "Sao Tome and Principe"
+msgstr "Santome un Prinsipi"
+
+# 
+msgid "Salvador"
+msgstr "Salvadora"
+
+# 
+msgid "Syria"
+msgstr "Sīrija"
+
+# 
+msgid "Swaziland"
+msgstr "Svazilenda"
+
+# 
+msgid "Chad"
+msgstr "Čada"
+
+# 
+msgid "Togo"
+msgstr "Togo"
+
+# 
+msgid "Thailand"
+msgstr "Taizeme"
+
+# 
+msgid "Tadjikistan"
+msgstr "Tadžikistāna"
+
+# 
+msgid "Timor-Leste"
+msgstr "Austrumtimora"
+
+# 
+msgid "Turkmenistan"
+msgstr "Turkmenistāna"
+
+# 
+msgid "Tunisia"
+msgstr "Tunisija"
+
+# 
+msgid "Tonga"
+msgstr "Tonga"
+
+# 
+msgid "Turkey"
+msgstr "Turcija"
+
+# 
+msgid "Trinidad and Tobago"
+msgstr "Trinidāda un Tobāgo"
+
+# 
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+# 
+msgid "Taiwan"
+msgstr "Taivāna"
+
+# 
+msgid "Tanzania"
+msgstr "Tanzānija"
+
+# 
+msgid "Ukraine"
+msgstr "Ukraina"
+
+# 
+msgid "Uganda"
+msgstr "Uganda"
+
+# 
+msgid "United States"
+msgstr "ASV"
+
+# 
+msgid "Uruguay"
+msgstr "Urugvaja"
+
+# 
+msgid "Uzbekistan"
+msgstr "Uzbekistāna"
+
+# 
+msgid "Saint Vincent and the Grenadines"
+msgstr "Sentvinsenta un Grenadīnas"
+
+# 
+msgid "Venezuela"
+msgstr "Venecuēla"
+
+# 
+msgid "British Virgin Islands"
+msgstr "Britu Virdžīnas"
+
+# 
+msgid "United States Virgin Islands"
+msgstr "ASV Virdžīnas"
+
+# 
+msgid "Vietnam"
+msgstr "Vjetnama"
+
+# 
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+# 
+msgid "Samoa"
+msgstr "Samoa"
+
+# 
+msgid "Yemen"
+msgstr "Jemena"
+
+# 
+msgid "Republic of South Africa"
+msgstr "Dienvidāfrika"
+
+# 
+msgid "Zambia"
+msgstr "Zambija"
+
+# 
+msgid "Zimbabwe"
+msgstr "Zimbabve"
+
+# 
+msgid "Login with Facebook"
+msgstr "Ieiet caur Facebook"
+
+# 
+msgid "Sign in with Odnoklassniki"
+msgstr "Ieiet caur Odnoklassniki"
+
+# 
+msgid "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+msgstr "Lai ieietu izmantojot Facebook, vispirms Jums jāreģistrējas, izmantojot savu Facebook kontu."
+
+# 
+msgid "If you want to be able to login with your Odnoklassniki account you need to first Sign up with Odnoklassniki account."
+msgstr "Lai ieietu izmantojot Odnoklassniki, vispirms Jums jāreģistrējas, izmantojot savu Odnoklassniki kontu."
+
+# 
+msgid "Your login"
+msgstr "Jūsu lietotājvārds"
+
+# 
+msgid "Enter your password"
+msgstr "Ievediet paroli"
+
+# 
+msgid "SMS verification code"
+msgstr "SMS apstiprinājuma kods"
+
+# 
+msgid "Enter verification code"
+msgstr "Ievediet apstiprinājuma kodu"
+
+# 
+msgid "Invalid username or password."
+msgstr "Nepareizs lietotājvārds vai parole."
+
+# 
+msgid "Create an account"
+msgstr "Izveidot kontu"
+
+# 
+msgid "Categories"
+msgstr "Kategorijas"
+
+# 
+msgid "Ogwil"
+msgstr "Ogwil"
+
+# 
+msgid "Live games"
+msgstr "Live spēles"
+
+# 
+msgid "All games"
+msgstr "Visas spēles"
+
+# 
+msgid "Roulette"
+msgstr "Rulete"
+
+# 
+msgid "BlackJack"
+msgstr "Blekdžeks"
+
+# 
+msgid "Bet on Poker"
+msgstr "Likmes uz pokeru"
+
+# 
+msgid "Baccarat"
+msgstr "Bakara"
+
+# 
+msgid "Please try later or contact support."
+msgstr "Lūdzu, mēģiniet vēlreiz vēlāk vai sazinieties ar mūsu klientu atbalsta dienestu."
+
+# 
+msgid "All Bets"
+msgstr "Visas likmes"
+
+# 
+msgid "unsettled"
+msgstr "neapstrādāts"
+
+# 
+msgid "lost"
+msgstr "zaudēts"
+
+# 
+msgid "returned"
+msgstr "atgriešana"
+
+# 
+msgid "Won"
+msgstr "laimests"
+
+# 
+msgid "Set"
+msgstr "Sets"
+
+# 
+msgid "Time"
+msgstr "Laiks"
+
+# 
+msgid "Prize"
+msgstr "Balva"
+
+# 
+msgid "Distance"
+msgstr "Attālums"
+
+# 
+msgid "Surface"
+msgstr "Virsma"
+
+# 
+msgid "Game start:"
+msgstr "Spēles sākums:"
+
+# 
+msgid "You don't have favourite games. To add some, click the star icon near the game name."
+msgstr "Jums nav izvēlētu spēļu. Lai pieliktu spēli, uzspiediet uz zvaigznītes* nozīmīti *blakus spēles nosaukumam."
+
+# 
+msgid "Bet Type"
+msgstr "Likmju veids"
+
+# 
+msgid "Single"
+msgstr "Vienkārša likme"
+
+# 
+msgid "express"
+msgstr "Kombinēta likme"
+
+# 
+msgid "system"
+msgstr "Sistēma"
+
+# 
+msgid "chain"
+msgstr "Ķēdīte"
+
+# 
+msgid "Outcome"
+msgstr "Rezultāts"
+
+# 
+msgid "Unsettled"
+msgstr "Neapstrādāts"
+
+# 
+msgid "Lost"
+msgstr "Zaudēts"
+
+# 
+msgid "Returned"
+msgstr "Atgriešana"
+
+# 
+msgid "Pick"
+msgstr "Izvēle"
+
+# 
+msgid "Bet placed from bonus."
+msgstr "Likme ir izdarīta no bonusa fonda."
+
+# 
+msgid "On Hold"
+msgstr "Ieturējumā"
+
+# 
+msgid "Sign up with Odnoklassniki"
+msgstr "Piereģistrēties caur Odnoklassniki"
+
+# 
+msgid "Sign up with Facebook"
+msgstr "Ieiet caur Facebook"
+
+# 
+msgid "User details:"
+msgstr "Lietotāja dati:"
+
+# 
+msgid "Enter here"
+msgstr "Ievadiet šeit"
+
+# 
+msgid "This field is required"
+msgstr "Nepieciešamais lauks aizpildei"
+
+# 
+msgid "This email already exists in our database, please enter another"
+msgstr "Dotā e-pasta adrese jau tiek izmantota, ievediet citu"
+
+# 
+msgid "First"
+msgstr "Vārds"
+
+# 
+msgid "Please enter a valid first name"
+msgstr "Ievadiet pareizu uzvārdu"
+
+# 
+msgid "Last"
+msgstr "Uzvārds"
+
+# 
+msgid "Please enter a valid last name"
+msgstr "Ievadiet pareizu uzvārdu"
+
+# 
+msgid "Gender"
+msgstr "Dzimums"
+
+# 
+msgid "Male"
+msgstr "Vīrietis"
+
+# 
+msgid "Female"
+msgstr "Sieviete"
+
+# 
+msgid "Passport Number"
+msgstr "Pases numurs"
+
+# 
+msgid "Passport Number is already registered for another account"
+msgstr "Pases numurs jau tiek izmantots citam kontam"
+
+# 
+msgid "Contact number"
+msgstr "Tālruņa numurs"
+
+# 
+msgid "Number"
+msgstr "Numurs"
+
+# 
+msgid "Invalid phone number"
+msgstr "Nepareizs tālruņa numurs"
+
+# 
+msgid "Duplicate phone number"
+msgstr "Šis numurs jau ir reģistrēts"
+
+# 
+msgid "Verify phone number by sms"
+msgstr "Apstipriniet tālruņa numuru saņemot sms"
+
+# 
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "Vai Jūs planējat ienākt sistēmā ar дietotājvārdu/paroli?"
+
+# 
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+msgstr "Ja Jūs planojat ieiet sistēmā ne izmantojot sociālā tīkla lietotājvārdu, tad nākotnē Jums vajadzēs izdomāt citu paroli/lietotājvārdu. Citādi tas būs automātiski pārslēdzams un Jūs saņemsiet paziņojumu uz e-pastu. Nepieciešams, lai Jūs nelietojāt citu paroli/lietotājvārdu, ja Jūs plānojat lietot sociālā tīkla lietotājvārdu pastāvīgi."
+
+# 
+msgid "Some games will still require you to sign in using username/password."
+msgstr "Dažas spēles pieprasīs, lai Jūs no jauna ienāktu sistēmā izmantojot savu paroli/lietotājvārdu."
+
+# 
+msgid "Sorry, this username has been used already"
+msgstr "Vārds jau tiek izmantots"
+
+# 
+msgid "Password cannot be same as login"
+msgstr "Parole nevar sakrīt ar lietotājvārdu"
+
+# 
+msgid "Must be at least 6 characters"
+msgstr "Jābūt ne mazāk kā 6 simbolu garumā"
+
+# 
+msgid "Repeat password"
+msgstr "Atkārtojiet paroli"
+
+# 
+msgid "passwords don't match"
+msgstr "Paroles nesakrīt"
+
+# 
+msgid "Start playing now."
+msgstr "Sākt spēlēt tagad."
+
+# 
+msgid "You have"
+msgstr "Jums ir"
+
+# 
+msgid "Reset password"
+msgstr "Atjaunot paroli"
+
+# 
+msgid "Enter your username"
+msgstr "Ievediet lietotājvārdu"
+
+# 
+msgid "Please enter a valid username"
+msgstr "Ievediet korektu lietotājvārdu"
+
+# 
+msgid "Password reset complete."
+msgstr "Paroles atjaunošana ir pabeigta."
+
+# 
+msgid "Password reset failed."
+msgstr "Paroles atjaunošana neizdevās."
+
+# 
+msgid "Express"
+msgstr "Kombinēta likme"
+
+# 
+msgid "System"
+msgstr "Sistēma"
+
+# 
+msgid "Chain"
+msgstr "Ķēdīte"
+
+# 
+msgid "Declined"
+msgstr "Noraidīts"
+
+# 
+msgid "UNSETTLED"
+msgstr "Neapstrādāts"
+
+# 
+msgid "UNSETTLED "
+msgstr "Neapstrādāts "
+
+# 
+msgid "Pick:"
+msgstr "Izvēle:"
+
+# 
+msgid "Won:"
+msgstr "Laimests"
+
+# 
+msgid "Potential win:"
+msgstr "Paredzams laimests"
+
+# 
+msgid "Personal Details"
+msgstr "Personas dati"
+
+# 
+msgid "Change Password"
+msgstr "Mainīt paroli"
+
+# 
+msgid "Self-Exclusion"
+msgstr "Pašizslēgšana"
+
+# 
+msgid "Deposit Limits"
+msgstr "Depozīta Limiti"
+
+# 
+msgid "Preferences"
+msgstr "Uzstādījumi"
+
+# 
+msgid "Save"
+msgstr "Saglabāt"
+
+# 
+msgid "Current Password"
+msgstr "Tekošā parole"
+
+# 
+msgid "Password incorrect"
+msgstr "Nepareiza parole"
+
+# 
+msgid "New Password"
+msgstr "Jauna parole"
+
+# 
+msgid "Confirm New Password"
+msgstr "Jaunas paroles apstiprinājums"
+
+# 
+msgid "Confirm password"
+msgstr "Apstipriniet paroli"
+
+# 
+msgid "Passwords don't match"
+msgstr "Paroles nesakrīt"
+
+# 
+msgid "First Name"
+msgstr "Vārds"
+
+#
+msgid "First name"
+msgstr "Vārds"
+
+# 
+msgid "Last Name"
+msgstr "Uzvārds"
+
+#
+msgid "Last name"
+msgstr "Uzvārds"
+
+# 
+msgid "Birth date"
+msgstr "Dzimšanas datums"
+
+# 
+msgid "Email"
+msgstr "E-pasts"
+
+# 
+msgid "Country"
+msgstr "Valsts"
+
+# 
+msgid "City"
+msgstr "Pilsēta"
+
+# 
+msgid "Address"
+msgstr "Adrese"
+
+# 
+msgid "E-mail"
+msgstr "E-pasts"
+
+# 
+msgid "message_1119"
+msgstr "Atkārtots e-pasts "
+
+# 
+msgid "Deposit limits allow you to limit the amount of funds you can deposit into the account. The amount can be chosen over a daily, weekly or monthly period. The deposit limit will allow you to restrict the amount of money entering your account, before betting takes place."
+msgstr "Depozīta limiti ļaus Jums ierobežot līdzekļu apjomu, kurus jūs varat iemaksāt kontā. Summa var būt izvēlēta ikdienu, iknedēļu vai ikmēnesi.Depozīta limits ļaus Jums ierobēžot naudas līdzekļu daudzumu, kas ienāk Jūsu kontā, pirms likmes tiks izdarītas."
+
+# 
+msgid "Enter amount"
+msgstr "Ievadiet summu"
+
+# 
+msgid "Day"
+msgstr "Diena"
+
+# 
+msgid "Week"
+msgstr "Nedēļa"
+
+# 
+msgid "Month"
+msgstr "Mēnesis"
+
+# 
+msgid "Please note:"
+msgstr "Lūdzu, pievērsiet uzmanību:"
+
+# 
+msgid "If previous deposit limits are increased, you must wait 24 hours until changes take effect."
+msgstr "Ja iepriekšējie depozīta limiti palielinās, nepieciešams nogaidīt 24 stundas, kamēr izmaiņas stāsies spēkā."
+
+# 
+msgid "You can exclude online for a minimum period of six months, once the six months has expired your account will be reactivated again."
+msgstr "Jūs varat izslēgt online uz termiņu ne mazāk kā sešus mēnešus. Pēc tam, kad termiņš notecēja Jūsu konts tiks atjaunots."
+
+# 
+msgid "Self exclusion of six month period"
+msgstr "Pašizslēgšana uz sešiem mēnešiem"
+
+# 
+msgid "Self exclusion of a one year period"
+msgstr "Pašizslēgšana uz vienu gadu"
+
+# 
+msgid "Messages"
+msgstr "Īsziņas"
+
+# 
+msgid "Inbox"
+msgstr "Ienākošas"
+
+# 
+msgid "Sent messages"
+msgstr "Nosūtītas"
+
+# 
+msgid "New message"
+msgstr "Jauna īsziņa"
+
+# 
+msgid "Subject"
+msgstr "Temats"
+
+# 
+msgid "Message"
+msgstr "Īsziņa"
+
+# 
+msgid "Pool:"
+msgstr "Puls:"
+
+# 
+msgid "Rules"
+msgstr "Noteikumi"
+
+# 
+msgid "W1"
+msgstr "U1"
+
+# 
+msgid "W2"
+msgstr "U2"
+
+# 
+msgid "Options:"
+msgstr "Opcijas:"
+
+# 
+msgid "Minimal Bet Amount:"
+msgstr "Minimāla likmes summa:"
+
+# 
+msgid "Stake..."
+msgstr "Likme"
+
+# 
+msgid "Random Choice"
+msgstr "Nejauša izvēle"
+
+# 
+msgid "Favourite Choice"
+msgstr "Varbūtēja izvēle"
+
+# 
+msgid "Place bets!"
+msgstr "Izdariet likmi!"
+
+# 
+msgid "To place your bet, please"
+msgstr "Lai izdarīt likmi, Jums vajag"
+
+# 
+msgid "sign in"
+msgstr "autorizēties"
+
+# 
+msgid "or"
+msgstr "vai"
+
+# 
+msgid "register"
+msgstr "reģistrēties"
+
+# 
+msgid "freebet_info"
+msgstr "Totalizatora kompanija DLVbet piedāvā saviem klientiem ikdienas bezmaksas viktorīnu.<br />Klientiem tiks piedāvāti 3 kombinēto likmju varianti, kuri satur 6, 8 vai 10 notikumus. Ja klients pareizi atminēs 6 no 6 notikumiem, laimests būs _________ EUR, 8 no 8 notikumiem laimests būs ___________ EUR, bet, ja atminēs 10 no 10 notikumiem, tad laimesta summa būs _________ EUR. Laimesta summa tiks iemaksāta klienta kontā 5 dienu laikā pēc visu notikumu pabeigšanas, kas ir iekļauti visās 3 kombinētās likmēs. <br />Ja būs notikumi, kuri izpaliks šīs kombinētas likmes variantā, viktorīna tiks zaudēta.<br/>Katrs klients ikdienā var izdarīt likmi uz katru no kombinētas likmju variantiem tikai vienu reizi."
+
+# 
+msgid "Use your"
+msgstr "Izmantojiet savus"
+
+# 
+msgid "skills"
+msgstr "iemaņas"
+
+# 
+msgid "backgammon_requirements_windows"
+msgstr "Minimālas prasības:<br>Ос - WinXP un augstāk. Procesors: Pentium 4 un augstāk.<br>Min. oper. atmiņa: - 512mb. vieta uz CD - 100mb."
+
+# 
+msgid "backgammon_download_description_windows"
+msgstr "Lai instalētu programmu uz Jūsu datora, lejuplādētjiet to. Tad 2 reizes noklikšķiniet uz lejuplādēto failu un nospiežot Next pogu, uzstādiet programmu. Uzstādīšanas beigās, noklikšķiniet uz Finish pogas, un pēc tam programma sāks stradāt."
+
+# 
+msgid "100%"
+msgstr "Uz 100%"
+
+# 
+msgid "MORE!"
+msgstr "VAIRĀK!"
+
+# 
+msgid "Register Now"
+msgstr "Reģistrācija"
+
+# 
+msgid "know more..."
+msgstr "Uzzināt vairāk..."
+
+# 
+msgid "Get more"
+msgstr "Saņemt vairāk"
+
+# 
+msgid "Read More"
+msgstr "Lasīt tālāk"
+
+# 
+msgid "Share"
+msgstr "Dalīties"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome "
+msgstr "Jūsu pārlūkprogramma neatbalsta faila pārsūtīšanu, atjaunojiet to vai izmantojiet Google Chrome."
+
+# 
+msgid "Your file successfully uploaded "
+msgstr "Jūsu fails ir veiksmīgi lejuplādēts"
+
+# 
+msgid " There was an error during file upload, please try again. "
+msgstr "Notika kļūda ielādējot failu, mēģiniet vēlreiz."
+
+# 
+msgid "Loading"
+msgstr "Ielāde"
+
+# 
+msgid "Current Rank"
+msgstr "Tekošais reitings"
+
+# 
+msgid "ID"
+msgstr "ID"
+
+# 
+msgid "Previous Rank"
+msgstr "Iepriekšējais reitings"
+
+# 
+msgid "Currency"
+msgstr "Valūta"
+
+# 
+msgid "Payment Method"
+msgstr "Maksājuma metode"
+
+# 
+msgid "Fee"
+msgstr "Komisija"
+
+# 
+msgid "Process Time"
+msgstr "Apstrādes laiks"
+
+# 
+msgid "Min"
+msgstr "Minimums"
+
+# 
+msgid "Max"
+msgstr "Maksimums"
+
+# 
+msgid "Info"
+msgstr "Informācija"
+
+# 
+msgid "Free"
+msgstr "Bez komisijas"
+
+# 
+msgid "Instant"
+msgstr "Uzreiz"
+
+# 
+msgid "Additional information"
+msgstr "Papildus informācija"
+
+# 
+msgid "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+msgstr "Izvēlētais rezervēts numurs nenosaka pēdējo likmju koeficientus, bet tikai precīzo likmes izvēli. Koeficienti var pastāvīgi mainīties  un var būt noformēti pēc pēdējās likmes pieņemšanas."
+
+# 
+msgid "This week's winners"
+msgstr "Nedēļas uzvarētāji"
+
+# 
+msgid "My tickets"
+msgstr "Manas biļetes"
+
+# 
+msgid "You have no tickets"
+msgstr "Jums nav biļetes"
+
+# 
+msgid "Live Casino Page is currently closed for"
+msgstr "Mājaslapa Live Kazino pagaidām ir slēgta uz"
+
+# 
+msgid "maintenance."
+msgstr "TEHNISKAIS PĀRTRAUKUMS"
+
+# 
+msgid "We will be back soon with more and better features. Thank you for your patience."
+msgstr "Mēs drīz atgriezīsimies ar jaunām un uzlabotām funkcijām. Paldies par Jūsu pacietību."
+
+# 
+msgid "Click here to see other games."
+msgstr "Uzklikšķiniet šeit, lai aplūkot citas spēles."
+
+# 
+msgid "Offline"
+msgstr "Offline"
+
+# 
+msgid "Live Keno"
+msgstr "Live Keno"
+
+# 
+msgid "Live Draw 6 of 49"
+msgstr "Live spēle 6 no 49"
+
+# 
+msgid "Quarter"
+msgstr "ceturtdaļa"
+
+# 
+msgid "Video not available yet"
+msgstr "Video nav pieejams."
+
+# 
+msgid "You need to be logged in to be able to play video."
+msgstr "Lai noskatītos video Jums ir jāautorizējas."
+
+# 
+msgid "You need to have non-zero balance to be able to play video."
+msgstr "Lai noskatītos video Jums nebūtu nulles bilancei."
+
+# 
+msgid "Detach"
+msgstr "Atdalīt"
+
+# 
+msgid "End"
+msgstr "Beigas"
+
+# 
+msgid "Inning"
+msgstr "Innings"
+
+# 
+msgid "First Quarter"
+msgstr "pirmā ceturtdaļa"
+
+# 
+msgid "First Quarter Ended"
+msgstr "Pirmā ceturtdaļa ir pabeigta"
+
+# 
+msgid "Second Quarter"
+msgstr "Otrā ceturtdaļa"
+
+# 
+msgid "Second Quarter Ended"
+msgstr "Otrā ceturtdaļa ir pabeigta"
+
+# 
+msgid "Third Quarter"
+msgstr "Trešā ceturtdaļa"
+
+# 
+msgid "Third Quarter Ended"
+msgstr "Trešā ceturtdaļa ir pabeigta"
+
+# 
+msgid "Fourth Quarter"
+msgstr "Ceturtā ceturtdaļa"
+
+# 
+msgid "Fourth Quarter Ended"
+msgstr "Ceturtā ceturtdaļa ir pabeigta"
+
+# 
+msgid "Overtime"
+msgstr "Papildus laiks"
+
+# 
+msgid "Overtime Ended"
+msgstr "Papildus laika beigas"
+
+# 
+msgid "Foul"
+msgstr "Pārkāpums"
+
+# 
+msgid "Free Throw"
+msgstr "soda metiens"
+
+# 
+msgid "Free 1-Point Throw"
+msgstr "Vienpunkta soda metiens"
+
+# 
+msgid "Free 2-Point Throw"
+msgstr "Divpunktu soda metiens"
+
+# 
+msgid "Free 3-Point Throw"
+msgstr "Trīspunktu soda metiens"
+
+# 
+msgid "Missed Free Throw"
+msgstr "Palaists garām soda metiens"
+
+# 
+msgid "Attack"
+msgstr "Uzbrukums"
+
+# 
+msgid "One Point"
+msgstr "Viens punkts"
+
+# 
+msgid "Two Points"
+msgstr "Divi punkti"
+
+# 
+msgid "Three Points"
+msgstr "Trīs punkti"
+
+# 
+msgid "Timeout"
+msgstr "Taimauts"
+
+# 
+msgid "Finished"
+msgstr "Pabeigts"
+
+# 
+msgid "Point"
+msgstr "Punkts"
+
+# 
+msgid "Fault"
+msgstr "Pārkāpums"
+
+# 
+msgid "First Set"
+msgstr "Pirmais sets"
+
+# 
+msgid "Second Set"
+msgstr "Otrais sets"
+
+# 
+msgid "Third Set"
+msgstr "Trešais sets"
+
+# 
+msgid "Fourth Set"
+msgstr "Ceturtais sets"
+
+# 
+msgid "Fifth Set"
+msgstr "Piektais sets"
+
+# 
+msgid "Dangerous Attack"
+msgstr "Bīstams uzbrukums"
+
+# 
+msgid "Shot on target"
+msgstr "Sitiens vārtos"
+
+# 
+msgid "Shot off target"
+msgstr "Sitiens gar vārtiem"
+
+# 
+msgid "Corner kick"
+msgstr "Stūra sitiens"
+
+# 
+msgid "Yellow card"
+msgstr "Dzeltenā kartīte"
+
+# 
+msgid "Red card"
+msgstr "Sarkanā kartīte"
+
+# 
+msgid "Period"
+msgstr "Periods"
+
+# 
+msgid "Game"
+msgstr "Geims"
+
+# 
+msgid "Score"
+msgstr "Rezultāts"
+
+# 
+msgid "Turn on sound from settings"
+msgstr "Izslēgt skaņu iestatījumos"
+
+# 
+msgid "Ace"
+msgstr "Serve pāri laukumam"
+
+# 
+msgid "Service Fault"
+msgstr "Netieša serve"
+
+# 
+msgid "Double Fault"
+msgstr "Dubultā kļūda"
+
+# 
+msgid "Injury Break"
+msgstr "Medicīnas taimauts"
+
+# 
+msgid "Rain Delay"
+msgstr "Atcelšana lietus dēļ"
+
+# 
+msgid "Aces"
+msgstr "Serves pāri laukumam"
+
+# 
+msgid "Double Faults"
+msgstr "Dubultas kļūdas"
+
+# 
+msgid "Corner"
+msgstr "Stūra"
+
+# 
+msgid "Yellow Card"
+msgstr "Dzeltena kartīte"
+
+# 
+msgid "Extra Time Half Time"
+msgstr "Papildus pārtraukuma laiks"
+
+# 
+msgid "Not Started"
+msgstr "Nav sācies"
+
+# 
+msgid "Offside"
+msgstr "Ārpus spēles"
+
+# 
+msgid "Goal"
+msgstr "Vārti"
+
+# 
+msgid "Pre Extra Half"
+msgstr "Pirms papildus puslaika"
+
+# 
+msgid "Throw In"
+msgstr "Auts"
+
+# 
+msgid "Goal Kick"
+msgstr "Sitiens no vārtiem"
+
+# 
+msgid "Substitution"
+msgstr "Maiņa"
+
+# 
+msgid "Extra Time First Half"
+msgstr "Pirmās puses papildlaiks"
+
+# 
+msgid "Second Half"
+msgstr "Otrais puslaiks"
+
+# 
+msgid "Half Time"
+msgstr "Pārtraukums"
+
+# 
+msgid "Ball Safe"
+msgstr "Bumba drošībā"
+
+# 
+msgid "Free Kick"
+msgstr "Brīvsitiens"
+
+# 
+msgid "Extra Time Second Half"
+msgstr "Otrās puses papildlaiks"
+
+# 
+msgid "Red Card"
+msgstr "Sarkanā kartīte"
+
+# 
+msgid "First Half"
+msgstr "Pirmais puslaiks"
+
+# 
+msgid "Penalty"
+msgstr "Penaltijs"
+
+# 
+msgid "First time score"
+msgstr "Pirmā puslaika rezultāts"
+
+# 
+msgid "HT"
+msgstr "P (puslaiks)"
+
+# 
+msgid "yellow cards"
+msgstr "Dzeltenās kartītes"
+
+# 
+msgid "red cards"
+msgstr "Sarkanās kartītes"
+
+# 
+msgid "corners"
+msgstr "Stūra sitieni"
+
+# 
+msgid "penalties"
+msgstr "Penaltijs"
+
+# 
+msgid "Frame"
+msgstr "Freims"
+
+# 
+msgid "Race Type"
+msgstr "Tips"
+
+# 
+msgid "Select a Sport"
+msgstr "Izvēlieties sporta veidu"
+
+# 
+msgid "Next Event"
+msgstr "Nākamais Notikums"
+
+# 
+msgid "Horse"
+msgstr "Zirgs"
+
+# 
+msgid "Greyhound"
+msgstr "Kurts"
+
+# 
+msgid "Jockey"
+msgstr "Žokejs"
+
+# 
+msgid "Odds:"
+msgstr "Koeficienti:"
+
+# 
+msgid "№"
+msgstr "№"
+
+# 
+msgid "sport news"
+msgstr "Ziņas"
+
+# 
+msgid "Use this selector to switch between Live and Pre-match games"
+msgstr "Izmantojiet šo pārslēdzi starp Live un pre-mača spēlēm"
+
+# 
+msgid "click to switch to pre-match"
+msgstr "Nospiediet, lai pārliegties uz pre-maču"
+
+# 
+msgid "live"
+msgstr "Live"
+
+# 
+msgid "click to swicth to Live games"
+msgstr "Nospiediet, lai pārliegties uz Live"
+
+# 
+msgid "Switch to"
+msgstr "Pārslēgties uz"
+
+# 
+msgid "Select sport"
+msgstr "Izvēlieties sporta veidu"
+
+# 
+msgid "Remove All from Favorites"
+msgstr "Dzēst visas spēles no izvēlētām"
+
+# 
+msgid "Remove from My Games"
+msgstr "Dzēst no Manām Spēlēm"
+
+# 
+msgid "Add to My Games"
+msgstr "Pievienot Manās Spēlēs"
+
+# 
+msgid "Phone only market"
+msgstr "Tikai veidtālruņiem"
+
+# 
+msgid "To place a bet, please call"
+msgstr "Lai izdarīt likmi, lūdzu, piezvaniet"
+
+# 
+msgid "There may be a Rule 4 on this Race"
+msgstr "Šajās zirgu sacīkstēs var būt izmantots papildus 4-s noteikums"
+
+# 
+msgid "Win Only"
+msgstr "Tikai laimesti"
+
+# 
+msgid "show more"
+msgstr "rādīt vairāk"
+
+# 
+msgid "show"
+msgstr "rādīt"
+
+# 
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "Live likmju laika rādītājs kalpo par indikatoru. Uzņēmums nenes nekādu atbildību par datu pareizību un aktualitāti, tādu kā rezultāts vai laiks."
+
+# 
+msgid "Betting"
+msgstr "Totalizators"
+
+# 
+msgid "Booking"
+msgstr "Rezervācija"
+
+# 
+msgid "bet slip"
+msgstr "Kupons"
+
+# 
+msgid "Betting options"
+msgstr "Parametri"
+
+# 
+msgid "Automatically accept price changes"
+msgstr "Automātiski pieņemt koeficientu izmaiņas"
+
+# 
+msgid "None"
+msgstr "Nekad"
+
+# 
+msgid "Higher odds"
+msgstr "Pie paaugstinājuma"
+
+# 
+msgid "Any odds"
+msgstr "Jebkādi koeficienti"
+
+# 
+msgid "Superbet"
+msgstr "Superlikme"
+
+# 
+msgid "Quick bet"
+msgstr "Momentlikme"
+
+# 
+msgid "Your bet is accepted."
+msgstr "Jūsu likme ir pieņemta."
+
+# 
+msgid "To select a bet, please click on any odd."
+msgstr "Lai izvēlēties likmi, nospiediet uz jebkuru koeficientu."
+
+# 
+msgid "Click on any odd to place a bet."
+msgstr "Lai izdarīt likmi, nospiediet uz jebkuru koeficientu."
+
+# 
+msgid "Single only"
+msgstr "Tikai vienkārša likme"
+
+# 
+msgid "Event Locked"
+msgstr "Notikums ir bloķēts"
+
+# 
+msgid "This event is not available now"
+msgstr "Šīs notikums tagad nav pieejams"
+
+# 
+msgid "This pick cannot be combined with:"
+msgstr "Izvēlētā likme nevar būt apvienota ar:"
+
+# 
+msgid "delete"
+msgstr "dzēst"
+
+# 
+msgid " Pick: "
+msgstr " Izvēle:"
+
+# 
+msgid "Unit Stake"
+msgstr "Apvienotā likme"
+
+# 
+msgid "Repeat for all"
+msgstr "Atkārtot visiem"
+
+# 
+msgid "Win:"
+msgstr "Laimests:"
+
+# 
+msgid "Booking ID:"
+msgstr "Rezervēts ID:"
+
+# 
+msgid "Stake amount"
+msgstr "Likmes summa"
+
+# 
+msgid "Possible win:"
+msgstr "Iespējams laimests:"
+
+# 
+msgid "Bonus:"
+msgstr "Bonuss:"
+
+# 
+msgid "Total win:"
+msgstr "Kopējais laimests"
+
+# 
+msgid "Invalid stake amount entered"
+msgstr "Nepareizi ievadīta likmes summa"
+
+# 
+msgid "Please enter stake amount"
+msgstr "Lūdzu, ievadiet likmes summu"
+
+# 
+msgid "Insufficient balance"
+msgstr "Nepietiekoši daudz līdzekļu bilancē"
+
+# 
+msgid "You have to accept changes to be able to place bets"
+msgstr "Jums ir jāpieņem izmaņas, lai izdarīt likmi"
+
+# 
+msgid "Accept"
+msgstr "Pieņemt"
+
+# 
+msgid "Get bet ID"
+msgstr "Saņemt likmes ID"
+
+# 
+msgid "Add more events to be able to place bet"
+msgstr "Pievienojiet notikumu, lai izdarīt likmi"
+
+# 
+msgid "There are locked events"
+msgstr "Ir bloķēti notikumi"
+
+# 
+msgid "Incompatible events"
+msgstr "Nesavienojami notikumi"
+
+# 
+msgid "There are deleted events"
+msgstr "Ir dzēstie notikumi"
+
+# 
+msgid "Market base for some events have changed"
+msgstr "Notikuma vieta ir mainīta"
+
+# 
+msgid "Single Only Events"
+msgstr "Dažas likmes var būt izdarītas tikai vienkāršā likmē"
+
+# 
+msgid "Prices for some events have changed"
+msgstr "Dažu notikumu koeficienti izmainījās"
+
+# 
+msgid "Multi-selection mode"
+msgstr "Multi-izvēles režīms"
+
+# 
+msgid "Popular games"
+msgstr "Populāras spēles"
+
+# 
+msgid "Disable regions"
+msgstr "Grupējums pēc reģioniem"
+
+# 
+msgid "With video"
+msgstr "Ar video"
+
+# 
+msgid "For upcoming races please look in Live betting"
+msgstr "Skatieties Live likmes uz nākamo skrējienu"
+
+# 
+msgid "Selected games"
+msgstr "Izvēlētas spēles"
+
+# 
+msgid "Clear All"
+msgstr "Dzēst visu"
+
+# 
+msgid "Today at"
+msgstr "Šodien plkst."
+
+# 
+msgid "Course"
+msgstr "Kurss"
+
+# 
+msgid "Change statistics mode"
+msgstr "Izmainīt statistikas režīmu"
+
+# 
+msgid "Trainer/Jockey"
+msgstr "Treners/Žokejs"
+
+# 
+msgid "Age"
+msgstr "Vecums"
+
+# 
+msgid "Weight"
+msgstr "Svars"
+
+# 
+msgid "Form"
+msgstr "Forma"
+
+# 
+msgid "We are not accepting bets on this event at the moment."
+msgstr "Likmes uz šo notikumu uz šo brīdi netiek pieņemtas."
+
+# 
+msgid "SKILL GAMES"
+msgstr "SPĒLES"
+
+# 
+msgid "DOWNLOAD"
+msgstr "Lejuplādēt"
+
+# 
+msgid "logo"
+msgstr "logotips"
+
+# 
+msgid "back to top"
+msgstr "Atgriezties uz sākumu"
+
+# 
+msgid "Powered by"
+msgstr "Izveidots"
+
+# 
+msgid "All rights reserved."
+msgstr "Visas tiesības ir aizsargātas."
+
+# 
+msgid "Previous version"
+msgstr "Iepriekšēja versija"
+
+# 
+msgid "Number Drawn Today"
+msgstr "Biļetes, kas piedalās šodienas izlozē"
+
+# 
+msgid "Get Started"
+msgstr "Sākam"
+
+# 
+msgid "Phone"
+msgstr "Telefons"
+
+# 
+msgid "Ticket Number"
+msgstr "Biļetes numurs"
+
+# 
+msgid "Tournaments"
+msgstr "Turnīri"
+
+# 
+msgid "Leaderboard"
+msgstr "Līderu Saraksts"
+
+# 
+msgid "Show All"
+msgstr "Vēl"
+
+# 
+msgid "FIFA WORLD CUP"
+msgstr "FIFA Čempionāts"
+
+# 
+msgid "years"
+msgstr "gads"
+
+# 
+msgid "months"
+msgstr "mēneši"
+
+# 
+msgid "days"
+msgstr "dienas"
+
+# 
+msgid "hours"
+msgstr "stundas"
+
+# 
+msgid "minutes"
+msgstr "minūtes"
+
+# 
+msgid "seconds"
+msgstr "Sekundes"
+
+# 
+msgid "Select a Sport "
+msgstr "Izvēlieties sporta veidu"
+
+# 
+msgid "Place A bet!"
+msgstr "Izdarīt likmi"
+
+# 
+msgid "Poker Tournament"
+msgstr "Pokera turnīrs"
+
+# 
+msgid "Biggest tournament of this year."
+msgstr "Lielākais gada turnīrs!"
+
+# 
+msgid "Bet now!"
+msgstr "Izdariet likmes tieši tagad!"
+
+# 
+msgid "Live now"
+msgstr "Live tagad!!"
+
+# 
+msgid "Live news"
+msgstr "Live ziņas"
+
+# 
+msgid "deposit_info_skrill_1tap"
+msgstr "<b>Skrill 1 - Tap</b> - ērts serviss no Skrill, kurš var īstenot nelielus pārvedumus bez nepieciešamības ikreiz ievest e-pasta adresi un lietotāja vārdu. <br /> <br /> Sistēma pieņem eiro un ASV dolārus. <br /> Naudas līdzekļi uzreiz ir iemaksāti Jūsu DLVbet kontā.<br /> Maksājumu sistēmas lietošana ir  bezmaksas. <br /> Mazākais pārveduma lielums - 5, vislielākais - 1000. <br /> <br /> Lai iemaksāt naudu Jūsu DLVbet kontā ar Skrill palīdzību, norādiet apakšā pārveduma summu un uzspiediet "Ievadīt". Sistēma pāradresēs Jūs uz Skrill, lai pabeigtu darījumu. <br /> Jums pietiek vienu reizi ievest Jūsu e-pasta adresi pirmajā pārvedumā ar Skrill 1 palīdzību - Tap. Pēc tā sistēma Skrill automātiski atpazīs Jūsu konta datus.</p>"
+
+# 
+msgid "deposit_info_skrill"
+msgstr ""<p>Skrill ir drošs, ērts un pieejams veids pārvedumiem un naudas līdzekļu saņemšanai pa visu pasauli. Skrill atbalsta sekojošas valūtas - EUR un USD. Naudas līdzekļi ir iemaksāti nekavējoties Jūsu DLVbet kontā. Par Skrill izmantošanu papildus maksājumi nav paredzēti. Mazākais pārveduma lielums - 5, maksimāla ierobežojuma nav. Lai iemaksātu līdzekļus  Jūsu DLVbet kontā ar Skrill palīdzību, Jums nepieciešams norādīt papildināšanas summu, Jūsu e-pasta adresi, kas ir piereģistrēta Skrill sistēmā, un uzspiest Depozīts. Pēc uzspiešanas uz Depozīts, Jūs automātiski pāriesiet uz maksājumu sistēmas Skrill mājas lapu, lai pabeigtu darījumu.</p>"
+
+# 
+msgid "withdraw_info_skrill"
+msgstr "Skrill - ir uzticams, ērts un pieejams naudas pārvedumu veids visā pasaulē. <br>Starp atbalstāmo valūtu ir eiro un ASV dolārs. <br>Līdzekļi tiks izmaksāti no Jūsu DLVbet konta 24 stundu laikā. <br>Šī maksājumu sistēmas izmantošana ir bezmaksas.<br>Pārvedumus neierobežo minimāli un maksimāli limiti. <br>Tādēļ, lai izmaksāt naudu no Jūsu DLVbet konta, vienkārši ievadiet Jūsu pilno vārdu, e-pasta adresi, kas ir reģistrēts Skrill un summu, kuru gribat izmaksāt. Pēc tam Jūs pāradresēs uz Skrill mājas lapu, lai Jūs varētu pabeigt pārvedumu."
+
+# 
+msgid "deposit_info_webmoney"
+msgstr "<p>WebMoney tā ir globāla aprēķinu sistēma, kas ļauj interneta lietotājiem pavadīt drošas transakcijas reāla laika režīmā. WebMoney atbalsta sekojošas valūtas - EUR, RUB, UAH un USD. Naudas līdzekļi ir iemaksāti nekavējoties Jūsu DLVbet kontā. Par WebMoney izmantošanu papildus maksājumi nav paredzēti.  Transakcijām nav minimālo un / vai maksimālo ierobežojumu.  Lai iemaksātu līdzekļus sava DLVbet kontā ar WebMoney palīdzību, Jums ir nepieciešams norādīt iemaksas summu un uzspiest uz Depozīts. Pēc uzspiešanas uz Depozīts, Jūs automātiski pariesiet uz maksājumu sistēmas "WebMoney" mājas lapu.  Pievērsiet uzmanību, ka Jums jābūt WebMoney E, R vai Z tipa makam.</p>"
+
+# 
+msgid "withdraw_info_webmoney"
+msgstr "<p>WebMoney tā ir globāla aprēķinu sistēma, kas ļauj interneta lietotājiem darīt drošas transakcijas reāla laika režīmā.  WebMoney atbalsta sekojošas valūtas - EUR, RUB, UAH un USD. Naudas līdzekļi tiks izmaksāti 72 stundu laikā. Par WebMoney izmantošanu papildus maksājumi nav paredzēti.  Transakcijām nav minimālo un / vai maksimālo ierobežojumu.  Lai izmaksāt līdzekļus no Jūsu DLVbet konta ar WebMoney palīdzību, Jums nepieciešams norādīt izmaksas summu, Jūsu pilno vārdu un maka numuru, kuri ir piereģistrēti WebMoney sistēmā, un uzspiest uz Izmaksa.  Pievērsiet uzmanību, ka Jums jābūt WebMoney E, R vai Z tipa makam.</p>"
+
+# 
+msgid "Purse"
+msgstr "Maks"
+
+# 
+msgid "deposit_info_qiwi"
+msgstr "<p>QIWI - tas ir virtuāls maks, ar kura palīdzību var izmaksāt un pieņemt naudas līdzekļus, izmantojot plašu metožu diapazonu, kas ļauj lietotājam pašam izvēlēties īpaši ērtu un vēlamāko transakcijas metodi.  QIWI atbalsta sekojošas valūtas - EUR, RUB un USD. Naudas līdzekļi ir iemaksāti Jūsu DLVbet kontā 24 stundu laikā.  Par QIWI izmantošanu papildus maksājumi nav paredzēti. Transakcijām nav minimālo un / vai maksimālo ierobežojumu.  Lai iemaksātu līdzekļus Jūsu DLVbet kontā ar QIWI palīdzību, Jums nepieciešams norādīt iemaksas summu, tālruņa numuru, kas ir piereģistrēts QIWI sistēmā, un uzspiest uz Depozīts.  Pēc uzspiešanas uz Depozīts, Jūs automātiski pāriesiet uz maksājumu sistēmas QIWI mājas lapu, lai pabeigtu pārvedumu.</p>"
+
+# 
+msgid "withdraw_info_qiwi"
+msgstr "<p>QIWI - tas ir virtuāls maks, ar kura palīdzību var izmaksāt un pieņemt naudas līdzekļus, izmantojot plašu metožu diapazonu, kas ļauj lietotājam pašam izvēlēties īpaši ērtu un vēlamāko transakcijas metodi. QIWI atbalsta sekojošas valūtas - EUR, RUB un USD. Naudas līdzekļi tiks izmaksāti 24 stundu laikā. Par QIWI izmantošanu papildus maksājumi nav paredzēti. Transakcijām nav minimāla ierobežojuma/maksimāla transakcijas summa ir 300eur.  Lai izmaksāt līdzekļus no Jūsu DLVbet konta ar QIWI palīdzību, Jums nepieciešams norādīt izmaksas summu, kā arī QIWI maka numuru, un uzspiest uz Izmaksa. Pēc uzspiešanas uz Izmaksa, Jūs automātiski pāresiet uz maksājumu sistēmas QIWI mājas lapu, lai pabeigtu pārvedumu.</p>"
+
+# 
+msgid "Wallet id"
+msgstr "Maka numurs"
+
+# 
+msgid "deposit_info_neteller"
+msgstr "<p>Neteller ir maksājumu sistēma, kas dod lietotājiem iespēju maksimāli droši īstenot online-maksājumus ar sistēmas palīdzību, kura atbalsta ātros depozītus, naudas summu izmaksas un noņemšanu, un kurai uzticas miljoni cilvēku visā pasaulē. Neteller atbalsta sekojošas valūtas - USD, EUR un RUB. Naudas līdzekļi ir iemaksāti nekavējoties Jūsu DLVbet kontā. Par Neteller izmantošanu papildus maksājumi nav paredzēti. Transakcijām nav minimālo un / vai maksimālo ierobežojumu.  Lai iemaksātu līdzekļus Jūsu DLVbet kontā ar Neteller palīdzību, Jums nepieciešams norādīt iemaksas summu, konta un ID numuru, kas ir piereģistrēts Neteller sistēmā, un uzspiest uz Depozīts. Pēc uzspiešanas uz Depozīts, Jūs automātiski pāresiet uz maksājumu sistēmas Neteller mājas lapu, lai pabeigtu pārvedumu.  Lūdzu, ņemiet vērā, ka elektroniskai pasta adresei, kas ir norādīta konta reģistrācijā Neteller sistēmā, ir jāsakrīt ar e-pasta adresi, norādīto DLVbet reģistrētajas kontā, lai pārvedums būtu veiksmīgi īstenots.</p>"
+
+# 
+msgid "withdraw_info_neteller"
+msgstr "<p>Neteller piešķir lietotājiem iespēju maksimāli droši īstenot online-maksājumus ar sistēmas palīdzību, kura atbalsta ātros depozītus, naudas summu un izmaksas noņemšanu, un kurai uzticas miljoni cilvēku visā pasaulē. Neteller atbalsta sekojošas valūtas - USD, EUR un RUB. Naudas līdzekļi tiks izmaksāti 24 stundu laikā. Par Neteller izmantošanu papildus maksājumi nav paredzēti.  Transakcijām nav minimālo un / vai maksimālo ierobežojumu. Lai izmaksāt līdzekļus no Jūsu DLVbet konta ar Neteller palīdzību, Jums nepieciešams norādīt izmaksas summu, kā arī konta numuru, un uzspiest uz Izmaksa.</p>"
+
+# 
+msgid "Account Id"
+msgstr "Konta numurs"
+
+# 
+msgid "Secure Id"
+msgstr "Drošības ID"
+
+# 
+msgid "deposit_info_moneta"
+msgstr "<p>Moneta.ru - tā ir maksājumu sistēma, kura piešķir interneta lietotājiem iespēju izdarīt drošas un ātras naudas līdzekļu transakcijas. Moneta.ru atbalsta sekojošas valūtas - EUR, RUB un USD. Naudas līdzekļi ir iemaksāti Jūsu DLVbet kontā 24 stundu laikā.  Par izmantošanu Moneta.ru papildus maksājumi nav paredzēti. Transakcijām nav minimālo un / vai maksimālo ierobežojumu.  Lai iemaksātu līdzekļus Jūsu DLVbet kontā ar Moneta.ru palīdzību, Jums nepieciešams norādīt iemaksas summu,  un uzspiest uz Depozīts. Pēc uzspiešanas uz Depozīts, Jūs automātiski pāresiet uz maksājumu sistēmas mājas lapu Moneta.ru, lai pabeigtu pārvedumu.</p>"
+
+# 
+msgid "withdraw_info_moneta"
+msgstr "<p>Moneta.ru - tā ir maksājumu sistēma, kura piešķir interneta lietotājiem iespēju izdarīt drošas un ātras naudas līdzekļu transakcijas, kura ir radīta Krievijā. Moneta.ru atbalsta sekojošas valūtas - EUR, RUB un USD. Naudas līdzekļi tiks izmaksāti 12 stundas laikā. Par Moneta.ru izmantošanu papildus maksājumi nav paredzēti. Transakcijām nav minimālo un / vai maksimālo ierobežojumu.  Lai izmaksāt līdzekļus no Jūsu DLVbet konta ar Moneta.ru palīdzību, Jums nepieciešams norādīt izmaksas summu, Jūsu pilno vārdu, e-pasta adresi un maka numuru, kuri ir piereģistrēti sistēmā Moneta.ru, un uzspiest uz Izmaksa.</p>"
+
+# 
+msgid "deposit_info_ecocard"
+msgstr "<span>EcoPayz<span> ir globāls maksājumu provaideris un piedāvā drošus un ērtus maksājumu pakalpojumus klientiem visā pasaulē.<br></span>EcoPayz atbalsta sekojošas valūtas - USD, EUR un RUB<span>.<span><br></span>Naudas līdzekļi ir iemaksāti nekavējoties Jūsu DLVbet kontā.</span></span><span>Par EcoPayz izmantošanu papildus maksājumi nav paredzēti.</span><span><br></span><span><span>Transakcijām nav minimālo un / vai maksimālo ierobežojumu.<span><br></span>Lai iemaksātu līdzekļus uz Jūsu DLVbet kontā ar </span>EcoPayz<span> palīdzību, Jums nepieciešams norādīt iemaksas summu un uzspiest uz Depozīts. </span> <br><span>Jūs automātiski pāresiet uz maksājumu sistēmas mājas lapu;</span>EcoPayz, lai pabeigtu pārvedumu. <span><br><br></span></span>"
+
+# 
+msgid "withdraw_info_ecocard"
+msgstr "</span>EcoPayz<span> ir globāls maksājumu provaideris un piedāvā drošus un ērtus maksājumu pakalpojumus klientiem visā pasaulē  .<br></span>EcoPayz atbalsta sekojošas valūtas - USD, EUR un RUB<span>.<br>Naudas līdzekļi tiks izmaksāti 24 stundu laikā.<br>Par EcoPayz izmantošanu </span> papildus maksājumi nav paredzēti. <br></span>Transakcijām nav minimālo un / vai maksimālo ierobežojumu. <br><span>Lai izmaksāt līdzekļus no Jūsu DLVbet konta ar EcoPayz palīdzību<span>, Jums nepieciešams norādīt izmaksas summu, Jūsu pilno vārdu, kā arī konta numuru, un uzspiest uz Izmaksa. <br> Jūs automātiski pāresiet uz maksājumu sistēmas mājas lapu; </span>EcoPayz<span> lai pabeigtu pārvedumu.</span></span>"
+
+# 
+msgid "deposit_info_ukash"
+msgstr "<p>Ukash ir radīts lai sniegt klientiem ērtu, drošu un privāto metodi onlain-maksājumu īstenošanai ar skaidras naudas līdzekļu palīdzību. Ukash atbalsta sekojošas valūtas - EUR un USD. Naudas līdzekļi ir iemaksāti nekavējoties Jūsu DLVbet kontā.  Par Ukash izmantošanu papildus maksājumi nav paredzēti.  Transakcijām nav minimālo un / vai maksimālo ierobežojumu. Lai iemaksātu līdzekļus Jūsu DLVbet kontā ar Ukash palīdzību, Jums nepieciešams norādīt iemaksas summu un uzspiest uz "Iemksāt".   Jūs automātiski pāresiet uz maksājumu sistēmas Ukash mājas lapu, kur Jums nepieciešams norādīt Ukash konta detaļas pārveduma pabeigšanai.</p>"
+
+# 
+msgid "withdraw_info_ukash"
+msgstr "izmaksa_info_ukash"
+
+# 
+msgid "deposit_info_cash"
+msgstr "<p>Depozītam nepieciešams sacīt bukmeikeram-kasieram Jūsu konta numuru БК \"DLVbet\", kuru Jūs saņemat reģistrācijas laikā uz mūsēja saita.</p><p>Uz Баграмяна 1, Андраника 73/5, Комитаса 60 un Н. Зарян пер.1, māja 9 Jūs varat papildināt Jūsu kontu un saņemt Jūsu laimestu 24/7 bez brīvdienām. Pārējās kasēs Jūs varat papildināt Jūsu kontu un saņemt laimestu no 14: 00 līdz 23: 00:</p><p>Kasu adreses, kur Jūs varat iemaksāt skaidra nauda:</p>"
+
+# 
+msgid "deposit_info_bitcoin"
+msgstr "depozīts_info_bitcoin"
+
+# 
+msgid "deposit_info_cashbill"
+msgstr "depozīts_info_cashbill"
+
+# 
+msgid "deposit_info_arca"
+msgstr "ЗАО &quot;Armēnija karte&quot; tika nodibināta ar Centrālu Banku RA un 10 komerciālās bankas 2000.gada martā ar ieviešanas un jaunas maksājums-aprēķina sistēmas attīstības banku Armēnijas sfērā mērķi. Kompānija piešķir pakalpojumu kompleksu, kurš ļauj bankam izlaist un apkalpot ArCa, MasterCard, VISA kartes, kā arī - apkalpot kartes ar centra mūsdienīgu iespēju izmantošanu, kuras ir tehniskas, tehnoloģiskas un programmiskas. Bez tam, ir piešķirams specializētais atbalsts. Kompānija ierodas:<ul><li>ar starptautiskās maksājumu sistēmas MasterCard Europe pilntiesīgo locekli un Centru pa piešķiršanu procesinga pakalpojumu (Member Service Provider)</li><li>ar centru pa piešķiršanu procesinga pakalpojumu sistēmai VISA (Third Party Processor);</li><li>ar centru pa piešķiršanu procesinga pakalpojumu American Express sistēmai (Third Party Processor).</li></ul>"
+
+# 
+msgid "withdraw_info_arca"
+msgstr "Summa, kura ir pasūtīta uz izmaksu, ir iemaksāta uz ArCa karti, MasterCard un Armēnijas banku VISA, kuru Jūs norādījāt, kura ir iereģistrēta uz Jūsu vārda.<br>Izmaksas izdošanas termiņš saliek 24 stundas.<br>Sakarā ar dotās sistēmas nestabilo darbību summas pārveduma aizkavējums var pārsniegt termiņu, kuru mēs norādījām.<br>Minimāla pieprasījuma summa <b>500</b> EUR.<br>Maksimāla pieprasījuma summa <b>200 000</b> EUR ikdienā.<br>Izpildot apmaksu ar šo metodi komisijas maksa nav iekasējama."
+
+# 
+msgid "Last name/surname, name, middle name"
+msgstr "V.U.T."
+
+# 
+msgid "deposit_info_edram"
+msgstr "<a href=\"http://www.idram.am/\">IDram</a> -ir maksājumu sistēma internetā. Lai veikt maksājumus ir nepieciešams būt piereģistrētam IDram sistēmā. Sistēma IDram nepieprasa papildus programmas lējuplādi. Uz speciālas mājas lapas Jūs varat izrakstīt sev rēķinu uz nepieciešamu summu un apmaksāt to IDram sistēmā. Pēc tā uz tās pašas mājas lapas vajadzīgs pārbaudīt izrakstīta rēķina stāvokli. Ja viņš ir apmaksāts, Jūsu spēles konts papildināsies uz iemaksāto summu. Naudas ievadei sistēmā vajag caur nodalījumiem saiknei &quot;ARMpasts&quot; nopirkt IDram karti. Iepazīties ar sistēmas darbības likumiem var mājas lapā <a href=\"http://www.idram.am/\">www.idram.am</a>. Izpildot iemaksu ar šo metodi komisija nav paredzēta."
+
+# 
+msgid "withdraw_info_edram"
+msgstr "Summa, kura ir sūtīta uz izmaksu, tiek pārskatīta uz kontu <a href=\"http://www.edram.am/\">IDram</a>, kurš ir piereģistrēts uz Jūsu vārda. Pasūtījuma izpildījuma termiņš - 12 stundas. Izpildot apmaksu ar šo metodi komisija nav paredzēta."
+
+# 
+msgid "withdraw_info_cash"
+msgstr "<p>Summu, kura ir sūtīta uz izmaksu, Jūs varēsiet saņemt Likmju Paņemšanas Punktos tajā pašā vai nākamajā dienā pēc pieprasījuma noformējuma. Saņemot naudu Jums ir obligāti jāuzrāda Jūsu pase. Pasūtījums ir īstenots 3 dienu laikā. Gadījumā, ja Jūs nevarēsiet saņemt naudu šā termiņa laikā, pieteikums tiks anulēts, pasūtītā summa būs atgriezta spēles kontā. Minimāla pasūtījuma summa nav ierobežota. Šis izmaksas veids neparedz papildus izdevumus.</p><p>Uz Баграмяна 1, Андраника 73/5, Амиряна 18/2а Jūs varat saņemt Jūsu laimestu no 11: 00 līdz 23: 00, bez brīvdienām. Pārējās kasēs Jūs varat saņemt Jūsu laimestu no 14: 00 līdz 23: 00.</p><p>Skaidras naudas summu Jūs varat saņemt nākamajos DLVbet Likmju Paņemšanas Punktos:</p>"
+
+# 
+msgid "deposit_info_telcell"
+msgstr "<b>SIA Mega Pantera</b> ir maksājumu-norēķinu organizācija, kura pārstāv maksājumu sistēmu MegaPay Armēnijā. Sistēma darbojas caur maksājumu termināliem. Caur maksājumu termināliem var maksāt par mobilajiem un fiksētajiem sakariem, gāzi, elektrību, ūdeni, komerciālo TV, Internetu, IP telefoniju, <b>DLVbet</b> un tā tālāk. Maksājumu termināli &Ccedil;MegaPay&Egrave; &ETH; pats mūsdienīgākais veids viegli un ātri apmaksāt personīgus rēķinus. Mūsdienīgie līdzekļi interaktīva dialoga ar klientu padara finansiālo operāciju grāmatošanas procesu viegli pieejamu, kas ir vērsta uz plašu lietotāju grupu un dod iespēju apkalpot maksimālo klientu daudzumu īsā laikā. Apmaksāt savus rēķinus ar terminālu varēs katrs, pietiks tikai sekot tekstu un grafisku padomiem uz ekrāna. Speciālas instrukcijas netiek pieprasītas. Apmaksas process tiek izpildīts reālā laika režīmā ar vienkāršu pirksta pieskārienu sensora ekrānam, un vēlamais rezultāts ir sasniegts. Par visiem īstenotiem maksājumu veidiem ar sistēmas palīdzību <b>MegaPay</b> komisija nav iekasējama &ETH;0 %. Maksājumu sistēma <b>MegaPay</b> &ETH; ir optimāls finansiāls un tehnoloģisks lēmums, bet maksājumu ETH termināls &; ērtība, savienojumā ar pieejamību. Uzņēmums <b>Mega Pantera</b> izstrādāja uzticamu programmas nodrošinājumu, kurš pastāvīgi pilnveidojas. Monitoringa grupa ved nepārtrauktu terminālu vērošanu, lai novestu pie minimuma iespējamas problēmas. Jebkāda ETH biznesa panākumu ķīla ir apmierināti klienti. Un kompānija <b>Mega Pantera</b>, vadoties pēc šā lozunga, laidā pilnveido maksājumu sistēmu <b>MegaPay</b>, paaugstina terminālu darbspējas līmeni, strādā ar klientiem caur vienotu call - center."
+
+# 
+msgid "deposit_info_tandem"
+msgstr "<b>SIA Tandēm Pejmints</b>, ir nodibināta 2007. gadā, nodarbojas ar uzstādīšanu, izplatīšanu un automatizēto maksājumu sistēmu atbalstu. Mūsu uzņēmumu maksājumu termināli ir ātrs, drošs un ērts Jūsu mobilo telefonu rēķinu, komunālo pakalpojumu parādu dzēšanas, interneta apmaksas, kontu papildināšanas un pārējo apmaksu veidu. Mūsu termināli atrodas pastāvīgā saiknē ar procesoru centru, kas nodrošina transakciju apstrādes augstu ātrumu un 24/7 terminālu monitoringu. &quot;Тандем Пейминтс&quot;  kompānijas terminālu programmas nodrošinājums izstrādāts RA ar uzņēmumu SIA &quot;Смарт&ETH;Тех&quot;, kuram ir liela pieredze elektronisku maksājumu atšķirīgu sistēmu izstrādāšanā, tādu kā Arka Portāls un sistēmas E - card Banking. Šīs apstāklis dod maksājumu terminālu sistēmai pastāvīgas pilnveidošanas iespēju, kā arī atšķirīgu jaunievedumu izveidi un ātrāko ieviešanu sistēmā. <i><b><i><b>Mūsu galvenās priekšrocības noslēdzas tajā, ka :</b></i><br><br>               <b>Mēs strādājam bez komisijas maksas, (0%)</b><br>               <b>Mūsu termināli dod iespēju sadalīt iemaksāto summu starp atšķirīgām pakalpojumu veidiem. (Sīkāk par šiem punktiem uz quot mājaslapas &;quot lietotājiem&;).</b><br><br><br>Mūsu operatori strādā 24/7 un vienmēr gatavi atbildēt uz visiem Jūsu jautājumiem par mūsu sistēmu."
+
+# 
+msgid "deposit_info_btabank"
+msgstr "Uzņēmumam DLV ir ārkārtīgi svarīgi nodrošināt savus klientus ar maksājumu pakalpojumiem, kuri ir mūsdienīgi, uzticami un ērti.<br>Kopš šā brīža Jūs varat papildināt Jūsu DLVbet kontu tāpat ar BTA Bankas palīdzību.<br>BTA Banka darbojas ar licenci Nr31, uz Armēnijas Republikas bāzes, kuru izsniedza Centrāla Banka.<br>Ar BTA Bankas palīdzību Jūs varat īstenot maksājumus par komunālajiem pakalpojumiem, fiksētu un mobilu sakariem un elektroniskiem makiem."
+
+# 
+msgid "deposit_info_mobidram"
+msgstr " Ja Jums ir konts MobiDram sistēmā, tad tagad Jūs varat papildināt savu DLVbet kontu onlainā. Tam, pēc ieejas DLVbet mājas lapā, uzspiediet \"Papildināt\". Tālāk izvēlaties sistēmu MobiDram, pēc tam, aizpildiet nepieciešamus laukus uz katra soļa un apstipriniet apmaksu.<br>Visa summa tiks iemaksāta Jūsu kontā."
+
+# 
+msgid "deposit_info_paytopay"
+msgstr "Ja Jums ir konts MobiDram sistēmā, tad tagad Jūs varat papildināt savu DLVbet kontu, nosūtot SMS uz īsu numuru 1009, norādot papildināšanas summu un savu ID. Piemēram: 5000, 1234567.<br>Minimāla summa papildināšanai ir 1000 drami. Visa summa tiks iemaksāta Jūsu kontā."
+
+# 
+msgid "withdraw_info_topoker"
+msgstr "Ja Jums ir DLVPoker konts, Jūs varat iemaksāt naudu no šejienes uz Jūsu DLVPoker kontu. Tam ievediet Jūsu DLVPoker lietotājvārdu un paroli (tikai pirmajā reizē) un norādītā summa tiks iemaksāta Jūsu DLVPoker kontā."
+
+# 
+msgid "deposit_info_card"
+msgstr "depozīts_info_karte"
+
+# 
+msgid "PinCode"
+msgstr "PIN kods"
+
+# 
+msgid "x_card_num"
+msgstr "x_kartes_numurs"
+
+# 
+msgid "x_card_code"
+msgstr "x_kartes_kods"
+
+# 
+msgid "x_exp_date_yy"
+msgstr "x_derīgs_datums_gads"
+
+# 
+msgid "withdraw_info_astropay"
+msgstr "izmaksa_info_astropay"
+
+# 
+msgid "deposit_info_bankform"
+msgstr "depozīts_info_bankasforma"
+
+# 
+msgid "IBAN"
+msgstr "IBAN"
+
+# 
+msgid "SWIFT"
+msgstr "SWIFT"
+
+# 
+msgid "withdraw_info_bankform"
+msgstr "izmaksa_info_bankasforma"
+
+# 
+msgid "deposit_info_wirecard"
+msgstr "<p>Wirecard ir drošs, ērts un ātrs veids Jūsu DLVbet konta papildināšanai ar kredītkartes palīdzību. Atbalstāmās valūtas: EUR, USD, RUB, UAH       Naudas līdzekļi tiks iemaksāti Jūsu DLVbet kontā nekavējoties. Šī maksājuma metode nepieprasa nekādas iemaksas. Lai iemaksātu līdzekļus uz savu DLVbet kontu, izmantojot Wirecard, pietiek aizpildīt visus nepieciešamos laukus un uzspiest \"Depozīts\"      </p>"
+
+# 
+msgid "CardNumber"
+msgstr "Kartes numurs"
+
+# 
+msgid "CardHolderName"
+msgstr "Īpašnieka Vārds"
+
+# 
+msgid "ExpirationYear"
+msgstr "Derīgs līdz (gads)"
+
+# 
+msgid "ExpirationMonth"
+msgstr "Derīgs līdz (mēn.)"
+
+# 
+msgid "Cvc2"
+msgstr "CVC2"
+
+# 
+msgid "withdraw_info_tovivaropet"
+msgstr "Ja jums ir DLVbet konts, Jūs varat pārskaitīt naudu no šejienes uz Jūsu DLVbet kontu. Tam ievadiet Jūsu DLVbet lietotājvārdu un paroli (tikai pirmajā reizē) un norādītā summa tiks pārskaitīta uz Jūsu DLVbet kontu."
+
+# 
+msgid "deposit_info_eblontransfer"
+msgstr "depozīts_info_eblontransfer"
+
+# 
+msgid "withdraw_info_eblontransfer"
+msgstr "izmaksa_info_eblontransfer"
+
+# 
+msgid "CustomerID"
+msgstr "Klienta ID"
+
+# 
+msgid "deposit_info_moneysafe"
+msgstr "depozīts_info_moneysafe"
+
+# 
+msgid "Code"
+msgstr "Kods"
+
+# 
+msgid "This Game Is Already Opened In Multi Game View. Please Choose Another Game."
+msgstr "Šī spēle jau ir atvērta Multi-spēļu režīmā. Lūdzu, izvēlaties citu spēli."
+
+# 
+msgid "It Is Possible To Play Only One Game Of The Same Provider In Multi Game View. Please Choose Another Game."
+msgstr "Multi-spēļu režīmā var spēlēt tikai vienu tā paša izgatavotāja spēli. Lūdzu izvēlaties citu spēli."
+
+# 
+msgid "Sorry, this game cannot be opened in multi-view mode"
+msgstr "Diemžēl, šī spēle nevar būt atvērta daudzmonitoru režīmā."
+
+# 
+msgid "Please close one of the games for adding new one"
+msgstr "Lūdzu, aiztaisiet vienu no spēlēm, lai atvērtu citu."
+
+# 
+msgid "The game is not available"
+msgstr "Spēle nav pieejama"
+
+# 
+msgid "Home"
+msgstr "Sākums"
+
+# 
+msgid "message_OK"
+msgstr "Pieņemts"
+
+# 
+msgid "Virtual sports"
+msgstr "Virtuāls sports"
+
+# 
+msgid "Your Facebook account is already linked to another existing user."
+msgstr "Jūsu Facebook konts jau ir saistīts ar citu eksistējošo lietotāju."
+
+# 
+msgid "Unknown error"
+msgstr "Nezināma kļūda"
+
+# 
+msgid "Come play on"
+msgstr "Ieejiet spēlēt"
+
+# 
+msgid "Password changed"
+msgstr "Parole ir nomainīta"
+
+# 
+msgid "Personal information updated."
+msgstr "Dati ir atjaunoti."
+
+# 
+msgid "Invalid password."
+msgstr "Nepareiza parole."
+
+# 
+msgid "Deposit limits set."
+msgstr "Depozīta limiti ir uzstādīti."
+
+# 
+msgid "Self-Exclusion period set."
+msgstr "Pašizslēgšanas periods ir noteikts."
+
+# 
+msgid "New Bets"
+msgstr "Jaunas likmes"
+
+# 
+msgid "Winning Bets"
+msgstr "Laimētas likmes"
+
+# 
+msgid "Returned Bet"
+msgstr "Atgrieztas likmes"
+
+# 
+msgid "Card Deposit"
+msgstr "Depozīts ar karti"
+
+# 
+msgid "Bonus Bet"
+msgstr "Bonusa likmes"
+
+# 
+msgid "Commission"
+msgstr "Komisijas nauda"
+
+# 
+msgid "Withdrawal"
+msgstr "Izmaksa"
+
+# 
+msgid "Correction"
+msgstr "Korekcija"
+
+# 
+msgid "Deposit by payment system"
+msgstr "Depozīts caur maksājumu sistēmu"
+
+# 
+msgid "Withdrawal request"
+msgstr "Izmaksas pieprasījums"
+
+# 
+msgid "Authorized Withdrawal"
+msgstr "Atļauts pieprasījums"
+
+# 
+msgid "Withdrawal denied"
+msgstr "Atcelts pieprasījums"
+
+# 
+msgid "Withdrawal paid"
+msgstr "Izmaksātais pieprasījums"
+
+# 
+msgid "Pool Bet"
+msgstr "Totalizators"
+
+# 
+msgid "Pool Bet Win"
+msgstr "Totalizatora likmes laimests"
+
+# 
+msgid "Pool Bet Return"
+msgstr "Totalizatora likmes atgriešana"
+
+# 
+msgid "In the process of revision"
+msgstr "Pārskatīšanas procesā"
+
+# 
+msgid "Removed for recalculation"
+msgstr "Dzēsts pārrēķinām"
+
+# 
+msgid "Free Bet Bonus received"
+msgstr "Saņemtais Bonuss bezmaksas likmēm"
+
+# 
+msgid "Wagering Bonus received"
+msgstr "Saņemtais Bonuss ar atspēlēšanas nosacījumiem"
+
+# 
+msgid "Transfer from Gaming Wallet"
+msgstr "Pārvedums no Spēles Maka"
+
+# 
+msgid "Transfer to Gaming Wallet"
+msgstr "Pārvedums uz Spēles Maku"
+
+# 
+msgid "Fair"
+msgstr "Godīgs"
+
+# 
+msgid "Fair Win"
+msgstr "Godīga uzvara"
+
+# 
+msgid "Fair Return"
+msgstr "Godīga atgriešana"
+
+# 
+msgid "Tip"
+msgstr "Tips"
+
+# 
+msgid "Error"
+msgstr "Kļūda"
+
+# 
+msgid "Username or email invalid"
+msgstr "Nepareizs lietotājvārds vai e-pasta adrese"
+
+# 
+msgid "Upcoming"
+msgstr "Gaidāmais"
+
+# 
+msgid "Popular"
+msgstr "Populārs"
+
+# 
+msgid "Favorite games"
+msgstr "Manas spēles"
+
+# 
+msgid "Unsupported service"
+msgstr "Serviss netiek atbalstīts"
+
+# 
+msgid "Currency unsupported"
+msgstr "Šis pārskaitījums  netiek atbalstīts ar Jūsu valūtas tipu"
+
+# 
+msgid "Amount is less than minimum allowed"
+msgstr "Summa pārsniedz maksimāli pieļaujamo"
+
+# 
+msgid "Amount is greater than maximum allowed"
+msgstr "Ir ievesta nepareiza informācija par saņēmēju"
+
+# 
+msgid "Entered payee information is not correct."
+msgstr "Ir ievesta nepareiza informācija par saņēmēju."
+
+# 
+msgid "Entered payer information is not correct."
+msgstr "Ir ievesta nepareiza informācija par maksātāju."
+
+# 
+msgid "Internal service fault"
+msgstr "Iekšēja kļūda"
+
+# 
+msgid "Withdraw request blocked."
+msgstr "Līdzekļu izmaksa ir bloķēta"
+
+# 
+msgid "User link blocked, please contact support."
+msgstr "Saistīts lietotājs ir bloķēts, lūdzu, vērsties pie atbalsta dienesta."
+
+# 
+msgid "Day limit reached. Please try later."
+msgstr "Šodienas limits ir beidzies. Mēģiniet vēlāk."
+
+# 
+msgid "Withdraw request is already in progress"
+msgstr "Izmaksas pieprasījums jau procesā"
+
+# 
+msgid "Withdrawal was successful."
+msgstr "Izmaksa ir veikta veiksmīgi."
+
+# 
+msgid "Withdraw failed."
+msgstr "Neizdevās veikt izmaksu."
+
+# 
+msgid "There was an error processing your request."
+msgstr "Izpildot Jūsu pieprasījumu notika kļūda."
+
+# 
+msgid "Withdrawal was successful"
+msgstr "Izmaksa ir veikta veiksmīgi."
+
+# 
+msgid "Deposit was successful."
+msgstr "Depozīts ir veikts veiksmīgi."
+
+# 
+msgid "Deposit failed."
+msgstr "Neizdevās veikt depozītu."
+
+# 
+msgid "Your transfer is successfully completed"
+msgstr "Pārvedums ir izdarīts"
+
+# 
+msgid "Internal Error"
+msgstr "Iekšēja Kļūda"
+
+# 
+msgid "Invalid RFID card"
+msgstr "Nederīga RFID karte"
+
+# 
+msgid "Invalid Password"
+msgstr "Nederīga parole"
+
+# 
+msgid "Please put your RFID card on card reader"
+msgstr "Lūdzu, nolieciet RfID karti uz lasītāju vai ievadiet lietotājvārdu un paroli ieejai sistēmā."
+
+# 
+msgid "LiveCalendar"
+msgstr "Live Kalendārs"
+
+# 
+msgid "Sport"
+msgstr "Sports"
+
+# 
+msgid "Live calendar"
+msgstr "Live kalendārs"
+
+# 
+msgid "Virtual Betting"
+msgstr "Virtuālas Likmes"
+
+# 
+msgid "Connection lost. Reconnecting."
+msgstr "Nav savienojuma. Notiek pieslēgšana."
+
+# 
+msgid "Connection restored"
+msgstr "Savienojums ir atjaunots"
+
+# 
+msgid "In progress"
+msgstr "Atvērts"
+
+# 
+msgid "Blocked"
+msgstr "Bloķēts"
+
+# 
+msgid "Calculating wins"
+msgstr "Notiek apstrāde"
+
+# 
+msgid "Closed"
+msgstr "Aizvērts"
+
+# 
+msgid "Wrong phone number"
+msgstr "Nepareizs tālruņa numurs"
+
+# 
+msgid "Invalid verification code"
+msgstr "Nepareizs verifikācijas kods"
+
+# 
+msgid "Code has been sent, please check your mobile phone"
+msgstr "Kods ir nosūtīts. Lūdzu, pārbaudiet savu mobilo telefonu"
+
+# 
+msgid "APPROVED BET"
+msgstr "PIEŅEMTĀ LIKME"
+
+# 
+msgid "YOUR BET HAS BEEN APPROVED"
+msgstr "JŪSU LIKME IR PIEŅEMTĀ"
+
+# 
+msgid "DECLINED BET"
+msgstr "ATCELTA LIKME"
+
+# 
+msgid "YOUR BET HAS BEEN DECLINED"
+msgstr "JŪSU LIKME IR ATCELTA."
+
+# 
+msgid "Message sent"
+msgstr "Īsziņa nosūtīta"
+
+# 
+msgid "Cannot play this video in your region."
+msgstr "Šo video nevar atskaņot Jūsu reģionā"
+
+# 
+msgid "Cannot play video stream.Sorry."
+msgstr "Nevar atskaņot video plūsmu. Atvainojiet."
+
+# 
+msgid "Confirm"
+msgstr "Apstiprināt"
+
+# 
+msgid "Done"
+msgstr "Izpildīts"
+
+# 
+msgid "Next"
+msgstr "Nākamais"
+
+# 
+msgid "Previous"
+msgstr "Iepriekšējais"
+
+# 
+msgid "Skip"
+msgstr "Izlaist"
+
+# 
+msgid "Press Ctrl + C to copy link address to clipboard"
+msgstr "Nospiediet Ctrl + C, lai kopētu mājaslapas adresi."
+
+# 
+msgid "Enter number"
+msgstr "Ievadiet numuru"
+
+# 
+msgid "Points:"
+msgstr "Punkti:"
+
+# 
+msgid "Account"
+msgstr "Rezultāts"
+
+# 
+msgid "Quarters"
+msgstr "Ceturtdaļas"
+
+# 
+msgid "Innings"
+msgstr "Inningi"
+
+# 
+msgid "Periods"
+msgstr "Periodi"
+
+# 
+msgid "Sets"
+msgstr "Seti"
+
+# 
+msgid "Play Now"
+msgstr "Spēlēt tagad"
+
+# 
+msgid "AOC"
+msgstr "АОЧ"
+
+# 
+msgid "Free Quiz"
+msgstr "Viktorīna"
+
+# 
+msgid "Promotions"
+msgstr "Akcijas"
+
+# 
+msgid "Life tournament"
+msgstr "Live turnīrs"
+
+# 
+msgid "for our users"
+msgstr "mājas lapas spēlētājiem"
+
+# 
+msgid "system "
+msgstr "sistēma "
+
+# 
+msgid "Middle"
+msgstr "Tēva vārds"
+
+# 
+msgid "Jan"
+msgstr "Janvāris"
+
+# 
+msgid "Feb"
+msgstr "Februāris"
+
+# 
+msgid "Mar"
+msgstr "Marts"
+
+# 
+msgid "Apr"
+msgstr "Aprīlis"
+
+# 
+msgid "May"
+msgstr "Maijs"
+
+# 
+msgid "Jun"
+msgstr "Jūnijs"
+
+# 
+msgid "Jul"
+msgstr "Jūlijs"
+
+# 
+msgid "Aug"
+msgstr "Augusts"
+
+# 
+msgid "Sep"
+msgstr "Septembris"
+
+# 
+msgid "Oct"
+msgstr "Oktobris"
+
+# 
+msgid "Nov"
+msgstr "Novembris"
+
+# 
+msgid "Dec"
+msgstr "Decembris"
+
+# 
+msgid "Gender "
+msgstr "Dzimums "
+
+# 
+msgid "This field can contain only digits and letters"
+msgstr "Šis lauks var saturēt tikai skaitļus un angļu burtus."
+
+# 
+msgid "Username "
+msgstr "Lietotājvārds "
+
+# 
+msgid "Password is too short"
+msgstr "Parole ir pārāk īsa"
+
+# 
+msgid "Confirm Password"
+msgstr "Apstipriniet paroli"
+
+# 
+msgid "Registration on this site is not permitted in selected country."
+msgstr "Reģistrācija šajā mājaslapā nav iespējama Jūsu izvēlētajā valstī."
+
+# 
+msgid "You can register here:"
+msgstr "Jūs varat piereģistrēties šeit:"
+
+# 
+msgid "Country code is not correct"
+msgstr "Valsts kods nav pareizs"
+
+# 
+msgid "Failed to send sms"
+msgstr "Neizdevās nosūtīt SMS"
+
+# 
+msgid "Field can contain only digits"
+msgstr "Lauks var saturēt tikai ciparus"
+
+# 
+msgid "SMS Code"
+msgstr "SMS kods"
+
+# 
+msgid "Promo code"
+msgstr "Lojalitātes kods"
+
+# 
+msgid "Security question"
+msgstr "Kontroles jautājums"
+
+# 
+msgid "Security answer"
+msgstr "Kontroles atbilde"
+
+# 
+msgid "I would like to receive information about bonuses and new offers via email."
+msgstr "Vēlos saņemt informāciju par jaunākajiem piedāvājumiem un bonusiem savā e-pastā."
+
+# 
+msgid "I would like to receive information about bonuses and new offers via SMS"
+msgstr "Vēlos saņemt informāciju par jaunākajiem piedāvājumiem un bonusiem SMS veidā."
+
+# 
+msgid "Register also for poker."
+msgstr "Reģistrējaties arī pokeram."
+
+# 
+msgid "Video roundups"
+msgstr "Video ziņas"
+
+# 
+msgid "Popular bets"
+msgstr "Populāras likmes"
+
+# 
+msgid "Use your "
+msgstr "IZMANTOJIET SAVU"
+
+# 
+msgid "Deberc"
+msgstr "Deberts"
+
+# 
+msgid "deposit_info_yandex"
+msgstr "<p> Yandex.Nauda – elektroniska norēķinu sistēma, viena no populārākiem servisiem uzņēmumā “Yandex”, kas ir lielākais Krievijas portāls un vadoša meklēšanas sistēma krievvalodīgā interneta daļā. Ar norēķinu sistēmas “Yandex.Nauda” palīdzību var īstenot pirkumus internet-veikalos, iemaksāt naudu labdarības fondos, apmaksāt mobilo sakaru pakalpojumus un daudz ko citu. Plašāku informāciju par norēķinu sistēmu “Yandex.Nauda” Jūs varat atrast money.yandex.ru mājas lapā.тернета.         </p>"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome"
+msgstr "Jūsu pārlūkprogramma neatbalsta failа augšupielādi. Lūdzu, atjaunojiet pārlūkprogrammu vai izmantojiet Google Chrome"
+
+# 
+msgid "I would like to subscribe for email updates and offers from this site."
+msgstr "Vēlos pierakstīties uz šīs mājas lapas jaunumiem un piedāvājumiem."
+
+# 
+msgid "What was the name of your first pet?"
+msgstr "Kads vārds bija Jūsu pirmajam mājdzīvniekam?"
+
+# 
+msgid "What age were you when you went to school?"
+msgstr "Kāda vecumā Jūs sakāt mācīties skolā?"
+
+# 
+msgid "What was the name of the city you were born in?"
+msgstr "Kada pilsētā Jūs piedzimstat?"
+
+# 
+msgid "What was then number of your school?"
+msgstr "Kāda skola Jūs mācījāties (Jūsu skolas numurs)?"
+
+# 
+msgid "What was then name of your first love?"
+msgstr "Kā sauc Jūso pirmo mīlestību?"
+
+# 
+msgid "What was the make and model of your first car?"
+msgstr "Kāda automobiļu marka bija Jūsu pirmajam automobilim?"
+
+# 
+msgid "deposit_info_centili"
+msgstr "Mobilais norēķins – pakalpojums mobilo sakaru abonentiem, kas ļauj apmaksāt dažādus pirkumus un pakalpojumus no mobīlā telefona konta. Mobilais norēķins atbalsta sekojošo valūtu – RUB. Lai veikt depozītu mājas lapā, ir jāaizpilda norēķinu formu, norādot iemaksas summu un Jūsu tālruņa numuru. Telefonā tiks saņemta SMS īsziņa ar piedāvājumu atskaitīt noteikto summu no bilances. Lai apstiprināt apmaksu ir jānosūt atbildes SMS ar nepieciešamo ciparu. Uz doto brīdi pakalpojums ir pieejams tikai Krievijas Beeline lietotājiem. Pievērsiet uzmanību: 1. Uz doto brīdi pakalpojums ir pieejāms tikai Krievijas Beeline lietotājiem. 2. Pēc norēķinu apmaksas bilancē ir jāpaliek ne mazāk par 50 rubļiem. 3. Komisijas izmaksa sastāda 8%."
+
+# 
+msgid "BET_APPROVED_TITLE"
+msgstr "PIEŅEMTA LIKME"
+
+# 
+msgid "BET_DECLINED_TITLE"
+msgstr "ATCELTA LIKME"
+
+# 
+msgid "BET_DECLINED_MESSAGE"
+msgstr "JŪSU LIKME IR ATCELTA."
+
+# 
+msgid "Horse Age"
+msgstr "Zirga vecums"
+
+# 
+msgid "Jockey Weight"
+msgstr "Žokeja svars"
+
+# 
+msgid "Trainer/Jokey"
+msgstr "Treneris/Žokejs
+
+# 
+msgid "Coming soon"
+msgstr "Drīzumā"
+
+# 
+msgid "You have exited website, but your page on odnoklassniki.ru is still active."
+msgstr "Jūs izejat no mājas lapas, bet Jūsu lapa sociālajā tīklā Odnoklassniki.ru vēl ir aktivizēta."
+
+# 
+msgid "Game is temporarily locked"
+msgstr "Spēle ir bloķēta uz laiku"
+
+# 
+msgid "Ranking table"
+msgstr "Reitinga tabula"
+
+# 
+msgid "Continue"
+msgstr "Turpināt"
+
+# 
+msgid "Coating"
+msgstr "Segums"
+
+# 
+msgid "Hide Balance"
+msgstr "Noslēpt bilanci"
+
+# 
+msgid "Show Balance"
+msgstr "Radīt bilanci"
+
+# 
+msgid "Show Username"
+msgstr "Radīt Lietotājvārdu"
+
+# 
+msgid "Hide Username"
+msgstr "Noslēpt lietotājvārdu"
+
+# 
+msgid "Hide statistics"
+msgstr "Noslēpt statistiku"
+
+# 
+msgid "Show statistics"
+msgstr "Radīt statistiku"
+
+#
+msgid "Show / Hide statistics"
+msgstr "Show / Hide statistics"
+
+# 
+msgid "Profile"
+msgstr "Profils"
+
+# 
+msgid "username"
+msgstr "Lietotājvārds"
+
+# 
+msgid "balance"
+msgstr "Bilance"
+
+# 
+msgid "help"
+msgstr "palīdzība"
+
+# 
+msgid "single"
+msgstr "Vienkārša likme"
+
+# 
+msgid "Live Dealer"
+msgstr "Live Dīleris"
+
+# 
+msgid "Invite"
+msgstr "Aicināt"
+
+# 
+msgid "Sign up with your Facebook account"
+msgstr "Ieiet ar Jūsu Facebook kontu"
+
+# 
+msgid "Username(in case you'll want to login without facebook)"
+msgstr "Lietotājvārds (gadījumā, ja Jūs pieslēgsieties ne ar Facebook kontu)"
+
+# 
+msgid "withdraw_info_wirecard"
+msgstr "izmaksa_info_karte"
+
+# 
+msgid "Turf"
+msgstr "Kūdra"
+
+# 
+msgid "Dirt"
+msgstr "Grunts"
+
+# 
+msgid "Polytrack"
+msgstr "Poļitreks"
+
+# 
+msgid "yards"
+msgstr "jards"
+
+# 
+msgid "Sound:"
+msgstr "Skaņas:"
+
+# 
+msgid "Part of bet placed from bonus."
+msgstr "Likmes daļa tika izdarīta par bonusu konta līdzekļiem."
+
+# 
+msgid "Live chat / FAQ"
+msgstr "Live čats / BUJ"
+
+# 
+msgid "id:"
+msgstr "id:"
+
+# 
+msgid "DEMO MODE"
+msgstr "DEMO VERSIJA"
+
+# 
+msgid "Exchange"
+msgstr "Aizvietošana"
+
+# 
+msgid "Duplicate product"
+msgstr "Jāizvēlas atšķirīgus produktus transakcijai"
+
+# 
+msgid "Wrong Password"
+msgstr "Nepareiza parole"
+
+# 
+msgid "Wrong Amount"
+msgstr "Nepareiza Summa"
+
+# 
+msgid "Product not allowed"
+msgstr "Produkts ir aizliegts"
+
+# 
+msgid "Upccomming events"
+msgstr "Nākamas kļūdas"
+
+# 
+msgid "Add to BetSlip"
+msgstr "Pievienot kuponu"
+
+# 
+msgid "deposit_info_megapay"
+msgstr "<b>SIA Mega Pantera</b> ir maksājumu-norēķinu organizācija, kura pārstāv maksājumu sistēmu MegaPay Armēnijā. Sistēma darbojas caur maksājumu termināliem. Caur maksājumu termināliem var maksāt par mobilajiem un fiksētiem sakariem, gāzi, elektrību, ūdeni, komerciālo TV, Internetu, IP telefoniju, <b>DLVbet</b> un tā tālāk. Maksājumu termināli “MegaPay” - pats mūsdienīgākais veids viegli un ātri apmaksāt personīgus rēķinus. Mūsdienīgie līdzekļi interaktīva dialoga ar klientu padara finansiālo operāciju grāmatošanas procesu viegli pieejamu, kas ir vērsta uz plašu lietotāju grupu un dod iespēju apkalpot maksimālo klientu daudzumu īsā laikā. Apmaksāt savus rēķinus ar terminālu varēs katrs, pietiks tikai sekot tekstu un grafisku padomiem uz ekrāna. Speciālas instrukcijas netiek pieprasītas. Apmaksas process tiek izpildīts reālā laika režīmā ar vienkāršu pirksta pieskārienu sensora ekrānam, un vēlamais rezultāts ir sasniegts. Par visiem īstenotiem maksājumu veidiem ar sistēmas palīdzību <b>MegaPay</b> komisija nav iekasējama 0 %. Maksājumu sistēma <b>MegaPay</b>  ir optimāls finansiāls un tehnoloģisks lēmums, bet maksājumu ETH termināls - ērtība, savienojumā ar pieejamību. Uzņēmums <b>Mega Pantera</b> izstrādāja uzticamu programmas nodrošinājumu, kurš pastāvīgi pilnveidojas. Monitoringa grupa ved nepārtrauktu terminālu vērošanu, lai novestu pie minimuma iespējamas problēmas. Jebkāda ETH biznesa panākumu ķīla ir apmierināti klienti. Un kompānija <b>Mega Pantera</b>, vadoties pēc šā lozunga, laidā pilnveido maksājumu sistēmu <b>MegaPay</b>, paaugstina terminālu darbspējas līmeni, strādā ar klientiem caur vienotu call - center.</p>"
+
+# 
+msgid "deposit_info_osmp"
+msgstr "<p>SIA “MNAS” (Momentālo Norēķinu Apvienota Sistēma) – krievu AS “MNAS”  Armēnijas pārstāvniecībā, kas ir dibināta 2007. gadā Septembrī. Centrālas bankas RA licence Nr. 9 no 2008. gada 22. aprīļa (Norēķinu sistēma). Sistēma organizē maksājumu pieņemšanu par sekojošiem pakalpojumiem – mobilie sakari (Beeline, Vivasel-MTS”), fiksētie sakari, bukmekeru kantori (VIVAROBET), norēķinu sistēmas (IDram), IP-telefonija (“Kargins Kap” – maksātājs saņem čeku ar specialo 6 ciparu darba numuru, ar kura palīdzību starppilsētas telefonu zvani no maksātāja telefona tiks veikti bez parastas Pin-koda ievadīšanas, komunālie pakalpojumi (ArmRusgazprom). Uz 01.12.08 sistēmā funkcionē 28 norēķinu termināli, kas atrodas Erevānas un Aštarakas dažādos rajonos. Krievu AS “MNAS” ir dibināta 2004. gadā, uz doto brīdi tam ir pieņemšanas punkti visos Krievijas reģionos. Norēķinu sistēmas ir nodarbināti ne tikai Armēnijā, bet arī Gruzijā, Kazahstanā, Tadžikistānā, Uzbekistānā, Ukrainā, Moldovā un Baltkrievijā.</p>"
+
+# 
+msgid "Canceled"
+msgstr "Atcelts"
+
+# 
+msgid "Depost Amount"
+msgstr "Depozīta summa"
+
+# 
+msgid "Active"
+msgstr "Aktīvs"
+
+# 
+msgid "Fixed"
+msgstr "Izlabots"
+
+# 
+msgid "Payed"
+msgstr "Apmaksāts"
+
+# 
+msgid "will start in"
+msgstr "sāksies pēc"
+
+# 
+msgid "Frames"
+msgstr "Rāmji"
+
+# 
+msgid "Last update:"
+msgstr "Pēdēja atjaunošana:"
+
+# 
+msgid "OnePoint"
+msgstr "Viens punkts"
+
+# 
+msgid "TwoPoints"
+msgstr "Divi punkti"
+
+# 
+msgid "ThreePoints"
+msgstr "Trīs punkti"
+
+# 
+msgid "0 Half"
+msgstr "0. taims"
+
+# 
+msgid "1st Half"
+msgstr "1. taims"
+
+# 
+msgid "2nd Half"
+msgstr "2. taims"
+
+# 
+msgid "Additional Time1"
+msgstr "Papildlaiks 1"
+
+# 
+msgid "Additional Time2"
+msgstr "Papildlaiks 2"
+
+# 
+msgid "Waiting"
+msgstr "Gaidīšana"
+
+# 
+msgid "Round"
+msgstr "Raunds"
+
+# 
+msgid "Round 0"
+msgstr "0. raunds"
+
+# 
+msgid "Round 1"
+msgstr "1. raunds"
+
+# 
+msgid "Round 2"
+msgstr "2. raunds"
+
+# 
+msgid "Round 3"
+msgstr "3. raunds"
+
+# 
+msgid "Round 4"
+msgstr "4. raunds"
+
+# 
+msgid "Round 5"
+msgstr "5. raunds"
+
+# 
+msgid "Round 6"
+msgstr "6. raunds"
+
+# 
+msgid "Round 7"
+msgstr "7. raunds"
+
+# 
+msgid "Round 8"
+msgstr "8. raunds"
+
+# 
+msgid "Round 9"
+msgstr "9. raunds"
+
+# 
+msgid "Round 10"
+msgstr "10. raunds"
+
+# 
+msgid "Round 11"
+msgstr "11. raunds"
+
+# 
+msgid "Round 12"
+msgstr "12. raunds"
+
+# 
+msgid "Set 0"
+msgstr "0. sets"
+
+# 
+msgid "Set 1"
+msgstr "1. sets"
+
+# 
+msgid "Set 2"
+msgstr "2. sets"
+
+# 
+msgid "Set 3"
+msgstr "3. sets"
+
+# 
+msgid "Set 4"
+msgstr "4. sets"
+
+# 
+msgid "Set 5"
+msgstr "5. sets"
+
+# 
+msgid "Set 6"
+msgstr "6. sets"
+
+# 
+msgid "Set 7"
+msgstr "7. sets"
+
+# 
+msgid "Set 8"
+msgstr "8. sets"
+
+# 
+msgid "Set 9"
+msgstr "9. sets"
+
+# 
+msgid "Set 10"
+msgstr "10. sets"
+
+# 
+msgid "Period 0"
+msgstr "0. periods"
+
+# 
+msgid "Period 1"
+msgstr "1. periods"
+
+# 
+msgid "Period 2"
+msgstr "2. periods"
+
+# 
+msgid "Period 3"
+msgstr "3. periods"
+
+# 
+msgid "Quarter 0"
+msgstr "0. ceturtdaļa"
+
+# 
+msgid "Quarter 1"
+msgstr "1. ceturtdaļa"
+
+# 
+msgid "Quarter 2"
+msgstr "2. ceturtdaļa"
+
+# 
+msgid "Quarter 3"
+msgstr "3. ceturtdaļa"
+
+# 
+msgid "Quarter 4"
+msgstr "4. ceturtdaļa"
+
+# 
+msgid "Inning 0"
+msgstr "0. innings"
+
+# 
+msgid "1st Inning"
+msgstr "1. innings"
+
+# 
+msgid "2nd Inning"
+msgstr "2. innings"
+
+# 
+msgid "3rd Inning"
+msgstr "3. innings"
+
+# 
+msgid "4th Inning"
+msgstr "4. innings"
+
+# 
+msgid "5th Inning"
+msgstr "5. innings"
+
+# 
+msgid "6th Inning"
+msgstr "6. innings"
+
+# 
+msgid "7th Inning"
+msgstr "7. innings"
+
+# 
+msgid "8th Inning"
+msgstr "8. innings"
+
+# 
+msgid "9th Inning"
+msgstr "9. innings"
+
+# 
+msgid "10th Inning"
+msgstr "10. innings"
+
+# 
+msgid "11th Inning"
+msgstr "11. innings"
+
+# 
+msgid "12th Inning"
+msgstr "12. innings"
+
+# 
+msgid "13th Inning"
+msgstr "13. innings"
+
+# 
+msgid "14th Inning"
+msgstr "14. innings"
+
+# 
+msgid "15th Inning"
+msgstr "15. innings"
+
+# 
+msgid "16th Inning"
+msgstr "16. innings"
+
+# 
+msgid "17th Inning"
+msgstr "17. innings"
+
+# 
+msgid "18th Inning"
+msgstr "18. innings"
+
+# 
+msgid "19th Inning"
+msgstr "19. innings"
+
+# 
+msgid "20th Inning"
+msgstr "20. innings"
+
+# 
+msgid "21th Inning"
+msgstr "21. innings"
+
+# 
+msgid "22th Inning"
+msgstr "22. innings"
+
+# 
+msgid "23th Inning"
+msgstr "23. innings"
+
+# 
+msgid "24th Inning"
+msgstr "24. innings"
+
+# 
+msgid "25th Inning"
+msgstr "25. innings"
+
+# 
+msgid "Time 0"
+msgstr "0. laiks"
+
+# 
+msgid "Time 1"
+msgstr "1. laiks"
+
+# 
+msgid "Time 2"
+msgstr "2. laiks"
+
+# 
+msgid "Frame 0"
+msgstr "0. rāmis"
+
+# 
+msgid "Frame 1"
+msgstr "1. rāmis"
+
+# 
+msgid "Frame 2"
+msgstr "2. rāmis"
+
+# 
+msgid "Frame 3"
+msgstr "3. rāmis"
+
+# 
+msgid "Frame 4"
+msgstr "4. rāmis"
+
+# 
+msgid "Frame 5"
+msgstr "5. rāmis"
+
+# 
+msgid "Frame 6"
+msgstr "6. rāmis"
+
+# 
+msgid "Frame 7"
+msgstr "7. rāmis"
+
+# 
+msgid "Frame 8"
+msgstr "8. rāmis"
+
+# 
+msgid "Frame 9"
+msgstr "9. rāmis"
+
+# 
+msgid "Frame 10"
+msgstr "10. rāmis"
+
+# 
+msgid "Frame 11"
+msgstr "11. rāmis"
+
+# 
+msgid "Frame 12"
+msgstr "12. rāmis"
+
+# 
+msgid "Frame 13"
+msgstr "13. rāmis"
+
+# 
+msgid "Frame 14"
+msgstr "14. rāmis"
+
+# 
+msgid "Frame 15"
+msgstr "15. rāmis"
+
+# 
+msgid "Frame 16"
+msgstr "16. rāmis"
+
+# 
+msgid "Frame 17"
+msgstr "17. rāmis"
+
+# 
+msgid "Frame 18"
+msgstr "18. rāmis"
+
+# 
+msgid "Frame 19"
+msgstr "19. rāmis"
+
+# 
+msgid "Frame 20"
+msgstr "20. rāmis"
+
+# 
+msgid "Frame 21"
+msgstr "21. rāmis"
+
+# 
+msgid "Frame 22"
+msgstr "22. rāmis"
+
+# 
+msgid "Frame 23"
+msgstr "23. rāmis"
+
+# 
+msgid "Frame 24"
+msgstr "24. rāmis"
+
+# 
+msgid "Frame 25"
+msgstr "25. rāmis"
+
+# 
+msgid "Frame 26"
+msgstr "26. rāmis"
+
+# 
+msgid "Frame 27"
+msgstr "27. rāmis"
+
+# 
+msgid "Frame 28"
+msgstr "28. rāmis"
+
+# 
+msgid "Frame 29"
+msgstr "29. rāmis"
+
+# 
+msgid "Frame 30"
+msgstr "30. rāmis"
+
+# 
+msgid "Frame 31"
+msgstr "31. rāmis"
+
+# 
+msgid "Frame 32"
+msgstr "32. rāmis"
+
+# 
+msgid "Frame 33"
+msgstr "33. rāmis"
+
+# 
+msgid "Frame 34"
+msgstr "34. rāmis"
+
+# 
+msgid "Frame 35"
+msgstr "35. rāmis"
+
+# 
+msgid "Frame 36"
+msgstr "36. rāmis"
+
+# 
+msgid "Frame 37"
+msgstr "37. rāmis"
+
+# 
+msgid "Frame 38"
+msgstr "38. rāmis"
+
+# 
+msgid "Frame 39"
+msgstr "39. rāmis"
+
+# 
+msgid "Period 4"
+msgstr "4. periods"
+
+# 
+msgid "Period 5"
+msgstr "5. periods"
+
+# 
+msgid "Period 6"
+msgstr "6. periods"
+
+# 
+msgid "Game 0"
+msgstr "0. geims"
+
+# 
+msgid "Game 1"
+msgstr "1. geims"
+
+# 
+msgid "Game 2"
+msgstr "2. geims"
+
+# 
+msgid "Game 3"
+msgstr "3. geims"
+
+# 
+msgid "Game 4"
+msgstr "4. geims"
+
+# 
+msgid "Game 5"
+msgstr "5. geims"
+
+# 
+msgid "Set 11"
+msgstr "11. sets"
+
+# 
+msgid "Set 12"
+msgstr "12. sets"
+
+# 
+msgid "Set 13"
+msgstr "13. sets"
+
+# 
+msgid "Set 14"
+msgstr "14. sets"
+
+# 
+msgid "Set 15"
+msgstr "15. sets"
+
+# 
+msgid "Set 16"
+msgstr "16. sets"
+
+# 
+msgid "Set 17"
+msgstr "17. sets"
+
+# 
+msgid "Set 18"
+msgstr "18. sets"
+
+# 
+msgid "Set 19"
+msgstr "19. sets"
+
+# 
+msgid "Set 20"
+msgstr "20. sets"
+
+# 
+msgid "Events"
+msgstr "Notikumi"
+
+# 
+msgid "SHOW"
+msgstr "Radīt"
+
+# 
+msgid "In-Play"
+msgstr "In-play"
+
+# 
+msgid "Id"
+msgstr "Id"
+
+# 
+msgid "To place your bet, please log in"
+msgstr "Lai izdarīt likmi, Jums ir jāautorizējas"
+
+# 
+msgid "Must be at least 8 characters"
+msgstr "Ir jābūt vismaz 8 simboliem"
+
+# 
+msgid "Win % 1 st Service"
+msgstr "Pirmās serves laimesta %"
+
+# 
+msgid "Break Point Conversions"
+msgstr "Breik-points"
+
+# 
+msgid "Your bet is not accepted"
+msgstr "Likme nav pieņemta"
+
+# 
+msgid "TransferProduct:\nERROR_LOW_BALANCE"
+msgstr "TransferProduct:\nERROR_LOW_BALANCE"
+
+# 
+msgid "this field is required"
+msgstr "laukums obligātai aizpildīšanai"
+
+# 
+msgid "Error occured."
+msgstr "Notikusi kļūda."
+
+# 
+msgid "Invalid payee"
+msgstr "Nepareizs saņēmējs"
+
+# 
+msgid "Invalid payer"
+msgstr "Maksātāja nepareizi dati"
+
+# 
+msgid "ok"
+msgstr "ok"
+
+# 
+msgid "Email Address or Username"
+msgstr "E-pasta adrese vai Lietotājvārds"
+
+# 
+msgid "Terms &amp; Conditions"
+msgstr "Noteikumiem un Nosacījumiem"
+
+# 
+msgid "TransferProductRROR_LOW_BALANCE"
+msgstr "Jūsu bilance nav pietiekama šādai operācijai"
+
+# 
+msgid "Amount:"
+msgstr "Summa:"
+
+# 
+msgid "FEATURED GAMES"
+msgstr "Ieteicamas spēles"
+
+# 
+msgid "Welcome"
+msgstr "Laipni lūdzam"
+
+# 
+msgid "Join us now!"
+msgstr "Pievienojies!"
+
+# 
+msgid "Cashier"
+msgstr "Kasieris"
+
+# 
+msgid "new"
+msgstr "Jauns"
+
+# 
+msgid "Not a valid password"
+msgstr "Nepieļaujama parole"
+
+# 
+msgid "Available/Withdrawable"
+msgstr "Ir pieejams izmaksai"
+
+# 
+msgid "bet id:"
+msgstr "Likmes ID"
+
+# 
+msgid "automatically accept price changes"
+msgstr "Automātiska likmes pieņemšana neatkarīgi no koeficienta izmaiņas"
+
+# 
+msgid "incompatible events"
+msgstr "Neapvienojamie notikumi"
+
+# 
+msgid "there are deleted events"
+msgstr "Dažu izvēlēto notikumu jau nav"
+
+# 
+msgid "prices for some events have changed"
+msgstr "Dažu notikumu koeficienti ir mainījušies"
+
+# 
+msgid "Accept changes"
+msgstr "Pieņemt izmaiņas"
+
+# 
+msgid "You need to sign in to be able to place bets"
+msgstr "Lai izdarīt likmi, Jums ir jāautorizējas"
+
+# 
+msgid "Invalid recipient"
+msgstr "Nepareizs saņēmējs"
+
+# 
+msgid "deposit_info_mastercard"
+msgstr "deposit_info_mastercard"
+
+# 
+msgid "withdraw_info_mastercard"
+msgstr "withdraw_info_mastercard"
+
+# 
+msgid "label_card_number"
+msgstr "label_card_number"
+
+# 
+msgid "deposit_info_visa"
+msgstr "deposit_info_visa"
+
+# 
+msgid "withdraw_info_visa"
+msgstr "withdraw_info_visa"
+
+# 
+msgid "deposit_info_paypal"
+msgstr "deposit_info_paypal"
+
+# 
+msgid "withdraw_info_paypal"
+msgstr "withdraw_info_paypal"
+
+# 
+msgid "Select one"
+msgstr "Izvēlieties kaut ko"
+
+# 
+msgid "Deposit Amount (USD)"
+msgstr "Depozīta summa (USD)"
+
+# 
+msgid "Attach"
+msgstr "Pievienot"
+
+# 
+msgid "Middle Name"
+msgstr "Tēva vārds"
+
+#
+msgid "Middle name"
+msgstr "Tēva vārds"
+
+# 
+msgid "prevew"
+msgstr "iepriekšēja apskate"
+
+# 
+msgid "Full Name"
+msgstr "Pilns vārds"
+
+# 
+msgid "Select your country"
+msgstr "Izvēlieties savu valsti"
+
+# 
+msgid "Select your currency"
+msgstr "Izvēlieties savu valūtu"
+
+# 
+msgid "Enter the text here"
+msgstr "Ievadiet tekstu šeit"
+
+# 
+msgid "I would like to subbscribe for email updates and offeres from VBET."
+msgstr "Vēlos saņemt e-pastā informāciju par jaunākajiem piedāvājumiem un ziņām no DLVbet."
+
+# 
+msgid "message_ONHOLD"
+msgstr "Gaida apstiprinājumu"
+
+# 
+msgid "message_CHANGE_ODD"
+msgstr "Koeficients ir izmainīts"
+
+# 
+msgid "message_EVENT_LOCKED"
+msgstr "Notikums ir bloķēts"
+
+# 
+msgid "message_LIMIT_ERROR"
+msgstr "Koeficienta izlabojums"
+
+# 
+msgid "message_GAME_STARTED"
+msgstr "Spēle ir sākusies"
+
+# 
+msgid "message_1000"
+msgstr "Iekšēja kļūda"
+
+# 
+msgid "message_1001"
+msgstr "Nulles argumenta nozīme"
+
+# 
+msgid "message_1003"
+msgstr "Nepareizs Lietotājvārds/Parole"
+
+# 
+msgid "message_1004"
+msgstr "Lietotājs ir bloķēts"
+
+# 
+msgid "message_1006"
+msgstr "Paroles kļūda"
+
+# 
+msgid "message_1008"
+msgstr "Ieeja mājas lapā nevar būt izpildīta kamēr Jūs neaktivizēsiet savu profilu caur e-pastu"
+
+# 
+msgid "message_1009"
+msgstr "Noteikts verifikācijas kods neeksistē"
+
+# 
+msgid "message_1099"
+msgstr "*Dakšas* izslēgšana"
+
+# 
+msgid "message_1100"
+msgstr "Spēle jau ir sakusies"
+
+# 
+msgid "message_1102"
+msgstr "Spēles sakuma laiks ir beidzies"
+
+# 
+msgid "message_1103"
+msgstr "Likmes izlabošanas laiks ir beidzies"
+
+# 
+msgid "message_1104"
+msgstr "Likme ir apmaksāta"
+
+# 
+msgid "message_1105"
+msgstr "Neapstrādāta likme"
+
+# 
+msgid "message_1106"
+msgstr "Zaudēta likme"
+
+# 
+msgid "message_1107"
+msgstr "Live likme"
+
+# 
+msgid "message_1108"
+msgstr "Nepareiza koeficienta nozīme"
+
+# 
+msgid "message_1109"
+msgstr "Nepareiza summas nozīme"
+
+# 
+msgid "message_1112"
+msgstr "Izmaksātais pieprasījums"
+
+# 
+msgid "message_1113"
+msgstr "isziņa_1113"
+
+# 
+msgid "message_1114"
+msgstr "Kartes lots ir bloķēts"
+
+# 
+msgid "message_1115"
+msgstr "Karte ir bloķēta"
+
+# 
+msgid "message_1116"
+msgstr "Karte ir aktivēta"
+
+# 
+msgid "message_1117"
+msgstr "Nepareizs lietotājvārds vai e-pasta adrese"
+
+# 
+msgid "message_1118"
+msgstr "Atkārtots lietotājvārds"
+
+# 
+msgid "message_1150"
+msgstr "Jūs nevarat izdarīt likmi uz izvēlēto notikumu"
+
+# 
+msgid "message_1200"
+msgstr "Nepareizas nozīmes izslēgšana"
+
+# 
+msgid "message_1300"
+msgstr "Dubultas nozīmes izslēgšana"
+
+# 
+msgid "message_1400"
+msgstr "Dubultā notikuma izslēgšana"
+
+# 
+msgid "message_1510"
+msgstr "Limita izslēgšana"
+
+# 
+msgid "message_1500"
+msgstr "Summa ir lielāka par atļauto maksimumu"
+
+# 
+msgid "message_1550"
+msgstr "Summa ir lielāka par atļauto maksimumu"
+
+# 
+msgid "message_1560"
+msgstr "Summa ir mazāka par atļauto minimumu"
+
+# 
+msgid "message_1600"
+msgstr "Notiek koeficienta korekcija"
+
+# 
+msgid "message_1700"
+msgstr "Nepareizas ieejas izslēgšana"
+
+# 
+msgid "message_1800"
+msgstr "Koeficienti ir mainīti"
+
+# 
+msgid "message_1900"
+msgstr "Notikumi tiek iekļauti tikai kombinētajā likmē"
+
+# 
+msgid "message_1910"
+msgstr "Notikumi tiek iekļauti tikai vienkāršā likmē"
+
+# 
+msgid "message_2000"
+msgstr "Koeficientu ierobežošanas izslēgšana"
+
+# 
+msgid "message_2100"
+msgstr "Apmaksas ierobežošanas izslēgšana"
+
+# 
+msgid "message_2200"
+msgstr "Klienta limita izslēgšana"
+
+# 
+msgid "message_2300"
+msgstr "Ofisa limita izslēgšana"
+
+# 
+msgid "message_2400"
+msgstr "Klienta bilance ir nepietiekama"
+
+# 
+msgid "message_2403"
+msgstr "Ir aktīvs pieprasījums"
+
+# 
+msgid "Sex"
+msgstr "Dzimums"
+
+# 
+msgid "Bermudas"
+msgstr "Bermuda"
+
+# 
+msgid "Butane"
+msgstr "Butāna"
+
+# 
+msgid "East Timor"
+msgstr "Austrumtimora"
+
+# 
+msgid "Papua - New Guinea"
+msgstr "Papua-Jaungvineja"
+
+# 
+msgid "South Africa"
+msgstr "Dienvidāfrika"
+
+# 
+msgid "St. Lucia"
+msgstr "Sentlūsija"
+
+# 
+msgid "Surinam"
+msgstr "Surinama"
+
+# 
+msgid "Tongo"
+msgstr "Tongo"
+
+# 
+msgid "The Cayman Islands"
+msgstr "Kaimanu Salas"
+
+# 
+msgid "The Central African Republic"
+msgstr "Centrālāfrikas Republika"
+
+# 
+msgid "The Cook Islands"
+msgstr "Kuka salas"
+
+# 
+msgid "The Democratic Republic of the Congo"
+msgstr "Kongo Demokrātiskā Republika"
+
+# 
+msgid "Sent Messages"
+msgstr "Nosūtītas īsziņas"
+
+# 
+msgid "New Message"
+msgstr "Jauna īsziņa"
+
+# 
+msgid "Clear Bet Slip to activate Qiuck Bet"
+msgstr "Nodzēsiet kuponu, lai aktivizēt Quick Bet"
+
+# 
+msgid "Other"
+msgstr "Citi"
+
+# 
+msgid "There is no downloadable client for your operating system"
+msgstr "Uz doto brīdi mums nav lejuplādēta klienta Jūsu operētājsistēmai"
+
+# 
+msgid "message_1110"
+msgstr "Depozīta limits ir uzstādīts pēc spēlētāja vēlēšanās (pašierobežošana)"
+
+# 
+msgid "message_2406"
+msgstr "Spēlētājs patstāvīgi izslēdza iespēju izdarīt likmes"
+
+# 
+msgid "Reset"
+msgstr "Atjaunot"
+
+# 
+msgid "Switch to "
+msgstr "Pārslēgt uz "
+
+# 
+msgid "Conditional bet"
+msgstr "Nosacīta likme"
+
+# 
+msgid "Odd..."
+msgstr "Koeficients..."
+
+# 
+msgid "Score:"
+msgstr "Rezultāts:"
+
+# 
+msgid "3D  Slots"
+msgstr "3D Sloti"
+
+# 
+msgid "Film Slot"
+msgstr "Slotu filma"
+
+# 
+msgid "Instant Win"
+msgstr "Tūlītējs laimests"
+
+# 
+msgid "Table Games"
+msgstr "Galda Spēles"
+
+# 
+msgid "Top Slots"
+msgstr "Top Sloti"
+
+# 
+msgid "TvGames"
+msgstr "TV Spēles"
+
+# 
+msgid "Video Poker"
+msgstr "Video Pokers"
+
+# 
+msgid "Other Games"
+msgstr "Citas Spēles"
+
+# 
+msgid "Progressive"
+msgstr "Progresīvie Sloti"
+
+# 
+msgid "Add more events to be able to place bet "
+msgstr "Pievienojiet vairāk notikumu, lai izdarīt likmi "
+
+# 
+msgid "Depost Amount (USD)"
+msgstr "Depozīta summa (USD)"
+
+# 
+msgid "1 hours"
+msgstr "1 stunda"
+
+# 
+msgid "2 hours"
+msgstr "2 stundas"
+
+# 
+msgid "3 hours"
+msgstr "3 stundas"
+
+# 
+msgid "5 hours"
+msgstr "5 stundas"
+
+# 
+msgid "6 hours"
+msgstr "6 stundas"
+
+# 
+msgid "48 hours"
+msgstr "48 stundas"
+
+# 
+msgid "72 hours"
+msgstr "72 stundas"
+
+# 
+msgid "User age is under minimum allowed."
+msgstr "Vecums ir mazāks par atļauto."
+
+# 
+msgid "Please close {1} game(s) to change view"
+msgstr "Lūdzu, aizveriet {1} spēli (spēles), lai mainīt skatu"
+
+# 
+msgid "One Game View"
+msgstr "Vienspēles režīms"
+
+# 
+msgid "Two Games View"
+msgstr "Divspēles režīms"
+
+# 
+msgid "Four Games View"
+msgstr "Četru spēļu režīms"
+
+# 
+msgid "Open In Pop-Up Window"
+msgstr "Atvērt uzpeldošo logu"
+
+# 
+msgid "Add a Game"
+msgstr "Pievienot jaunu spēli"
+
+# 
+msgid "Durak"
+msgstr "Duraks"
+
+# 
+msgid "Preferans"
+msgstr "Preferansa"
+
+# 
+msgid "Domino"
+msgstr "Domino"
+
+# 
+msgid "Sea Battle"
+msgstr "Jūras kauja"
+
+# 
+msgid "Refresh"
+msgstr "Atjaunot"
+
+# 
+msgid "multiple"
+msgstr "kombinētā"
+
+# 
+msgid "livecasino_101_1"
+msgstr "Live Blekdžeks A"
+
+# 
+msgid "livecasino_101_2"
+msgstr "Live Blekdžeks B"
+
+# 
+msgid "livecasino_101_3"
+msgstr "Live Blekdžeks C"
+
+# 
+msgid "livecasino_101_4"
+msgstr "Live Blekdžeks D"
+
+# 
+msgid "livecasino_102"
+msgstr "Live rulete"
+
+# 
+msgid "livecasino_103"
+msgstr "Live Bakara"
+
+# 
+msgid "livecasino_104"
+msgstr "Live Likmes uz Pokeru"
+
+# 
+msgid "AllWeather"
+msgstr "AllWeather"
+
+# 
+msgid "N_H_Flat"
+msgstr "N_H_Flat"
+
+# 
+msgid "Game Balance:"
+msgstr "Spēles bilance:"
+
+# 
+msgid " Horse"
+msgstr " Zirgs"
+
+# 
+msgid " Jockey"
+msgstr " Žokejs"
+
+# 
+msgid " Jockey Weight"
+msgstr " Žokeja Svars"
+
+# 
+msgid "Name *"
+msgstr "Vārds *"
+
+# 
+msgid "Birth date *"
+msgstr "Dzimšanas datums *"
+
+# 
+msgid "Gender *"
+msgstr "Dzimums *"
+
+# 
+msgid "Passport Number *"
+msgstr "Pases numurs *"
+
+# 
+msgid "Username *"
+msgstr "Lietotājvārds *"
+
+# 
+msgid "Password *"
+msgstr "Parole *"
+
+# 
+msgid "Confirm Password *"
+msgstr "Apstiprināt paroli *"
+
+# 
+msgid "Email Address *"
+msgstr "E-pasta adrese *"
+
+# 
+msgid "Country *"
+msgstr "Valsts *"
+
+# 
+msgid "City *"
+msgstr "Pilsēta *"
+
+# 
+msgid "Address *"
+msgstr "Adrese *"
+
+# 
+msgid "Contact number *"
+msgstr "Kontakttālrunis *"
+
+# 
+msgid "Currency *"
+msgstr "Valūta *"
+
+# 
+msgid "SMS Code *"
+msgstr "SMS Kods *"
+
+# 
+msgid " 0"
+msgstr " 0"
+
+# 
+msgid "47 hours"
+msgstr "47 stundas"
+
+# 
+msgid "Ok"
+msgstr "Ok"
+
+# 
+msgid "We are not accepting bets on this game at the moment."
+msgstr "Uz doto brīdi mēs nepieņemam likmes uz šo spēli."
+
+#
+msgid "How to Play"
+msgstr "How to Play"
+
+#
+msgid "Tournament List"
+msgstr "Tournament List"
+
+#
+msgid "Windows XP or higher"
+msgstr "Windows XP or higher"
+
+#
+msgid "Mac OS 9 or higher"
+msgstr "Mac OS 9 or higher"
+
+#
+msgid "Android version 4.0 or higher"
+msgstr "Android version 4.0 or higher"
+
+#
+msgid "Lottery Games"
+msgstr "Lottery Games"
+
+#
+msgid "MiniGames"
+msgstr "Mini Games"
+
+#
+msgid "Casual Games"
+msgstr "Casual Games"
+
+#
+msgid "Classic Slots"
+msgstr "Classic Slots"
+
+#
+msgid "VideoSlots"
+msgstr "Video Slots"
+
+#
+msgid "casino_auth_error"
+msgstr "We're experiencing temporary difficulties. Please try a little later."
+
+#
+msgid "Live Casino"
+msgstr "Live Casino"
+
+#
+msgid "Every week Jackpot"
+msgstr "Every week Jackpot"
+
+#
+msgid "points"
+msgstr "points"
+
+#
+msgid "Don`t show again"
+msgstr "Don`t show again"
+
+#
+msgid "Show more"
+msgstr "Show more"

@@ -1,0 +1,36 @@
+<div class="gameing-wrapper" ng-controller="overviewCtrl" ng-init="initOverview();setTitle('Live Overview')">
+    <div class="contain-gameing"  ng-class="{'multiview-enabled': env.preMatchMultiSelection, 'alternative-games-layout' : conf.alternativeClassicGamesLayout}">
+        <!--centr-market-->
+        <vbet-loader ng-show="overviewLoading"></vbet-loader>
+        <div class="centr-market-contain ng-scope" ng-show="!overviewLoading">
+            <div class="game-center-container ng-scope">
+            <div class="scroll-contain">
+                <div ng-include="getTemplate('templates/sport/overview/overview.html')" class="classic-overview-wrapper"></div>
+            </div>
+        </div><!-- end ngIf: openGame || prematchGameViewData.length -->
+        </div>
+        <!--centr-market END-->
+        <!-- System Calculator-->
+        <div id="system-claculator-container" ng-if="$root.showSystemCalculator" draggable allow-other-mouse-events drag-from="calculator-draggable-header">
+            <ng-include src="getTemplate('templates/sport/classic/systemCalculator.html')"></ng-include>
+        </div>
+        <!-- System Calculator-->
+        <!--betslip-contain-->
+        <div ng-class="{'right-betslip-contain-modern right-block-list' : conf.showModernBetslipInClassic, 'right-betslip-contain' : !conf.showModernBetslipInClassic }">
+            <ng-include class="include-viewSwitcher-j" src="getTemplate('templates/sport/viewswitcher.html')"></ng-include>
+            <div class="scroll-contain">
+
+                <div class="betslip-toggle" ng-click="betslipOpen=!betslipOpen" ng-class="{'betslip-button-open':betslipOpen }"><p>BetSlip</p><span class="betslip-bets-count" ng-bind="$root.betSlipBetsCount"></span></div>
+                <div class="list-bet-block" ng-if="$location.path() !== '/poolbetting/'" ng-include="getTemplate('templates/sport/betslip.html')"></div>
+                <div class="right-banner-container" ng-if="(conf.enableBannerUnderBetslip && !customSportAliasFilter) || (conf.enableBannerCustomAliasUnderBetslip && customSportAliasFilter)" ng-controller="cmsSportNewsCtrl" ng-include="getTemplate('templates/sport/classic/banners.html')"></div>
+                <div class="mini-games" ng-if="conf.enableMiniGameUnderBetslip" ng-include="getTemplate('optional_modules/casino/templates/specialgames/minigames.html')"></div>
+
+
+                <!--Спортивные новости-->
+                <div ng-show="((betSlipBetsCount === 0) || !betSlipBetsCount) && (hideVideoAndAnimationBox || !env.live) && showNewsBlock && showNewsBetSet && showNewsInClassicView" class="sport-news" ng-include="getTemplate('templates/sport/sportnews.html')" id="sport-news-sidebar" ng-if="conf.enableNews"></div>
+
+            </div>
+        </div>
+        <!--betslip-contain END-->
+    </div>
+</div>

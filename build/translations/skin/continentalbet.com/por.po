@@ -1,0 +1,10 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "O tempo mostrado na apostas em vivo servem como um indicador. A empresa não se responsabiliza por veracidia e atualização das informações apresentadas como a pontuação ou tempo"
+

@@ -1,0 +1,21 @@
+<div class="contein-cash" ng-mouseover="over=true" ng-mouseleave="over=false">
+
+    <a ng-if="banners[slide].linkType=='url'" class="block-black-hover" ng-href="{{banners[slide].link}}"
+       ng-click="bannerClick(banners[slide])" target="{{banners[slide].linktarget}}">
+        <p class="cash-comand" ng-show="banners[slide]">
+            <img ng-src="{{ banners[slide].imageurl }}" alt="">
+        </p>
+    </a>
+
+    <a ng-if="banners[slide].linkType=='broadcast'" class="block-black-hover" ng-click="$root.$broadcast(banners[slide].link);bannerClick(banners[slide])">
+        <p class="cash-comand" ng-show="banners[slide]">
+            <img ng-src="{{ banners[slide].imageurl }}" alt="">
+        </p>
+    </a>
+
+    <div ng-if="banners[slide].linkType=='html'" class="right-slider-html-t" ng-bind-html="banners[slide].text|html"></div>
+
+    <div class="featured-game-selector homepage-sec-slider-j" ng-if="banners.length > 1">
+        <span ng-repeat="i in banners track by $index" ng-class="{'active':$parent.$parent.slide==$index}" ng-click="$parent.$parent.slide=$index"></span>
+    </div>
+</div>

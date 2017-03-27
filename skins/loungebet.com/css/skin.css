@@ -50457,7 +50457,7 @@ top-game-block {
 .pematch-single-game-info-2column {
     box-sizing: border-box;
     float: left;
-    width: calc(100% - 180px);
+    width: calc(100% - 120px);
     border-right: 1px solid #e6e5dc;
 }
 

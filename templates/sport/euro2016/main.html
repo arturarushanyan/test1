@@ -254,7 +254,7 @@
                                                 </div>
 
                                                 <div class="odds-info"
-                                                     ng-show="(competition.games[0].sport.alias === 'Soccer') && (prematchGameViewData[0].games[0].show_type !== 'OUTRIGHT')">
+                                                     ng-show="(competition.games[0].sport.alias === 'Soccer' || competition.games[0].sport.alias === 'IceHockey' || competition.games[0].sport.alias === 'Basketball' || competition.games[0].sport.alias === 'Darts') && (prematchGameViewData[0].games[0].show_type !== 'OUTRIGHT')">
                                                     <ul ng-if="(prematchGame.sport.alias !== 'Soccer') && (!prematchGame.team2_name)"
                                                         class="column-3"
                                                         ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
@@ -291,7 +291,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="odds-info"
-                                                     ng-hide="prematchGameViewData[0].games[0].show_type == 'OUTRIGHT'">
+                                                     ng-hide="prematchGameViewData[0].games[0].show_type == 'OUTRIGHT' || competition.games[0].sport.alias === 'Mma' || competition.games[0].sport.alias === 'Boxing' || competition.games[0].sport.alias === 'WhatWhereWhen' || competition.games[0].sport.alias === 'Chess'">
                                                     <ul ng-if="(prematchGame.sport.alias !== 'Soccer') && (!prematchGame.team2_name)"
                                                         class="column-3"
                                                         ng-class="{'two-odds': prematchGame.firstMarket.col_count == 2}">
@@ -338,7 +338,7 @@
                                                      ng-click="broadcast('prematchMultiView.removeGameFromSelection', {id: prematchGame.id, competition: competition}); $event.stopPropagation()"></div>
 
                                                 <div class="pematch-single-game-info-v3"
-                                                     ng-class="{'pematch-single-game-info-2column':  prematchGame.sport.alias !== 'Soccer' && selectedMarketFilter === marketFilterTypes[0],  'pematch-single-game-info-title': !prematchGame.team1_name , 'pematch-single-game-info-outright': !prematchGame.team2_name }"
+                                                     ng-class="{'pematch-single-game-info-2column':  prematchGame.sport.alias !== 'Soccer' &&  prematchGame.sport.alias !== 'IceHockey' && prematchGame.sport.alias !== 'Basketball' && prematchGame.sport.alias !== 'Darts' && selectedMarketFilter === marketFilterTypes[0],  'pematch-single-game-info-title': !prematchGame.team1_name , 'pematch-single-game-info-outright': !prematchGame.team2_name || prematchGame.sport.alias === 'Mma' || prematchGame.sport.alias === 'Boxing' || prematchGame.sport.alias === 'WhatWhereWhen' || prematchGame.sport.alias === 'Chess'}"
                                                      ng-click="openGameFullDetails(prematchGame, selectedCompetition);selectGame(prematchGame.id);selectCompetition()"
                                                      ng-init="$first && $parent.$first && openGameFullDetails(prematchGame, selectedCompetition);selectGame(prematchGame.id);selectCompetition()"
                                                      ng-show="!conf.alternativeClassicGamesLayout"
@@ -449,7 +449,7 @@
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                    <ul ng-if="prematchGame.sport.alias === 'Soccer'"
+                                                    <ul ng-if="prematchGame.sport.alias === 'Soccer' || prematchGame.sport.alias === 'IceHockey' || prematchGame.sport.alias === 'Basketball' || prematchGame.sport.alias === 'Darts'"
                                                         class="column-{{(selectedMarketFilter.type == 'P1XP2' || selectedMarketFilter.type == '1X12X2' || selectedMarketFilter.type == 'CornersResult') && prematchGame.filteredMarkets[selectedMarketFilter.type].realType != 'P1P2' ? 3 : '2 two-odds'}}">
                                                         <li ng-repeat="event in prematchGame.filteredMarkets[selectedMarketFilter.type + selectedMarketFilter.base].events"
                                                             title="{{event.name}}{{displayBase(event, prematchGame.filteredMarkets[selectedMarketFilter.type])}}"

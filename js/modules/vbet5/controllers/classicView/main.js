@@ -266,11 +266,11 @@ angular.module('vbet5.betting').controller('classicViewMainCtrl', ['$rootScope',
 
                         $scope.showMarketsFilter = false;
 
-                        if (game.sport.alias !== 'Soccer' && Config.main.enableMarketFiltering) {
+                        if ((game.sport.alias !== 'Soccer' || game.sport.alias !== 'IceHockey' || game.sport.alias !== 'Basketball' || game.sport.alias !== 'Darts') && Config.main.enableMarketFiltering) {
                             $scope.selectedMarketFilter = $scope.marketFilterTypes[0];
                         }
 
-                        if (Config.main.enableMarketFiltering && game.sport.alias === 'Soccer') {
+                        if (Config.main.enableMarketFiltering && (game.sport.alias === 'Soccer' || game.sport.alias === 'IceHockey' || game.sport.alias === 'Basketball' || game.sport.alias === 'Darts')) {
                             $scope.showMarketsFilter = true;
                             game.filteredMarkets = Utils.groupByItemProperty(game.market, 'type');
                             angular.forEach($scope.marketFilterTypes, function (filter) {

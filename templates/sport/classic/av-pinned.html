@@ -1,0 +1,44 @@
+<div id="pinned-games-container">
+
+    <div ng-repeat="openGame in pinnedGames"
+         class="game-video game-video-detached" draggable ng-show="openGame" ng-show="openGame.video_data">
+        <div class="game-video-container detached-game-container"  id="detached-game-container-{{openGame.id}}">
+
+
+
+            <div class="animation-video-title-row-v3">
+               <!-- <div class="anime-video-switcher-v3">
+                    <ul>
+                        <li class="video-view-icon-v3"
+                            ng-show="conf.videoEnabled && (openGame.video_id || openGame.video_data) && (!enlargedGame || openGame.id !== enlargedGame.id)"
+                            ng-class="{'active': openGame.activeFieldType==='video' && !playerRemoved}"
+                            ng-click="openGame.activeFieldType='video'; playerRemoved = false;">
+                        </li>
+                        <li class="animation-view-icon-v3"
+                            ng-show="openGame.has_animation"
+                            ng-class="{'active': openGame.activeFieldType==='field' || playerRemoved }"
+                            ng-click="openGame.activeFieldType='field'">
+                        </li>
+                    </ul>
+                </div>-->
+
+                <div class="contain-v-a-fanction-icons-v3">
+                    <ul>
+                        <li class="pin-icon-video-v3 active" ng-click="attachPinnedVideo(openGame, 'dragable'); $parent.mute = undefined; $parent.paused = undefined;"></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="animation-control">
+                <include-template template-path="templates/sport/classic/video.html" ng-if="!hideVideoAndAnimationBox && conf.videoEnabled && !enlargedGame" class="game-video"></include-template>
+               <!-- <include-template class=" " template-path="templates/sport/classic/animations.html"></include-template>-->
+            </div>
+
+
+           <!-- <a ng-click="attachPinnedVideo(openGame, 'dragable'); $parent.mute = undefined; $parent.paused = undefined;"><span
+                    trans>close</span></a>-->
+            <div resizer preserve-aspect-ratio target="detached-game-container-{{openGame.id}}" initial-height="197" initial-width="347" min-height="100" min-width="100" class="resizer"
+                 max-width="{{ conf.detachedVideoSizes[openGame.tv_type].maxWidth }}" max-height="{{ conf.detachedVideoSizes[openGame.tv_type].maxHeight }}"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "Password should contain at least 8 characters"
+msgstr "La contraseña debe contener al menos 8 caracteres"
+
+# 
+msgid "Password should contain at least 8 characters."
+msgstr "La contraseña debe contener al menos 8 caracteres"
+
+# 
+msgid "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "La contraseña debe contener al menos 8 caracteres, mayúsculas y minúsculas, y al menos un digito."
+
+
+# 
+msgid "My bets"
+msgstr "Mis Juegos"

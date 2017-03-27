@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "Previous Flash version"
+msgstr "Alternate version"
+
+
+# 
+msgid "Your bet is accepted."
+msgstr "Your bet is booked."
+
+# 
+msgid "Bonus:"
+msgstr "Multiple Bonus:"
+
+# 
+msgid "LiveCalendar"
+msgstr "DailyCoupon"

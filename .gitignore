@@ -1,0 +1,9 @@
+build/app/*
+build/fbapplanding.html
+build/languages_tmp/*
+build/node_modules/*
+build/.ftppass
+.idea/*
+.sass-cache/*
+index.sublime-workspace
+*.map

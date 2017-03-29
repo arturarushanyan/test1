@@ -681,7 +681,7 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
             $scope.openGame.sport.favouriteMarketsTypes.push(groupedMarkets[0].fullType);
             var index = $scope.openGame.markets.indexOf(groupedMarkets);
             if (-1 !== index) {
-                $scope.openGame.markets.splice(index, 1);
+               $scope.openGame.markets.splice(index, 1);
             }
             var marketGroup = Utils.getArrayObjectElementHavingFieldValue($scope.openGame.availableMarketGroups, 'id', groupedMarkets[0].group_id);
             marketGroup.count = marketGroup.count >= groupedMarkets.length ? marketGroup.count - groupedMarkets.length : 0;

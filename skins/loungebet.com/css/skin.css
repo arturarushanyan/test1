@@ -58258,20 +58258,6 @@ div.slider-image-wrapper-b {
     box-shadow: none;
 }
 
-.subtop-header-menu-j > ul > li.active > a:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 6px 5px 6px;
-    position: relative;
-    top: 2.4em;
-    left: calc(50% - 6px);
-    z-index: 22;
-    border-color: rgba(211, 48, 48, 0) transparent #e6e5dc transparent;
-}
-
 .classic-version-euro2016 {
     box-sizing: border-box;
     position: absolute;
@@ -69635,4 +69621,18 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .classic-version-euro2016 .prematch-view-v3 .markets-group-wrap-v3 {
     width: 100%;
     margin: 5px 0 10px;
+}
+
+.subtop-header-menu-j > ul > li.active > a:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 5px 6px;
+    position: relative;
+    top: 2.4em;
+    left: calc(50% - 6px);
+    z-index: 22;
+    border-color: rgba(211, 48, 48, 0) transparent #e6e5dc transparent;
 }

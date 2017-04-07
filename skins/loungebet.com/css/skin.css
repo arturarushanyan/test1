@@ -25495,10 +25495,6 @@ label.reg-cup-register-j:nth-of-type(even) {
     cursor: default;
 }
 
-.block-sign-in-form.reset-password .register-steps-b .form-error-icon {
-    bottom: 17px;
-}
-
 .live-chat-b-contain {
     float: left;
     width: calc(100% + 60px);
@@ -68397,15 +68393,6 @@ form.registration-form .register-steps-b .password-info-t ,
     display: block;
 }
 
-.block-slider.popup .form-sign-in.forgot-password .form-error-text ,
-.block-sign-in-form .reset-password .field-separator .password-info-t {
-    width: 100%;
-    position: relative;
-    top: 7px;
-    box-sizing: border-box;
-    float: left;
-}
-
 .block-slider.popup .form-sign-in.forgot-password .form-error-text p {
     padding: 5px;
     color: #d14343;
@@ -68423,7 +68410,7 @@ form.registration-form .register-steps-b .password-info-t:before ,
     display: none;
 }
 
-form.registration-form .form-text.valid > div > input{
+form.registration-form .form-text.valid > div > input {
     border: 1px solid #52a178;
 }
 
@@ -68442,16 +68429,27 @@ form.registration-form .error-icon-f ,
 
 form.registration-form .form-error-text > .error-icon-f,
 .form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f ,
-.block-sign-in-form .reset-password .field-separator .form-error-text .error-icon-f ,
-.block-sign-in-form .reset-password .field-separator .password-info-t.error {
+.block-sign-in-form .reset-password .field-separator .form-error-text .error-icon-f {
     border-left: 1px solid rgba(210, 72, 72, 0.4);
     border-top: 1px solid rgba(210, 72, 72, 0.4);
 }
 
+.block-sign-in-form .reset-password .field-separator .password-info-t.error .error-icon-f {
+    border-left: 1px solid rgba(210, 72, 72, 0.4);
+    border-top: 1px solid rgba(210, 72, 72, 0.4);
+}
+
+
 .block-slider.popup form.registration-form .register-steps-b .form-error-icon ,
-.block-sign-in-form .reset-password .field-separator .password-info-t .form-error-icon,
-.block-sign-in-form .reset-password .field-separator .password-info-t .form-error-icon {
+.block-sign-in-form .reset-password .field-separator .form-error-icon {
     top: 12px;
+}
+
+.block-sign-in-form .reset-password .field-separator .form-error-icon {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    right: 10px;
 }
 
 form.ng-dirty .form-text.valid .form-error-icon {
@@ -68464,14 +68462,15 @@ form.ng-dirty .form-text.valid .form-error-icon {
 }
 
 .block-slider.popup form.registration-form .register-steps-b .error .form-error-icon:before,
-.block-sign-in-form .reset-password .field-separator .password-info-t.error .form-error-icon:before,{
+.block-sign-in-form .reset-password .field-separator .error .form-error-icon:before,{
     content: "\e117" !important;
 }
 
 .block-slider.popup form.registration-form .register-steps-b .valid .form-error-icon:before,
-.block-sign-in-form .reset-password .field-separator .password-info-t.valid .form-error-icon:before{
+.block-sign-in-form .reset-password .field-separator .valid .form-error-icon:before{
     content: "\e625" !important;
     color: #52a178;
+    font: 20px/18px "icomoon";
     display: block;
 }
 
@@ -68724,7 +68723,7 @@ form.registration-form .city-form-block.new .vb-select:after {
 .register-steps-b .form-text > div > input,
 .register-steps-b .registration-form-city > div > input,
 .register-steps-b .reg-form-input-number > div > input,
-.block-sign-in-form .reset-password .field-separator .form-text.error input {
+.block-sign-in-form .reset-password .field-separator .form-text input {
     background: none;
     box-sizing: border-box;
     padding: 0 38px 0 12px;
@@ -68742,7 +68741,7 @@ form.registration-form .city-form-block.new .vb-select:after {
 
 form.registration-form .register-steps-b .field-separator .form-text > div > input,
 .block-sign-in-form .form-register-layout.signin .field-separator .form-text > input ,
-.block-sign-in-form .reset-password .field-separator .form-text.error input {
+.block-sign-in-form .reset-password .field-separator .form-text input {
     height: 44px;
     padding-top: 8px;
     color: #303739;
@@ -68760,8 +68759,15 @@ form.registration-form .register-steps-b .field-separator .form-text > div > inp
     color: #303838;
 }
 
-.register-steps-b .form-text.error > div > input, .register-steps-b .reg-form-input-number.error > div > input, .form-register-layout.signin .field-separator .form-text.error > input {
+.register-steps-b .form-text.error > div > input, 
+.register-steps-b .reg-form-input-number.error > div > input,
+.form-register-layout.signin .field-separator .form-text.error > input ,
+.block-sign-in-form .reset-password .field-separator .form-text.error input {
     border-color: #d14343;
+}
+
+.reset-password .form-sign-in .field-separator .form-text.valid input{
+    border: 1px solid #52a178;
 }
 
 .block-slider.popup .signin-error-message p, .block-slider.popup .signin-error-message p:before, .input-error-message, .input-error-message:before {
@@ -68810,7 +68816,8 @@ form.registration-form .register-steps-b .field-separator .form-text > div > inp
 
 .block-slider.popup form.ng-pristine .form-error-icon:before,
 .block-slider.popup .form-sign-in.forgot-password .form-error-icon:before,
-.block-slider.popup form.registration-form.ng-dirty .form-error-icon:before {
+.block-slider.popup form.registration-form.ng-dirty .form-error-icon:before ,
+.block-slider .reset-password .field-separator .error.form-text .form-error-icon:before{
     font: 18px/22px icomoon;
     content: "\e117";
     color: #d14343;
@@ -69339,6 +69346,15 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
     box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.07);
     background-color: #fffef6;
     display: block;
+}
+
+.block-slider.popup .form-sign-in.forgot-password .form-error-text ,
+.block-sign-in-form .reset-password .field-separator .password-info-t {
+    width: 100%;
+    position: relative;
+    top: 7px;
+    box-sizing: border-box;
+    float: left;
 }
 
 .register-steps-b .form-text > div:hover + .password-info-t, .register-steps-b .tooltip-reg-password.password-info-t, .register-steps-b .reg-form-input-number > div:hover + .password-info-t {

@@ -27,7 +27,7 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
     };
     var MARKET_GROUP_FAVORITE = {
         id: -3,
-        name: 'Favorite',
+        name: 'My Markets',
         count: 0
     };
 

@@ -69427,6 +69427,7 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .classic-version-euro2016 .markets-group-wrap-v3 {
     padding-left: 8px;
     margin: 0;
+    overflow: hidden;
 }
 
 .markets-group-wrap-v3>ul {

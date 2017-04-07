@@ -693,15 +693,15 @@
                                         <ul>
                                             <li class="video-view-icon-v3"
                                                 ng-show="conf.videoEnabled && (openGame.video_id || openGame.video_data) && !pinnedGames[openGame.id] && (!enlargedGame || openGame.id !== enlargedGame.id)"
-                                                ng-class="{'active': openGame.activeFieldType==='video' && !playerRemoved}"
+                                                ng-class="{'active': (openGame.activeFieldType==='video' && !playerRemoved) || !openGame.has_animation}"
                                                 ng-click="openGame.activeFieldType='video'; playerRemoved = false;"
                                                 title="Live Stream">
                                             </li>
                                             <li class="animation-view-icon-v3"
                                                 ng-class="{'active': openGame.activeFieldType==='field' || playerRemoved || pinnedGames[openGame.id]}"
                                                 ng-show="openGame.has_animation"
-                                                ng-click="openGame.activeFieldType='field'" title="Match Live"
-                                                ng-init="openGame.activeFieldType='field'">
+                                                ng-click="openGame.activeFieldType='field'; playerRemoved = true" title="Match Live"
+                                                ng-init="playerRemoved = true">
                                             </li>
                                         </ul>
                                     </div>

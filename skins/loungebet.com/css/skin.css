@@ -47218,6 +47218,46 @@ top-game-block {
     cursor: pointer;
 }
 
+.filter-row-v3 > ul > li.active {
+    cursor: default;
+}
+
+.filter-row-v3 > ul > li.all_live_filter { 
+    padding: 7px 5px; 
+    position: relative;
+}
+
+.filter-row-v3 > ul > li.all_live_filter:before {
+    display: block;
+    width: 1px;
+    content: '';
+    background-color: #7c8292;
+    position: absolute;
+    left: -2px;
+    top: 8px;
+    height: 21px;
+}
+
+
+.filter-row-v3 > ul > li.all_live_filter.active {
+    cursor: default;
+}
+
+.filter-row-v3 > ul > li.all_live_filter.active span {
+    background-color: #dddcd8;
+    color: #4a4a4a;
+}
+
+.filter-row-v3 > ul > li.all_live_filter span {
+    color: #7c8292;
+    font: 12px/24px Ubuntu, Arial, Helvetica, sans-serif;
+    padding: 1px 4px;
+}
+
+.filter-row-v3 > ul > li.all_live_filter span:hover {
+    color: #696e7c;
+}
+
 .filter-row-v3 > ul > li:first-child {
     border: none;
     padding-top: 4px;
@@ -47233,7 +47273,6 @@ top-game-block {
     font: 16px/24px icomoon;
     color: #7c8292;
     border-radius: 2px;
-    transition: background 240ms, color 240ms;
 }
 
 .filter-row-v3 > ul > li:hover > i {

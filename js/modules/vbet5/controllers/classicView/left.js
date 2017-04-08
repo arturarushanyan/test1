@@ -429,10 +429,17 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
      * @methodOf vbet5.controller:classicViewLeftController
      * @description  toggles video filter(if on , only games with video will be selected)
      */
-    $scope.toggleVideoFilter = function toggleVideoFilter() {
-        $scope.liveFilters.withVideo = !$scope.liveFilters.withVideo;
-        Storage.set('liveFiltersWithVideo', $scope.liveFilters.withVideo);
-        loadLeftMenuLive();
+    $scope.toggleVideoFilter = function toggleVideoFilter(val) {
+        if (val == true) {
+            $scope.liveFilters.withVideo = true;
+            Storage.set('liveFiltersWithVideo', $scope.liveFilters.withVideo);
+            
+        } else {
+            $scope.liveFilters.withVideo = false;
+            Storage.set('liveFiltersWithVideo', !$scope.liveFilters.withVideo);
+        }
+
+        loadLeftMenuLive();    
     };
 
     /**

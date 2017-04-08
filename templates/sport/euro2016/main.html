@@ -76,12 +76,19 @@
                                         </div>
                                     </li>
                                     <li ng-show="env.live && conf.videoEnabled"
-                                        ng-click="toggleVideoFilter()"
+                                        ng-click="liveFilters.withVideo || toggleVideoFilter(true)"
                                         ng-class="{'active':liveFilters.withVideo}"
                                         title="With video"
-                                        trans="attr-only"
-                                    >
+                                        trans="attr-only">
                                         <i class="video-icon-v3"></i>
+                                    </li>
+                                    <li ng-show="env.live && conf.videoEnabled"
+                                        ng-click="!liveFilters.withVideo || toggleVideoFilter(false)"
+                                        ng-class="{'active':!liveFilters.withVideo}"
+                                        class="all_live_filter"
+                                        title="All games"
+                                        trans="attr-only">
+                                        <span>All </span>
                                     </li>
                                     <!--<li>-->
                                     <!--<i class="tv-icon-v3"></i>-->

@@ -64461,10 +64461,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     @media screen and (max-width: 1280px) {
-        .game-center-container-multi-v3 .dndPlaceholder, .game-center-container-multi-v3 .multiview-contain {
-            width: 100%;
-            margin: 0 0 10px;
-        }
         .games-view-wrapper-v3 {overflow: visible}
         .game-center-container-multi-v3 {overflow: visible}
         .game-center-container-multi-v3 .ngscroll-scrollbar-container {right: -8px !important;}

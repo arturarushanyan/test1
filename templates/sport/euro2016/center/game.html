@@ -77,7 +77,7 @@
 
 
     <!--Start Of Left Part Markets-->
-    <div class="live-events-column-v3"
+    <div class="live-events-column-v3" ng-show="openGame.selectedMarketGroupId !== -3"
          ng-class="{'single-market-showed': marketsFirstPack.length + marketsSecondPack.length === 1}">
 
         <div class="market-ciew-v3"
@@ -139,7 +139,8 @@
 
     <!--Start Of Right Part Markets-->
     <div class="live-events-column-v3 right-live"
-         ng-class="{'big': $root.videoResizeButton && env.live , 'prem-pad': !env.live}">
+         ng-class="{'big': $root.videoResizeButton && env.live , 'prem-pad': !env.live}"
+         ng-show="openGame.selectedMarketGroupId !== -3">
         <div class="market-ciew-v3"
              ng-repeat="(marketId, groupedMarkets) in marketsSecondPack track by marketId">
             <div class="market-title-v3" ng-class="{'closed': isMarketClosed(groupedMarkets[0].name)}">

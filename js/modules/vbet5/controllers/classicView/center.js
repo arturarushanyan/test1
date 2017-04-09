@@ -159,6 +159,8 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
                 });
 
         }
+        
+        MARKET_GROUP_ALL.count = markets.length;
 
         var halfLength = Math.ceil(filteredMarkets.length / 2);
         $scope.marketsFirstPack = filteredMarkets.filter(function (value, index) {

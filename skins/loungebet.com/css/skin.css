@@ -49544,7 +49544,7 @@ top-game-block {
     overflow: hidden;
     opacity: 0;
     transition: opacity 500ms;
-    transition-delay: 2s;
+    transition-delay: 1s;
 }
 
 .max-bet-new {
@@ -58867,6 +58867,23 @@ div.slider-image-wrapper-b {
     text-align: center;
     white-space: nowrap;
     color: #8f9193;
+}
+
+.market-icons-view-v3 > ul > li.favorite-icon-market-v3:before {
+    content: "\e6e1";
+    font: 16px/20px icomoon;
+}
+
+.market-icons-view-v3 > ul > li.favorite-icon-market-v3.active:before,
+.market-icons-view-v3 > ul > li.favorite-icon-market-v3.remove:before {
+    color: #ff6767;
+}
+
+.market-icons-view-v3 > ul > li.favorite-icon-market-v3:not(.remove):hover:before{
+    color: #8f9193;
+    animation: play-b 500ms;
+    display: block;
+    animation-fill-mode: forwards;
 }
 
 .mini-title-box-gameview-v3:hover {

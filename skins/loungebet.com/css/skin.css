@@ -49028,7 +49028,8 @@ top-game-block {
 
 
 .game-pinned .all-game-info-container-v3 .live-events-view-v3 {
-    height: calc(100% - 225px)
+    height: calc(100% - 225px);
+    padding-top: 52px;
 }
 
 .game-pinned.prematch .games-view-wrapper-v3.prematch-view-v3 .all-game-info-container-v3,
@@ -49097,6 +49098,11 @@ top-game-block {
     height: 100%;
 }
 
+.center-column-v3.prematch .live-events-view-v3 {
+    float: none;
+    position: relative;
+}
+
 .live-events-view-v3 {
     box-sizing: border-box;
     float: left;
@@ -49110,6 +49116,10 @@ top-game-block {
     box-sizing: border-box;
     margin: 200px auto auto;
 }
+
+.center-column-v3.prematch .live-game-view-contain-v3 .all-game-info-container-v3 .md-progress-circular {
+     margin-top: 160px;
+}   
 
 .game-additional-info-v3 {
     box-sizing: border-box;
@@ -50063,6 +50073,7 @@ top-game-block {
 }
 
 .prematch-view-v3 .all-game-info-container-v3 {
+    transform: translate3d(0, 0, 0);
     box-sizing: border-box;
     float: none;
     position: absolute;
@@ -50073,6 +50084,7 @@ top-game-block {
     overflow-x: hidden;
     background: #fffef6;
     padding: 8px;
+    padding-top: 48px;
 }
 
 .prematch-view-v3 .live-events-column-v3 {
@@ -69472,6 +69484,9 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 }
 
 .center-column-v3.live.game-pinned .markets-group-wrap-v3 {
+    position: fixed;
+    top: 0;
+    background-color: white;
     border-right: 0;
     border-left: 0;
 }
@@ -69500,17 +69515,22 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
     white-space: nowrap;
 }
 
-.classic-version-euro2016 .prematch-view-v3 .markets-group-wrap-v3.market-group-prematch {
-    margin-bottom: 6px;
-    padding: 0;
-    width: 100%;
+.classic-version-euro2016 .games-view-wrapper-v3.prematch-view-v3 .markets-group-wrap-v3.market-group-prematch {
+    position: fixed;
+    top: 0;
+    background-color: #fffef6;
     border: none;
-    overflow: hidden;
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    width: calc(100% - 16px);
 }
 
 .classic-version-euro2016  .multi-game-view-game-v3 .markets-group-wrap-v3.market-group-prematch {
     width: 99%;
-    padding: 0 1%;
+    padding: 0 1% 4px;
+    margin-bottom: 2px;
+    border: 0;
 }
 
 .markets-group-wrap-v3>ul>li {

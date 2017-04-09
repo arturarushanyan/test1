@@ -69451,6 +69451,11 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
     color: #fff
 }
 
+.center-column-v3.live.game-pinned .markets-group-wrap-v3 {
+    border-right: 0;
+    border-left: 0;
+}
+
 .markets-group-wrap-v3 {
     float: left;
     width: 100%;

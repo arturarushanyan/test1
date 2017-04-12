@@ -10,7 +10,7 @@
             <li ng-repeat="group in openGame.availableMarketGroups track by group.id"
                 ng-class="{active: openGame.selectedMarketGroupId === group.id, 'favorte-markets-group-j': $first, 'animate-star-odd' : $first && openGame.sport.favouriteMarkets.length % 2 == 1, 'animate-star-even': $first && openGame.sport.favouriteMarkets.length % 2 == 0}"
                 ng-click="selectMarketGroup(group.id)" data-count="{{ group.count }}">
-                <span><i><b>{{ group.name|translate }} </b></i><i ng-show="group.count !== undefined">({{ group.count }})</i></span>
+                <span><i><b>{{ group.name|translate }} </b></i><i ng-show="group.count !== undefined">{{ group.count }}</i></span>
             </li>
         </ul>
     </div>
@@ -31,7 +31,7 @@
                                     ng-show="groupedMarkets[0].cashout && ((!$root.env.live && !!$root.partnerConfig.is_cashout_prematch))"
                                     ng-hide="($root.env.live && $root.partnerConfig.is_cashout_prematch) || openGame.type==1"></li>
                                 <li class="favorite-icon-market-v3 remove"
-                                    ng-click="addToFavouriteMarkets(groupedMarkets)" title="Remove from top"></li>
+                                    ng-click="removeFromFavouriteMarkets(groupedMarkets)" title="Remove from top"></li>
                             </ul>
                         </div>
                     </div>
@@ -217,7 +217,7 @@
                 <li ng-repeat="group in openGame.availableMarketGroups track by group.id"
                     ng-class="{active: openGame.selectedMarketGroupId === group.id, 'favorte-markets-group-j': $first, 'animate-star-odd' : $first && openGame.sport.favouriteMarkets.length % 2 == 1, 'animate-star-even': $first && openGame.sport.favouriteMarkets.length % 2 == 0}"
                     ng-click="selectMarketGroup(group.id)" data-count="{{ group.count }}">
-                    <span><i><b>{{ group.name|translate }} </b></i><i ng-show="group.count !== undefined">({{ group.count }})</i></span>
+                    <span><i><b>{{ group.name|translate }} </b></i><i ng-show="group.count !== undefined">{{ group.count }}</i></span>
                 </li>
             </ul>
         </div>
@@ -234,7 +234,7 @@
                             <div class="market-icons-view-v3">
                                 <ul>
                                     <li class="cashout-icon-market-v3" title="Cash-out available" trans ng-show="groupedMarkets[0].cashout && ((!$root.env.live && !!$root.partnerConfig.is_cashout_prematch))" ng-hide="($root.env.live && $root.partnerConfig.is_cashout_prematch) || openGame.type==1"></li>
-                                    <li class="favorite-icon-market-v3 remove" ng-click="addToFavouriteMarkets(groupedMarkets)" title="Remove from top"></li>
+                                    <li class="favorite-icon-market-v3 remove" ng-click="removeFromFavouriteMarkets(groupedMarkets)" title="Remove from top"></li>
                                 </ul>
                             </div>
                         </div>

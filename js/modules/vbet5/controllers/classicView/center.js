@@ -145,6 +145,7 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
             $scope.marketsFirstPack = $scope.marketsSecondPack = null;
             return;
         }
+        MARKET_GROUP_FAVORITE.count = $scope.openGame.sport.favouriteMarkets.length;
         var filteredMarkets;
         switch ($scope.openGame.selectedMarketGroupId) {
             case MARKET_GROUP_ALL.id:
@@ -697,29 +698,55 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
      * @param {Array} groupedMarkets array of market(s) of same type
      */
     $scope.addToFavouriteMarkets = function addToFavouriteMarkets(groupedMarkets) {
-        var index = $scope.openGame.sport.favouriteMarkets.indexOf(groupedMarkets);
-        if (index === -1) {
+        if (groupedMarkets && -1 === $scope.openGame.sport.favouriteMarkets.indexOf(groupedMarkets)) {
             $scope.openGame.sport.favouriteMarkets.push(groupedMarkets);
             $scope.openGame.sport.favouriteMarketsTypes.push(groupedMarkets[0].fullType);
-        } else {
+            var index = $scope.openGame.markets.indexOf(groupedMarkets);
+            if (-1 !== index) {
+                $scope.openGame.markets.splice(index, 1);
+            }
+            var marketGroup = Utils.getArrayObjectElementHavingFieldValue($scope.openGame.availableMarketGroups, 'id', groupedMarkets[0].group_id);
+            marketGroup.count = marketGroup.count >= groupedMarkets.length ? marketGroup.count - groupedMarkets.length : 0;
+
+            MARKET_GROUP_FAVORITE.count = $scope.openGame.sport.favouriteMarkets.length;
+            var store = Storage.get('favouriteMarketsTypes') || {'0': {}, '1': {}, '2': {}};
+            store[$scope.openGame.type] = store[$scope.openGame.type] || {}; // Should be deleted after some time: type 2 was added after implementing this functionality, so people who has favourite markets, will receive an error when adding market  with type=2
+            store[$scope.openGame.type][$scope.openGame.sport.id] = $scope.openGame.sport.favouriteMarketsTypes;
+            Storage.set('favouriteMarketsTypes', store);
+            divideMarketsArray($scope.openGame.markets);
+        }
+    };
+
+    /**
+     * @ngdoc method
+     * @name removeFromFavouriteMarkets
+     * @methodOf vbet5.controller:classicViewCenterController
+     * @description Removes market from favorites list for sport
+     * @param {Array} groupedMarkets array of market(s) of same type
+     */
+    $scope.removeFromFavouriteMarkets = function removeFromFavouriteMarkets(groupedMarkets) {
+        console.log("removeFromFavouriteMarkets", groupedMarkets);
+        var index = $scope.openGame.sport.favouriteMarkets.indexOf(groupedMarkets);
+        if (groupedMarkets && -1 !== index) {
             $scope.openGame.sport.favouriteMarketsTypes.splice($scope.openGame.sport.favouriteMarketsTypes.indexOf(groupedMarkets[0].fullType), 1);
             $scope.openGame.sport.favouriteMarkets.splice(index, 1);
 
-            if ($scope.openGame.selectedMarketGroupId === MARKET_GROUP_FAVORITE.id) {
-                if (!$scope.openGame.sport.favouriteMarkets.length) {
-                    $scope.openGame.selectedMarketGroupId = MARKET_GROUP_ALL.id;
+            $scope.openGame.markets = [];
+            angular.forEach($scope.openGame.initialMarkets, function (market) {
+                if (-1 === $scope.openGame.sport.favouriteMarketsTypes.indexOf(market[0].fullType)) {
+                    $scope.openGame.markets.push(market);
                 }
+            });
+            var marketGroup = Utils.getArrayObjectElementHavingFieldValue($scope.openGame.availableMarketGroups, 'id', groupedMarkets[0].group_id);
+            marketGroup.count = marketGroup.count + groupedMarkets.length;
 
-                divideMarketsArray($scope.openGame.markets);
-            }
+            MARKET_GROUP_FAVORITE.count = $scope.openGame.sport.favouriteMarkets.length;
+            var store = Storage.get('favouriteMarketsTypes') || {'0': {}, '1': {}, '2': {}};
+            store[$scope.openGame.type] = store[$scope.openGame.type] || {}; // Should be deleted after some time: type 2 was added after implementing this functionality, so people who has favourite markets, will receive an error when adding market  with type=2
+            store[$scope.openGame.type][$scope.openGame.sport.id] = $scope.openGame.sport.favouriteMarketsTypes;
+            Storage.set('favouriteMarketsTypes', store);
+            divideMarketsArray($scope.openGame.markets);
         }
-
-        MARKET_GROUP_FAVORITE.count = $scope.openGame.sport.favouriteMarkets.length;
-
-        var store = Storage.get('favouriteMarketsTypes') || {'0': {}, '1': {}, '2': {}};
-        store[$scope.openGame.type] = store[$scope.openGame.type] || {}; // Should be deleted after some time: type 2 was added after implementing this functionality, so people who has favourite markets, will receive an error when adding market  with type=2
-        store[$scope.openGame.type][$scope.openGame.sport.id] = $scope.openGame.sport.favouriteMarketsTypes;
-        Storage.set('favouriteMarketsTypes', store);
     };
 
     /**
@@ -736,12 +763,15 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
         var store = Storage.get('favouriteMarketsTypes');
         game.sport.favouriteMarketsTypes = store && store[game.type] && store[game.type][game.sport.id] ? store[game.type][game.sport.id] : [];
         game.sport.favouriteMarkets = [];
-        var market;
-        if (game.sport.favouriteMarketsTypes.length && game.markets) {
+        var market, marketGroup;
+        if (0 !== game.sport.favouriteMarketsTypes.length && game.markets) {
             angular.forEach(game.sport.favouriteMarketsTypes, function (fullType) {
                 market = $scope.getArrayObjectElementHavingFieldValue(game.markets, "fullType", fullType);
                 if (market) {
                     game.sport.favouriteMarkets.push(market);
+                    game.markets.splice(game.markets.indexOf(market), 1);
+                    marketGroup = Utils.getArrayObjectElementHavingFieldValue($scope.openGame.availableMarketGroups, 'id', market[0].group_id);
+                    marketGroup.count = marketGroup.count - market.length;
                 }
             });
         }

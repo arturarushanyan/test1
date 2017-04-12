@@ -58890,12 +58890,12 @@ div.slider-image-wrapper-b {
 
 .market-icons-view-v3 > ul > li.favorite-icon-market-v3.active:before,
 .market-icons-view-v3 > ul > li.favorite-icon-market-v3.remove:before {
+    content: "\e6df";
     color: #ff6767;
 }
 
 .market-icons-view-v3 > ul > li.favorite-icon-market-v3:not(.remove):hover:before{
-    color: #8f9193;
-    animation: play-b 500ms;
+    animation: favorite-heart 500ms;
     display: block;
     animation-fill-mode: forwards;
 }
@@ -66670,6 +66670,16 @@ body {
     animation-fill-mode: forwards;
 }
 
+@keyframes favorite-heart {
+    0%, 100% {
+        transform: scale(1);
+        color: #ff6767;
+    }
+    50% {
+        transform: scale(1.16);
+    }
+}
+
 @keyframes play-b {
     0%, 100% {
         transform: scale(1);
@@ -69482,7 +69492,7 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .center-column-v3.live.game-pinned .markets-group-wrap-v3 {
     position: fixed;
     top: 0;
-    background-color: white;
+    background-color: #fffef6;
     border-right: 0;
     border-left: 0;
 }
@@ -69536,11 +69546,11 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
     position: relative;
     color: #303838;
     border: 1px solid #c3c3c3;
-    border-radius: 4px;
+    border-radius: 2px;
     text-align: center;
     transition: 240ms color,240ms background,240ms box-shadow;
-    width: 110px;
-    height: 33px;
+    width: 118px;
+    height: 34px;
     display: inline-block;
     margin-right: 8px;
 }
@@ -69548,9 +69558,9 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .markets-group-wrap-v3>ul>li span {
     position: absolute;
     top: 0;
-    left: 10px;
+    left: 0;
     font: 12px/33px Arial,Helvetica,sans-serif;
-    width: calc(100% - 20px);
+    width: 100%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -69560,6 +69570,37 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .markets-group-wrap-v3>ul>li span b,.markets-group-wrap-v3>ul>li span i {
     font-style: normal;
     font-weight: 400
+}
+
+.markets-group-wrap-v3>ul>li:hover span i b ,
+.markets-group-wrap-v3>ul>li.active span i b {
+    background-color: #fffef6
+}
+
+.markets-group-wrap-v3>ul>li:hover span > i:last-child,
+.markets-group-wrap-v3>ul>li.active span > i:last-child {
+    background-color: #F6F6F6
+}
+
+.markets-group-wrap-v3>ul>li span i b {
+    width: 81px;
+    text-align: center;
+    padding: 0;
+    float: left;
+    background-color: #E5E5DB;
+    border-radius: 2px 0 0 2px;
+    height: 32px;
+}
+
+.markets-group-wrap-v3>ul>li span > i:last-child {
+    background-color: #DEDEDE;
+    height: 32px;
+    float: right;
+    padding: 0 10px;
+    border-left: 1px solid #c3c3c3;
+    width: 14px;
+    text-align: center;
+    border-radius: 0 2px 2px 0;
 }
 
 .markets-group-wrap-v3>ul>li.more-j {
@@ -69595,6 +69636,7 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 }
 
 .markets-group-wrap-v3>ul>li.active {
+    overflow: hidden;
     background-color: #fffef6;
     border-top: none;
 }
@@ -69602,10 +69644,11 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .markets-group-wrap-v3>ul>li.active:before {
     content: '';
     display: block;
-    width: 100%;
+    width: 120px;
     position: absolute;
     height: 3px;
     background-color: #ff8067;
+    z-index: 1000;
 }
 
 .markets-group-wrap-v3>ul>li.active span {

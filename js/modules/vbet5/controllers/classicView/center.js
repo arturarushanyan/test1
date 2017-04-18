@@ -211,6 +211,7 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
                 angular.forEach(region.competition, function (competition) {
                     angular.forEach(competition.game, function (game) {
                         var availableMarketGroups = {};
+                        var summedGroupId = [];
                         game.sport = {id: sport.id, alias: sport.alias, name: sport.name};
                         game.region = {id: region.id, alias: region.alias};
                         game.competition = {id: competition.id, name: competition.name};
@@ -278,10 +279,14 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
                             }
 
                             if (availableMarketGroups[market.group_id]) {
-                                availableMarketGroups[market.group_id].count++;
+                                if (summedGroupId.indexOf(market.name) < 0) {                                   
+                                    summedGroupId.push(market.name);
+                                    availableMarketGroups[market.group_id].count++;
+                                }
                             } else {
                                 availableMarketGroups[market.group_id] = {name: market.group_name, id: market.group_id, count: 1};
                             }
+
                             if (market.second_group_id) {
                                 if (availableMarketGroups[market.second_group_id]) {
                                     availableMarketGroups[market.second_group_id].count++;

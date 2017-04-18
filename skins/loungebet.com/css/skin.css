@@ -69596,11 +69596,11 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
     background-color: #DEDEDE;
     height: 32px;
     float: right;
-    padding: 0 10px;
+    padding: 0;
     border-left: 1px solid #c3c3c3;
-    width: 14px;
     text-align: center;
     border-radius: 0 2px 2px 0;
+    width: 34px;
 }
 
 .markets-group-wrap-v3>ul>li.more-j {

@@ -708,7 +708,7 @@
                                                 ng-class="{'active': openGame.activeFieldType==='field' || playerRemoved || pinnedGames[openGame.id]}"
                                                 ng-show="openGame.has_animation"
                                                 ng-click="openGame.activeFieldType='field'; playerRemoved = true" title="Match Live"
-                                                ng-init="playerRemoved = true">
+                                                ng-init="openGame.activeFieldType='field';playerRemoved = true">
                                             </li>
                                         </ul>
                                     </div>

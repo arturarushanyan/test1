@@ -7820,7 +7820,7 @@ rzslider span.rz-pointer.rz-active:after {
 }
 */
 .multiview-contain .live-game-container .game-content, .dndPlaceholder .live-game-container .game-content {
-    border-radius: 5px;
+    border-radius: 0;
 }
 
 .multiview-contain .live-game-container .game-content .game-info, .dndPlaceholder .live-game-container .game-content .game-info {
@@ -25493,10 +25493,6 @@ label.reg-cup-register-j:nth-of-type(even) {
     color: #ffffff;
     background: #a6aba8;
     cursor: default;
-}
-
-.block-sign-in-form.reset-password .register-steps-b .form-error-icon {
-    bottom: 17px;
 }
 
 .live-chat-b-contain {
@@ -46365,7 +46361,6 @@ top-game-block {
     box-sizing: border-box;
     padding: 0 14px;
     margin: 0;
-    transition: background 250ms;
 }
 
 .header-nav-contain > ul > li.new-info-item > .top-menu-sub-a-t > a > span {
@@ -46404,6 +46399,25 @@ top-game-block {
 .header-nav-contain > ul > li > .top-menu-sub-a-t > a:hover,
 .header-nav-contain > ul > li.active > .top-menu-sub-a-t > a {
     background: #a61f67;
+    color: #ffffff;
+}
+
+.header-nav-contain > ul > li.active > .top-menu-sub-a-t > a {
+    background: #0e5259;
+    color: #ff8067;
+    height: 28px;
+    border-radius: 4px;
+    margin-top: 0px;
+    padding-top: 0px;
+    box-shadow: 0px 1px 3px #363b4a inset;
+}
+
+.header-nav-contain > ul > li > .top-menu-sub-a-t > a:hover {
+    color: #ff8067;
+    background: none;
+}
+
+.header-nav-contain > ul > li > .top-menu-sub-a-t > a:active {
     color: #ffffff;
 }
 
@@ -47204,6 +47218,46 @@ top-game-block {
     cursor: pointer;
 }
 
+.filter-row-v3 > ul > li.active {
+    cursor: default;
+}
+
+.filter-row-v3 > ul > li.all_live_filter { 
+    padding: 7px 5px; 
+    position: relative;
+}
+
+.filter-row-v3 > ul > li.all_live_filter:before {
+    display: block;
+    width: 1px;
+    content: '';
+    background-color: #7c8292;
+    position: absolute;
+    left: -2px;
+    top: 8px;
+    height: 21px;
+}
+
+
+.filter-row-v3 > ul > li.all_live_filter.active {
+    cursor: default;
+}
+
+.filter-row-v3 > ul > li.all_live_filter.active span {
+    background-color: #dddcd8;
+    color: #4a4a4a;
+}
+
+.filter-row-v3 > ul > li.all_live_filter span {
+    color: #7c8292;
+    font: 12px/24px Ubuntu, Arial, Helvetica, sans-serif;
+    padding: 1px 4px;
+}
+
+.filter-row-v3 > ul > li.all_live_filter span:hover {
+    color: #696e7c;
+}
+
 .filter-row-v3 > ul > li:first-child {
     border: none;
     padding-top: 4px;
@@ -47219,7 +47273,6 @@ top-game-block {
     font: 16px/24px icomoon;
     color: #7c8292;
     border-radius: 2px;
-    transition: background 240ms, color 240ms;
 }
 
 .filter-row-v3 > ul > li:hover > i {
@@ -48975,7 +49028,8 @@ top-game-block {
 
 
 .game-pinned .all-game-info-container-v3 .live-events-view-v3 {
-    height: calc(100% - 225px)
+    height: calc(100% - 225px);
+    padding-top: 52px;
 }
 
 .game-pinned.prematch .games-view-wrapper-v3.prematch-view-v3 .all-game-info-container-v3,
@@ -49044,6 +49098,11 @@ top-game-block {
     height: 100%;
 }
 
+.center-column-v3.prematch .live-events-view-v3 {
+    float: none;
+    position: relative;
+}
+
 .live-events-view-v3 {
     box-sizing: border-box;
     float: left;
@@ -49057,6 +49116,10 @@ top-game-block {
     box-sizing: border-box;
     margin: 200px auto auto;
 }
+
+.center-column-v3.prematch .live-game-view-contain-v3 .all-game-info-container-v3 .md-progress-circular {
+     margin-top: 160px;
+}   
 
 .game-additional-info-v3 {
     box-sizing: border-box;
@@ -49491,7 +49554,7 @@ top-game-block {
     overflow: hidden;
     opacity: 0;
     transition: opacity 500ms;
-    transition-delay: 2s;
+    transition-delay: 1s;
 }
 
 .max-bet-new {
@@ -49695,8 +49758,10 @@ top-game-block {
 }
 
 .multi-view-game-info-v3 .favorite-market-view-v3 {
+    padding: 0;
     box-sizing: border-box;
-    padding: 7px 7px 0 7px;
+    width: 98%;
+    margin: 0 1% 8px;
 }
 
 .multi-view-game-info-v3 .favorite-market-view-v3.market-ciew-v3:nth-last-child {
@@ -50008,6 +50073,7 @@ top-game-block {
 }
 
 .prematch-view-v3 .all-game-info-container-v3 {
+    transform: translate3d(0, 0, 0);
     box-sizing: border-box;
     float: none;
     position: absolute;
@@ -50018,6 +50084,7 @@ top-game-block {
     overflow-x: hidden;
     background: #fffef6;
     padding: 8px;
+    padding-top: 48px;
 }
 
 .prematch-view-v3 .live-events-column-v3 {
@@ -58231,21 +58298,6 @@ div.slider-image-wrapper-b {
     box-shadow: 0 1px 0 #0b4046;
 }
 
-.header-nav-contain > ul > li.active > .top-menu-sub-a-t > a {
-    background: #0e5259;
-    color: #ff8067;
-    height: 28px;
-    border-radius: 4px;
-    margin-top: 0px;
-    padding-top: 0px;
-    box-shadow: 0px 1px 3px #363b4a inset;
-}
-
-.header-nav-contain > ul > li > .top-menu-sub-a-t > a:hover {
-    color: #ff8067;
-    background: none;
-}
-
 .headerVersion_2 .subtop-game-menu-j, .headerVersion_2 .subtop-header-menu-j {
     background: #0e5259;
     padding: 0;
@@ -58253,20 +58305,6 @@ div.slider-image-wrapper-b {
 
 .scrolling-toggle-j a.active, .subtop-header-menu-j > ul > li.active > a {
     box-shadow: none;
-}
-
-.subtop-header-menu-j > ul > li.active > a:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 6px 5px 6px;
-    position: relative;
-    top: 2.4em;
-    left: calc(50% - 6px);
-    z-index: 22;
-    border-color: rgba(211, 48, 48, 0) transparent #e6e5dc transparent;
 }
 
 .classic-version-euro2016 {
@@ -58843,6 +58881,23 @@ div.slider-image-wrapper-b {
     text-align: center;
     white-space: nowrap;
     color: #8f9193;
+}
+
+.market-icons-view-v3 > ul > li.favorite-icon-market-v3:before {
+    content: "\e6e1";
+    font: 16px/20px icomoon;
+}
+
+.market-icons-view-v3 > ul > li.favorite-icon-market-v3.active:before,
+.market-icons-view-v3 > ul > li.favorite-icon-market-v3.remove:before {
+    content: "\e6df";
+    color: #ff6767;
+}
+
+.market-icons-view-v3 > ul > li.favorite-icon-market-v3:not(.remove):hover:before{
+    animation: favorite-heart 500ms;
+    display: block;
+    animation-fill-mode: forwards;
 }
 
 .mini-title-box-gameview-v3:hover {
@@ -59732,6 +59787,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     .multi-view-statistic-v3 {
+        border-radius: 5px 5px 0 0;
         box-sizing: border-box;
         float: left;
         width: 100%;
@@ -59850,7 +59906,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     .live-game-container .sport-title, .game-score-multiset ul.title li {
-        background: #105b63;
+        background: #3d9bb7;
         border-top: none;
     }
 
@@ -64405,10 +64461,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     @media screen and (max-width: 1280px) {
-        .game-center-container-multi-v3 .dndPlaceholder, .game-center-container-multi-v3 .multiview-contain {
-            width: 100%;
-            margin: 0 0 10px;
-        }
         .games-view-wrapper-v3 {overflow: visible}
         .game-center-container-multi-v3 {overflow: visible}
         .game-center-container-multi-v3 .ngscroll-scrollbar-container {right: -8px !important;}
@@ -66618,6 +66670,16 @@ body {
     animation-fill-mode: forwards;
 }
 
+@keyframes favorite-heart {
+    0%, 100% {
+        transform: scale(1);
+        color: #ff6767;
+    }
+    50% {
+        transform: scale(1.16);
+    }
+}
+
 @keyframes play-b {
     0%, 100% {
         transform: scale(1);
@@ -68408,15 +68470,6 @@ form.registration-form .register-steps-b .password-info-t ,
     display: block;
 }
 
-.block-slider.popup .form-sign-in.forgot-password .form-error-text ,
-.block-sign-in-form .reset-password .field-separator .password-info-t {
-    width: 100%;
-    position: relative;
-    top: 7px;
-    box-sizing: border-box;
-    float: left;
-}
-
 .block-slider.popup .form-sign-in.forgot-password .form-error-text p {
     padding: 5px;
     color: #d14343;
@@ -68434,7 +68487,7 @@ form.registration-form .register-steps-b .password-info-t:before ,
     display: none;
 }
 
-form.registration-form .form-text.valid > div > input{
+form.registration-form .form-text.valid > div > input {
     border: 1px solid #52a178;
 }
 
@@ -68453,16 +68506,27 @@ form.registration-form .error-icon-f ,
 
 form.registration-form .form-error-text > .error-icon-f,
 .form-sign-in.forgot-password .form-text.error .form-error-text .error-icon-f ,
-.block-sign-in-form .reset-password .field-separator .form-error-text .error-icon-f ,
-.block-sign-in-form .reset-password .field-separator .password-info-t.error {
+.block-sign-in-form .reset-password .field-separator .form-error-text .error-icon-f {
     border-left: 1px solid rgba(210, 72, 72, 0.4);
     border-top: 1px solid rgba(210, 72, 72, 0.4);
 }
 
+.block-sign-in-form .reset-password .field-separator .password-info-t.error .error-icon-f {
+    border-left: 1px solid rgba(210, 72, 72, 0.4);
+    border-top: 1px solid rgba(210, 72, 72, 0.4);
+}
+
+
 .block-slider.popup form.registration-form .register-steps-b .form-error-icon ,
-.block-sign-in-form .reset-password .field-separator .password-info-t .form-error-icon,
-.block-sign-in-form .reset-password .field-separator .password-info-t .form-error-icon {
+.block-sign-in-form .reset-password .field-separator .form-error-icon {
     top: 12px;
+}
+
+.block-sign-in-form .reset-password .field-separator .form-error-icon {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    right: 10px;
 }
 
 form.ng-dirty .form-text.valid .form-error-icon {
@@ -68475,14 +68539,15 @@ form.ng-dirty .form-text.valid .form-error-icon {
 }
 
 .block-slider.popup form.registration-form .register-steps-b .error .form-error-icon:before,
-.block-sign-in-form .reset-password .field-separator .password-info-t.error .form-error-icon:before,{
+.block-sign-in-form .reset-password .field-separator .error .form-error-icon:before,{
     content: "\e117" !important;
 }
 
 .block-slider.popup form.registration-form .register-steps-b .valid .form-error-icon:before,
-.block-sign-in-form .reset-password .field-separator .password-info-t.valid .form-error-icon:before{
+.block-sign-in-form .reset-password .field-separator .valid .form-error-icon:before{
     content: "\e625" !important;
     color: #52a178;
+    font: 20px/18px "icomoon";
     display: block;
 }
 
@@ -68735,7 +68800,7 @@ form.registration-form .city-form-block.new .vb-select:after {
 .register-steps-b .form-text > div > input,
 .register-steps-b .registration-form-city > div > input,
 .register-steps-b .reg-form-input-number > div > input,
-.block-sign-in-form .reset-password .field-separator .form-text.error input {
+.block-sign-in-form .reset-password .field-separator .form-text input {
     background: none;
     box-sizing: border-box;
     padding: 0 38px 0 12px;
@@ -68753,7 +68818,7 @@ form.registration-form .city-form-block.new .vb-select:after {
 
 form.registration-form .register-steps-b .field-separator .form-text > div > input,
 .block-sign-in-form .form-register-layout.signin .field-separator .form-text > input ,
-.block-sign-in-form .reset-password .field-separator .form-text.error input {
+.block-sign-in-form .reset-password .field-separator .form-text input {
     height: 44px;
     padding-top: 8px;
     color: #303739;
@@ -68771,8 +68836,15 @@ form.registration-form .register-steps-b .field-separator .form-text > div > inp
     color: #303838;
 }
 
-.register-steps-b .form-text.error > div > input, .register-steps-b .reg-form-input-number.error > div > input, .form-register-layout.signin .field-separator .form-text.error > input {
+.register-steps-b .form-text.error > div > input, 
+.register-steps-b .reg-form-input-number.error > div > input,
+.form-register-layout.signin .field-separator .form-text.error > input ,
+.block-sign-in-form .reset-password .field-separator .form-text.error input {
     border-color: #d14343;
+}
+
+.reset-password .form-sign-in .field-separator .form-text.valid input{
+    border: 1px solid #52a178;
 }
 
 .block-slider.popup .signin-error-message p, .block-slider.popup .signin-error-message p:before, .input-error-message, .input-error-message:before {
@@ -68821,7 +68893,8 @@ form.registration-form .register-steps-b .field-separator .form-text > div > inp
 
 .block-slider.popup form.ng-pristine .form-error-icon:before,
 .block-slider.popup .form-sign-in.forgot-password .form-error-icon:before,
-.block-slider.popup form.registration-form.ng-dirty .form-error-icon:before {
+.block-slider.popup form.registration-form.ng-dirty .form-error-icon:before ,
+.block-slider .reset-password .field-separator .error.form-text .form-error-icon:before{
     font: 18px/22px icomoon;
     content: "\e117";
     color: #d14343;
@@ -69352,7 +69425,232 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
     display: block;
 }
 
+.block-slider.popup .form-sign-in.forgot-password .form-error-text ,
+.block-sign-in-form .reset-password .field-separator .password-info-t {
+    width: 100%;
+    position: relative;
+    top: 7px;
+    box-sizing: border-box;
+    float: left;
+}
+
 .register-steps-b .form-text > div:hover + .password-info-t, .register-steps-b .tooltip-reg-password.password-info-t, .register-steps-b .reg-form-input-number > div:hover + .password-info-t {
     right: 0;
     left: auto;
+}
+
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3 {
+    border-bottom-color: #404654
+}
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul>li {
+    background-color: #212531;
+    color: #7c8292
+}
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul>li.more-j:before {
+    color: #7c8292
+}
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul>li.favorte-markets-group-j {
+    background-color: #2e323e
+}
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul>li.favorte-markets-group-j.active:before,.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul>li.favorte-markets-group-j:before {
+    color: #ac8336
+}
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul>li.active,.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul>li:hover {
+    background-color: #404654;
+    color: #fff
+}
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul.has-dropdown>li:nth-child(7)~li {
+    background: #363945
+}
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul.has-dropdown>li:nth-child(7)~li.active,.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul.has-dropdown>li:nth-child(7)~li:hover {
+    background: #1a7051;
+    color: #fff
+}
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul.has-dropdown>li:nth-child(7)~li.active span,.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul.has-dropdown>li:nth-child(7)~li:hover span {
+    box-shadow: 0 -1px 0 rgba(33,37,49,0)inset
+}
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul.has-dropdown>li:nth-child(7)~li span {
+    box-shadow: 0 -1px 0 #212531 inset
+}
+
+.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul.has-dropdown.show-dropdown>li.more-j,.body-wrapper.asian .asian-separator-container-b .markets-group-wrap-v3>ul.has-dropdown.show-dropdown>li.more-j:hover {
+    background: #363945;
+    background-clip: padding-box;
+    color: #fff
+}
+
+.center-column-v3.live.game-pinned .markets-group-wrap-v3 {
+    position: fixed;
+    top: 0;
+    background-color: #fffef6;
+    border-right: 0;
+    border-left: 0;
+}
+
+.markets-group-wrap-v3 {
+    float: left;
+    width: 100%;
+    border: 1px solid #c3c3c3;
+    border-top: none;
+    padding: 8px 0;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 200;
+    margin: 0 0 4px
+}
+
+.classic-version-euro2016 .markets-group-wrap-v3 {
+    padding-left: 8px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.markets-group-wrap-v3>ul {
+    position: relative;
+    float: left;
+    white-space: nowrap;
+}
+
+.classic-version-euro2016 .games-view-wrapper-v3.prematch-view-v3 .markets-group-wrap-v3.market-group-prematch {
+    position: fixed;
+    top: 0;
+    background-color: #fffef6;
+    border: none;
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    width: calc(100% - 16px);
+}
+
+.classic-version-euro2016  .multi-game-view-game-v3 .markets-group-wrap-v3.market-group-prematch {
+    width: 99%;
+    padding: 0 1% 4px;
+    margin-bottom: 2px;
+    border: 0;
+}
+
+.markets-group-wrap-v3>ul>li {
+    box-sizing: border-box;
+    background: #e6e5dc;
+    background-clip: padding-box;
+    position: relative;
+    color: #303838;
+    border: 1px solid #c3c3c3;
+    border-radius: 2px;
+    text-align: center;
+    transition: 240ms color,240ms background,240ms box-shadow;
+    width: 118px;
+    height: 34px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.markets-group-wrap-v3>ul>li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font: 12px/33px Arial,Helvetica,sans-serif;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box
+}
+
+.markets-group-wrap-v3>ul>li span b,.markets-group-wrap-v3>ul>li span i {
+    font-style: normal;
+    font-weight: 400
+}
+
+.markets-group-wrap-v3>ul>li:hover span i b ,
+.markets-group-wrap-v3>ul>li.active span i b {
+    background-color: #fffef6
+}
+
+.markets-group-wrap-v3>ul>li:hover span > i:last-child,
+.markets-group-wrap-v3>ul>li.active span > i:last-child {
+    background-color: #F6F6F6
+}
+
+.markets-group-wrap-v3>ul>li span i b {
+    width: 81px;
+    text-align: center;
+    padding: 0;
+    float: left;
+    background-color: #E5E5DB;
+    border-radius: 2px 0 0 2px;
+    height: 32px;
+}
+
+.markets-group-wrap-v3>ul>li span > i:last-child {
+    background-color: #DEDEDE;
+    height: 32px;
+    float: right;
+    padding: 0;
+    border-left: 1px solid #c3c3c3;
+    text-align: center;
+    border-radius: 0 2px 2px 0;
+    width: 34px;
+}
+
+.markets-group-wrap-v3>ul>li.more-j {
+    display: none;
+    width: 60px;
+    border-radius: 0 2px 0 0;
+    text-align: right
+}
+
+.markets-group-wrap-v3>ul>li.more-j:before {
+    content: "\e66c";
+    font: 12px/36px icomoon;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 9px;
+    color: #7c8292
+}
+
+.markets-group-wrap-v3>ul>li.more-j>span {
+    left: 0;
+    width: calc(100% - 28px);
+    font: 12px/33px Arial,Helvetica,sans-serif
+}
+
+.markets-group-wrap-v3>ul>li.favorte-markets-group-j.ng-hide+li {
+    border-radius: 2px 0 0;
+    border-left: 0
+}
+
+.markets-group-wrap-v3>ul>li.favorte-markets-group-j>span {
+    overflow: visible
+}
+
+.markets-group-wrap-v3>ul>li.active {
+    overflow: hidden;
+    background-color: #fffef6;
+    border-top: none;
+}
+
+.markets-group-wrap-v3>ul>li.active:before {
+    content: '';
+    display: block;
+    width: 120px;
+    position: absolute;
+    height: 3px;
+    background-color: #ff8067;
+    z-index: 1000;
+}
+
+.markets-group-wrap-v3>ul>li.active span {
+    top: 1px;
 }

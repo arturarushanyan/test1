@@ -16,8 +16,21 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
     var gameSubscriptionProgress = null;
     var firstTimeLoaded = false;
     var openGameId;
-    var MARKET_GROUP_ALL = -2;
-    var MARKET_GROUP_OTHER = -1;
+
+    var MARKET_GROUP_ALL = {
+        id: -2,
+        name: 'All'
+    };
+    var MARKET_GROUP_OTHER = {
+        id: -1,
+        name: 'Other'
+    };
+    var MARKET_GROUP_FAVORITE = {
+        id: -3,
+        name: 'My Markets',
+        count: 0
+    };
+
     var hoveredLiveGameFullData;
     $scope.visibleSetsNumber = 5; // number of sets to be visible for multiset games
 
@@ -132,14 +145,23 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
             $scope.marketsFirstPack = $scope.marketsSecondPack = null;
             return;
         }
+        MARKET_GROUP_FAVORITE.count = $scope.openGame.sport.favouriteMarkets.length;
         var filteredMarkets;
-        if ($scope.openGame.selectedMarketGroupId && $scope.openGame.selectedMarketGroupId !== MARKET_GROUP_ALL) {
-            filteredMarkets = markets.filter(function (market){
-               return $scope.openGame.selectedMarketGroupId === market[0].group_id || $scope.openGame.selectedMarketGroupId === market[0].second_group_id || (!market[0].group_id && !market[0].second_group_id && $scope.openGame.selectedMarketGroupId === MARKET_GROUP_OTHER);
-            });
-        } else {
-            filteredMarkets = markets;
+        switch ($scope.openGame.selectedMarketGroupId) {
+            case MARKET_GROUP_ALL.id:
+                filteredMarkets = markets;
+                break;
+            case MARKET_GROUP_FAVORITE.id:
+                filteredMarkets = $scope.openGame.sport.favouriteMarkets;
+                break;
+            default:
+                filteredMarkets = markets.filter(function (market){
+                    return $scope.openGame.selectedMarketGroupId === market[0].group_id || $scope.openGame.selectedMarketGroupId === market[0].second_group_id || (!market[0].group_id && !market[0].second_group_id && $scope.openGame.selectedMarketGroupId === MARKET_GROUP_OTHER);
+                });
+
         }
+        
+        MARKET_GROUP_ALL.count = markets.length;
 
         var halfLength = Math.ceil(filteredMarkets.length / 2);
         $scope.marketsFirstPack = filteredMarkets.filter(function (value, index) {
@@ -188,7 +210,8 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
             angular.forEach(sport.region, function (region) {
                 angular.forEach(region.competition, function (competition) {
                     angular.forEach(competition.game, function (game) {
-                        game.availableMarketGroups = {};
+                        var availableMarketGroups = {};
+                        var summedGroupId = [];
                         game.sport = {id: sport.id, alias: sport.alias, name: sport.name};
                         game.region = {id: region.id, alias: region.alias};
                         game.competition = {id: competition.id, name: competition.name};
@@ -228,7 +251,7 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
                                     $scope.openGame.activeFieldType = 'field';
                                 }
                             }
-                        } else if (Config.main.defaultStreaming && Config.main.defaultStreaming.enabled) {
+                        } else if ($scope.openGame.type === 1 && Config.main.defaultStreaming && Config.main.defaultStreaming.enabled) {
                             $scope.openGame.tv_type = Config.main.defaultStreaming.tvType;
                             $scope.openGame.video_data = Config.main.defaultStreaming.streamUrl;
                             if ($scope.enlargedGame) {
@@ -247,24 +270,28 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
 
                         angular.forEach(game.market, function (market) {
                             if (!market.group_id && !market.second_group_id) {
-                                market.group_id = MARKET_GROUP_OTHER;
-                                market.group_name = "Other";
+                                market.group_id = MARKET_GROUP_OTHER.id;
+                                market.group_name = MARKET_GROUP_OTHER.name;
                             }
 
                             if (game.is_cashout_disabled && game.is_cashout_disabled.length && game.is_cashout_disabled.indexOf(siteId) > -1) {
                                 market.cashout = false;
                             }
 
-                            if (game.availableMarketGroups[market.group_id]) {
-                                game.availableMarketGroups[market.group_id].count++;
+                            if (availableMarketGroups[market.group_id]) {
+                                if (summedGroupId.indexOf(market.name) < 0) {                                   
+                                    summedGroupId.push(market.name);
+                                    availableMarketGroups[market.group_id].count++;
+                                }
                             } else {
-                                game.availableMarketGroups[market.group_id] = {name: market.group_name, id: market.group_id, count: 1};
+                                availableMarketGroups[market.group_id] = {name: market.group_name, id: market.group_id, count: 1};
                             }
+
                             if (market.second_group_id) {
-                                if (game.availableMarketGroups[market.second_group_id]) {
-                                    game.availableMarketGroups[market.second_group_id].count++;
+                                if (availableMarketGroups[market.second_group_id]) {
+                                    availableMarketGroups[market.second_group_id].count++;
                                 } else {
-                                    game.availableMarketGroups[market.second_group_id] = {name: market.second_group_name || market.name || market.group_name, id: market.second_group_id, count: 1};
+                                    availableMarketGroups[market.second_group_id] = {name: market.second_group_name || market.name || market.group_name, id: market.second_group_id, count: 1};
                                 }
                             }
 
@@ -281,8 +308,10 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
                             });
                             market.events = Utils.objectToArray(market.event);
                         });
-                        game.availableMarketGroups = Utils.objectToArray(game.availableMarketGroups);
-                        game.availableMarketGroups.unshift({id: MARKET_GROUP_ALL, name : 'All'});
+                        availableMarketGroups = Utils.objectToArray(availableMarketGroups);
+                        var additionalGroups = [MARKET_GROUP_FAVORITE, MARKET_GROUP_ALL];
+
+                        game.availableMarketGroups = availableMarketGroups.length > 1 ? additionalGroups.concat(availableMarketGroups) : additionalGroups;
 
                         if (Config.main.sportMarketGroupsOrder) {
                             var index;
@@ -296,11 +325,8 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
                             });
                             game.availableMarketGroups.sort(Utils.orderSorting);
                         }
-                        if (game.availableMarketGroups.length > 2) { // "All" and "Other" are always present
-                            game.selectedMarketGroupId = game.selectedMarketGroupId || game.availableMarketGroups[0].id;
-                        } else {
-                            game.selectedMarketGroupId = undefined;
-                        }
+
+                        game.selectedMarketGroupId = game.selectedMarketGroupId || game.availableMarketGroups[1].id;
 
                     });
                 });
@@ -405,6 +431,7 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
             return;
         }
 
+        $scope.currentGameIsFinished = false;
         firstTimeLoaded = true;
         $scope.selectedMarketTab = {};
         openGameId = game.id;
@@ -685,6 +712,8 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
             }
             var marketGroup = Utils.getArrayObjectElementHavingFieldValue($scope.openGame.availableMarketGroups, 'id', groupedMarkets[0].group_id);
             marketGroup.count = marketGroup.count >= groupedMarkets.length ? marketGroup.count - groupedMarkets.length : 0;
+
+            MARKET_GROUP_FAVORITE.count = $scope.openGame.sport.favouriteMarkets.length;
             var store = Storage.get('favouriteMarketsTypes') || {'0': {}, '1': {}, '2': {}};
             store[$scope.openGame.type] = store[$scope.openGame.type] || {}; // Should be deleted after some time: type 2 was added after implementing this functionality, so people who has favourite markets, will receive an error when adding market  with type=2
             store[$scope.openGame.type][$scope.openGame.sport.id] = $scope.openGame.sport.favouriteMarketsTypes;
@@ -715,6 +744,8 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
             });
             var marketGroup = Utils.getArrayObjectElementHavingFieldValue($scope.openGame.availableMarketGroups, 'id', groupedMarkets[0].group_id);
             marketGroup.count = marketGroup.count + groupedMarkets.length;
+
+            MARKET_GROUP_FAVORITE.count = $scope.openGame.sport.favouriteMarkets.length;
             var store = Storage.get('favouriteMarketsTypes') || {'0': {}, '1': {}, '2': {}};
             store[$scope.openGame.type] = store[$scope.openGame.type] || {}; // Should be deleted after some time: type 2 was added after implementing this functionality, so people who has favourite markets, will receive an error when adding market  with type=2
             store[$scope.openGame.type][$scope.openGame.sport.id] = $scope.openGame.sport.favouriteMarketsTypes;
@@ -750,6 +781,7 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
             });
         }
         divideMarketsArray(game.markets);
+        MARKET_GROUP_FAVORITE.count = $scope.openGame.sport.favouriteMarkets.length;
     }
 
     $scope.getArrayObjectElementHavingFieldValue = function getArrayObjectElementHavingFieldValue (array, field, value) {

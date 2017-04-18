@@ -76,12 +76,19 @@
                                         </div>
                                     </li>
                                     <li ng-show="env.live && conf.videoEnabled"
-                                        ng-click="toggleVideoFilter()"
+                                        ng-click="liveFilters.withVideo || toggleVideoFilter(true)"
                                         ng-class="{'active':liveFilters.withVideo}"
                                         title="With video"
-                                        trans="attr-only"
-                                    >
+                                        trans="attr-only">
                                         <i class="video-icon-v3"></i>
+                                    </li>
+                                    <li ng-show="env.live && conf.videoEnabled"
+                                        ng-click="!liveFilters.withVideo || toggleVideoFilter(false)"
+                                        ng-class="{'active':!liveFilters.withVideo}"
+                                        class="all_live_filter"
+                                        title="All games"
+                                        trans="attr-only">
+                                        <span>All </span>
                                     </li>
                                     <!--<li>-->
                                     <!--<i class="tv-icon-v3"></i>-->
@@ -507,7 +514,7 @@
 
                             <div class="prematch-header-view-v3">
                                 <div class="prematch-header-row-v3">
-                                    <ul ng-show="openGame">
+                                    <ul ng-show="openGame && !env.live && !openGameLoading && !prematchGamesLoading">
                                         <li>
                                             <p>
                                                 <span>{{openGame.start_ts|formatDate:'noLocaleTranslate':null:$root.env.timeFormat}}</span>
@@ -547,7 +554,7 @@
 
                         <div class="all-game-info-container-v3">
 
-                            <div mb-scrollbar="scrollbar('vertical', true)" style="height: 100%">
+                            <div mb-scrollbar="scrollbar('vertical', true)"  ng-show="!prematchGamesLoading" style="height: 100%">
                                 <div ng-if="conf.videoEnabled && pinnedGameType === 'fullScreen' && !conf.detachedVideoSizes[openGame.tv_type]">
                                     <div ng-if="enlargedGame && enlargedGame.video_data"
                                          class="game-video game-video-detached game-video-fullscreen">
@@ -693,14 +700,15 @@
                                         <ul>
                                             <li class="video-view-icon-v3"
                                                 ng-show="conf.videoEnabled && (openGame.video_id || openGame.video_data) && !pinnedGames[openGame.id] && (!enlargedGame || openGame.id !== enlargedGame.id)"
-                                                ng-class="{'active': openGame.activeFieldType==='video' && !playerRemoved}"
+                                                ng-class="{'active': (openGame.activeFieldType==='video' && !playerRemoved) || !openGame.has_animation}"
                                                 ng-click="openGame.activeFieldType='video'; playerRemoved = false;"
                                                 title="Live Stream">
                                             </li>
                                             <li class="animation-view-icon-v3"
                                                 ng-class="{'active': openGame.activeFieldType==='field' || playerRemoved || pinnedGames[openGame.id]}"
                                                 ng-show="openGame.has_animation"
-                                                ng-click="openGame.activeFieldType='field'" title="Match Live">
+                                                ng-click="openGame.activeFieldType='field'; playerRemoved = true" title="Match Live"
+                                                ng-init="playerRemoved = true">
                                             </li>
                                         </ul>
                                     </div>

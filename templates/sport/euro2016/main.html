@@ -552,7 +552,7 @@
 
                         </div>
 
-                        <div class="all-game-info-container-v3">
+                        <div class="all-game-info-container-v3" ng-class="{'no-market-groups': openGame.availableMarketGroups.length <= 2}" >
 
                             <div mb-scrollbar="scrollbar('vertical', true)"  ng-show="!prematchGamesLoading" style="height: 100%">
                                 <div ng-if="conf.videoEnabled && pinnedGameType === 'fullScreen' && !conf.detachedVideoSizes[openGame.tv_type]">

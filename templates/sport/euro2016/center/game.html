@@ -2,7 +2,7 @@
 
 <div ng-hide="$location.path()=='/sport/'" mb-scrollbar="scrollbar('vertical', false)" style="height: 100%">
   
-   <div class="markets-group-wrap-v3" ng-class="{'market-group-prematch': !env.live}"  ng-show="openGame.markets && openGame.sport.alias !== 'HorseRacing'">
+   <div class="markets-group-wrap-v3" ng-if="openGame.availableMarketGroups.length > 2"  ng-class="{'market-group-prematch': !env.live}"  ng-show="openGame.markets && openGame.sport.alias !== 'HorseRacing'">
         <ul ng-class="{'show-dropdown': marketGroupFilterExpanded, 'has-dropdown': openGame.availableMarketGroups.length > 6 }">
            <!--  <li class="more-j" ng-click="marketGroupFilterExpanded = !marketGroupFilterExpanded" hide-on-click=""
                 state-flag-var="marketGroupFilterExpanded"><span>+ {{ openGame.availableMarketGroups.length - 6 }}</span>
@@ -209,7 +209,7 @@
 
 <div ng-if="$location.path()=='/sport/'">
 
-        <div class="markets-group-wrap-v3" ng-class="{'market-group-prematch': !env.live}"  ng-show="openGame.markets && openGame.sport.alias !== 'HorseRacing'">
+        <div class="markets-group-wrap-v3" ng-if="openGame.availableMarketGroups.length > 2" ng-class="{'market-group-prematch': !env.live}"  ng-show="openGame.markets && openGame.sport.alias !== 'HorseRacing'">
             <ul ng-class="{'show-dropdown': marketGroupFilterExpanded, 'has-dropdown': openGame.availableMarketGroups.length > 6 }">
                <!--  <li class="more-j" ng-click="marketGroupFilterExpanded = !marketGroupFilterExpanded" hide-on-click=""
                     state-flag-var="marketGroupFilterExpanded"><span>+ {{ openGame.availableMarketGroups.length - 6 }}</span>

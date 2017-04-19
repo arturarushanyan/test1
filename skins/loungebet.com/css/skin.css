@@ -49121,6 +49121,10 @@ top-game-block {
      margin-top: 160px;
 }   
 
+.center-column-v3.prematch .live-game-view-contain-v3 .all-game-info-container-v3.no-market-groups .md-progress-circular {
+    margin: 200px auto auto;
+}
+
 .game-additional-info-v3 {
     box-sizing: border-box;
     float: left;
@@ -50085,6 +50089,14 @@ top-game-block {
     background: #fffef6;
     padding: 8px;
     padding-top: 48px;
+}
+
+.prematch-view-v3 .all-game-info-container-v3.no-market-groups {
+    padding-top: 8px;
+}
+
+.game-pinned .all-game-info-container-v3.no-market-groups .live-events-view-v3 {
+    padding: 0;
 }
 
 .prematch-view-v3 .live-events-column-v3 {

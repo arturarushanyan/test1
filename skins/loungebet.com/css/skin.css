@@ -62165,15 +62165,20 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* LeagueOfLegends */
     .sports-item-v3.CallOfDuty,
     .event-view-title.CallOfDuty,
-    .sport-title.CallOfDuty {
+    .sport-title.CallOfDuty,
+    .sports-item-v3.CallofDuty,
+    .event-view-title.CallofDuty,
+    .sport-title.CallofDuty {
         background: #bd9012;
     }
 
-    .sports-item-v3.CallOfDuty + .menu-popup .menu-popup-arrow {
+    .sports-item-v3.CallOfDuty + .menu-popup .menu-popup-arrow,
+    .sports-item-v3.CallofDuty + .menu-popup .menu-popup-arrow {
         border-right-color: #bd9012;
     }
 
-    .sports-item-v3.CallOfDuty > p {
+    .sports-item-v3.CallOfDuty > p,
+    .sports-item-v3.CallofDuty > p {
         color: #fff;
     }
 

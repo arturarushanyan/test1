@@ -883,7 +883,7 @@ select{
 .Floorball {background: url(../images/sport_icons.png) no-repeat 0px -1440px; }
 .Formula1 {background: url(../images/sport_icons.png) no-repeat 0px -450px; }
 .Futsal {background: url(../images/sport_icons.png) no-repeat 0px -480px; }
-.financials:before {content: "\e902";}
+.Financials , .financials {background: url(../images/sport_icons.png) no-repeat 0px -1560px; }
 .favorite-nav-icon-v3 {background: url(../images/sport_icons.png) no-repeat 0px -1020px; }
 .favoritecompetitions {background: url(../images/sport_icons.png) no-repeat 0px -990px; }
 .Freestyle:before, .FreestyleWrestling {background: url(../images/sport_icons.png) no-repeat 0px -2070px; }
@@ -901,7 +901,7 @@ select{
 .IceHockey {background: url(../images/sport_icons.png) no-repeat 0px -120px; }
 .Judo:before {content: "\e62d";}
 .LeagueofLegends, .LeagueOfLegends, .LeagueOflegend {background: url(../images/sport_icons.png) no-repeat 0px -570px; }
-.Lacross {background: url(../images/sport_icons.png) no-repeat 0px -2158px; }
+.Lacross, .Lacrosse {background: url(../images/sport_icons.png) no-repeat 0px -2158px; }
 .LightAthletics:before, .Athletics:before {content: "\e62f";}
 .Lottery:before {content: "\e631";}
 .Luge:before {content: "\e632";}
@@ -925,7 +925,7 @@ select{
 .Pool {background: url(../images/sport_icons.png) no-repeat 0px -1830px; }
 .Rally, .AutoRacing {background: url(../images/sport_icons.png) no-repeat 0px -1170px; }
 .RinkHockey:before {content: "\e644";}
-.Rowing:before {content: "\e645";}
+.Rowing {background: url(../images/sport_icons.png) no-repeat 0px -2215px; }
 .Rugby, .RugbyLeague {background: url(../images/sport_icons.png) no-repeat 0px -720px; }
 .RugbyUnion, .RugbySevens {background: url(../images/sport_icons.png) no-repeat 0px -750px; }
 .Schwingen:before {content: "\e649";}
@@ -933,7 +933,6 @@ select{
 .Shorttrackspeedskating:before {content: "\e64b";}
 .Skeleton:before {content: "\e64c";}
 .SkiJump:before, .SkiJumping {background: url(../images/sport_icons.png) no-repeat 0px -1710px; }
-.financials{margin:-0.3em 0 0 -0.55em;}
 .Skis:before{content: "\e64e";}
 .CrossCountrySkiing {background: url(../images/sport_icons.png) no-repeat 0px -1620px; }
 .Snooker {background: url(../images/sport_icons.png) no-repeat 0px -780px; }
@@ -973,7 +972,7 @@ select{
 .WaterPolo {background: url(../images/sport_icons.png) no-repeat 0px -810px; }
 .WhatWhereWhen {background: url(../images/sport_icons.png) no-repeat 0px -1890px; }
 .WinterOlympics:before {content: "\e63b";}
-.Wrestling:before, .WWE:before, .GrecoRomanWrestling:before {content: "\e66d";}
+.Wrestling , .WWE , .GrecoRomanWrestling {background: url(../images/sport_icons.png) no-repeat 0px -2271px; }
 .Yachting {background: url(../images/sport_icons.png) no-repeat 0px -960px; }
 .X-Sports:before {content: "\e61b";}
 .VirtualHorses:before {content: "\e668";}
@@ -982,18 +981,19 @@ select{
 .Dota, .Dota2 {background: url(../images/sport_icons.png) no-repeat 0px -420px; }
 .Heroes.of.the.Storm, .HeroesoftheStorm,.HeroesOfTheStorm {background: url(../images/sport_icons.png) no-repeat 0px -540px; }
 .WorldofTanks, .WorldOfTanks {background: url(../images/sport_icons.png) no-repeat 0px -840px; }
+.StreetFighterV , .Streetfighterv, .Streetfighterv  {background: url(../images/sport_icons.png) no-repeat 0px -2298px; }
 .Hearthstone {background: url(../images/sport_icons.png) no-repeat 0px -1110px; }
 .StarCraft, .StarCraft2 {background: url(../images/sport_icons.png) no-repeat 0px -1080px; }
 .Nordic.Combined,.NordicCombined {background: url(../images/sport_icons.png) no-repeat 0px -1980px; }
 .Gears.of.war, .GearsOfWar, .Gears.of.War {background: url(../images/sport_icons.png) no-repeat 0px -1950px; }
+.CallofDuty, .CallOfDuty , .callofduty {background: url(../images/sport_icons.png) no-repeat 0px -2244px; }
 .WorldOfWarcraft:before {content: "\29";}
-.CallofDuty:before, .CallOfDuty:before {content: "\e904";}
 .Livemonitor:before {content: "\e630";}
 .Confederations:before,
 .icon-sport-asia.All:before{content: "\e600";}
 .Vainglory {background: url(../images/sport_icons.png) no-repeat 0px -1200px; }
 .tik {background: url(../images/user_img.png) no-repeat 0px 0px; }
-.TVShowsandMovies{background: url(../images/sport_icons.png) no-repeat 0px -2188px; }
+.TVShowsandMovies , .TVShowsAndMovies , .tvshowsandmovies , .TvShowsAndMovies{background: url(../images/sport_icons.png) no-repeat 0px -2189px; }
 
 .menu-games .contain-menu-games ul li a > span.all:before {content: "\e600";}
 .explorer-container .menu-games .contain-menu-games ul li a>span:before {

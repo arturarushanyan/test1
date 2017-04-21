@@ -49320,6 +49320,10 @@ top-game-block {
     color: #c1c4cd;
 }
 
+.market-icons-view-v3 > ul > li:first-child {
+    display: none;
+}
+
 .market-icons-view-v3 > ul > li:before {
     box-sizing: border-box;
     font: 14px/20px icomoon;

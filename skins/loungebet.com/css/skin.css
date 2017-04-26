@@ -58245,6 +58245,20 @@ div.slider-image-wrapper-b {
     color: #ef6653;
 }
 
+.subtop-header-menu-j > ul > li.active > a:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 5px 6px;
+    position: relative;
+    top: 2.4em;
+    left: calc(50% - 6px);
+    z-index: 22;
+    border-color: rgba(211, 48, 48, 0) transparent #e6e5dc transparent;
+}
+
 .slider-image-wrapper-b {
     background-position: right top;
 }

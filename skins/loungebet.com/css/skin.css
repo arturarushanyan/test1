@@ -1526,7 +1526,10 @@ div.title-menu-b {
     background-image: url(../../../images/game-category/Cricket.jpg);
 }
 
-.live-game-container .game-info.game-rugby .game-score.template {
+.live-game-container .game-info.game-rugby .game-score.template ,
+.live-game-container .game-info.game-AustralianFootball .game-score.template ,
+.live-game-container .game-info.game-australianfootball .game-score.template ,
+.live-game-container .game-info.game-afl .game-score.template {
     background-image: url(../../../images/game-category/rugby.jpg);
 }
 

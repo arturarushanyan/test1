@@ -1967,8 +1967,8 @@ div.title-menu-b {
     content: "\e676";
     display: block;
     position: absolute;
-    left: -3px;
-    top: 4px;
+    left: -3px; 
+    top: 0;
 }
 
 .game-score-multiset ul li.left-arrow:before {
@@ -64823,7 +64823,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
     .game-score-multiset.event-view-contain ul.title li {
         font-size: 12px;
-        height: 26px;
+        height: 0;
         line-height: 26px;
     }
 

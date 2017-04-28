@@ -1526,7 +1526,10 @@ div.title-menu-b {
     background-image: url(../../../images/game-category/Cricket.jpg);
 }
 
-.live-game-container .game-info.game-rugby .game-score.template {
+.live-game-container .game-info.game-rugby .game-score.template ,
+.live-game-container .game-info.game-AustralianFootball .game-score.template ,
+.live-game-container .game-info.game-australianfootball .game-score.template ,
+.live-game-container .game-info.game-afl .game-score.template {
     background-image: url(../../../images/game-category/rugby.jpg);
 }
 
@@ -1967,8 +1970,8 @@ div.title-menu-b {
     content: "\e676";
     display: block;
     position: absolute;
-    left: -3px;
-    top: 4px;
+    left: -3px; 
+    top: 0;
 }
 
 .game-score-multiset ul li.left-arrow:before {
@@ -47971,14 +47974,83 @@ top-game-block {
 
 .sport-icon-v3 {
     box-sizing: border-box;
-    width: 37px;
-    height: 100%;
+    width: 18px;
+    height: 21px;
     position: absolute;
     left: 12px;
     top: 6px;
     font: 16px/30px sport-icon;
     color: #fff;
     text-indent: 10px;
+}
+
+.favorite-nav-icon-v3:after {
+    content: "\f005";
+    font: 18px/0 icomoon;
+    top: 10px;
+    left: -9px;
+    position: absolute;
+    box-sizing: border-box; 
+}
+
+.favorites-length:after  {
+    color: #eecc67;
+}
+
+.favorite-nav-icon-v3:before {
+    content: "\f005";
+    position: relative;
+    left: -9px;
+    top: 10px;
+    opacity: 0;
+    z-index: 99;
+    font: 18px/0 icomoon;
+    box-sizing: border-box;
+    color: #eecc67;
+    display: block;
+    transform-origin: bottom;
+    transform-origin: 100% 50%;
+}
+
+.added:before {
+    -webkit-animation: pulse 1.25s cubic-bezier(0.2, 0, 0, 1);
+  -moz-animation: pulse 1.25s cubic-bezier(0.2, 0, 0, 1);
+  -ms-animation: pulse 1.25s cubic-bezier(0.2, 0, 0, 1);
+  animation: pulse 1.25s cubic-bezier(0.2, 0, 0, 1);
+}
+
+@-webkit-keyframes star-flash{
+    0% {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1 
+    }
+    100% {
+        -moz-transform: scale(2.5); 
+        -ms-transform: scale(2.5);
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1 
+    }
+    100% {
+        -moz-transform: scale(2.5); 
+        -ms-transform: scale(2.5);
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5);
+        opacity: 0;
+    }
 }
 
 .sport-icon-v3.Soccer {
@@ -49121,6 +49193,10 @@ top-game-block {
      margin-top: 160px;
 }   
 
+.center-column-v3.prematch .live-game-view-contain-v3 .all-game-info-container-v3.no-market-groups .md-progress-circular {
+    margin: 200px auto auto;
+}
+
 .game-additional-info-v3 {
     box-sizing: border-box;
     float: left;
@@ -49314,6 +49390,10 @@ top-game-block {
     text-align: center;
     white-space: nowrap;
     color: #c1c4cd;
+}
+
+.market-icons-view-v3 > ul > li:first-child {
+    display: none;
 }
 
 .market-icons-view-v3 > ul > li:before {
@@ -50084,7 +50164,15 @@ top-game-block {
     overflow-x: hidden;
     background: #fffef6;
     padding: 8px;
-    padding-top: 48px;
+    padding-top: 50px;
+}
+
+.prematch-view-v3 .all-game-info-container-v3.no-market-groups {
+    padding-top: 8px;
+}
+
+.game-pinned .all-game-info-container-v3.no-market-groups .live-events-view-v3 {
+    padding: 0;
 }
 
 .prematch-view-v3 .live-events-column-v3 {
@@ -58229,6 +58317,20 @@ div.slider-image-wrapper-b {
     color: #ef6653;
 }
 
+.subtop-header-menu-j > ul > li.active > a:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 5px 6px;
+    position: relative;
+    top: 2.4em;
+    left: calc(50% - 6px);
+    z-index: 22;
+    border-color: rgba(211, 48, 48, 0) transparent #e6e5dc transparent;
+}
+
 .slider-image-wrapper-b {
     background-position: right top;
 }
@@ -58890,12 +58992,12 @@ div.slider-image-wrapper-b {
 
 .market-icons-view-v3 > ul > li.favorite-icon-market-v3.active:before,
 .market-icons-view-v3 > ul > li.favorite-icon-market-v3.remove:before {
+    content: "\e6df";
     color: #ff6767;
 }
 
 .market-icons-view-v3 > ul > li.favorite-icon-market-v3:not(.remove):hover:before{
-    color: #8f9193;
-    animation: play-b 500ms;
+    animation: favorite-heart 500ms;
     display: block;
     animation-fill-mode: forwards;
 }
@@ -62153,15 +62255,20 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* LeagueOfLegends */
     .sports-item-v3.CallOfDuty,
     .event-view-title.CallOfDuty,
-    .sport-title.CallOfDuty {
+    .sport-title.CallOfDuty,
+    .sports-item-v3.CallofDuty,
+    .event-view-title.CallofDuty,
+    .sport-title.CallofDuty {
         background: #bd9012;
     }
 
-    .sports-item-v3.CallOfDuty + .menu-popup .menu-popup-arrow {
+    .sports-item-v3.CallOfDuty + .menu-popup .menu-popup-arrow,
+    .sports-item-v3.CallofDuty + .menu-popup .menu-popup-arrow {
         border-right-color: #bd9012;
     }
 
-    .sports-item-v3.CallOfDuty > p {
+    .sports-item-v3.CallOfDuty > p,
+    .sports-item-v3.CallofDuty > p {
         color: #fff;
     }
 
@@ -64788,7 +64895,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
     .game-score-multiset.event-view-contain ul.title li {
         font-size: 12px;
-        height: 26px;
+        height: 0;
         line-height: 26px;
     }
 
@@ -66668,6 +66775,16 @@ body {
     animation: play-b 500ms infinite;
     display: block;
     animation-fill-mode: forwards;
+}
+
+@keyframes favorite-heart {
+    0%, 100% {
+        transform: scale(1);
+        color: #ff6767;
+    }
+    50% {
+        transform: scale(1.16);
+    }
 }
 
 @keyframes play-b {
@@ -69479,10 +69596,69 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
     color: #fff
 }
 
+.markets-group-wrap-v3 {
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+}
+
+.markets-group-wrap-v3 .btn.disabled {
+    display: none
+}
+
+.markets-group-wrap-v3 .btn {
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border: 1px solid #c3c3c3;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .2s;
+}
+
+.markets-group-wrap-v3:hover .btn {
+    opacity: 0.9;
+}   
+
+.markets-group-wrap-v3:hover .btn:hover {
+    opacity: 1;
+}   
+
+.markets-group-wrap-v3 .btn .arrow-view-v3 {
+    color: #7c8292;
+    font: 20px/30px icomoon;
+    position: relative;
+    height: 100%;
+    width: 100%;
+} 
+
+.markets-group-wrap-v3 .btn .arrow-view-v3:before {
+    box-sizing: border-box;
+    content: "\e671";
+}
+
+.markets-group-wrap-v3 .btn.nextPage {
+    position: fixed;
+    right: 8px;
+}
+
+.markets-group-wrap-v3 .btn.prevPage {
+    position: fixed;
+    left: 8px;
+}
+
+.markets-group-wrap-v3 .btn.nextPage .arrow-view-v3 {
+    transform: rotate(90deg);
+}
+
+.markets-group-wrap-v3 .btn.prevPage .arrow-view-v3 {
+    transform: rotate(-90deg);
+}
+
 .center-column-v3.live.game-pinned .markets-group-wrap-v3 {
     position: fixed;
     top: 0;
-    background-color: white;
+    background-color: #fffef6;
     border-right: 0;
     border-left: 0;
 }
@@ -69536,11 +69712,11 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
     position: relative;
     color: #303838;
     border: 1px solid #c3c3c3;
-    border-radius: 4px;
+    border-radius: 2px;
     text-align: center;
     transition: 240ms color,240ms background,240ms box-shadow;
-    width: 110px;
-    height: 33px;
+    width: 118px;
+    height: 34px;
     display: inline-block;
     margin-right: 8px;
 }
@@ -69548,9 +69724,9 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .markets-group-wrap-v3>ul>li span {
     position: absolute;
     top: 0;
-    left: 10px;
+    left: 0;
     font: 12px/33px Arial,Helvetica,sans-serif;
-    width: calc(100% - 20px);
+    width: 100%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -69560,6 +69736,37 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .markets-group-wrap-v3>ul>li span b,.markets-group-wrap-v3>ul>li span i {
     font-style: normal;
     font-weight: 400
+}
+
+.markets-group-wrap-v3>ul>li:hover span i b ,
+.markets-group-wrap-v3>ul>li.active span i b {
+    background-color: #fffef6
+}
+
+.markets-group-wrap-v3>ul>li:hover span > i:last-child,
+.markets-group-wrap-v3>ul>li.active span > i:last-child {
+    background-color: #F6F6F6
+}
+
+.markets-group-wrap-v3>ul>li span i b {
+    width: 81px;
+    text-align: center;
+    padding: 0;
+    float: left;
+    background-color: #E5E5DB;
+    border-radius: 2px 0 0 2px;
+    height: 32px;
+}
+
+.markets-group-wrap-v3>ul>li span > i:last-child {
+    background-color: #DEDEDE;
+    height: 32px;
+    float: right;
+    padding: 0;
+    border-left: 1px solid #c3c3c3;
+    text-align: center;
+    border-radius: 0 2px 2px 0;
+    width: 34px;
 }
 
 .markets-group-wrap-v3>ul>li.more-j {
@@ -69595,6 +69802,7 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 }
 
 .markets-group-wrap-v3>ul>li.active {
+    overflow: hidden;
     background-color: #fffef6;
     border-top: none;
 }
@@ -69602,10 +69810,11 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .markets-group-wrap-v3>ul>li.active:before {
     content: '';
     display: block;
-    width: 100%;
+    width: 120px;
     position: absolute;
     height: 3px;
     background-color: #ff8067;
+    z-index: 1000;
 }
 
 .markets-group-wrap-v3>ul>li.active span {

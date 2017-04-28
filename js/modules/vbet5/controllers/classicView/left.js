@@ -447,7 +447,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
         $scope.animation.pulse=true;
         TimeoutWrapper(function () {
             $scope.animation.pulse=false;
-        },500,true);
+        },200,true);
     }
 
     /**

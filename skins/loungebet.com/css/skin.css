@@ -48013,10 +48013,10 @@ top-game-block {
 }
 
 .added:before {
-    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.2, 0, 0, 1);
-  -moz-animation: pulse 1.25s infinite cubic-bezier(0.2, 0, 0, 1);
-  -ms-animation: pulse 1.25s infinite cubic-bezier(0.2, 0, 0, 1);
-  animation: pulse 1.25s infinite cubic-bezier(0.2, 0, 0, 1);
+    -webkit-animation: pulse 1.25s cubic-bezier(0.2, 0, 0, 1);
+  -moz-animation: pulse 1.25s cubic-bezier(0.2, 0, 0, 1);
+  -ms-animation: pulse 1.25s cubic-bezier(0.2, 0, 0, 1);
+  animation: pulse 1.25s cubic-bezier(0.2, 0, 0, 1);
 }
 
 @-webkit-keyframes star-flash{
@@ -50164,7 +50164,7 @@ top-game-block {
     overflow-x: hidden;
     background: #fffef6;
     padding: 8px;
-    padding-top: 48px;
+    padding-top: 50px;
 }
 
 .prematch-view-v3 .all-game-info-container-v3.no-market-groups {
@@ -69594,6 +69594,65 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
     background: #363945;
     background-clip: padding-box;
     color: #fff
+}
+
+.markets-group-wrap-v3 {
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+}
+
+.markets-group-wrap-v3 .btn.disabled {
+    display: none
+}
+
+.markets-group-wrap-v3 .btn {
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border: 1px solid #c3c3c3;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .2s;
+}
+
+.markets-group-wrap-v3:hover .btn {
+    opacity: 0.9;
+}   
+
+.markets-group-wrap-v3:hover .btn:hover {
+    opacity: 1;
+}   
+
+.markets-group-wrap-v3 .btn .arrow-view-v3 {
+    color: #7c8292;
+    font: 20px/30px icomoon;
+    position: relative;
+    height: 100%;
+    width: 100%;
+} 
+
+.markets-group-wrap-v3 .btn .arrow-view-v3:before {
+    box-sizing: border-box;
+    content: "\e671";
+}
+
+.markets-group-wrap-v3 .btn.nextPage {
+    position: fixed;
+    right: 8px;
+}
+
+.markets-group-wrap-v3 .btn.prevPage {
+    position: fixed;
+    left: 8px;
+}
+
+.markets-group-wrap-v3 .btn.nextPage .arrow-view-v3 {
+    transform: rotate(90deg);
+}
+
+.markets-group-wrap-v3 .btn.prevPage .arrow-view-v3 {
+    transform: rotate(-90deg);
 }
 
 .center-column-v3.live.game-pinned .markets-group-wrap-v3 {

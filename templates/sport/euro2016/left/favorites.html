@@ -60,7 +60,7 @@
 
             <div ng-if="leftMenuClosed" class="sports-item-v3 {{sport.alias}} {{(leftMenuState.favorites.expanded && myGames.length)? 'active' : ''}} "
                  ng-mouseover="leftMenuState.favorites.expanded = !leftMenuState.favorites.expanded;">
-                <div class="sport-icon-v3 favorite-nav-icon-v3"></div>
+                <div class="sport-icon-v3 favorite-nav-icon-v3" ng-class="{'added': animation.pulse , 'favorites-length': myGames.length>0}"></div>
             </div>
 
             <div ng-if="leftMenuClosed && hovered" ng-mouseover="hovered = true" ng-mouseout="hovered = false" class="menu-popup">

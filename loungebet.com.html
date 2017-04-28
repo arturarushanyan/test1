@@ -57,8 +57,7 @@
 </head>
 
 <body>
-
-<div ng-if="!env.isOffline || conf.oldHomepage" id="preloader" style="background-color:#fffef6;height:100%;width:100%;position:fixed;z-index:999999999;margin:0;top:0;left:0;right:0;">
+<div id="preloader" style="background-color:#fffef6;height:100%;width:100%;position:fixed;z-index:999999999;margin:0;top:0;left:0;right:0;">
     <img style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 240px;" src="skins/loungebet.com/images/logo_join.png" alt="Loungebet">
 </div>
 
@@ -113,6 +112,10 @@
         <script src="js/modules/vbet5/routes.js"></script>
         <script src="lib/modules/rg-slider.min.js"></script>
         <script src="lib/modules/rzslider.min.js"></script>
+
+        <script src="lib/modules/jquery.min.js"></script>
+        <script src="lib/modules/jquery-ui.min.js"></script>
+        <script src="lib/modules/sly.min.js"></script>
 
         <script src="js/modules/vbet5/constants/countryCodes.js"></script>
         <script src="js/modules/vbet5/constants/geoIpLangSwitch.js"></script>
@@ -212,6 +215,7 @@
         <script src="js/modules/vbet5/directives/subMenuCreator.js"></script>
         <script src="js/modules/vbet5/directives/mbScrollbar.js"></script>
         <script src="js/modules/vbet5/directives/ng-password-strength.js"></script>
+        <script src="js/modules/vbet5/directives/carousel.js"></script>
 
         <script src="js/modules/vbet5/filters/firstElement.js"></script>
         <script src="js/modules/vbet5/filters/translate.js"></script>

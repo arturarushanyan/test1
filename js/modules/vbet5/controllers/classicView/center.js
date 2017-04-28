@@ -184,7 +184,6 @@ angular.module('vbet5.betting').controller('classicViewCenterController', ['$roo
      * @param {Number} groupId group id to select
      */
     $scope.selectMarketGroup = function selectMarketGroup(groupId) {
-        console.log("selectMarketGroup", groupId);
         $scope.openGame.selectedMarketGroupId = groupId;
         divideMarketsArray($scope.openGame.markets);
     };

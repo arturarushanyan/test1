@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Documents
+    </title>
+    <link rel="stylesheet" type="text/css" href="../../../css/fonts/default.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../../skins/loungebet.com/css/skin.css">
+    <link rel="stylesheet" type="text/css" href="css/new_account_style.css">
+    <link rel="stylesheet" type="text/css" href="css/medias.css">
+</head>
+<body>
+
+<div class="account-main-container">
+    <!-- left side start -->
+    <div class="account-left-container floating-element">
+        <div class="account-heading">
+            <p>
+                My Account
+                <span class="icon-Close_LSB"></span>
+            </p>
+        </div>
+        <div class="account-accordion">
+            <div class="acc-main-item balance-management">
+                <p>
+                    <span class="icon-Balance_Management"></span>
+                    Balance Management
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="acc-main-item my-profile active">
+                <p>
+                    <span class="icon-My_Profile"></span>
+                    My Profile
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="accordion-container">
+                <ul class="my-profile-container">
+                    <li><a href="#">My Details</a></li>
+                    <li class="active"><a href="#">Documents</a></li>
+                    <li><a href="#">Self Limits</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+            </div>
+            <div class="acc-main-item history">
+                <p>
+                    <span class="icon-History"></span>
+                    History
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item promotions">
+                <p>
+                    <span class="icon-Promotions"></span>
+                    Promotions
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item vip">
+                <p>
+                    <span class="icon-VIP"></span>
+                    VIP
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item messages">
+                <p>
+                    <span class="icon-Messages"></span>
+                    Messages
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+        </div>
+
+        <div class="fill-div"></div>
+    </div>
+    <!-- left side end -->
+
+    <!-- middle side start -->
+    <div class="account-middle-container floating-element">
+        <div class="middle-wrapper-heading">
+            <p>My Profile</p>
+        </div>
+
+        <div class="account-middle-left-wrapper inline-element">
+            <div class="avatar-wrapper">
+
+                <div class="image-wrapper">
+                    <div class="gray-border"></div>
+                    <div class="loyalty-level-circle">3</div>
+                    <div class="circle-points-wrapper" data-anim="base wrapper">
+
+                        <div class="loyalty-points-circle" data-anim="base left"></div>
+                        <div class="loyalty-points-circle" data-anim="base right"></div>
+
+                    </div>
+                    <img src="img/avatar.jpg" alt="avatar">
+                </div>
+            </div>
+            <div class="username-heading">
+                <p class="username">John Doe</p>
+            </div>
+            <div class="button-wrapper">
+                <button class="change-avatar">Change Avatar</button>
+                <button class="file-upload">
+                    <input type="file" class="file-input">Upload Image
+                </button>
+            </div>
+            <table class="balance-table">
+                <tr class="total-balance">
+                    <td>Total Balance</td>
+                    <td>$ 601.50</td>
+                </tr>
+                <tr class="total-bonus">
+                    <td>Total Bonus Money </td>
+                    <td>$ 325.80</td>
+                </tr>
+                <tr class="withdraw-funds">
+                    <td>Withdrawable Funds </td>
+                    <td>$ 927.30</td>
+                </tr>
+            </table>
+            <div class="loyalty-wrapper">
+                <div class="loyalty-heading">
+
+                    <h4>
+                        <span class="icon-VIP"></span>
+                        Loyalty Points
+                    </h4>
+                </div>
+                <div class="loyalty-level">
+                    <p class="inline-element">Your Level Now</p>
+                    <p class="current-level inline-element">LEVEL 3</p>
+                    <div class="level-progress-bar">
+                        <span class="progress-level level-1 floating-element"></span>
+                        <span class="progress-level level-2 floating-element"></span>
+                        <span class="progress-level level-3 floating-element"></span>
+                        <span class="progress-level level-4 floating-element"></span>
+                        <span class="progress-level level-5 floating-element"></span>
+                    </div>
+                </div>
+            </div>
+        </div> <!--end middle-left-->
+
+        <!-- MIDDLE MIDDLE -->
+        <div class="account-middle-middle-wrapper inline-element">
+            <div class="account-middle-navigation">
+                <ul class="acc-middle-top-menu">
+                    <li class="floating-element"><a href="new_account_my_details.html">My Details</a></li>
+                    <li class="floating-element  active"><a href="new_account_documents.html">Documents</a></li>
+                    <li class="floating-element"><a href="new_account_self_limits.html">Self Limits</a></li>
+                    <li class="floating-element"><a href="my_account_my_profile_settings.html">Settings</a></li>
+                    <li class="floating-element"><a href="my_account_my_profile_security.html">Security</a></li>
+                </ul>
+            </div>
+            <div class="my-account-changing-content" ng-view>
+                <div class="documents-wrapper">
+                    <p class="documents-info">
+                        In order to verify your account, you should upload the documents that proves your personal information.
+                        We are required by the Malta Gaming Authority (MGA) and both Malta and European Anti-Money Laundering regulations to verify the identity and address of our customers.
+                    </p>
+                    <form class="doc-proof-form proof-id">
+                        <!--Proof of ID-->
+                        <div class="proof-container">
+                            <h5 class="proof-heading">Proof of ID</h5>
+                            <p>
+                                To verify your identity please upload a copy of your identification document.
+                                Acceptable documents are: Passport, Driving License, National ID Card.
+                            </p>
+                            <label class="doctype-label">Document Type</label>
+                            <br>
+                            <div class="half-container proof-id floating-element">
+                                <select id="proof-id-select">
+                                    <option>Passport</option>
+                                    <option>Driving License</option>
+                                    <option>National ID Card</option>
+                                </select>
+                            </div>
+                            <div class="half-container proof-id-upload floating-element">
+                                <input type="file" name="file" id="file1" class="inputfile" />
+                                <label for="file1">Choose a file</label>
+                                <button class="upload-button">Upload</button>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <!--Proof of Address/bank-->
+                        <div class="proof-container">
+                            <h5 class="proof-heading">Proof of Address / Bank Statement</h5>
+                            <p>
+                                For confirming your address please upload a copy of your latest Utility Bill or Bank Statement, showing your name and address.
+                            </p>
+                            <label class="doctype-label">Document Type</label>
+                            <br>
+                            <div class="half-container proof-add floating-element">
+                                <select id="proof-address-select">
+                                    <option>Bank Statement</option>
+                                    <option>Utility Bill</option>
+                                </select>
+                            </div>
+                            <div class="half-container proof-add-upload floating-element">
+                                <input type="file" name="file" id="file2" class="inputfile" />
+                                <label for="file2">Choose a file</label>
+                                <button class="upload-button">Upload</button>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <!--Other-->
+                        <div class="proof-container">
+                            <h5 class="proof-heading">Other</h5>
+                            <p>
+                                To verify your account and/or method of deposit or withdrawal other documents could be needed which you can upload here.
+                                A copy of your credit/debit card is one example of such a document.
+                            </p>
+                            <label class="doctype-label">Document Type</label>
+                            <br>
+                            <div class="half-container proof-oth floating-element">
+                                <input type="text" name="otherproof" placeholder="Enter Document Name">
+                            </div>
+                            <div class="half-container proof-oth-upload floating-element">
+                                <input type="file" name="file" id="file3" class="inputfile" />
+                                <label for="file3">Choose a file</label>
+                                <button class="upload-button">Upload</button>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="info-note">
+                            NOTE: For uploading a file please be sure that your file type is one of this formats: JPG, PNG, GIF or PDF, where a file doesn’t exceed 3MB in size.
+                        </div>
+                        <div class="documents-table-wrapper">
+                            <h5>Uploaded Documents</h5>
+                            <table class="documents-table">
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Document Type</th>
+                                    <th>Status</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        01/06/2016 | 21:53:01
+                                    </td>
+                                    <td>Passport</td>
+                                    <td>IN PROCESS</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        01/06/2016 | 21:53:01
+                                    </td>
+                                    <td>Driving License</td>
+                                    <td>Rejected</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        01/06/2016 | 21:53:01
+                                    </td>
+                                    <td>National ID</td>
+                                    <td>Approved</td>
+                                </tr>
+                            </table>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- middle side end -->
+</div>
+
+
+
+
+
+
+</body>
+</html>

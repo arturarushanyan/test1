@@ -508,7 +508,7 @@
                     <!--Prematch view END-->
 
                     <!--Live/Prematch game view-->
-                    <div class="live-game-view-contain-v3">
+                    <div class="live-game-view-contain-v3 frame">
 
                         <div class="game-header-view-v3" ng-show="!env.live">
 
@@ -552,7 +552,7 @@
 
                         </div>
 
-                        <div class="all-game-info-container-v3">
+                        <div class="all-game-info-container-v3" ng-class="{'no-market-groups': openGame.availableMarketGroups.length <= 2}" >
 
                             <div mb-scrollbar="scrollbar('vertical', true)"  ng-show="!prematchGamesLoading" style="height: 100%">
                                 <div ng-if="conf.videoEnabled && pinnedGameType === 'fullScreen' && !conf.detachedVideoSizes[openGame.tv_type]">
@@ -708,7 +708,7 @@
                                                 ng-class="{'active': openGame.activeFieldType==='field' || playerRemoved || pinnedGames[openGame.id]}"
                                                 ng-show="openGame.has_animation"
                                                 ng-click="openGame.activeFieldType='field'; playerRemoved = true" title="Match Live"
-                                                ng-init="playerRemoved = true">
+                                                ng-init="openGame.activeFieldType='field';playerRemoved = true">
                                             </li>
                                         </ul>
                                     </div>

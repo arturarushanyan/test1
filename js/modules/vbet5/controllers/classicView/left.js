@@ -442,6 +442,14 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
         loadLeftMenuLive();    
     };
 
+    $scope.animation={pulse:false};
+    $scope.pulse=function(){
+        $scope.animation.pulse=true;
+        TimeoutWrapper(function () {
+            $scope.animation.pulse=false;
+        },500,true);
+    }
+
     /**
      * @ngdoc method
      * @name toggleGameFavorite
@@ -452,6 +460,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
     $scope.toggleGameFavorite = function toggleGameFavorite(game) {
         if (!$rootScope.myGames || $rootScope.myGames.indexOf(game.id) === -1) {
             $scope.$emit('game.addToMyGames', game);
+            $scope.pulse();
         } else {
             $scope.$emit('game.removeGameFromMyGames', game);
         }
@@ -987,7 +996,7 @@ angular.module('vbet5.betting').controller('classicViewLeftController', ['$rootS
             TimeoutWrapper(function () {
                 DomHelper.scrollVisible("sports-list-container", "sport-" + sport.alias, false);
                 $scope.toggleLeftMenu(false);
-            }, 500);
+            }, 100);
         } else {
             $scope.toggleLeftMenu(true);
         }

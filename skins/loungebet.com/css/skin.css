@@ -47974,14 +47974,83 @@ top-game-block {
 
 .sport-icon-v3 {
     box-sizing: border-box;
-    width: 37px;
-    height: 100%;
+    width: 18px;
+    height: 21px;
     position: absolute;
     left: 12px;
     top: 6px;
     font: 16px/30px sport-icon;
     color: #fff;
     text-indent: 10px;
+}
+
+.favorite-nav-icon-v3:after {
+    content: "\f005";
+    font: 18px/0 icomoon;
+    top: 10px;
+    left: -9px;
+    position: absolute;
+    box-sizing: border-box; 
+}
+
+.favorites-length:after  {
+    color: #eecc67;
+}
+
+.favorite-nav-icon-v3:before {
+    content: "\f005";
+    position: relative;
+    left: -9px;
+    top: 10px;
+    opacity: 0;
+    z-index: 99;
+    font: 18px/0 icomoon;
+    box-sizing: border-box;
+    color: #eecc67;
+    display: block;
+    transform-origin: bottom;
+    transform-origin: 100% 50%;
+}
+
+.added:before {
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.2, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.2, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.2, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.2, 0, 0, 1);
+}
+
+@-webkit-keyframes star-flash{
+    0% {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1 
+    }
+    100% {
+        -moz-transform: scale(2.5); 
+        -ms-transform: scale(2.5);
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1 
+    }
+    100% {
+        -moz-transform: scale(2.5); 
+        -ms-transform: scale(2.5);
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5);
+        opacity: 0;
+    }
 }
 
 .sport-icon-v3.Soccer {

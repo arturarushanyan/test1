@@ -61824,7 +61824,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* Soccer */
     .sports-item-v3.Soccer,
     .event-view-title.Soccer,
-    .sport-title.Soccer, .overview-Soccer {
+    .sport-title.Soccer, .overview-Soccer, .overview-Football {
         background: #1ba673;
     }
 

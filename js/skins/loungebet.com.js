@@ -84,7 +84,7 @@ VBET5.constant('SkinConfig', {
             {
                 alias: "dashboard",
                 displayName: "Dashboard",
-                enabled: false
+                enabled: true
             },
             {
                 alias: "overview",

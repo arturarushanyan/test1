@@ -50,8 +50,15 @@ VBET5.directive('slyHorizontalRepeat', [
             };
             $(window).on('resize', function () {
               frame.sly('reload');
-              console.log('resize');
             });
+            scope.$watch(
+              function() {return cont.width()},
+              function(newValue, oldValue) {
+                if ( newValue !== oldValue ) {
+                  frame.sly('reload');
+                }
+              }
+            );
             // Call Sly on frame
             frame.sly(options, callback());  //         scope.$emit('ngRepeatFinished');
           });

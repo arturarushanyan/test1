@@ -1,0 +1,12 @@
+<div class="copyright" ng-show="!conf.disableFooterCopyrightBlock">
+    <ul>
+        <li>&copy; <span ng-show="(now|date:'yyyy') > conf.copyrightSince">{{conf.copyrightSince}} - </span>{{now|date:'yyyy'}} <a href="#/">{{conf.site_name}}</a></li>
+        <li><span ng-if="conf.poweredByInFooter" ng-bind-html="'Powered by BETConstruct'|translate|html"></span><span trans>All rights reserved.</span></li> 
+        <li class="footer-logos-t">
+            <a ng-click="" onclick="window.open('https://www.authorisation.mga.org.mt/verification.aspx?lang=en&company=d10daec7-dde7-441a-b9ef-2666667bf4fc', 'MGA', 'width=920,height=800,menubar=no,toolbar=no,location=no,scrollbars=no,resizable=yes');" href="javascript:void(0);">
+                <img src="skins/vbet.com/images/mga-logo.png" />
+            </a>
+            <img src="skins/vbet.com/images/gambleware-logo.png" />
+        </li>
+    </ul>
+</div>

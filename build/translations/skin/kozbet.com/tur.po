@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+
+# 
+msgid "History"
+msgstr "GEÇMİŞ"
+
+
+# 
+msgid "Password should contain at least 8 characters"
+msgstr "Şifreniz minimum 8 Haneli olmak zorundadır."
+
+# 
+msgid "Password should contain at least 8 characters."
+msgstr "Şifreniz minimum 8 Haneli olmak zorundadır.."
+
+# 
+msgid "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Şifreniz rakam ve harfler içermelidir. En az bir harf büyük olmalıdır.Şifrenizde boşluk olmamalıdır."
+
+
+# 
+msgid "Card Number"
+msgstr "Kart Numarası"
+
+# 
+msgid "Card code"
+msgstr "4 Haneli Güvenlik No"
+
+# 
+msgid "Expiry date(mm)"
+msgstr "Son Kulanım Ayı (2 Haneli Şekilde Örnek: 07)"
+
+# 
+msgid "Expiry date(yyyy)"
+msgstr "Son Kullanım Yılı (4 Haneli Şekilde Örnek: 1982)"
+
+# 
+msgid "Email/Account Id"
+msgstr "Eposta/Hesap No"
+
+# 
+msgid "Secure Id/Authentication code"
+msgstr "Güvenlik Numarası"
+
+# 
+msgid "Full name"
+msgstr "Adınız Soyadınız"
+
+# 
+msgid "Account number"
+msgstr "Heap Numarası"
+
+
+# 
+msgid "Password should contain at least 8 characters"
+msgstr "Şifreniz minimum 8 Haneli olmak zorundadır."
+
+# 
+msgid "Password should contain at least 8 characters."
+msgstr "Şifreniz minimum 8 Haneli olmak zorundadır.."
+
+# 
+msgid "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Şifreniz rakam ve harfler içermelidir. En az bir harf büyük olmalıdır.Şifrenizde boşluk olmamalıdır."
+
+# 
+msgid "Fantasy Sports"
+msgstr "Fantasy Sports"
+
+# 
+msgid "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Şifreniz rakam ve harfler içermelidir. En az bir harf büyük olmalıdır.Şifrenizde boşluk olmamalıdır."

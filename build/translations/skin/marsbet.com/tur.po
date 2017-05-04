@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+
+# 
+msgid "History"
+msgstr "GEÇMİŞ"
+
+
+# 
+msgid "Play Now"
+msgstr "ŞİMDİ OYNA"
+
+# 
+msgid "Bonus"
+msgstr "%25 KAYIP NAKİT ÖDEME"
+
+# 
+msgid "Password should contain at least 8 characters"
+msgstr "Şifreniz minimum 8 Haneli olmak zorundadır."
+
+# 
+msgid "Password should contain at least 8 characters."
+msgstr "Şifreniz minimum 8 Haneli olmak zorundadır."
+
+# 
+msgid "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Şifreniz rakam ve harfler içermelidir. En az bir harf büyük olmalıdır.Şifrenizde boşluk olmamalıdır."
+
+# 
+msgid "Fantasy Sports"
+msgstr "Fantasy Sports"
+
+# 
+msgid "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Şifreniz rakam ve harfler içermelidir. En az bir harf büyük olmalıdır.Şifrenizde boşluk olmamalıdır."
+
+# 
+msgid "Card Number"
+msgstr "Kart Numarası"
+
+# 
+msgid "Card code"
+msgstr "4 Haneli Güvenlik No"
+
+# 
+msgid "Expiry date(mm)"
+msgstr "Son Kulanım Ayı (2 Haneli Şekilde Örnek: 07)"
+
+# 
+msgid "Expiry date(yyyy)"
+msgstr "Son Kullanım Yılı (4 Haneli Şekilde Örnek: 1982)"
+
+# 
+msgid "Email/Account Id"
+msgstr "Eposta/Hesap No"
+
+# 
+msgid "Secure Id/Authentication code"
+msgstr "Güvenlik Numarası"
+
+# 
+msgid "Full name"
+msgstr "Adınız Soyadınız"
+
+# 
+msgid "Account number"
+msgstr "Heap Numarası"
+
+# 
+msgid "Set"
+msgstr "Setler"
+
+# 
+msgid "EVL"
+msgstr "Evolution"
+
+
+# 
+msgid "poker_requirements_windows"
+msgstr "Minimum system requirements:<br>Windows XP / Vista / Windows 7<br>Pentium 4 with 3 GHz (or compatible CPU)<br>1 GB system RAM<br>Broadband Internet connection<br>"
+
+# 
+msgid "poker_download_description_windows"
+msgstr "<ol><li>A window will appear. Press Run.</li><li>Once downloading has finished, you may be asked to verify the publisher.</li><li>Press \"Run\" again.</li><li>At the next window, to install the software click Next.</li><li>Once the installation is finished, you can find our Marsbet Poker icon on your desktop.</li><li>Double-click the icon to start the Marsbet cardroom.</li></ol>"
+
+#
+msgid "Select withdraw method"
+msgstr " "

@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+# 
+msgid "freebet_info"
+msgstr "Good 365 배팅 회사는 아주 특별한 퀴즈를 여러분께 하나씩 제공하는 중입니다!여러분들은 3가지 종류의 6-10 이벤트를 포함하는 조합배팅을 제공 받으실겁니다. 만약 여러분들중 한분이라도 6개중 6개를 맞게 예상한다면 15,000원의 상금을 받고 8개중 8개를 맞게 예상한다면 30,000원, 그리고 만약 10개중 10개를 맞게 예상하면 무려 40,000원를 받습니다.  우승 상금은 고객님들의 계좌에 3개의 조합배팅에 포함된 이벤트가 모두 끝나고 5일안에 입금이 됩니다.  만약 조합배팅이 해당되지않는 이벤트가 있는경우 퀴즈는모두 사라집니다.  모든 손님은 각각의 다른 조합배팅에 메일 한번씩만 베팅하실수가있습니다^^ 그럼 여러분들의 건승을 빕니다^^"
+
+
+# 
+msgid "Live Casino"
+msgstr "카지노"
+
+# 
+msgid "Live casino"
+msgstr "카지노"
+
+# 
+msgid "Keno"
+msgstr "로또"
+
+# 
+msgid "Casino"
+msgstr "슬롯머신"
+
+# 
+msgid "Financials"
+msgstr "환율베팅"
+
+# 
+msgid "Live calendar"
+msgstr "경기일정"
+
+
+# 
+msgid "multiple"
+msgstr "조합 베팅"
+
+# 
+msgid "express"
+msgstr "조합 베팅"
+
+# 
+msgid "Express"
+msgstr "조합 베팅"
+
+
+# 
+msgid "Deposit by payment system"
+msgstr "입금 완료"
+
+# 
+msgid "Authorized Withdrawal"
+msgstr "출금 완료"
+
+# 
+msgid "Pool Bet"
+msgstr "베팅 금액"
+
+# 
+msgid "Pool Bet Win"
+msgstr "당첨 금액"
+
+
+# 
+msgid "Deposit"
+msgstr "입금"
+
+# 
+msgid "Commission"
+msgstr "커미션"
+
+# 
+msgid "More"
+msgstr "더보기"
+
+# 
+msgid "Virtual Betting"
+msgstr "버추어 베팅"
+
+# 
+msgid "Popular Games"
+msgstr "인기있는 게임"
+
+# 
+msgid "Table Games"
+msgstr "테이블 게임"
+
+# 
+msgid "Top Slots"
+msgstr "슬롯머쉰"
+
+
+# 
+msgid "Video Poker"
+msgstr "비디오 포커"
+
+# 
+msgid "Other Games"
+msgstr "다른 게임종류들"
+
+# 
+msgid "First"
+msgstr "이름"
+
+# 
+msgid "Middle"
+msgstr "성"
+
+# 
+msgid "Last"
+msgstr "닉네임"
+
+# 
+msgid "KB Kookmin"
+msgstr "국민은행"
+
+# 
+msgid "IBK"
+msgstr "기업은행"
+
+# 
+msgid "NH Bank"
+msgstr "NH농협"
+
+# 
+msgid "NH Local"
+msgstr "NH Local"
+
+# 
+msgid "Standardchartered"
+msgstr "SC스탠다드 차타드"
+
+# 
+msgid "Shinhan"
+msgstr "신한은행"
+
+# 
+msgid "Woori"
+msgstr "우리은행"
+
+# 
+msgid "KEB"
+msgstr "외한은행"
+
+# 
+msgid "Hana"
+msgstr "하나은행"
+
+# 
+msgid "Citibank Korea"
+msgstr "한국씨티은행"
+
+# 
+msgid "Kyongnam"
+msgstr "경남은행"
+
+# 
+msgid "Kwangju"
+msgstr "광주은행"
+
+# 
+msgid "Daegu"
+msgstr "대구은행"
+
+# 
+msgid "Busan"
+msgstr "부산은행"
+
+# 
+msgid "KDB"
+msgstr "산업은행"
+
+# 
+msgid "FSB"
+msgstr "저축은행중앙회"
+
+# 
+msgid "KFCC"
+msgstr "새마을금고"
+
+# 
+msgid "CU"
+msgstr "신협"
+
+# 
+msgid "Suhyup"
+msgstr "수협"
+
+# 
+msgid "ePostbank"
+msgstr "우체국"
+
+# 
+msgid "Jeonbuk"
+msgstr "전북은행"
+
+# 
+msgid "Daiichi"
+msgstr "도이치"
+
+# 
+msgid "Deutsche"
+msgstr "도이치(독일)"
+
+# 
+msgid "Mitsubishi UFJ"
+msgstr "미쓰비시도쿄 UFJ"
+
+
+#
+msgid "Scratch Games"
+msgstr "즉석 복원"
+
+#
+msgid "Jackpot Slot"
+msgstr "잭팟게임"
+
+
+# 
+msgid "Bank Name"
+msgstr "은행"
+
+
+# 
+msgid "Account Number"
+msgstr "계좌번호"
+
+
+# 
+msgid "Account Holder"
+msgstr "예금주"
+
+# 
+msgid "Remarks"
+msgstr "친구추천 아이디"
+
+# 
+msgid "Daily coupon"
+msgstr "오늘의 경기"
+
+
+# 
+msgid "Popular competitions"
+msgstr "인기 리그"

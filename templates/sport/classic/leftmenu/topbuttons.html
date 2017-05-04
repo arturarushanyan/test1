@@ -1,0 +1,28 @@
+<div class="multiview-switch-container" ng-show="!env.live">
+    <a ng-click="toggleMultiView()" ng-if="isMultiViewVisible" ng-class="{'on': env.preMatchMultiSelection, 'off': !env.preMatchMultiSelection}" title="Multi-selection mode" trans></a>
+</div>
+
+<div class="game-popular-filter" ng-show="conf.loadPopularGamesForSportsBook.enabled && !env.live">
+    <a ng-click="loadPopularGames()" ng-class="isPopularGames ? 'on' : ''" trans title="Popular Games"></a>
+</div>
+
+<div class="game-live-calendar" ng-show="conf.liveCalendarEnabled && conf.liveCalendarInLeftMenu">
+    <a href="#/livecalendar" trans="attr-only" title="Live Calendar"></a>
+</div>
+
+<div class="filter-region-video" ng-show="env.live">
+    <ul>
+
+        <li ng-show="conf.videoEnabled" ng-click="toggleVideoFilter()" ng-class="{'active':liveFilters.withVideo}" title="With video" trans="attr-only"><span class="icon-ic_video_collection_24px"></span></li>
+    </ul>
+</div>
+
+<div class="game-mini-filter" ng-class="{'active': periodDropdownOpened}">
+    <p ng-click="periodDropdownOpened=!periodDropdownOpened">{{(selectedUpcomingPeriod ? selectedUpcomingPeriod + ' hours' : 'All')|translate}} <b class="arrow-rotate icon-arrow-right6"></b></p>
+    <ul>
+        <li ng-repeat="period in upcomingPeriods track by $index" ng-click="selectPrematchTimePeriod(period);$parent.periodDropdownOpened = false" ng-class="{'icon-checkmark': period == selectedUpcomingPeriod}">{{(period ? period + ' hours' : 'All')|translate}}</li>
+    </ul>
+</div>
+
+<div class="arrow-closed-b icon-previous" ng-click="toggleLeftMenu()" ng-show="::(!conf.customSportsBook.enabled || conf.customSportsBook.classic.showMarkets)"></div>
+<div class="search-menu-wrapper-j"  ng-click="toggleLeftMenu(true)" ng-if="conf.enableMenuSearch" ng-include="getTemplate('templates/search/sport.html')"></div>

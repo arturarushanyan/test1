@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="skin.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="skin.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skins/loungebet.com/css/skin.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="9346" column="5" lean-forward="true" selection-start-line="9346" selection-start-column="5" selection-end-line="9346" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="9303" column="10" lean-forward="true" selection-start-line="9303" selection-start-column="10" selection-end-line="9303" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sport/overview/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -125,9 +125,9 @@
         <option value="$PROJECT_DIR$/templates/livebox/version_2/my_account_balance_management_my_cards.html" />
         <option value="$PROJECT_DIR$/templates/livebox/version_2/css/new_account_style.css" />
         <option value="$PROJECT_DIR$/templates/sport/overview/overview.html" />
-        <option value="$PROJECT_DIR$/skins/loungebet.com/css/skin.css" />
         <option value="$PROJECT_DIR$/templates/sport/dashboard/main.html" />
         <option value="$PROJECT_DIR$/templates/sport/overview/main.html" />
+        <option value="$PROJECT_DIR$/skins/loungebet.com/css/skin.css" />
       </list>
     </option>
   </component>
@@ -417,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246409000" />
+    <option name="totallyTimeSpent" value="246638000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,18 +592,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skins/loungebet.com/css/skin.css">
+    <entry file="file://$PROJECT_DIR$/templates/sport/overview/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="9346" column="5" lean-forward="true" selection-start-line="9346" selection-start-column="5" selection-end-line="9346" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sport/overview/main.html">
+    <entry file="file://$PROJECT_DIR$/skins/loungebet.com/css/skin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="68">
+          <caret line="9303" column="10" lean-forward="true" selection-start-line="9303" selection-start-column="10" selection-end-line="9303" selection-end-column="10" />
           <folding />
         </state>
       </provider>

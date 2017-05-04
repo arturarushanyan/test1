@@ -1,1 +1,0 @@
-angular.bootstrap(window, ["VEXT"]);

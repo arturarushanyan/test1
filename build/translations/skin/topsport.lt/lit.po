@@ -1,0 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "Realaus laiko rezultatų lentelė matoma lažybų puslapyje naudotina tik kaip orientacinė. Bendrovė neprisiima atsakomybės dėl informacijos ar duomenų savalaikiškumo (pvz: varžybų laiko ar varžybų rezultato)."

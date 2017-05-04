@@ -1,0 +1,41 @@
+@mixin big-prematch-classic-column {
+  .gameing-wrapper.prematch .centr-market-contain .scroll-contain.prematch {
+    width: 425px;
+    right: calc(100% - 648px);
+   }
+  .gameing-wrapper.prematch .centr-market-contain .scroll-contain {
+    width: calc(100% - 930px);
+    min-width: 350px;
+  }
+  .gameing-wrapper.prematch .centr-market-contain .team-name-market.prematch{
+    width: 425px;
+  }
+  .team-name-market.info{
+    width: calc(100% - 930px);
+  }
+  @media screen and (min-width: 1600px) {
+    .gameing-wrapper.prematch .centr-market-contain .scroll-contain {
+      width: calc(100% - 1090px);
+    }
+    .gameing-wrapper.prematch .centr-market-contain .team-name-market.prematch{
+      width: 425px;
+    }
+    .team-name-market.info{
+      width: calc(100% - 1090px);
+    }
+    .gameing-wrapper.prematch .centr-market-contain .scroll-contain.prematch{
+      right: calc(100% - 729px);
+    }
+  }
+  @media screen and (max-width: 1279px){
+    .gameing-wrapper.prematch .centr-market-contain .scroll-contain.prematch {
+      width: 100%;
+      left: 0;
+    }
+    .gameing-wrapper.prematch .centr-market-contain .scroll-contain,
+    .gameing-wrapper.prematch .centr-market-contain .team-name-market.prematch{
+      width: calc(100% - 504px);
+      min-width: 490px;
+    }
+  }
+}

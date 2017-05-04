@@ -9346,11 +9346,12 @@ rzslider span.rz-pointer.rz-active:after {
         background: #111522;
     }
 
-    .gameing-wrapper.overview, .gameing-wrapper.overview .contain-gameing.overview{
-        min-width: 100%;
+    .gameing-wrapper.overview{
+        min-width: 980px;
     }
 
     .gameing-wrapper.overview .contain-gameing.overview{
+        min-width: 100%;
         background: transparent;
         display: block;
     }

@@ -1,8 +1,0 @@
-msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-# 
-msgid "freebet_info"
-msgstr "Taktikbet, kullanıcılarına bedava bahis imkanı sunuyor. Kullanıcılara 6,8 ve 10 maçtan oluşan 3 farklı kazanç olasılığı sunuyor. 6 maçın hepsini tahmin eden kullanıcı 50 TL, 8 maçın hepsini doğru tahmin eden kullanıcı 100 TL, 10 maçın hepsini doğru tahmin eden kullanıcı ise tam olarak 150 TL bedava bahis hakkı kazanır. Kazanç kullanıcının hesabına 45 dk. içerisinde aktarılır. Maçların herhangi birinde ertelenme ya da iptal durumu varsa otomatik olarak kaybeder. Her kullanıcı hergün yalnızca bir seçim yapabilir"

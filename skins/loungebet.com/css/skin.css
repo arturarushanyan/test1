@@ -50439,7 +50439,7 @@ top-game-block {
     max-height: 30000px;
     background: #f6f5ef;
     border-radius: 4px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     box-shadow: 0px 0px 0px 1px #c3c3c3 inset;
     animation: prematch-open-animate-b 500ms ease-in-out;
 }
@@ -50732,6 +50732,10 @@ top-game-block {
     border-right: none;
 }
 
+.upcoming-pematch-single-game-info-v3 {
+
+}
+
 .team-names-date-icons-v3 > p {
     box-sizing: border-box;
     position: relative;
@@ -50759,6 +50763,20 @@ top-game-block {
     overflow: hidden;
 }
 
+.team-names-date-icons-v3.name-upcoming > p > span > i {
+    max-width:none;
+}
+
+.upcoming-team-name-view-table-v3 {
+    padding: 10px;
+}
+.team-names-date-icons-v3.name-upcoming > .time-game-v3 {
+    padding-left: 0;
+}
+.team-names-date-icons-v3.name-upcoming > .time-game-v3 > p {
+    font-size: 13px;
+}
+
 .team-names-date-icons-v3 > p > span > b {
     box-sizing: border-box;
     font-weight: normal;
@@ -50767,6 +50785,11 @@ top-game-block {
     width: 28px;
     text-align: center;
     vertical-align: top;
+}
+
+.team-names-date-icons-v3.name-upcoming > p > span {
+    height: 0;
+    top: 0;
 }
 
 .mini-title-box-gameview-v3.active .team-names-date-icons-v3 > p > span > b {
@@ -53790,11 +53813,8 @@ top-game-block {
     }
 
     .dashboard-view-v3 > .live-events-column-v3 {
-        height: calc(100vh - 133px);
+        height: calc(100vh - 100px);
         padding: 0 6px 0 6px;
-        overflow-y: scroll;
-        overflow-x: hidden;
-
     }
 
     .dashboard-view-v3 > .live-events-column-v3:first-child {
@@ -59310,9 +59330,9 @@ div.slider-image-wrapper-b {
     width: 100%;
     background: #f3f2e9;
     position: relative;
-    height: 24px;
+    height: 32px;
     padding: 0 30px;
-    margin: 0 0 5px;
+    margin: 0;
     border-radius: 2px 2px 0 0;
     border: 1px solid #c5c2b7;
 }
@@ -69981,4 +70001,8 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 
 .markets-group-wrap-v3>ul>li.active span {
     top: 1px;
+}
+
+.live-events-column-v3 {
+    overflow: hidden;
 }

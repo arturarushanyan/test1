@@ -1,0 +1,6368 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "OK"
+msgstr "باشه"
+
+# 
+msgid "Yes"
+msgstr "بله"
+
+# 
+msgid "No"
+msgstr "خیر"
+
+# 
+msgid "Live"
+msgstr "زنده - آنلاین"
+
+# 
+msgid "pre-match"
+msgstr "پیش بازی"
+
+# 
+msgid "No games found"
+msgstr "هیچ بازی پیدا نشد"
+
+# 
+msgid "Games"
+msgstr "بازی ها"
+
+# 
+msgid "all"
+msgstr "همه"
+
+# 
+msgid "Print coupon"
+msgstr "Print coupon"
+
+# 
+msgid "Today"
+msgstr "امروز"
+
+# 
+msgid "Tomorrow"
+msgstr "فردا"
+
+# 
+msgid "1x2_1"
+msgstr "1x2_1"
+
+# 
+msgid "1x2_X"
+msgstr "1x2_X"
+
+# 
+msgid "1x2_2"
+msgstr "1x2_2"
+
+# 
+msgid "More"
+msgstr "بیشتر"
+
+# 
+msgid "Sorry the game which you chose doesn't have the type of play for fun"
+msgstr "متاسفانه در بازی که شما انتخاب کرده اید هیچ نوع بازی برای تفریح وجود ندارد"
+
+# 
+msgid "Transfer"
+msgstr "انتقال دادن-واگذاری"
+
+# 
+msgid "Enter"
+msgstr "وارد کردن"
+
+# 
+msgid "Withdraw from game"
+msgstr "کنارکشیدن از بازی"
+
+# 
+msgid "Deposit to game"
+msgstr "سپرده"
+
+# 
+msgid "Game Balance: "
+msgstr "میانگین بازی"
+
+# 
+msgid "Error occured"
+msgstr "خطا رخ داده است"
+
+# 
+msgid "more"
+msgstr "بیشتر"
+
+# 
+msgid "Select a Category"
+msgstr "یک دسته را انتخاب کنید"
+
+# 
+msgid "Select region"
+msgstr "انتخاب منطقه"
+
+# 
+msgid "All Providers"
+msgstr "تمام ارائه دهنده ها"
+
+# 
+msgid "left arrow"
+msgstr "خطای سمت راست"
+
+# 
+msgid "right arrow"
+msgstr "خطای سمت راست"
+
+# 
+msgid "Popular Games"
+msgstr "بازی های محبوب"
+
+# 
+msgid "play now"
+msgstr "همین حالا بازی کنید"
+
+# 
+msgid "PLAY FOR FUN"
+msgstr "به صورت رایگان بازی کنید"
+
+# 
+msgid "TOP SLOTS"
+msgstr "Top Slots"
+
+# 
+msgid "VIEW"
+msgstr "نما"
+
+# 
+msgid "Load more"
+msgstr "بارگیری بیشتر"
+
+# 
+msgid "Casino games"
+msgstr "بازی های کازینو"
+
+# 
+msgid "Live casino"
+msgstr "بازی های زنده کازینو"
+
+# 
+msgid "Skill games"
+msgstr "بازی های مهارتی"
+
+# 
+msgid "Virtual games"
+msgstr "بازی های مجازی"
+
+# 
+msgid "All Multi View Games"
+msgstr "تمام بازی های چند نمایه"
+
+# 
+msgid "Search"
+msgstr "جستجو کردن"
+
+# 
+msgid "Powered by"
+msgstr "طراحی شده توسط"
+
+# 
+msgid "All rights reserved."
+msgstr "تمام حقوق محفوظ است"
+
+# 
+msgid "Mobile version"
+msgstr "Mobile version"
+
+# 
+msgid "Previous version"
+msgstr "ورژن (نسخه) پیشین"
+
+# 
+msgid "Previous Flash version"
+msgstr "نسخه قبلی فلش"
+
+# 
+msgid "Points Calculator"
+msgstr "نکات حساب"
+
+# 
+msgid "Buy-in"
+msgstr "خرید از"
+
+# 
+msgid "Entrants"
+msgstr "داوطلب"
+
+# 
+msgid "Position"
+msgstr "جایگاه"
+
+# 
+msgid "Points"
+msgstr "نکات"
+
+# 
+msgid "Play now!"
+msgstr "همین حالا بازی کنید"
+
+# 
+msgid "Download"
+msgstr "دانلود"
+
+# 
+msgid "How to Play"
+msgstr "How to Play"
+
+# 
+msgid "Tournament List"
+msgstr "Tournament List"
+
+# 
+msgid "Windows XP or higher"
+msgstr "Windows XP or higher"
+
+# 
+msgid "poker_requirements_windows"
+msgstr "بازی پوکر-الزامات-پنجره ها"
+
+# 
+msgid "poker_download_description_windows"
+msgstr "بازی پوکر-دانلود -توضیحات-پنجره ها"
+
+# 
+msgid "Mac OS 9 or higher"
+msgstr "Mac OS 9 or higher"
+
+# 
+msgid "poker_requirements_mac"
+msgstr "بازی پوکر-الزامات-سیستم عامل مک"
+
+# 
+msgid "poker_download_description_mac"
+msgstr "بازی پوکر-دانلود-توضیحات-سیستم عامل مک"
+
+# 
+msgid "Android version 4.0 or higher"
+msgstr "Android version 4.0 or higher"
+
+# 
+msgid "poker_requirements_android"
+msgstr "بازی پوکر-الزامات-اندروید"
+
+# 
+msgid "poker_download_description_android"
+msgstr "بازی پوکر-دانلود-توضیحات-اندروید"
+
+# 
+msgid "Best Promotions"
+msgstr "Best Promotions"
+
+# 
+msgid "Download Windows client"
+msgstr "Download Windows client"
+
+# 
+msgid "desktop"
+msgstr "دسکتاپ"
+
+# 
+msgid "Download MacOS client"
+msgstr "Download MacOS client"
+
+# 
+msgid "iPhone"
+msgstr "iPhone"
+
+# 
+msgid "Instant Play"
+msgstr "Instant Play"
+
+# 
+msgid "android"
+msgstr "اندروید"
+
+# 
+msgid "Download Linux client"
+msgstr "Download Linux client"
+
+# 
+msgid "linux"
+msgstr "لینوکس"
+
+# 
+msgid "Register"
+msgstr "ثبت نام"
+
+# 
+msgid "Play"
+msgstr "بازی"
+
+# 
+msgid "loading..."
+msgstr "بارگیری..."
+
+# 
+msgid "Page not found"
+msgstr "صفحه یافت نشد"
+
+# 
+msgid "Results Centre"
+msgstr "Results Centre"
+
+# 
+msgid "Sport"
+msgstr "ورزش ها"
+
+# 
+msgid "Region"
+msgstr "Region"
+
+# 
+msgid "Competition"
+msgstr "Competition"
+
+# 
+msgid "Date"
+msgstr "Date"
+
+# 
+msgid "Event"
+msgstr "رویداد"
+
+# 
+msgid "Score"
+msgstr "امتیاز"
+
+# 
+msgid "No Results"
+msgstr "No Results"
+
+# 
+msgid "Today's Resluts"
+msgstr "Today's Resluts"
+
+# 
+msgid "You need to login to access this page."
+msgstr "You need to login to access this page."
+
+# 
+msgid "Recent Bets"
+msgstr "پیش بینی های اخیر"
+
+# 
+msgid "Bet History"
+msgstr "سوابق پیش بینی"
+
+# 
+msgid "Casino Bet History"
+msgstr "سوابق پیش بینی کازینو"
+
+# 
+msgid "Wallet"
+msgstr "مقدار سپرده باقی مانده"
+
+# 
+msgid "History"
+msgstr "تاریخچه"
+
+# 
+msgid "Renew"
+msgstr "تکرار کردن"
+
+# 
+msgid "Deposit"
+msgstr "سپرده"
+
+# 
+msgid "Withdraw"
+msgstr "برداشت"
+
+# 
+msgid "Sports"
+msgstr "ورزش ها"
+
+# 
+msgid "Casino"
+msgstr "کازینو"
+
+# 
+msgid "Upcoming games"
+msgstr "بازی های آینده"
+
+# 
+msgid "News"
+msgstr "اخبار"
+
+# 
+msgid "Videos"
+msgstr "ویدیو ها"
+
+# 
+msgid "Results"
+msgstr "نتایج"
+
+# 
+msgid "Sport center"
+msgstr "مرکز ورزشی"
+
+# 
+msgid "Calendar"
+msgstr "تقویم"
+
+# 
+msgid "close"
+msgstr "بستن"
+
+# 
+msgid "Input Password"
+msgstr "رمز را وارد نمایید"
+
+# 
+msgid "Hello, we'd love to hear your thoughts."
+msgstr "سلام,ما علاقه داریم نظرات شما را بدانیم"
+
+# 
+msgid "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+msgstr "اگر سوال,نظر یا پیشنهادی دارید,لطفا نظرات خود را در کادر زیر نوشته و دکمه ارسال را انتخاب کنید"
+
+# 
+msgid "Email Address"
+msgstr "آدرس ایمیل"
+
+# 
+msgid "Enter your email address"
+msgstr "آدرس ایمیل خود را وارد نمایید"
+
+# 
+msgid "Please enter a valid email address"
+msgstr "لطفا یک آدرس ایمیل معتبر را وارد نمایید"
+
+# 
+msgid "Your message"
+msgstr "پیام شما"
+
+# 
+msgid "Send"
+msgstr "ارسال"
+
+# 
+msgid "Your message has been sent."
+msgstr "پیام شما با موفقیت ارسال شد"
+
+# 
+msgid "Cash-out"
+msgstr "Cash-out"
+
+# 
+msgid "Cash-out done."
+msgstr "Cash-out done."
+
+# 
+msgid "Error occured."
+msgstr "خطا رخ داده است"
+
+# 
+msgid "Cash-out for selected bet is not available."
+msgstr "Cash-out for selected bet is not available."
+
+# 
+msgid "Pick:"
+msgstr "انتخاب کردن"
+
+# 
+msgid "Price has changed"
+msgstr "Price has changed"
+
+# 
+msgid "Amount"
+msgstr "مقدار "
+
+# 
+msgid "Ok"
+msgstr "Ok"
+
+# 
+msgid "Cancel"
+msgstr "Cancel"
+
+# 
+msgid "Blitz Survey"
+msgstr "Blitz Survey"
+
+# 
+msgid "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+msgstr "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+
+# 
+msgid "Chinese Poker"
+msgstr "پوکر چینی"
+
+# 
+msgid "Live Casino"
+msgstr "Live Casino"
+
+# 
+msgid "Poker"
+msgstr "بازی پوکر"
+
+# 
+msgid "Backgammon"
+msgstr "تخته نرد"
+
+# 
+msgid "Belote"
+msgstr "Belote"
+
+# 
+msgid "None of these"
+msgstr "None of these"
+
+# 
+msgid "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+msgstr "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+
+# 
+msgid "Submit"
+msgstr "Submit"
+
+# 
+msgid "Your balance is low"
+msgstr "میزان حساب شما کم است"
+
+# 
+msgid "Renew to get more."
+msgstr "برای مقدار بیشتر دوباره تکرار کنید"
+
+# 
+msgid "SuperBet Counter Offer"
+msgstr "SuperBet Counter Offer"
+
+# 
+msgid "Bet Details"
+msgstr "Bet Details"
+
+# 
+msgid "Offer Details"
+msgstr "Offer Details"
+
+# 
+msgid "Odds:"
+msgstr "شانس "
+
+# 
+msgid "Amount:"
+msgstr "مقدار"
+
+# 
+msgid "Remaining time:"
+msgstr "Remaining time:"
+
+# 
+msgid "Accept"
+msgstr "قبول کردن"
+
+# 
+msgid "Decline"
+msgstr "Decline"
+
+# 
+msgid "competition or a team..."
+msgstr "رقابت یا یک تیم"
+
+# 
+msgid "Search a competition or a team..."
+msgstr "جستجوی رقابت یا یک تیم"
+
+# 
+msgid "Search results"
+msgstr "جستجوی نتایج"
+
+# 
+msgid "no results"
+msgstr "بدون نتیجه"
+
+# 
+msgid "Search a casino game..."
+msgstr "جستجوی یک بازی کازینو"
+
+# 
+msgid "Play now"
+msgstr "همین حالا بازی کنید"
+
+# 
+msgid "brain"
+msgstr "هوش و ذکاوت"
+
+# 
+msgid "All downloads"
+msgstr "همه دانلودها"
+
+# 
+msgid "Windows"
+msgstr "پنجره ها"
+
+# 
+msgid "Mac OS"
+msgstr "سیستم عامل مک"
+
+# 
+msgid "Linux"
+msgstr "لینوکس"
+
+# 
+msgid "Android"
+msgstr "اندروید"
+
+# 
+msgid "Tell me more"
+msgstr "Tell me more"
+
+# 
+msgid "View on map"
+msgstr "View on map"
+
+# 
+msgid "Contact us"
+msgstr "Contact us"
+
+# 
+msgid "Hide Map"
+msgstr "Hide Map"
+
+# 
+msgid "Winners"
+msgstr "برنده ها"
+
+# 
+msgid "There are no winners yet"
+msgstr "هنوز هیچ برنده ای نداشته است"
+
+# 
+msgid "No data"
+msgstr "اطلاعاتی وجود ندارد"
+
+# 
+msgid "Name"
+msgstr "اسم"
+
+# 
+msgid "ON THE WAY"
+msgstr "به زودی"
+
+# 
+msgid "TO VICTORY!"
+msgstr "پیروزی"
+
+# 
+msgid "Sign in"
+msgstr "ورود به حساب کاربری"
+
+# 
+msgid "Forgot your password?"
+msgstr "رمز عبور خود را فراموش کرده اید؟"
+
+# 
+msgid "Join"
+msgstr "ملحق شدن"
+
+# 
+msgid "Bet"
+msgstr "پیش بینی "
+
+# 
+msgid "Win"
+msgstr "برنده شدن"
+
+# 
+msgid "Print"
+msgstr "Print"
+
+# 
+msgid "Type your new password"
+msgstr "Type your new password"
+
+# 
+msgid "Password"
+msgstr "کلمه عبور"
+
+# 
+msgid "Please type your new password"
+msgstr "Please type your new password"
+
+# 
+msgid "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "Repeat Password"
+msgstr "Repeat Password"
+
+# 
+msgid "Please type your new password again"
+msgstr "Please type your new password again"
+
+# 
+msgid "Passwords are different"
+msgstr "Passwords are different"
+
+# 
+msgid "Your password has been changed."
+msgstr "Your password has been changed."
+
+# 
+msgid "Password reset failed."
+msgstr "تنظیم مجدد رمز عبور انجام نشد."
+
+# 
+msgid "Username or email invalid"
+msgstr "نام کاربری با ایمیل نامعتبر است"
+
+# 
+msgid "Draw number"
+msgstr "بیرون کشیدن عدد"
+
+# 
+msgid "End date"
+msgstr "تاریخ پایان"
+
+# 
+msgid "State"
+msgstr "ایالت"
+
+# 
+msgid "Jackpot"
+msgstr "برنده تمام سرمایه ها"
+
+# 
+msgid "Pool"
+msgstr "شریک شدن"
+
+# 
+msgid "Prize fund"
+msgstr "جایزه"
+
+# 
+msgid "Tickets / Variants"
+msgstr "بلیط ها / انواع"
+
+# 
+msgid "Current Draw"
+msgstr "قرعه کشی کنونی"
+
+# 
+msgid "Draw"
+msgstr "قرعه کشی"
+
+# 
+msgid "Result"
+msgstr "نتیجه"
+
+# 
+msgid "Bookmakers probability / bets amount (in %)"
+msgstr "احتمال متصدی پیش بینی / مقدار شرط (در %)"
+
+# 
+msgid "min."
+msgstr "کمترین"
+
+# 
+msgid "Tickets"
+msgstr "بلیط ها"
+
+# 
+msgid "Variants"
+msgstr "انواع"
+
+# 
+msgid "Winners (var.)"
+msgstr "برنده ها (میزان در معرض خطر بودن)"
+
+# 
+msgid "Win sum"
+msgstr "مجموع پیروزی"
+
+# 
+msgid "Win coef"
+msgstr "پیروز شدن با ضریب"
+
+# 
+msgid "All draws"
+msgstr "تمام تساوی ها"
+
+# 
+msgid "All bets"
+msgstr "تمام پیش بینی ها"
+
+# 
+msgid "You need to confirm the agreements."
+msgstr "شما باید موافقت نامه را تایید نمایید"
+
+# 
+msgid "I agree to all"
+msgstr "با تمام قوانین موافقم"
+
+# 
+msgid "Terms & Conditions"
+msgstr "شرایط و مقررات"
+
+# 
+msgid "You can read our Terms and Conditions by clicking corresponding links in page footer."
+msgstr "شما می توانید شرایط و مقررات ما را با کلیک کردن روی لینک مربوطه در پاورقی صفحه بخوانید."
+
+# 
+msgid "and I am over 18 years of age and have read and accepted the general terms and conditions."
+msgstr "من بیش از 18 سال سن دارم و تمام مقررات را خوانده ام و تمام شرایط و مقررات را قبول کرده ام"
+
+# 
+msgid "and I am over 21 years of age and have read and accepted the general terms and conditions."
+msgstr "من بیش از 21 سال سن دارم و تمام مقررات را خوانده ام و تمام شرایط و مقررات را قبول کرده ام"
+
+# 
+msgid "Registration complete."
+msgstr "ثبت نام کامل شد"
+
+# 
+msgid "Please check your email."
+msgstr "لطفا ایمیل خود را بررسی کنید."
+
+# 
+msgid "Registration failed due to technical error."
+msgstr "ثبت نام به دلیل خطای فنی انجام نشد"
+
+# 
+msgid "Please try again later."
+msgstr "لطفا بعدا دوباره امتحان کنید."
+
+# 
+msgid "Australia"
+msgstr "استرالیا"
+
+# 
+msgid "Andorra"
+msgstr "آندورا"
+
+# 
+msgid "UAE"
+msgstr "امارات متحده عربی"
+
+# 
+msgid "Afghanistan"
+msgstr "افغانستان"
+
+# 
+msgid "Antigua and Barbuda"
+msgstr "آنتیگوا و باربودا"
+
+# 
+msgid "Albania"
+msgstr "آلبانیا"
+
+# 
+msgid "Armenia"
+msgstr "ارمنستان"
+
+# 
+msgid "Angola"
+msgstr "آنگولا"
+
+# 
+msgid "Argentina"
+msgstr "آرژانتین"
+
+# 
+msgid "American Samoa"
+msgstr "ساموآ آمریکا"
+
+# 
+msgid "Austria"
+msgstr "اتریش"
+
+# 
+msgid "Aruba"
+msgstr "آروبا"
+
+# 
+msgid "Azerbaijan"
+msgstr "آذربایجان"
+
+# 
+msgid "Bosnia and Herzegovina"
+msgstr "بوسنی و هرزگوین"
+
+# 
+msgid "Barbados"
+msgstr "باربادوس"
+
+# 
+msgid "Bangladesh"
+msgstr "بنگلادش"
+
+# 
+msgid "Belgium"
+msgstr "بلژیک"
+
+# 
+msgid "Burkina Faso"
+msgstr "بورکینا فاسو"
+
+# 
+msgid "Bulgaria"
+msgstr "بلغارستان"
+
+# 
+msgid "Bahrain"
+msgstr "بحرین"
+
+# 
+msgid "Burundi"
+msgstr "بروندی"
+
+# 
+msgid "Benin"
+msgstr "بنین"
+
+# 
+msgid "Bermuda"
+msgstr "برمودا"
+
+# 
+msgid "Brunei"
+msgstr "برونئی"
+
+# 
+msgid "Bolivia"
+msgstr "بولیوی"
+
+# 
+msgid "Brazil"
+msgstr "برزیل"
+
+# 
+msgid "Bahamas"
+msgstr "باهاما"
+
+# 
+msgid "Bhutan"
+msgstr "بوتان"
+
+# 
+msgid "Botswana"
+msgstr "بوتسوانا"
+
+# 
+msgid "Belarus"
+msgstr "بلاروس"
+
+# 
+msgid "Belize"
+msgstr "بلیز"
+
+# 
+msgid "Canada"
+msgstr "کانادا"
+
+# 
+msgid "Democratic Republic of the Congo"
+msgstr "جمهوری دموکرات کنگو"
+
+# 
+msgid "Central African Republic"
+msgstr "جمهوری آفریقای مرکزی"
+
+# 
+msgid "Republic of the Congo"
+msgstr "جمهوری کنگو"
+
+# 
+msgid "Switzerland"
+msgstr "سوئیس"
+
+# 
+msgid "Cote d'Ivoire"
+msgstr "ساحل عاج"
+
+# 
+msgid "Cook Islands"
+msgstr "جزایر کوک"
+
+# 
+msgid "Chile"
+msgstr "شیلی"
+
+# 
+msgid "Cameroon"
+msgstr "کامرون"
+
+# 
+msgid "China"
+msgstr "چین"
+
+# 
+msgid "Colombia"
+msgstr "کلمبیا"
+
+# 
+msgid "Costa Rica"
+msgstr "کاستاریکا"
+
+# 
+msgid "Cuba"
+msgstr "کوبا"
+
+# 
+msgid "Cape Verde"
+msgstr "کیپ ورد"
+
+# 
+msgid "Cyprus"
+msgstr "قبرس"
+
+# 
+msgid "Czech Republic"
+msgstr "جمهوری چک"
+
+# 
+msgid "Germany"
+msgstr "آلمان"
+
+# 
+msgid "Djibouti"
+msgstr "جیبوتی"
+
+# 
+msgid "Denmark"
+msgstr "دانمارک"
+
+# 
+msgid "Dominica"
+msgstr "دومینیکا"
+
+# 
+msgid "Dominican Republic"
+msgstr "جمهوری دومینیکن"
+
+# 
+msgid "Algeria"
+msgstr "الجزایر"
+
+# 
+msgid "Ecuador"
+msgstr "اکوادور"
+
+# 
+msgid "Estonia"
+msgstr "استونی"
+
+# 
+msgid "Egypt"
+msgstr "مصر"
+
+# 
+msgid "Eritrea"
+msgstr "اریتره"
+
+# 
+msgid "Spain"
+msgstr "اسپانیا"
+
+# 
+msgid "Ethiopia"
+msgstr "اتیوپی"
+
+# 
+msgid "Finland"
+msgstr "فنلاند"
+
+# 
+msgid "Fiji"
+msgstr "فیجی"
+
+# 
+msgid "Federated States of Micronesia"
+msgstr "ایالات فدرال میکرونزی"
+
+# 
+msgid "Faroe Islands"
+msgstr "جزایر فارو"
+
+# 
+msgid "France"
+msgstr "فرانسه"
+
+# 
+msgid "Gabon"
+msgstr "گابن"
+
+# 
+msgid "Great Britain"
+msgstr "بریتانیای کبیر"
+
+# 
+msgid "Grenada"
+msgstr "گرانادا"
+
+# 
+msgid "Georgia"
+msgstr "گرجستان"
+
+# 
+msgid "Ghana"
+msgstr "غنا"
+
+# 
+msgid "Gambia"
+msgstr "گامبیا"
+
+# 
+msgid "Guinea"
+msgstr "گینه"
+
+# 
+msgid "Equatorial Guinea"
+msgstr "گینه استوایی"
+
+# 
+msgid "Greece"
+msgstr "یونان"
+
+# 
+msgid "Guatemala"
+msgstr "گواتمالا"
+
+# 
+msgid "Guam"
+msgstr "گوام"
+
+# 
+msgid "Guinea-Bissau"
+msgstr "گینه بیسائو"
+
+# 
+msgid "Guyana"
+msgstr "گویان"
+
+# 
+msgid "Hong Kong"
+msgstr "هنگ کنگ"
+
+# 
+msgid "Honduras"
+msgstr "هندوراس"
+
+# 
+msgid "Croatia"
+msgstr "کرواسی"
+
+# 
+msgid "Republic of Haiti"
+msgstr "جمهوری هائیتی"
+
+# 
+msgid "Hungary"
+msgstr "مجارستان"
+
+# 
+msgid "Indonesia"
+msgstr "اندونزی"
+
+# 
+msgid "Ireland"
+msgstr "ایرلند"
+
+# 
+msgid "Israel"
+msgstr "اسرائیل"
+
+# 
+msgid "India"
+msgstr "هند"
+
+# 
+msgid "Iraq"
+msgstr "عراق"
+
+# 
+msgid "Iran"
+msgstr "ایران"
+
+# 
+msgid "Iceland"
+msgstr "ایسلند"
+
+# 
+msgid "Italy"
+msgstr "ایتالیا"
+
+# 
+msgid "Jamaica"
+msgstr "جامائیکا"
+
+# 
+msgid "Jordan"
+msgstr "اردن"
+
+# 
+msgid "Japan"
+msgstr "ژاپن"
+
+# 
+msgid "Kenya"
+msgstr "کنیا"
+
+# 
+msgid "Kyrgyzstan"
+msgstr "قرقیزستان"
+
+# 
+msgid "Cambodia"
+msgstr "کامبوج"
+
+# 
+msgid "Kiribati"
+msgstr "کیریباتی"
+
+# 
+msgid "Comoros"
+msgstr "کومور"
+
+# 
+msgid "Saint Kitts and Nevis"
+msgstr "سنت کیتس و نویس"
+
+# 
+msgid "DPRK"
+msgstr "کره شمالی"
+
+# 
+msgid "South Korea"
+msgstr "کره جنوبی"
+
+# 
+msgid "Kuwait"
+msgstr "کویت"
+
+# 
+msgid "Cayman Islands"
+msgstr "جزایر کیمن"
+
+# 
+msgid "Kazakhstan"
+msgstr "قزاقستان"
+
+# 
+msgid "Laos"
+msgstr "لائوس"
+
+# 
+msgid "Lebanon"
+msgstr "لبنان"
+
+# 
+msgid "Saint Lucia"
+msgstr "سنت لوسیا"
+
+# 
+msgid "Liechtenstein"
+msgstr "لیختن اشتاین"
+
+# 
+msgid "Sri Lanka"
+msgstr "سریلانکا"
+
+# 
+msgid "Liberia"
+msgstr "لیبریا"
+
+# 
+msgid "Lesotho"
+msgstr "لسوتو"
+
+# 
+msgid "Lithuania"
+msgstr "لیتوانی"
+
+# 
+msgid "Luxemburg"
+msgstr "لوکزامبورگ"
+
+# 
+msgid "Latvia"
+msgstr "لتونی"
+
+# 
+msgid "Libya"
+msgstr "لیبی"
+
+# 
+msgid "Morocco"
+msgstr "موراکو"
+
+# 
+msgid "Monaco"
+msgstr "موناکو"
+
+# 
+msgid "Moldavia"
+msgstr "مولدووا"
+
+# 
+msgid "Montenegro"
+msgstr "مونته نگرو"
+
+# 
+msgid "Madagascar"
+msgstr "ماداگاسکار"
+
+# 
+msgid "Macedonia"
+msgstr "مقدونیه"
+
+# 
+msgid "Mali"
+msgstr "مالی"
+
+# 
+msgid "Myanmar"
+msgstr "میانمار"
+
+# 
+msgid "Mongolia"
+msgstr "مغولستان"
+
+# 
+msgid "Mauritania"
+msgstr "موریتانی"
+
+# 
+msgid "Malta"
+msgstr "مالتا"
+
+# 
+msgid "Mauritius"
+msgstr "موریس"
+
+# 
+msgid "Maldives"
+msgstr "مالدیو"
+
+# 
+msgid "Malawi"
+msgstr "مالاوی"
+
+# 
+msgid "Mexico"
+msgstr "مکزیک"
+
+# 
+msgid "Malaysia"
+msgstr "مالزی"
+
+# 
+msgid "Mozambique"
+msgstr "موزامبیک"
+
+# 
+msgid "Namibia"
+msgstr "نامیبیا"
+
+# 
+msgid "Niger"
+msgstr "نیجر"
+
+# 
+msgid "Nigeria"
+msgstr "نیجریه"
+
+# 
+msgid "Nicaragua"
+msgstr "نیکاراگوئه"
+
+# 
+msgid "Netherlands"
+msgstr "هلند"
+
+# 
+msgid "Norway"
+msgstr "نروژ"
+
+# 
+msgid "Nepal"
+msgstr "نپال"
+
+# 
+msgid "Nauru"
+msgstr "نائورو"
+
+# 
+msgid "New Zealand"
+msgstr "نیوزلند"
+
+# 
+msgid "Oman"
+msgstr "عمان"
+
+# 
+msgid "Panama"
+msgstr "پاناما"
+
+# 
+msgid "Peru"
+msgstr "پرو"
+
+# 
+msgid "Papua New Guinea"
+msgstr "پاپوآ گینه نو"
+
+# 
+msgid "Philippines"
+msgstr "فیلیپین"
+
+# 
+msgid "Pakistan"
+msgstr "پاکستان"
+
+# 
+msgid "Poland"
+msgstr "لهستان"
+
+# 
+msgid "Puerto Rico"
+msgstr "پورتوریکو"
+
+# 
+msgid "Palestine"
+msgstr "فلسطین"
+
+# 
+msgid "Portugal"
+msgstr "پرتغال"
+
+# 
+msgid "Palau"
+msgstr "پالائو"
+
+# 
+msgid "Paraguay"
+msgstr "پاراگوئه"
+
+# 
+msgid "Qatar"
+msgstr "قطر"
+
+# 
+msgid "Romania"
+msgstr "رومانی"
+
+# 
+msgid "Serbia"
+msgstr "صربستان"
+
+# 
+msgid "Russia"
+msgstr "روسیه"
+
+# 
+msgid "Rwanda"
+msgstr "رواندا"
+
+# 
+msgid "Saudi Arabia"
+msgstr "عربستان صعودی"
+
+# 
+msgid "Solomon Islands"
+msgstr "جزایر سلیمان"
+
+# 
+msgid "Seychelles"
+msgstr "سیشل"
+
+# 
+msgid "Sudan"
+msgstr "سودان"
+
+# 
+msgid "Sweden"
+msgstr "سوئد"
+
+# 
+msgid "Singapore"
+msgstr "سنگاپور"
+
+# 
+msgid "Slovenia"
+msgstr "اسلوونی"
+
+# 
+msgid "Slovakia"
+msgstr "اسلواکی"
+
+# 
+msgid "Sierra Leone"
+msgstr "سیرالئون"
+
+# 
+msgid "San Marino"
+msgstr "سان مارینو"
+
+# 
+msgid "Senegal"
+msgstr "سنگال"
+
+# 
+msgid "Somalia"
+msgstr "سومالی"
+
+# 
+msgid "Republic of Suriname"
+msgstr "جمهوری سورینام"
+
+# 
+msgid "Sao Tome and Principe"
+msgstr "سائوتومه و پرنسیپ"
+
+# 
+msgid "Salvador"
+msgstr "سالوادور"
+
+# 
+msgid "Syria"
+msgstr "سوریه"
+
+# 
+msgid "Swaziland"
+msgstr "سوازیلند"
+
+# 
+msgid "Chad"
+msgstr "چاد"
+
+# 
+msgid "Togo"
+msgstr "توگو"
+
+# 
+msgid "Thailand"
+msgstr "تایلند"
+
+# 
+msgid "Tadjikistan"
+msgstr "تاجیکستان"
+
+# 
+msgid "Timor-Leste"
+msgstr "تیمور شرق"
+
+# 
+msgid "Turkmenistan"
+msgstr "ترکمنستان"
+
+# 
+msgid "Tunisia"
+msgstr "تونس"
+
+# 
+msgid "Tonga"
+msgstr "تونگو"
+
+# 
+msgid "Turkey"
+msgstr "ترکیه"
+
+# 
+msgid "Trinidad and Tobago"
+msgstr "ترینیداد و توباگو"
+
+# 
+msgid "Tuvalu"
+msgstr "تووالو"
+
+# 
+msgid "Taiwan"
+msgstr "تایوان"
+
+# 
+msgid "Tanzania"
+msgstr "تانزانیا"
+
+# 
+msgid "Ukraine"
+msgstr "اوکراین"
+
+# 
+msgid "Uganda"
+msgstr "اوگاندا"
+
+# 
+msgid "United States"
+msgstr "ایالت متحده"
+
+# 
+msgid "Uruguay"
+msgstr "اروگوئه"
+
+# 
+msgid "Uzbekistan"
+msgstr "ازبکستان"
+
+# 
+msgid "Saint Vincent and the Grenadines"
+msgstr "سنت وینسنت و گرنادین"
+
+# 
+msgid "Venezuela"
+msgstr "ونزوئلا"
+
+# 
+msgid "British Virgin Islands"
+msgstr "سنت وینسنت و گرنادین"
+
+# 
+msgid "United States Virgin Islands"
+msgstr "ایالات متحده جزایر ویرجین"
+
+# 
+msgid "Vietnam"
+msgstr "ویتنام"
+
+# 
+msgid "Vanuatu"
+msgstr "وانواتو"
+
+# 
+msgid "Samoa"
+msgstr "ساموآ"
+
+# 
+msgid "Yemen"
+msgstr "یمن"
+
+# 
+msgid "Republic of South Africa"
+msgstr "جمهوری آفریقای جنوبی"
+
+# 
+msgid "Zambia"
+msgstr "زامبیا"
+
+# 
+msgid "Zimbabwe"
+msgstr "زیمباوه"
+
+# 
+msgid "Contact Support"
+msgstr "با پشتیبانی تماس بگیرید"
+
+# 
+msgid "Live Chat"
+msgstr "چت آنلاین"
+
+# 
+msgid "Live Agent"
+msgstr "Live Agent"
+
+# 
+msgid "Login with Facebook"
+msgstr "ورود با حساب فیسبوک"
+
+# 
+msgid "Sign in with Odnoklassniki"
+msgstr "ورود با حساب odnoklassniki"
+
+# 
+msgid "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+msgstr "اگر شما میخواهید با حساب فیسبوک خود وارد شوید ابتدا باید در فیسبوک ثبت نام کنید"
+
+# 
+msgid "If you want to be able to login with your Odnoklassniki account you need to first Sign up with Odnoklassniki account."
+msgstr "اگر شما میخواهید با حساب odnoklassniki  خود وارد شوید ابتدا باید در فیسبوک ثبت نام کنید"
+
+# 
+msgid "Username"
+msgstr "نام کاربری"
+
+# 
+msgid "Your login"
+msgstr "ورود شما"
+
+# 
+msgid "Enter your password"
+msgstr "کلمه عبور خود را وارد کنید"
+
+# 
+msgid "SMS verification code"
+msgstr "اس ام اس کد تایید"
+
+# 
+msgid "Enter verification code"
+msgstr "کد تایید را وارد نمایید"
+
+# 
+msgid "Invalid username or password."
+msgstr "نام کاربری با رمز عبور معتبر نمیباشد"
+
+# 
+msgid "Create an account"
+msgstr "ایجاد حساب کاربری"
+
+# 
+msgid "Time Period"
+msgstr "دوره زمانی"
+
+# 
+msgid "All Casino Transactions"
+msgstr "تمام معاملات کازینو"
+
+# 
+msgid "id: "
+msgstr ": شناسایی"
+
+# 
+msgid "next"
+msgstr "بعدی"
+
+# 
+msgid "prev"
+msgstr "قبلی"
+
+# 
+msgid "Deposit to main wallet"
+msgstr "سپرده در حساب اصلی"
+
+# 
+msgid "Select a payment method"
+msgstr "انتخاب یک روش پرداخت"
+
+# 
+msgid "Please confirm money transfer"
+msgstr "لطفا انتقال پول را تایید نمایید"
+
+# 
+msgid "Amount: "
+msgstr "مقدار"
+
+# 
+msgid "Status:"
+msgstr "وضعیت"
+
+# 
+msgid "Unknown"
+msgstr "ناشناخته"
+
+# 
+msgid "Success"
+msgstr "موفقیت"
+
+# 
+msgid "Pending"
+msgstr "ناموفق"
+
+# 
+msgid "Failure"
+msgstr "شکست"
+
+# 
+msgid "Deposit Amount"
+msgstr "مقدار سپرده"
+
+# 
+msgid "Payment complete"
+msgstr "پرداخت کامل شد"
+
+# 
+msgid "enter amount here"
+msgstr "مقدار را وارد نمایید"
+
+# 
+msgid "Status"
+msgstr "Status"
+
+# 
+msgid "Withdraw from main wallet"
+msgstr "برداشت از حساب اصلی"
+
+# 
+msgid "Select withdraw method"
+msgstr "Select withdraw method"
+
+# 
+msgid "User ID"
+msgstr "شناسه کاربر"
+
+# 
+msgid "Withdraw Amount"
+msgstr "مقدار برداشت"
+
+# 
+msgid "available:"
+msgstr "موجودی"
+
+# 
+msgid "Please, upload your passport scan or passport photo to ease your further withdrawals."
+msgstr "لطفا اسکن پاسپورت یا عکس پاسپورت خود را برای سهولت برداشت از حساب آپلود نمایید "
+
+# 
+msgid "Verify Account"
+msgstr "تأیید حساب"
+
+# 
+msgid "Payment Method"
+msgstr "روش پرداخت"
+
+# 
+msgid "Time"
+msgstr " زمان"
+
+# 
+msgid "Your currency is"
+msgstr "واحد پول شما () است"
+
+# 
+msgid "Balance"
+msgstr "توازن"
+
+# 
+msgid "Total"
+msgstr "مجموع"
+
+# 
+msgid "Main"
+msgstr "اصلی"
+
+# 
+msgid "If your balance less, top up your balance now."
+msgstr "میزان حساب(سپرده) شما کم است,به حساب خود اضافه نمایید"
+
+# 
+msgid "From"
+msgstr "از"
+
+# 
+msgid "To"
+msgstr "به"
+
+# 
+msgid "Max"
+msgstr "حداکثر"
+
+# 
+msgid "Wait..."
+msgstr "صبر کنيد"
+
+# 
+msgid "Bonus"
+msgstr "پاداش - جایزه"
+
+# 
+msgid "Pool Betting"
+msgstr "pool betting"
+
+# 
+msgid "Use points to win"
+msgstr "Use points to win"
+
+# 
+msgid "Use Points"
+msgstr "Use Points"
+
+# 
+msgid "Points left"
+msgstr "Points left"
+
+# 
+msgid "To win iphone 6"
+msgstr "To win iphone 6"
+
+# 
+msgid "Play games"
+msgstr "Play games"
+
+# 
+msgid "Go to shop"
+msgstr "Go to shop"
+
+# 
+msgid "Main Bonus"
+msgstr "Main Bonus"
+
+# 
+msgid "Casino Bonus"
+msgstr "Casino Bonus"
+
+# 
+msgid "Transactions"
+msgstr "معاملات"
+
+# 
+msgid "All Transactions"
+msgstr "تمام معاملات"
+
+# 
+msgid "Categories"
+msgstr "دسته ها"
+
+# 
+msgid "Financials"
+msgstr "مالی"
+
+# 
+msgid "Fantasy Sports"
+msgstr "ورزش فانتزی"
+
+# 
+msgid "Ogwil"
+msgstr "تضمین پیروزی قرعه کشی آنلاین"
+
+# 
+msgid "Live games"
+msgstr "بازی های زنده"
+
+# 
+msgid "All games"
+msgstr "تمام بازی ها"
+
+# 
+msgid "Roulette"
+msgstr "رولت"
+
+# 
+msgid "BlackJack"
+msgstr "بلک جک"
+
+# 
+msgid "Bet on Poker"
+msgstr "پیش بینی روی بازی پوکر"
+
+# 
+msgid "Baccarat"
+msgstr "Baccarat"
+
+# 
+msgid "Please try later or contact support."
+msgstr "لطفا بعدا امتحان کنید یا با پشتیبان در ارتباط باشد"
+
+# 
+msgid "All Bets"
+msgstr "تمام پیش بینی ها"
+
+# 
+msgid "unsettled"
+msgstr "نا مشخص"
+
+# 
+msgid "lost"
+msgstr "بازنده"
+
+# 
+msgid "returned"
+msgstr "برگرداندن"
+
+# 
+msgid "Won"
+msgstr "برنده "
+
+# 
+msgid "Set"
+msgstr "تنظیم"
+
+# 
+msgid "Prize"
+msgstr "جایزه"
+
+# 
+msgid "Distance"
+msgstr "فاصله"
+
+# 
+msgid "Surface"
+msgstr "سطح"
+
+# 
+msgid "Game start:"
+msgstr "شروع بازی:"
+
+# 
+msgid "You don't have favourite games. To add some, click the star icon near the game name."
+msgstr "شما بازی مورد علاقه ای ندارید برای اضافه کردن بازی های مورد علاقع روی ستاره کنار نام بازی ها کلیک کنید"
+
+# 
+msgid "Bet Type"
+msgstr "نوع پیش بینی"
+
+# 
+msgid "All"
+msgstr "همه"
+
+# 
+msgid "Single"
+msgstr "تک"
+
+# 
+msgid "express"
+msgstr "بیان"
+
+# 
+msgid "system"
+msgstr "سامانه"
+
+# 
+msgid "chain"
+msgstr "زنجیره ای"
+
+# 
+msgid "Outcome"
+msgstr "نتیجه"
+
+# 
+msgid "Unsettled"
+msgstr "بی ثبات"
+
+# 
+msgid "Lost"
+msgstr "از دست دادن"
+
+# 
+msgid "Returned"
+msgstr "برگرداندن"
+
+# 
+msgid "Cashed out"
+msgstr "Cashed out"
+
+# 
+msgid "Pick"
+msgstr "انتخاب کردن"
+
+# 
+msgid "Bet placed from bonus."
+msgstr "پیش بینی از پاداش ها انجام شود"
+
+# 
+msgid "On Hold"
+msgstr "در حال انتظار"
+
+# 
+msgid "Declined"
+msgstr "Declined"
+
+# 
+msgid "Sign up with Odnoklassniki"
+msgstr "ثبت نام با Odnoklassniki"
+
+# 
+msgid "Sign up with Facebook"
+msgstr "ثبت نام با فیس بوک"
+
+# 
+msgid "User details:"
+msgstr "اطلاعات کاربر:"
+
+# 
+msgid "Enter here"
+msgstr "در اینجا وارد کنید"
+
+# 
+msgid "This field is required"
+msgstr "این بخش ضروری است."
+
+# 
+msgid "This email already exists in our database, please enter another"
+msgstr "این ایمیل در حال حاضر در پایگاه داده ها ی ما وجود دارد، لطفا ایمیل دیگری را وارد کنید"
+
+# 
+msgid "First"
+msgstr "اولین"
+
+# 
+msgid "Please enter a valid first name"
+msgstr "لطفا یک اسم معتبر وارد نمایید"
+
+# 
+msgid "Last"
+msgstr "آخرین"
+
+# 
+msgid "Please enter a valid last name"
+msgstr "لطفا یک نام خانوادگی معتبر وارد نمایید"
+
+# 
+msgid "Gender"
+msgstr "جنسیت"
+
+# 
+msgid "Male"
+msgstr "مرد"
+
+# 
+msgid "Female"
+msgstr "زن"
+
+# 
+msgid "Passport Number"
+msgstr "شماره پاسپورت"
+
+# 
+msgid "Passport Number is already registered for another account"
+msgstr "شماره پاسپورت در حال حاضر برای یک حساب دیگر ثبت شده است"
+
+# 
+msgid "Contact number"
+msgstr "شماره تماس"
+
+# 
+msgid "Number"
+msgstr "شماره"
+
+# 
+msgid "Invalid phone number"
+msgstr "شماره تلفن معتبر نیست"
+
+# 
+msgid "Duplicate phone number"
+msgstr "شماره تلفن تکراری است"
+
+# 
+msgid "Verify phone number by sms"
+msgstr "شماره تلفن خود را با اس ام اس تایید نمایید"
+
+# 
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "آیا شما قصد  ورود به سیستم/رمز عبور را دارید؟"
+
+# 
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+msgstr "اگر شما قصد ورود به سیستم با شبکه های اجتماعی را ندارید باید یک نام کاربری و رمز عبور ایجاد نمایید,در غیر این صورت سیستم به صورت خودکار نام کاربری و رمز عبور ساخته و به ایمیل شما ارسال مینماید.شما احتیاج به استفاده از نام کاربری و رمز عبور ندارید اگر شما همیشه قصد ورود به وسیله شبکه های اجتماعی را دارید"
+
+# 
+msgid "Some games will still require you to sign in using username/password."
+msgstr "  بعضی از بازی ها  نیاز به استفاده از نام کاربری و رمز ورود دارند"
+
+# 
+msgid "Sorry, this username has been used already"
+msgstr "با عرض پوزش، این نام کاربری قبلا استفاده شده است"
+
+# 
+msgid "Password cannot be same as login"
+msgstr "رمز عبور نمیتواند مانند نام کاربری باشد"
+
+# 
+msgid "Must be at least 6 characters"
+msgstr "باید حداقل 6 کاراکتر باشد"
+
+# 
+msgid "Repeat password"
+msgstr "تکرار رمز عبور:"
+
+# 
+msgid "passwords don't match"
+msgstr "کلمات عبور با هم مطابق نیستند"
+
+# 
+msgid "Start playing now."
+msgstr "حالا بازی کنید"
+
+# 
+msgid "You have"
+msgstr "دارید"
+
+# 
+msgid "Reset password"
+msgstr "تنظیم مجدد کلمه عبور"
+
+# 
+msgid "Enter your username"
+msgstr "نام کاربری خود را وارد کنید"
+
+# 
+msgid "Please enter a valid username"
+msgstr "لطفاً یک نام کاربر معتبر وارد کنید"
+
+# 
+msgid "Password reset complete."
+msgstr "تنظیم مجدد رمز عبورانجام شد"
+
+# 
+msgid "Express"
+msgstr "چندین"
+
+# 
+msgid "System"
+msgstr "سامانه"
+
+# 
+msgid "Chain"
+msgstr "زنجیره ای"
+
+# 
+msgid "UNSETTLED"
+msgstr "بی ثبات"
+
+# 
+msgid "UNSETTLED "
+msgstr "بی ثبات"
+
+# 
+msgid "Won:"
+msgstr "برنده شدن"
+
+# 
+msgid "Potential win:"
+msgstr "برنده احتمالی:"
+
+# 
+msgid "Settings"
+msgstr "تنظیمات"
+
+# 
+msgid "Personal Details"
+msgstr "اطلاعات شخصی"
+
+# 
+msgid "Change Password"
+msgstr "تغییر کلمه عبور"
+
+# 
+msgid "Self-Exclusion"
+msgstr "حذف کردن خود"
+
+# 
+msgid "Deposit Limits"
+msgstr "محدودیت های سپرده"
+
+# 
+msgid "Preferences"
+msgstr "تنظیمات"
+
+# 
+msgid "Change language"
+msgstr "تغییر زبان"
+
+# 
+msgid "Odds in"
+msgstr "شانس در"
+
+# 
+msgid "Decimal"
+msgstr "اعشاری"
+
+# 
+msgid "Fractional"
+msgstr "کسری"
+
+# 
+msgid "American"
+msgstr "آمریکایی"
+
+# 
+msgid "Save"
+msgstr "ذخیره"
+
+# 
+msgid "Current Password"
+msgstr "کلمه عبور فعلی"
+
+# 
+msgid "Password incorrect"
+msgstr "کلمه عبور اشتباه است!"
+
+# 
+msgid "New Password"
+msgstr "کلمه عبور جدید"
+
+# 
+msgid "Must be at least 8 characters"
+msgstr "باید حداقل از 8 کاراکتر استفاده نمایید"
+
+# 
+msgid "Password must contain uppercase letters, lowercase letters and numbers."
+msgstr "Password must contain uppercase letters, lowercase letters and numbers."
+
+# 
+msgid "Confirm New Password"
+msgstr "تایید کلمه عبور جدید"
+
+# 
+msgid "Confirm password"
+msgstr "تایید کلمه عبور"
+
+# 
+msgid "Passwords don't match"
+msgstr "کلمات عبور با هم مطابق نیستند"
+
+# 
+msgid "First Name"
+msgstr "نام"
+
+#
+msgid "First name"
+msgstr "نام"
+
+# 
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+# 
+msgid "Birth date"
+msgstr "تاریخ تولد"
+
+# 
+msgid "Email"
+msgstr "ایمیل"
+
+# 
+msgid "Country"
+msgstr "کشور"
+
+# 
+msgid "City"
+msgstr "شهر"
+
+# 
+msgid "Address"
+msgstr "آدرس"
+
+# 
+msgid "E-mail"
+msgstr "ایمیل"
+
+# 
+msgid "message_1119"
+msgstr "پیام-1119"
+
+# 
+msgid "Deposit limits allow you to limit the amount of funds you can deposit into the account. The amount can be chosen over a daily, weekly or monthly period. The deposit limit will allow you to restrict the amount of money entering your account, before betting takes place."
+msgstr "محدودیت های سپرده به شما اجازه میدهد تا مقدار محدودی از حساب دسترسی داشته باشید,این مقدار میتواند به صورت روزانه,هفته ای یا ماهانه انتخاب شده باشد,محدودیت سپرده به شما اجازه میدهد قبل از پیش بینی پول سپرده خود را محدود نمایید"
+
+# 
+msgid "Enter amount"
+msgstr "مقدار را وارد کنید"
+
+# 
+msgid "Day"
+msgstr "روز"
+
+# 
+msgid "Week"
+msgstr "هفته"
+
+# 
+msgid "Month"
+msgstr "ماه"
+
+# 
+msgid "Please note that you'll be able to increase your limits only after seven days from your 1st request."
+msgstr "Please note that you'll be able to increase your limits only after seven days from your 1st request."
+
+# 
+msgid "You can exclude online for a minimum period of six months, once the six months has expired your account will be reactivated again."
+msgstr "اگر شما به مدت شش ماه آنلاین نشوید,بعد از 6 ماه حساب کاربری شما منقضی میشود و باید دوباره فعال شود"
+
+# 
+msgid "Please note that you'll be able to decrease the self-exclusion period only after seven days from your 1st request."
+msgstr "Please note that you'll be able to decrease the self-exclusion period only after seven days from your 1st request."
+
+# 
+msgid "Self exclusion of six month period"
+msgstr "خروج از دوره شش ماهه"
+
+# 
+msgid "Self exclusion of a one year period"
+msgstr "خروج از دوره یک ساله"
+
+# 
+msgid "Messages"
+msgstr "پیام"
+
+# 
+msgid "Inbox"
+msgstr "صندوق پیام"
+
+# 
+msgid "Sent messages"
+msgstr "پیام های ارسال شده"
+
+# 
+msgid "New message"
+msgstr "پیام جدید"
+
+# 
+msgid "Subject"
+msgstr "موضوع"
+
+# 
+msgid "Message"
+msgstr "پیام"
+
+# 
+msgid "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "Pool:"
+msgstr "شریک شدن"
+
+# 
+msgid "Rules"
+msgstr "قانون ها"
+
+# 
+msgid "W1"
+msgstr "W1"
+
+# 
+msgid "W2"
+msgstr "W2"
+
+# 
+msgid "Options:"
+msgstr "گزینه ها"
+
+# 
+msgid "Minimal Bet Amount:"
+msgstr "کمترین میزان پیش بینی"
+
+# 
+msgid "0"
+msgstr "0"
+
+# 
+msgid "Random Choice"
+msgstr "انتخاب های تصادفی"
+
+# 
+msgid "Favourite Choice"
+msgstr "انتخاب های مورد علاقه"
+
+# 
+msgid "Place bets!"
+msgstr "انجام پیش بینی"
+
+# 
+msgid "To place your bet, please"
+msgstr "لطفا پیش بینی خود را انجام دهید"
+
+# 
+msgid "sign in"
+msgstr "ورود"
+
+# 
+msgid "or"
+msgstr "یا"
+
+# 
+msgid "register"
+msgstr "ثبت نام"
+
+# 
+msgid "Free Bet"
+msgstr "پیش بینی رایگان"
+
+# 
+msgid "freebet_info"
+msgstr "پیش بینی رایگان_اطلاعات"
+
+# 
+msgid "backgammon_requirements_windows"
+msgstr "تخته نرد_مقررات_پنجره ها"
+
+# 
+msgid "backgammon_download_description_windows"
+msgstr "تخته نرد_دانلود_توضیحات_پنجره ها"
+
+# 
+msgid "Use your"
+msgstr "استفاده شما"
+
+# 
+msgid "skills"
+msgstr "مهارت ها "
+
+# 
+msgid "100%"
+msgstr "100%"
+
+# 
+msgid "MORE!"
+msgstr "بیشتر"
+
+# 
+msgid "Register Now"
+msgstr "همین حالا ثبت نام کنید"
+
+# 
+msgid "know more..."
+msgstr "دانستن بیشتر..."
+
+# 
+msgid "Get more"
+msgstr "بدست آوردن بیشتر"
+
+# 
+msgid "Read More"
+msgstr "بیشتر خواندن"
+
+# 
+msgid "Share"
+msgstr "به اشتراک گذاشتن"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome   "
+msgstr "مرورگر شما فایل آپلود شده را پشتیبانی نمیکند,لطفا بروز رسانی کنید یا از گوگل کروم استفاده نمایید"
+
+# 
+msgid "Your file successfully uploaded "
+msgstr "فایل شما با موفقیت بارگذاری شد"
+
+# 
+msgid " There was an error during file upload, please try again. "
+msgstr "در طول بارگذاری خطا رخ داده است,لطفا دوباره امتحان کنید"
+
+# 
+msgid "Loading"
+msgstr "بارگیری..."
+
+# 
+msgid "Current Rank"
+msgstr "رتبه فعلی"
+
+# 
+msgid "ID"
+msgstr " شناسایی"
+
+# 
+msgid "Previous Rank"
+msgstr "رتبه قبلی"
+
+# 
+msgid "Currency"
+msgstr "واحد پول"
+
+# 
+msgid "Fee"
+msgstr "پرداخت"
+
+# 
+msgid "Process Time"
+msgstr "فرآیند زمانی"
+
+# 
+msgid "Min"
+msgstr "حداقل"
+
+# 
+msgid "Info"
+msgstr "اطلاعات"
+
+# 
+msgid "Free"
+msgstr "رایگان"
+
+# 
+msgid "Instant"
+msgstr "فوری"
+
+# 
+msgid "Additional information"
+msgstr "اطلاعات اضافی"
+
+# 
+msgid "DAILY COUPON"
+msgstr "DAILY COUPON"
+
+# 
+msgid "Pick: "
+msgstr "Pick: "
+
+# 
+msgid "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+msgstr "این شماره ی رزرو شده برنده نهایی betslip را مشخص نمیکند اما انتخاب صحیح پیش بینی میباشد.شانس betslip میتواند بعد از پذیرش نهایی پیش بینی توسط صندوقدار تغییر یافته و تایید شود"
+
+# 
+msgid "This week's winners"
+msgstr "برندگان این هفته"
+
+# 
+msgid "My tickets"
+msgstr "بلیط های من"
+
+# 
+msgid "You have no tickets"
+msgstr "شما هیچ بلیطی ندارید"
+
+# 
+msgid "Live Casino Page is currently closed for"
+msgstr "صفحه کازینو آنلاین در حال حاضر بسته است"
+
+# 
+msgid "maintenance."
+msgstr "نگهداری"
+
+# 
+msgid "We will be back soon with more and better features. Thank you for your patience."
+msgstr "ما به زودی با امکانات بهتر و بیشتری بازخواهیم گشت,از صبر و شکیبایی شما سپاس گذاریم"
+
+# 
+msgid "Click here to see other games."
+msgstr "برای دیدن بازی های بیشتر کلیک کنید"
+
+# 
+msgid "Offline"
+msgstr "آفلاین"
+
+# 
+msgid "Every Week JACKPOT 500.000$"
+msgstr "Every Week JACKPOT 500.000$"
+
+# 
+msgid "Show more"
+msgstr "Show more"
+
+# 
+msgid "Live Keno"
+msgstr "keno انلاین"
+
+# 
+msgid "Live Draw 6 of 49"
+msgstr "قرعه کشی آنلاین 6 از 49"
+
+# 
+msgid "Quarter"
+msgstr "کوارتر"
+
+# 
+msgid "Video not available yet"
+msgstr "Video not available yet"
+
+# 
+msgid "You need to be logged in to be able to play video."
+msgstr "برای پخش ویدیو باید وارد حساب خود شوید"
+
+# 
+msgid "You need to have non-zero balance to be able to play video."
+msgstr "برای پخش ویدیو نیاز به داشتن سپرده در حساب خود ندارید"
+
+# 
+msgid "Detach"
+msgstr "جدا کردن"
+
+# 
+msgid "End"
+msgstr "پایان"
+
+# 
+msgid "Inning"
+msgstr "ورود"
+
+# 
+msgid "First Quarter"
+msgstr "کوارتر اول"
+
+# 
+msgid "First Quarter Ended"
+msgstr "پایان کوارتر اول"
+
+# 
+msgid "Second Quarter"
+msgstr "کوارتر دوم"
+
+# 
+msgid "Second Quarter Ended"
+msgstr "پایان کوارتر دوم"
+
+# 
+msgid "Third Quarter"
+msgstr "کوارتر سوم"
+
+# 
+msgid "Third Quarter Ended"
+msgstr "پایان کوارتر سوم"
+
+# 
+msgid "Fourth Quarter"
+msgstr "کوارتر چهارم"
+
+# 
+msgid "Fourth Quarter Ended"
+msgstr "پایان کوارتر چهارم"
+
+# 
+msgid "Overtime"
+msgstr "وقت اضافه"
+
+# 
+msgid "Overtime Ended"
+msgstr "پایان وقت اضافه"
+
+# 
+msgid "Foul"
+msgstr "تقلب"
+
+# 
+msgid "Free Throw"
+msgstr "پرتاب رایگان"
+
+# 
+msgid "Free 1-Point Throw"
+msgstr "انتخاب پرتاب رایگان اول"
+
+# 
+msgid "Free 2-Point Throw"
+msgstr "انتخاب پرتاب رایگان دوم"
+
+# 
+msgid "Free 3-Point Throw"
+msgstr "انتخاب پرتاب رایگان سوم"
+
+# 
+msgid "Missed Free Throw"
+msgstr "از دست دادن انتخاب پرتاب رایگان"
+
+# 
+msgid "Attack"
+msgstr "حمله"
+
+# 
+msgid "One Point"
+msgstr "یک امتیاز"
+
+# 
+msgid "Two Points"
+msgstr "دو امتیاز"
+
+# 
+msgid "Three Points"
+msgstr "سه امتیاز"
+
+# 
+msgid "Timeout"
+msgstr "پایان زمان"
+
+# 
+msgid "Finished"
+msgstr "پایان یافته"
+
+# 
+msgid "Point"
+msgstr "امتیاز"
+
+# 
+msgid "Fault"
+msgstr "خطا"
+
+# 
+msgid "First Set"
+msgstr "ست اول"
+
+# 
+msgid "Second Set"
+msgstr "ست دوم"
+
+# 
+msgid "Third Set"
+msgstr "ست سوم"
+
+# 
+msgid "Fourth Set"
+msgstr "ست چهارم"
+
+# 
+msgid "Fifth Set"
+msgstr "ست پنجم"
+
+# 
+msgid "Dangerous Attack"
+msgstr "حمله خطرناک"
+
+# 
+msgid "Shot on target"
+msgstr "ضربه داخل چهار چوب"
+
+# 
+msgid "Shot off target"
+msgstr "ضربه خارج از چهار چوب"
+
+# 
+msgid "Corner kick"
+msgstr "ضربه کرنر"
+
+# 
+msgid "Yellow card"
+msgstr "کارت زرد"
+
+# 
+msgid "Red card"
+msgstr "کارت قرمز"
+
+# 
+msgid "Period"
+msgstr "دوره"
+
+# 
+msgid "Game"
+msgstr "بازی"
+
+# 
+msgid "Ace"
+msgstr "تک خال"
+
+# 
+msgid "Service Fault"
+msgstr "خطای سرویس"
+
+# 
+msgid "Double Fault"
+msgstr "خطای دوبل"
+
+# 
+msgid "Injury Break"
+msgstr "زمان ناشی از صدمات"
+
+# 
+msgid "Rain Delay"
+msgstr "به تاخیر انداختن به دلیل باران"
+
+# 
+msgid "Aces"
+msgstr "ستاره بازی"
+
+# 
+msgid "Double Faults"
+msgstr "خطای دوبل"
+
+# 
+msgid "Corner"
+msgstr "کرنر"
+
+# 
+msgid "Yellow Card"
+msgstr "کارت زرد"
+
+# 
+msgid "Extra Time Half Time"
+msgstr "وقت اضافی نیمه"
+
+# 
+msgid "Not Started"
+msgstr "شروع نشده"
+
+# 
+msgid "Offside"
+msgstr "آفساید"
+
+# 
+msgid "Goal"
+msgstr "گل"
+
+# 
+msgid "Pre Extra Half"
+msgstr "پیش از وقت اضافه"
+
+# 
+msgid "Throw In"
+msgstr "پرداخت داخل "
+
+# 
+msgid "Goal Kick"
+msgstr "ضربه گل"
+
+# 
+msgid "Substitution"
+msgstr "تعویض"
+
+# 
+msgid "Extra Time First Half"
+msgstr "وقت اضافه نیمه اول"
+
+# 
+msgid "Second Half"
+msgstr "نیمه دوم"
+
+# 
+msgid "Half Time"
+msgstr "نیمه زمانی"
+
+# 
+msgid "Ball Safe"
+msgstr "توپ ها(ضربات) بی خطر"
+
+# 
+msgid "Free Kick"
+msgstr "ضربه آزاد"
+
+# 
+msgid "Extra Time Second Half"
+msgstr "وقت اضافی نیمه دوم"
+
+# 
+msgid "Red Card"
+msgstr "کارت قرمز"
+
+# 
+msgid "First Half"
+msgstr "نیمه اول"
+
+# 
+msgid "Penalty"
+msgstr "پنالتی"
+
+# 
+msgid "First time score"
+msgstr "امتیاز نیمه اول"
+
+# 
+msgid "HT"
+msgstr "HT"
+
+# 
+msgid "yellow cards"
+msgstr "کارت زرد"
+
+# 
+msgid "red cards"
+msgstr "کارت قرمز"
+
+# 
+msgid "corners"
+msgstr "کرنرها"
+
+# 
+msgid "penalties"
+msgstr "پنالتی ها"
+
+# 
+msgid "Sound"
+msgstr "Sound"
+
+# 
+msgid "Frame"
+msgstr "قاب - چهارچوب"
+
+# 
+msgid "Race Type"
+msgstr "نوع مسابقه"
+
+# 
+msgid "Select a Sport"
+msgstr "انتخاب یک ورزش"
+
+# 
+msgid "Next Event"
+msgstr "رویداد بعدی"
+
+# 
+msgid "Events from different groups can be combined in combined bets"
+msgstr "Events from different groups can be combined in combined bets"
+
+# 
+msgid "Horse"
+msgstr "اسب"
+
+# 
+msgid "Greyhound"
+msgstr "سگ دوانی"
+
+# 
+msgid "Jockey"
+msgstr "سوارکار"
+
+# 
+msgid "Cash-out available"
+msgstr "Cash-out available"
+
+# 
+msgid "№"
+msgstr "خیر"
+
+# 
+msgid "sport news"
+msgstr "اخبار"
+
+# 
+msgid "Change statistics mode"
+msgstr "تغییر حالت آمار"
+
+# 
+msgid "Show / Hide statistics"
+msgstr "Show / Hide statistics"
+
+# 
+msgid "Use this selector to switch between Live and Pre-match games"
+msgstr "از این گزینه برای انتحاب بین بازی های زنده و بازی هایی که هنوز آغاز نشده اند استفاده کنید"
+
+# 
+msgid "click to switch to pre-match"
+msgstr "برای بازی هایی که هنوز آعاز نشده اند کلیک کنید"
+
+# 
+msgid "live"
+msgstr "زنده - آنلاین"
+
+# 
+msgid "click to swicth to Live games"
+msgstr "برای بازی های زنده  کلیک کنید"
+
+# 
+msgid "Switch to"
+msgstr "تبدیل به"
+
+# 
+msgid "Select sport"
+msgstr "انتخاب ورزش"
+
+# 
+msgid "Remove All from Favorites"
+msgstr "تمام گزینه ها از علاقه مندی ها پاک شود"
+
+# 
+msgid "Remove from My Games"
+msgstr "تمام گزینه ها از بازی های من حذف شود"
+
+# 
+msgid "Add to My Games"
+msgstr "اضافه کردن به بازی های مورد علاقه"
+
+# 
+msgid "Phone only market"
+msgstr "تنها تلفن به مرکز تجارت"
+
+# 
+msgid "To place a bet, please call"
+msgstr "برای انجام پیش بینی لطفا تماس بگیرید"
+
+# 
+msgid "statistic"
+msgstr "آنالیز آماری"
+
+# 
+msgid "There may be a Rule 4 on this Race"
+msgstr "ممکن است قانون شماره 4 برای این مسابقه وجود داشته باشد"
+
+# 
+msgid "Win Only"
+msgstr "فقط برنده"
+
+# 
+msgid "show more"
+msgstr "نمایش بیشتر"
+
+# 
+msgid "show"
+msgstr "نمایش دادن"
+
+# 
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+
+# 
+msgid "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+msgstr "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+
+# 
+msgid "Today at"
+msgstr "امروز ساعت"
+
+# 
+msgid "Course"
+msgstr "دوره"
+
+# 
+msgid "Winner"
+msgstr "Winner"
+
+# 
+msgid "Handicap"
+msgstr "Handicap"
+
+# 
+msgid "Tie"
+msgstr "Tie"
+
+# 
+msgid "Odds"
+msgstr "Odds"
+
+# 
+msgid "Full Time"
+msgstr "Full Time"
+
+# 
+msgid "1st Goal"
+msgstr "1st Goal"
+
+# 
+msgid "Last Goal"
+msgstr "Last Goal"
+
+# 
+msgid "None"
+msgstr "هیچ کدام"
+
+# 
+msgid "ODD"
+msgstr "ODD"
+
+# 
+msgid "EVEN"
+msgstr "EVEN"
+
+# 
+msgid "Full Time 1X2"
+msgstr "Full Time 1X2"
+
+# 
+msgid "Half Time 1X2"
+msgstr "Half Time 1X2"
+
+# 
+msgid "Order by Time"
+msgstr "Order by Time"
+
+# 
+msgid "Back"
+msgstr "Back"
+
+# 
+msgid "HongKong"
+msgstr "HongKong"
+
+# 
+msgid "Malay"
+msgstr "Malay"
+
+# 
+msgid "Indo"
+msgstr "Indo"
+
+# 
+msgid "Date Filter"
+msgstr "Date Filter"
+
+# 
+msgid "Select competition"
+msgstr "Select competition"
+
+# 
+msgid "Event View"
+msgstr "Event View"
+
+# 
+msgid "Live Overview"
+msgstr "Live Overview"
+
+# 
+msgid "Live MultiView"
+msgstr "Live MultiView"
+
+# 
+msgid "Live Calendar"
+msgstr "Live Calendar"
+
+# 
+msgid "Statistics"
+msgstr "Statistics"
+
+# 
+msgid "Toggle inner scrolling"
+msgstr "Toggle inner scrolling"
+
+# 
+msgid "My games"
+msgstr "بازی های من"
+
+# 
+msgid "My bets"
+msgstr "پیش بینی های من"
+
+# 
+msgid "Time format"
+msgstr "Time format"
+
+# 
+msgid "12 hours"
+msgstr "12 ساعت"
+
+# 
+msgid "24 hours"
+msgstr "24 ساعت"
+
+# 
+msgid "Sportsbook layout:"
+msgstr "طرح تبلیغات"
+
+# 
+msgid "Modern"
+msgstr "مدرن"
+
+# 
+msgid "Classic"
+msgstr "کلاسیک"
+
+# 
+msgid "Asian"
+msgstr "Asian"
+
+# 
+msgid "Betting"
+msgstr "پیش بینی"
+
+# 
+msgid "Booking"
+msgstr "رزرو کردن"
+
+# 
+msgid "bet slip"
+msgstr "تعییرات خودکار قیمت ها"
+
+# 
+msgid "Betting options"
+msgstr "گزینه های پیش بینی"
+
+# 
+msgid "Automatically accept price changes"
+msgstr "قبول تغییرات خودکار قیمت ها "
+
+# 
+msgid "Higher odds"
+msgstr "شانس بیشتر"
+
+# 
+msgid "Any odds"
+msgstr "هر شانسی"
+
+# 
+msgid "Quick bet"
+msgstr "پیش بینی سریع"
+
+# 
+msgid "Your bet is accepted."
+msgstr "پیش بینی شما پذیرفته شد"
+
+# 
+msgid "To select a bet, please click on any odd."
+msgstr "برای انتخاب پیش بینی روی یکی از شانس ها کلیک کنید"
+
+# 
+msgid "Click on any odd to place a bet."
+msgstr "روی یکی از ضریب ها کلیک کنید تا پیش بینی انتخاب شود"
+
+# 
+msgid "Single only"
+msgstr "تک واحدی"
+
+# 
+msgid "Event Locked"
+msgstr "امکان انتخاب در این لحظه قفل شده است"
+
+# 
+msgid "This event is not available now"
+msgstr "این بازی در حال حاضر در دسترس نمیباشد"
+
+# 
+msgid "This pick cannot be combined with:"
+msgstr "این انتخاب نمیتوان ترکیب شود"
+
+# 
+msgid "delete"
+msgstr "پاک کردن"
+
+# 
+msgid " Pick: "
+msgstr "انتخاب کردن"
+
+# 
+msgid "Unit Stake"
+msgstr "واحد سهام"
+
+# 
+msgid "Stake..."
+msgstr "سرمایه گذاری پول ..."
+
+# 
+msgid "Repeat for all"
+msgstr "تکرار کردن برای همه"
+
+# 
+msgid "Win:"
+msgstr "برنده شدن"
+
+# 
+msgid "Superbet"
+msgstr "پیش بینی بزرگ"
+
+# 
+msgid "Superbet is turned ON"
+msgstr "Superbet is turned ON"
+
+# 
+msgid "SuperBet is a new offer that allows requesting a Max Bet Limit Increase for selected sporting events."
+msgstr "SuperBet is a new offer that allows requesting a Max Bet Limit Increase for selected sporting events."
+
+# 
+msgid "Booking ID:"
+msgstr "رزرو کردن شناسایی"
+
+# 
+msgid "Stake amount"
+msgstr "مبلغ سرمایه گذاری"
+
+# 
+msgid "Possible win:"
+msgstr "احتمال برنده شدن"
+
+# 
+msgid "Bonus:"
+msgstr "پاداش - جایزه"
+
+# 
+msgid "Total win:"
+msgstr "تمام پیروزی ها"
+
+# 
+msgid "Invalid stake amount entered"
+msgstr "مبلغی که سرمایه گذاری کرده اید نامعتبر است"
+
+# 
+msgid "Please enter stake amount"
+msgstr "لطفا مقدار سرمایه گذاری را وارد نمایید"
+
+# 
+msgid "Insufficient balance"
+msgstr "موجودی کافی نیست"
+
+# 
+msgid "You have to accept changes to be able to place bets"
+msgstr "شما باید قبول کنید که پیش بینی خود را به یک پیش بینی دردسترس تبدیل کنید"
+
+# 
+msgid "Get bet ID"
+msgstr "گرفتن هویت پیش بینی"
+
+# 
+msgid "Add more events to be able to place bet"
+msgstr "اضافه کردن رویداد برای انجام پیش بینی"
+
+# 
+msgid "There are locked events"
+msgstr "رویدادهای قفل شده است"
+
+# 
+msgid "Incompatible events"
+msgstr "رویدادهای ناسازگار"
+
+# 
+msgid "There are deleted events"
+msgstr "رویدادهای حذف شده وجود دارد"
+
+# 
+msgid "Market base for some events have changed"
+msgstr "بازار پایه برای برخی از رویدادها تغییر کرده"
+
+# 
+msgid "Single Only Events"
+msgstr "فقط رویداد های تک"
+
+# 
+msgid "Prices for some events have changed"
+msgstr "قیمت برخی از رویدادها تغییر کرده است"
+
+# 
+msgid "Multi-selection mode"
+msgstr "حالت چند انتخابه"
+
+# 
+msgid "Disable regions"
+msgstr "غیر فعال کردن مناطق"
+
+# 
+msgid "With video"
+msgstr "با ویدیو"
+
+# 
+msgid "Daily coupon"
+msgstr "Daily coupon"
+
+# 
+msgid "For upcoming races please look in Live betting"
+msgstr "برای رویداد های آینده (نزدیک) لطفا پیش بینی های آنلاین را ببینید"
+
+# 
+msgid "Selected games"
+msgstr "انتخاب بازی ها"
+
+# 
+msgid "Clear All"
+msgstr "پاک کردن همه"
+
+# 
+msgid "Trainer/Jockey"
+msgstr "مربی/سوارکار"
+
+# 
+msgid "Age"
+msgstr "سن"
+
+# 
+msgid "Weight"
+msgstr "وزنه"
+
+# 
+msgid "Form"
+msgstr "نوع"
+
+# 
+msgid "We are not accepting bets on this event at the moment."
+msgstr "ما پیش بینی های این بازی را در این لحظه نمی پذیریم"
+
+# 
+msgid "Clear"
+msgstr "Clear"
+
+# 
+msgid "Payment Requests Withdrawal"
+msgstr "Payment Requests Withdrawal"
+
+# 
+msgid "Confirm"
+msgstr "تایید "
+
+# 
+msgid "1. The minimum withdrawal amount 10,000 KRW."
+msgstr "1. The minimum withdrawal amount 10,000 KRW."
+
+# 
+msgid "2. Withdrawal can only be made from registered accounts."
+msgstr "2. Withdrawal can only be made from registered accounts."
+
+# 
+msgid "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+msgstr "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+
+# 
+msgid "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+msgstr "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+
+# 
+msgid "5. If you want a quick withdrawal, please use the above time away."
+msgstr "5. If you want a quick withdrawal, please use the above time away."
+
+# 
+msgid "Payment Requests Deposit"
+msgstr "Payment Requests Deposit"
+
+# 
+msgid "1. The minimum deposit amount is 10,000 KRW."
+msgstr "1. The minimum deposit amount is 10,000 KRW."
+
+# 
+msgid "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+msgstr "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+
+# 
+msgid "3. Please always check deposit bank account from time to time."
+msgstr "3. Please always check deposit bank account from time to time."
+
+# 
+msgid "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+msgstr "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+
+# 
+msgid "SKILL GAMES"
+msgstr "بازی های مهارتی"
+
+# 
+msgid "DOWNLOAD"
+msgstr "دانلود"
+
+# 
+msgid "logo"
+msgstr "آرم"
+
+# 
+msgid "back to top"
+msgstr "بازگشت به بالا"
+
+# 
+msgid "Number Drawn Today"
+msgstr "Number Drawn Today"
+
+# 
+msgid "Get Started"
+msgstr "Get Started"
+
+# 
+msgid "Phone"
+msgstr "شماره تماس"
+
+# 
+msgid "Ticket Number"
+msgstr "Ticket Number"
+
+# 
+msgid "Tournaments"
+msgstr "مسابقات"
+
+# 
+msgid "Poker Leaderboard"
+msgstr "Poker Leaderboard"
+
+# 
+msgid "Show All"
+msgstr "Show All"
+
+# 
+msgid "FIFA WORLD CUP"
+msgstr "جام جهانی فیفا"
+
+# 
+msgid "years"
+msgstr "سال ها"
+
+# 
+msgid "months"
+msgstr "ماه"
+
+# 
+msgid "days"
+msgstr "روزها"
+
+# 
+msgid "hours"
+msgstr "ساعات"
+
+# 
+msgid "minutes"
+msgstr "دقایق"
+
+# 
+msgid "seconds"
+msgstr "لحظات"
+
+# 
+msgid "Select a Sport "
+msgstr "انتخاب ورزش"
+
+# 
+msgid "Place A bet!"
+msgstr "انجام پیش بینی"
+
+# 
+msgid "Poker Tournament"
+msgstr "مسابقه پوکر"
+
+# 
+msgid "Biggest tournament of this year."
+msgstr "بزرگترین مسابقه سال"
+
+# 
+msgid "Bet now!"
+msgstr "همین حالا پیش بینی کنید"
+
+# 
+msgid "Live now"
+msgstr "در حال زنگی کنید"
+
+# 
+msgid "Live news"
+msgstr "اخبار زنده"
+
+# 
+msgid "All news"
+msgstr "All news"
+
+# 
+msgid "Eastern"
+msgstr "Eastern"
+
+# 
+msgid "OGWIL"
+msgstr "OGWIL"
+
+# 
+msgid "Don't show this again."
+msgstr "دوباره نشان داده نشود"
+
+# 
+msgid "Event sounds:"
+msgstr "رویداد تلفن های همراه"
+
+# 
+msgid "On"
+msgstr "روشن"
+
+# 
+msgid "Off"
+msgstr "خاموش"
+
+# 
+msgid "Hide:"
+msgstr "پنهان کردن"
+
+# 
+msgid "Choose color scheme:"
+msgstr "تغییر دادن رگ طرح"
+
+# 
+msgid "FAQ"
+msgstr "سوالات متداول"
+
+# 
+msgid "My messages"
+msgstr "پیام های من"
+
+# 
+msgid "Log Out"
+msgstr "خروج از حساب کاربری"
+
+# 
+msgid "deposit_info_skrill_1tap"
+msgstr "سپرده_اطلاعات_skrill_ضربه اول"
+
+# 
+msgid "deposit_info_skrill"
+msgstr "سپرده_اطلاعات_skrill"
+
+# 
+msgid "withdraw_info_skrill"
+msgstr "برداشت_اطلاعات_skrill"
+
+# 
+msgid "deposit_info_webmoney"
+msgstr "سپرده_اطلاعات_webmoney"
+
+# 
+msgid "withdraw_info_webmoney"
+msgstr "برداشت_اطلاعات_webmoney"
+
+# 
+msgid "Purse"
+msgstr "دارایی"
+
+# 
+msgid "deposit_info_qiwi"
+msgstr "سپرده_اطلاعات_qiwi"
+
+# 
+msgid "withdraw_info_qiwi"
+msgstr "برداشت_اطلاعات_qiwi"
+
+# 
+msgid "Wallet id"
+msgstr "شناسه سپرده"
+
+# 
+msgid "deposit_info_neteller"
+msgstr "سپرده_اطلاعات_neteller"
+
+# 
+msgid "withdraw_info_neteller"
+msgstr "برداشت_اطلاعات_neteller"
+
+# 
+msgid "Account Id"
+msgstr "شناسه حساب"
+
+# 
+msgid "Secure Id"
+msgstr "شناسه امنیتی"
+
+# 
+msgid "deposit_info_moneta"
+msgstr "سپرده_اطلاعات_moneta"
+
+# 
+msgid "withdraw_info_moneta"
+msgstr "برداشت_اطلاعات_moneta"
+
+# 
+msgid "deposit_info_ecocard"
+msgstr "سپرده_اطلاعات_ecocard"
+
+# 
+msgid "withdraw_info_ecocard"
+msgstr "برداشت_اطلاعات_ecocard"
+
+# 
+msgid "deposit_info_ukash"
+msgstr "سپرده_اطلاعات_ukash"
+
+# 
+msgid "withdraw_info_ukash"
+msgstr "برداشت_اطلاعات_ukash"
+
+# 
+msgid "deposit_info_cash"
+msgstr "سپرده_اطلاعات_پول نقد"
+
+# 
+msgid "deposit_info_bitcoin"
+msgstr "سپرده_اطلاعات_bitcoin"
+
+# 
+msgid "deposit_info_cashbill"
+msgstr "سپرده_اطلاعات_صورت حساب"
+
+# 
+msgid "deposit_info_arca"
+msgstr "سپرده_اطلاعات_arca"
+
+# 
+msgid "withdraw_info_arca"
+msgstr "برداشت_اطلاعات_arca"
+
+# 
+msgid "Last name/surname, name, middle name"
+msgstr "نام خانوادگی/نام خانوادگی,نام,نام میانی"
+
+# 
+msgid "deposit_info_edram"
+msgstr "سپرده_اطلاعات_edram"
+
+# 
+msgid "withdraw_info_edram"
+msgstr "برداشت_اطلاعات_edram"
+
+# 
+msgid "withdraw_info_cash"
+msgstr "برداشت_اطلاعات_پول نقد"
+
+# 
+msgid "deposit_info_telcell"
+msgstr "سپرده_اطلاعات_telcall"
+
+# 
+msgid "deposit_info_tandem"
+msgstr "سپرده_اطلاعات_tandem"
+
+# 
+msgid "deposit_info_btabank"
+msgstr "سپرده_اطلاعات_btabank"
+
+# 
+msgid "deposit_info_mobidram"
+msgstr "سپرده_اطلاعات_mobidram"
+
+# 
+msgid "deposit_info_paytopay"
+msgstr "سپرده_اطلاعات_پرداخت به پرداخت"
+
+# 
+msgid "withdraw_info_topoker"
+msgstr "برداشت_اطلاعات_topoker"
+
+# 
+msgid "deposit_info_card"
+msgstr "سپرده_اطلاعات_کارت"
+
+# 
+msgid "PinCode"
+msgstr "پین کد"
+
+# 
+msgid "x_card_num"
+msgstr "x_کارت_شماره"
+
+# 
+msgid "x_card_code"
+msgstr "x_کارت_کد"
+
+# 
+msgid "x_exp_date_yy"
+msgstr "x_تاریخ انقضا_تاریخ_سال"
+
+# 
+msgid "withdraw_info_astropay"
+msgstr "برداشت_اطلاعات_astropay"
+
+# 
+msgid "Credit Card Number"
+msgstr "Credit Card Number"
+
+# 
+msgid "Expiration Year"
+msgstr "Expiration Year"
+
+# 
+msgid "Expiration Month"
+msgstr "Expiration Month"
+
+# 
+msgid "Card Holder Name"
+msgstr "Card Holder Name"
+
+# 
+msgid "Card Number"
+msgstr "Card Number"
+
+# 
+msgid "Card code"
+msgstr "Card code"
+
+# 
+msgid "Expiry date (mm)"
+msgstr "Expiry date (mm)"
+
+# 
+msgid "Expiry date (yyyy)"
+msgstr "Expiry date (yyyy)"
+
+# 
+msgid "deposit_info_wirecard"
+msgstr "سپرده_اطلاعات_wirecard"
+
+# 
+msgid "CardNumber"
+msgstr "شماره کارت"
+
+# 
+msgid "CardHolderName"
+msgstr "نام دارنده کارت"
+
+# 
+msgid "ExpirationYear"
+msgstr "سال انقضا"
+
+# 
+msgid "ExpirationMonth"
+msgstr "ماه انقضا"
+
+# 
+msgid "Cvc2"
+msgstr "کد تایید ارزش کارت"
+
+# 
+msgid "deposit_info_bankform"
+msgstr "سپرده_اطلاعات_فرم بانکی"
+
+# 
+msgid "IBAN"
+msgstr "IBAN"
+
+# 
+msgid "SWIFT"
+msgstr "سریع و السیر"
+
+# 
+msgid "withdraw_info_bankform"
+msgstr "برداشت_اطلاعات_فرم بانکی"
+
+# 
+msgid "deposit_info_moneysafe"
+msgstr "سپرده_اطلاعات_پول امن"
+
+# 
+msgid "Code"
+msgstr "کد"
+
+# 
+msgid "withdraw_info_tovivaropet"
+msgstr "برداشت_اطلاعات_tovivaropet"
+
+# 
+msgid "deposit_info_eblontransfer"
+msgstr "سپرده_اطلاعات_eblontransfer"
+
+# 
+msgid "withdraw_info_eblontransfer"
+msgstr "برداشت_اطلاعات_eblontransfer"
+
+# 
+msgid "CustomerID"
+msgstr "شناسه مشتری"
+
+# 
+msgid "casino_auth_error"
+msgstr "We're experiencing temporary difficulties. Please try a little later."
+
+# 
+msgid "Sorry, this game cannot be opened in multi-view mode"
+msgstr "با عرض پوزش، این بازی نمی تواند در حالت چندگانه باز شود"
+
+# 
+msgid "This Game Is Already Opened In Multi Game View. Please Choose Another Game."
+msgstr "این بازی در بازی های چند گانه باز میباشد.لطفا بازی دیگری انتخاب کنید"
+
+# 
+msgid "It Is Possible To Play Only One Game Of The Same Provider In Multi Game View. Please Choose Another Game."
+msgstr "ممکن است تنها یکی از بازی های چندگانه از یک سرویس ارائه دهنده قابل نمایش باشد . لطفا بازی دیگری را انتخاب کنید."
+
+# 
+msgid "Please close one of the games for adding new one"
+msgstr "لطفا یکی از بازی ها را برای اضافه کردن یک بازی جدید ببندید"
+
+# 
+msgid "The game is not available"
+msgstr "بازی در دسترس نمی باشد."
+
+# 
+msgid "Home"
+msgstr "خانه"
+
+# 
+msgid "message_OK"
+msgstr "پذیرفته شده"
+
+# 
+msgid "Virtual sports"
+msgstr "ورزش های مجازی"
+
+# 
+msgid "More sports"
+msgstr "More sports"
+
+# 
+msgid "Popular competitions"
+msgstr "Popular competitions"
+
+# 
+msgid "Your Facebook account is already linked to another existing user."
+msgstr "حساب فیسبوک شما برای یک حساب کاربری دیگر لینک شده است"
+
+# 
+msgid "Unknown error"
+msgstr "خطای ناشناخته"
+
+# 
+msgid "Come play on "
+msgstr "آماده بازی شدن"
+
+# 
+msgid "Password changed"
+msgstr "تغییر رمز عبور"
+
+# 
+msgid "Personal information updated."
+msgstr "به روزرسانی اطلاعان شخصی"
+
+# 
+msgid "Invalid password."
+msgstr "رمز عبور نامعتبر است"
+
+# 
+msgid "Deposit limits set."
+msgstr "مقدار سپرده را تنظیم نمایید"
+
+# 
+msgid "Self-Exclusion period set."
+msgstr "دوره خروج خود را تنظیم نمایید"
+
+# 
+msgid "New Bets"
+msgstr "پیش بینی های جدید"
+
+# 
+msgid "Winning Bets"
+msgstr "شرط برد"
+
+# 
+msgid "Returned Bet"
+msgstr "شرط بازگشت"
+
+# 
+msgid "Card Deposit"
+msgstr "سپرده کارت"
+
+# 
+msgid "Bonus Bet"
+msgstr "پاداش پیش بینی"
+
+# 
+msgid "Commission"
+msgstr "کمیسیون"
+
+# 
+msgid "Withdrawal"
+msgstr "برداشت"
+
+# 
+msgid "Correction"
+msgstr "اصلاح"
+
+# 
+msgid "Deposit by payment system"
+msgstr "سپرده های سیستم پرداخت"
+
+# 
+msgid "Withdrawal request"
+msgstr "درخواست برداشت"
+
+# 
+msgid "Authorized Withdrawal"
+msgstr "برداشت مجاز"
+
+# 
+msgid "Withdrawal denied"
+msgstr "برداشت رد شد"
+
+# 
+msgid "Withdrawal paid"
+msgstr "پرداخت برداشت"
+
+# 
+msgid "Pool Bet"
+msgstr "سرمایه گذاری مشترک روی پیش بینی"
+
+# 
+msgid "Pool Bet Win"
+msgstr "برنده سرمایه گذاری مشترک"
+
+# 
+msgid "Pool Bet Return"
+msgstr "برگرداندن پیش بینی مشترک"
+
+# 
+msgid "In the process of revision"
+msgstr "در فرایند این نسخه"
+
+# 
+msgid "Removed for recalculation"
+msgstr "حذف برای محاسبه مجدد"
+
+# 
+msgid "Free Bet Bonus received"
+msgstr "دریافت شانس پیش بینی رایگان"
+
+# 
+msgid "Wagering Bonus received"
+msgstr "دریافت پاداش پیش بینی"
+
+# 
+msgid "Transfer from Gaming Wallet"
+msgstr "انتقال از سپرده بازی"
+
+# 
+msgid "Transfer to Gaming Wallet"
+msgstr "انتقال به سپرده بازی"
+
+# 
+msgid "Declined Superbet"
+msgstr "Declined Superbet"
+
+# 
+msgid "Bet on hold"
+msgstr "Bet on hold"
+
+# 
+msgid "Bet cashout"
+msgstr "Bet cashout"
+
+# 
+msgid "Fair"
+msgstr "منصفانه/عادلانه"
+
+# 
+msgid "Fair Win"
+msgstr "پیروزی عادلانه"
+
+# 
+msgid "Fair Return"
+msgstr "بازگشت عادلانه"
+
+# 
+msgid "Tip"
+msgstr "بخشش"
+
+# 
+msgid "Error"
+msgstr "خطا"
+
+# 
+msgid "Your E-mail Has been confirmed"
+msgstr "Your E-mail Has been confirmed"
+
+# 
+msgid "You account has been locked. Please try again later !"
+msgstr "You account has been locked. Please try again later !"
+
+# 
+msgid "Invalid email"
+msgstr "Invalid email"
+
+# 
+msgid "Upcoming"
+msgstr "آینده"
+
+# 
+msgid "Popular"
+msgstr " محبوب"
+
+# 
+msgid "Favorite games"
+msgstr "بازی های مورد علاقه"
+
+# 
+msgid "Unsupported service"
+msgstr "خدمات پشتیبانی نمیشود"
+
+# 
+msgid "Currency unsupported"
+msgstr "پول رایج شما پشتیبانی نمیشود"
+
+# 
+msgid "Amount is less than minimum allowed"
+msgstr "مقدار سپرده کمتر از حداقل سپرده اجازه داده شده میباشد"
+
+# 
+msgid "Amount is greater than maximum allowed"
+msgstr "مقدار سپرده بیشتر از حداکثر سپرده اجازه داده شده میباشد"
+
+# 
+msgid "Entered payee information is not correct."
+msgstr "اطلاعات پرداخت کننده صحیح نمیباشد"
+
+# 
+msgid "Entered payer information is not correct."
+msgstr "اطلاعات پرداخت کننده صحیح نمیباشد"
+
+# 
+msgid "Internal service fault"
+msgstr "خطا در سرویس داخلی رخ داده است"
+
+# 
+msgid "Withdraw request blocked."
+msgstr "درخواست برداشت بلاک شده است"
+
+# 
+msgid "User link blocked, please contact support."
+msgstr "لینک استفاده شده بلاک میباشد,لطفا با پشتیبانی در تماس باشید"
+
+# 
+msgid "Day limit reached. Please try later."
+msgstr "مقدار روزانه به پایان رسیده است,لطفا بعدا امتحان کنید"
+
+# 
+msgid "Withdraw request is already in progress"
+msgstr "درخواست برداشت در حال بررسی است"
+
+# 
+msgid "Withdrawal was successful."
+msgstr "برداشت موفقیت آمیز بود"
+
+# 
+msgid "Withdraw failed."
+msgstr "برداشت موفقیت آمیز نبود"
+
+# 
+msgid "There was an error processing your request."
+msgstr "یک خطا در طول پردازش درخواست شما رخ داده است"
+
+# 
+msgid "Withdrawal was successful"
+msgstr "برداشت موفقیت آمیز بوده است"
+
+# 
+msgid "Deposit was successful."
+msgstr "سپرده گذاری موفقیت آمیز یوده است"
+
+# 
+msgid "Deposit failed."
+msgstr "سرمایه گذاری موفقیت آمیز نبود"
+
+# 
+msgid "Your transfer is successfully completed"
+msgstr "انتقال شما با موفقیت به پایان رسید"
+
+# 
+msgid "Internal Error"
+msgstr "خطای داخلی رخ داده است"
+
+# 
+msgid "Invalid RFID card"
+msgstr "RFID کارت نامعتبر است"
+
+# 
+msgid "Invalid Password"
+msgstr "کلمه عبور معتبر نیست"
+
+# 
+msgid "Please put your RFID card on card reader"
+msgstr "لطفا RFID کارت خود را روی کارتخوان قرار دهید"
+
+# 
+msgid "LiveCalendar"
+msgstr "LiveCalendar"
+
+# 
+msgid "Favorites"
+msgstr "Favorites"
+
+# 
+msgid "Live calendar"
+msgstr "Live calendar"
+
+# 
+msgid "Virtual Betting"
+msgstr "پیش بینی مجازی"
+
+# 
+msgid "Keno"
+msgstr "Keno"
+
+# 
+msgid "Connection lost. Reconnecting."
+msgstr "اتصال قطع شده است. دوباره متصل شوید"
+
+# 
+msgid "Connection restored"
+msgstr "اتصال برقرار شد"
+
+# 
+msgid "In progress"
+msgstr "در حال پردازش"
+
+# 
+msgid "Blocked"
+msgstr "مسدود"
+
+# 
+msgid "Calculating wins"
+msgstr "محاسبه برنده"
+
+# 
+msgid "Closed"
+msgstr "بسته شده"
+
+# 
+msgid "Wrong phone number"
+msgstr "شماره تلفن نامعتبر است"
+
+# 
+msgid "Invalid verification code"
+msgstr "کد تایید نامعتبر است"
+
+# 
+msgid "Code has been sent, please check your mobile phone"
+msgstr "کد فرستاده شد,لطفا تلفن همراه خود را چک کنید"
+
+# 
+msgid "APPROVED BET"
+msgstr "پیش بینی تایید شده"
+
+# 
+msgid "YOUR BET HAS BEEN APPROVED"
+msgstr "پیش بینی شما تایید شده است"
+
+# 
+msgid "DECLINED BET"
+msgstr "میزان پیش بینی کاهش یافته است"
+
+# 
+msgid "YOUR BET HAS BEEN DECLINED"
+msgstr "پیش بینی شما رد شده است"
+
+# 
+msgid "Message sent"
+msgstr "پیام ارسال شد"
+
+# 
+msgid "Cannot play this video in your region."
+msgstr "این ویدیو در منطقه شما پخش نمیشود"
+
+# 
+msgid "Cannot play video stream.Sorry."
+msgstr "پوزش میطلبیم این ویدیو پخش نمیشود"
+
+# 
+msgid "Done"
+msgstr "انجام شد"
+
+# 
+msgid "Next"
+msgstr "بعدی"
+
+# 
+msgid "Previous"
+msgstr "قبلی"
+
+# 
+msgid "Skip"
+msgstr "رد کردن"
+
+# 
+msgid "Press Ctrl + C to copy link address to clipboard"
+msgstr "ctrl + c را فشار دهید تا لینک در کلیپ بورد کپی شود"
+
+# 
+msgid "Feedback"
+msgstr "بازخورد"
+
+# 
+msgid "Live Lottery"
+msgstr "بخت آزمایی زنده"
+
+# 
+msgid "Download Beta version"
+msgstr "دانلود نسخه بتا"
+
+# 
+msgid "Armenian"
+msgstr "ارمنی"
+
+# 
+msgid "online"
+msgstr "آنلاین"
+
+# 
+msgid "Championship"
+msgstr "قهرمانی"
+
+# 
+msgid "season"
+msgstr "فصل"
+
+# 
+msgid "choose your os"
+msgstr "سیستم عامل خود را انتخاب کنید"
+
+# 
+msgid "poker_requirements_linux"
+msgstr "بازی پوکر-الزامات-لینوکس"
+
+# 
+msgid "poker_download_description_linux"
+msgstr " بازی پوکر-دانلود-توضیحات-لینوکس"
+
+# 
+msgid "3 Steps To start the game"
+msgstr "3 مرحله برای شروع بازی"
+
+# 
+msgid "Start"
+msgstr "شروع"
+
+# 
+msgid "Download and Install"
+msgstr "دانلود کنید و نصب نمایید"
+
+# 
+msgid "Register your account"
+msgstr "برای داشتن حساب کاربری ثبت نام کنید"
+
+# 
+msgid "Start to Play"
+msgstr "بازی را شروع کنید"
+
+# 
+msgid "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+msgstr "   بر روی فایل دانلود کلیک نمایید تا پروسه نصب شروع شود.مراحل را برای کامل شدن  اجرای نرم افزار دنبال نمایید"
+
+# 
+msgid "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+msgstr "بر روی دکمه ثبت نام در پنجره ورود به حساب کاربری کلیک کنید تا بتوانید برای حساب کاربری ثبت نام نمایید.اگر شما ثبت نام کرده اید اطلاعات خود را وارد نموده و وارد  شوید"
+
+# 
+msgid "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+msgstr "از بازی در اتاق پوکر ما لذت ببرید,برای سوالات و پیشنهادات با پشتیبان آنلاین ما در ارتباط باشید"
+
+# 
+msgid "Note:"
+msgstr "نکته"
+
+# 
+msgid "You can change the layout of the sportsbook in the settings."
+msgstr "شما میتوانید طرح تبلیغاتی را از قسمت تنظیمات تغییر دهید"
+
+# 
+msgid "Please note:"
+msgstr "لطفا توجه داشته باشید:"
+
+# 
+msgid "If previous deposit limits are increased, you must wait 24 hours until changes take effect."
+msgstr "اگر محدودیت سپرده قبلی افزایش یافته است، شما باید 24 ساعت تا اعمال تغییرات صبر کنید."
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome "
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome "
+
+# 
+msgid "Turn on sound from settings"
+msgstr "روشن کردن صدا از قسمت تنظیمات"
+
+# 
+msgid "Popular games"
+msgstr "Popular games"
+
+# 
+msgid "Leaderboard"
+msgstr "Leaderboard"
+
+# 
+msgid "Come play on"
+msgstr "Come play on"
+
+# 
+msgid "Enter number"
+msgstr "Enter number"
+
+# 
+msgid "Points:"
+msgstr "نکات"
+
+# 
+msgid "Account"
+msgstr "حساب کاربری"
+
+# 
+msgid "Quarters"
+msgstr "کوارتر"
+
+# 
+msgid "Innings"
+msgstr "نوبت"
+
+# 
+msgid "Periods"
+msgstr "دوره های زمانی"
+
+# 
+msgid "Sets"
+msgstr "تنظیم کردن"
+
+# 
+msgid "Play Now"
+msgstr "Play Now"
+
+# 
+msgid "AOC"
+msgstr "کمیته المپیک استرالیا"
+
+# 
+msgid "Free Quiz"
+msgstr "Free Quiz"
+
+# 
+msgid "Promotions"
+msgstr "تبلیغات"
+
+# 
+msgid "Life tournament"
+msgstr "Life tournament"
+
+# 
+msgid "for our users"
+msgstr "for our users"
+
+# 
+msgid "system "
+msgstr "system "
+
+# 
+msgid "Middle"
+msgstr "میانه"
+
+# 
+msgid "Jan"
+msgstr "بهمن"
+
+# 
+msgid "Feb"
+msgstr "اسفند"
+
+# 
+msgid "Mar"
+msgstr "فروردن"
+
+# 
+msgid "Apr"
+msgstr "اردیبهشت"
+
+# 
+msgid "May"
+msgstr "خرداد"
+
+# 
+msgid "Jun"
+msgstr "تیر"
+
+# 
+msgid "Jul"
+msgstr "مرداد"
+
+# 
+msgid "Aug"
+msgstr "شهریور"
+
+# 
+msgid "Sep"
+msgstr "مهر"
+
+# 
+msgid "Oct"
+msgstr "آبان"
+
+# 
+msgid "Nov"
+msgstr "اذر"
+
+# 
+msgid "Dec"
+msgstr "دی"
+
+# 
+msgid "Gender "
+msgstr "جنسیت"
+
+# 
+msgid "This field can contain only digits and letters"
+msgstr "این قسمت را فقط با ارقام و کلمات میتوانید کامل کنید"
+
+# 
+msgid "Username "
+msgstr "نام کاربری"
+
+# 
+msgid "Password is too short"
+msgstr "کلمه عبور بیش از حد کوتاه است"
+
+# 
+msgid "Confirm Password"
+msgstr "تایید کلمه عبور"
+
+# 
+msgid "Registration on this site is not permitted in selected country."
+msgstr "ثبت نام در این سایت در کشور انتخاب شده مجاز نمیباشد"
+
+# 
+msgid "You can register here:"
+msgstr "می توانید از این قسمت ثبت نام کنید:"
+
+# 
+msgid "Country code is not correct"
+msgstr "کد کشور صحیح نمیباشد"
+
+# 
+msgid "Failed to send sms"
+msgstr "عدم موفقیت در ارسال اس ام اس"
+
+# 
+msgid "Field can contain only digits"
+msgstr "در این قسمت فقط ارقام قرار میگیرند"
+
+# 
+msgid "SMS Code"
+msgstr "کد اس ام اس"
+
+# 
+msgid "Promo code"
+msgstr "کد تبلیغاتی"
+
+# 
+msgid "Security question"
+msgstr "سوال امنیتی"
+
+# 
+msgid "Security answer"
+msgstr "پاسخ امنیتی"
+
+# 
+msgid "I would like to receive information about bonuses and new offers via email."
+msgstr "من علاقه مند به دریافت اطلاعات درباره پاداش ها و پیشنهاد های جدید در ایمیلم هستم"
+
+# 
+msgid "I would like to receive information about bonuses and new offers via SMS"
+msgstr "من علاقه مند به دریافت اطلاعات درباره پاداش ها و پیشنهاد های جدید به وسیله پیامک هستم"
+
+# 
+msgid "Register also for poker."
+msgstr "همچنین ثبت نام برای پوکر"
+
+# 
+msgid "Video roundups"
+msgstr "Video roundups"
+
+# 
+msgid "Popular bets"
+msgstr "پیش بینی های محبوب"
+
+# 
+msgid "Use your "
+msgstr "استفاده شما"
+
+# 
+msgid "Deberc"
+msgstr "باقی مانده"
+
+# 
+msgid "deposit_info_yandex"
+msgstr "سپرده_اطلاعات_yandex"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome"
+msgstr "مرورگر شما فایل آپلود شده را پشتیبانی نمیکند,لطفا بروز رسانی کنید یا از گوگل کروم استفاده نمایید"
+
+# 
+msgid "I would like to subscribe for email updates and offers from this site."
+msgstr "من علاقه مند به دنبال کردن پیشنهادهای سایت و بروزرسانی از طریق ایمیل هستم"
+
+# 
+msgid "What was the name of your first pet?"
+msgstr "نام اولین حیوان خانگی شما چه بوده است"
+
+# 
+msgid "What age were you when you went to school?"
+msgstr "زمانی که به مدرسه رفتید چه سنی داشتید"
+
+# 
+msgid "What was the name of the city you were born in?"
+msgstr "نام شهری که در آن متولد شدید چیست"
+
+# 
+msgid "What was then number of your school?"
+msgstr "What was then number of your school?"
+
+# 
+msgid "What was then name of your first love?"
+msgstr "What was then name of your first love?"
+
+# 
+msgid "What was the make and model of your first car?"
+msgstr "اسم مدل اولین ماشین شما چه بوده است"
+
+# 
+msgid "deposit_info_centili"
+msgstr "سپرده_اطلاعات_centili"
+
+# 
+msgid "BET_APPROVED_TITLE"
+msgstr "پیش بینی_تایید_عنوان"
+
+# 
+msgid "BET_DECLINED_TITLE"
+msgstr "پیش بینی_کاهش_عنوان"
+
+# 
+msgid "BET_DECLINED_MESSAGE"
+msgstr "پیش بینی_کاهش_پیام"
+
+# 
+msgid "Horse Age"
+msgstr "سن اسب"
+
+# 
+msgid "Jockey Weight"
+msgstr "وزن سوارکار"
+
+# 
+msgid "Trainer/Jokey"
+msgstr "مربی/سوارکار"
+
+# 
+msgid "Coming soon"
+msgstr "به زودی"
+
+# 
+msgid "You have exited website, but your page on odnoklassniki.ru is still active."
+msgstr "شما از وب سایت خارج شده اید اما پیج شما در odnoklassniki.ru همچنان فعال است"
+
+# 
+msgid "Game is temporarily locked"
+msgstr "بازی موقتا قفل شده است."
+
+# 
+msgid "Ranking table"
+msgstr "جدول رتبه بندی"
+
+# 
+msgid "Continue"
+msgstr "ادامه"
+
+# 
+msgid "Coating"
+msgstr "پوشش دادن"
+
+# 
+msgid "Hide Balance"
+msgstr "پنهان کردن مقدارها"
+
+# 
+msgid "Show Balance"
+msgstr "نشان دادن مقدارها"
+
+# 
+msgid "Show Username"
+msgstr "نشان دادن نام کاربری"
+
+# 
+msgid "Hide Username"
+msgstr "پنهان کردن نام کاربری"
+
+# 
+msgid "Hide statistics"
+msgstr "پنهان کردن آمار"
+
+# 
+msgid "Show statistics"
+msgstr "نشان دادن آمار"
+
+# 
+msgid "Profile"
+msgstr "نمایه"
+
+# 
+msgid "username"
+msgstr "نام کاربری"
+
+# 
+msgid "balance"
+msgstr "توازن"
+
+# 
+msgid "help"
+msgstr "کمک"
+
+# 
+msgid "single"
+msgstr "تک"
+
+# 
+msgid "Live Dealer"
+msgstr "فروشنده آنلاین"
+
+# 
+msgid "Invite"
+msgstr "دعوت کردن"
+
+# 
+msgid "Sign up with your Facebook account"
+msgstr "ثبت نام به وسیله حساب فیسبوک"
+
+# 
+msgid "Username(in case you'll want to login without facebook)"
+msgstr "نام کاربری (این قسمت زمانی استفاده میشود که نخواهید به وسیله فیسبوک وارد شوید)"
+
+# 
+msgid "withdraw_info_wirecard"
+msgstr "برداشت_اطلاعات_wirecard"
+
+# 
+msgid "Turf"
+msgstr "چمن"
+
+# 
+msgid "Dirt"
+msgstr "خاک"
+
+# 
+msgid "Polytrack"
+msgstr "Polytrack"
+
+# 
+msgid "yards"
+msgstr "متری"
+
+# 
+msgid "Sound:"
+msgstr "صدا:"
+
+# 
+msgid "Part of bet placed from bonus."
+msgstr "بخشی از پیش بینی از پاداش انجام شده است"
+
+# 
+msgid "Live chat / FAQ"
+msgstr " چت آنلاین/ پرسش و پاسخ"
+
+# 
+msgid "id:"
+msgstr ": شناسایی"
+
+# 
+msgid "DEMO MODE"
+msgstr "حالت نسخه ی نمایشی"
+
+# 
+msgid "Exchange"
+msgstr "تبادل"
+
+# 
+msgid "Duplicate product"
+msgstr "حاصل تکراری"
+
+# 
+msgid "Wrong Password"
+msgstr "کلمه عبور نادرست"
+
+# 
+msgid "Wrong Amount"
+msgstr "مقدار نادرست"
+
+# 
+msgid "Product not allowed"
+msgstr "حاصل مجاز نیست"
+
+# 
+msgid "Upccomming events"
+msgstr "رویداد های آینده"
+
+# 
+msgid "Add to BetSlip"
+msgstr "اضافه کردن به خطای پیش بینی"
+
+# 
+msgid "deposit_info_megapay"
+msgstr "سپرده_اطلاعات_megapay"
+
+# 
+msgid "deposit_info_osmp"
+msgstr "سپرده_اطلاعات_osmp"
+
+# 
+msgid "Canceled"
+msgstr "لغو شد"
+
+# 
+msgid "Depost Amount"
+msgstr "مقدار ثانویه"
+
+# 
+msgid "Active"
+msgstr "فعال"
+
+# 
+msgid "Fixed"
+msgstr "ثابت"
+
+# 
+msgid "Payed"
+msgstr "پرداخت شده"
+
+# 
+msgid "will start in"
+msgstr "شروع خواهد شد"
+
+# 
+msgid "Frames"
+msgstr "قاب"
+
+# 
+msgid "Last update:"
+msgstr "زمان آخرین به‌روز رسانی:"
+
+# 
+msgid "OnePoint"
+msgstr "امتیاز اول"
+
+# 
+msgid "TwoPoints"
+msgstr "امتیاز دوم"
+
+# 
+msgid "ThreePoints"
+msgstr "امتیاز سوم"
+
+# 
+msgid "0 Half"
+msgstr "نیم"
+
+# 
+msgid "1st Half"
+msgstr "نیمه اول"
+
+# 
+msgid "2nd Half"
+msgstr "نیمه دوم"
+
+# 
+msgid "Additional Time1"
+msgstr "وقت اضافی زمان اول"
+
+# 
+msgid "Additional Time2"
+msgstr "وقت اضافه زمان دوم"
+
+# 
+msgid "Waiting"
+msgstr "منتظر بمانید"
+
+# 
+msgid "Round"
+msgstr "نوبت"
+
+# 
+msgid "Round 0"
+msgstr "نوبت 0"
+
+# 
+msgid "Round 1"
+msgstr "اولین نوبت"
+
+# 
+msgid "Round 2"
+msgstr "دومین نوبت"
+
+# 
+msgid "Round 3"
+msgstr "سومین نوبت"
+
+# 
+msgid "Round 4"
+msgstr "چهارمین نوبت"
+
+# 
+msgid "Round 5"
+msgstr "پنجمین نوبت"
+
+# 
+msgid "Round 6"
+msgstr "ششمین نوبت"
+
+# 
+msgid "Round 7"
+msgstr "هفتمین نوبت"
+
+# 
+msgid "Round 8"
+msgstr "هشتمین نوبت"
+
+# 
+msgid "Round 9"
+msgstr "نهمین نوبت"
+
+# 
+msgid "Round 10"
+msgstr "دهمین نوبت"
+
+# 
+msgid "Round 11"
+msgstr "یازدهمین نوبت"
+
+# 
+msgid "Round 12"
+msgstr "دوازدهمین نوبت"
+
+# 
+msgid "Set 0"
+msgstr "دست 0"
+
+# 
+msgid "Set 1"
+msgstr "اولین دست"
+
+# 
+msgid "Set 2"
+msgstr "دومین دست"
+
+# 
+msgid "Set 3"
+msgstr "سومین دست"
+
+# 
+msgid "Set 4"
+msgstr "چهارمین دست"
+
+# 
+msgid "Set 5"
+msgstr "پنجمین دست"
+
+# 
+msgid "Set 6"
+msgstr "ششمین دست"
+
+# 
+msgid "Set 7"
+msgstr "هفتمین دست"
+
+# 
+msgid "Set 8"
+msgstr "هشتمین دست"
+
+# 
+msgid "Set 9"
+msgstr "نهمین دست"
+
+# 
+msgid "Set 10"
+msgstr "دهمین دست"
+
+# 
+msgid "Period 0"
+msgstr "زمان 0"
+
+# 
+msgid "Period 1"
+msgstr "اولین زمان"
+
+# 
+msgid "Period 2"
+msgstr "دومین زمان"
+
+# 
+msgid "Period 3"
+msgstr "سومین زمان"
+
+# 
+msgid "Quarter 0"
+msgstr "کوارتر 0"
+
+# 
+msgid "Quarter 1"
+msgstr "کوارتر اول"
+
+# 
+msgid "Quarter 2"
+msgstr "کوارتر دوم"
+
+# 
+msgid "Quarter 3"
+msgstr "کوارتر سوم"
+
+# 
+msgid "Quarter 4"
+msgstr "کوارتر چهارم"
+
+# 
+msgid "Inning 0"
+msgstr "ورود"
+
+# 
+msgid "1st Inning"
+msgstr "اولین ورود"
+
+# 
+msgid "2nd Inning"
+msgstr "دومین ورود"
+
+# 
+msgid "3rd Inning"
+msgstr "سومین ورود"
+
+# 
+msgid "4th Inning"
+msgstr "چهارمین ورود"
+
+# 
+msgid "5th Inning"
+msgstr "پنجمین ورود"
+
+# 
+msgid "6th Inning"
+msgstr "ششمین ورود"
+
+# 
+msgid "7th Inning"
+msgstr "هفتمین ورود"
+
+# 
+msgid "8th Inning"
+msgstr "هشتمین ورود"
+
+# 
+msgid "9th Inning"
+msgstr "نهمین ورود"
+
+# 
+msgid "10th Inning"
+msgstr "دهمین ورود"
+
+# 
+msgid "11th Inning"
+msgstr "یازدهمین ورود"
+
+# 
+msgid "12th Inning"
+msgstr "دوازدهمین ورود"
+
+# 
+msgid "13th Inning"
+msgstr "سیزدهمین ورود"
+
+# 
+msgid "14th Inning"
+msgstr "چهاردهمین ورود"
+
+# 
+msgid "15th Inning"
+msgstr "پانزدهمین ورود"
+
+# 
+msgid "16th Inning"
+msgstr "شانزدهمین ورود"
+
+# 
+msgid "17th Inning"
+msgstr "هفدهمین ورود"
+
+# 
+msgid "18th Inning"
+msgstr "هجدهمین ورود"
+
+# 
+msgid "19th Inning"
+msgstr "نوزدهمین ورود"
+
+# 
+msgid "20th Inning"
+msgstr "بیستمین ورود"
+
+# 
+msgid "21th Inning"
+msgstr "بیست و یکمین ورود"
+
+# 
+msgid "22th Inning"
+msgstr "بیست و دومین ورود"
+
+# 
+msgid "23th Inning"
+msgstr "بیست و سومین ورود"
+
+# 
+msgid "24th Inning"
+msgstr "بیست و چهارمین ورود"
+
+# 
+msgid "25th Inning"
+msgstr "بیست و پنجمین ورود"
+
+# 
+msgid "Time 0"
+msgstr "زمان 0"
+
+# 
+msgid "Time 1"
+msgstr "زمان اول"
+
+# 
+msgid "Time 2"
+msgstr "زمان دوم"
+
+# 
+msgid "Frame 0"
+msgstr "قالب 0"
+
+# 
+msgid "Frame 1"
+msgstr "قالب 1"
+
+# 
+msgid "Frame 2"
+msgstr "قالب 2"
+
+# 
+msgid "Frame 3"
+msgstr "قالب 3"
+
+# 
+msgid "Frame 4"
+msgstr "قالب 4"
+
+# 
+msgid "Frame 5"
+msgstr "قالب 5"
+
+# 
+msgid "Frame 6"
+msgstr "قالب 6"
+
+# 
+msgid "Frame 7"
+msgstr "قالب 7"
+
+# 
+msgid "Frame 8"
+msgstr "قالب 8"
+
+# 
+msgid "Frame 9"
+msgstr "قالب 9"
+
+# 
+msgid "Frame 10"
+msgstr "قالب 10"
+
+# 
+msgid "Frame 11"
+msgstr "قالب 11"
+
+# 
+msgid "Frame 12"
+msgstr "قالب 12"
+
+# 
+msgid "Frame 13"
+msgstr "قالب 13"
+
+# 
+msgid "Frame 14"
+msgstr "قالب 14"
+
+# 
+msgid "Frame 15"
+msgstr "قالب 15"
+
+# 
+msgid "Frame 16"
+msgstr "قالب 16"
+
+# 
+msgid "Frame 17"
+msgstr "قالب 17"
+
+# 
+msgid "Frame 18"
+msgstr "قالب 18"
+
+# 
+msgid "Frame 19"
+msgstr "قالب 19"
+
+# 
+msgid "Frame 20"
+msgstr "قالب 20"
+
+# 
+msgid "Frame 21"
+msgstr "قالب 21"
+
+# 
+msgid "Frame 22"
+msgstr "قالب 22"
+
+# 
+msgid "Frame 23"
+msgstr "قالب 23"
+
+# 
+msgid "Frame 24"
+msgstr "قالب 24"
+
+# 
+msgid "Frame 25"
+msgstr "قالب 25"
+
+# 
+msgid "Frame 26"
+msgstr "قالب 26"
+
+# 
+msgid "Frame 27"
+msgstr "قالب 27"
+
+# 
+msgid "Frame 28"
+msgstr "قالب 28"
+
+# 
+msgid "Frame 29"
+msgstr "قالب 29"
+
+# 
+msgid "Frame 30"
+msgstr "قالب 30"
+
+# 
+msgid "Frame 31"
+msgstr "قالب 31"
+
+# 
+msgid "Frame 32"
+msgstr "قالب 32"
+
+# 
+msgid "Frame 33"
+msgstr "قالب 33"
+
+# 
+msgid "Frame 34"
+msgstr "قالب 34"
+
+# 
+msgid "Frame 35"
+msgstr "قالب 35"
+
+# 
+msgid "Frame 36"
+msgstr "قالب 36"
+
+# 
+msgid "Frame 37"
+msgstr "قالب 37"
+
+# 
+msgid "Frame 38"
+msgstr "قالب 38"
+
+# 
+msgid "Frame 39"
+msgstr "قالب 39"
+
+# 
+msgid "Period 4"
+msgstr "چهارمین زمان"
+
+# 
+msgid "Period 5"
+msgstr "پنجمین زمان"
+
+# 
+msgid "Period 6"
+msgstr "ششمین زمان"
+
+# 
+msgid "Game 0"
+msgstr "بازی 0"
+
+# 
+msgid "Game 1"
+msgstr " بازی اول"
+
+# 
+msgid "Game 2"
+msgstr " بازی دوم"
+
+# 
+msgid "Game 3"
+msgstr "بازی سوم"
+
+# 
+msgid "Game 4"
+msgstr "بازی چهارم"
+
+# 
+msgid "Game 5"
+msgstr "بازی پنجم"
+
+# 
+msgid "Set 11"
+msgstr "یازدهمین دست"
+
+# 
+msgid "Set 12"
+msgstr "دوازدهمین دست"
+
+# 
+msgid "Set 13"
+msgstr "سیزدهمین دست"
+
+# 
+msgid "Set 14"
+msgstr "چهاردهمین دست"
+
+# 
+msgid "Set 15"
+msgstr "پانزدهمین دست"
+
+# 
+msgid "Set 16"
+msgstr "شانزدهمین دست"
+
+# 
+msgid "Set 17"
+msgstr "هفدهمین دست"
+
+# 
+msgid "Set 18"
+msgstr "هجدهمین دست"
+
+# 
+msgid "Set 19"
+msgstr "نوزدهمین دست"
+
+# 
+msgid "Set 20"
+msgstr "بیستمین دست"
+
+# 
+msgid "Events"
+msgstr "رویدادها"
+
+# 
+msgid "SHOW"
+msgstr "نمایش دادن"
+
+# 
+msgid "In-Play"
+msgstr "در بازی"
+
+# 
+msgid "Id"
+msgstr " شناسایی"
+
+# 
+msgid "To place your bet, please log in"
+msgstr "برای انجام پیش بینی خود,لطفا وارد حساب کاربری خود شوید"
+
+# 
+msgid "Win % 1 st Service"
+msgstr "Win % 1 st Service"
+
+# 
+msgid "Break Point Conversions"
+msgstr "نقض کردن نکات تبدیل"
+
+# 
+msgid "Your bet is not accepted"
+msgstr "پیش بینی شما پذیرفته نشد"
+
+# 
+msgid "TransferProduct:\nERROR_LOW_BALANCE"
+msgstr "انتقال نتیجه:/خطا_پایین_متعادل کردن"
+
+# 
+msgid "this field is required"
+msgstr "این بخش ضروری است."
+
+# 
+msgid "Invalid payee"
+msgstr "دریافت کننده نامعتبر است"
+
+# 
+msgid "Invalid payer"
+msgstr "پرداخت نامعتبر است"
+
+# 
+msgid "ok"
+msgstr "ok"
+
+# 
+msgid "Email Address or Username"
+msgstr "آدرس ایمیل یا نام کاربری"
+
+# 
+msgid "Terms &amp; Conditions"
+msgstr "شرایط"
+
+# 
+msgid "TransferProductRROR_LOW_BALANCE"
+msgstr "انتقال نتیجه_پایین_متعادل کردن"
+
+# 
+msgid "FEATURED GAMES"
+msgstr "بازی های ویژه"
+
+# 
+msgid "Welcome"
+msgstr "خوش آمدید"
+
+# 
+msgid "Join us now!"
+msgstr "همین حالا به ما ملحق شوید"
+
+# 
+msgid "Cashier"
+msgstr "صندوق دار"
+
+# 
+msgid "new"
+msgstr "جدید"
+
+# 
+msgid "Not a valid password"
+msgstr "کلمه عبور نامعتبر است"
+
+# 
+msgid "Available/Withdrawable"
+msgstr "در دسترس/قابل برداشت"
+
+# 
+msgid "bet id:"
+msgstr "هویت پیش بینی"
+
+# 
+msgid "automatically accept price changes"
+msgstr "قبول تغییرات خودکار قیمت ها "
+
+# 
+msgid "incompatible events"
+msgstr "رویدادهای ناسازگار"
+
+# 
+msgid "there are deleted events"
+msgstr "رویدادهای حذف شده وجود دارد"
+
+# 
+msgid "prices for some events have changed"
+msgstr "قیمت برخی از رویدادها تغییر کرده است"
+
+# 
+msgid "Accept changes"
+msgstr "قبول کردن تبدیل ها"
+
+# 
+msgid "You need to sign in to be able to place bets"
+msgstr "برای انجام پیش بینی باید وارد حساب کاربری خود شوید"
+
+# 
+msgid "Invalid recipient"
+msgstr "دریافت کننده نامعتبر است"
+
+# 
+msgid "deposit_info_mastercard"
+msgstr "سپرده_اطلاعات_mastercard"
+
+# 
+msgid "withdraw_info_mastercard"
+msgstr "برداشت_اطلاعات_mastercard"
+
+# 
+msgid "label_card_number"
+msgstr "برچسب_کارت_شماره"
+
+# 
+msgid "deposit_info_visa"
+msgstr "سپرده_اطلاعات_visa"
+
+# 
+msgid "withdraw_info_visa"
+msgstr "برداشت_اطلاعات_visa"
+
+# 
+msgid "deposit_info_paypal"
+msgstr "سپرده_اطلاعات_paypal"
+
+# 
+msgid "withdraw_info_paypal"
+msgstr "برداشت_اطلاعات_PAYPAL"
+
+# 
+msgid "Select one"
+msgstr "انتخاب یک گزینه"
+
+# 
+msgid "Deposit Amount (USD)"
+msgstr "مقدار سپرده (USD)"
+
+# 
+msgid "Attach"
+msgstr "اضافه کردن"
+
+# 
+msgid "Middle Name"
+msgstr "نام میانی"
+
+#
+msgid "Middle name"
+msgstr "نام میانی"
+
+# 
+msgid "prevew"
+msgstr "پیش نمایش"
+
+# 
+msgid "Full Name"
+msgstr "نام کامل"
+
+# 
+msgid "Select your country"
+msgstr "کشور خود را انتخاب کنید"
+
+# 
+msgid "Select your currency"
+msgstr "وجه رایج خود را انتخاب کنبد"
+
+# 
+msgid "Enter the text here"
+msgstr "متن خود را در این قسمت وارد کنید"
+
+# 
+msgid "I would like to subbscribe for email updates and offeres from VBET."
+msgstr "من مایل به دنبال کردن به روز رسانی ایمیل و پیشنهاد های سایت از طریق VBET هستم"
+
+# 
+msgid "message_ONHOLD"
+msgstr "پیام_در انتظار"
+
+# 
+msgid "message_CHANGE_ODD"
+msgstr "پیام_تغییر_فرد"
+
+# 
+msgid "message_EVENT_LOCKED"
+msgstr "پیام_رویداد_قفل شده"
+
+# 
+msgid "message_LIMIT_ERROR"
+msgstr "پیام_حدود_خطا"
+
+# 
+msgid "message_GAME_STARTED"
+msgstr "پیام_بازی_شروع"
+
+# 
+msgid "message_1000"
+msgstr "پیام_1000"
+
+# 
+msgid "message_1001"
+msgstr "پیام_1001"
+
+# 
+msgid "message_1003"
+msgstr "پیام_1003"
+
+# 
+msgid "message_1004"
+msgstr "پیام_1004"
+
+# 
+msgid "message_1006"
+msgstr "پیام_1006"
+
+# 
+msgid "message_1008"
+msgstr "پیام_1008"
+
+# 
+msgid "message_1009"
+msgstr "پیام_1009"
+
+# 
+msgid "message_1099"
+msgstr "پیام_1099"
+
+# 
+msgid "message_1100"
+msgstr "پیام_1100"
+
+# 
+msgid "message_1102"
+msgstr "پیام_1102"
+
+# 
+msgid "message_1103"
+msgstr "پیام_1103"
+
+# 
+msgid "message_1104"
+msgstr "پیام_1104"
+
+# 
+msgid "message_1105"
+msgstr "پیام_1105"
+
+# 
+msgid "message_1106"
+msgstr "پیام_1106"
+
+# 
+msgid "message_1107"
+msgstr "پیام 1107"
+
+# 
+msgid "message_1108"
+msgstr "پیام_1108"
+
+# 
+msgid "message_1109"
+msgstr "پیام_1109"
+
+# 
+msgid "message_1112"
+msgstr "پیام_1112"
+
+# 
+msgid "message_1113"
+msgstr "پیام_1113"
+
+# 
+msgid "message_1114"
+msgstr "پیام_1114"
+
+# 
+msgid "message_1115"
+msgstr "پیام_1115"
+
+# 
+msgid "message_1116"
+msgstr "پیام_1116"
+
+# 
+msgid "message_1117"
+msgstr "پیام_1117"
+
+# 
+msgid "message_1118"
+msgstr "پیام1118"
+
+# 
+msgid "message_1150"
+msgstr "پیام_1150"
+
+# 
+msgid "message_1200"
+msgstr "پیام_1200"
+
+# 
+msgid "message_1300"
+msgstr "پیام_1300"
+
+# 
+msgid "message_1400"
+msgstr "پیام_1400"
+
+# 
+msgid "message_1510"
+msgstr "پیام_1510"
+
+# 
+msgid "message_1500"
+msgstr "پیام_1500"
+
+# 
+msgid "message_1550"
+msgstr "پیام_1550"
+
+# 
+msgid "message_1560"
+msgstr "پیام_1560"
+
+# 
+msgid "message_1600"
+msgstr "پیام_1600"
+
+# 
+msgid "message_1700"
+msgstr "پیام_1700"
+
+# 
+msgid "message_1800"
+msgstr "پیام_1800"
+
+# 
+msgid "message_1900"
+msgstr "پیام_1900"
+
+# 
+msgid "message_1910"
+msgstr "پیام_2010"
+
+# 
+msgid "message_2000"
+msgstr "پیام_2000"
+
+# 
+msgid "message_2100"
+msgstr "پیام_2100"
+
+# 
+msgid "message_2200"
+msgstr "پیام_2200"
+
+# 
+msgid "message_2300"
+msgstr "پیام_2300"
+
+# 
+msgid "message_2400"
+msgstr "پیام_2400"
+
+# 
+msgid "message_2403"
+msgstr "پیام_2403"
+
+# 
+msgid "Sex"
+msgstr "جنسیت"
+
+# 
+msgid "Bermudas"
+msgstr "برمودا"
+
+# 
+msgid "Butane"
+msgstr "بوتان"
+
+# 
+msgid "East Timor"
+msgstr "تیمور شرق"
+
+# 
+msgid "Papua - New Guinea"
+msgstr "پاپوآ گینه نو"
+
+# 
+msgid "South Africa"
+msgstr " آفریقای جنوبی"
+
+# 
+msgid "St. Lucia"
+msgstr "St. Lucia"
+
+# 
+msgid "Surinam"
+msgstr "سورینام"
+
+# 
+msgid "Tongo"
+msgstr "تونگو"
+
+# 
+msgid "The Cayman Islands"
+msgstr "جزایر کیمن"
+
+# 
+msgid "The Central African Republic"
+msgstr "جمهوری آفریقای مرکزی"
+
+# 
+msgid "The Cook Islands"
+msgstr "جزایر کوک"
+
+# 
+msgid "The Democratic Republic of the Congo"
+msgstr "جمهوری دموکرات کنگو"
+
+# 
+msgid "Sent Messages"
+msgstr "پیام های ارسال شده"
+
+# 
+msgid "New Message"
+msgstr "پیام جدید"
+
+# 
+msgid "Clear Bet Slip to activate Qiuck Bet"
+msgstr "پاک کردن پیش بینی خطا و انجام پیش بینی فعال"
+
+# 
+msgid "Other"
+msgstr "دیگر"
+
+# 
+msgid "There is no downloadable client for your operating system"
+msgstr "هیچ دانلودی برای سیستم عامل شما وجود دارد"
+
+# 
+msgid "message_1110"
+msgstr "پیام_1110"
+
+# 
+msgid "message_2406"
+msgstr "پیام_2406"
+
+# 
+msgid "Reset"
+msgstr "تنظیم مجدد "
+
+# 
+msgid "Switch to "
+msgstr "تبدیل به"
+
+# 
+msgid "Conditional bet"
+msgstr "پیش بینی مشروط"
+
+# 
+msgid "Odd..."
+msgstr "فرد"
+
+# 
+msgid "Score:"
+msgstr "امتیاز"
+
+# 
+msgid "3D  Slots"
+msgstr "اسلات 3 بعدی"
+
+# 
+msgid "Film Slot"
+msgstr "فیلم اسلات"
+
+# 
+msgid "Instant Win"
+msgstr "برنده فوری"
+
+# 
+msgid "Table Games"
+msgstr "جدول بازی ها"
+
+# 
+msgid "Top Slots"
+msgstr "اسلات بالا"
+
+# 
+msgid "TvGames"
+msgstr "بازی های تلویزیون"
+
+# 
+msgid "Video Poker"
+msgstr "پوکر تصویری"
+
+# 
+msgid "Other Games"
+msgstr "دیگر بازی ها"
+
+# 
+msgid "Progressive"
+msgstr "ترقی کننده/پیش رونده"
+
+# 
+msgid "Add more events to be able to place bet "
+msgstr "اضافه کردن رویداد برای انجام پیش بینی"
+
+# 
+msgid "Depost Amount (USD)"
+msgstr "Depost Amount (USD)"
+
+# 
+msgid "1 hours"
+msgstr "1 ساعت"
+
+# 
+msgid "2 hours"
+msgstr "2 ساعت"
+
+# 
+msgid "3 hours"
+msgstr "3 ساعت"
+
+# 
+msgid "5 hours"
+msgstr "5 ساعت"
+
+# 
+msgid "6 hours"
+msgstr "6 ساعت"
+
+# 
+msgid "48 hours"
+msgstr "48 ساعت"
+
+# 
+msgid "72 hours"
+msgstr "72 ساعت"
+
+# 
+msgid "User age is under minimum allowed."
+msgstr "سن کاربر از حداقل سن اجازه داده شده کمتر است"
+
+# 
+msgid "Please close {1} game(s) to change view"
+msgstr "لطفا یکی از بازی{ها} را برای تغییر نمایش ببندید"
+
+# 
+msgid "One Game View"
+msgstr "نمایش یک بازی"
+
+# 
+msgid "Two Games View"
+msgstr "نمایش دو بازی"
+
+# 
+msgid "Four Games View"
+msgstr "نمایش چهار بازی"
+
+# 
+msgid "Open In Pop-Up Window"
+msgstr "باز کردن صفحه pop-up"
+
+# 
+msgid "Add a Game"
+msgstr "اضافه کردن یک بازی"
+
+# 
+msgid "Durak"
+msgstr "توقف"
+
+# 
+msgid "Preferans"
+msgstr "ترجیح"
+
+# 
+msgid "Domino"
+msgstr "دومینو"
+
+# 
+msgid "Sea Battle"
+msgstr "نبرد دریایی"
+
+# 
+msgid "Refresh"
+msgstr "دوباره بارگزاری کردن"
+
+# 
+msgid "multiple"
+msgstr "متعدد"
+
+# 
+msgid "livecasino_101_1"
+msgstr "کازینو آنلاین_101_1"
+
+# 
+msgid "livecasino_101_2"
+msgstr "کازینو آنلاین_101_2"
+
+# 
+msgid "livecasino_101_3"
+msgstr "کازینو آنلاین_101_3"
+
+# 
+msgid "livecasino_101_4"
+msgstr "کازینو آنلاین_101_4"
+
+# 
+msgid "livecasino_102"
+msgstr "کازینو آنلاین_102"
+
+# 
+msgid "livecasino_103"
+msgstr "کازینو آنلاین_103"
+
+# 
+msgid "livecasino_104"
+msgstr "کازینو آنلاین_104"
+
+# 
+msgid "AllWeather"
+msgstr "آب و هوای مناسب"
+
+# 
+msgid "N_H_Flat"
+msgstr "NH Flat"
+
+# 
+msgid "Game Balance:"
+msgstr "میانگین بازی"
+
+# 
+msgid " Horse"
+msgstr "اسب"
+
+# 
+msgid " Jockey"
+msgstr "سوارکار"
+
+# 
+msgid " Jockey Weight"
+msgstr "وزن سوارکار"
+
+# 
+msgid "Name *"
+msgstr "نام"
+
+# 
+msgid "Birth date *"
+msgstr "تاریخ تولد"
+
+# 
+msgid "Gender *"
+msgstr "جنسیت"
+
+# 
+msgid "Passport Number *"
+msgstr "شماره پاسپورت"
+
+# 
+msgid "Username *"
+msgstr "نام کاربری"
+
+# 
+msgid "Password *"
+msgstr "کلمه عبور"
+
+# 
+msgid "Confirm Password *"
+msgstr "تایید کلمه عبور"
+
+# 
+msgid "Email Address *"
+msgstr "آدرس ایمیل"
+
+# 
+msgid "Country *"
+msgstr "کشور"
+
+# 
+msgid "City *"
+msgstr "شهر"
+
+# 
+msgid "Address *"
+msgstr "آدرس"
+
+# 
+msgid "Contact number *"
+msgstr "شماره تماس"
+
+# 
+msgid "Currency *"
+msgstr "واحد پول"
+
+# 
+msgid "SMS Code *"
+msgstr "کد اس ام اس"
+
+# 
+msgid " 0"
+msgstr " 0"
+
+# 
+msgid "47 hours"
+msgstr "47 ساعت"
+
+# 
+msgid "We are not accepting bets on this game at the moment."
+msgstr "ما در حال حاضر قادر به پذیرش پیشبینی در این بازی نیستیم"
+
+# 
+msgid "Lottery Games"
+msgstr "Lottery Games"
+
+# 
+msgid "MiniGames"
+msgstr "Mini Games"
+
+# 
+msgid "Casual Games"
+msgstr "Casual Games"
+
+# 
+msgid "Classic Slots"
+msgstr "Classic Slots"
+
+# 
+msgid "VideoSlots"
+msgstr "Video Slots"
+
+# 
+msgid "10.000 E GTD tournament"
+msgstr "5000 E GTD tournament"
+
+# 
+msgid "5.371.400 AMD GTD tournament"
+msgstr "2.685.000 AMD GTD tournament"
+
+# 
+msgid "All OS"
+msgstr "All OS"
+
+# 
+msgid "Your Booking is ready !"
+msgstr "Your Booking is ready !"
+
+# 
+msgid "Make a Deposit"
+msgstr "Make a Deposit"
+
+# 
+msgid "  Modern"
+msgstr "  Modern"
+
+# 
+msgid " Classic"
+msgstr " Classic"
+
+# 
+msgid " Asian"
+msgstr " Asian"
+
+# 
+msgid " Eastern"
+msgstr " Eastern"
+
+# 
+msgid "Event details"
+msgstr "Event details"
+
+# 
+msgid "5.950.000 AMD GTD tournament"
+msgstr "5.950.000 AMD GTD tournament"
+
+# 
+msgid "tell me more"
+msgstr "tell me more"
+
+# 
+msgid "What was the number of your school?"
+msgstr "چه تعداد مدرسه در طول زمان تحصیل خود داشته اید"
+
+# 
+msgid "What was the name of your first love?"
+msgstr "نام اولین کسی که عاشقش شدید چیست"
+
+# 
+msgid "message_1026"
+msgstr "You can make a new superbet only after the existing one is completed."
+
+# 
+msgid "Confirmed"
+msgstr "Confirmed"
+
+# 
+msgid "Scratch Games"
+msgstr "Scratch Games"
+
+# 
+msgid "Jackpot Slot"
+msgstr "Jackpot Slot"
+
+# 
+msgid "Password should contain at least 8 characters"
+msgstr "Password should contain at least 8 characters"
+
+# 
+msgid "Password should contain at least 8 characters."
+msgstr "Password should contain at least 8 characters."
+
+# 
+msgid "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "backgammon"
+msgstr "backgammon"
+
+# 
+msgid "Top 10 sports"
+msgstr "Top 10 sports"
+
+# 
+msgid "Your request is accepted."
+msgstr "Your request is accepted."
+
+# 
+msgid "Your request is declined."
+msgstr "Your request is declined."
+
+# 
+msgid "Join Now"
+msgstr "Join Now"
+
+# 
+msgid "VGS"
+msgstr "BetConstruct"
+
+# 
+msgid "NET"
+msgstr "NetEnt"
+
+# 
+msgid "MGS"
+msgstr "Microgaming"
+
+# 
+msgid "EZG"
+msgstr "Ezugi"
+
+# 
+msgid "Cash-out Temporary unavailable"
+msgstr "Cash-out Temporary unavailable"
+
+# 
+msgid "This field cannot be edited."
+msgstr "This field cannot be edited."
+
+# 
+msgid "Pin/Unpin"
+msgstr "Pin/Unpin"
+
+# 
+msgid "Thank you for choosing Vivaro.<br/>Our Live Chat support is at your disposal  24 hours a day."
+msgstr "Thank you for choosing Vivaro.<br/>Our Live Chat support is at your disposal  24 hours a day."
+
+# 
+msgid "Live Roulette"
+msgstr "Live Roulette"
+
+# 
+msgid "Live BlackJack"
+msgstr "Live BlackJack"
+
+# 
+msgid "Live Baccarat"
+msgstr "Live Baccarat"
+
+# 
+msgid "Live Bet on Poker"
+msgstr "Live Bet on Poker"
+
+# 
+msgid "Welcome to Vivarobet"
+msgstr "Welcome to Vivarobet"
+
+# 
+msgid "Your Booking ID is:"
+msgstr "Your Booking ID is:"
+
+# 
+msgid "Dear valued customer"
+msgstr "Dear valued customer"
+
+# 
+msgid "<p>You have entered the Vivaro Betting website. This company provides services to clients within territory of the republic of Armenia.</p><p>We suggest you redirect to Vbet.com, the site meant for international players.</p>"
+msgstr "<p>You have entered the Vivaro Betting website. This company provides services to clients within territory of the republic of Armenia.</p><p>We suggest you redirect to Vbet.com, the site meant for international players.</p>"
+
+# 
+msgid "Stay on VivaroBet.am"
+msgstr "Stay on VivaroBet.am"
+
+# 
+msgid "Redirect to Vbet.com"
+msgstr "Redirect to Vbet.com"
+
+# 
+msgid "Total Goals"
+msgstr "Total Goals"
+
+# 
+msgid "FUTURE"
+msgstr "FUTURE"
+
+# 
+msgid "LIVE"
+msgstr "LIVE"
+
+# 
+msgid "TODAY"
+msgstr "TODAY"
+
+# 
+msgid "message_1510_sb"
+msgstr "message_1510_sb"
+
+# 
+msgid "Your superbet ({1}) request is accepted"
+msgstr "Your superbet ({1}) request is accepted"
+
+# 
+msgid "Your superbet ({1}) request is declined"
+msgstr "Your superbet ({1}) request is declined"
+
+# 
+msgid "Email/Account Id "
+msgstr "Email/Account Id "
+
+# 
+msgid "Secure Id/Authentication code"
+msgstr "Secure Id/Authentication code"
+
+# 
+msgid "Please select a bet-shop from the list."
+msgstr "Please select a bet-shop from the list."
+
+# 
+msgid "Live Bet on Baccarat"
+msgstr "Live Bet on Baccarat"
+
+# 
+msgid "id:Â "
+msgstr "id:Â "
+
+# 
+msgid "â"
+msgstr "â"
+
+#
+msgid "Live Casino"
+msgstr "Live Casino"
+
+#
+msgid "Every week Jackpot"
+msgstr "Every week Jackpot"
+
+#
+msgid "points"
+msgstr "points"
+
+#
+msgid "Don`t show again"
+msgstr "Don`t show again"
+
+#
+msgid "Show more"
+msgstr "Show more"

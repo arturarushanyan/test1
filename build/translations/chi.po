@@ -1,0 +1,6400 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+msgid " Horse"
+msgstr "马"
+
+#
+msgid " Jockey"
+msgstr "赛马骑师"
+
+#
+msgid " Jockey Weight"
+msgstr "赛马骑师体重"
+
+#
+msgid " Pick: "
+msgstr "详情: "
+
+#
+msgid "(NET) Please be informed that some IP addresses are blocked."
+msgstr "Please be informed that IP addresses from the jurisdictions of France, Italy, Algeria, Ecuador, Indonesia, Iran, Myanmar, Afghanistan, Albania, Angola, Cambodia, Guyana, Iraq, Kuwait, Lao, Namibia, Nicaragua, North Korea, Pakistan, Panama, Papua New Guinea, Sudan, Syria, Uganda, Yemen, Zimbabwe, Afghanistan, Albania, Algeria, Angola, Cambodia, Ecuador, Guyana, Hong Kong, Indonesia, Iran, Iraq, Israel, Kuwait, Lao, Myanmar, Namibia, Nicaragua, North Korea, Pakistan, Panama, Papua New Guinea, Philippines, Singapore, South Korea, Sudan, Syria, Taiwan, Uganda, Yemen, Zimbabwe are blocked and the Players cannot be registered from the mentioned Restricted Territories.By trying to access to the games via PROXY servers you are acting at your own risk and the Company is not obliged to pay any winning to the end user from the mentioned jurisdictions."
+
+#
+msgid "0 Half"
+msgstr "零"
+
+#
+msgid "1 hours"
+msgstr "1小时"
+
+#
+msgid "10.000 E GTD tournament"
+msgstr "5000 E GTD tournament"
+
+#
+msgid "10th Inning"
+msgstr "第十局"
+
+#
+msgid "11th Inning"
+msgstr "第十一局"
+
+#
+msgid "12 hours"
+msgstr "12小时"
+
+#
+msgid "12th Inning"
+msgstr "第十二局"
+
+#
+msgid "13th Inning"
+msgstr "第十三局"
+
+#
+msgid "14th Inning"
+msgstr "第十四局"
+
+#
+msgid "15th Inning"
+msgstr "第十五局"
+
+#
+msgid "16th Inning"
+msgstr "第十六局"
+
+#
+msgid "17th Inning"
+msgstr "第十七局"
+
+#
+msgid "18th Inning"
+msgstr "第十八局"
+
+#
+msgid "19th Inning"
+msgstr "第十九局"
+
+#
+msgid "1st Goal"
+msgstr "首个进球"
+
+#
+msgid "1st Half"
+msgstr "上半场"
+
+#
+msgid "1st Inning"
+msgstr "第一局"
+
+#
+msgid "1x2_1"
+msgstr "1"
+
+#
+msgid "1x2_2"
+msgstr "2"
+
+#
+msgid "1x2_X"
+msgstr "X"
+
+#
+msgid "2 hours"
+msgstr "2小时"
+
+#
+msgid "20th Inning"
+msgstr "第二十局"
+
+#
+msgid "21th Inning"
+msgstr "第二十一局"
+
+#
+msgid "22th Inning"
+msgstr "第二十二局"
+
+#
+msgid "23th Inning"
+msgstr "第二十三局"
+
+#
+msgid "24 hours"
+msgstr "24小时"
+
+#
+msgid "24th Inning"
+msgstr "第二十四局"
+
+#
+msgid "25th Inning"
+msgstr "第二十五局"
+
+#
+msgid "2nd Half"
+msgstr "下半场"
+
+#
+msgid "2nd Inning"
+msgstr "第二局"
+
+#
+msgid "3 Steps To start the game"
+msgstr "3个步骤开始游戏"
+
+#
+msgid "3 hours"
+msgstr "3小时"
+
+#
+msgid "3D  Slots"
+msgstr "3D Slots"
+
+#
+msgid "3rd Inning"
+msgstr "第三局"
+
+#
+msgid "47 hours"
+msgstr "47 小时"
+
+#
+msgid "48 hours"
+msgstr "48小时"
+
+#
+msgid "4th Inning"
+msgstr "第四局"
+
+#
+msgid "5 hours"
+msgstr "5小时"
+
+#
+msgid "5.371.400 AMD GTD tournament"
+msgstr "2.685.000 AMD GTD tournament"
+
+#
+msgid "5.950.000 AMD GTD tournament"
+msgstr "2.685.000 AMD GTD tournament"
+
+#
+msgid "5th Inning"
+msgstr "第五局"
+
+#
+msgid "6 hours"
+msgstr "6小时"
+
+#
+msgid "6th Inning"
+msgstr "第六局"
+
+#
+msgid "72 hours"
+msgstr "72小时"
+
+#
+msgid "7th Inning"
+msgstr "第七局"
+
+#
+msgid "8th Inning"
+msgstr "第八局"
+
+#
+msgid "9th Inning"
+msgstr "第九局"
+
+#
+msgid "AGC"
+msgstr "Asia Gaming Casino"
+
+#
+msgid "APPROVED BET"
+msgstr "核准的赌注"
+
+#
+msgid "Accept"
+msgstr "接受"
+
+#
+msgid "Accept Changes"
+msgstr "接受更改"
+
+#
+msgid "Accepted"
+msgstr "已接受"
+
+#
+msgid "Account"
+msgstr "账户"
+
+#
+msgid "Account Id"
+msgstr "账户 Id"
+
+#
+msgid "AccountNotFound"
+msgstr "Account Not Found"
+
+#
+msgid "Active"
+msgstr "活跃的"
+
+#
+msgid "Add a Game"
+msgstr "添加一个比赛"
+
+#
+msgid "Add more events to be able to place bet"
+msgstr "添加更多比赛才能投注"
+
+#
+msgid "Add more events to be able to place bet "
+msgstr "添加更多的事件，以便能够下注"
+
+#
+msgid "Add to BetSlip"
+msgstr "添加到投注单"
+
+#
+msgid "Add to My Games"
+msgstr "添加到最喜我的游戏"
+
+#
+msgid "Additional Time1"
+msgstr "加时赛1"
+
+#
+msgid "Additional Time2"
+msgstr "加时赛2"
+
+#
+msgid "Additional information"
+msgstr "附加信息"
+
+#
+msgid "Address"
+msgstr "地址"
+
+#
+msgid "Address *"
+msgstr "地址 *"
+
+#
+msgid "Afghanistan"
+msgstr "阿富汗"
+
+#
+msgid "Age"
+msgstr "年龄"
+
+#
+msgid "Albania"
+msgstr "阿尔巴尼亚"
+
+#
+msgid "Algeria"
+msgstr "阿尔及利亚"
+
+#
+msgid "All"
+msgstr "全部"
+
+#
+msgid "All Bets"
+msgstr "所有注单"
+
+#
+msgid "All Casino Transactions"
+msgstr "所有赌场交易记录"
+
+#
+msgid "All Games"
+msgstr "所有游戏"
+
+#
+msgid "All Multi View Games"
+msgstr "所有多视图游戏"
+
+#
+msgid "All OS"
+msgstr "所有操作系统"
+
+#
+msgid "All Providers"
+msgstr "所有供应商"
+
+#
+msgid "All Tables"
+msgstr "全部牌桌"
+
+#
+msgid "All Transactions"
+msgstr "所有交易"
+
+#
+msgid "All bets"
+msgstr "所有注单"
+
+#
+msgid "All downloads"
+msgstr "所有下载"
+
+#
+msgid "All draws"
+msgstr "所有的抽奖"
+
+#
+msgid "All games"
+msgstr "所有游戏"
+
+#
+msgid "All rights reserved."
+msgstr "保留所有权利。"
+
+#
+msgid "AllWeather"
+msgstr "全天候"
+
+#
+msgid "American"
+msgstr "美式的"
+
+#
+msgid "American Samoa"
+msgstr "美属萨摩亚群岛"
+
+#
+msgid "Amount"
+msgstr "金额"
+
+#
+msgid "Amount is greater than maximum allowed"
+msgstr "金额大于最大容许的金额"
+
+#
+msgid "Amount is less than minimum allowed"
+msgstr "金额少于最低容许的数值"
+
+#
+msgid "Amount:"
+msgstr "金额："
+
+#
+msgid "Amount: "
+msgstr "金额： "
+
+#
+msgid "AmountRangeDoesNotValidRange"
+msgstr "Amount Range Does Not Valid Range"
+
+#
+msgid "Andorra"
+msgstr "安道尔共和国"
+
+#
+msgid "Angola"
+msgstr "安哥拉"
+
+#
+msgid "Antigua and Barbuda"
+msgstr "安提瓜和巴布达"
+
+#
+msgid "Any odds"
+msgstr "任何赔率"
+
+#
+msgid "Apr"
+msgstr "四月"
+
+#
+msgid "Argentina"
+msgstr "阿根廷"
+
+#
+msgid "ArgumentError"
+msgstr "Argument Error"
+
+#
+msgid "Armenia"
+msgstr "亚美尼亚"
+
+#
+msgid "Armenian"
+msgstr "亚美尼亚"
+
+#
+msgid "Aruba"
+msgstr "阿鲁巴"
+
+#
+msgid "Asian"
+msgstr "亚洲"
+
+#
+msgid "Asian Handicap"
+msgstr "亚洲让球"
+
+#
+msgid "Attach"
+msgstr "附件"
+
+#
+msgid "Attack"
+msgstr "攻击"
+
+#
+msgid "Attention: Once you choose your currency, you will not be able to change it later in your profile."
+msgstr "Attention: Once you choose your currency,
+you will not be able to change it later in your profile.
+Please note that you should use English for the rest languages."
+
+#
+msgid "Aug"
+msgstr "八月"
+
+#
+msgid "Australia"
+msgstr "澳大利亚"
+
+#
+msgid "Austria"
+msgstr "奥地利"
+
+#
+msgid "Authorized Withdrawal"
+msgstr "已授权的提款"
+
+#
+msgid "Automatically accept price changes"
+msgstr "自动接收赔率变更"
+
+#
+msgid "Available/Withdrawable"
+msgstr "可用/可提款的"
+
+#
+msgid "Azerbaijan"
+msgstr "阿塞拜疆"
+
+#
+msgid "BET_APPROVED_TITLE"
+msgstr "已核准的投注"
+
+#
+msgid "BET_DECLINED_MESSAGE"
+msgstr "YOUR BET HAS BEEN DECLINED."
+
+#
+msgid "BET_DECLINED_TITLE"
+msgstr "DECLINED BET"
+
+#
+msgid "Baccarat"
+msgstr "百家乐"
+
+#
+msgid "Back"
+msgstr "返回"
+
+#
+msgid "Backgammon"
+msgstr "西洋双陆棋"
+
+#
+msgid "Bahamas"
+msgstr "巴哈马"
+
+#
+msgid "Bahrain"
+msgstr "巴林"
+
+#
+msgid "Balance"
+msgstr "余额"
+
+#
+msgid "Ball Safe"
+msgstr "安全球"
+
+#
+msgid "Bangladesh"
+msgstr "孟加拉国"
+
+#
+msgid "Barbados"
+msgstr "巴巴多斯"
+
+#
+msgid "Belarus"
+msgstr "白俄罗斯"
+
+#
+msgid "Belgium"
+msgstr "比利时"
+
+#
+msgid "Belize"
+msgstr "伯利兹"
+
+#
+msgid "Benin"
+msgstr "贝宁"
+
+#
+msgid "Bermuda"
+msgstr "百慕大群岛"
+
+#
+msgid "Bermudas"
+msgstr "百慕大群岛"
+
+#
+msgid "Bet"
+msgstr "下注"
+
+#
+msgid "Bet History"
+msgstr "历史注单"
+
+#
+msgid "Bet Type"
+msgstr "投注类型"
+
+#
+msgid "Bet now!"
+msgstr "现在投注！"
+
+#
+msgid "Bet on Poker"
+msgstr "真人俄羅斯撲克"
+
+#
+msgid "Bet placed from bonus."
+msgstr "从奖金中下赌注。"
+
+#
+msgid "BetAlreadyPaid"
+msgstr "Bet Already Paid"
+
+#
+msgid "BetNotFoundError"
+msgstr "Bet Not Found"
+
+#
+msgid "BetSelectionsCombindedError"
+msgstr "Bet Selections Combinded Error"
+
+#
+msgid "BetTypeError"
+msgstr "Bet Type Error"
+
+#
+msgid "BetshopNotFound"
+msgstr "Betshop Not Found"
+
+#
+msgid "Betting"
+msgstr "赌注"
+
+#
+msgid "Betting options"
+msgstr "投注选项"
+
+#
+msgid "Bhutan"
+msgstr "不丹"
+
+#
+msgid "Biggest tournament of this year."
+msgstr "本年度最大的竞标赛。"
+
+#
+msgid "Birth date"
+msgstr "出生日期"
+
+#
+msgid "Birth date *"
+msgstr "出生日期 *"
+
+#
+msgid "BlackJack"
+msgstr "二十一点"
+
+#
+msgid "Blitz Survey"
+msgstr "問卷调查"
+
+#
+msgid "Blocked"
+msgstr "被封锁"
+
+#
+msgid "Bolivia"
+msgstr "玻利维亚"
+
+#
+msgid "Bonus"
+msgstr "奖金"
+
+#
+msgid "Bonus Bet"
+msgstr "奖金赌注"
+
+#
+msgid "Bonus:"
+msgstr "奖励:"
+
+#
+msgid "Booking"
+msgstr "预定"
+
+#
+msgid "Booking ID:"
+msgstr "预定 ID:"
+
+#
+msgid "Bookmakers probability / bets amount (in %)"
+msgstr "庄家概率 / 赌注金额 (在 %)"
+
+#
+msgid "Bosnia and Herzegovina"
+msgstr "波斯尼亚和黑塞哥维那"
+
+#
+msgid "Botswana"
+msgstr "博茨瓦纳"
+
+#
+msgid "Brazil"
+msgstr "巴西"
+
+#
+msgid "Break Point Conversions"
+msgstr "Break Point 转换"
+
+#
+msgid "British Virgin Islands"
+msgstr "英属维尔京群岛"
+
+#
+msgid "Brunei"
+msgstr "文莱"
+
+#
+msgid "Bulgaria"
+msgstr "保加利亚"
+
+#
+msgid "Burkina Faso"
+msgstr "布基纳法索"
+
+#
+msgid "Burundi"
+msgstr "布隆迪"
+
+#
+msgid "Buy-in"
+msgstr "买入"
+
+#
+msgid "Calculating wins"
+msgstr "正在计算概率"
+
+#
+msgid "Calendar"
+msgstr "日程表"
+
+#
+msgid "Cambodia"
+msgstr "柬埔寨"
+
+#
+msgid "Cameroon"
+msgstr "喀麦隆"
+
+#
+msgid "Canada"
+msgstr "加拿大"
+
+#
+msgid "Canceled"
+msgstr "已取消"
+
+#
+msgid "Cannot play this video in your region."
+msgstr "在您的地区无法播发该视频。"
+
+#
+msgid "Cannot play video stream.Sorry."
+msgstr "很抱歉，无法播放视频。"
+
+#
+msgid "Cape Verde"
+msgstr "佛得角"
+
+#
+msgid "Card Deposit"
+msgstr "卡存款"
+
+#
+msgid "Card Number"
+msgstr "卡号"
+
+#
+msgid "Card code"
+msgstr "卡代码"
+
+#
+msgid "Card number"
+msgstr "卡号"
+
+#
+msgid "CardHolderName"
+msgstr "持卡人名字"
+
+#
+msgid "CardNumber"
+msgstr "卡号"
+
+#
+msgid "Cash-out done."
+msgstr "Cash-out completed."
+
+#
+msgid "Cashier"
+msgstr "出纳员"
+
+#
+msgid "Casino"
+msgstr "赌场"
+
+#
+msgid "Casino Bet History"
+msgstr "赌场投注历史"
+
+#
+msgid "Casino Bonus"
+msgstr "赌场奖金"
+
+#
+msgid "Casino games"
+msgstr "赌场游戏"
+
+#
+msgid "Categories"
+msgstr "分类"
+
+#
+msgid "Cayman Islands"
+msgstr "开曼群岛"
+
+#
+msgid "Central African Republic"
+msgstr "中非共和国"
+
+#
+msgid "Chad"
+msgstr "乍得"
+
+#
+msgid "Chain"
+msgstr "锁连"
+
+#
+msgid "Championship"
+msgstr "锦标赛"
+
+#
+msgid "Change Password"
+msgstr "更改密码"
+
+#
+msgid "Change language"
+msgstr "更改语言"
+
+#
+msgid "Change statistics mode"
+msgstr "更改统计模式"
+
+#
+msgid "Chile"
+msgstr "智利"
+
+#
+msgid "China"
+msgstr "中国"
+
+#
+msgid "Chinese Poker"
+msgstr "中国扑克"
+
+#
+msgid "Choose Help"
+msgstr "选择帮助"
+
+#
+msgid "Choose color scheme:"
+msgstr "选择颜色方案："
+
+#
+msgid "City"
+msgstr "城市"
+
+#
+msgid "City *"
+msgstr "城市 *"
+
+#
+msgid "Classic"
+msgstr "经典的"
+
+#
+msgid "Clear All"
+msgstr "清除所有"
+
+#
+msgid "Clear Bet Slip to activate Qiuck Bet"
+msgstr "清除投注单来激活快速投注"
+
+#
+msgid "Click here to see other games."
+msgstr "点击这里查看其他游戏。"
+
+#
+msgid "Click on any odd to place a bet."
+msgstr "任何赔率投注"
+
+#
+msgid "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+msgstr "点击注册按钮，在登录窗口注册您的帐户。如果您已经注册，输入您的驗證并登录。"
+
+#
+msgid "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+msgstr "点击下载的文件开始安装过程。按照步骤完成安装并运行该软件。"
+
+#
+msgid "ClientActivationCodeExpired"
+msgstr "Client Activation Code Expired"
+
+#
+msgid "ClientActivationCodeNotMatch"
+msgstr "Client Activation Code Not Match"
+
+#
+msgid "ClientOrAgentNotFound"
+msgstr "Client Or Agent Not Found"
+
+#
+msgid "ClientRestrictedForAction"
+msgstr "Client Restricted For Action"
+
+#
+msgid "ClientVerificationStepExpired"
+msgstr "Client Verification Step Expired"
+
+#
+msgid "Closed"
+msgstr "已关闭"
+
+#
+msgid "Coating"
+msgstr "覆盖"
+
+#
+msgid "Code"
+msgstr "代码"
+
+#
+msgid "Code has been sent, please check your mobile phone"
+msgstr "验证码已经发送，请检查您的手机"
+
+#
+msgid "Colombia"
+msgstr "哥伦比亚"
+
+#
+msgid "Combinations"
+msgstr "组合"
+
+#
+msgid "Combo"
+msgstr "组合"
+
+#
+msgid "Come play on "
+msgstr "过来玩 "
+
+#
+msgid "Coming soon"
+msgstr "即将推出"
+
+#
+msgid "Commission"
+msgstr "佣金"
+
+#
+msgid "Comoros"
+msgstr "科摩罗"
+
+#
+msgid "Conditional bet"
+msgstr "有条件的赌注"
+
+#
+msgid "Confirm"
+msgstr "确认"
+
+#
+msgid "Confirm New Password"
+msgstr "确认新密码"
+
+#
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#
+msgid "Confirm Password *"
+msgstr "确认密码 *"
+
+#
+msgid "Confirm password"
+msgstr "﻿确认密码"
+
+#
+msgid "Confirmed"
+msgstr "确认"
+
+#
+msgid "Connection lost. Reconnecting."
+msgstr "丢失连接。重新连接。"
+
+#
+msgid "Connection restored"
+msgstr "连接已恢复"
+
+#
+msgid "Contact Support"
+msgstr "联系客服"
+
+#
+msgid "Contact number"
+msgstr "联系电话"
+
+#
+msgid "Contact number *"
+msgstr "联系电话 *"
+
+#
+msgid "Contact us"
+msgstr "联系我们"
+
+#
+msgid "Continue"
+msgstr "继续"
+
+#
+msgid "Cook Islands"
+msgstr "库克群岛"
+
+#
+msgid "Corner"
+msgstr "角球"
+
+#
+msgid "Corner kick"
+msgstr "角球"
+
+#
+msgid "Correction"
+msgstr "修正"
+
+#
+msgid "Costa Rica"
+msgstr "哥斯达黎加"
+
+#
+msgid "Cote d\'Ivoire"
+msgstr "科特迪瓦"
+
+#
+msgid "Country"
+msgstr "国家"
+
+#
+msgid "Country *"
+msgstr "国家 *"
+
+#
+msgid "Country code is not correct"
+msgstr "国家代码不正确"
+
+#
+msgid "Course"
+msgstr "球场"
+
+#
+msgid "Create an account"
+msgstr "创建一个账户"
+
+#
+msgid "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+msgstr "Create and enjoy betting on your own Live Multi view <br>by selecting events from the left hand navigation menu."
+
+#
+msgid "Croatia"
+msgstr "克罗地亚"
+
+#
+msgid "Cuba"
+msgstr "古巴"
+
+#
+msgid "Currency"
+msgstr "货币"
+
+#
+msgid "Currency *"
+msgstr "货币 *"
+
+#
+msgid "Currency unsupported"
+msgstr "货币不支持"
+
+#
+msgid "Current Draw"
+msgstr "当前抽奖"
+
+#
+msgid "Current Password"
+msgstr "当前密码"
+
+#
+msgid "Current Rank"
+msgstr "当前排名"
+
+#
+msgid "CustomerID"
+msgstr "客户ID"
+
+#
+msgid "Cyprus"
+msgstr "塞浦路斯"
+
+#
+msgid "Czech Republic"
+msgstr "捷克共和国"
+
+#
+msgid "DAILY COUPON"
+msgstr "오늘의 경기"
+
+#
+msgid "DECLINED BET"
+msgstr "拒绝的赌注"
+
+#
+msgid "DEMO MODE"
+msgstr "演示模式"
+
+#
+msgid "DOWNLOAD"
+msgstr "下载"
+
+#
+msgid "DPRK"
+msgstr "朝鲜民主主义人民共和国"
+
+#
+msgid "Daily coupon"
+msgstr "每日优惠券"
+
+#
+msgid "Dangerous Attack"
+msgstr "危险攻击"
+
+#
+msgid "Date"
+msgstr "새로고침"
+
+#
+msgid "Date and ID"
+msgstr "日期和投注单号码"
+
+#
+msgid "Day"
+msgstr "日"
+
+#
+msgid "Day limit reached. Please try later."
+msgstr "当日限额达到。请稍后再试。"
+
+#
+msgid "Dealer"
+msgstr "莊家"
+
+#
+msgid "Dec"
+msgstr "十二月"
+
+#
+msgid "Decimal"
+msgstr "十进制"
+
+#
+msgid "Declined"
+msgstr "拒绝"
+
+#
+msgid "Democratic Republic of the Congo"
+msgstr "刚果民主共和国"
+
+#
+msgid "Denmark"
+msgstr "丹麦"
+
+#
+msgid "Deposit"
+msgstr "存入"
+
+#
+msgid "Deposit Amount"
+msgstr "存款金额"
+
+#
+msgid "Deposit Amount (USD)"
+msgstr "存款金额 (美元)"
+
+#
+msgid "Deposit Limits"
+msgstr "存款限额"
+
+#
+msgid "Deposit by payment system"
+msgstr "由付款系统存入"
+
+#
+msgid "Deposit failed."
+msgstr "存款失败。"
+
+#
+msgid "Deposit limits allow you to limit the amount of funds you can deposit into the account. The amount can be chosen over a daily, weekly or monthly period. The deposit limit will allow you to restrict the amount of money entering your account, before betting takes place."
+msgstr "存款限额容许您限制向账户存入的金额。该金额可以选择为每天、每周或每月的时间段。存款限额将容许您在投注前限制存入您账户的存款金额。"
+
+#
+msgid "Deposit limits set."
+msgstr "存款限制设置。"
+
+#
+msgid "Deposit to game"
+msgstr "存款到游戏"
+
+#
+msgid "Deposit to main wallet"
+msgstr "存入主要钱包"
+
+#
+msgid "Deposit was successful."
+msgstr "存款成功。"
+
+#
+msgid "Depost Amount"
+msgstr "存款金额"
+
+#
+msgid "Depost Amount (USD)"
+msgstr "存款金额（美元）"
+
+#
+msgid "Detach"
+msgstr "中断"
+
+#
+msgid "Dirt"
+msgstr "泥土"
+
+#
+msgid "Disable regions"
+msgstr "按地区分组"
+
+#
+msgid "Distance"
+msgstr "距离"
+
+#
+msgid "Djibouti"
+msgstr "吉布提"
+
+#
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "您是否计划也使用登录/密码登入？"
+
+#
+msgid "Dominica"
+msgstr "多米尼加"
+
+#
+msgid "Dominican Republic"
+msgstr "多米尼加共和国"
+
+#
+msgid "Domino"
+msgstr "骨牌"
+
+#
+msgid "Don\'t show this again."
+msgstr "不再显示此内容。"
+
+#
+msgid "Done"
+msgstr "完成"
+
+#
+msgid "Double Chance"
+msgstr "双重机会"
+
+#
+msgid "Double Fault"
+msgstr "两次失误"
+
+#
+msgid "Double Faults"
+msgstr "两次失误"
+
+#
+msgid "Download"
+msgstr "下载"
+
+#
+msgid "Download Beta version"
+msgstr "下载测试版本"
+
+#
+msgid "Download Linux client"
+msgstr "下载 Linux 客户端"
+
+#
+msgid "Download MacOS client"
+msgstr "下载 MacOS 客户端"
+
+#
+msgid "Download Windows client"
+msgstr "下载 Windows 客户端"
+
+#
+msgid "Download and Install"
+msgstr "下载和安装"
+
+#
+msgid "Draw"
+msgstr "抽奖"
+
+#
+msgid "Draw number"
+msgstr "抽奖号码"
+
+#
+msgid "Duplicate phone number"
+msgstr "重复的电话号码"
+
+#
+msgid "Duplicate product"
+msgstr "重复产品"
+
+#
+msgid "E-mail"
+msgstr "电子邮件"
+
+#
+msgid "EVEN"
+msgstr "双数"
+
+#
+msgid "EVL"
+msgstr "Evolution"
+
+#
+msgid "EZG"
+msgstr "Ezugi"
+
+#
+msgid "EZG_STUDIO_1"
+msgstr "Latin America Studio"
+
+#
+msgid "EZG_STUDIO_30"
+msgstr "Asian Studio"
+
+#
+msgid "EZG_STUDIO_4"
+msgstr "Europe Studio"
+
+#
+msgid "EZG_STUDIO_50"
+msgstr "Eastern Europe Studio"
+
+#
+msgid "EZG_STUDIO_60"
+msgstr "Baltic Studio"
+
+#
+msgid "East Timor"
+msgstr "东帝汶"
+
+#
+msgid "Eastern"
+msgstr "东部"
+
+#
+msgid "Ecuador"
+msgstr "厄瓜多尔"
+
+#
+msgid "EditBetDurationError"
+msgstr "Edit Bet Duration Error"
+
+#
+msgid "Egypt"
+msgstr "埃及"
+
+#
+msgid "Email"
+msgstr "电子邮件"
+
+#
+msgid "Email Address"
+msgstr "电子邮箱地址"
+
+#
+msgid "Email Address *"
+msgstr "电子邮箱地址 *"
+
+#
+msgid "Email Address or Username"
+msgstr "电子邮件地址或用户名"
+
+#
+msgid "Email/Account Id"
+msgstr "Email/Account Id "
+
+#
+msgid "EmailTypeNotFound"
+msgstr "Email Type Not Found"
+
+#
+msgid "End"
+msgstr "结束"
+
+#
+msgid "End date"
+msgstr "结束日期"
+
+#
+msgid "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+msgstr "您可在我们的扑克室玩。如有疑问和建议，请联系在线客服。"
+
+#
+msgid "Enter"
+msgstr "输入"
+
+#
+msgid "Enter amount"
+msgstr "输入金额"
+
+#
+msgid "Enter amount here"
+msgstr "在这里输入金额"
+
+#
+msgid "Enter here"
+msgstr "请在此处输入"
+
+#
+msgid "Enter number"
+msgstr "输入数字"
+
+#
+msgid "Enter the text here"
+msgstr "在此处输入文字"
+
+#
+msgid "Enter verification code"
+msgstr "输入验证码"
+
+#
+msgid "Enter your email address"
+msgstr "请输入您的电子邮件地址。"
+
+#
+msgid "Enter your password"
+msgstr "输入您的密码"
+
+#
+msgid "Enter your username"
+msgstr "输入您的用户名"
+
+#
+msgid "Entered payee information is not correct."
+msgstr "输入的收款人信息不正确。"
+
+#
+msgid "Entered payer information is not correct."
+msgstr "输入的付款人信息不正确。"
+
+#
+msgid "Entrants"
+msgstr "新会员"
+
+#
+msgid "Equatorial Guinea"
+msgstr "赤道几内亚"
+
+#
+msgid "Eritrea"
+msgstr "厄立特里亚国"
+
+#
+msgid "Error"
+msgstr "错误"
+
+#
+msgid "Error occured"
+msgstr "错误"
+
+#
+msgid "Error occured."
+msgstr "发生错误。"
+
+#
+msgid "Estonia"
+msgstr "爱沙尼亚"
+
+#
+msgid "Ethiopia"
+msgstr "埃塞俄比亚"
+
+#
+msgid "Event"
+msgstr "事件"
+
+#
+msgid "Event Locked"
+msgstr "锁定事件"
+
+#
+msgid "Event sounds:"
+msgstr "事件音效："
+
+#
+msgid "Events"
+msgstr "赛事"
+
+#
+msgid "Events sounds"
+msgstr "比赛音效"
+
+#
+msgid "Exchange"
+msgstr "兑换"
+
+#
+msgid "Expiration Month"
+msgstr "到期月"
+
+#
+msgid "Expiration Year"
+msgstr "到期年"
+
+#
+msgid "ExpirationMonth"
+msgstr "Expiration Month"
+
+#
+msgid "ExpirationYear"
+msgstr "Expiration Year"
+
+#
+msgid "Expiry date (mm)"
+msgstr "到期日（MM）"
+
+#
+msgid "Expiry date (yyyy)"
+msgstr "到期日（年）"
+
+#
+msgid "Express"
+msgstr "多个"
+
+#
+msgid "External"
+msgstr "东部"
+
+#
+msgid "Extra Time First Half"
+msgstr "加时赛上半场"
+
+#
+msgid "Extra Time Half Time"
+msgstr "加时赛中场休息"
+
+#
+msgid "Extra Time Second Half"
+msgstr "加时赛下半场"
+
+#
+msgid "FAQ"
+msgstr "常见问题"
+
+#
+msgid "FEATURED GAMES"
+msgstr "人气比赛"
+
+#
+msgid "FIFA WORLD CUP"
+msgstr "世界杯"
+
+#
+msgid "Failed to send sms"
+msgstr "无法发送短信"
+
+#
+msgid "Failure"
+msgstr "失败"
+
+#
+msgid "Fair"
+msgstr "公平"
+
+#
+msgid "Fair Return"
+msgstr "公平报酬"
+
+#
+msgid "Fair Win"
+msgstr "公平获胜"
+
+#
+msgid "Fantasy"
+msgstr "梦幻体育"
+
+#
+msgid "Faroe Islands"
+msgstr "法罗群岛"
+
+#
+msgid "Fault"
+msgstr "过失"
+
+#
+msgid "Favorite games"
+msgstr "我的收藏"
+
+#
+msgid "Featured games"
+msgstr "人气比赛"
+
+#
+msgid "Feb"
+msgstr "二月"
+
+#
+msgid "Federated States of Micronesia"
+msgstr "密克罗尼西亚联邦"
+
+#
+msgid "Fee"
+msgstr "费用"
+
+#
+msgid "Feedback"
+msgstr "意见"
+
+#
+msgid "Female"
+msgstr "女"
+
+#
+msgid "Field can contain only digits"
+msgstr "该字段只能包含数字"
+
+#
+msgid "Fifth Set"
+msgstr "第五场"
+
+#
+msgid "Fiji"
+msgstr "斐济"
+
+#
+msgid "Film Slot"
+msgstr "电影 Slot"
+
+#
+msgid "Financials"
+msgstr "财务"
+
+#
+msgid "Finished"
+msgstr "结束"
+
+#
+msgid "Finland"
+msgstr "芬兰"
+
+#
+msgid "First"
+msgstr "이름"
+
+#
+msgid "First Half"
+msgstr "上半场"
+
+#
+msgid "First Name"
+msgstr "名"
+
+#
+msgid "First Quarter"
+msgstr "第一节"
+
+#
+msgid "First Quarter Ended"
+msgstr "第一节已结束"
+
+#
+msgid "First Set"
+msgstr "第一场"
+
+#
+msgid "First name"
+msgstr "名"
+
+#
+msgid "First time score"
+msgstr "首次得分"
+
+#
+msgid "Fixed"
+msgstr "固定的"
+
+#
+msgid "For upcoming races please look in Live betting"
+msgstr "欲查看更多即将到来的比赛请进入现场投注"
+
+#
+msgid "Forgot your password?"
+msgstr "忘记您的密码？"
+
+#
+msgid "Form"
+msgstr "表格"
+
+#
+msgid "Foul"
+msgstr "犯规"
+
+#
+msgid "Four Games View"
+msgstr "四场比赛视图"
+
+#
+msgid "Fourth Quarter"
+msgstr "第四节"
+
+#
+msgid "Fourth Quarter Ended"
+msgstr "第四节已结束"
+
+#
+msgid "Fourth Set"
+msgstr "第四场"
+
+#
+msgid "Fractional"
+msgstr "分数的"
+
+#
+msgid "Frame"
+msgstr "边框"
+
+#
+msgid "Frame 0"
+msgstr "帧0"
+
+#
+msgid "Frame 1"
+msgstr "第1帧"
+
+#
+msgid "Frame 10"
+msgstr "第10帧"
+
+#
+msgid "Frame 11"
+msgstr "第11帧"
+
+#
+msgid "Frame 12"
+msgstr "第12帧"
+
+#
+msgid "Frame 13"
+msgstr "第13帧"
+
+#
+msgid "Frame 14"
+msgstr "第14帧"
+
+#
+msgid "Frame 15"
+msgstr "第15帧"
+
+#
+msgid "Frame 16"
+msgstr "第16帧"
+
+#
+msgid "Frame 17"
+msgstr "第17帧"
+
+#
+msgid "Frame 18"
+msgstr "第18帧"
+
+#
+msgid "Frame 19"
+msgstr "第19帧"
+
+#
+msgid "Frame 2"
+msgstr "第2帧"
+
+#
+msgid "Frame 20"
+msgstr "第20帧"
+
+#
+msgid "Frame 21"
+msgstr "第21帧"
+
+#
+msgid "Frame 22"
+msgstr "第22帧"
+
+#
+msgid "Frame 23"
+msgstr "第23帧"
+
+#
+msgid "Frame 24"
+msgstr "第24帧"
+
+#
+msgid "Frame 25"
+msgstr "第25帧"
+
+#
+msgid "Frame 26"
+msgstr "第26帧"
+
+#
+msgid "Frame 27"
+msgstr "第27帧"
+
+#
+msgid "Frame 28"
+msgstr "第28帧"
+
+#
+msgid "Frame 29"
+msgstr "第29帧"
+
+#
+msgid "Frame 3"
+msgstr "第3帧"
+
+#
+msgid "Frame 30"
+msgstr "第30帧"
+
+#
+msgid "Frame 31"
+msgstr "第31帧"
+
+#
+msgid "Frame 32"
+msgstr "第32帧"
+
+#
+msgid "Frame 33"
+msgstr "第33帧"
+
+#
+msgid "Frame 34"
+msgstr "第34帧"
+
+#
+msgid "Frame 35"
+msgstr "第35帧"
+
+#
+msgid "Frame 36"
+msgstr "第36帧"
+
+#
+msgid "Frame 37"
+msgstr "第37帧"
+
+#
+msgid "Frame 38"
+msgstr "第38帧"
+
+#
+msgid "Frame 39"
+msgstr "第39帧"
+
+#
+msgid "Frame 4"
+msgstr "第4帧"
+
+#
+msgid "Frame 5"
+msgstr "第5帧"
+
+#
+msgid "Frame 6"
+msgstr "第6帧"
+
+#
+msgid "Frame 7"
+msgstr "第7帧"
+
+#
+msgid "Frame 8"
+msgstr "第8帧"
+
+#
+msgid "Frame 9"
+msgstr "第9帧"
+
+#
+msgid "Frames"
+msgstr "框架"
+
+#
+msgid "France"
+msgstr "法国"
+
+#
+msgid "Free"
+msgstr "免费"
+
+#
+msgid "Free 1-Point Throw"
+msgstr "罚球一次"
+
+#
+msgid "Free 2-Point Throw"
+msgstr "罚球两次"
+
+#
+msgid "Free 3-Point Throw"
+msgstr "罚球三次"
+
+#
+msgid "Free Bet"
+msgstr "免费投注"
+
+#
+msgid "Free Bet Bonus received"
+msgstr "接收免费投注奖金"
+
+#
+msgid "Free Kick"
+msgstr "任意球"
+
+#
+msgid "Free Throw"
+msgstr "罚球"
+
+#
+msgid "From"
+msgstr "来自"
+
+#
+msgid "Full Time"
+msgstr "全时"
+
+#
+msgid "Full Time 1X2"
+msgstr "全时 1X2"
+
+#
+msgid "Full name"
+msgstr "全名"
+
+#
+msgid "Gabon"
+msgstr "加蓬"
+
+#
+msgid "Gambia"
+msgstr "冈比亚"
+
+#
+msgid "Game"
+msgstr "牌桌"
+
+#
+msgid "Game 0"
+msgstr "比赛 0"
+
+#
+msgid "Game 1"
+msgstr "第一场比赛"
+
+#
+msgid "Game 2"
+msgstr "第二场比赛"
+
+#
+msgid "Game 3"
+msgstr "第三场比赛"
+
+#
+msgid "Game 4"
+msgstr "第四场比赛"
+
+#
+msgid "Game 5"
+msgstr "第五场比赛"
+
+#
+msgid "Game Balance:"
+msgstr "游戏余额："
+
+#
+msgid "Game Balance: "
+msgstr "游戏余额："
+
+#
+msgid "Game is temporarily locked"
+msgstr "比赛暂时被锁定"
+
+#
+msgid "Game start:"
+msgstr "开始游戏:"
+
+#
+msgid "Games"
+msgstr "游戏"
+
+#
+msgid "Gender"
+msgstr "性别"
+
+#
+msgid "Gender "
+msgstr "性别"
+
+#
+msgid "Gender *"
+msgstr "性别 *"
+
+#
+msgid "Georgia"
+msgstr "格鲁吉亚"
+
+#
+msgid "Germany"
+msgstr "德国"
+
+#
+msgid "Get Started"
+msgstr "入门"
+
+#
+msgid "Get bet ID"
+msgstr "获得投注ID"
+
+#
+msgid "Get more"
+msgstr "获取更多"
+
+#
+msgid "Ghana"
+msgstr "加纳"
+
+#
+msgid "Go to shop"
+msgstr "前住商店"
+
+#
+msgid "Goal"
+msgstr "进球"
+
+#
+msgid "Goal Kick"
+msgstr "球门发球"
+
+#
+msgid "Great Britain"
+msgstr "英国"
+
+#
+msgid "Greece"
+msgstr "希腊"
+
+#
+msgid "Grenada"
+msgstr "格林纳达"
+
+#
+msgid "Greyhound"
+msgstr "赛狗"
+
+#
+msgid "Guam"
+msgstr "关岛"
+
+#
+msgid "Guatemala"
+msgstr "危地马拉"
+
+#
+msgid "Guinea"
+msgstr "几内亚"
+
+#
+msgid "Guinea-Bissau"
+msgstr "几内亚比绍"
+
+#
+msgid "Guyana"
+msgstr "圭亚那"
+
+#
+msgid "Half Time"
+msgstr "中场休息"
+
+#
+msgid "Half Time 1X2"
+msgstr "全时 1X2"
+
+#
+msgid "Handicap"
+msgstr "盘"
+
+#
+msgid "Hello, we\'d love to hear your thoughts."
+msgstr "您好，请告诉我们您的想法。"
+
+#
+msgid "Hide Balance"
+msgstr "隐藏余额"
+
+#
+msgid "Hide Map"
+msgstr "隐藏地图"
+
+#
+msgid "Hide Username"
+msgstr "隐藏用户名"
+
+#
+msgid "Hide labels"
+msgstr "隐藏标签"
+
+#
+msgid "Hide statistics"
+msgstr "隐藏统计"
+
+#
+msgid "Hide:"
+msgstr "隐藏："
+
+#
+msgid "Higher odds"
+msgstr "最佳赔率"
+
+#
+msgid "History"
+msgstr "过往记录"
+
+#
+msgid "Home"
+msgstr "首页"
+
+#
+msgid "Honduras"
+msgstr "洪都拉斯"
+
+#
+msgid "Hong Kong"
+msgstr "香港"
+
+#
+msgid "HongKong"
+msgstr "香港"
+
+#
+msgid "Hongkong"
+msgstr "香港"
+
+#
+msgid "Horse"
+msgstr "马"
+
+#
+msgid "Horse Age"
+msgstr "马匹年龄"
+
+#
+msgid "How To Play"
+msgstr "怎么玩"
+
+#
+msgid "Hungary"
+msgstr "匈牙利"
+
+#
+msgid "I agree to all"
+msgstr "我同意所有"
+
+#
+msgid "I would like to receive information about bonuses and new offers via SMS"
+msgstr "我想通过短信收取关于奖金和新商业信息。"
+
+#
+msgid "I would like to receive information about bonuses and new offers via email."
+msgstr "我想通过电子邮件收取关于奖金和新商业信息。"
+
+#
+msgid "I would like to subbscribe for email updates and offeres from VBET."
+msgstr "我想订阅来自VBET的邮件更新和商业信息。"
+
+#
+msgid "I would like to subscribe for email updates and offers from this site."
+msgstr "我想订阅来自该网站的邮件更新和商业信息。"
+
+#
+msgid "Iceland"
+msgstr "冰岛"
+
+#
+msgid "If previous deposit limits are increased, you must wait 24 hours until changes take effect."
+msgstr "如果之前的存款限额提高，您必须等待24小时至更改生效。"
+
+#
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You\'re not required to use your username/password if you plan to use social networks login every time."
+msgstr "如果您未来不打算使用您的社交账户登录，您需要提供用户名/密码。否则它将会为您自动生成且您将会通过电子邮件接受到。如果您计划每次使用社交账户登录则不需要使用您的用户名/密码。"
+
+#
+msgid "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+msgstr "如果您想用Facebook账户登录，您需要首先注册一个Facebook账户。"
+
+#
+msgid "If you want to be able to login with your Odnoklassniki account you need to first Sign up with Odnoklassniki account."
+msgstr "如果您想用Odnoklassniki账户登录，您需要首先注册一个Odnoklassniki账户。"
+
+#
+msgid "If your balance less, top up your balance now."
+msgstr "请如果您的余额不足，现在充值。"
+
+#
+msgid "In progress"
+msgstr "进行中"
+
+#
+msgid "In the process of revision"
+msgstr "在修订过程中"
+
+#
+msgid "In-Play"
+msgstr "场上"
+
+#
+msgid "Inbox"
+msgstr "收件箱"
+
+#
+msgid "Incompatible events"
+msgstr "冲突事件"
+
+#
+msgid "India"
+msgstr "印度"
+
+#
+msgid "Indo"
+msgstr "印度"
+
+#
+msgid "Indonesia"
+msgstr "印度尼西亚"
+
+#
+msgid "Info"
+msgstr "资料"
+
+#
+msgid "Injury Break"
+msgstr "因伤缺席"
+
+#
+msgid "Inning"
+msgstr "局"
+
+#
+msgid "Inning 0"
+msgstr "局0"
+
+#
+msgid "Innings"
+msgstr "局"
+
+#
+msgid "Input Password"
+msgstr "输入密码"
+
+#
+msgid "Instant"
+msgstr "即时"
+
+#
+msgid "Instant Play"
+msgstr "即时游戏"
+
+#
+msgid "Instant Win"
+msgstr "即时奖"
+
+#
+msgid "Insufficient balance"
+msgstr "余额不足"
+
+#
+msgid "Internal Error"
+msgstr "内部错误"
+
+#
+msgid "Internal service fault"
+msgstr "内部服务错误"
+
+#
+msgid "Invalid Password"
+msgstr "无效的密码。"
+
+#
+msgid "Invalid RFID card"
+msgstr "无效的RFID卡"
+
+#
+msgid "Invalid email"
+msgstr "无效的电子邮件"
+
+#
+msgid "Invalid password."
+msgstr "无效的密码。"
+
+#
+msgid "Invalid payee"
+msgstr "无效的收款人"
+
+#
+msgid "Invalid payer"
+msgstr "无效的付款人"
+
+#
+msgid "Invalid phone number"
+msgstr "无效的电话号码"
+
+#
+msgid "Invalid recipient"
+msgstr "无效的收件人"
+
+#
+msgid "Invalid stake amount entered"
+msgstr "输入了无效的赌注金额"
+
+#
+msgid "Invalid username or password."
+msgstr "无效的用户名或密码。"
+
+#
+msgid "Invalid verification code"
+msgstr "无效的验证码"
+
+#
+msgid "InvalidClientVerificationArgs"
+msgstr "Invalid Client Verification Args"
+
+#
+msgid "Invite"
+msgstr "邀请"
+
+#
+msgid "Iran"
+msgstr "伊朗"
+
+#
+msgid "Iraq"
+msgstr "伊拉克"
+
+#
+msgid "Ireland"
+msgstr "爱尔兰"
+
+#
+msgid "Israel"
+msgstr "以色列"
+
+#
+msgid "It Is Possible To Play Only One Game Of The Same Provider In Multi Game View. Please Choose Another Game."
+msgstr "在多比赛视窗中只能播放同一个供应商提供的一场比赛。请选择其他比赛。"
+
+#
+msgid "Italy"
+msgstr "意大利"
+
+#
+msgid "Jackpot"
+msgstr "头奖"
+
+#
+msgid "Jackpot Slot"
+msgstr "老虎机大奖"
+
+#
+msgid "Jamaica"
+msgstr "牙买加"
+
+#
+msgid "Jan"
+msgstr "一月"
+
+#
+msgid "Japan"
+msgstr "日本"
+
+#
+msgid "Jockey"
+msgstr "赛马骑师"
+
+#
+msgid "Jockey Weight"
+msgstr "赛马骑师体重"
+
+#
+msgid "Join"
+msgstr "加入"
+
+#
+msgid "Join us now!"
+msgstr "现在加入我们 ！"
+
+#
+msgid "Jordan"
+msgstr "约旦"
+
+#
+msgid "Jul"
+msgstr "七月"
+
+#
+msgid "Jun"
+msgstr "六月"
+
+#
+msgid "Kazakhstan"
+msgstr "哈萨克斯坦"
+
+#
+msgid "Kenya"
+msgstr "肯尼亚"
+
+#
+msgid "Kiribati"
+msgstr "基里巴斯"
+
+#
+msgid "Kuwait"
+msgstr "科威特"
+
+#
+msgid "Kyrgyzstan"
+msgstr "吉尔吉斯斯坦"
+
+#
+msgid "LIVE"
+msgstr "滚球盘"
+
+#
+msgid "Laos"
+msgstr "老挝"
+
+#
+msgid "Last"
+msgstr "닉네임"
+
+#
+msgid "Last Goal"
+msgstr "最后的入球"
+
+#
+msgid "Last Name"
+msgstr "姓"
+
+#
+msgid "Last name"
+msgstr "姓"
+
+#
+msgid "Last name/surname, name, middle name"
+msgstr "姓/别名，名，中间名字"
+
+#
+msgid "Last update:"
+msgstr "上次更新："
+
+#
+msgid "Latvia"
+msgstr "拉脱维亚"
+
+#
+msgid "Leaderboard"
+msgstr "排行榜"
+
+#
+msgid "Lebanon"
+msgstr "黎巴嫩"
+
+#
+msgid "Lesotho"
+msgstr "莱索托"
+
+#
+msgid "Liberia"
+msgstr "利比里亚"
+
+#
+msgid "Libya"
+msgstr "利比亚"
+
+#
+msgid "Liechtenstein"
+msgstr "列支敦士登"
+
+#
+msgid "Life tournament"
+msgstr "生活锦标赛"
+
+#
+msgid "Limit"
+msgstr "限額"
+
+#
+msgid "Lithuania"
+msgstr "立陶宛"
+
+#
+msgid "Live"
+msgstr "滚球"
+
+#
+msgid "Live Agent"
+msgstr "在线代理"
+
+#
+msgid "Live Bet On Baccarat"
+msgstr "真人賭百家樂"
+
+#
+msgid "Live Bet on Baccarat"
+msgstr "真人賭百家樂"
+
+#
+msgid "Live BlackJack"
+msgstr "实况二十一点"
+
+#
+msgid "Live Calendar"
+msgstr "날짜 별 경기"
+
+#
+msgid "Live Casino"
+msgstr "真人娱乐城"
+
+#
+msgid "Live Casino Page is currently closed for"
+msgstr "真人娱乐页面当前已关闭进行"
+
+#
+msgid "Live Chat"
+msgstr "实时聊天"
+
+#
+msgid "Live Dealer"
+msgstr "交易员"
+
+#
+msgid "Live Draw 6 of 49"
+msgstr "现场抽奖49选6"
+
+#
+msgid "Live Keno"
+msgstr "即时基诺"
+
+#
+msgid "Live Lottery"
+msgstr "即开彩票"
+
+#
+msgid "Live Roulette Fortune"
+msgstr "真人幸運輪盤"
+
+#
+msgid "Live calendar"
+msgstr "날짜 별 경기"
+
+#
+msgid "Live casino"
+msgstr "真人娱乐城"
+
+#
+msgid "Live casino lobby"
+msgstr "真人娛樂城大廳"
+
+#
+msgid "Live chat / FAQ"
+msgstr "在线聊天 / 常见问题"
+
+#
+msgid "Live games"
+msgstr "真人游戏"
+
+#
+msgid "Live news"
+msgstr "新闻直播"
+
+#
+msgid "Live now"
+msgstr "现场直播中"
+
+#
+msgid "Load more"
+msgstr "载入更多"
+
+#
+msgid "Loading"
+msgstr "加载中"
+
+#
+msgid "Lobby Live Bet on Poker"
+msgstr "真人俄羅斯撲克"
+
+#
+msgid "Lobby LiveBetOnPoker"
+msgstr "真人俄羅斯撲克"
+
+#
+msgid "Lobby Vivaro Fortune"
+msgstr "真人幸運輪盤"
+
+#
+msgid "Log Out"
+msgstr "登出"
+
+#
+msgid "Login with Facebook"
+msgstr "使用Facebook登录"
+
+#
+msgid "Lost"
+msgstr "输"
+
+#
+msgid "Lottery Games"
+msgstr "抽奖的游戏"
+
+#
+msgid "Luxemburg"
+msgstr "卢森堡"
+
+#
+msgid "MGS"
+msgstr "Microgaming"
+
+#
+msgid "MORE!"
+msgstr "更多！"
+
+#
+msgid "Macedonia"
+msgstr "马其顿"
+
+#
+msgid "Madagascar"
+msgstr "马达加斯加"
+
+#
+msgid "Main"
+msgstr "主页"
+
+#
+msgid "Main Bonus"
+msgstr "主要奖金"
+
+#
+msgid "Malawi"
+msgstr "马拉维"
+
+#
+msgid "Malay"
+msgstr "马来语"
+
+#
+msgid "Malaysia"
+msgstr "马来西亚"
+
+#
+msgid "Maldives"
+msgstr "马尔代夫"
+
+#
+msgid "Male"
+msgstr "男"
+
+#
+msgid "Mali"
+msgstr "马里"
+
+#
+msgid "Malta"
+msgstr "马耳他"
+
+#
+msgid "Mar"
+msgstr "三月"
+
+#
+msgid "Market base for some events have changed"
+msgstr "一些比赛的市场基础已经发生变化"
+
+#
+msgid "Match Result"
+msgstr "独赢"
+
+#
+msgid "Mauritania"
+msgstr "毛里塔尼亚"
+
+#
+msgid "Mauritius"
+msgstr "毛里求斯"
+
+#
+msgid "Max"
+msgstr "最多"
+
+#
+msgid "MaxDepositRequestSum"
+msgstr "Max Deposit Request Sum"
+
+#
+msgid "MaxWithdrawalRequestsCount"
+msgstr "Max Withdrawal Requests Count"
+
+#
+msgid "May"
+msgstr "五月"
+
+#
+msgid "Message"
+msgstr "信息"
+
+#
+msgid "Message sent"
+msgstr "信息已发送"
+
+#
+msgid "Messages"
+msgstr "消息"
+
+#
+msgid "Mexico"
+msgstr "墨西哥"
+
+#
+msgid "Middle"
+msgstr "성"
+
+#
+msgid "Middle Name"
+msgstr "中间的名字"
+
+#
+msgid "Middle name"
+msgstr "中间的名字"
+
+#
+msgid "Min"
+msgstr "最少"
+
+#
+msgid "MinDepositRequestSum"
+msgstr "Min Deposit Request Sum"
+
+#
+msgid "MinWithdrawalRequestSum"
+msgstr "Min Withdrawal Request Sum"
+
+#
+msgid "Minimal Bet Amount:"
+msgstr "最低投注额："
+
+#
+msgid "Missed Free Throw"
+msgstr "罚球失误"
+
+#
+msgid "Modern"
+msgstr "现代的"
+
+#
+msgid "Moldavia"
+msgstr "摩尔达维亚"
+
+#
+msgid "Monaco"
+msgstr "摩纳哥"
+
+#
+msgid "Mongolia"
+msgstr "蒙古"
+
+#
+msgid "Montenegro"
+msgstr "黑山共和国"
+
+#
+msgid "Month"
+msgstr "月"
+
+#
+msgid "More"
+msgstr "更多"
+
+#
+msgid "More sports"
+msgstr "更多体育"
+
+#
+msgid "Morocco"
+msgstr "摩洛哥"
+
+#
+msgid "Mozambique"
+msgstr "莫桑比克"
+
+#
+msgid "Multi-selection mode"
+msgstr "多选模式"
+
+#
+msgid "Must be at least 6 characters"
+msgstr "必须至少6个字符"
+
+#
+msgid "Must be at least 8 characters"
+msgstr "必须至少 8 个字符"
+
+#
+msgid "My Profile"
+msgstr "我的账户"
+
+#
+msgid "My bets"
+msgstr "我的赌注"
+
+#
+msgid "My games"
+msgstr "我的投注"
+
+#
+msgid "My messages"
+msgstr "我的信息"
+
+#
+msgid "My tickets"
+msgstr "我的彩票"
+
+#
+msgid "Myanmar"
+msgstr "缅甸"
+
+#
+msgid "NET"
+msgstr "NetEnt"
+
+#
+msgid "N_H_Flat"
+msgstr "NH Flat"
+
+#
+msgid "Name"
+msgstr "名称"
+
+#
+msgid "Name *"
+msgstr "名 *"
+
+#
+msgid "Namibia"
+msgstr "纳米比亚"
+
+#
+msgid "Nauru"
+msgstr "瑙鲁"
+
+#
+msgid "Nepal"
+msgstr "尼泊尔"
+
+#
+msgid "Netherlands"
+msgstr "荷兰"
+
+#
+msgid "New Bets"
+msgstr "新的赌注"
+
+#
+msgid "New Message"
+msgstr "新信息"
+
+#
+msgid "New Password"
+msgstr "新密码"
+
+#
+msgid "New Zealand"
+msgstr "新西兰"
+
+#
+msgid "New message"
+msgstr "新信息"
+
+#
+msgid "News"
+msgstr "新闻"
+
+#
+msgid "Next"
+msgstr "下一页"
+
+#
+msgid "Next Event"
+msgstr "下一个事件"
+
+#
+msgid "Nicaragua"
+msgstr "尼加拉瓜"
+
+#
+msgid "Niger"
+msgstr "尼日尔"
+
+#
+msgid "Nigeria"
+msgstr "尼日利亚"
+
+#
+msgid "No"
+msgstr "否"
+
+#
+msgid "No data"
+msgstr "无数据"
+
+#
+msgid "No games found"
+msgstr "没有找到游戏"
+
+#
+msgid "None"
+msgstr "不"
+
+#
+msgid "None of these"
+msgstr "以上皆否"
+
+#
+msgid "Norway"
+msgstr "挪威"
+
+#
+msgid "Not Started"
+msgstr "尚未开始"
+
+#
+msgid "Not a valid password"
+msgstr "不是有效的密码"
+
+#
+msgid "Note:"
+msgstr "注意："
+
+#
+msgid "Notstarted"
+msgstr "尚未开始"
+
+#
+msgid "Nov"
+msgstr "十一月"
+
+#
+msgid "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+msgstr "现在，如果您有任何问题、意见、建议，请在以下方框中输入您的意见并点击送出。"
+
+#
+msgid "Number"
+msgstr "号码"
+
+#
+msgid "ODD"
+msgstr "单数"
+
+#
+msgid "ON THE WAY"
+msgstr "在途中"
+
+#
+msgid "Oct"
+msgstr "十月"
+
+#
+msgid "Odd..."
+msgstr "赔率..."
+
+#
+msgid "Odds"
+msgstr "赔率"
+
+#
+msgid "Odds in"
+msgstr "几率"
+
+#
+msgid "Odds:"
+msgstr "赔率"
+
+#
+msgid "Off"
+msgstr "关"
+
+#
+msgid "Offline"
+msgstr "离线"
+
+#
+msgid "Offside"
+msgstr "越位"
+
+#
+msgid "Oman"
+msgstr "阿曼"
+
+#
+msgid "On"
+msgstr "开"
+
+#
+msgid "On Hold"
+msgstr "待机"
+
+#
+msgid "One Game View"
+msgstr "一场比赛视图"
+
+#
+msgid "One Point"
+msgstr "1分"
+
+#
+msgid "OnePoint"
+msgstr "1分"
+
+#
+msgid "Open"
+msgstr "未结算投注"
+
+#
+msgid "Open In Pop-Up Window"
+msgstr "在跳出的界面打开"
+
+#
+msgid "Options:"
+msgstr "选项:"
+
+#
+msgid "Order by Time"
+msgstr "按时间顺序"
+
+#
+msgid "Other"
+msgstr "其他"
+
+#
+msgid "Other Games"
+msgstr "其他游戏"
+
+#
+msgid "Outcome"
+msgstr "赛果"
+
+#
+msgid "Overtime"
+msgstr "加时赛"
+
+#
+msgid "Overtime Ended"
+msgstr "加时赛已结束"
+
+#
+msgid "Page not found"
+msgstr "未找到页面"
+
+#
+msgid "Pakistan"
+msgstr "巴基斯坦"
+
+#
+msgid "Palau"
+msgstr "帕劳"
+
+#
+msgid "Palestine"
+msgstr "巴勒斯坦"
+
+#
+msgid "Panama"
+msgstr "巴拿马"
+
+#
+msgid "Papua - New Guinea"
+msgstr "巴布亚新几内亚"
+
+#
+msgid "Papua New Guinea"
+msgstr "巴布亚新几内亚"
+
+#
+msgid "Paraguay"
+msgstr "巴拉圭"
+
+#
+msgid "Part of bet placed from bonus."
+msgstr "部分投注来自于奖金。"
+
+#
+msgid "Passport Number"
+msgstr "护照号码"
+
+#
+msgid "Passport Number *"
+msgstr "护照号码 *"
+
+#
+msgid "Passport Number is already registered for another account"
+msgstr "护照号码已被另一帐户注册"
+
+#
+msgid "Password"
+msgstr "密码"
+
+#
+msgid "Password *"
+msgstr "密码 *"
+
+#
+msgid "Password cannot be same as login"
+msgstr "密码不能和登录名一样"
+
+#
+msgid "Password changed"
+msgstr "密码已修改"
+
+#
+msgid "Password incorrect"
+msgstr "密码不正确"
+
+#
+msgid "Password is too short"
+msgstr "密码太短"
+
+#
+msgid "Password reset complete."
+msgstr "密码重置完成。"
+
+#
+msgid "Password reset failed."
+msgstr "密码重置失败。"
+
+#
+msgid "Password should contain at least 8 characters"
+msgstr "密码应包含至少8个字符"
+
+#
+msgid "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+msgstr "密码应包含至少8个字符以上和小写英文字母，至少一个数字，没有空格。"
+
+#
+msgid "Password should contain at least 8 characters."
+msgstr "密码应包含至少8个字符。"
+
+#
+msgid "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "密码应包含大写和小写英文字母，至少一个数字，没有空格。"
+
+#
+msgid "Passwords don\'t match"
+msgstr "密码不匹配"
+
+#
+msgid "Payed"
+msgstr "已支付"
+
+#
+msgid "Payment Method"
+msgstr "付款方式"
+
+#
+msgid "Payment complete"
+msgstr "完成付款"
+
+#
+msgid "Penalty"
+msgstr "罚球"
+
+#
+msgid "Pending"
+msgstr "待审核"
+
+#
+msgid "PendingWithdrawalRequests"
+msgstr "Pending withdrawal requests"
+
+#
+msgid "Period"
+msgstr "时间段"
+
+#
+msgid "Period 0"
+msgstr "时间段0"
+
+#
+msgid "Period 1"
+msgstr "第一时间段"
+
+#
+msgid "Period 2"
+msgstr "第二时间段"
+
+#
+msgid "Period 3"
+msgstr "第三时间段"
+
+#
+msgid "Period 4"
+msgstr "第四时间段"
+
+#
+msgid "Period 5"
+msgstr "第五时间段"
+
+#
+msgid "Period 6"
+msgstr "第六时间段"
+
+#
+msgid "Periods"
+msgstr "时间段"
+
+#
+msgid "Personal Details"
+msgstr "个人详细信息"
+
+#
+msgid "Personal information updated."
+msgstr "个人信息已更新。"
+
+#
+msgid "Peru"
+msgstr "秘鲁"
+
+#
+msgid "Philippines"
+msgstr "菲律宾"
+
+#
+msgid "Phone"
+msgstr "电话"
+
+#
+msgid "Phone only market"
+msgstr "只有手机市场"
+
+#
+msgid "Pick"
+msgstr "详情"
+
+#
+msgid "Pick:"
+msgstr "详情："
+
+#
+msgid "Pick: "
+msgstr "详情: "
+
+#
+msgid "PinCode"
+msgstr "PIN码"
+
+#
+msgid "Place A bet!"
+msgstr "下注！"
+
+#
+msgid "Place bets!"
+msgstr "下赌注！"
+
+#
+msgid "Play"
+msgstr "玩"
+
+#
+msgid "Play For Free"
+msgstr "好玩"
+
+#
+msgid "Play Now"
+msgstr "开始玩"
+
+#
+msgid "Play now"
+msgstr "立即玩"
+
+#
+msgid "Play now!"
+msgstr "现在开始！"
+
+#
+msgid "Please check your email."
+msgstr "请检查您的电子邮件"
+
+#
+msgid "Please click above refresh several times until bank account detail appears. It will be appear within 2 minutes."
+msgstr "위 새로고침을 계좌정보가 나타날때까지 여러번 클릭해주세요. 2분안에 계좌정보가 나타납니다."
+
+#
+msgid "Please close one of the games for adding new one"
+msgstr "请关闭如下一个比赛来添加新的"
+
+#
+msgid "Please close {1} game(s) to change view"
+msgstr "请选择{1} 个比赛更改试图"
+
+#
+msgid "Please confirm money transfer"
+msgstr "请确认汇款"
+
+#
+msgid "Please enter a valid email address"
+msgstr "请输入有效的电子邮件地址"
+
+#
+msgid "Please enter a valid first name"
+msgstr "请输入有效名"
+
+#
+msgid "Please enter a valid last name"
+msgstr "请输入有效的姓氏"
+
+#
+msgid "Please enter a valid username"
+msgstr "请输入一个有效的用户名"
+
+#
+msgid "Please enter stake amount"
+msgstr "请输入赌注金额"
+
+#
+msgid "Please note that you\'ll be able to decrease the self-exclusion period only after seven days from your 1st request."
+msgstr "请注意，从你申请的7天后便可以增加你的限额"
+
+#
+msgid "Please note that you\'ll be able to increase your limits only after seven days from your 1st request."
+msgstr "请注意，从你申请的7天后便可以增加你的限额"
+
+#
+msgid "Please note:"
+msgstr "请注意："
+
+#
+msgid "Please put your RFID card on card reader"
+msgstr "请将您的RFID卡发在读卡器上"
+
+#
+msgid "Please try again later."
+msgstr "请稍后再试。"
+
+#
+msgid "Please try later or contact support."
+msgstr "请稍后再试或联系客服。"
+
+#
+msgid "Please, upload your passport scan or passport photo to ease your further withdrawals."
+msgstr "请上传您的护照扫描件或护照照片以便未来进行提款。"
+
+#
+msgid "Point"
+msgstr "分"
+
+#
+msgid "Points"
+msgstr "局"
+
+#
+msgid "Points Calculator"
+msgstr "点数计算器"
+
+#
+msgid "Points:"
+msgstr "点数："
+
+#
+msgid "Poker"
+msgstr "扑克"
+
+#
+msgid "Poker Leaderboard"
+msgstr "扑克排行榜"
+
+#
+msgid "Poker Tournament"
+msgstr "扑克锦标赛"
+
+#
+msgid "Poland"
+msgstr "波兰"
+
+#
+msgid "Polytrack"
+msgstr "胶沙地"
+
+#
+msgid "Pool"
+msgstr "奖池"
+
+#
+msgid "Pool Bet"
+msgstr "赌池"
+
+#
+msgid "Pool Bet Return"
+msgstr "赌池退回"
+
+#
+msgid "Pool Bet Win"
+msgstr "赌池赢"
+
+#
+msgid "Pool Betting"
+msgstr "彩池投注"
+
+#
+msgid "Pool:"
+msgstr "奖池"
+
+#
+msgid "Popular"
+msgstr "热门"
+
+#
+msgid "Popular Games"
+msgstr "流行游戏"
+
+#
+msgid "Popular bets"
+msgstr "热门投注"
+
+#
+msgid "Popular competitions"
+msgstr "热门赛事"
+
+#
+msgid "Popular games"
+msgstr "热门游戏"
+
+#
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#
+msgid "Position"
+msgstr "位置"
+
+#
+msgid "Possible Choice"
+msgstr "最佳选择"
+
+#
+msgid "Possible win:"
+msgstr "可能赢:"
+
+#
+msgid "Potential win:"
+msgstr "潜在获胜："
+
+#
+msgid "Powered by"
+msgstr "技术支持"
+
+#
+msgid "Powered by BetConstruct"
+msgstr "Powered by <a href=\"http://www.betconstruct.com\" target=\"_blank\">BetConstruct</a>"
+
+#
+msgid "Pre Extra Half"
+msgstr "加时赛前半场"
+
+#
+msgid "Preferans"
+msgstr "偏爱"
+
+#
+msgid "Preferences"
+msgstr "偏好配置"
+
+#
+msgid "Press Ctrl + C to copy link address to clipboard"
+msgstr "按住 Ctrl + C 将连接地址复制到粘贴板"
+
+#
+msgid "Previous"
+msgstr "前一步"
+
+#
+msgid "Previous Flash version"
+msgstr "上一个Flash版本"
+
+#
+msgid "Previous Rank"
+msgstr "之前排名"
+
+#
+msgid "Previous version"
+msgstr "先前版本"
+
+#
+msgid "Prices for some events have changed"
+msgstr "一些比赛的价格已经发生变化"
+
+#
+msgid "Print"
+msgstr "列印"
+
+#
+msgid "Prize"
+msgstr "奖项"
+
+#
+msgid "Prize fund"
+msgstr "奖金"
+
+#
+msgid "Process Time"
+msgstr "处理时间"
+
+#
+msgid "Product not allowed"
+msgstr "不容许的产品"
+
+#
+msgid "Profile"
+msgstr "资料"
+
+#
+msgid "Progressive"
+msgstr "进步"
+
+#
+msgid "Promo code"
+msgstr "优惠码"
+
+#
+msgid "Promotions"
+msgstr "推广"
+
+#
+msgid "Puerto Rico"
+msgstr "波多黎各"
+
+#
+msgid "Purse"
+msgstr "钱包"
+
+#
+msgid "Qatar"
+msgstr "卡塔尔"
+
+#
+msgid "Quarter"
+msgstr "节"
+
+#
+msgid "Quarter 0"
+msgstr "节 0"
+
+#
+msgid "Quarter 1"
+msgstr "第一节"
+
+#
+msgid "Quarter 2"
+msgstr "第二节"
+
+#
+msgid "Quarter 3"
+msgstr "第三节"
+
+#
+msgid "Quarter 4"
+msgstr "第四节"
+
+#
+msgid "Quarters"
+msgstr "节"
+
+#
+msgid "Quick bet"
+msgstr "快速投注"
+
+#
+msgid "Race Type"
+msgstr "比赛形式"
+
+#
+msgid "Rain Delay"
+msgstr "因雨暂停"
+
+#
+msgid "Random Choice"
+msgstr "随机选择"
+
+#
+msgid "Range"
+msgstr "日期范围"
+
+#
+msgid "Ranking table"
+msgstr "排名表"
+
+#
+msgid "Read More"
+msgstr "阅读更多"
+
+#
+msgid "Recent Bets"
+msgstr "即时注单"
+
+#
+msgid "Recharge Account"
+msgstr "立即存款"
+
+#
+msgid "Red Card"
+msgstr "红牌"
+
+#
+msgid "Red card"
+msgstr "红牌"
+
+#
+msgid "Refresh"
+msgstr "更新"
+
+#
+msgid "Register"
+msgstr "注册"
+
+#
+msgid "Register Now"
+msgstr "现在注册"
+
+#
+msgid "Register also for poker."
+msgstr "同时注册扑克。"
+
+#
+msgid "Register your account"
+msgstr "注册您的帐户"
+
+#
+msgid "Registration complete."
+msgstr "注册完成。"
+
+#
+msgid "Registration failed due to technical error."
+msgstr "由于技术错误注册失败。"
+
+#
+msgid "Registration on this site is not permitted in selected country."
+msgstr "选定的国家不容许在该网站注册。"
+
+#
+msgid "Remove All from Favorites"
+msgstr "从收藏夹中删除所有"
+
+#
+msgid "Remove from My Games"
+msgstr "从最喜爱的游戏中删除"
+
+#
+msgid "Removed for recalculation"
+msgstr "删除并重新计算"
+
+#
+msgid "Renew"
+msgstr "更新"
+
+#
+msgid "Renew to get more."
+msgstr "更新以获得更多。"
+
+#
+msgid "Repeat for all"
+msgstr "重复所有"
+
+#
+msgid "Repeat password"
+msgstr "再次输入密码"
+
+#
+msgid "Republic of Haiti"
+msgstr "海地共和国"
+
+#
+msgid "Republic of South Africa"
+msgstr "南非共和国"
+
+#
+msgid "Republic of Suriname"
+msgstr "苏里南共和国"
+
+#
+msgid "Republic of the Congo"
+msgstr "刚果共和国"
+
+#
+msgid "RequiredFieldsMissing"
+msgstr "Required Fields Missing"
+
+#
+msgid "Reset"
+msgstr "重置"
+
+#
+msgid "Reset password"
+msgstr "重设密码"
+
+#
+msgid "Result"
+msgstr "结果"
+
+#
+msgid "Results"
+msgstr "结果"
+
+#
+msgid "Returned"
+msgstr "已退回"
+
+#
+msgid "Returned Bet"
+msgstr "已退回赌注"
+
+#
+msgid "Romania"
+msgstr "罗马尼亚"
+
+#
+msgid "Roulette"
+msgstr "轮盘赌"
+
+#
+msgid "Round"
+msgstr "轮"
+
+#
+msgid "Round 0"
+msgstr "轮 0"
+
+#
+msgid "Round 1"
+msgstr "第一轮"
+
+#
+msgid "Round 10"
+msgstr "第十轮"
+
+#
+msgid "Round 11"
+msgstr "第十一轮"
+
+#
+msgid "Round 12"
+msgstr "第十二轮"
+
+#
+msgid "Round 2"
+msgstr "第二轮"
+
+#
+msgid "Round 3"
+msgstr "第三轮"
+
+#
+msgid "Round 4"
+msgstr "第四轮"
+
+#
+msgid "Round 5"
+msgstr "第五轮"
+
+#
+msgid "Round 6"
+msgstr "第六轮"
+
+#
+msgid "Round 7"
+msgstr "第七轮"
+
+#
+msgid "Round 8"
+msgstr "第八轮"
+
+#
+msgid "Round 9"
+msgstr "第九轮"
+
+#
+msgid "Rules"
+msgstr "规则"
+
+#
+msgid "Russia"
+msgstr "俄罗斯"
+
+#
+msgid "Rwanda"
+msgstr "卢旺达"
+
+#
+msgid "SHOW"
+msgstr "秀"
+
+#
+msgid "SKILL GAMES"
+msgstr "技巧游戏"
+
+#
+msgid "SMS Code"
+msgstr "短信代码"
+
+#
+msgid "SMS Code *"
+msgstr "短信代码 *"
+
+#
+msgid "SMS verification code"
+msgstr "短信验证码"
+
+#
+msgid "Saint Kitts and Nevis"
+msgstr "圣基茨和尼维斯"
+
+#
+msgid "Saint Lucia"
+msgstr "圣卢西亚"
+
+#
+msgid "Saint Vincent and the Grenadines"
+msgstr "圣文森特和格林纳丁斯"
+
+#
+msgid "Salvador"
+msgstr "萨尔瓦多"
+
+#
+msgid "Samoa"
+msgstr "萨摩亚"
+
+#
+msgid "San Marino"
+msgstr "圣马力诺"
+
+#
+msgid "Sao Tome and Principe"
+msgstr "圣多美与普林希比共和国"
+
+#
+msgid "Saudi Arabia"
+msgstr "沙特阿拉伯"
+
+#
+msgid "Save"
+msgstr "保存"
+
+#
+msgid "Score"
+msgstr "得分"
+
+#
+msgid "Score:"
+msgstr "得分："
+
+#
+msgid "Scratch Games"
+msgstr "从头开始游戏"
+
+#
+msgid "Sea Battle"
+msgstr "海战"
+
+#
+msgid "Search"
+msgstr "搜索"
+
+#
+msgid "Search a casino game..."
+msgstr "搜索赌场游戏..."
+
+#
+msgid "Search a competition or a team..."
+msgstr "搜索竞争或团队"
+
+#
+msgid "Search results"
+msgstr "搜索结果"
+
+#
+msgid "Second Half"
+msgstr "下半场"
+
+#
+msgid "Second Quarter"
+msgstr "第二节"
+
+#
+msgid "Second Quarter Ended"
+msgstr "第二节已结束"
+
+#
+msgid "Second Set"
+msgstr "第二场"
+
+#
+msgid "Secure Id"
+msgstr "安全 Id"
+
+#
+msgid "Secure Id/Authentication code"
+msgstr "Secure Id / Authentication code"
+
+#
+msgid "Security answer"
+msgstr "安全答案"
+
+#
+msgid "Security question"
+msgstr "安全问题"
+
+#
+msgid "Select a Category"
+msgstr "选择一个分类"
+
+#
+msgid "Select a Sport"
+msgstr "选择一种体育运动"
+
+#
+msgid "Select a Sport "
+msgstr "选择一种体育运动"
+
+#
+msgid "Select a payment method"
+msgstr "选择付款方式"
+
+#
+msgid "Select one"
+msgstr "选择一个"
+
+#
+msgid "Select region"
+msgstr "选择地区"
+
+#
+msgid "Select sport"
+msgstr "选择体育运动"
+
+#
+msgid "Select withdraw method"
+msgstr "选择提款方法"
+
+#
+msgid "Select your country"
+msgstr "选择您的国家"
+
+#
+msgid "Select your currency"
+msgstr "选择您的货币"
+
+#
+msgid "Selected games"
+msgstr "已选择比赛"
+
+#
+msgid "Self exclusion of a one year period"
+msgstr "自我禁止入赌场一年"
+
+#
+msgid "Self exclusion of six month period"
+msgstr "自我禁止入赌场6个月时间"
+
+#
+msgid "Self-Exclusion"
+msgstr "自我禁止入赌场"
+
+#
+msgid "Self-Exclusion period set."
+msgstr "自我戒赌时期设置。"
+
+#
+msgid "Send"
+msgstr "发送"
+
+#
+msgid "Send me Sport news"
+msgstr "请发送体育新闻给我"
+
+#
+msgid "Senegal"
+msgstr "塞内加尔"
+
+#
+msgid "Sent Messages"
+msgstr "已发送信息"
+
+#
+msgid "Sent messages"
+msgstr "已发送信息"
+
+#
+msgid "Sep"
+msgstr "九月"
+
+#
+msgid "Serbia"
+msgstr "塞尔维亚"
+
+#
+msgid "Service Fault"
+msgstr "发球违例"
+
+#
+msgid "Set"
+msgstr "设置"
+
+#
+msgid "Set 0"
+msgstr "盘 0"
+
+#
+msgid "Set 1"
+msgstr "第一盘"
+
+#
+msgid "Set 10"
+msgstr "第十盘"
+
+#
+msgid "Set 11"
+msgstr "第11盘"
+
+#
+msgid "Set 12"
+msgstr "第12盘"
+
+#
+msgid "Set 13"
+msgstr "第13盘"
+
+#
+msgid "Set 14"
+msgstr "第14盘"
+
+#
+msgid "Set 15"
+msgstr "第15盘"
+
+#
+msgid "Set 16"
+msgstr "第16盘"
+
+#
+msgid "Set 17"
+msgstr "第17盘"
+
+#
+msgid "Set 18"
+msgstr "第18盘"
+
+#
+msgid "Set 19"
+msgstr "第19盘"
+
+#
+msgid "Set 2"
+msgstr "第二盘"
+
+#
+msgid "Set 20"
+msgstr "第20盘"
+
+#
+msgid "Set 3"
+msgstr "第三盘"
+
+#
+msgid "Set 4"
+msgstr "第四盘"
+
+#
+msgid "Set 5"
+msgstr "第五盘"
+
+#
+msgid "Set 6"
+msgstr "第六盘"
+
+#
+msgid "Set 7"
+msgstr "第七盘"
+
+#
+msgid "Set 8"
+msgstr "第八盘"
+
+#
+msgid "Set 9"
+msgstr "第九盘"
+
+#
+msgid "Sets"
+msgstr "设置"
+
+#
+msgid "Settings"
+msgstr "设置"
+
+#
+msgid "Sex"
+msgstr "性别"
+
+#
+msgid "Seychelles"
+msgstr "塞舍尔"
+
+#
+msgid "Share"
+msgstr "分享"
+
+#
+msgid "Shot off target"
+msgstr "射偏"
+
+#
+msgid "Shot on target"
+msgstr "射正"
+
+#
+msgid "Show All"
+msgstr "显示全部"
+
+#
+msgid "Show Balance"
+msgstr "显示余额"
+
+#
+msgid "Show Username"
+msgstr "显示用户名"
+
+#
+msgid "Show statistics"
+msgstr "显示统计"
+
+#
+msgid "Sierra Leone"
+msgstr "塞拉利昂"
+
+#
+msgid "Sign in"
+msgstr "登陆"
+
+#
+msgid "Sign in with Odnoklassniki"
+msgstr "使用Odnoklassniki登录"
+
+#
+msgid "Sign up with Facebook"
+msgstr "使用Facebook注册"
+
+#
+msgid "Sign up with Odnoklassniki"
+msgstr "使用Odnoklassniki注册"
+
+#
+msgid "Sign up with your Facebook account"
+msgstr "使用您的Facebook账户注册"
+
+#
+msgid "Singapore"
+msgstr "新加坡"
+
+#
+msgid "Single"
+msgstr "注单"
+
+#
+msgid "Single Only Events"
+msgstr "只有单个比赛"
+
+#
+msgid "Single only"
+msgstr "只有一个"
+
+#
+msgid "Skill games"
+msgstr "技巧游戏"
+
+#
+msgid "Skip"
+msgstr "跳过"
+
+#
+msgid "Slovakia"
+msgstr "斯洛伐克"
+
+#
+msgid "Slovenia"
+msgstr "斯洛文尼亚"
+
+#
+msgid "Solomon Islands"
+msgstr "所罗门群岛"
+
+#
+msgid "Somalia"
+msgstr "索马里"
+
+#
+msgid "Some games will still require you to sign in using username/password."
+msgstr "一些游戏仍然要求您使用用户名/密码登录。"
+
+#
+msgid "Sorry the game which you chose doesn\'t have the type of play for fun"
+msgstr "抱歉，您选择的游戏没有好玩的类型"
+
+#
+msgid "Sorry, this game cannot be opened in multi-view mode"
+msgstr "抱歉，该比赛不能在多视窗模式中打开"
+
+#
+msgid "Sorry, this username has been used already"
+msgstr "抱歉，该用户名已经被使用"
+
+#
+msgid "Sound:"
+msgstr "声效："
+
+#
+msgid "South Africa"
+msgstr "SOUTH AFRICA"
+
+#
+msgid "South Korea"
+msgstr "韩国"
+
+#
+msgid "Spain"
+msgstr "西班牙"
+
+#
+msgid "Sport"
+msgstr "体育"
+
+#
+msgid "Sport center"
+msgstr "体育中心"
+
+#
+msgid "Sports"
+msgstr "体育"
+
+#
+msgid "Sportsbook Layout"
+msgstr "体育博彩布局："
+
+#
+msgid "Sri Lanka"
+msgstr "斯里兰卡"
+
+#
+msgid "St. Lucia"
+msgstr "圣卢西亚"
+
+#
+msgid "Stake"
+msgstr "赌金..."
+
+#
+msgid "Stake amount"
+msgstr "输入投注金额"
+
+#
+msgid "Stake per combination"
+msgstr "每个组合的赌注"
+
+#
+msgid "Start"
+msgstr "开始"
+
+#
+msgid "Start playing now."
+msgstr "现在就开始。"
+
+#
+msgid "Start to Play"
+msgstr "开始玩"
+
+#
+msgid "State"
+msgstr "状态"
+
+#
+msgid "Status"
+msgstr "状态"
+
+#
+msgid "Status:"
+msgstr "状态： "
+
+#
+msgid "Subject"
+msgstr "主题"
+
+#
+msgid "Submit"
+msgstr "提交"
+
+#
+msgid "Substitution"
+msgstr "替换"
+
+#
+msgid "Success"
+msgstr "成功"
+
+#
+msgid "Sudan"
+msgstr "苏丹"
+
+#
+msgid "Superbet"
+msgstr "超级赌"
+
+#
+msgid "Surface"
+msgstr "表面"
+
+#
+msgid "Surinam"
+msgstr "苏里南"
+
+#
+msgid "Swaziland"
+msgstr "斯威士兰"
+
+#
+msgid "Sweden"
+msgstr "瑞典"
+
+#
+msgid "Switch to"
+msgstr "转换到"
+
+#
+msgid "Switch to "
+msgstr "转换到"
+
+#
+msgid "Switzerland"
+msgstr "瑞士"
+
+#
+msgid "Syria"
+msgstr "叙利亚"
+
+#
+msgid "System"
+msgstr "系統"
+
+#
+msgid "System Calculator"
+msgstr "系统计算机"
+
+#
+msgid "TO VICTORY!"
+msgstr "迈向胜利！"
+
+#
+msgid "TODAY"
+msgstr "今日"
+
+#
+msgid "TOP SLOTS"
+msgstr "最受欢迎老虎机"
+
+#
+msgid "TV Games"
+msgstr "电视游戏"
+
+#
+msgid "Table"
+msgstr "牌桌"
+
+#
+msgid "Table Games"
+msgstr "棋牌"
+
+#
+msgid "Tadjikistan"
+msgstr "塔吉克斯坦"
+
+#
+msgid "Taiwan"
+msgstr "台湾"
+
+#
+msgid "Tanzania"
+msgstr "坦桑尼亚"
+
+#
+msgid "Tell me more"
+msgstr "告诉我们你的想法"
+
+#
+msgid "Terms & Conditions"
+msgstr "条款和条件"
+
+#
+msgid "Terms &amp; Conditions"
+msgstr "条款和amp;条件"
+
+#
+msgid "Thailand"
+msgstr "泰国"
+
+#
+msgid "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+msgstr "感谢您参与我们的問卷调查。VivaroBet感谢您对我们的产品感兴趣。"
+
+#
+msgid "The Cayman Islands"
+msgstr "开曼群岛"
+
+#
+msgid "The Central African Republic"
+msgstr "中非共和国"
+
+#
+msgid "The Cook Islands"
+msgstr "库克群岛"
+
+#
+msgid "The Democratic Republic of the Congo"
+msgstr "刚果民主共和国"
+
+#
+msgid "The game is not available"
+msgstr "本场比赛是不可用"
+
+#
+msgid "The password must be larger than 8 characters."
+msgstr "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+
+#
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "在现场投注中显示的时间显示作为一个指标。本公司承接了像分数或时间显示的信息的正确性並不承担任何责任。"
+
+#
+msgid "There are deleted events"
+msgstr "有已经删除的事件"
+
+#
+msgid "There are locked events"
+msgstr "有锁定的事件"
+
+#
+msgid "There are no bets for the selected time period."
+msgstr "没有符合查询要求的投注"
+
+#
+msgid "There are no winners yet"
+msgstr "目前还没有赢家"
+
+#
+msgid "There is no downloadable client for your operating system"
+msgstr "您的操作系统没有可下载的客户端"
+
+#
+msgid "There may be a Rule 4 on this Race"
+msgstr "有可能是规则4对这个赛事"
+
+#
+msgid "There was an error during file upload, please try again."
+msgstr "有文件上传过程中出现错误，请重试。"
+
+#
+msgid "There was an error processing your request."
+msgstr "在处理您的请求时出错。"
+
+#
+msgid "Third Quarter"
+msgstr "第三节"
+
+#
+msgid "Third Quarter Ended"
+msgstr "第三节已结束"
+
+#
+msgid "Third Set"
+msgstr "第三场"
+
+#
+msgid "This Table Is Already Opened In Multi Game View. Please Choose Another Table."
+msgstr "该比赛已经在多游戏视窗中打开。请选择其他比赛。"
+
+#
+msgid "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+msgstr "订单号不会决定投注单最后的赔率，只能由所选的赌注决定。投注单的额赔率可以不断的更改且只能在最后接受投注后由出纳确定。"
+
+#
+msgid "This email already exists in our database, please enter another"
+msgstr "该电子邮件已经在我们的数据库中存在，请输入其他邮件地址"
+
+#
+msgid "This event is not available now"
+msgstr "该事件现在不可用"
+
+#
+msgid "This field can contain only digits and English letters"
+msgstr "此字段只能包含数字和字母"
+
+#
+msgid "This field can contain only digits and letters"
+msgstr "此字段只能包含数字和字母"
+
+#
+msgid "This field is required"
+msgstr "必填字段。"
+
+#
+msgid "This pick cannot be combined with:"
+msgstr "该选择不能结合与："
+
+#
+msgid "This week\'s winners"
+msgstr "本周的获奖者"
+
+#
+msgid "Three Points"
+msgstr "3分"
+
+#
+msgid "ThreePoints"
+msgstr "3分"
+
+#
+msgid "Throw In"
+msgstr "边线发球"
+
+#
+msgid "Ticket Number"
+msgstr "票号"
+
+#
+msgid "Tickets"
+msgstr "票"
+
+#
+msgid "Tickets / Variants"
+msgstr "票 / 变式"
+
+#
+msgid "Time"
+msgstr "时间"
+
+#
+msgid "Time 0"
+msgstr "时间 0"
+
+#
+msgid "Time 1"
+msgstr "第一场"
+
+#
+msgid "Time 2"
+msgstr "第二场"
+
+#
+msgid "Time Period"
+msgstr "时间段"
+
+#
+msgid "Time format"
+msgstr "时间格式"
+
+#
+msgid "Timeout"
+msgstr "暂停"
+
+#
+msgid "Timor-Leste"
+msgstr "东帝汶"
+
+#
+msgid "Tip"
+msgstr "提示"
+
+#
+msgid "To"
+msgstr "到"
+
+#
+msgid "To place a bet, please call"
+msgstr "要下赌注，请打电话"
+
+#
+msgid "To place your bet, please"
+msgstr "要下赌注，请"
+
+#
+msgid "To place your bet, please log in"
+msgstr "您如果想投注请注册或登录"
+
+#
+msgid "To select a bet, please click on any odd."
+msgstr "要选择赌注，请点击任何赔率。"
+
+#
+msgid "Today"
+msgstr "今日"
+
+#
+msgid "Today at"
+msgstr "今天在"
+
+#
+msgid "Todays bets"
+msgstr "Today\'s Bets"
+
+#
+msgid "Togo"
+msgstr "多哥"
+
+#
+msgid "Tomorrow"
+msgstr "明天"
+
+#
+msgid "Tonga"
+msgstr "汤加"
+
+#
+msgid "Tongo"
+msgstr "汤加"
+
+#
+msgid "Top Slots"
+msgstr "最受欢迎老虎机"
+
+#
+msgid "Total"
+msgstr "总计"
+
+#
+msgid "Total win:"
+msgstr "总获胜:"
+
+#
+msgid "Tournaments"
+msgstr "锦标赛"
+
+#
+msgid "Trainer/Jockey"
+msgstr "驯马师/赛马骑师"
+
+#
+msgid "Trainer/Jokey"
+msgstr "驯马师/赛马骑师"
+
+#
+msgid "TransactionAmountExceedsFrozenMoney"
+msgstr "Transaction Amount Exceeds Frozen Money"
+
+#
+msgid "Transactions"
+msgstr "交易"
+
+#
+msgid "Transfer"
+msgstr "转账"
+
+#
+msgid "Transfer from Gaming Wallet"
+msgstr "从博彩钱包转移"
+
+#
+msgid "Transfer to Gaming Wallet"
+msgstr "转移到游戏钱包"
+
+#
+msgid "TransferProductRROR_LOW_BALANCE"
+msgstr "Your balance is not sufficient for this operation"
+
+#
+msgid "Trinidad and Tobago"
+msgstr "特立尼达和多巴哥"
+
+#
+msgid "Tunisia"
+msgstr "突尼斯"
+
+#
+msgid "Turf"
+msgstr "草皮"
+
+#
+msgid "Turkey"
+msgstr "土耳其"
+
+#
+msgid "Turkmenistan"
+msgstr "土库曼斯坦"
+
+#
+msgid "Turn on sound from settings"
+msgstr "从设置中打开声音"
+
+#
+msgid "Tuvalu"
+msgstr "图瓦卢"
+
+#
+msgid "TvGames"
+msgstr "电视游戏"
+
+#
+msgid "Two Games View"
+msgstr "两场比赛视图"
+
+#
+msgid "Two Points"
+msgstr "2分"
+
+#
+msgid "TwoPoints"
+msgstr "2分"
+
+#
+msgid "UAE"
+msgstr "阿拉伯联合酋长国"
+
+#
+msgid "UNSETTLED"
+msgstr "未处理的"
+
+#
+msgid "UNSETTLED "
+msgstr "未处理的"
+
+#
+msgid "Uganda"
+msgstr "乌干达"
+
+#
+msgid "Ukraine"
+msgstr "乌克兰"
+
+#
+msgid "Unit Stake"
+msgstr "单位投注金"
+
+#
+msgid "United States"
+msgstr "美国"
+
+#
+msgid "United States Virgin Islands"
+msgstr "美属维尔京群岛"
+
+#
+msgid "Unknown"
+msgstr "未知"
+
+#
+msgid "Unknown error"
+msgstr "未知错误"
+
+#
+msgid "Unsettled"
+msgstr "未处理的"
+
+#
+msgid "Unsupported service"
+msgstr "不支持的服务"
+
+#
+msgid "Upccomming events"
+msgstr "即将到来的赛事"
+
+#
+msgid "Upcoming"
+msgstr "即将到来"
+
+#
+msgid "Upcoming games"
+msgstr "即将开赛"
+
+#
+msgid "Uruguay"
+msgstr "乌拉圭"
+
+#
+msgid "Use this selector to switch between Live and Pre-match games"
+msgstr "使用该选择器在现场和赛前表演赛间切换"
+
+#
+msgid "Use your"
+msgstr "用你的"
+
+#
+msgid "Use your "
+msgstr "用你的"
+
+#
+msgid "User ID"
+msgstr "用户 ID"
+
+#
+msgid "User age is under minimum allowed."
+msgstr "用户年龄小于允许的最小年龄。"
+
+#
+msgid "User details:"
+msgstr "用户详情："
+
+#
+msgid "User link blocked, please contact support."
+msgstr "用户连接被锁定，请联系客服。"
+
+#
+msgid "UserPasswordMustBeLonger"
+msgstr "User Password Must Be Longer"
+
+#
+msgid "Username"
+msgstr "用户名"
+
+#
+msgid "Username (1)"
+msgstr "用户名"
+
+#
+msgid "Username (2)"
+msgstr "用户名"
+
+#
+msgid "Username *"
+msgstr "用户名 *"
+
+#
+msgid "Username or email invalid"
+msgstr "用户名或电子邮件无效"
+
+#
+msgid "Username(in case you\'ll want to login without facebook)"
+msgstr "用户名(如果您不想使用facebook账户登录)"
+
+#
+msgid "Uzbekistan"
+msgstr "乌兹别克斯坦"
+
+#
+msgid "VGS"
+msgstr "BetConstruct"
+
+#
+msgid "Vanuatu"
+msgstr "瓦努阿图"
+
+#
+msgid "Variants"
+msgstr "变式"
+
+#
+msgid "VbetNews"
+msgstr "Vbet News"
+
+#
+msgid "Venezuela"
+msgstr "委内瑞拉"
+
+#
+msgid "Verify Account"
+msgstr "验证帐户"
+
+#
+msgid "Verify account"
+msgstr "验证帐户"
+
+#
+msgid "Verify phone number by sms"
+msgstr "通过短信验证电话号码"
+
+#
+msgid "Video Poker"
+msgstr "视频扑克"
+
+#
+msgid "Video Slots"
+msgstr " 视频老虎机"
+
+#
+msgid "Video not available yet"
+msgstr "视频尚未公布"
+
+#
+msgid "Video roundups"
+msgstr "视频摘要"
+
+#
+msgid "VideoSlots"
+msgstr " 视频老虎机"
+
+#
+msgid "Videos"
+msgstr "视频"
+
+#
+msgid "Vietnam"
+msgstr "越南"
+
+#
+msgid "View"
+msgstr "查看"
+
+#
+msgid "View Hints"
+msgstr "查看提示"
+
+#
+msgid "View on map"
+msgstr "网页地图"
+
+#
+msgid "Virtual Betting"
+msgstr "虚拟投注"
+
+#
+msgid "Virtual games"
+msgstr "虚拟游戏"
+
+#
+msgid "Virtual sports"
+msgstr "虚拟体育"
+
+#
+msgid "Wagering Bonus received"
+msgstr "接收投注奖金"
+
+#
+msgid "Wagering req"
+msgstr "Wagering requirement"
+
+#
+msgid "Wait..."
+msgstr "等待..."
+
+#
+msgid "Waiting"
+msgstr "正在等待"
+
+#
+msgid "Wallet"
+msgstr "钱包"
+
+#
+msgid "Wallet id"
+msgstr "钱包ID"
+
+#
+msgid "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+msgstr "我们有兴趣知道下述游戏是你懂得玩的（你可以選擇最多5个产品）："
+
+#
+msgid "We are not accepting bets on this game at the moment."
+msgstr "我们现在不接受该游戏的投注"
+
+#
+msgid "We will be back soon with more and better features. Thank you for your patience."
+msgstr "我们会尽快恢复并提供更多更好的功能。谢谢您的耐心。"
+
+#
+msgid "Week"
+msgstr "周"
+
+#
+msgid "Weight"
+msgstr "体重"
+
+#
+msgid "Welcome"
+msgstr "欢迎"
+
+#
+msgid "What age were you when you went to school?"
+msgstr "您上学时的年龄是多少？"
+
+#
+msgid "What was the make and model of your first car?"
+msgstr "您第一辆车的型号是什么？"
+
+#
+msgid "What was the name of the city you were born in?"
+msgstr "您出生的城市名称是什么？"
+
+#
+msgid "What was the name of your first love?"
+msgstr "您初恋情人的名字是什么？"
+
+#
+msgid "What was the name of your first pet?"
+msgstr "您第一个宠物的名字是什么？"
+
+#
+msgid "What was the number of your school?"
+msgstr "您当时学校的号码是多少？"
+
+#
+msgid "Win"
+msgstr "获胜"
+
+#
+msgid "Win % 1 st Service"
+msgstr "赢得 % 第一服务"
+
+#
+msgid "Win Only"
+msgstr "只有赢"
+
+#
+msgid "Win coef"
+msgstr "获奖系数"
+
+#
+msgid "Win sum"
+msgstr "获奖金额"
+
+#
+msgid "Win:"
+msgstr "获胜："
+
+#
+msgid "Windows"
+msgstr "视窗"
+
+#
+msgid "Winners"
+msgstr "得奖者"
+
+#
+msgid "Winners (var.)"
+msgstr "赢家（变式）"
+
+#
+msgid "Winning Bets"
+msgstr "获胜赌注"
+
+#
+msgid "Winnings"
+msgstr "奖金"
+
+#
+msgid "With video"
+msgstr "有视频"
+
+#
+msgid "Withdraw"
+msgstr "提款"
+
+#
+msgid "Withdraw Amount"
+msgstr "提款金额"
+
+#
+msgid "Withdraw failed."
+msgstr "提款失败。"
+
+#
+msgid "Withdraw from game"
+msgstr "从游戏提现"
+
+#
+msgid "Withdraw from main wallet"
+msgstr "从主要钱包提款"
+
+#
+msgid "Withdraw request blocked."
+msgstr "提现请求被冻结。"
+
+#
+msgid "Withdraw request is already in progress"
+msgstr "提款请求已经在处理中。"
+
+#
+msgid "Withdrawable Balance"
+msgstr "Withdrawable Balance"
+
+#
+msgid "Withdrawal"
+msgstr "提款"
+
+#
+msgid "Withdrawal denied"
+msgstr "提款拒绝"
+
+#
+msgid "Withdrawal paid"
+msgstr "已提款"
+
+#
+msgid "Withdrawal request"
+msgstr "提款请求"
+
+#
+msgid "Withdrawal was successful"
+msgstr "提款成功。"
+
+#
+msgid "Withdrawal was successful."
+msgstr "提款成功。"
+
+#
+msgid "Won"
+msgstr "赢"
+
+#
+msgid "Won:"
+msgstr "赢"
+
+#
+msgid "Wrong Amount"
+msgstr "错误的金额"
+
+#
+msgid "Wrong Password"
+msgstr "错误的密码"
+
+#
+msgid "Wrong phone number"
+msgstr "错误的电话号码"
+
+#
+msgid "YOUR BET HAS BEEN APPROVED"
+msgstr "您的赌注已被核准"
+
+#
+msgid "YOUR BET HAS BEEN DECLINED"
+msgstr "您的赌注已被拒绝"
+
+#
+msgid "Yellow Card"
+msgstr "黄牌"
+
+#
+msgid "Yellow card"
+msgstr "黄牌"
+
+#
+msgid "Yemen"
+msgstr "也门"
+
+#
+msgid "Yes"
+msgstr "是"
+
+#
+msgid "You can change the layout of the sportsbook in the settings."
+msgstr "您可以在设置中更改体育博彩的布局。"
+
+#
+msgid "You can exclude online for a minimum period of six months, once the six months has expired your account will be reactivated again."
+msgstr "您可以禁止在线6个月的时间，一旦6个月的时间到期，您的账户将会被再次激活。"
+
+#
+msgid "You can read our Terms and Conditions by clicking corresponding links in page footer."
+msgstr "您可以通过点击页脚相应的链接阅读我们的条款和条件。"
+
+#
+msgid "You can register here:"
+msgstr "您可以在这里注册："
+
+#
+msgid "You don\'t have favourite games. To add some, click the star icon near the game name."
+msgstr "您还没有收藏的游戏。要添加，点击游戏名称附近的开始图标。"
+
+#
+msgid "You have"
+msgstr "您已经"
+
+#
+msgid "You have exited website, but your page on odnoklassniki.ru is still active."
+msgstr "您已退出网站，但您在odnoklassniki.ru的页面仍处于活动状态。"
+
+#
+msgid "You have no tickets"
+msgstr "您没哟彩票"
+
+#
+msgid "You have to accept changes to be able to place bets"
+msgstr "您必须接受变化才能投注"
+
+#
+msgid "You need to be logged in to be able to play video."
+msgstr "您需要先登录才能观看视频。"
+
+#
+msgid "You need to confirm the agreements."
+msgstr "您需要确认协议。"
+
+#
+msgid "You need to have non-zero balance to be able to play video."
+msgstr "您需要非零余额才能播放视频。"
+
+#
+msgid "You need to login to access this page."
+msgstr "您需要登录才能访问此页面。"
+
+#
+msgid "You need to sign in to be able to place bets"
+msgstr "您需要登录才能够投注"
+
+#
+msgid "Your E-mail Has been confirmed"
+msgstr "您的电子邮件已经得到确认"
+
+#
+msgid "Your Facebook account is already linked to another existing user."
+msgstr "您的Facebook账户已经关联到另一个现存的用户。"
+
+#
+msgid "Your balance is low"
+msgstr "您的余额过底"
+
+#
+msgid "Your bet is accepted."
+msgstr "您的投注已被接受。"
+
+#
+msgid "Your bet is not accepted"
+msgstr "您的投注未被接受"
+
+#
+msgid "Your browser doesn\'t support file uploading, Please update or use Google Chrome"
+msgstr "您的浏览器不支持文件上传，请更新或使用谷歌Chrome浏览器"
+
+#
+msgid "Your currency is"
+msgstr "您的货币是"
+
+#
+msgid "Your file successfully uploaded"
+msgstr "你的文件上传成功"
+
+#
+msgid "Your login"
+msgstr "您的登录"
+
+#
+msgid "Your message"
+msgstr "您的信息"
+
+#
+msgid "Your message has been sent."
+msgstr "您的信息已被发送。"
+
+#
+msgid "Your transfer is successfully completed"
+msgstr "您的转账已成功完成"
+
+#
+msgid "Zambia"
+msgstr "赞比亚"
+
+#
+msgid "ZeroAmountTransfer"
+msgstr "Zero Amount Transfer"
+
+#
+msgid "Zimbabwe"
+msgstr "津巴布韦"
+
+#
+msgid "all"
+msgstr "所有"
+
+#
+msgid "and I am over 18 years of age and have read and accepted the general terms and conditions."
+msgstr "且我已经超过18岁并已阅读和接受一般条款和条件。"
+
+#
+msgid "and I am over 21 years of age and have read and accepted the general terms and conditions."
+msgstr "且我已经超过21岁并已经阅读和接受一般条款和条件"
+
+#
+msgid "android"
+msgstr "安卓"
+
+#
+msgid "automatically accept price changes"
+msgstr "自动接收赔率变更"
+
+#
+msgid "available:"
+msgstr "可用的:"
+
+#
+msgid "back to top"
+msgstr "返回顶部"
+
+#
+msgid "backgammon_download_description_windows"
+msgstr "双陆棋Windows下载说明"
+
+#
+msgid "backgammon_requirements_windows"
+msgstr "双陆棋要求Windows"
+
+#
+msgid "belote"
+msgstr "勃洛特纸牌"
+
+#
+msgid "bet id:"
+msgstr "投注 ID"
+
+#
+msgid "bet slip"
+msgstr "投注区"
+
+#
+msgid "brain"
+msgstr "大脑"
+
+#
+msgid "casino"
+msgstr "赌场"
+
+#
+msgid "casino_auth_error"
+msgstr "We\'re experiencing temporary difficulties. Please try a little later."
+
+#
+msgid "choose your os"
+msgstr "选择你的操作系统"
+
+#
+msgid "click to swicth to Live games"
+msgstr "点击转换到现场比赛"
+
+#
+msgid "click to switch to pre-match"
+msgstr "点击转换到赛前"
+
+#
+msgid "close"
+msgstr "关闭"
+
+#
+msgid "competition or a team..."
+msgstr "竞争或团队"
+
+#
+msgid "corners"
+msgstr "角球"
+
+#
+msgid "days"
+msgstr "日"
+
+#
+msgid "delete"
+msgstr "删除"
+
+#
+msgid "deposit_info_arca"
+msgstr "&quot;Armenian Card&quot; CJSC was established by the Central Bank of RA and 10 commercial banks in March 2000 for the establishment and development of the new banking payment system in Armenia. The company provides a set of services that allows banks to issue and serve ArCa, MasterCard, VISA cards, also to serve Armenian Express cards using modern technical, technological and software opportunities of the processing center using also specialized support of the company. The company is:<ul><li>Full member of international payment system of MasterCard Europe and the Centre for the provision of processing services (Member Service Provider)</li><li>Center to provide processing services for the system VISA (Third Party Processor)</li><li>Center to provide processing services for the system of American Express (Third Party Processor)</li></ul>"
+
+#
+msgid "deposit_info_astropay"
+msgstr "<p>AstroPay Card - our anonymous, virtual prepaid card and e-wallet, for customers who dont want to expose their personal information when making online transactions. Register for free, choose the value of the card you want to purchase and pay in local currency using the most popular payment methods in your country.It is an immediate solution. Simply purchase your card, make your payment and receive an e-mail with your AstroPay Card details ready for use.
+</p>"
+
+#
+msgid "deposit_info_btabank"
+msgstr "It is of capital importance for Vbet to provide its clients with up-to-date, trustworthy and comfortable payment services.<br>You can henceforth replenish your VBET account through the BTA BANK.<br>BTA Bank JSC functions on the basis of license N31, provided by the Central Bank of the Republic of Armenia.<br>Through BTA BANK JSC you can pay for fixed line and mobile networks, public service and digital wallets."
+
+#
+msgid "deposit_info_cash"
+msgstr "<p>To deposit money you should tell the bookmaker-cashier your VivaroBet account number which you were granted after the registration on our website.</p><p>At Baghramyan 1, Andranik 73/5, Komitas 60 and N.Zaryan sidestreet 1, h. 9 you can replenish your game account and receive your winning 24/7. In other betting offices you can replenish your game account and receive your winning from 14:00 till 23:00.</p><p>The addresses of betting offices where you can deposit cash money.</p>"
+
+#
+msgid "deposit_info_cashbill"
+msgstr "CashBill is a global settlement system enabling internet users to conduct safe money transfers in real time. Funds will be transfered to your account immediately. There are no fees for using this payment method. Transfers don\'t have a minimum and/or a maximum value. To deposit funds into your account using CashBill, simply press deposit after entering your login & amount you want to transfer below. You will be redirected to CashBill to complete your transaction. Please note that you must have bank account in PLN currency to use this payment method."
+
+#
+msgid "deposit_info_centili"
+msgstr "Mobile Payment - You can easily pay with your phone in no time. The amount is automatically added to your mobile phone bill or deducted from your prepaid account, so you do not need a credit card or a bank account. Simply pay by mobile and enjoy! Currencies supported - RUB. To make a deposit at Vbet please fill in the sum and then your mobile phone number. You will recieive an SMS asking to confirm the payment by answering it with a specific number. After confirmation the payment is done.<br><br>Please read the following:<br>1. This Payment System is only for Beeline Russia customers.<br>2. After payment there should be minimum 50 RUB left on your mobile account.<br>3. Commission for deposit is 8%  "
+
+#
+msgid "deposit_info_dotpay"
+msgstr "Dotpay is a big Polish payment aggregator, which enables payments from different European banks through internet banking."
+
+#
+msgid "deposit_info_ecocard"
+msgstr "<p>EcoPayz is a global payment solutions provider offering instant safe and convenient payment services to customers and businesses across the globe.<br/>Supported currencies include EUR, RUB and USD.<br/>Funds will be transferred to your Vbet account immediately.<br/>There are no fees for using this payment method. <br/>Transfers don`t have a minimum and/or a maximum value.<br/>To deposit funds into your Vbet account using ecoPayz, simply press deposit after entering the amount you want to transfer below. You will be redirected to ecoPayz to complete your transaction.</p>"
+
+#
+msgid "deposit_info_edram"
+msgstr "<a href=\"http://www.idram.am/\">IDram</a> is a payment system on the Internet. For realization of payment it is necessary to be registered in IDram system. IDram system does not demand loading the additional program. On a special page you can expose to yourselves the account for the necessary sum and pay it in IDram system. After that it is necessary to check up the status of the exposed account on the same page. If it has been paid, your game account will be replenished with the transferred sum. For input of money into the system it is necessary to buy а card IDram through branches of &quot;ArmPost&quot; communication. It is possible to familiarize with the rules of the system on the website <a href=\"http://www.idram.am/\">www.idram.am</a>. There are no expenses for this payment method."
+
+#
+msgid "deposit_info_interkassa"
+msgstr "Interkassa – the system for receiving and payments in real time.The service has a lot of advantages over a disparate network of payment systems. So, with her help, you, as the buyer can make payment without leaving your own home. The firm is a legal entity, thereby is responsible for the safety of users and the reliability of the encryption transaction.
+Intercash has established itself on the positive side, as evidenced by the number of people connected to Interkassa payment instruments including such as Visa, Master Card, Приват24, QIWI,Liqpay, W1, PerfectMoney, ADVcash, Terminals, Bitcoin, Ecoint, EXmo, Okpay, Payeer, Swift.
+
+To funds to Your account with Interkassa , You must specify the amount of Deposit and press Deposit. After clicking the Deposit button, You will be automatically redirected to the payment processor\'s site to complete the transaction."
+
+#
+msgid "deposit_info_megapay"
+msgstr "<p><b>\"Mega Panther\" LLC</b> is a payment organization which represents <b>MegaPay</b>. The system operates through payment terminals. Via payment terminals you can pay for mobile and fixed telephony, gas, water, electricity, Internet, IP-telephony, commercial TV, <b>Vivarobet</b>,&nbsp;and etc. Payment terminals are the most modern way to pay your bills easily and quickly. Due to these modern methods of dialogue construction with client the process of financial operations becomes accessible, easy and gives an opportunity to serve the maximum number of people in a short period of time. There is no need of special explanation for using these terminals. Anyone can do the operation through the terminals;it is enough to follow the text and graphic instructions on the screen.</p><p>All payments are carried out in online operation mode by the simple touch on the screen. For all types of payments through <b>MegaPay</b> system no commission is collected – <span class=\"CRed\"><strong>0 %</strong></span>.</p><p>Payment system <b>MegaPay</b> is an optimal financial and technological solution, and payment terminal means comfortability along with availability.<br></p><p>Mega Panther <b>LLC</b> created stable software which is permanently improved for terminals. And our monitoring group is constantly observing terminals to reduce possible errors.</p><p>Half the success of any business is satisfied clients. Guided by this slogan <b>Mega Panther LLC</b> constantly improves <b>MegaPay</b> payment system, increases efficiency of payment terminals, works with its clients through the united call-center. As a result, day by day grows not only the quantity of services offered, but also the number of satisfied and loyal clients.</p>"
+
+#
+msgid "deposit_info_mobidram"
+msgstr " If you have a MobiDram account from now on you can top up your Vivaro account online via MobiDram. After login you should click \"Deposit\" button and then choose MobiDram. There you should fill in appropriate fields with data and confirm payment.<br>The whole amount will be transfered to your account."
+
+#
+msgid "deposit_info_moneta"
+msgstr "<p>Moneta.ru is a payment system established in Russia to provide Internet users with the ability to make secure and instant transactions.</p><p>Supported currencies include EUR, RUB and USD.  Funds will be transferred from your Vbet account within 24 hours.  There are no fees for using this payment method.  Transfers don`t have a minimum and/or a maximum value.  To deposit funds from your Vbet account using Moneta.Ru, simply press deposit after enter  the amount you want to transfer below. You will be redirected to Moneta.Ru to complete your transaction. </p>"
+
+#
+msgid "deposit_info_neteller"
+msgstr "<p>Neteller gives users the ability to make secure online payments with a system offering instant deposits, withdrawals and payouts trusted by millions worldwide.  Supported currencies include USD, EUR and RUB.  Funds will be transferred to your Vbet account immediately.  There are no fees for using this payment method.  Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your Vbet account using Neteller, simply press deposit after entering your Neteller account number, Secure ID and the amount you want to transfer below. You will be redirected to Neteller to complete your transaction.  Please note that the e-mail address registered to your Neteller account must match the e-mail address registered to your Vbet account for your transaction to be accepted.</p>"
+
+#
+msgid "deposit_info_osmp"
+msgstr "<p>\"OSMP\" LLC (United System of Instant Payments) - Armenian representative office of Russian \"OSMP\" CJSC which was set up in September, 2007.<br>RA Central Bank’s № 9 license from April 22, 2008 (payment system). RA Central Bank’s № 5 license from April 22, 2008 (processing and clearing of payments)<br>The System organizes acceptance of payments for the following services: <br>- mobile connection: Beeline, VivaCell-MTS;<br>- fixed connection;<br>- bookmaker offices (Vivarobet)<br>- payment systems (EDram) <br>- VoIP service (Kargin kap) – <strong>New</strong>. <br>- gaz service (ArmRusgazprom) – <strong>New.</strong></p><p>As of 01.12.08, 28 payment terminals located in various districts of Yerevan and Ashtarak are functioning in the system. <br>Russian \"OSMP\" CJSC was founded in 2004. It possesses payment acceptance points in all regions of Russia. Aside from Armenia, the Company’s payment systems function in Georgia, Kazakhstan, Tajikistan, Uzbekistan, Ukraine, Moldova, Belarus. </p>"
+
+#
+msgid "deposit_info_paytopay"
+msgstr "If you have a MobiDram account from now on you can top up your Vivaro account by sending an SMS to 1009 short number mentioning the amount and Vivaro ID you want to top up. For example: 5000, 1234567.<br>The minimum amount for top up is 1000 AMD. The whole amount will be transfered to your account"
+
+#
+msgid "deposit_info_qiwi"
+msgstr "<p>QIWI is a digital wallet that can be used to send and receive money with a wide range of methods allowing for every user to choose what is most convenient and preferable.  Supported currencies include EUR, RUB and USD.  Funds will be transferred to your account within 24 hours.</p><p>There are no fees for using this payment method.</p><p>Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your account using QIWI, simply press deposit after entering the phone number registered with QIWI and the amount you want to transfer below. You will be redirected to QIWI to complete your transaction.</p>"
+
+#
+msgid "deposit_info_safecharge"
+msgstr "SafeCharge is a leading global payment service provider of end-to-end payment acceptance and card issuing solutions. SafeCharge processes all major credit/debit cards as Visa and MasterCard, as well as hundreds of alternative payment methods for quick deposits and withdrawals."
+
+#
+msgid "deposit_info_skrill"
+msgstr "<p>Skrill is a secure, convenient and affordable way to send and receive money worldwide.  Supported currencies include EUR and USD.  Funds will be transferred to your account immediately.</p><p>There are no fees for using this payment method.</p><p>The minimum value for transfers is 5 and there\'s no maximum value.</p><p>To deposit funds into your Vbet account using Skrill, simply press deposit after entering the e-mail address registered with Skrill and the amount you want to transfer below. You will be redirected to Skrill to complete your transaction.</p>"
+
+#
+msgid "deposit_info_skrill_1tap"
+msgstr "<b>Skrill 1-Tap</b> is Skrill\'s convenient service that lets users make small transfers easily without the need to always re-enter an e-mail address and password.<br /> <br /> Supported currencies include EUR and USD.<br /> Funds will be transferred to your Vbet account immediately.<br /> There are no fees for using this payment method. <br /> The minimum for transfers is 5, the maximum is 1000. <br /> <br /> To deposit funds into your Vbet account using Skrill 1-Tap, simply press “Deposit” entering the amount you want to transfer below. You will be redirected to Skrill to complete your transaction.<br /> Please note that you only have to enter your e-mail address for your first Skrill 1-Tap transaction. After the first time, your account information will be automatically recognized by the Skrill system."
+
+#
+msgid "deposit_info_tandem"
+msgstr "<b>Tandem Payment<br>    LLC</b>, Tandem Payment LLC founded in 2007 practices setting, distribution and support of automatized payment systems. The payment terminals offered by our company guarantee quick, comfortable and foolproof method of billing, paying for public utilities, Internet, replenishment of accounts and etc. The software of Tandem Payment&Otilde;s terminals is developed in RA by Smart-Tech LLC which has a great experience in development of various systems of e-payments such as ArCa portal and system of E-card Banking. This fact gives an opportunity to continually improve the system of payment terminals, to execute and apply different innovations into the system.<br><i><b>Our primary advantages are:</b></i><br><br>    <b>We work without commission (0%)</b><br>    <b>Our terminals enable to distribute paid-in sum of money among different types of services.</b><b> </b><b>(You can get more detailed information on these items on &quot;for users&quot; page).</b><br>Our operators work on a twenty-four hour basis and are always ready to answer your all questions concerning our system."
+
+#
+msgid "deposit_info_telcell"
+msgstr "It is very important for &quot;VivaroBet&quot; company to provide its consumers with modern, reliable and convenient payment service. Therefore &quot;VivaroBet&quot; company has incorporated to system <a href=\"http://www.telcell.am/\">TelCell</a>."
+
+#
+msgid "deposit_info_ukash"
+msgstr "<p>Ukash was created to give customers an easy, safe and private method to make online payments using cash.  Supported currencies include EUR and USD.  Funds will be transferred to your Vbet account immediately.  There are no fees for using this payment method.  Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your Vbet account using Ukash, simply press submit after entering the amount you want to transfer below. You will be redirected to Ukash where you must enter your Ukash Voucher details to complete your transaction.</p>"
+
+#
+msgid "deposit_info_webmoney"
+msgstr "<p>WebMoney is a global settlement system enabling Internet users to conduct safe money transfers in real time.  Supported currencies include EUR, RUB, UAH and USD.  Funds will be transferred to your account immediately.  There are no fees for using this payment method.</p><p>Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your Vbet account using WebMoney, simply press deposit after entering the amount you want to transfer below. You will be redirected to WebMoney to complete your transaction.  Please note that you must have a WebMoney E, R or Z wallet.</p>"
+
+#
+msgid "deposit_info_wirecard"
+msgstr " WireCard is a secure, convenient & fast way to deposit funds at your betdad account using your credit card. The supported currencies are: EUR, USD, GBP, CZK & PLN. The minimum deposit amount is 10 EUR and the maximum deposit amount is 5000 EUR. Funds will be transfered to your betdad account immediately. There are no fees using this payment method. To deposit funds into your betdad account using WireCard, simply fill out all the required fields and press the \'deposit\' button."
+
+#
+msgid "deposit_info_yandex"
+msgstr "<p> \"Yandex.Money\" - an electronic payment system, one of the most popular services of \"Yandex\" company, which is Russia\'s largest portal and leading search system in Russian part of the Internet. \"Yandex.Money\" payment system helps you to make purchases from online stores, contribute to charity funds, pay for communication services and much more. For more information and opportunities on \"Yandex.Money\" payment system, visit the money.yandex.ru website. </p>"
+
+#
+msgid "deposit_info_yandexprbank"
+msgstr "<p>
+You can replenish your account directly from your “PromSvyazBank” internet-bank account and in this case transfers are carried out via the payment system YandexMoney.
+\"Yandex.Money\" - an electronic payment system, one of the most popular services of \"Yandex\" company, which is Russia\'s largest portal and leading search system in Russian part of the Internet. \"Yandex.Money\" payment system helps you to make purchases from online stores, contribute to charity funds, pay for communication services and much more. For more information and opportunities on \"Yandex.Money\" payment system, visit the money.yandex.ru website.
+</p>"
+
+#
+msgid "desktop"
+msgstr "桌面"
+
+#
+msgid "express"
+msgstr "多个"
+
+#
+msgid "for our users"
+msgstr "给我们的用户"
+
+#
+msgid "freebet_info"
+msgstr "Vivaro betting company offers its customers a free quiz.<br />Customers will be offered 3 types of express, which contains 6, 8 or 10 events. If the customer guesses correctly 6 out of 6 events and the winning amount will be 7000 AMD, 8 out of 8 events the payout will be 15.000 AMD, and if you guess 10 out of 10 events the payoff will be 20.000 AMD. The winning amount will be transferred to the customer&rsquo;s account within 5 days after completion of all events are included in all 3 express bets.<br />If there are events, which have not taken place in this variant of express, the quiz will be lost.<br />Each customer can daily make an express bet on each variant only once."
+
+#
+msgid "games"
+msgstr "游戏"
+
+#
+msgid "help"
+msgstr "帮助"
+
+#
+msgid "hours"
+msgstr "小时"
+
+#
+msgid "id: "
+msgstr "编号: "
+
+#
+msgid "incompatible events"
+msgstr "冲突事件"
+
+#
+msgid "know more..."
+msgstr "知道更多..."
+
+#
+msgid "left arrow"
+msgstr "向左箭头"
+
+#
+msgid "linux"
+msgstr "Linux"
+
+#
+msgid "live"
+msgstr "现场"
+
+#
+msgid "livecasino_101_1"
+msgstr "真人21点 A"
+
+#
+msgid "livecasino_101_2"
+msgstr "真人21点 B"
+
+#
+msgid "livecasino_101_3"
+msgstr "真人21点 C"
+
+#
+msgid "livecasino_101_4"
+msgstr "真人21点 D"
+
+#
+msgid "livecasino_102"
+msgstr "现场轮盘"
+
+#
+msgid "livecasino_103"
+msgstr "百家乐"
+
+#
+msgid "livecasino_104"
+msgstr "博尔据扑克"
+
+#
+msgid "loading..."
+msgstr "正在加载…"
+
+#
+msgid "logo"
+msgstr "商标"
+
+#
+msgid "lost"
+msgstr "输"
+
+#
+msgid "maintenance."
+msgstr "维护"
+
+#
+msgid "message_1"
+msgstr "Bad Request"
+
+#
+msgid "message_10"
+msgstr "Invalid Level"
+
+#
+msgid "message_1000"
+msgstr "Internal Error"
+
+#
+msgid "message_10000"
+msgstr "Wrong request"
+
+#
+msgid "message_10001"
+msgstr "Socket error"
+
+#
+msgid "message_10002"
+msgstr "Network connection problem"
+
+#
+msgid "message_10003"
+msgstr "Socket data error"
+
+#
+msgid "message_10004"
+msgstr "Server internal error"
+
+#
+msgid "message_10006"
+msgstr "Request data not valid"
+
+#
+msgid "message_10007"
+msgstr "Error when sending \"E-mail\""
+
+#
+msgid "message_1001"
+msgstr "Null value for argument"
+
+#
+msgid "message_1002"
+msgstr "Wrong Client Token"
+
+#
+msgid "message_1003"
+msgstr "Wrong Login/Password"
+
+#
+msgid "message_1004"
+msgstr "User blocked"
+
+#
+msgid "message_1006"
+msgstr "Password error"
+
+#
+msgid "message_1008"
+msgstr "Logging in the page is not possible,since you have not acctivated your account from ypur e-mail."
+
+#
+msgid "message_1009"
+msgstr "Such a verification code does not exist."
+
+#
+msgid "message_1026"
+msgstr "You can make a new superbet only after the existing one is completed."
+
+#
+msgid "message_1031"
+msgstr "Not enough bonus balance."
+
+#
+msgid "message_1099"
+msgstr "Fork exception"
+
+#
+msgid "message_11"
+msgstr "Invalid Field"
+
+#
+msgid "message_1100"
+msgstr "Game is already started"
+
+#
+msgid "message_1102"
+msgstr "Game starttime is already past"
+
+#
+msgid "message_1103"
+msgstr "Bet editing time is already past"
+
+#
+msgid "message_1104"
+msgstr "Bet is payed"
+
+#
+msgid "message_1105"
+msgstr "Bet status not fixed"
+
+#
+msgid "message_1106"
+msgstr "Bet lose"
+
+#
+msgid "message_1107"
+msgstr "Bet is online"
+
+#
+msgid "message_1108"
+msgstr "Wrong value for coefficient"
+
+#
+msgid "message_1109"
+msgstr "Wrong value for amount"
+
+#
+msgid "message_1110"
+msgstr "Deposit limit is set by player (self-limitation)"
+
+#
+msgid "message_1112"
+msgstr "Request is already paid!"
+
+#
+msgid "message_1113"
+msgstr "Request is already storned!"
+
+#
+msgid "message_1114"
+msgstr "Card Lot blocked!"
+
+#
+msgid "message_1115"
+msgstr "Card blocked!"
+
+#
+msgid "message_1116"
+msgstr "Card activated!"
+
+#
+msgid "message_1117"
+msgstr "Wrong login or E-mail"
+
+#
+msgid "message_1118"
+msgstr "Duplicate Login"
+
+#
+msgid "message_1119"
+msgstr "重复的电子邮件"
+
+#
+msgid "message_1120"
+msgstr "Duplicate Nick Name"
+
+#
+msgid "message_1122"
+msgstr "Duplicate Personal Id"
+
+#
+msgid "message_1123"
+msgstr "Duplicate Document Number"
+
+#
+msgid "message_1150"
+msgstr "You yet are not allowed to bet on the given event yet"
+
+#
+msgid "message_12"
+msgstr "Invalid Credentials"
+
+#
+msgid "message_1200"
+msgstr "Wrong value exception"
+
+#
+msgid "message_13"
+msgstr "Invalid tree mode"
+
+#
+msgid "message_1300"
+msgstr "Double value exception"
+
+#
+msgid "message_14"
+msgstr "Invalid query syntax"
+
+#
+msgid "message_1400"
+msgstr "Double event exception"
+
+#
+msgid "message_15"
+msgstr "Invalid regular expression"
+
+#
+msgid "message_1500"
+msgstr "Stake exceeds maximum allowable limit"
+
+#
+msgid "message_1510"
+msgstr "Limit exception"
+
+#
+msgid "message_1510_sb"
+msgstr "Bet amount exceeds Your current limit. Please use Superbet option."
+
+#
+msgid "message_1550"
+msgstr "The sum exceeds maximum allowable limit"
+
+#
+msgid "message_1560"
+msgstr "The sum is less than minimum allowable limit"
+
+#
+msgid "message_16"
+msgstr "Invalid data source"
+
+#
+msgid "message_1600"
+msgstr "A correction of coefficients is being performed."
+
+#
+msgid "message_17"
+msgstr "File unsupported format"
+
+#
+msgid "message_1700"
+msgstr "Wrong access exception"
+
+#
+msgid "message_18"
+msgstr "File size limit exception"
+
+#
+msgid "message_1800"
+msgstr "Odds have been changed"
+
+#
+msgid "message_1900"
+msgstr "The events can be included only in the multiple type of bet"
+
+#
+msgid "message_1910"
+msgstr "The events can be included only in the ordinar type of bet"
+
+#
+msgid "message_2"
+msgstr "Invalid Command"
+
+#
+msgid "message_20"
+msgstr "Not enough balance for operation"
+
+#
+msgid "message_2000"
+msgstr "Odds restriction exception"
+
+#
+msgid "message_20000"
+msgstr "Server internal exception"
+
+#
+msgid "message_20001"
+msgstr "Undefined exception"
+
+#
+msgid "message_20002"
+msgstr "Your session has expired, please login again"
+
+#
+msgid "message_2001"
+msgstr "Bet error."
+
+#
+msgid "message_2003"
+msgstr "Bet State Error"
+
+#
+msgid "message_2007"
+msgstr "Currency Mismatch"
+
+#
+msgid "message_2008"
+msgstr "Client Excluded"
+
+#
+msgid "message_2009"
+msgstr "Client Locked"
+
+#
+msgid "message_2018"
+msgstr "Email should not be empty"
+
+#
+msgid "message_2019"
+msgstr "Expired reset code"
+
+#
+msgid "message_2020"
+msgstr "Empty First Name"
+
+#
+msgid "message_2024"
+msgstr "Invalid E-mail"
+
+#
+msgid "message_2031"
+msgstr "Empty Last Name"
+
+#
+msgid "message_2033"
+msgstr "Market Suspended"
+
+#
+msgid "message_2036"
+msgstr "Match Suspended"
+
+#
+msgid "message_2037"
+msgstr "Max daily bet amount Error"
+
+#
+msgid "message_2038"
+msgstr "Max single bet amount Error"
+
+#
+msgid "message_2050"
+msgstr "One market type Group"
+
+#
+msgid "message_2077"
+msgstr "Selection Suspended"
+
+#
+msgid "message_21"
+msgstr "Operation not allowed"
+
+#
+msgid "message_2100"
+msgstr "Payment restriction exception"
+
+#
+msgid "message_22"
+msgstr "Limit reached"
+
+#
+msgid "message_2200"
+msgstr "Client limit exception"
+
+#
+msgid "message_23"
+msgstr "server temporary is down"
+
+#
+msgid "message_2300"
+msgstr "Office limit exception"
+
+#
+msgid "message_2400"
+msgstr "Insufficient balance"
+
+#
+msgid "message_2403"
+msgstr "There are active requests for this client"
+
+#
+msgid "message_2406"
+msgstr "Player self-excluded themself from being able to place bet"
+
+#
+msgid "message_2407"
+msgstr "CLIENT BONUS AMOUNT"
+
+#
+msgid "message_2408"
+msgstr "DUPLICATE BONUS ID"
+
+#
+msgid "message_2409"
+msgstr "HAS BONUS"
+
+#
+msgid "message_2410"
+msgstr "NO BONUS"
+
+#
+msgid "message_2411"
+msgstr "WRONG CLIENT ID"
+
+#
+msgid "message_2412"
+msgstr "AGENT PAYOFF REQUEST"
+
+#
+msgid "message_2413"
+msgstr "TRANSFER DENIED"
+
+#
+msgid "message_2414"
+msgstr "Incompatible events"
+
+#
+msgid "message_2415"
+msgstr "WRONG EXPIRY DATE"
+
+#
+msgid "message_2416"
+msgstr "PROMO-CODE REWRITE"
+
+#
+msgid "message_2417"
+msgstr "CLIENT AMOUNT"
+
+#
+msgid "message_2500"
+msgstr "TODAY WINNER EXIST"
+
+#
+msgid "message_2501"
+msgstr "TODAY RAFFLE TIME"
+
+#
+msgid "message_3"
+msgstr "Service Unavailable"
+
+#
+msgid "message_3000"
+msgstr "Wrong Login Attempts"
+
+#
+msgid "message_3001"
+msgstr "Not Supported Currency"
+
+#
+msgid "message_3002"
+msgstr "Wrong Old Password"
+
+#
+msgid "message_3003"
+msgstr "Wrong Transaction Id"
+
+#
+msgid "message_3004"
+msgstr "Invalid Token"
+
+#
+msgid "message_3005"
+msgstr "Token Already Exists"
+
+#
+msgid "message_3006"
+msgstr "Invalid Payment System Operation"
+
+#
+msgid "message_3007"
+msgstr "Invalid Payment System Commission"
+
+#
+msgid "message_3008"
+msgstr "Image Upload Failed"
+
+#
+msgid "message_3009"
+msgstr "Incorrect Client Request"
+
+#
+msgid "message_3011"
+msgstr "Is Not An Image"
+
+#
+msgid "message_3012"
+msgstr "Cant Create Directory"
+
+#
+msgid "message_3013"
+msgstr "Invalid Agent"
+
+#
+msgid "message_3014"
+msgstr "Invalid Agent System"
+
+#
+msgid "message_3015"
+msgstr "Negative Amount"
+
+#
+msgid "message_3016"
+msgstr "Wrong Agent Group"
+
+#
+msgid "message_3017"
+msgstr "Wrong Agent Group Value"
+
+#
+msgid "message_3018"
+msgstr "Invalid Agent Group Item"
+
+#
+msgid "message_3019"
+msgstr "Bet Selections Combined Error"
+
+#
+msgid "message_4"
+msgstr "Request Timeout"
+
+#
+msgid "message_5"
+msgstr "No Session"
+
+#
+msgid "message_5000"
+msgstr "Please sign in first"
+
+#
+msgid "message_6"
+msgstr "Subscription not found"
+
+#
+msgid "message_7"
+msgstr "Not subscribed"
+
+#
+msgid "message_99"
+msgstr "Unknown Error"
+
+#
+msgid "message_CHANGE_ODD"
+msgstr "赔率已经被改变"
+
+#
+msgid "message_EVENT_LOCKED"
+msgstr "信息事件已锁定"
+
+#
+msgid "message_GAME_STARTED"
+msgstr "Game started"
+
+#
+msgid "message_LIMIT_ERROR"
+msgstr "There is an odd correction"
+
+#
+msgid "message_OK"
+msgstr "已接受"
+
+#
+msgid "message_ONHOLD"
+msgstr "正在等待确认"
+
+#
+msgid "min."
+msgstr "最低"
+
+#
+msgid "minutes"
+msgstr "分钟"
+
+#
+msgid "months"
+msgstr "月"
+
+#
+msgid "more"
+msgstr "更多"
+
+#
+msgid "multiple"
+msgstr "多个的"
+
+#
+msgid "new"
+msgstr "新的"
+
+#
+msgid "next"
+msgstr "下一页"
+
+#
+msgid "no results"
+msgstr "没有任何结果"
+
+#
+msgid "online"
+msgstr "上线"
+
+#
+msgid "or"
+msgstr "或"
+
+#
+msgid "penalties"
+msgstr "罚球"
+
+#
+msgid "play now"
+msgstr "现在开始"
+
+#
+msgid "poker_download_description_android"
+msgstr "android扑克下载说明"
+
+#
+msgid "poker_download_description_linux"
+msgstr "linux扑克下载说明"
+
+#
+msgid "poker_download_description_mac"
+msgstr "Mac OS扑克下载说明"
+
+#
+msgid "poker_download_description_windows"
+msgstr "徵軟Windows扑克下载说明"
+
+#
+msgid "poker_requirements_android"
+msgstr "扑克要求android"
+
+#
+msgid "poker_requirements_linux"
+msgstr "扑克要求linux"
+
+#
+msgid "poker_requirements_mac"
+msgstr "扑克要求Windows"
+
+#
+msgid "pre-match"
+msgstr "未开赛"
+
+#
+msgid "prev"
+msgstr "上一个"
+
+#
+msgid "prevew"
+msgstr "预览"
+
+#
+msgid "prices for some events have changed"
+msgstr "一些比赛的价格已经发生变化"
+
+#
+msgid "red cards"
+msgstr "红牌"
+
+#
+msgid "register"
+msgstr "注册"
+
+#
+msgid "returned"
+msgstr "已退回"
+
+#
+msgid "right arrow"
+msgstr "向右箭头"
+
+#
+msgid "season"
+msgstr "季"
+
+#
+msgid "seconds"
+msgstr "秒"
+
+#
+msgid "show"
+msgstr "显示"
+
+#
+msgid "show more"
+msgstr "显示更多"
+
+#
+msgid "sign in"
+msgstr "登入"
+
+#
+msgid "single"
+msgstr "注单"
+
+#
+msgid "skills"
+msgstr "技巧"
+
+#
+msgid "sport news"
+msgstr "体育新闻"
+
+#
+msgid "sportsbook"
+msgstr "体育投注"
+
+#
+msgid "statistic"
+msgstr "统计"
+
+#
+msgid "system"
+msgstr "系统"
+
+#
+msgid "system "
+msgstr "系统"
+
+#
+msgid "tell me more"
+msgstr "请告诉我们更多"
+
+#
+msgid "there are deleted events"
+msgstr "有已经删除的比赛"
+
+#
+msgid "this field is required"
+msgstr "必填字段。"
+
+#
+msgid "unsettled"
+msgstr "未处理的"
+
+#
+msgid "will start in"
+msgstr "将会开始在"
+
+#
+msgid "withdraw_info_arca"
+msgstr "The ordered sum is transferred to Armenian banks\' ArCa, MasterCard, VISA cards you mentioned, which is registered in your name.<br>The order execution term is 24 hours.<br>Due to unstable operation of the system, transfer delay may exceed the specified time.<br>The minimal sum of withdrawal is <b>500</b> dram.<br>The maximum sum for withdraw is <b>200.000</b> dram per day.<br>No commissions are charged with this payment method."
+
+#
+msgid "withdraw_info_astropay"
+msgstr "AstroPay Card - our anonymous, virtual prepaid card and e-wallet, for customers who don\'t want to expose their personal information when making on-line transactions. Register for free, choose the value of the card you want to purchase and pay in local currency using the most popular payment methods in your country. It is an immediate solution. Simply purchase your card, make your payment and receive an e-mail with your AstroPay Card details ready for use."
+
+#
+msgid "withdraw_info_cash"
+msgstr "<p>You can receive the sum ordered in the betting offices on the same or next day after the registration of inquiry. You should present your passport to receive your winning. The order is valid within 3 days. If you cannot receive the winning sum during this term, the inquiry will be cancelled, the ordered sum will return on the game account. The minimal sum of the order is not limited. There are no additional charges for this payment method.</p><p>At Baghramyan 1, Andranik 73/5, Amiryan 18/2a you can receive your winnings from 11:00 till 23:00. In other betting offices you can receive your winnings from 14:00 till 23:00.</p><p>You can receive cash sum at the following branches of VivaroBet:</p>"
+
+#
+msgid "withdraw_info_ecocard"
+msgstr "<p>ecoPayz is a global payment solutions provider offering instant safe and convenient payment services to customers and businesses across the globe.<br/>Supported currencies include EUR, RUB and USD.<br/>Funds will be transferred from your Vbet within 24 hours.<br/>There are no fees for using this payment method.<br/> Transfers don`t have a minimum and/or a maximum value.<br/>To withdraw funds from your Vbet account using ecoPayz, simply press withdraw after entering your full name, your account number and the amount you want to transfer below. You will be redirected to ecoPayz to complete your transaction.</p>"
+
+#
+msgid "withdraw_info_edram"
+msgstr "Your payout order will be transferred to your <a href=\"http://www.idram.am/\">iDram</a> account which is registered in your name. Execution term of the order is 12 hours. With this payment method you are not paying any commission."
+
+#
+msgid "withdraw_info_interkassa"
+msgstr "Interkassa – the system for receiving and payments in real time.The service has a lot of advantages over a disparate network of payment systems. So, with her help, you, as the buyer can make payment without leaving your own home. The firm is a legal entity, thereby is responsible for the safety of users and the reliability of the encryption transaction.
+Intercash has established itself on the positive side, as evidenced by the number of people connected to Interkassa payment instruments, Including such asVisa, Master Card, Приват24, QIWI,Liqpay, W1, PerfectMoney, ADVcash, Terminals, Bitcoin, Ecoint, EXmo, Okpay, Payeer, Swift.
+
+To withdraw funds from Your account to the site Napoleon Casino with the help of Interkassa, You must specify Your personal data, number of a purse registered in system and the amount of withdrawal, then click on the Output button."
+
+#
+msgid "withdraw_info_moneta"
+msgstr "<p>Moneta.ru is a payment system established in Russia to provide Internet users with the ability to make secure and instant transactions.</p><p>Supported currencies include EUR, RUB and USD.  Funds will be transferred from your Vbet account within 12 hours.  There are no fees for using this payment method.  Transfers don`t have a minimum and/or a maximum value.  To withdraw funds from your Vbet account using Moneta.Ru, simply press withdraw after entering your full name, the e-mail address registered with Moneta.Ru, your Wallet Number and the amount you want to transfer below. You will be redirected to Moneta.Ru to complete your transaction.</p>"
+
+#
+msgid "withdraw_info_neteller"
+msgstr "<p>Neteller gives users the ability to make secure online payments with a system offering instant deposits, withdrawals and payouts trusted by millions worldwide.</p><p>Supported currencies include USD, EUR and RUB.  Funds will be transferred from your Vbet account within 24 hours.  There are no fees for using this payment method.  Transfers don`t have a minimum and/or a maximum value.</p><p>To withdraw funds from your Vbet account using Neteller, simply press withdraw after entering your account number and the amount you want to transfer below.</p>"
+
+#
+msgid "withdraw_info_netellernew"
+msgstr "<p>Neteller gives users the ability to make secure online payments with a system offering instant deposits, withdrawals and payouts trusted by millions worldwide.</p><p>Supported currencies include USD, EUR and RUB.  Funds will be transferred from your Vbet account within 24 hours.  There are no fees for using this payment method.  Transfers don`t have a minimum and/or a maximum value.</p><p>To withdraw funds from your Vbet account using Neteller, simply press withdraw after entering your account number and the amount you want to transfer below. </p>"
+
+#
+msgid "withdraw_info_qiwi"
+msgstr "<p>QIWI is a digital wallet that can be used to send and receive money with a wide range of methods allowing for every user to choose what is most convenient and preferable.</p><p>Supported currencies include EUR, RUB and USD.  Funds will be transferred from your account within 24 hours.  There are no fees for using this payment method.  Transfers don&#96;t have a minimum value, and the maximum value is 300 EUR.  To withdraw funds from your account using QIWI, simply press withdraw after entering your QIWI Wallet Number and the amount you want to transfer below. You will be redirected to QIWI to complete your transaction.</p>"
+
+#
+msgid "withdraw_info_safecharge"
+msgstr "SafeCharge is a leading global payment service provider of end-to-end payment acceptance and card issuing solutions. SafeCharge processes all major credit/debit cards as Visa and MasterCard, as well as hundreds of alternative payment methods for quick deposits and withdrawals"
+
+#
+msgid "withdraw_info_skrill"
+msgstr "Skrill is a secure, convenient and affordable way to send and receive money worldwide.<br><br>Supported currencies include EUR and USD.<br>Funds will be transferred from your account within 24 hours.<br>There are no fees for using this payment method. <br>Transfers don`t have a minimum and/or a maximum value.<br>To withdraw funds from your Vbet account using Skrill, simply press “Submit” after entering your full name, your e-mail address registered with Skrill and the amount you want to transfer below. You will be redirected to Skrill to complete your transaction."
+
+#
+msgid "withdraw_info_topoker"
+msgstr "If you have a VivaroPoker account, you can transfer money to it. Please enter your VivaroPoker username and password(you will be asked only for the first time) and chosen amount will be transferred to <b>your</b> VivaroPoker account"
+
+#
+msgid "withdraw_info_tovivaropet"
+msgstr "If you have a Vivarobet account, you can transfer money to it. Please enter your Vivarobet username and password(you will be asked only for the first time) and chosen amount will be transferred to <b>your</b> Vivarobet account"
+
+#
+msgid "withdraw_info_webmoney"
+msgstr "<p>WebMoney is a global settlement system enabling Internet users to conduct safe money transfers in real time.  Supported currencies include EUR, RUB, UAH and USD.  Funds will be transferred from your account within 72 hours.  There are no fees for using this payment method.  Transfers don`t have a minimum and/or a maximum value.  To withdraw funds from your Vbet account using WebMoney, simply press wirhdraw after entering your full name as registered with WebMoney, your Wallet Number and the amount you want to transfer below.  Please note that you must have a WebMoney E, R or Z wallet.</p>"
+
+#
+msgid "withdraw_info_wirecard"
+msgstr "WireCard is a secure, convenient  fast way to deposit and withdraw funds at your Vbet account using your credit card ."
+
+#
+msgid "withdraw_info_wirecardnew"
+msgstr "WireCard is a secure, convenient  fast way to deposit and withdraw funds at your Vbet account using your credit card."
+
+#
+msgid "yards"
+msgstr "码"
+
+#
+msgid "years"
+msgstr "年"
+
+#
+msgid "yellow cards"
+msgstr "黄色"

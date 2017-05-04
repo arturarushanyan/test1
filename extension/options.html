@@ -1,0 +1,48 @@
+<!doctype html>
+<html ng-app="VOPT" ng-csp>
+<head>
+    <meta charset="utf-8">
+    <title>{{conf.name}} Options</title>
+    <link href="css/options.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" ng-href="skin/{{conf.skin}}/skin.css">
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/amplify.store.min.js"></script>
+    <script src="js/vopt/vopt.js"></script>
+    <script src="config.js"></script>
+    <script src="translations.js"></script>
+    <script src="services/translator.js"></script>
+    <script src="services/storage.js"></script>
+    <script src="directives/trans.js"></script>
+    <script src="filters/translate.js"></script>
+    <script src="filters/count.js"></script>
+    <script src="js/vopt/options.js"></script>
+
+
+</head>
+<body >
+<div class="options-b" ng-controller="options">
+    <h1>{{conf.name}} <span trans>Options</span></h1>
+
+    <form class="options-form">
+
+        <div class="option">
+        <label for="notifications" trans>Show desktop notifications</label>
+        <input type="checkbox" ng-model="notifState" title="Show Notifications" id="notifications">
+        </div>
+
+        <div class="option">
+            <label for="sounds" trans>Enable sound notifications</label>
+            <input type="checkbox" ng-model="notifSound" title="Enable sound notifications" id="sounds">
+        </div>
+
+        <div ng-show="(conf.availableLanguages|count) > 1" class="option">
+            <label for="language" trans>Chose your language</label>
+            <br>
+            <select ng-model="env.lang" ng-options="code as lang.full for (code, lang) in conf.availableLanguages" id="language"></select>
+        </div>
+    </form>
+    <button class="save-button" ng-click="applySettings()" trans>Save and Close</button>
+</div>
+</body>
+</html>
+

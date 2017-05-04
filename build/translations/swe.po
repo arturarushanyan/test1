@@ -1,0 +1,6368 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "OK"
+msgstr "OK"
+
+# 
+msgid "Yes"
+msgstr "Ja"
+
+# 
+msgid "No"
+msgstr "Nej"
+
+# 
+msgid "Live"
+msgstr "Live"
+
+# 
+msgid "pre-match"
+msgstr "pre-match"
+
+# 
+msgid "No games found"
+msgstr "Inga spel funna"
+
+# 
+msgid "Games"
+msgstr "Spel"
+
+# 
+msgid "all"
+msgstr "alla"
+
+# 
+msgid "Print coupon"
+msgstr "Print coupon"
+
+# 
+msgid "Today"
+msgstr "Idag"
+
+# 
+msgid "Tomorrow"
+msgstr "Imorgon"
+
+# 
+msgid "1x2_1"
+msgstr "1x2_1"
+
+# 
+msgid "1x2_X"
+msgstr "1x2_X"
+
+# 
+msgid "1x2_2"
+msgstr "1x2_2"
+
+# 
+msgid "More"
+msgstr "Fler"
+
+# 
+msgid "Sorry the game which you chose doesn't have the type of play for fun"
+msgstr "Tyvärr går det ej att \"spela på skoj\" på spelet som du valt"
+
+# 
+msgid "Transfer"
+msgstr "Överföring"
+
+# 
+msgid "Enter"
+msgstr "Ange"
+
+# 
+msgid "Withdraw from game"
+msgstr "Avsluta spelet"
+
+# 
+msgid "Deposit to game"
+msgstr "Sätt in till spelet"
+
+# 
+msgid "Game Balance: "
+msgstr "Spelsaldo: "
+
+# 
+msgid "Error occured"
+msgstr "Fel uppstod"
+
+# 
+msgid "more"
+msgstr "fler"
+
+# 
+msgid "Select a Category"
+msgstr "Välj en kategori"
+
+# 
+msgid "Select region"
+msgstr "Välj region"
+
+# 
+msgid "All Providers"
+msgstr "Alla leverantörer"
+
+# 
+msgid "left arrow"
+msgstr "vänster pil"
+
+# 
+msgid "right arrow"
+msgstr "höger pil"
+
+# 
+msgid "Popular Games"
+msgstr "Populära spel"
+
+# 
+msgid "play now"
+msgstr "spela nu"
+
+# 
+msgid "PLAY FOR FUN"
+msgstr "Spela gratis"
+
+# 
+msgid "TOP SLOTS"
+msgstr "TOP SLOTS"
+
+# 
+msgid "VIEW"
+msgstr "VY"
+
+# 
+msgid "Load more"
+msgstr "Ladda fler"
+
+# 
+msgid "Casino games"
+msgstr "Casino spel"
+
+# 
+msgid "Live casino"
+msgstr "Live casino"
+
+# 
+msgid "Skill games"
+msgstr "Skill-games"
+
+# 
+msgid "Virtual games"
+msgstr "Virtualla spel"
+
+# 
+msgid "All Multi View Games"
+msgstr "Alla multi-vy spel"
+
+# 
+msgid "Search"
+msgstr "Sök"
+
+# 
+msgid "Powered by"
+msgstr "Drivs av"
+
+# 
+msgid "All rights reserved."
+msgstr "Alla rättigheter reserverade."
+
+# 
+msgid "Mobile version"
+msgstr "Mobile version"
+
+# 
+msgid "Previous version"
+msgstr "Tidigare version"
+
+# 
+msgid "Previous Flash version"
+msgstr "Flash version"
+
+# 
+msgid "Points Calculator"
+msgstr "Poäng räknare"
+
+# 
+msgid "Buy-in"
+msgstr "Buy-in"
+
+# 
+msgid "Entrants"
+msgstr "Deltagare"
+
+# 
+msgid "Position"
+msgstr "Position"
+
+# 
+msgid "Points"
+msgstr "Poäng"
+
+# 
+msgid "Play now!"
+msgstr "Spela nu!"
+
+# 
+msgid "Download"
+msgstr "Ladda ner"
+
+# 
+msgid "How to Play"
+msgstr "How to Play"
+
+# 
+msgid "Tournament List"
+msgstr "Tournament List"
+
+# 
+msgid "Windows XP or higher"
+msgstr "Windows XP or higher"
+
+# 
+msgid "poker_requirements_windows"
+msgstr "poker_requirements_windows"
+
+# 
+msgid "poker_download_description_windows"
+msgstr "poker_download_description_windows"
+
+# 
+msgid "Mac OS 9 or higher"
+msgstr "Mac OS 9 or higher"
+
+# 
+msgid "poker_requirements_mac"
+msgstr "<b>Minimum systemkrav:</b><br>Mac® OS 9 or higher <br>Intel® Processor<br>300MB available HD space<br>1 GB system RAM<br>Broadband Internet connection<br>1024X720 minimum display resolution"
+
+# 
+msgid "poker_download_description_mac"
+msgstr "<ol><li>Download Application bundle</li><li>Extract Application bundle by double clicking</li><li>Move extracted Application bundle to Programs</li></ol>"
+
+# 
+msgid "Android version 4.0 or higher"
+msgstr "Android version 4.0 or higher"
+
+# 
+msgid "poker_requirements_android"
+msgstr "poker_requirements_android"
+
+# 
+msgid "poker_download_description_android"
+msgstr "poker_download_description_android"
+
+# 
+msgid "Best Promotions"
+msgstr "Best Promotions"
+
+# 
+msgid "Download Windows client"
+msgstr "Ladda ner Windows klienten"
+
+# 
+msgid "desktop"
+msgstr "skrivbord"
+
+# 
+msgid "Download MacOS client"
+msgstr "Ladda ner MacOS klienten"
+
+# 
+msgid "iPhone"
+msgstr "iPhone"
+
+# 
+msgid "Instant Play"
+msgstr "Direktspel"
+
+# 
+msgid "android"
+msgstr "android"
+
+# 
+msgid "Download Linux client"
+msgstr "Ladda ner Linux klienten"
+
+# 
+msgid "linux"
+msgstr "linux"
+
+# 
+msgid "Register"
+msgstr "Registrera"
+
+# 
+msgid "Play"
+msgstr "Spela"
+
+# 
+msgid "loading..."
+msgstr "laddar..."
+
+# 
+msgid "Page not found"
+msgstr "Sida ej hittad"
+
+# 
+msgid "Results Centre"
+msgstr "Results Centre"
+
+# 
+msgid "Sport"
+msgstr "Sport"
+
+# 
+msgid "Region"
+msgstr "Region"
+
+# 
+msgid "Competition"
+msgstr "Competition"
+
+# 
+msgid "Date"
+msgstr "Date"
+
+# 
+msgid "Event"
+msgstr "Event"
+
+# 
+msgid "Score"
+msgstr "Resultat"
+
+# 
+msgid "No Results"
+msgstr "No Results"
+
+# 
+msgid "Today's Resluts"
+msgstr "Today's Resluts"
+
+# 
+msgid "You need to login to access this page."
+msgstr "You need to login to access this page."
+
+# 
+msgid "Recent Bets"
+msgstr "Senaste bet"
+
+# 
+msgid "Bet History"
+msgstr "Bet historik"
+
+# 
+msgid "Casino Bet History"
+msgstr "Casino spel historik"
+
+# 
+msgid "Wallet"
+msgstr "Plånbok"
+
+# 
+msgid "History"
+msgstr "Historik"
+
+# 
+msgid "Renew"
+msgstr "Förnya"
+
+# 
+msgid "Deposit"
+msgstr "Insättning"
+
+# 
+msgid "Withdraw"
+msgstr "Uttag"
+
+# 
+msgid "Sports"
+msgstr "Sport"
+
+# 
+msgid "Casino"
+msgstr "Casino"
+
+# 
+msgid "Upcoming games"
+msgstr "Kommande matcher"
+
+# 
+msgid "News"
+msgstr "Nyheter"
+
+# 
+msgid "Videos"
+msgstr "Videos"
+
+# 
+msgid "Results"
+msgstr "Resultat"
+
+# 
+msgid "Sport center"
+msgstr "Sport center"
+
+# 
+msgid "Calendar"
+msgstr "Kalender"
+
+# 
+msgid "close"
+msgstr "stäng"
+
+# 
+msgid "Input Password"
+msgstr "Ange lösenord"
+
+# 
+msgid "Hello, we'd love to hear your thoughts."
+msgstr "Hejsan, vi vill gärna höra dina tankar."
+
+# 
+msgid "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+msgstr "Om du har några frågor, kommentarer eller förslag, vänligen hör av dig med din feedback i boxen nedantill och klicka &quot;skicka&quot;."
+
+# 
+msgid "Email Address"
+msgstr "Email adress"
+
+# 
+msgid "Enter your email address"
+msgstr "Ange din email adress"
+
+# 
+msgid "Please enter a valid email address"
+msgstr "Vänligen ange en giltig email adress"
+
+# 
+msgid "Your message"
+msgstr "Your message"
+
+# 
+msgid "Send"
+msgstr "Skicka"
+
+# 
+msgid "Your message has been sent."
+msgstr "Ditt meddelande har skickats."
+
+# 
+msgid "Cash-out"
+msgstr "Cash-out"
+
+# 
+msgid "Cash-out done."
+msgstr "Cash-out done."
+
+# 
+msgid "Error occured."
+msgstr "Fel uppstod."
+
+# 
+msgid "Cash-out for selected bet is not available."
+msgstr "Cash-out for selected bet is not available."
+
+# 
+msgid "Pick:"
+msgstr "Val:"
+
+# 
+msgid "Price has changed"
+msgstr "Price has changed"
+
+# 
+msgid "Amount"
+msgstr "Belopp"
+
+# 
+msgid "Ok"
+msgstr "Ok"
+
+# 
+msgid "Cancel"
+msgstr "Cancel"
+
+# 
+msgid "Blitz Survey"
+msgstr "Blitz Survey"
+
+# 
+msgid "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+msgstr "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+
+# 
+msgid "Chinese Poker"
+msgstr "Chinese Poker"
+
+# 
+msgid "Live Casino"
+msgstr "Live Casino"
+
+# 
+msgid "Poker"
+msgstr "Poker"
+
+# 
+msgid "Backgammon"
+msgstr "Backgammon"
+
+# 
+msgid "Belote"
+msgstr "Belote"
+
+# 
+msgid "None of these"
+msgstr "None of these"
+
+# 
+msgid "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+msgstr "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+
+# 
+msgid "Submit"
+msgstr "Submit"
+
+# 
+msgid "Your balance is low"
+msgstr "Ditt saldo är lågt"
+
+# 
+msgid "Renew to get more."
+msgstr "Förnya för att få mer."
+
+# 
+msgid "SuperBet Counter Offer"
+msgstr "SuperBet Counter Offer"
+
+# 
+msgid "Bet Details"
+msgstr "Bet Details"
+
+# 
+msgid "Offer Details"
+msgstr "Offer Details"
+
+# 
+msgid "Odds:"
+msgstr "Odds:"
+
+# 
+msgid "Amount:"
+msgstr "Belopp:"
+
+# 
+msgid "Remaining time:"
+msgstr "Remaining time:"
+
+# 
+msgid "Accept"
+msgstr "Acceptera"
+
+# 
+msgid "Decline"
+msgstr "Decline"
+
+# 
+msgid "competition or a team..."
+msgstr "tävling eller ett lag..."
+
+# 
+msgid "Search a competition or a team..."
+msgstr "Sök en tävling eller ett lag..."
+
+# 
+msgid "Search results"
+msgstr "Sök resultat"
+
+# 
+msgid "no results"
+msgstr "Inga resultat"
+
+# 
+msgid "Search a casino game..."
+msgstr "Sök casino spel"
+
+# 
+msgid "Play now"
+msgstr "Spela nu"
+
+# 
+msgid "brain"
+msgstr "brain"
+
+# 
+msgid "All downloads"
+msgstr "Alla nedladdningar"
+
+# 
+msgid "Windows"
+msgstr "Windows"
+
+# 
+msgid "Mac OS"
+msgstr "Mac OS"
+
+# 
+msgid "Linux"
+msgstr "Linux"
+
+# 
+msgid "Android"
+msgstr "Android"
+
+# 
+msgid "Tell me more"
+msgstr "Tell me more"
+
+# 
+msgid "View on map"
+msgstr "View on map"
+
+# 
+msgid "Contact us"
+msgstr "Contact us"
+
+# 
+msgid "Hide Map"
+msgstr "Hide Map"
+
+# 
+msgid "Winners"
+msgstr "Vinnare"
+
+# 
+msgid "There are no winners yet"
+msgstr "Det finns inga vinnare ännu"
+
+# 
+msgid "No data"
+msgstr "Ingen information"
+
+# 
+msgid "Name"
+msgstr "Namn"
+
+# 
+msgid "ON THE WAY"
+msgstr "PÅ VÄG"
+
+# 
+msgid "TO VICTORY!"
+msgstr "MOR SEGER!"
+
+# 
+msgid "Sign in"
+msgstr "Logga in"
+
+# 
+msgid "Forgot your password?"
+msgstr "Glömt lösenordet?"
+
+# 
+msgid "Join"
+msgstr "Gå med"
+
+# 
+msgid "Bet"
+msgstr "Bet"
+
+# 
+msgid "Win"
+msgstr "Vinn"
+
+# 
+msgid "Print"
+msgstr "Print"
+
+# 
+msgid "Type your new password"
+msgstr "Type your new password"
+
+# 
+msgid "Password"
+msgstr "Lösenord"
+
+# 
+msgid "Please type your new password"
+msgstr "Please type your new password"
+
+# 
+msgid "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "Repeat Password"
+msgstr "Repeat Password"
+
+# 
+msgid "Please type your new password again"
+msgstr "Please type your new password again"
+
+# 
+msgid "Passwords are different"
+msgstr "Passwords are different"
+
+# 
+msgid "Your password has been changed."
+msgstr "Your password has been changed."
+
+# 
+msgid "Password reset failed."
+msgstr "Lösenordsåterställningen misslyckades."
+
+# 
+msgid "Username or email invalid"
+msgstr "Användarnamn eller email är ogiltigt"
+
+# 
+msgid "Draw number"
+msgstr "Dragningsnummer"
+
+# 
+msgid "End date"
+msgstr "Slutdatum"
+
+# 
+msgid "State"
+msgstr "Tillstånd"
+
+# 
+msgid "Jackpot"
+msgstr "Jackpott"
+
+# 
+msgid "Pool"
+msgstr "Pott"
+
+# 
+msgid "Prize fund"
+msgstr "Prispott"
+
+# 
+msgid "Tickets / Variants"
+msgstr "Biljetter / Varianter"
+
+# 
+msgid "Current Draw"
+msgstr "Nuvarande dragning"
+
+# 
+msgid "Draw"
+msgstr "Dragning"
+
+# 
+msgid "Result"
+msgstr "Resultat"
+
+# 
+msgid "Bookmakers probability / bets amount (in %)"
+msgstr "Spelbolag sannolikhet / bet belopp (i %)"
+
+# 
+msgid "min."
+msgstr "min."
+
+# 
+msgid "Tickets"
+msgstr "Biljetter"
+
+# 
+msgid "Variants"
+msgstr "Varianter"
+
+# 
+msgid "Winners (var.)"
+msgstr "Vinnare (var.)"
+
+# 
+msgid "Win sum"
+msgstr "Vinst belopp"
+
+# 
+msgid "Win coef"
+msgstr "Vinst koef"
+
+# 
+msgid "All draws"
+msgstr "Alla dragningar"
+
+# 
+msgid "All bets"
+msgstr "Alla bets"
+
+# 
+msgid "You need to confirm the agreements."
+msgstr "Du måste bekräfta villkoren."
+
+# 
+msgid "I agree to all"
+msgstr "Jag godkänner allt"
+
+# 
+msgid "Terms & Conditions"
+msgstr "Regler och villkor"
+
+# 
+msgid "You can read our Terms and Conditions by clicking corresponding links in page footer."
+msgstr "Du kan läsa våra regler och villkor genom att klicka länken längst ner på vår sida."
+
+# 
+msgid "and I am over 18 years of age and have read and accepted the general terms and conditions."
+msgstr "och jag är över 18 år gammal, och har läst och accepterat regler och villkor."
+
+# 
+msgid "and I am over 21 years of age and have read and accepted the general terms and conditions."
+msgstr "och jag är över 21 år gammal, och har läst och accepterat regler och villkor."
+
+# 
+msgid "Registration complete."
+msgstr "Registreringen färdig."
+
+# 
+msgid "Please check your email."
+msgstr "Vänligen kolla din email."
+
+# 
+msgid "Registration failed due to technical error."
+msgstr "Registreringen misslyckades pga tekniska problem."
+
+# 
+msgid "Please try again later."
+msgstr "Vänligen försök igen senare."
+
+# 
+msgid "Australia"
+msgstr "Australia"
+
+# 
+msgid "Andorra"
+msgstr "Andorra"
+
+# 
+msgid "UAE"
+msgstr "UAE"
+
+# 
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+# 
+msgid "Antigua and Barbuda"
+msgstr "Antigua and Barbuda"
+
+# 
+msgid "Albania"
+msgstr "Albania"
+
+# 
+msgid "Armenia"
+msgstr "Armenia"
+
+# 
+msgid "Angola"
+msgstr "Angola"
+
+# 
+msgid "Argentina"
+msgstr "Argentina"
+
+# 
+msgid "American Samoa"
+msgstr "American Samoa"
+
+# 
+msgid "Austria"
+msgstr "Austria"
+
+# 
+msgid "Aruba"
+msgstr "Aruba"
+
+# 
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+# 
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina"
+
+# 
+msgid "Barbados"
+msgstr "Barbados"
+
+# 
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+# 
+msgid "Belgium"
+msgstr "Belgium"
+
+# 
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+# 
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+# 
+msgid "Bahrain"
+msgstr "Bahrain"
+
+# 
+msgid "Burundi"
+msgstr "Burundi"
+
+# 
+msgid "Benin"
+msgstr "Benin"
+
+# 
+msgid "Bermuda"
+msgstr "Bermuda"
+
+# 
+msgid "Brunei"
+msgstr "Brunei"
+
+# 
+msgid "Bolivia"
+msgstr "Bolivia"
+
+# 
+msgid "Brazil"
+msgstr "Brazil"
+
+# 
+msgid "Bahamas"
+msgstr "Bahamas"
+
+# 
+msgid "Bhutan"
+msgstr "Bhutan"
+
+# 
+msgid "Botswana"
+msgstr "Botswana"
+
+# 
+msgid "Belarus"
+msgstr "Belarus"
+
+# 
+msgid "Belize"
+msgstr "Belize"
+
+# 
+msgid "Canada"
+msgstr "Canada"
+
+# 
+msgid "Democratic Republic of the Congo"
+msgstr "Democratic Republic of the Congo"
+
+# 
+msgid "Central African Republic"
+msgstr "Central African Republic"
+
+# 
+msgid "Republic of the Congo"
+msgstr "Republic of the Congo"
+
+# 
+msgid "Switzerland"
+msgstr "Switzerland"
+
+# 
+msgid "Cote d'Ivoire"
+msgstr "Cote d'Ivoire"
+
+# 
+msgid "Cook Islands"
+msgstr "Cook Islands"
+
+# 
+msgid "Chile"
+msgstr "Chile"
+
+# 
+msgid "Cameroon"
+msgstr "Cameroon"
+
+# 
+msgid "China"
+msgstr "China"
+
+# 
+msgid "Colombia"
+msgstr "Colombia"
+
+# 
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+# 
+msgid "Cuba"
+msgstr "Cuba"
+
+# 
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+# 
+msgid "Cyprus"
+msgstr "Cyprus"
+
+# 
+msgid "Czech Republic"
+msgstr "Czech Republic"
+
+# 
+msgid "Germany"
+msgstr "Germany"
+
+# 
+msgid "Djibouti"
+msgstr "Djibouti"
+
+# 
+msgid "Denmark"
+msgstr "Denmark"
+
+# 
+msgid "Dominica"
+msgstr "Dominica"
+
+# 
+msgid "Dominican Republic"
+msgstr "Dominican Republic"
+
+# 
+msgid "Algeria"
+msgstr "Algeria"
+
+# 
+msgid "Ecuador"
+msgstr "Ecuador"
+
+# 
+msgid "Estonia"
+msgstr "Estonia"
+
+# 
+msgid "Egypt"
+msgstr "Egypt"
+
+# 
+msgid "Eritrea"
+msgstr "Eritrea"
+
+# 
+msgid "Spain"
+msgstr "Spain"
+
+# 
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+# 
+msgid "Finland"
+msgstr "Finland"
+
+# 
+msgid "Fiji"
+msgstr "Fiji"
+
+# 
+msgid "Federated States of Micronesia"
+msgstr "Federated States of Micronesia"
+
+# 
+msgid "Faroe Islands"
+msgstr "Faroe Islands"
+
+# 
+msgid "France"
+msgstr "France"
+
+# 
+msgid "Gabon"
+msgstr "Gabon"
+
+# 
+msgid "Great Britain"
+msgstr "Great Britain"
+
+# 
+msgid "Grenada"
+msgstr "Grenada"
+
+# 
+msgid "Georgia"
+msgstr "Georgia"
+
+# 
+msgid "Ghana"
+msgstr "Ghana"
+
+# 
+msgid "Gambia"
+msgstr "Gambia"
+
+# 
+msgid "Guinea"
+msgstr "Guinea"
+
+# 
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+# 
+msgid "Greece"
+msgstr "Greece"
+
+# 
+msgid "Guatemala"
+msgstr "Guatemala"
+
+# 
+msgid "Guam"
+msgstr "Guam"
+
+# 
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+# 
+msgid "Guyana"
+msgstr "Guyana"
+
+# 
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+# 
+msgid "Honduras"
+msgstr "Honduras"
+
+# 
+msgid "Croatia"
+msgstr "Croatia"
+
+# 
+msgid "Republic of Haiti"
+msgstr "Republic of Haiti"
+
+# 
+msgid "Hungary"
+msgstr "Hungary"
+
+# 
+msgid "Indonesia"
+msgstr "Indonesia"
+
+# 
+msgid "Ireland"
+msgstr "Ireland"
+
+# 
+msgid "Israel"
+msgstr "Israel"
+
+# 
+msgid "India"
+msgstr "India"
+
+# 
+msgid "Iraq"
+msgstr "Iraq"
+
+# 
+msgid "Iran"
+msgstr "Iran"
+
+# 
+msgid "Iceland"
+msgstr "Iceland"
+
+# 
+msgid "Italy"
+msgstr "Italy"
+
+# 
+msgid "Jamaica"
+msgstr "Jamaica"
+
+# 
+msgid "Jordan"
+msgstr "Jordan"
+
+# 
+msgid "Japan"
+msgstr "Japan"
+
+# 
+msgid "Kenya"
+msgstr "Kenya"
+
+# 
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+# 
+msgid "Cambodia"
+msgstr "Cambodia"
+
+# 
+msgid "Kiribati"
+msgstr "Kiribati"
+
+# 
+msgid "Comoros"
+msgstr "Comoros"
+
+# 
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis"
+
+# 
+msgid "DPRK"
+msgstr "DPRK"
+
+# 
+msgid "South Korea"
+msgstr "South Korea"
+
+# 
+msgid "Kuwait"
+msgstr "Kuwait"
+
+# 
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+# 
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+# 
+msgid "Laos"
+msgstr "Laos"
+
+# 
+msgid "Lebanon"
+msgstr "Lebanon"
+
+# 
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+# 
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+# 
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+# 
+msgid "Liberia"
+msgstr "Liberia"
+
+# 
+msgid "Lesotho"
+msgstr "Lesotho"
+
+# 
+msgid "Lithuania"
+msgstr "Lithuania"
+
+# 
+msgid "Luxemburg"
+msgstr "Luxemburg"
+
+# 
+msgid "Latvia"
+msgstr "Latvia"
+
+# 
+msgid "Libya"
+msgstr "Libya"
+
+# 
+msgid "Morocco"
+msgstr "Morocco"
+
+# 
+msgid "Monaco"
+msgstr "Monaco"
+
+# 
+msgid "Moldavia"
+msgstr "Moldavia"
+
+# 
+msgid "Montenegro"
+msgstr "Montenegro"
+
+# 
+msgid "Madagascar"
+msgstr "Madagascar"
+
+# 
+msgid "Macedonia"
+msgstr "Macedonia"
+
+# 
+msgid "Mali"
+msgstr "Mali"
+
+# 
+msgid "Myanmar"
+msgstr "Myanmar"
+
+# 
+msgid "Mongolia"
+msgstr "Mongolia"
+
+# 
+msgid "Mauritania"
+msgstr "Mauritania"
+
+# 
+msgid "Malta"
+msgstr "Malta"
+
+# 
+msgid "Mauritius"
+msgstr "Mauritius"
+
+# 
+msgid "Maldives"
+msgstr "Maldives"
+
+# 
+msgid "Malawi"
+msgstr "Malawi"
+
+# 
+msgid "Mexico"
+msgstr "Mexico"
+
+# 
+msgid "Malaysia"
+msgstr "Malaysia"
+
+# 
+msgid "Mozambique"
+msgstr "Mozambique"
+
+# 
+msgid "Namibia"
+msgstr "Namibia"
+
+# 
+msgid "Niger"
+msgstr "Niger"
+
+# 
+msgid "Nigeria"
+msgstr "Nigeria"
+
+# 
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+# 
+msgid "Netherlands"
+msgstr "Netherlands"
+
+# 
+msgid "Norway"
+msgstr "Norway"
+
+# 
+msgid "Nepal"
+msgstr "Nepal"
+
+# 
+msgid "Nauru"
+msgstr "Nauru"
+
+# 
+msgid "New Zealand"
+msgstr "New Zealand"
+
+# 
+msgid "Oman"
+msgstr "Oman"
+
+# 
+msgid "Panama"
+msgstr "Panama"
+
+# 
+msgid "Peru"
+msgstr "Peru"
+
+# 
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+# 
+msgid "Philippines"
+msgstr "Philippines"
+
+# 
+msgid "Pakistan"
+msgstr "Pakistan"
+
+# 
+msgid "Poland"
+msgstr "Poland"
+
+# 
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+# 
+msgid "Palestine"
+msgstr "Palestine"
+
+# 
+msgid "Portugal"
+msgstr "Portugal"
+
+# 
+msgid "Palau"
+msgstr "Palau"
+
+# 
+msgid "Paraguay"
+msgstr "Paraguay"
+
+# 
+msgid "Qatar"
+msgstr "Qatar"
+
+# 
+msgid "Romania"
+msgstr "Romania"
+
+# 
+msgid "Serbia"
+msgstr "Serbia"
+
+# 
+msgid "Russia"
+msgstr "Russia"
+
+# 
+msgid "Rwanda"
+msgstr "Rwanda"
+
+# 
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+# 
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+# 
+msgid "Seychelles"
+msgstr "Seychelles"
+
+# 
+msgid "Sudan"
+msgstr "Sudan"
+
+# 
+msgid "Sweden"
+msgstr "Sweden"
+
+# 
+msgid "Singapore"
+msgstr "Singapore"
+
+# 
+msgid "Slovenia"
+msgstr "Slovenia"
+
+# 
+msgid "Slovakia"
+msgstr "Slovakia"
+
+# 
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+# 
+msgid "San Marino"
+msgstr "San Marino"
+
+# 
+msgid "Senegal"
+msgstr "Senegal"
+
+# 
+msgid "Somalia"
+msgstr "Somalia"
+
+# 
+msgid "Republic of Suriname"
+msgstr "Republic of Suriname"
+
+# 
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome and Principe"
+
+# 
+msgid "Salvador"
+msgstr "Salvador"
+
+# 
+msgid "Syria"
+msgstr "Syria"
+
+# 
+msgid "Swaziland"
+msgstr "Swaziland"
+
+# 
+msgid "Chad"
+msgstr "Chad"
+
+# 
+msgid "Togo"
+msgstr "Togo"
+
+# 
+msgid "Thailand"
+msgstr "Thailand"
+
+# 
+msgid "Tadjikistan"
+msgstr "Tadjikistan"
+
+# 
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+# 
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+# 
+msgid "Tunisia"
+msgstr "Tunisia"
+
+# 
+msgid "Tonga"
+msgstr "Tonga"
+
+# 
+msgid "Turkey"
+msgstr "Turkey"
+
+# 
+msgid "Trinidad and Tobago"
+msgstr "Trinidad and Tobago"
+
+# 
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+# 
+msgid "Taiwan"
+msgstr "Taiwan"
+
+# 
+msgid "Tanzania"
+msgstr "Tanzania"
+
+# 
+msgid "Ukraine"
+msgstr "Ukraine"
+
+# 
+msgid "Uganda"
+msgstr "Uganda"
+
+# 
+msgid "United States"
+msgstr "United States"
+
+# 
+msgid "Uruguay"
+msgstr "Uruguay"
+
+# 
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+# 
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent and the Grenadines"
+
+# 
+msgid "Venezuela"
+msgstr "Venezuela"
+
+# 
+msgid "British Virgin Islands"
+msgstr "British Virgin Islands"
+
+# 
+msgid "United States Virgin Islands"
+msgstr "United States Virgin Islands"
+
+# 
+msgid "Vietnam"
+msgstr "Vietnam"
+
+# 
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+# 
+msgid "Samoa"
+msgstr "Samoa"
+
+# 
+msgid "Yemen"
+msgstr "Yemen"
+
+# 
+msgid "Republic of South Africa"
+msgstr "Republic of South Africa"
+
+# 
+msgid "Zambia"
+msgstr "Zambia"
+
+# 
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+# 
+msgid "Contact Support"
+msgstr "Kontakta kundsupport"
+
+# 
+msgid "Live Chat"
+msgstr "Live-chatt"
+
+# 
+msgid "Live Agent"
+msgstr "Live Agent"
+
+# 
+msgid "Login with Facebook"
+msgstr "Logga in med Facebook"
+
+# 
+msgid "Sign in with Odnoklassniki"
+msgstr "Logga in med Odnoklassniki"
+
+# 
+msgid "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+msgstr "Om du vill kunna logga in med ditt Facebook-konto måste du först registrera dig med ett Facebook-konto."
+
+# 
+msgid "If you want to be able to login with your Odnoklassniki account you need to first Sign up with Odnoklassniki account."
+msgstr "Om du vill kunna logga in med ditt Odnoklassniki -konto måste du först registrera dig med ett Odnoklassniki -konto."
+
+# 
+msgid "Username"
+msgstr "Användarnamn"
+
+# 
+msgid "Your login"
+msgstr "Ditt login"
+
+# 
+msgid "Enter your password"
+msgstr "Ange ditt lösenord"
+
+# 
+msgid "SMS verification code"
+msgstr "SMS verifikationskod"
+
+# 
+msgid "Enter verification code"
+msgstr "Ange verifikationskoden"
+
+# 
+msgid "Invalid username or password."
+msgstr "Ogiltigt användarnamn eller lösenord."
+
+# 
+msgid "Create an account"
+msgstr "Skapa konto"
+
+# 
+msgid "Time Period"
+msgstr "Tidsperiod"
+
+# 
+msgid "All Casino Transactions"
+msgstr "Alla casino transaktioner"
+
+# 
+msgid "id: "
+msgstr "id: "
+
+# 
+msgid "next"
+msgstr "nästa"
+
+# 
+msgid "prev"
+msgstr "föreg"
+
+# 
+msgid "Deposit to main wallet"
+msgstr "Insättning till huvudkontot"
+
+# 
+msgid "Select a payment method"
+msgstr "Välj en betalningsmetod"
+
+# 
+msgid "Please confirm money transfer"
+msgstr "Vänligen bekräfta överföringen"
+
+# 
+msgid "Amount: "
+msgstr "Belopp: "
+
+# 
+msgid "Status:"
+msgstr "Status:"
+
+# 
+msgid "Unknown"
+msgstr "Okänd"
+
+# 
+msgid "Success"
+msgstr "Lyckad"
+
+# 
+msgid "Pending"
+msgstr "Avvaktar"
+
+# 
+msgid "Failure"
+msgstr "Misslyckat"
+
+# 
+msgid "Deposit Amount"
+msgstr "Insättningsbelopp"
+
+# 
+msgid "Payment complete"
+msgstr "Betalning färdig"
+
+# 
+msgid "enter amount here"
+msgstr "Ange belopp här"
+
+# 
+msgid "Status"
+msgstr "Status"
+
+# 
+msgid "Withdraw from main wallet"
+msgstr "Uttag från huvudkontot"
+
+# 
+msgid "Select withdraw method"
+msgstr "Select withdraw method"
+
+# 
+msgid "User ID"
+msgstr "Användar ID"
+
+# 
+msgid "Withdraw Amount"
+msgstr "Uttagsbelopp"
+
+# 
+msgid "available:"
+msgstr "Tillgängligt:"
+
+# 
+msgid "Please, upload your passport scan or passport photo to ease your further withdrawals."
+msgstr "Vänligen ladda upp en kopia av ditt pass för att förenkla framtida uttag."
+
+# 
+msgid "Verify Account"
+msgstr "Verifiera konto"
+
+# 
+msgid "Payment Method"
+msgstr "Betalningsmetod"
+
+# 
+msgid "Time"
+msgstr "Tid"
+
+# 
+msgid "Your currency is"
+msgstr "Din valuta är"
+
+# 
+msgid "Balance"
+msgstr "Saldo"
+
+# 
+msgid "Total"
+msgstr "Totalt"
+
+# 
+msgid "Main"
+msgstr "Huvud"
+
+# 
+msgid "If your balance less, top up your balance now."
+msgstr "Om pengar på saldot är otillräckliga, fyll på saldot nu."
+
+# 
+msgid "From"
+msgstr "Från"
+
+# 
+msgid "To"
+msgstr "Till"
+
+# 
+msgid "Max"
+msgstr "Max"
+
+# 
+msgid "Wait..."
+msgstr "Vänta..."
+
+# 
+msgid "Bonus"
+msgstr "Bonus"
+
+# 
+msgid "Pool Betting"
+msgstr "Kupongtips"
+
+# 
+msgid "Use points to win"
+msgstr "Use points to win"
+
+# 
+msgid "Use Points"
+msgstr "Use Points"
+
+# 
+msgid "Points left"
+msgstr "Points left"
+
+# 
+msgid "To win iphone 6"
+msgstr "To win iphone 6"
+
+# 
+msgid "Play games"
+msgstr "Play games"
+
+# 
+msgid "Go to shop"
+msgstr "Go to shop"
+
+# 
+msgid "Main Bonus"
+msgstr "Main Bonus"
+
+# 
+msgid "Casino Bonus"
+msgstr "Casino Bonus"
+
+# 
+msgid "Transactions"
+msgstr "Transaktioner"
+
+# 
+msgid "All Transactions"
+msgstr "Alla transaktioner"
+
+# 
+msgid "Categories"
+msgstr "Kategorier"
+
+# 
+msgid "Financials"
+msgstr "Finans"
+
+# 
+msgid "Fantasy Sports"
+msgstr "Fantasy sports"
+
+# 
+msgid "Ogwil"
+msgstr "Ogwil"
+
+# 
+msgid "Live games"
+msgstr "Live spel"
+
+# 
+msgid "All games"
+msgstr "Alla spel"
+
+# 
+msgid "Roulette"
+msgstr "Roulette"
+
+# 
+msgid "BlackJack"
+msgstr "BlackJack"
+
+# 
+msgid "Bet on Poker"
+msgstr "Bet on Poker"
+
+# 
+msgid "Baccarat"
+msgstr "Baccarat"
+
+# 
+msgid "Please try later or contact support."
+msgstr "Vänligen försök igen senare eller kontakta kundsupporten."
+
+# 
+msgid "All Bets"
+msgstr "Alla bets"
+
+# 
+msgid "unsettled"
+msgstr "Ej fastställd"
+
+# 
+msgid "lost"
+msgstr "Förlorad"
+
+# 
+msgid "returned"
+msgstr "Returnerad"
+
+# 
+msgid "Won"
+msgstr "Vunnen"
+
+# 
+msgid "Set"
+msgstr "Ställ in"
+
+# 
+msgid "Prize"
+msgstr "Vinst"
+
+# 
+msgid "Distance"
+msgstr "Distans"
+
+# 
+msgid "Surface"
+msgstr "Yta"
+
+# 
+msgid "Game start:"
+msgstr "Spel start:"
+
+# 
+msgid "You don't have favourite games. To add some, click the star icon near the game name."
+msgstr "Du har inte några favoritspel. För att lägga till favoriter, klicka på stjärn-ikonen nära spelets namn."
+
+# 
+msgid "Bet Type"
+msgstr "Betting typ"
+
+# 
+msgid "All"
+msgstr "Alla"
+
+# 
+msgid "Single"
+msgstr "Singel"
+
+# 
+msgid "express"
+msgstr "Multipel"
+
+# 
+msgid "system"
+msgstr "System"
+
+# 
+msgid "chain"
+msgstr "Kedja"
+
+# 
+msgid "Outcome"
+msgstr "Utfall"
+
+# 
+msgid "Unsettled"
+msgstr "Ej fastställd"
+
+# 
+msgid "Lost"
+msgstr "Förlorad"
+
+# 
+msgid "Returned"
+msgstr "Returnerad"
+
+# 
+msgid "Cashed out"
+msgstr "Cashed out"
+
+# 
+msgid "Pick"
+msgstr "Val"
+
+# 
+msgid "Bet placed from bonus."
+msgstr "Bet satta från bonus."
+
+# 
+msgid "On Hold"
+msgstr "Placerad i kö"
+
+# 
+msgid "Declined"
+msgstr "Declined"
+
+# 
+msgid "Sign up with Odnoklassniki"
+msgstr "Öppna konto med Odnoklassniki"
+
+# 
+msgid "Sign up with Facebook"
+msgstr "Öppna konto med Facebook"
+
+# 
+msgid "User details:"
+msgstr "Användar detaljer:"
+
+# 
+msgid "Enter here"
+msgstr "Ange här"
+
+# 
+msgid "This field is required"
+msgstr "Detta fält krävs"
+
+# 
+msgid "This email already exists in our database, please enter another"
+msgstr "Denna email finns redan i vår databas, vänligen ange en annan"
+
+# 
+msgid "First"
+msgstr "Förnamn"
+
+# 
+msgid "Please enter a valid first name"
+msgstr "Vänligen ange ditt förnamn"
+
+# 
+msgid "Last"
+msgstr "Efternamn"
+
+# 
+msgid "Please enter a valid last name"
+msgstr "Vänligen ange ditt efternamn"
+
+# 
+msgid "Gender"
+msgstr "Kön"
+
+# 
+msgid "Male"
+msgstr "Man"
+
+# 
+msgid "Female"
+msgstr "Kvinna"
+
+# 
+msgid "Passport Number"
+msgstr "Passnummer"
+
+# 
+msgid "Passport Number is already registered for another account"
+msgstr "Passnumret är redan registrerat för ett annat konto"
+
+# 
+msgid "Contact number"
+msgstr "Kontaktnummer"
+
+# 
+msgid "Number"
+msgstr "Nummer"
+
+# 
+msgid "Invalid phone number"
+msgstr "Ogiltigt telefonnummer"
+
+# 
+msgid "Duplicate phone number"
+msgstr "Telefonnumret finns redan"
+
+# 
+msgid "Verify phone number by sms"
+msgstr "Verifiera telefonnumret via SMS"
+
+# 
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "Planerar du att logga in med användarnamn / lösenord också?"
+
+# 
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+msgstr "Om du inte planerar att logga in via sociala nätverk i framtiden måste du ange användarnamn / lösenord, annars kommer det att genereras automatiskt för dig och du kommer att få det via email. Du behöver inte använda ditt användarnamn / lösenord om du planerar att använda sociala nätverk för att logga in varje gång."
+
+# 
+msgid "Some games will still require you to sign in using username/password."
+msgstr "Vissa spel kommer fortfarande kräva inloggning med användarnamn / lösenord."
+
+# 
+msgid "Sorry, this username has been used already"
+msgstr "Detta användarnamn används tyvärr redan"
+
+# 
+msgid "Password cannot be same as login"
+msgstr "Lösenord kan inte vara samma som användarnamnet"
+
+# 
+msgid "Must be at least 6 characters"
+msgstr "Måste innehålla minst 6 karaktärer"
+
+# 
+msgid "Repeat password"
+msgstr "Upprepa lösenord"
+
+# 
+msgid "passwords don't match"
+msgstr "Lösenord matchar ej"
+
+# 
+msgid "Start playing now."
+msgstr "Börja spela nu."
+
+# 
+msgid "You have"
+msgstr "Du har"
+
+# 
+msgid "Reset password"
+msgstr "Återställ lösenord"
+
+# 
+msgid "Enter your username"
+msgstr "Ange ditt användarnamn"
+
+# 
+msgid "Please enter a valid username"
+msgstr "Vänligen ange ett giltigt användarnamn"
+
+# 
+msgid "Password reset complete."
+msgstr "Lösenordsåterställning färdigt."
+
+# 
+msgid "Express"
+msgstr "Multipel"
+
+# 
+msgid "System"
+msgstr "System"
+
+# 
+msgid "Chain"
+msgstr "Kedja"
+
+# 
+msgid "UNSETTLED"
+msgstr "EJ FASTSTÄLLD"
+
+# 
+msgid "UNSETTLED "
+msgstr "EJ FASTSTÄLLD"
+
+# 
+msgid "Won:"
+msgstr "Vinst:"
+
+# 
+msgid "Potential win:"
+msgstr "Potentiell vinst:"
+
+# 
+msgid "Settings"
+msgstr "Inställningar"
+
+# 
+msgid "Personal Details"
+msgstr "Personliga detaljer"
+
+# 
+msgid "Change Password"
+msgstr "Byt lösenord"
+
+# 
+msgid "Self-Exclusion"
+msgstr "Själv-avstängning"
+
+# 
+msgid "Deposit Limits"
+msgstr "Insättningsgränser"
+
+# 
+msgid "Preferences"
+msgstr "Preferenser"
+
+# 
+msgid "Change language"
+msgstr "Ändra språk"
+
+# 
+msgid "Odds in"
+msgstr "Odds typ"
+
+# 
+msgid "Decimal"
+msgstr "Decimal odds"
+
+# 
+msgid "Fractional"
+msgstr "Bråk odds"
+
+# 
+msgid "American"
+msgstr "Amerikanska odds"
+
+# 
+msgid "Save"
+msgstr "Spara"
+
+# 
+msgid "Current Password"
+msgstr "Nuvarande lösenord"
+
+# 
+msgid "Password incorrect"
+msgstr "Lösenord ej korrekt"
+
+# 
+msgid "New Password"
+msgstr "Nytt lösenord"
+
+# 
+msgid "Must be at least 8 characters"
+msgstr "Måste vara minst 8 karaktärer"
+
+# 
+msgid "Password must contain uppercase letters, lowercase letters and numbers."
+msgstr "Password must contain uppercase letters, lowercase letters and numbers."
+
+# 
+msgid "Confirm New Password"
+msgstr "Bekräfta nytt lösenord"
+
+# 
+msgid "Confirm password"
+msgstr "Bekräfta lösenord"
+
+# 
+msgid "Passwords don't match"
+msgstr "Lösenord matchar ej"
+
+# 
+msgid "First Name"
+msgstr "Förnamn"
+
+#
+msgid "First name"
+msgstr "Förnamn"
+
+# 
+msgid "Last Name"
+msgstr "Efternamn"
+
+#
+msgid "Last name"
+msgstr "Efternamn"
+
+# 
+msgid "Birth date"
+msgstr "Födelsedag"
+
+# 
+msgid "Email"
+msgstr "Email"
+
+# 
+msgid "Country"
+msgstr "Land"
+
+# 
+msgid "City"
+msgstr "Stad"
+
+# 
+msgid "Address"
+msgstr "Adress"
+
+# 
+msgid "E-mail"
+msgstr "Email"
+
+# 
+msgid "message_1119"
+msgstr "Email finns redan"
+
+# 
+msgid "Deposit limits allow you to limit the amount of funds you can deposit into the account. The amount can be chosen over a daily, weekly or monthly period. The deposit limit will allow you to restrict the amount of money entering your account, before betting takes place."
+msgstr "Insättningsgränser tillåter dig att begränsa det belopp du kan sätta in på kontot. Beloppet kan väljas över en daglig, veckovis eller månadsvis period. Insättningsgränsen gör att du kan begränsa hur mycket pengar du kan sätta in på ditt konto, innan spelade sker."
+
+# 
+msgid "Enter amount"
+msgstr "Ange belopp"
+
+# 
+msgid "Day"
+msgstr "Dag"
+
+# 
+msgid "Week"
+msgstr "Vecka"
+
+# 
+msgid "Month"
+msgstr "Månad"
+
+# 
+msgid "Please note that you'll be able to increase your limits only after seven days from your 1st request."
+msgstr "Please note that you'll be able to increase your limits only after seven days from your 1st request."
+
+# 
+msgid "You can exclude online for a minimum period of six months, once the six months has expired your account will be reactivated again."
+msgstr "Du kan själv stänga ner ditt konto under en period på minst sex månader, efter sex månader kommer ditt konto att aktiveras igen."
+
+# 
+msgid "Please note that you'll be able to decrease the self-exclusion period only after seven days from your 1st request."
+msgstr "Please note that you'll be able to decrease the self-exclusion period only after seven days from your 1st request."
+
+# 
+msgid "Self exclusion of six month period"
+msgstr "Själv-avstängning 6 månader"
+
+# 
+msgid "Self exclusion of a one year period"
+msgstr "Själv-avstängning 12 månader"
+
+# 
+msgid "Messages"
+msgstr "Meddelanden"
+
+# 
+msgid "Inbox"
+msgstr "Inkorg"
+
+# 
+msgid "Sent messages"
+msgstr "Skickade meddelanden"
+
+# 
+msgid "New message"
+msgstr "Nytt meddelande"
+
+# 
+msgid "Subject"
+msgstr "Ärende"
+
+# 
+msgid "Message"
+msgstr "Meddelande"
+
+# 
+msgid "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "Pool:"
+msgstr "Pott:"
+
+# 
+msgid "Rules"
+msgstr "Regler"
+
+# 
+msgid "W1"
+msgstr "W1"
+
+# 
+msgid "W2"
+msgstr "W2"
+
+# 
+msgid "Options:"
+msgstr "Alternativ:"
+
+# 
+msgid "Minimal Bet Amount:"
+msgstr "Minsta betting belopp:"
+
+# 
+msgid "0"
+msgstr "0"
+
+# 
+msgid "Random Choice"
+msgstr "Slumpmässigt väl"
+
+# 
+msgid "Favourite Choice"
+msgstr "Favorit val"
+
+# 
+msgid "Place bets!"
+msgstr "Placera spel!"
+
+# 
+msgid "To place your bet, please"
+msgstr "För att placera spelet, vänligen"
+
+# 
+msgid "sign in"
+msgstr "logga in"
+
+# 
+msgid "or"
+msgstr "eller"
+
+# 
+msgid "register"
+msgstr "registrera"
+
+# 
+msgid "Free Bet"
+msgstr "Gratis frågesport"
+
+# 
+msgid "freebet_info"
+msgstr "Vivaro betting företag erbjuder sina kunder gratis frågesport. <br /> Kunder kommer att erbjudas tre typer av express, som innehåller 6, 8 eller 10 events. Om kunden gissar rätt 6 av 6 events kommer vinstbeloppet vara 120 kr, 8 av 8 events ger utbetalning på 250 kr , och om du gissar 10 av 10 events är utbetalningen 350 kr (notera att vinst utbetalningen i SEK (kr) är ungefärligt belopp då valutakurs spelar in. Vinstbeloppet kommer att överföras till kundens&rsquo;s konto inom fem dagar efter det att alla events som ingår i alla 3 express satsningar <br /> Om det finns events som inte har ägt rum i denna variant av express så förloras frågesporten. <br /> Varje kund kan göra en express insats på varje variant endast en gång dagligen."
+
+# 
+msgid "backgammon_requirements_windows"
+msgstr "backgammon_requirements_windows"
+
+# 
+msgid "backgammon_download_description_windows"
+msgstr "backgammon_download_description_windows"
+
+# 
+msgid "Use your"
+msgstr "Use your"
+
+# 
+msgid "skills"
+msgstr "skills"
+
+# 
+msgid "100%"
+msgstr "100%"
+
+# 
+msgid "MORE!"
+msgstr "MER!"
+
+# 
+msgid "Register Now"
+msgstr "Registrera nu"
+
+# 
+msgid "know more..."
+msgstr "Vet mer..."
+
+# 
+msgid "Get more"
+msgstr "Få mer"
+
+# 
+msgid "Read More"
+msgstr "Read More"
+
+# 
+msgid "Share"
+msgstr "Dela"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome   "
+msgstr "Din webbläsare stöder ej filuppladdning, Vänligen uppdatera webbläsaren eller använd Google Chrome   "
+
+# 
+msgid "Your file successfully uploaded "
+msgstr "Filuppladdningen lyckades"
+
+# 
+msgid " There was an error during file upload, please try again. "
+msgstr " Problem uppstod med filuppladdningen, vänligen försök igen. "
+
+# 
+msgid "Loading"
+msgstr "Laddar"
+
+# 
+msgid "Current Rank"
+msgstr "Nuvarande ranking"
+
+# 
+msgid "ID"
+msgstr "ID"
+
+# 
+msgid "Previous Rank"
+msgstr "Föregående ranking"
+
+# 
+msgid "Currency"
+msgstr "Valuta"
+
+# 
+msgid "Fee"
+msgstr "Avgift"
+
+# 
+msgid "Process Time"
+msgstr "Processtid"
+
+# 
+msgid "Min"
+msgstr "Min"
+
+# 
+msgid "Info"
+msgstr "Info"
+
+# 
+msgid "Free"
+msgstr "Gratis"
+
+# 
+msgid "Instant"
+msgstr "Direkt"
+
+# 
+msgid "Additional information"
+msgstr "Ytterligare information"
+
+# 
+msgid "DAILY COUPON"
+msgstr "DAILY COUPON"
+
+# 
+msgid "Pick: "
+msgstr "Pick: "
+
+# 
+msgid "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+msgstr "Detta bokningsnummer bestämmer ej de slutliga oddset på kupongen utan endast de exakta valen av satsningen. Oddsen för kupongen kan ständigt förändras och kan bara bekräftas av kassören efter det slutliga godkännandet av insatsen."
+
+# 
+msgid "This week's winners"
+msgstr "Denna veckas vinnare"
+
+# 
+msgid "My tickets"
+msgstr "Mina biljetter"
+
+# 
+msgid "You have no tickets"
+msgstr "Du har inga biljetter"
+
+# 
+msgid "Live Casino Page is currently closed for"
+msgstr "Live casino sidan är för nuvarande stäng pga"
+
+# 
+msgid "maintenance."
+msgstr "underhåll."
+
+# 
+msgid "We will be back soon with more and better features. Thank you for your patience."
+msgstr "Vi är snart tillbaka med fler och bättre funktioner. Tack för ditt tålamod."
+
+# 
+msgid "Click here to see other games."
+msgstr "Klicka här för att se andra spel."
+
+# 
+msgid "Offline"
+msgstr "Offline"
+
+# 
+msgid "Every Week JACKPOT 500.000$"
+msgstr "Every Week JACKPOT 500.000$"
+
+# 
+msgid "Show more"
+msgstr "Show more"
+
+# 
+msgid "Live Keno"
+msgstr "Live keno"
+
+# 
+msgid "Live Draw 6 of 49"
+msgstr "Live dragning 6 av 49"
+
+# 
+msgid "Quarter"
+msgstr "Quarter"
+
+# 
+msgid "Video not available yet"
+msgstr "Video not available yet"
+
+# 
+msgid "You need to be logged in to be able to play video."
+msgstr "För att spela videon måste du logga in."
+
+# 
+msgid "You need to have non-zero balance to be able to play video."
+msgstr "Saldot kan inte vara på noll om du vill spela videon."
+
+# 
+msgid "Detach"
+msgstr "Avskilj"
+
+# 
+msgid "End"
+msgstr "Slut"
+
+# 
+msgid "Inning"
+msgstr "Inning"
+
+# 
+msgid "First Quarter"
+msgstr "1:a quarter"
+
+# 
+msgid "First Quarter Ended"
+msgstr "1:a quarter slut"
+
+# 
+msgid "Second Quarter"
+msgstr "2:a quarter"
+
+# 
+msgid "Second Quarter Ended"
+msgstr "2:a quarter slut"
+
+# 
+msgid "Third Quarter"
+msgstr "3:e quarter"
+
+# 
+msgid "Third Quarter Ended"
+msgstr "3:e quarter slut"
+
+# 
+msgid "Fourth Quarter"
+msgstr "4:e quarter"
+
+# 
+msgid "Fourth Quarter Ended"
+msgstr "4:e quarter slut"
+
+# 
+msgid "Overtime"
+msgstr "Övertid"
+
+# 
+msgid "Overtime Ended"
+msgstr "Övertid slut"
+
+# 
+msgid "Foul"
+msgstr "Foul"
+
+# 
+msgid "Free Throw"
+msgstr "Straffkast"
+
+# 
+msgid "Free 1-Point Throw"
+msgstr "1-poängs straffkast"
+
+# 
+msgid "Free 2-Point Throw"
+msgstr "2-poängs straffkast"
+
+# 
+msgid "Free 3-Point Throw"
+msgstr "3-poängs straffkast"
+
+# 
+msgid "Missed Free Throw"
+msgstr "Missat straffkast"
+
+# 
+msgid "Attack"
+msgstr "Attack"
+
+# 
+msgid "One Point"
+msgstr "1 poäng"
+
+# 
+msgid "Two Points"
+msgstr "2 poäng"
+
+# 
+msgid "Three Points"
+msgstr "3 poäng"
+
+# 
+msgid "Timeout"
+msgstr "Time-out"
+
+# 
+msgid "Finished"
+msgstr "Slut"
+
+# 
+msgid "Point"
+msgstr "Poäng"
+
+# 
+msgid "Fault"
+msgstr "Fel"
+
+# 
+msgid "First Set"
+msgstr "1:a set"
+
+# 
+msgid "Second Set"
+msgstr "2:a set"
+
+# 
+msgid "Third Set"
+msgstr "3:e set"
+
+# 
+msgid "Fourth Set"
+msgstr "4:e set"
+
+# 
+msgid "Fifth Set"
+msgstr "5:e set"
+
+# 
+msgid "Dangerous Attack"
+msgstr "Farligt anfall"
+
+# 
+msgid "Shot on target"
+msgstr "Skott på mål"
+
+# 
+msgid "Shot off target"
+msgstr "Skott utanför mål"
+
+# 
+msgid "Corner kick"
+msgstr "Hörna"
+
+# 
+msgid "Yellow card"
+msgstr "Gult kort"
+
+# 
+msgid "Red card"
+msgstr "Rött kort"
+
+# 
+msgid "Period"
+msgstr "Period"
+
+# 
+msgid "Game"
+msgstr "Match"
+
+# 
+msgid "Ace"
+msgstr "Serve-ess"
+
+# 
+msgid "Service Fault"
+msgstr "Servefel"
+
+# 
+msgid "Double Fault"
+msgstr "Dubbelfel"
+
+# 
+msgid "Injury Break"
+msgstr "Paus för skada"
+
+# 
+msgid "Rain Delay"
+msgstr "Regn fördröjning"
+
+# 
+msgid "Aces"
+msgstr "Serve-ess"
+
+# 
+msgid "Double Faults"
+msgstr "Dubbelfel"
+
+# 
+msgid "Corner"
+msgstr "Hörna"
+
+# 
+msgid "Yellow Card"
+msgstr "Gult kort"
+
+# 
+msgid "Extra Time Half Time"
+msgstr "Övertid halvtid"
+
+# 
+msgid "Not Started"
+msgstr "Ej startad"
+
+# 
+msgid "Offside"
+msgstr "Offside"
+
+# 
+msgid "Goal"
+msgstr "Mål"
+
+# 
+msgid "Pre Extra Half"
+msgstr "Pre Extra Half"
+
+# 
+msgid "Throw In"
+msgstr "Inkast"
+
+# 
+msgid "Goal Kick"
+msgstr "Utspark"
+
+# 
+msgid "Substitution"
+msgstr "Byte"
+
+# 
+msgid "Extra Time First Half"
+msgstr "Övertid 1:a halvlek"
+
+# 
+msgid "Second Half"
+msgstr "2:a halvlek"
+
+# 
+msgid "Half Time"
+msgstr "Halvtid"
+
+# 
+msgid "Ball Safe"
+msgstr "Boll säker"
+
+# 
+msgid "Free Kick"
+msgstr "Frispark"
+
+# 
+msgid "Extra Time Second Half"
+msgstr "Övertid 2:a halvlek"
+
+# 
+msgid "Red Card"
+msgstr "Rött kort"
+
+# 
+msgid "First Half"
+msgstr "1:a halvlek"
+
+# 
+msgid "Penalty"
+msgstr "Straff"
+
+# 
+msgid "First time score"
+msgstr "Första tiden resultat"
+
+# 
+msgid "HT"
+msgstr "HT"
+
+# 
+msgid "yellow cards"
+msgstr "Gula kort"
+
+# 
+msgid "red cards"
+msgstr "Röda kort"
+
+# 
+msgid "corners"
+msgstr "Hörnor"
+
+# 
+msgid "penalties"
+msgstr "Straffar"
+
+# 
+msgid "Sound"
+msgstr "Sound"
+
+# 
+msgid "Frame"
+msgstr "Ram"
+
+# 
+msgid "Race Type"
+msgstr "Race typ"
+
+# 
+msgid "Select a Sport"
+msgstr "Välj en sport"
+
+# 
+msgid "Next Event"
+msgstr "Nästa event"
+
+# 
+msgid "Events from different groups can be combined in combined bets"
+msgstr "Events from different groups can be combined in combined bets"
+
+# 
+msgid "Horse"
+msgstr "Häst"
+
+# 
+msgid "Greyhound"
+msgstr "Greyhound"
+
+# 
+msgid "Jockey"
+msgstr "Jockey"
+
+# 
+msgid "Cash-out available"
+msgstr "Cash-out available"
+
+# 
+msgid "№"
+msgstr "№"
+
+# 
+msgid "sport news"
+msgstr "Nyheter"
+
+# 
+msgid "Change statistics mode"
+msgstr "Ändra läge för statistik"
+
+# 
+msgid "Show / Hide statistics"
+msgstr "Show / Hide statistics"
+
+# 
+msgid "Use this selector to switch between Live and Pre-match games"
+msgstr "Använd denna väljare för att växla mellan live och pre-match spel"
+
+# 
+msgid "click to switch to pre-match"
+msgstr "klicka för att välja pre-match"
+
+# 
+msgid "live"
+msgstr "live"
+
+# 
+msgid "click to swicth to Live games"
+msgstr "klicka för att välja live spel"
+
+# 
+msgid "Switch to"
+msgstr "Växla till"
+
+# 
+msgid "Select sport"
+msgstr "Välj sport"
+
+# 
+msgid "Remove All from Favorites"
+msgstr "Ta bort allt från favoriter"
+
+# 
+msgid "Remove from My Games"
+msgstr "Ta bort från favoriter"
+
+# 
+msgid "Add to My Games"
+msgstr "Lägg till favoriter"
+
+# 
+msgid "Phone only market"
+msgstr "Marknad för telefon endast"
+
+# 
+msgid "To place a bet, please call"
+msgstr "För att lägga ett bet, vänligen ring"
+
+# 
+msgid "statistic"
+msgstr "statistik"
+
+# 
+msgid "There may be a Rule 4 on this Race"
+msgstr "There may be a Rule 4 on this Race"
+
+# 
+msgid "Win Only"
+msgstr "Win Only"
+
+# 
+msgid "show more"
+msgstr "visa mer"
+
+# 
+msgid "show"
+msgstr "visa"
+
+# 
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+
+# 
+msgid "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+msgstr "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+
+# 
+msgid "Today at"
+msgstr "Idag på"
+
+# 
+msgid "Course"
+msgstr "Bana"
+
+# 
+msgid "Winner"
+msgstr "Winner"
+
+# 
+msgid "Handicap"
+msgstr "Handicap"
+
+# 
+msgid "Tie"
+msgstr "Tie"
+
+# 
+msgid "Odds"
+msgstr "Odds"
+
+# 
+msgid "Full Time"
+msgstr "Full Time"
+
+# 
+msgid "1st Goal"
+msgstr "1st Goal"
+
+# 
+msgid "Last Goal"
+msgstr "Last Goal"
+
+# 
+msgid "None"
+msgstr "Ingen"
+
+# 
+msgid "ODD"
+msgstr "ODD"
+
+# 
+msgid "EVEN"
+msgstr "EVEN"
+
+# 
+msgid "Full Time 1X2"
+msgstr "Full Time 1X2"
+
+# 
+msgid "Half Time 1X2"
+msgstr "Half Time 1X2"
+
+# 
+msgid "Order by Time"
+msgstr "Order by Time"
+
+# 
+msgid "Back"
+msgstr "Back"
+
+# 
+msgid "HongKong"
+msgstr "HongKong"
+
+# 
+msgid "Malay"
+msgstr "Malay"
+
+# 
+msgid "Indo"
+msgstr "Indo"
+
+# 
+msgid "Date Filter"
+msgstr "Date Filter"
+
+# 
+msgid "Select competition"
+msgstr "Select competition"
+
+# 
+msgid "Event View"
+msgstr "Event View"
+
+# 
+msgid "Live Overview"
+msgstr "Live Overview"
+
+# 
+msgid "Live MultiView"
+msgstr "Live MultiView"
+
+# 
+msgid "Live Calendar"
+msgstr "Live Calendar"
+
+# 
+msgid "Statistics"
+msgstr "Statistics"
+
+# 
+msgid "Toggle inner scrolling"
+msgstr "Toggle inner scrolling"
+
+# 
+msgid "My games"
+msgstr "Mina spel"
+
+# 
+msgid "My bets"
+msgstr "Mina bet"
+
+# 
+msgid "Time format"
+msgstr "Time format"
+
+# 
+msgid "12 hours"
+msgstr "12 timmar"
+
+# 
+msgid "24 hours"
+msgstr "24 timmar"
+
+# 
+msgid "Sportsbook layout:"
+msgstr "Sportbok utseende:"
+
+# 
+msgid "Modern"
+msgstr "Modern"
+
+# 
+msgid "Classic"
+msgstr "Klassisk"
+
+# 
+msgid "Asian"
+msgstr "Asian"
+
+# 
+msgid "Betting"
+msgstr "Betting"
+
+# 
+msgid "Booking"
+msgstr "Bokning"
+
+# 
+msgid "bet slip"
+msgstr "Betting kupong"
+
+# 
+msgid "Betting options"
+msgstr "Betting alternativ"
+
+# 
+msgid "Automatically accept price changes"
+msgstr "Acceptera prisändringar automatiskt"
+
+# 
+msgid "Higher odds"
+msgstr "Högre odds"
+
+# 
+msgid "Any odds"
+msgstr "Alla odds"
+
+# 
+msgid "Quick bet"
+msgstr "Snabbspel"
+
+# 
+msgid "Your bet is accepted."
+msgstr "Ditt spel är accepterat."
+
+# 
+msgid "To select a bet, please click on any odd."
+msgstr "För att välja ett spel, klicka på något odds."
+
+# 
+msgid "Click on any odd to place a bet."
+msgstr "Klicka på ett odds för att placera ett spel."
+
+# 
+msgid "Single only"
+msgstr "Endast singel"
+
+# 
+msgid "Event Locked"
+msgstr "Event låst"
+
+# 
+msgid "This event is not available now"
+msgstr "Detta event är ej tillgängligt just nu"
+
+# 
+msgid "This pick cannot be combined with:"
+msgstr "Detta val kan ej kombineras med:"
+
+# 
+msgid "delete"
+msgstr "radera"
+
+# 
+msgid " Pick: "
+msgstr " Val: "
+
+# 
+msgid "Unit Stake"
+msgstr "Insats"
+
+# 
+msgid "Stake..."
+msgstr "Insats..."
+
+# 
+msgid "Repeat for all"
+msgstr "Repetera för alla"
+
+# 
+msgid "Win:"
+msgstr "Vinst:"
+
+# 
+msgid "Superbet"
+msgstr "Superbet"
+
+# 
+msgid "Superbet is turned ON"
+msgstr "Superbet is turned ON"
+
+# 
+msgid "SuperBet is a new offer that allows requesting a Max Bet Limit Increase for selected sporting events."
+msgstr "SuperBet is a new offer that allows requesting a Max Bet Limit Increase for selected sporting events."
+
+# 
+msgid "Booking ID:"
+msgstr "Boknings ID:"
+
+# 
+msgid "Stake amount"
+msgstr "Insatsbelopp"
+
+# 
+msgid "Possible win:"
+msgstr "Möjlig vinst:"
+
+# 
+msgid "Bonus:"
+msgstr "Bonus:"
+
+# 
+msgid "Total win:"
+msgstr "Total vinst:"
+
+# 
+msgid "Invalid stake amount entered"
+msgstr "Ogiltigt insatsbelopp"
+
+# 
+msgid "Please enter stake amount"
+msgstr "Vänligen ange insatsbelopp"
+
+# 
+msgid "Insufficient balance"
+msgstr "Otillräckligt saldo"
+
+# 
+msgid "You have to accept changes to be able to place bets"
+msgstr "Du måste acceptera ändringar för att kunna placera spel"
+
+# 
+msgid "Get bet ID"
+msgstr "Hämta bet ID"
+
+# 
+msgid "Add more events to be able to place bet"
+msgstr "Lägg till fler events för att kunna placera spel"
+
+# 
+msgid "There are locked events"
+msgstr "Det finns låsta events"
+
+# 
+msgid "Incompatible events"
+msgstr "Inkompatibla events"
+
+# 
+msgid "There are deleted events"
+msgstr "Det finns raderade events"
+
+# 
+msgid "Market base for some events have changed"
+msgstr "Marknadsbasen för vissa events har ändrats"
+
+# 
+msgid "Single Only Events"
+msgstr "Endast singel events"
+
+# 
+msgid "Prices for some events have changed"
+msgstr "Priserna för vissa events har ändrats"
+
+# 
+msgid "Multi-selection mode"
+msgstr "Multi-väljar läge"
+
+# 
+msgid "Disable regions"
+msgstr "Gruppering efter regioner"
+
+# 
+msgid "With video"
+msgstr "Med video"
+
+# 
+msgid "Daily coupon"
+msgstr "Daily coupon"
+
+# 
+msgid "For upcoming races please look in Live betting"
+msgstr "För kommande race, vänligen kolla live betting"
+
+# 
+msgid "Selected games"
+msgstr "Valda spel"
+
+# 
+msgid "Clear All"
+msgstr "Rensa alla"
+
+# 
+msgid "Trainer/Jockey"
+msgstr "Tränare/Jockey"
+
+# 
+msgid "Age"
+msgstr "Ålder"
+
+# 
+msgid "Weight"
+msgstr "Vikt"
+
+# 
+msgid "Form"
+msgstr "Form"
+
+# 
+msgid "We are not accepting bets on this event at the moment."
+msgstr "We are not accepting bets on this event at the moment."
+
+# 
+msgid "Clear"
+msgstr "Clear"
+
+# 
+msgid "Payment Requests Withdrawal"
+msgstr "Payment Requests Withdrawal"
+
+# 
+msgid "Confirm"
+msgstr "Bekräfta"
+
+# 
+msgid "1. The minimum withdrawal amount 10,000 KRW."
+msgstr "1. The minimum withdrawal amount 10,000 KRW."
+
+# 
+msgid "2. Withdrawal can only be made from registered accounts."
+msgstr "2. Withdrawal can only be made from registered accounts."
+
+# 
+msgid "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+msgstr "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+
+# 
+msgid "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+msgstr "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+
+# 
+msgid "5. If you want a quick withdrawal, please use the above time away."
+msgstr "5. If you want a quick withdrawal, please use the above time away."
+
+# 
+msgid "Payment Requests Deposit"
+msgstr "Payment Requests Deposit"
+
+# 
+msgid "1. The minimum deposit amount is 10,000 KRW."
+msgstr "1. The minimum deposit amount is 10,000 KRW."
+
+# 
+msgid "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+msgstr "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+
+# 
+msgid "3. Please always check deposit bank account from time to time."
+msgstr "3. Please always check deposit bank account from time to time."
+
+# 
+msgid "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+msgstr "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+
+# 
+msgid "SKILL GAMES"
+msgstr "SKILL GAMES"
+
+# 
+msgid "DOWNLOAD"
+msgstr "NEDLADDNING"
+
+# 
+msgid "logo"
+msgstr "logo"
+
+# 
+msgid "back to top"
+msgstr "Tillbaka till toppen"
+
+# 
+msgid "Number Drawn Today"
+msgstr "Number Drawn Today"
+
+# 
+msgid "Get Started"
+msgstr "Get Started"
+
+# 
+msgid "Phone"
+msgstr "Telefon"
+
+# 
+msgid "Ticket Number"
+msgstr "Ticket Number"
+
+# 
+msgid "Tournaments"
+msgstr "Turneringar"
+
+# 
+msgid "Poker Leaderboard"
+msgstr "Poker Leaderboard"
+
+# 
+msgid "Show All"
+msgstr "Show All"
+
+# 
+msgid "FIFA WORLD CUP"
+msgstr "FIFA WORLD CUP"
+
+# 
+msgid "years"
+msgstr "år"
+
+# 
+msgid "months"
+msgstr "månader"
+
+# 
+msgid "days"
+msgstr "dagar"
+
+# 
+msgid "hours"
+msgstr "timmar"
+
+# 
+msgid "minutes"
+msgstr "minuter"
+
+# 
+msgid "seconds"
+msgstr "sekunder"
+
+# 
+msgid "Select a Sport "
+msgstr "Välj en sport"
+
+# 
+msgid "Place A bet!"
+msgstr "Placera ett spel!"
+
+# 
+msgid "Poker Tournament"
+msgstr "Poker turnering"
+
+# 
+msgid "Biggest tournament of this year."
+msgstr "Största turneringen detta år."
+
+# 
+msgid "Bet now!"
+msgstr "Spela nu!"
+
+# 
+msgid "Live now"
+msgstr "Live nu"
+
+# 
+msgid "Live news"
+msgstr "Live nyheter"
+
+# 
+msgid "All news"
+msgstr "All news"
+
+# 
+msgid "Eastern"
+msgstr "Eastern"
+
+# 
+msgid "OGWIL"
+msgstr "OGWIL"
+
+# 
+msgid "Don't show this again."
+msgstr "Visa ej detta igen."
+
+# 
+msgid "Event sounds:"
+msgstr "Event ljud:"
+
+# 
+msgid "On"
+msgstr "På"
+
+# 
+msgid "Off"
+msgstr "Av"
+
+# 
+msgid "Hide:"
+msgstr "Göm:"
+
+# 
+msgid "Choose color scheme:"
+msgstr "Choose color scheme:"
+
+# 
+msgid "FAQ"
+msgstr "FAQ"
+
+# 
+msgid "My messages"
+msgstr "Mina meddelanden"
+
+# 
+msgid "Log Out"
+msgstr "Logga ut"
+
+# 
+msgid "deposit_info_skrill_1tap"
+msgstr "<b>Skrill 1-Tap</b>är Skrill's bekväma tjänst som enkelt låter användarna göra små överföringar utan att alltid behöva ange en emailadress och lösenord.<br/> <br/> Stöder bland annat valutor som USD och EUR.<br/> Pengarna överförs till ditt Bbet konto omedelbart.<br/> Det tillkommer ej några avgifter för denna metod. <br/> Min. överföring är 5 och max. 1000. <br/> <br/> För att sätta in pengar på ditt Bbet konto med Skrill 1-Tap, klicka \"Insättning\" och ange det belopp du vill överföra . Du kommer att omdirigeras till Skrill för att slutföra transaktionen.<br/> Vänligen notera att du bara behöver ange din emailadress för din första Skrill 1-Tap transaktion. Efter första gången så kommer dina kontouppgifter upp automatiskt av Skrill systemet."
+
+# 
+msgid "deposit_info_skrill"
+msgstr "<p> Skrill är ett säkert, bekvämt och prisvärt sätt att skicka och ta emot pengar över hela världen. Valutor som stöds inkluderar EUR och USD. Pengarna kommer att överföras till ditt konto omedelbart. </p> <p> Det finns inga avgifter för att använda denna betalningsmetod. </p> <p> Min. överföring är 5 och det finns ingen maxgräns. </p> <p> För att sätta in pengar på ditt Bbet konto med Skrill, klicka på insättning efter att emailadressen är registrerad med Skrill och välj det belopp du vill överföra. Du kommer att omdirigeras till Skrill för att slutföra transaktionen. </p>"
+
+# 
+msgid "withdraw_info_skrill"
+msgstr "Skrill är ett säkert, enkelt och prisvärt sätt att skicka och ta emot pengar över hela världen.<br><br>Valutor som stöds är bland annat USD och EUR.<br>Pengar överförs från ditt konto inom 24 timmar.<br>Det finns inga avgifter för att använda denna betalningsmetod. <br>Överföringar har inte något minimum och/eller maximum belopp.<br>För att ta ut pengar från ditt Bbet konto med Skrill, klicka \"Skicka\" när du har angett ditt fullständiga namn, din email adress som är registrerad med Skrill och det belopp du vill ta ut. Du kommer att omdirigeras till Skrill att slutföra transaktionen."
+
+# 
+msgid "deposit_info_webmoney"
+msgstr "<p>WebMoney är en global lösning som gör det möjligt för internetanvändare att genomföra säkra penga-överföringar i realtid, som stöder bland annat EUR, RUB, UAH och USD valutor. Pengarna kommer att överföras till ditt konto omedelbart. Det finns inga avgifter för att använda denna betalningsmetod.</p><p>Överföringar har ingen minimum och / eller maximum gräns. För att sätta in pengar på ditt Bbet konto med WebMoney, klicka enkelt på \"insättning\" efter att du angett ett belopp som du vill överföra. Du kommer att omdirigeras till WebMoney för att genomföra transaktionen. Observera att du måste ha en WebMoney E, R eller Z plånbok.</p>"
+
+# 
+msgid "withdraw_info_webmoney"
+msgstr "<p>WebMoney är en global lösning som gör det möjligt för internetanvändare att genomföra säkra penga-överföringar i realtid, som stöder bland annat EUR, RUB, UAH och USD valutor. Pengarna kommer att överföras från ditt konto inom 72 timmar. Det finns inga avgifter för att använda denna betalningsmetod.</p><p>Överföringar har ingen minimum och / eller maximum gräns. För att ta ut pengar från ditt Bbet konto med WebMoney, klicka enkelt på \"uttag\" efter att du angett ditt fulla registrerade namn, ditt WebMoney nummer och ett belopp som du vill överföra. Du kommer att omdirigeras till WebMoney för att genomföra transaktionen. Observera att du måste ha en WebMoney E, R eller Z plånbok.</p>"
+
+# 
+msgid "Purse"
+msgstr "Plånbok"
+
+# 
+msgid "deposit_info_qiwi"
+msgstr "<p>QIWI är en digital plånbok som kan användas för att skicka och ta emot pengar med ett brett utbud av metoder som möjliggör för varje användare att välja det som är mest bekvämt och föredras. Valutor som stöds inkluderar EUR, RUB och USD. Pengarna kommer att överföras till ditt konto inom 24 timmar.</p><p>Det tillkommer inga avgifter för att använda denna betalningsmetod</p><p>Överföringar har ingen minimum och / eller maximum gräns.  För att sätta in pengar på ditt Bbet konto med QIWI, klicka enkelt på \"insättning\" när du har angett det registrerade telefonnumret med QIWI samt det belopp du vill överföra . Du kommer att omdirigeras till QIWI att slutföra transaktionen.</p>"
+
+# 
+msgid "withdraw_info_qiwi"
+msgstr "<p>QIWI är en digital plånbok som kan användas för att skicka och ta emot pengar med ett brett utbud av metoder som möjliggör för varje användare att välja det som är mest bekvämt och föredras. Valutor som stöds inkluderar EUR, RUB och USD. Pengarna kommer att överföras till ditt konto inom 24 timmar.</p><p>Det tillkommer inga avgifter för att använda denna betalningsmetod</p><p>Överföringar har ingen minimum gräns och maximum gränsen är 300 EUR.  För att ta ut pengar från ditt Bbet konto med QIWI, klicka enkelt på \"uttag\" när du har angett ditt QIWI nummer samt det belopp du vill överföra . Du kommer att omdirigeras till QIWI att slutföra transaktionen.</p>"
+
+# 
+msgid "Wallet id"
+msgstr "Plånboks id"
+
+# 
+msgid "deposit_info_neteller"
+msgstr "<p>Neteller är en e-plånbok som är betrodd av miljontals människor över hela världen, Neteller ger användare möjlighet att göra säkra online-betalningar med ett system som ger omedelbara insättningar, uttag och utbetalningar. Valutor som stöds inkluderar USD, EUR och SEK. Pengarna överförs till ditt Bbet konto omedelbart. Det finns inga avgifter för att använda denna betalningsmetod.  Överföringar har ingen minimum och / eller maximum gräns.  För att sätta in pengar på ditt Bbet konto med Neteller, klicka enkelt på \"insättning\" efter att du angett ditt Neteller kontonummer, Secure ID (säkerhets ID) samt beloppet du vill överföra. Du kommer att omdirigeras till Neteller för att slutföra transaktionen. Observera att email-adressen som är registrerad på ditt Neteller konto måste stämma överens med email-adress som är registrerad på ditt Bbet konto för att transaktionen ska accepteras.</p>"
+
+# 
+msgid "withdraw_info_neteller"
+msgstr "<p>Neteller är en e-plånbok som är betrodd av miljontals människor över hela världen, Neteller ger användare möjlighet att göra säkra online-betalningar med ett system som ger omedelbara insättningar, uttag och utbetalningar. Valutor som stöds inkluderar USD, EUR och SEK. Pengarna överförs från ditt Bbet konto inom 24 timmar. Det finns inga avgifter för att använda denna betalningsmetod.  Överföringar har ingen minimum och / eller maximum gräns.  För att ta ut pengar från ditt Bbet konto med Neteller, klicka enkelt på \"uttag\" efter att du angett ditt Neteller kontonummer samt beloppet du vill överföra.</p>"
+
+# 
+msgid "Account Id"
+msgstr "Konto Id"
+
+# 
+msgid "Secure Id"
+msgstr "Säkerhets id"
+
+# 
+msgid "deposit_info_moneta"
+msgstr "<p>Moneta.ru är ett betalsystem som inrättades i Ryssland för att ge Internet-användare möjligheten att göra säkra och omedelbara transaktioner.</p><p>Valutor som stöds inkluderar EUR, RUB och USD. Pengarna kommer att överföras till ditt Bbet konto inom 24 timmar. Det tillkommer inga avgifter för att använda denna betalningsmetod. Överföringar har ej någon minsta och / eller högsta gräns. För att sätta in pengar till ditt Bbet konto med Moneta.ru, klicka enkelt på \"insättning\" efter du angett det belopp du vill överföra. Du kommer att omdirigeras till Moneta.ru att slutföra transaktionen.</p>"
+
+# 
+msgid "withdraw_info_moneta"
+msgstr "<p>Moneta.ru är ett betalsystem som inrättades i Ryssland för att ge Internet-användare möjligheten att göra säkra och omedelbara transaktioner.</p><p>Valutor som stöds inkluderar EUR, RUB och USD. Pengarna kommer att överföras från ditt Bbet konto inom 12 timmar. Det tillkommer inga avgifter för att använda denna betalningsmetod. Överföringar har ej någon minsta och / eller högsta gräns. För att ta ut pengar från ditt Bbet konto med Moneta.ru, klicka enkelt på \"uttag\" efter du angett ditt fulla namn, email-adressen som är registrerad med Moneta.ru, ditt Moneta.ru nummer samt det belopp du vill överföra. Du kommer att omdirigeras till Moneta.ru att slutföra transaktionen.</p>"
+
+# 
+msgid "deposit_info_ecocard"
+msgstr "<p>EcoPayz är en global betalningslösnings-leverantör som erbjuder omedelbara betalningstjänster till kunder och företag över hela världen, i en säker och bekväm miljö.<br/>Valutor som stöds inkluderar USD, EUR och RUB<br/>Pengarna kommer att överföras till ditt Bbet konto omedelbart.<br/>Det tillkommer inga avgifter för denna betalningsmetod <br/>Överföringar har ej någon minsta och / eller högsta gräns<br/>För att sätta in pengar på ditt Bbet konto med ecoPayz, klicka enkelt på \"insättning\" efter att du angett beloppet som du vill överföra. Du kommer att omdirigeras till ecoPayz att slutföra transaktionen.</p>"
+
+# 
+msgid "withdraw_info_ecocard"
+msgstr "<p>EcoPayz är en global betalningslösnings-leverantör som erbjuder omedelbara betalningstjänster till kunder och företag över hela världen, i en säker och bekväm miljö.<br/>Valutor som stöds inkluderar USD, EUR och RUB<br/>Pengarna kommer att överföras från ditt Bbet konto inom 24 timmar.<br/>Det tillkommer inga avgifter för denna betalningsmetod <br/>Överföringar har ej någon minsta och / eller högsta gräns<br/>För att ta ut pengar från ditt Bbet konto med ecoPayz, klicka enkelt på \"uttag\" efter att du angett ditt fulla namn, dint EcoPayz konto nummer samt beloppet som du vill överföra. Du kommer att omdirigeras till ecoPayz att slutföra transaktionen.</p>"
+
+# 
+msgid "deposit_info_ukash"
+msgstr "<p>Ukash skapades för att ge kunder en enkel, säker och privat metod för att göra online betalningar med kontanter. Valutor som stöds inkluderar EUR och USD. Pengarna kommer att överföras till ditt Bbet konto omedelbart. Det finns inga avgifter för att använda denna betalningsmetod. Överföringar har ingen minsta och / eller högsta gräns. För att sätta in pengar på ditt Bbet konto med Ukash, klicka enkelt på \"skicka\" efter att du angett det belopp som du vill överföra. Du kommer att omdirigeras till Ukash där du måste ange din Ukash kupong's uppgifter för att slutföra din transaktion.</p>"
+
+# 
+msgid "withdraw_info_ukash"
+msgstr "uttag_info_ukash"
+
+# 
+msgid "deposit_info_cash"
+msgstr "<p>För att sätta in pengar bör du tala om för spelbolags-kassören ditt Bbet kontonummer som du fått efter registreringen på vår hemsida.</p><p>på Baghramyan 1, Andranik 73/5, Komitas 60 and N.Zaryan sidestreet 1, h. 9 kan du fylla på ditt spelkonto och få din vinster 24/7. I andra betting kontor kan du fylla på ditt spelkonto och få dina vinster från 14:00 till 23:00.</p><p>Adresserna till betting kontor där du kan sätta in kontanter.</p>"
+
+# 
+msgid "deposit_info_bitcoin"
+msgstr "Insättning_info_bitcoin"
+
+# 
+msgid "deposit_info_cashbill"
+msgstr "CashBill är ett globalt system som gör det möjligt för internetanvändare att genomföra säkra penga-överföringar i realtid. Pengar kommer att överföras till ditt Bbet konto omedelbart. Det finns inga avgifter för att använda denna betalningsmetod. Överföringar har inte en minsta och / eller högsta gräns. För att sätta in pengar på ditt konto med CashBill, klicka enkelt på \"insättning\" efter att du angett ditt användarnamn samt belopp som du vill överföra. Du kommer att omdirigeras till CashBill att slutföra transaktionen. Observera att du måste ha bankkonto i PLN valuta för att använda denna betalningsmetod."
+
+# 
+msgid "deposit_info_arca"
+msgstr "&quot;Armenian Card&quot; CJSC inrättades av Central Bank of RA och 10 kommersiella banker år 2000, för etablering och utveckling av nya det bank betalningssystemet i Armenien. Företaget erbjuder en rad tjänster som gör det möjligt för bankerna att ge ut och underhålla ArCa, Mastercard, VISA-kort och även att fungera för Armeniska Express-kort med hjälp av moderna och teknologiska mjukvaru-möjligheter som även bearbetningsscentret använder, specialiserat stöd för bolaget. Företaget är:<ul><li>Fullvärdig medlem av det internationella betalningssystemet av Mastercard Europe och centrat för tillhandahållande av bearbetning (Member Service Provider)</li><li>Center för att tillhandahålla bearbetning tjänster för systemet VISA (tredje-parts rocessor)</li><li>Center för att tillhandahålla bearbetning för systemet med American Express (tredje-parts processor)</li></ul>"
+
+# 
+msgid "withdraw_info_arca"
+msgstr "Den beställda beloppet överförs till de armeniska bankerna ArCa, MasterCard, VISA-kort du angett, som är registrerat i ditt namn.<br>Utförandet tar 24 timmar.<br>På grund av instabil drift av systemet, kan överföringsfördröjningar inträffa och överskrida den angivna tiden.<br>Det minsta beloppet för uttag är <b>500</b> dram.<br>Det maximala beloppet för uttag är <b>200.000</b> dram per dag.<br>Ingan kommission tas med denna betalningsmetod."
+
+# 
+msgid "Last name/surname, name, middle name"
+msgstr "Efternamn, namn, mellan namn"
+
+# 
+msgid "deposit_info_edram"
+msgstr "<a href=\"http://www.idram.am/\">IDram</a> är ett betalsystem på Internet. För förverkligande av betalning är det nödvändigt att vara registrerad i IDram systemet. IDram systemet kräver ej laddning av ytterligare program. På en speciell sida kan du utsätta er för att redogöra för den nödvändiga summan och betala i IDram systemet. Därefter är det nödvändigt att kolla upp status för den exponerade kontot på samma sida. Om det har betalats, kommer ditt spelkonto fyllas med det överförda beloppet. För inmatning av pengar in i systemet är det nödvändigt att köpa а kort IDram genom grenar av &quot;ArmPost&quot kommunikation. Det är möjligt att bekanta sig med reglerna för systemet på webbplatsen <a href=\"http://www.idram.am/\">www.idram.am</a>. Det tillkommer inga avgifter för denna betalningsmetod."
+
+# 
+msgid "withdraw_info_edram"
+msgstr "Din utbetalning kommer överföras till ditt <a href=\"http://www.idram.am/\">iDram</a> konto som är registrerat i ditt namn. Utförandet tar 12 timmar och det tillkommer ej någon kommission."
+
+# 
+msgid "withdraw_info_cash"
+msgstr "<p>Du kan få summan som beställts på betting kontor på samma eller nästa dag efter registreringen av begäran. Du bör presentera ditt pass för att få din vinst. Ordern är giltig inom 3 dagar. Om du inte kan få vinst beloppet under denna period så annulleras begäran, och beloppet sätts tillbaka på ditt spelkonto. Den minsta beloppet av begäran är utan begränsning. Det finns inga extra avgifter för denna betalningsmetod.</p><p>På Baghramyan 1, Andranik 73/5, Amiryan 18/2a kan du motta dina vinster mellan 11:00 till 23:00, och på andra betting kontor mellan 14:00 till 23:00.</p><p>Du kan hämta kontant belopp på följande branscher av Bbet:</p>"
+
+# 
+msgid "deposit_info_telcell"
+msgstr "Det är väldigt viktigt för &quot;Bbet&quot; företaget att ge sina kunder en modern, tillförlitlig, och enkel betalnings service. Därför har &quot;Bbet&quot; företaget tagit in ett system <a href=\"http://www.telcell.am/\">TelCell</a>."
+
+# 
+msgid "deposit_info_tandem"
+msgstr "<b>Tandem Payment<br>    LLC</b>, Tandem Payment LLC grundades 2007 och tillhandahåller inställningar, distribution och support av automatiserade betalningssystem. De betalterminaler som erbjuds av vårt företag garanterar snabb, bekväm och säker metod för fakturering, betalning för räkningar, Internet, påfyllning av konton och så vidare. Mjukvaran avTandem Payment&Otilde;s terminaler utvecklades av RA av Smart-Tech LLC som har en stor erfarenhet av utveckling av olika system för e-betalningar som ArCa portal och system för e-kort banking. Detta faktum ger en möjlighet att ständigt förbättra systemet för betalterminaler, att genomföra och tillämpa olika innovationer i systemet.<br><i><b>Våra främsta fördelar är:</b></i><br><br>    <b>Vi arbetar utan kommission (0%)</b><br>    <b>Våra terminaler gör det möjligt att distribuera inbetald summa pengar mellan olika typer av tjänster.</b><b> </b><b>(Du kan få mer detaljerad information om dessa objekt på &quot; för användar &quot; sida).</b><br>Våra operatörer arbetar på en 24 timmar om dygnet och är alltid redo att svara på dina alla frågor som rör vårt system."
+
+# 
+msgid "deposit_info_btabank"
+msgstr "Det är av avgörande betydelse för Bbet att förse sina kunder med de nyaste, mest pålitliga och bekväma betaltjänsterna.<br>Du kan hädanefter fylla på ditt Bbet konto genom BTA Bank.<br>BTA Bank JSC fungerar på under licens N31, som tillhandahålls av centralbanken i Republiken Armenien.<br>Genom BTA BANK JSC kan du betala för fasta och mobila nät, public service och digitala plånböcker."
+
+# 
+msgid "deposit_info_mobidram"
+msgstr "Om du har ett MobiDram konto så kan du från och med nu fylla på ditt Bbet konto online via MobiDram. Efter inloggningen ska du klicka på \"Insättning\" -knappen och välj sedan MobiDram. Det ska du fylla i lämpliga fält med data och bekräfta betalningen. <br>Hela beloppet kommer att överföras till ditt konto."
+
+# 
+msgid "deposit_info_paytopay"
+msgstr "Om du har en MobiDram konto så kan du från och med nu fylla på ditt Bbet konto genom att skicka ett SMS till 1009 och nämna beloppet och ditt Bbet användar ID. Till exempel: 5000, 1234567. <br> Minimibeloppet för topp-upp är 1000 AMD. Hela beloppet kommer att överföras till ditt konto."
+
+# 
+msgid "withdraw_info_topoker"
+msgstr "Om du har en BbetPoker konto kan du överföra pengar till det. Ange ditt BbetPoker användarnamn och lösenord (du kommer bara att behöva göra detta första gången) och valt belopp kommer att överföras till <b>ditt</b> BbetPoker konto."
+
+# 
+msgid "deposit_info_card"
+msgstr "insättning_info_card"
+
+# 
+msgid "PinCode"
+msgstr "Pinkod"
+
+# 
+msgid "x_card_num"
+msgstr "x_card_num"
+
+# 
+msgid "x_card_code"
+msgstr "x_card_code"
+
+# 
+msgid "x_exp_date_yy"
+msgstr "x_exp_date_yy"
+
+# 
+msgid "withdraw_info_astropay"
+msgstr "withdraw_info_astropay"
+
+# 
+msgid "Credit Card Number"
+msgstr "Credit Card Number"
+
+# 
+msgid "Expiration Year"
+msgstr "Expiration Year"
+
+# 
+msgid "Expiration Month"
+msgstr "Expiration Month"
+
+# 
+msgid "Card Holder Name"
+msgstr "Card Holder Name"
+
+# 
+msgid "Card Number"
+msgstr "Card Number"
+
+# 
+msgid "Card code"
+msgstr "Card code"
+
+# 
+msgid "Expiry date (mm)"
+msgstr "Expiry date (mm)"
+
+# 
+msgid "Expiry date (yyyy)"
+msgstr "Expiry date (yyyy)"
+
+# 
+msgid "deposit_info_wirecard"
+msgstr "Wirecard är ett säkert, bekvämt och snabbt sätt att sätta in pengar på ditt Bbet konto med ditt kreditkort. Valutor som stöds är: EUR, USD, GBP, CZK och PLN. Minsta insättning är 10 EUR och den maximala insättningsbeloppet är 5000 EUR. Pengar överföras till ditt Bbet konto omedelbart. Det finns inga avgifter för denna betalningsmetod. För att sätta in pengar på ditt Bbet konto med Wirecard, fyll enkelt i alla obligatoriska fält och klicka \"insättning\" -knappen."
+
+# 
+msgid "CardNumber"
+msgstr "Kortnummer"
+
+# 
+msgid "CardHolderName"
+msgstr "Kortinnehavarens namn"
+
+# 
+msgid "ExpirationYear"
+msgstr "Utgångs år"
+
+# 
+msgid "ExpirationMonth"
+msgstr "Utgångs månad"
+
+# 
+msgid "Cvc2"
+msgstr "CVC2"
+
+# 
+msgid "deposit_info_bankform"
+msgstr "deposit_info_bankform"
+
+# 
+msgid "IBAN"
+msgstr "IBAN"
+
+# 
+msgid "SWIFT"
+msgstr "SWIFT"
+
+# 
+msgid "withdraw_info_bankform"
+msgstr "withdraw_info_bankform"
+
+# 
+msgid "deposit_info_moneysafe"
+msgstr "insättning_info_moneysafe"
+
+# 
+msgid "Code"
+msgstr "Kod"
+
+# 
+msgid "withdraw_info_tovivaropet"
+msgstr "Om du har en Bbet konto kan du överföra pengar till det. Ange ditt användarnamn och lösenord (du kommer bara att behöva göra detta den första gången) och det valda beloppet kommer att överföras till <b>ditt</b> Bbet konto"
+
+# 
+msgid "deposit_info_eblontransfer"
+msgstr "insättning_info_eblontransfer"
+
+# 
+msgid "withdraw_info_eblontransfer"
+msgstr "uttag_info_eblontransfer"
+
+# 
+msgid "CustomerID"
+msgstr "KundID"
+
+# 
+msgid "casino_auth_error"
+msgstr "We're experiencing temporary difficulties. Please try a little later."
+
+# 
+msgid "Sorry, this game cannot be opened in multi-view mode"
+msgstr "Tyvärr kan detta spel ej öppnas i multispels-läge"
+
+# 
+msgid "This Game Is Already Opened In Multi Game View. Please Choose Another Game."
+msgstr "Detta spel är redan öppnat i Multispels-läge. Vänligen välj ett annat spel."
+
+# 
+msgid "It Is Possible To Play Only One Game Of The Same Provider In Multi Game View. Please Choose Another Game."
+msgstr "Det är endast möjligt att spela ett spel från samma leverantör i Multispels-läge. Vänligen välj ett annat spel."
+
+# 
+msgid "Please close one of the games for adding new one"
+msgstr "Vänligen stäng ner ett av spelen för att lägga till ett nytt spel"
+
+# 
+msgid "The game is not available"
+msgstr "Spelet är ej tillgängligt"
+
+# 
+msgid "Home"
+msgstr "Hem"
+
+# 
+msgid "message_OK"
+msgstr "Accepterat"
+
+# 
+msgid "Virtual sports"
+msgstr "Virtual sports"
+
+# 
+msgid "More sports"
+msgstr "More sports"
+
+# 
+msgid "Popular competitions"
+msgstr "Popular competitions"
+
+# 
+msgid "Your Facebook account is already linked to another existing user."
+msgstr "Ditt Facebook-konto är redan kopplat till en annan befintlig användare."
+
+# 
+msgid "Unknown error"
+msgstr "Okänt fel"
+
+# 
+msgid "Come play on "
+msgstr "Kom och spela"
+
+# 
+msgid "Password changed"
+msgstr "Lösenord ändrat"
+
+# 
+msgid "Personal information updated."
+msgstr "Personlig information uppdaterad."
+
+# 
+msgid "Invalid password."
+msgstr "Ogiltigt lösenord."
+
+# 
+msgid "Deposit limits set."
+msgstr "Insättningsgränser inställda."
+
+# 
+msgid "Self-Exclusion period set."
+msgstr "Själv-avstängnings period inställd."
+
+# 
+msgid "New Bets"
+msgstr "Nya bets"
+
+# 
+msgid "Winning Bets"
+msgstr "Vinnande bets"
+
+# 
+msgid "Returned Bet"
+msgstr "Returnerat bet"
+
+# 
+msgid "Card Deposit"
+msgstr "Kort insättning"
+
+# 
+msgid "Bonus Bet"
+msgstr "Bonus bet"
+
+# 
+msgid "Commission"
+msgstr "Kommission"
+
+# 
+msgid "Withdrawal"
+msgstr "Uttag"
+
+# 
+msgid "Correction"
+msgstr "Korrektion"
+
+# 
+msgid "Deposit by payment system"
+msgstr "Insättning med betalningssystem"
+
+# 
+msgid "Withdrawal request"
+msgstr "Begäran om uttag"
+
+# 
+msgid "Authorized Withdrawal"
+msgstr "Uttag godkänt"
+
+# 
+msgid "Withdrawal denied"
+msgstr "Misslyckat uttag"
+
+# 
+msgid "Withdrawal paid"
+msgstr "Uttag betalt"
+
+# 
+msgid "Pool Bet"
+msgstr "Pott spel"
+
+# 
+msgid "Pool Bet Win"
+msgstr "Pott spel vinst"
+
+# 
+msgid "Pool Bet Return"
+msgstr "Pott spel returnerad"
+
+# 
+msgid "In the process of revision"
+msgstr "I processen att omarbetas"
+
+# 
+msgid "Removed for recalculation"
+msgstr "Borttagen för omberäkning"
+
+# 
+msgid "Free Bet Bonus received"
+msgstr "Frispels bonus mottagen"
+
+# 
+msgid "Wagering Bonus received"
+msgstr "Omsättningsbonus mottagen"
+
+# 
+msgid "Transfer from Gaming Wallet"
+msgstr "Överföring från spel plånboken"
+
+# 
+msgid "Transfer to Gaming Wallet"
+msgstr "Överföring till spel plånboken"
+
+# 
+msgid "Declined Superbet"
+msgstr "Declined Superbet"
+
+# 
+msgid "Bet on hold"
+msgstr "Bet on hold"
+
+# 
+msgid "Bet cashout"
+msgstr "Bet cashout"
+
+# 
+msgid "Fair"
+msgstr "Rättvis"
+
+# 
+msgid "Fair Win"
+msgstr "Rättvis vinst"
+
+# 
+msgid "Fair Return"
+msgstr "Rättvis avkastning"
+
+# 
+msgid "Tip"
+msgstr "Tips"
+
+# 
+msgid "Error"
+msgstr "Fel"
+
+# 
+msgid "Your E-mail Has been confirmed"
+msgstr "Your E-mail Has been confirmed"
+
+# 
+msgid "You account has been locked. Please try again later !"
+msgstr "You account has been locked. Please try again later !"
+
+# 
+msgid "Invalid email"
+msgstr "Invalid email"
+
+# 
+msgid "Upcoming"
+msgstr "Kommande"
+
+# 
+msgid "Popular"
+msgstr "Populär"
+
+# 
+msgid "Favorite games"
+msgstr "Favoriter"
+
+# 
+msgid "Unsupported service"
+msgstr "Service stöds ej"
+
+# 
+msgid "Currency unsupported"
+msgstr "Valutan stöds ej"
+
+# 
+msgid "Amount is less than minimum allowed"
+msgstr "Beloppet är under minimumgränsen"
+
+# 
+msgid "Amount is greater than maximum allowed"
+msgstr "Beloppet är över maximumgränsen"
+
+# 
+msgid "Entered payee information is not correct."
+msgstr "Angiven betalningsinformation är ej korrekt."
+
+# 
+msgid "Entered payer information is not correct."
+msgstr "Angiven betalningsinformation är ej korrekt."
+
+# 
+msgid "Internal service fault"
+msgstr "Internt servicefel"
+
+# 
+msgid "Withdraw request blocked."
+msgstr "Uttagsbegäran blockerat."
+
+# 
+msgid "User link blocked, please contact support."
+msgstr "Användarlänken blockerad, vänligen kontakta supporten."
+
+# 
+msgid "Day limit reached. Please try later."
+msgstr "Dagsgränsen är nu nådd, vänligen försök igen imorgon."
+
+# 
+msgid "Withdraw request is already in progress"
+msgstr "Begäran om uttag pågår redan"
+
+# 
+msgid "Withdrawal was successful."
+msgstr "Uttag lyckades."
+
+# 
+msgid "Withdraw failed."
+msgstr "Uttag misslyckades."
+
+# 
+msgid "There was an error processing your request."
+msgstr "Det uppstod ett fel när din begäran bearbetades."
+
+# 
+msgid "Withdrawal was successful"
+msgstr "Uttag lyckades"
+
+# 
+msgid "Deposit was successful."
+msgstr "Insättningen lyckades."
+
+# 
+msgid "Deposit failed."
+msgstr "Insättningen misslyckades."
+
+# 
+msgid "Your transfer is successfully completed"
+msgstr "Din överföring lyckades"
+
+# 
+msgid "Internal Error"
+msgstr "Internt fel"
+
+# 
+msgid "Invalid RFID card"
+msgstr "Ogiltigt RFID kort"
+
+# 
+msgid "Invalid Password"
+msgstr "Ogiltigt lösenord"
+
+# 
+msgid "Please put your RFID card on card reader"
+msgstr "Vänligen sätt ditt RFID-kort på kortläsaren"
+
+# 
+msgid "LiveCalendar"
+msgstr "LiveCalendar"
+
+# 
+msgid "Favorites"
+msgstr "Favorites"
+
+# 
+msgid "Live calendar"
+msgstr "Live calendar"
+
+# 
+msgid "Virtual Betting"
+msgstr "Virtuell betting"
+
+# 
+msgid "Keno"
+msgstr "Keno"
+
+# 
+msgid "Connection lost. Reconnecting."
+msgstr "Anslutning förlorad. Återansluter."
+
+# 
+msgid "Connection restored"
+msgstr "Anslutning återställd"
+
+# 
+msgid "In progress"
+msgstr "Pågående"
+
+# 
+msgid "Blocked"
+msgstr "Blockerad"
+
+# 
+msgid "Calculating wins"
+msgstr "Beräknar vinst"
+
+# 
+msgid "Closed"
+msgstr "Stängd"
+
+# 
+msgid "Wrong phone number"
+msgstr "Fel telefonnummer"
+
+# 
+msgid "Invalid verification code"
+msgstr "Ogiltig verifikationskod"
+
+# 
+msgid "Code has been sent, please check your mobile phone"
+msgstr "Koden skickad, vänligen kolla din mobil telefon"
+
+# 
+msgid "APPROVED BET"
+msgstr "GODKÄNT SPEL"
+
+# 
+msgid "YOUR BET HAS BEEN APPROVED"
+msgstr "DITT SPEL GODKÄNDES"
+
+# 
+msgid "DECLINED BET"
+msgstr "EJ GODKÄNT SPEL"
+
+# 
+msgid "YOUR BET HAS BEEN DECLINED"
+msgstr "DITT SPEL GODKÄNDES EJ"
+
+# 
+msgid "Message sent"
+msgstr "Meddelande skickat"
+
+# 
+msgid "Cannot play this video in your region."
+msgstr "Det går inte att spela den här videon i din region."
+
+# 
+msgid "Cannot play video stream.Sorry."
+msgstr "Det går inte att spela videoströmmen. Ursäkta."
+
+# 
+msgid "Done"
+msgstr "Klart"
+
+# 
+msgid "Next"
+msgstr "Nästa"
+
+# 
+msgid "Previous"
+msgstr "Föregående"
+
+# 
+msgid "Skip"
+msgstr "Hoppa över"
+
+# 
+msgid "Press Ctrl + C to copy link address to clipboard"
+msgstr "Håll Ctrl + C för att kopiera länkadressen till urklipp"
+
+# 
+msgid "Feedback"
+msgstr "Feedback"
+
+# 
+msgid "Live Lottery"
+msgstr "Live lotteri"
+
+# 
+msgid "Download Beta version"
+msgstr "Download Beta version"
+
+# 
+msgid "Armenian"
+msgstr "Armenian"
+
+# 
+msgid "online"
+msgstr "online"
+
+# 
+msgid "Championship"
+msgstr "Championship"
+
+# 
+msgid "season"
+msgstr "season"
+
+# 
+msgid "choose your os"
+msgstr "choose your os"
+
+# 
+msgid "poker_requirements_linux"
+msgstr "poker_requirements_linux"
+
+# 
+msgid "poker_download_description_linux"
+msgstr "poker_download_description_linux"
+
+# 
+msgid "3 Steps To start the game"
+msgstr "3 Steps To start the game"
+
+# 
+msgid "Start"
+msgstr "Start"
+
+# 
+msgid "Download and Install"
+msgstr "Download and Install"
+
+# 
+msgid "Register your account"
+msgstr "Register your account"
+
+# 
+msgid "Start to Play"
+msgstr "Start to Play"
+
+# 
+msgid "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+msgstr "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+
+# 
+msgid "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+msgstr "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+
+# 
+msgid "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+msgstr "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+
+# 
+msgid "Note:"
+msgstr "Notera:"
+
+# 
+msgid "You can change the layout of the sportsbook in the settings."
+msgstr "Du kan ändra utseendet av sportboken i inställningar"
+
+# 
+msgid "Please note:"
+msgstr "Vänligen notera:"
+
+# 
+msgid "If previous deposit limits are increased, you must wait 24 hours until changes take effect."
+msgstr "Om ökning på tidigare insättningsgränser begärs så måste du vänta 24 timmar innan ändringarna träder i kraft."
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome "
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome "
+
+# 
+msgid "Turn on sound from settings"
+msgstr "Sätt på ljud från inställningar"
+
+# 
+msgid "Popular games"
+msgstr "Popular games"
+
+# 
+msgid "Leaderboard"
+msgstr "Leaderboard"
+
+# 
+msgid "Come play on"
+msgstr "Come play on"
+
+# 
+msgid "Enter number"
+msgstr "Enter number"
+
+# 
+msgid "Points:"
+msgstr "Poäng:"
+
+# 
+msgid "Account"
+msgstr "Konto"
+
+# 
+msgid "Quarters"
+msgstr "Quarters"
+
+# 
+msgid "Innings"
+msgstr "Innings"
+
+# 
+msgid "Periods"
+msgstr "Perioder"
+
+# 
+msgid "Sets"
+msgstr "Sets"
+
+# 
+msgid "Play Now"
+msgstr "Play Now"
+
+# 
+msgid "AOC"
+msgstr "AOC"
+
+# 
+msgid "Free Quiz"
+msgstr "Gratis frågesport"
+
+# 
+msgid "Promotions"
+msgstr "Promotions"
+
+# 
+msgid "Life tournament"
+msgstr "Life tournament"
+
+# 
+msgid "for our users"
+msgstr "for our users"
+
+# 
+msgid "system "
+msgstr "system "
+
+# 
+msgid "Middle"
+msgstr "Mellan"
+
+# 
+msgid "Jan"
+msgstr "Jan"
+
+# 
+msgid "Feb"
+msgstr "Feb"
+
+# 
+msgid "Mar"
+msgstr "Mar"
+
+# 
+msgid "Apr"
+msgstr "Apr"
+
+# 
+msgid "May"
+msgstr "Maj"
+
+# 
+msgid "Jun"
+msgstr "Jun"
+
+# 
+msgid "Jul"
+msgstr "Jul"
+
+# 
+msgid "Aug"
+msgstr "Aug"
+
+# 
+msgid "Sep"
+msgstr "Sep"
+
+# 
+msgid "Oct"
+msgstr "Okt"
+
+# 
+msgid "Nov"
+msgstr "Nov"
+
+# 
+msgid "Dec"
+msgstr "Dec"
+
+# 
+msgid "Gender "
+msgstr "Genus"
+
+# 
+msgid "This field can contain only digits and letters"
+msgstr "Detta fält kan endast innehålla siffror och bokstäver"
+
+# 
+msgid "Username "
+msgstr "Användarnamn"
+
+# 
+msgid "Password is too short"
+msgstr "Lösenord är för kort"
+
+# 
+msgid "Confirm Password"
+msgstr "Bekräfta lösenord"
+
+# 
+msgid "Registration on this site is not permitted in selected country."
+msgstr "Registrering på denna sida är ej tillåtet i det valda landet."
+
+# 
+msgid "You can register here:"
+msgstr "Registrera här:"
+
+# 
+msgid "Country code is not correct"
+msgstr "Landskoden är ej korrekt"
+
+# 
+msgid "Failed to send sms"
+msgstr "Failed to send sms"
+
+# 
+msgid "Field can contain only digits"
+msgstr "Fältet kan endast innehålla siffror"
+
+# 
+msgid "SMS Code"
+msgstr "SMS kod"
+
+# 
+msgid "Promo code"
+msgstr "Kampanjkod"
+
+# 
+msgid "Security question"
+msgstr "Säkerhetsfråga"
+
+# 
+msgid "Security answer"
+msgstr "Säkerhetssvar"
+
+# 
+msgid "I would like to receive information about bonuses and new offers via email."
+msgstr "Jag skulle vilja få information om bonusar och nya erbjudanden via email."
+
+# 
+msgid "I would like to receive information about bonuses and new offers via SMS"
+msgstr "Jag skulle vilja få information om bonusar och nya erbjudanden via SMS."
+
+# 
+msgid "Register also for poker."
+msgstr "Registrera dig också för poker."
+
+# 
+msgid "Video roundups"
+msgstr "Video sammanfattningar"
+
+# 
+msgid "Popular bets"
+msgstr "Populära spel"
+
+# 
+msgid "Use your "
+msgstr "Use your "
+
+# 
+msgid "Deberc"
+msgstr "Deberc"
+
+# 
+msgid "deposit_info_yandex"
+msgstr "deposit_info_yandex"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome"
+msgstr "Din webbläsare stöder ej filuppladdning, vänligen uppdatera webbläsaren eller använd Google Chrome"
+
+# 
+msgid "I would like to subscribe for email updates and offers from this site."
+msgstr "Jag skulle vilja prenumerera på email-uppdateringar och erbjudanden från denna sida."
+
+# 
+msgid "What was the name of your first pet?"
+msgstr "Vad var namnet på ditt första husdjur?"
+
+# 
+msgid "What age were you when you went to school?"
+msgstr "Vad var din ålder när du började i skolan?"
+
+# 
+msgid "What was the name of the city you were born in?"
+msgstr "Vad är namnet på orten som du föddes i?"
+
+# 
+msgid "What was then number of your school?"
+msgstr "Vad är namnet på din första skola?"
+
+# 
+msgid "What was then name of your first love?"
+msgstr "Vad är namnet på din första stora kärlek?"
+
+# 
+msgid "What was the make and model of your first car?"
+msgstr "Vilket märke och modell var din första bil?"
+
+# 
+msgid "deposit_info_centili"
+msgstr "Mobil betalning - Du kan enkelt och snabbt betala med telefonen. Beloppet läggs automatiskt till din mobiltelefonräkning eller dras från ditt förbetalda konto, så att du inte behöver ett kreditkort eller ett bankkonto. Betala helt enkelt med mobilen och njut! Valutor som stöds - RUB. För att göra en insättning på Bbet, fyll i belopp och sedan ditt mobiltelefonnummer. Du kommer ta emot ett SMS som ber dig bekräfta betalningen genom att besvara den med ett visst nummer. Efter bekräftelse så görs betalningen. <br><br> Läs följande:<br>1. Detta betalningssystem är bara till för Beeline (Ryssland) kunder. <br>2. Efter betalning måste det vara minst 50 RUB kvar på mobilkontot. <br>3. Kommissionen för deponering är 8%."
+
+# 
+msgid "BET_APPROVED_TITLE"
+msgstr "GODKÄNT SPEL"
+
+# 
+msgid "BET_DECLINED_TITLE"
+msgstr "EJ GODKÄNT SPEL"
+
+# 
+msgid "BET_DECLINED_MESSAGE"
+msgstr "DITT SPEL GODKÄNDES EJ"
+
+# 
+msgid "Horse Age"
+msgstr "Ålder på häst"
+
+# 
+msgid "Jockey Weight"
+msgstr "Jockey vikt"
+
+# 
+msgid "Trainer/Jokey"
+msgstr "Tränare / Jockey"
+
+# 
+msgid "Coming soon"
+msgstr "Kommer snart"
+
+# 
+msgid "You have exited website, but your page on odnoklassniki.ru is still active."
+msgstr "Du har lämnat hemsidan, men din sida på odnoklassniki.ru är fortfarande aktiv."
+
+# 
+msgid "Game is temporarily locked"
+msgstr "Spelet är tillfälligt låst"
+
+# 
+msgid "Ranking table"
+msgstr "Ranking tabell"
+
+# 
+msgid "Continue"
+msgstr "Fortsätt"
+
+# 
+msgid "Coating"
+msgstr "Beläggning"
+
+# 
+msgid "Hide Balance"
+msgstr "Göm saldo"
+
+# 
+msgid "Show Balance"
+msgstr "Visa saldo"
+
+# 
+msgid "Show Username"
+msgstr "Visa användarnamn"
+
+# 
+msgid "Hide Username"
+msgstr "Göm användarnamn"
+
+# 
+msgid "Hide statistics"
+msgstr "Göm statistik"
+
+# 
+msgid "Show statistics"
+msgstr "Visa statistik"
+
+# 
+msgid "Profile"
+msgstr "Profil"
+
+# 
+msgid "username"
+msgstr "Användarnamn"
+
+# 
+msgid "balance"
+msgstr "Saldo"
+
+# 
+msgid "help"
+msgstr "hjälp"
+
+# 
+msgid "single"
+msgstr "singel"
+
+# 
+msgid "Live Dealer"
+msgstr "Live dealer"
+
+# 
+msgid "Invite"
+msgstr "Bjud in"
+
+# 
+msgid "Sign up with your Facebook account"
+msgstr "Öppna konto med ditt Facebook konto"
+
+# 
+msgid "Username(in case you'll want to login without facebook)"
+msgstr "Användarnamn (utifall du vill kunna logga in utan ditt Facebook konto)"
+
+# 
+msgid "withdraw_info_wirecard"
+msgstr "uttag_info_wirecard"
+
+# 
+msgid "Turf"
+msgstr "Gräs"
+
+# 
+msgid "Dirt"
+msgstr "Jord"
+
+# 
+msgid "Polytrack"
+msgstr "Polytrack"
+
+# 
+msgid "yards"
+msgstr "yards"
+
+# 
+msgid "Sound:"
+msgstr "Ljud:"
+
+# 
+msgid "Part of bet placed from bonus."
+msgstr "Del av spelet placerat från bonus."
+
+# 
+msgid "Live chat / FAQ"
+msgstr "Live chat / FAQ"
+
+# 
+msgid "id:"
+msgstr "id:"
+
+# 
+msgid "DEMO MODE"
+msgstr "DEMO LÄGE"
+
+# 
+msgid "Exchange"
+msgstr "Växla"
+
+# 
+msgid "Duplicate product"
+msgstr "Vänligen välj olika produkter för överföring"
+
+# 
+msgid "Wrong Password"
+msgstr "Fel lösenord"
+
+# 
+msgid "Wrong Amount"
+msgstr "Fel belopp"
+
+# 
+msgid "Product not allowed"
+msgstr "Produkt ej tillåten"
+
+# 
+msgid "Upccomming events"
+msgstr "Kommande events"
+
+# 
+msgid "Add to BetSlip"
+msgstr "Lägg till spelkupong"
+
+# 
+msgid "deposit_info_megapay"
+msgstr "<p><b>\"Mega Panther\" LLC</b> är en betalningsorganisation som representerar <b>MegaPay</b>. Systemet fungerar genom betalterminaler. Via betalterminaler kan du betala för mobil och fast telefoni, gas, vatten, el, internet, IP-telefoni, kommersiell TV, <b>Bbet</b> ,&nbsp;and etc. Betalterminaler är det mest moderna sättet att betala dina räkningar, snabbt och enkelt. På grund av dessa moderna metoder för dialog-konstruktion med kunden, så är processen för finansiella transaktioner tillgängliga, enkla, och ger en möjlighet att ta sig an maximalt antal kunder på kort tid. Det finns inget behov av särskild förklaring till att använda dessa terminaler. Vem som helst kan genomföra verksamheten genom terminalerna, det är tillräckligt för att följa texten och de grafiska instruktionerna på skärmen. </p><p> Alla betalningar görs i online-driftläge med ett enkelt klick på skärmen. För alla typer av betalningar via <b>MegaPay</b> systemet, tas ingen provision - <span class=\"CRed\"><strong>0%</strong></span>.</p><p>Betalningsystemet <b>MegaPay</b> är en optimal ekonomisk och teknisk lösning, och betalterminalen ger komfort tillsammans med tillgänglighet. </p><p>Mega Panther<b> LLC </b> skapades med stabil programvara som ständigt förbättras för terminaler, och vår övervakningsgrupp observera terminalerna hela tiden för att minska eventuella fel. </p><p> Stor del av framgången för alla företag bygger på nöjda kunder. Med detta i åtanke strävar<b>Mega Panther LLC</b> mot ständig förbättring för betalningssystemet <b>MegaPay</b>.  <b>MegaPay</b>ökar effektiviteten av betalterminaler hela tiden samt arbetar med sina kunder genom ett US call-center. Resultatet är att varje dag växer inte bara mängden av tjänster som erbjuds, utan även antalet nöjda och lojala kunder. </p>"
+
+# 
+msgid "deposit_info_osmp"
+msgstr "<p>\"OSMP\" LLC (United System of Instant Payments) - Armeniska representationskontor  för Ryska \"OSMP\" CJSC som sattes upp i september, 2007.<br>RA Central Bank’s № 9 licens från 22:a april, 2008 (payment system). RA Central Bank’s № 5 licens från 22:a april, 2008 (bearbetning och clearing av betalningar)<br>Systemet organiserar godkännande av betalningar för följande tjänster:<br>- mobila anslutningar: Beeline, VivaCell-MTS;<br>- fixerade anslutningar;<br>- bookmaker kontor (Vivarobet)<br>- betalningssystem (EDram) <br>- VoIP service (Kargin kap) – <strong>Ny</strong>. <br>- gaz service (ArmRusgazprom) – <strong>Ny.</strong></p><p>Sedan 01.12.08, 28 fungerar betalterminaler som ligger i olika distrikt i Yerevan och Ashtarak i systemet. <br>Ryska \"OSMP\" CJSC grundades 2004. De har betalningsmottagningsställe i alla regioner i Ryssland. Bortsett från Armenien så har bolaget fungerande betalningssystem i Georgien, Kazakstan, Tadzjikistan, Uzbekistan, Ukraina, Moldavien, Vitryssland. </p>"
+
+# 
+msgid "Canceled"
+msgstr "Avbruten"
+
+# 
+msgid "Depost Amount"
+msgstr "Insättningsbelopp"
+
+# 
+msgid "Active"
+msgstr "Aktiv"
+
+# 
+msgid "Fixed"
+msgstr "Bestämd"
+
+# 
+msgid "Payed"
+msgstr "Betalad"
+
+# 
+msgid "will start in"
+msgstr "Startar om"
+
+# 
+msgid "Frames"
+msgstr "Ramar"
+
+# 
+msgid "Last update:"
+msgstr "Senaste uppdatering:"
+
+# 
+msgid "OnePoint"
+msgstr "EnPoäng"
+
+# 
+msgid "TwoPoints"
+msgstr "TvåPoäng"
+
+# 
+msgid "ThreePoints"
+msgstr "TrePoäng"
+
+# 
+msgid "0 Half"
+msgstr "0 Halvlek"
+
+# 
+msgid "1st Half"
+msgstr "1:a halvlek"
+
+# 
+msgid "2nd Half"
+msgstr "2:a halvlek"
+
+# 
+msgid "Additional Time1"
+msgstr "Extratid1"
+
+# 
+msgid "Additional Time2"
+msgstr "Extratid2"
+
+# 
+msgid "Waiting"
+msgstr "Väntar"
+
+# 
+msgid "Round"
+msgstr "Runda"
+
+# 
+msgid "Round 0"
+msgstr "Runda 0"
+
+# 
+msgid "Round 1"
+msgstr "1:a rundan"
+
+# 
+msgid "Round 2"
+msgstr "2:a rundan"
+
+# 
+msgid "Round 3"
+msgstr "3:e rundan"
+
+# 
+msgid "Round 4"
+msgstr "4:e rundan"
+
+# 
+msgid "Round 5"
+msgstr "5:e rundan"
+
+# 
+msgid "Round 6"
+msgstr "6:e rundan"
+
+# 
+msgid "Round 7"
+msgstr "7:e rundan"
+
+# 
+msgid "Round 8"
+msgstr "8:e rundan"
+
+# 
+msgid "Round 9"
+msgstr "9:e rundan"
+
+# 
+msgid "Round 10"
+msgstr "10:e rundan"
+
+# 
+msgid "Round 11"
+msgstr "11:e rundan"
+
+# 
+msgid "Round 12"
+msgstr "12:e rundan"
+
+# 
+msgid "Set 0"
+msgstr "Set 0"
+
+# 
+msgid "Set 1"
+msgstr "1:a set"
+
+# 
+msgid "Set 2"
+msgstr "2:a set"
+
+# 
+msgid "Set 3"
+msgstr "3:e set"
+
+# 
+msgid "Set 4"
+msgstr "4:e set"
+
+# 
+msgid "Set 5"
+msgstr "5:e set"
+
+# 
+msgid "Set 6"
+msgstr "6:e set"
+
+# 
+msgid "Set 7"
+msgstr "7:e set"
+
+# 
+msgid "Set 8"
+msgstr "8:e set"
+
+# 
+msgid "Set 9"
+msgstr "9:e set"
+
+# 
+msgid "Set 10"
+msgstr "10:e set"
+
+# 
+msgid "Period 0"
+msgstr "Period 0"
+
+# 
+msgid "Period 1"
+msgstr "1:a perioden"
+
+# 
+msgid "Period 2"
+msgstr "2:a perioden"
+
+# 
+msgid "Period 3"
+msgstr "3:e perioden"
+
+# 
+msgid "Quarter 0"
+msgstr "Quarter 0"
+
+# 
+msgid "Quarter 1"
+msgstr "1:a quartern"
+
+# 
+msgid "Quarter 2"
+msgstr "2:a quartern"
+
+# 
+msgid "Quarter 3"
+msgstr "3:e quartern"
+
+# 
+msgid "Quarter 4"
+msgstr "4:e quartern"
+
+# 
+msgid "Inning 0"
+msgstr "Inning 0"
+
+# 
+msgid "1st Inning"
+msgstr "1:a inning"
+
+# 
+msgid "2nd Inning"
+msgstr "2:a inning"
+
+# 
+msgid "3rd Inning"
+msgstr "3:e inning"
+
+# 
+msgid "4th Inning"
+msgstr "4:e inning"
+
+# 
+msgid "5th Inning"
+msgstr "5:e inning"
+
+# 
+msgid "6th Inning"
+msgstr "6:e inning"
+
+# 
+msgid "7th Inning"
+msgstr "7:e inning"
+
+# 
+msgid "8th Inning"
+msgstr "8:e inning"
+
+# 
+msgid "9th Inning"
+msgstr "9:e inning"
+
+# 
+msgid "10th Inning"
+msgstr "10:e inning"
+
+# 
+msgid "11th Inning"
+msgstr "11:e inning"
+
+# 
+msgid "12th Inning"
+msgstr "12:e inning"
+
+# 
+msgid "13th Inning"
+msgstr "13:e inning"
+
+# 
+msgid "14th Inning"
+msgstr "14:e inning"
+
+# 
+msgid "15th Inning"
+msgstr "15:e inning"
+
+# 
+msgid "16th Inning"
+msgstr "16:e inning"
+
+# 
+msgid "17th Inning"
+msgstr "17:e inning"
+
+# 
+msgid "18th Inning"
+msgstr "18:e inning"
+
+# 
+msgid "19th Inning"
+msgstr "19:e inning"
+
+# 
+msgid "20th Inning"
+msgstr "20:e inning"
+
+# 
+msgid "21th Inning"
+msgstr "21:a inning"
+
+# 
+msgid "22th Inning"
+msgstr "22:a inning"
+
+# 
+msgid "23th Inning"
+msgstr "23:e inning"
+
+# 
+msgid "24th Inning"
+msgstr "24:e inning"
+
+# 
+msgid "25th Inning"
+msgstr "25:e inning"
+
+# 
+msgid "Time 0"
+msgstr "Tid 0"
+
+# 
+msgid "Time 1"
+msgstr "1:a tid"
+
+# 
+msgid "Time 2"
+msgstr "2:a tid"
+
+# 
+msgid "Frame 0"
+msgstr "Frame 0"
+
+# 
+msgid "Frame 1"
+msgstr "1:a frame"
+
+# 
+msgid "Frame 2"
+msgstr "2:a frame"
+
+# 
+msgid "Frame 3"
+msgstr "3:e frame"
+
+# 
+msgid "Frame 4"
+msgstr "4:e frame"
+
+# 
+msgid "Frame 5"
+msgstr "5:e frame"
+
+# 
+msgid "Frame 6"
+msgstr "6:e frame"
+
+# 
+msgid "Frame 7"
+msgstr "7:e frame"
+
+# 
+msgid "Frame 8"
+msgstr "8:e frame"
+
+# 
+msgid "Frame 9"
+msgstr "9:e frame"
+
+# 
+msgid "Frame 10"
+msgstr "10:e frame"
+
+# 
+msgid "Frame 11"
+msgstr "11:e frame"
+
+# 
+msgid "Frame 12"
+msgstr "12:e frame"
+
+# 
+msgid "Frame 13"
+msgstr "13:e frame"
+
+# 
+msgid "Frame 14"
+msgstr "14:e frame"
+
+# 
+msgid "Frame 15"
+msgstr "15:e frame"
+
+# 
+msgid "Frame 16"
+msgstr "16:e frame"
+
+# 
+msgid "Frame 17"
+msgstr "17:e frame"
+
+# 
+msgid "Frame 18"
+msgstr "18:e frame"
+
+# 
+msgid "Frame 19"
+msgstr "19:e frame"
+
+# 
+msgid "Frame 20"
+msgstr "20:e frame"
+
+# 
+msgid "Frame 21"
+msgstr "21:a frame"
+
+# 
+msgid "Frame 22"
+msgstr "22:a frame"
+
+# 
+msgid "Frame 23"
+msgstr "23:e frame"
+
+# 
+msgid "Frame 24"
+msgstr "24:e frame"
+
+# 
+msgid "Frame 25"
+msgstr "25:e frame"
+
+# 
+msgid "Frame 26"
+msgstr "26:e frame"
+
+# 
+msgid "Frame 27"
+msgstr "27:e frame"
+
+# 
+msgid "Frame 28"
+msgstr "28:e frame"
+
+# 
+msgid "Frame 29"
+msgstr "29:e frame"
+
+# 
+msgid "Frame 30"
+msgstr "30:e frame"
+
+# 
+msgid "Frame 31"
+msgstr "31:a frame"
+
+# 
+msgid "Frame 32"
+msgstr "32:a frame"
+
+# 
+msgid "Frame 33"
+msgstr "33:e frame"
+
+# 
+msgid "Frame 34"
+msgstr "34:e frame"
+
+# 
+msgid "Frame 35"
+msgstr "35:e frame"
+
+# 
+msgid "Frame 36"
+msgstr "36:e frame"
+
+# 
+msgid "Frame 37"
+msgstr "37:e frame"
+
+# 
+msgid "Frame 38"
+msgstr "38:e frame"
+
+# 
+msgid "Frame 39"
+msgstr "39:e frame"
+
+# 
+msgid "Period 4"
+msgstr "4:e perioden"
+
+# 
+msgid "Period 5"
+msgstr "5:e perioden"
+
+# 
+msgid "Period 6"
+msgstr "6:e perioden"
+
+# 
+msgid "Game 0"
+msgstr "Game 0"
+
+# 
+msgid "Game 1"
+msgstr "1:a game"
+
+# 
+msgid "Game 2"
+msgstr "2:a game"
+
+# 
+msgid "Game 3"
+msgstr "3:e game"
+
+# 
+msgid "Game 4"
+msgstr "4:e game"
+
+# 
+msgid "Game 5"
+msgstr "5:e game"
+
+# 
+msgid "Set 11"
+msgstr "11:e set"
+
+# 
+msgid "Set 12"
+msgstr "12.e set"
+
+# 
+msgid "Set 13"
+msgstr "13:e set"
+
+# 
+msgid "Set 14"
+msgstr "14.e set"
+
+# 
+msgid "Set 15"
+msgstr "15:e set"
+
+# 
+msgid "Set 16"
+msgstr "16:e set"
+
+# 
+msgid "Set 17"
+msgstr "17.e set"
+
+# 
+msgid "Set 18"
+msgstr "18:e set"
+
+# 
+msgid "Set 19"
+msgstr "19:e set"
+
+# 
+msgid "Set 20"
+msgstr "20:e set"
+
+# 
+msgid "Events"
+msgstr "Events"
+
+# 
+msgid "SHOW"
+msgstr "VISA"
+
+# 
+msgid "In-Play"
+msgstr "Livespel"
+
+# 
+msgid "Id"
+msgstr "Id"
+
+# 
+msgid "To place your bet, please log in"
+msgstr "För att placera ett spel, vänligen logga in"
+
+# 
+msgid "Win % 1 st Service"
+msgstr "Vinst % 1:a serve"
+
+# 
+msgid "Break Point Conversions"
+msgstr "Breakpoint konverteringar"
+
+# 
+msgid "Your bet is not accepted"
+msgstr "Ditt bet är ej accepterat"
+
+# 
+msgid "TransferProduct:\nERROR_LOW_BALANCE"
+msgstr "TransferProduct:\nERROR_LOW_BALANCE"
+
+# 
+msgid "this field is required"
+msgstr "detta fält krävs"
+
+# 
+msgid "Invalid payee"
+msgstr "Ogiltig betalningsmottagare"
+
+# 
+msgid "Invalid payer"
+msgstr "Ogiltig betalare"
+
+# 
+msgid "ok"
+msgstr "ok"
+
+# 
+msgid "Email Address or Username"
+msgstr "Emailadress eller användarnamn"
+
+# 
+msgid "Terms &amp; Conditions"
+msgstr "Regler &amp; villkor"
+
+# 
+msgid "TransferProductRROR_LOW_BALANCE"
+msgstr "Ditt saldo är ej tillräckligt för detta"
+
+# 
+msgid "FEATURED GAMES"
+msgstr "UTVALDA SPEL"
+
+# 
+msgid "Welcome"
+msgstr "Välkommen"
+
+# 
+msgid "Join us now!"
+msgstr "Öppna konto nu!"
+
+# 
+msgid "Cashier"
+msgstr "Cashier"
+
+# 
+msgid "new"
+msgstr "Ny"
+
+# 
+msgid "Not a valid password"
+msgstr "Lösenord ej giltigt"
+
+# 
+msgid "Available/Withdrawable"
+msgstr "Tillgängligt/Uttagsbart"
+
+# 
+msgid "bet id:"
+msgstr "bet id:"
+
+# 
+msgid "automatically accept price changes"
+msgstr "acceptera prisförändringar automatiskt"
+
+# 
+msgid "incompatible events"
+msgstr "inkompatibla events"
+
+# 
+msgid "there are deleted events"
+msgstr "det finns raderade events"
+
+# 
+msgid "prices for some events have changed"
+msgstr "priserna för vissa events har ändrats"
+
+# 
+msgid "Accept changes"
+msgstr "Acceptera ändringar"
+
+# 
+msgid "You need to sign in to be able to place bets"
+msgstr "Du måste logga in för att kunna placera bets"
+
+# 
+msgid "Invalid recipient"
+msgstr "Ogiltig mottagare"
+
+# 
+msgid "deposit_info_mastercard"
+msgstr "insättning_info_mastercard"
+
+# 
+msgid "withdraw_info_mastercard"
+msgstr "uttag_info_mastercard"
+
+# 
+msgid "label_card_number"
+msgstr "etikett_kort_nummer"
+
+# 
+msgid "deposit_info_visa"
+msgstr "insättning_info_visa"
+
+# 
+msgid "withdraw_info_visa"
+msgstr "uttag_info_visa"
+
+# 
+msgid "deposit_info_paypal"
+msgstr "insättning_info_paypal"
+
+# 
+msgid "withdraw_info_paypal"
+msgstr "uttag_info_paypal"
+
+# 
+msgid "Select one"
+msgstr "Välj en"
+
+# 
+msgid "Deposit Amount (USD)"
+msgstr "Insättningsbelopp (USD)"
+
+# 
+msgid "Attach"
+msgstr "Bifoga"
+
+# 
+msgid "Middle Name"
+msgstr "Mellannamn"
+
+#
+msgid "Middle name"
+msgstr "Mellannamn"
+
+# 
+msgid "prevew"
+msgstr "Förhandsvisa"
+
+# 
+msgid "Full Name"
+msgstr "Fullständigt namn"
+
+# 
+msgid "Select your country"
+msgstr "Välj ditt land"
+
+# 
+msgid "Select your currency"
+msgstr "Välj din valuta"
+
+# 
+msgid "Enter the text here"
+msgstr "Ange texten här"
+
+# 
+msgid "I would like to subbscribe for email updates and offeres from VBET."
+msgstr "Jag skulle vilja prenumerera på email-uppdateringar och erbjudanden från Bbet."
+
+# 
+msgid "message_ONHOLD"
+msgstr "Väntar bekräftelse"
+
+# 
+msgid "message_CHANGE_ODD"
+msgstr "Odds har ändrats"
+
+# 
+msgid "message_EVENT_LOCKED"
+msgstr "Detta event är låst"
+
+# 
+msgid "message_LIMIT_ERROR"
+msgstr "Det finns en odds korrigering"
+
+# 
+msgid "message_GAME_STARTED"
+msgstr "Matchen startad"
+
+# 
+msgid "message_1000"
+msgstr "Internt fel"
+
+# 
+msgid "message_1001"
+msgstr "Noll värde för argument"
+
+# 
+msgid "message_1003"
+msgstr "Fel login/lösenord"
+
+# 
+msgid "message_1004"
+msgstr "Användare blockerad"
+
+# 
+msgid "message_1006"
+msgstr "Lösenord fel"
+
+# 
+msgid "message_1008"
+msgstr "Logga in på sidan är inte möjligt eftersom du inte har aktiverat ditt konto från din email."
+
+# 
+msgid "message_1009"
+msgstr "En sådan verifikationskod existerar ej."
+
+# 
+msgid "message_1099"
+msgstr "Fork undantag"
+
+# 
+msgid "message_1100"
+msgstr "Matchen har redan startat"
+
+# 
+msgid "message_1102"
+msgstr "Starttiden är redan passerad"
+
+# 
+msgid "message_1103"
+msgstr "Tiden för ändringar är redan passerad"
+
+# 
+msgid "message_1104"
+msgstr "Spelet är betalt"
+
+# 
+msgid "message_1105"
+msgstr "Bet status ej fast"
+
+# 
+msgid "message_1106"
+msgstr "Bet förlust"
+
+# 
+msgid "message_1107"
+msgstr "Bet är online"
+
+# 
+msgid "message_1108"
+msgstr "Fel värde för koefficienten"
+
+# 
+msgid "message_1109"
+msgstr "Fel värde för beloppet"
+
+# 
+msgid "message_1112"
+msgstr "Begäran är redan betald!"
+
+# 
+msgid "message_1113"
+msgstr "Begäran är redan annullerad"
+
+# 
+msgid "message_1114"
+msgstr "Kortplatsen blockerad!"
+
+# 
+msgid "message_1115"
+msgstr "Kort blockerat!"
+
+# 
+msgid "message_1116"
+msgstr "Kort aktiverat!"
+
+# 
+msgid "message_1117"
+msgstr "Felaktigt login eller email"
+
+# 
+msgid "message_1118"
+msgstr "Duplicerat login"
+
+# 
+msgid "message_1150"
+msgstr "Du är ännu inte tillåten att satsa på detta event"
+
+# 
+msgid "message_1200"
+msgstr "Fel värde undantag"
+
+# 
+msgid "message_1300"
+msgstr "Dubbelt värde undantag"
+
+# 
+msgid "message_1400"
+msgstr "Dubbla event undantag"
+
+# 
+msgid "message_1510"
+msgstr "Begränsning undantag"
+
+# 
+msgid "message_1500"
+msgstr "Insatsen överstiger högsta tillåtna gränsen"
+
+# 
+msgid "message_1550"
+msgstr "Summan överstiger högsta tillåtna gränsen"
+
+# 
+msgid "message_1560"
+msgstr "Summan understiger minsta tillåtna gränsen"
+
+# 
+msgid "message_1600"
+msgstr "En korrigering av koefficienter utförs."
+
+# 
+msgid "message_1700"
+msgstr "Fel tillträde undentag"
+
+# 
+msgid "message_1800"
+msgstr "Oddset har ändrats"
+
+# 
+msgid "message_1900"
+msgstr "The events can be included only in the multiple type of bet"
+
+# 
+msgid "message_1910"
+msgstr "The events can be included only in the ordinar type of bet"
+
+# 
+msgid "message_2000"
+msgstr "Odds restriction exception"
+
+# 
+msgid "message_2100"
+msgstr "Payment restriction exception"
+
+# 
+msgid "message_2200"
+msgstr "Client limit exception"
+
+# 
+msgid "message_2300"
+msgstr "Office limit exception"
+
+# 
+msgid "message_2400"
+msgstr "Otillräckligt saldo"
+
+# 
+msgid "message_2403"
+msgstr "Det finns aktiva förfrågningar om denna klient"
+
+# 
+msgid "Sex"
+msgstr "Kön"
+
+# 
+msgid "Bermudas"
+msgstr "Bermudas"
+
+# 
+msgid "Butane"
+msgstr "Butane"
+
+# 
+msgid "East Timor"
+msgstr "East Timor"
+
+# 
+msgid "Papua - New Guinea"
+msgstr "Papua - New Guinea"
+
+# 
+msgid "South Africa"
+msgstr "South Africa"
+
+# 
+msgid "St. Lucia"
+msgstr "St. Lucia"
+
+# 
+msgid "Surinam"
+msgstr "Surinam"
+
+# 
+msgid "Tongo"
+msgstr "Tongo"
+
+# 
+msgid "The Cayman Islands"
+msgstr "The Cayman Islands"
+
+# 
+msgid "The Central African Republic"
+msgstr "The Central African Republic"
+
+# 
+msgid "The Cook Islands"
+msgstr "The Cook Islands"
+
+# 
+msgid "The Democratic Republic of the Congo"
+msgstr "The Democratic Republic of the Congo"
+
+# 
+msgid "Sent Messages"
+msgstr "Skickade meddelanden"
+
+# 
+msgid "New Message"
+msgstr "Nytt meddelande"
+
+# 
+msgid "Clear Bet Slip to activate Qiuck Bet"
+msgstr "Rensa spelkupongen för att aktivera snabbspel"
+
+# 
+msgid "Other"
+msgstr "Övriga"
+
+# 
+msgid "There is no downloadable client for your operating system"
+msgstr "Det finns ingen nedladdningsbar klient för ditt operativsystem"
+
+# 
+msgid "message_1110"
+msgstr "message_1110"
+
+# 
+msgid "message_2406"
+msgstr "Spelaren är självutesluten från att satsa"
+
+# 
+msgid "Reset"
+msgstr "Återställ"
+
+# 
+msgid "Switch to "
+msgstr "Byt till "
+
+# 
+msgid "Conditional bet"
+msgstr "Betingade bet"
+
+# 
+msgid "Odd..."
+msgstr "Odd..."
+
+# 
+msgid "Score:"
+msgstr "Resultat:"
+
+# 
+msgid "3D  Slots"
+msgstr "3D slots"
+
+# 
+msgid "Film Slot"
+msgstr "Film slots"
+
+# 
+msgid "Instant Win"
+msgstr "Omedelbar vinst"
+
+# 
+msgid "Table Games"
+msgstr "Bordsspel"
+
+# 
+msgid "Top Slots"
+msgstr "Top slots"
+
+# 
+msgid "TvGames"
+msgstr "TvGames"
+
+# 
+msgid "Video Poker"
+msgstr "Video poker"
+
+# 
+msgid "Other Games"
+msgstr "Övriga spel"
+
+# 
+msgid "Progressive"
+msgstr "Progressive"
+
+# 
+msgid "Add more events to be able to place bet "
+msgstr "Lägg till fler event för att kunna spela"
+
+# 
+msgid "Depost Amount (USD)"
+msgstr "Insättningsbelopp (USD)"
+
+# 
+msgid "1 hours"
+msgstr "1 timme"
+
+# 
+msgid "2 hours"
+msgstr "2 timmar"
+
+# 
+msgid "3 hours"
+msgstr "3 timmar"
+
+# 
+msgid "5 hours"
+msgstr "5 timmar"
+
+# 
+msgid "6 hours"
+msgstr "6 timmar"
+
+# 
+msgid "48 hours"
+msgstr "48 timmar"
+
+# 
+msgid "72 hours"
+msgstr "72 timmar"
+
+# 
+msgid "User age is under minimum allowed."
+msgstr "Användarålder är under den tillåtna gränsen."
+
+# 
+msgid "Please close {1} game(s) to change view"
+msgstr "Vänligen stäng {1} spel för att ändra vy"
+
+# 
+msgid "One Game View"
+msgstr "1-spelsvy"
+
+# 
+msgid "Two Games View"
+msgstr "2-spelsvy"
+
+# 
+msgid "Four Games View"
+msgstr "4-spelsvy"
+
+# 
+msgid "Open In Pop-Up Window"
+msgstr "Öppna i pop-up fönster"
+
+# 
+msgid "Add a Game"
+msgstr "Lägg till spel"
+
+# 
+msgid "Durak"
+msgstr "Durak"
+
+# 
+msgid "Preferans"
+msgstr "Preferans"
+
+# 
+msgid "Domino"
+msgstr "Domino"
+
+# 
+msgid "Sea Battle"
+msgstr "Sjöslag"
+
+# 
+msgid "Refresh"
+msgstr "Förnya"
+
+# 
+msgid "multiple"
+msgstr "Multipel"
+
+# 
+msgid "livecasino_101_1"
+msgstr "Live BlackJack A"
+
+# 
+msgid "livecasino_101_2"
+msgstr "Live BlackJack B"
+
+# 
+msgid "livecasino_101_3"
+msgstr "Live BlackJack C"
+
+# 
+msgid "livecasino_101_4"
+msgstr "Live BlackJack D"
+
+# 
+msgid "livecasino_102"
+msgstr "Live Roulette"
+
+# 
+msgid "livecasino_103"
+msgstr "Live Baccarat"
+
+# 
+msgid "livecasino_104"
+msgstr "Live Bet on Poker"
+
+# 
+msgid "AllWeather"
+msgstr "Alla väder"
+
+# 
+msgid "N_H_Flat"
+msgstr "NH flat"
+
+# 
+msgid "Game Balance:"
+msgstr "Spelsaldo:"
+
+# 
+msgid " Horse"
+msgstr " Häst"
+
+# 
+msgid " Jockey"
+msgstr " Jockey"
+
+# 
+msgid " Jockey Weight"
+msgstr " Jockey vikt"
+
+# 
+msgid "Name *"
+msgstr "Namn *"
+
+# 
+msgid "Birth date *"
+msgstr "Födelsedag *"
+
+# 
+msgid "Gender *"
+msgstr "Kön *"
+
+# 
+msgid "Passport Number *"
+msgstr "Passnummer *"
+
+# 
+msgid "Username *"
+msgstr "Användarnamn *"
+
+# 
+msgid "Password *"
+msgstr "Lösenord *"
+
+# 
+msgid "Confirm Password *"
+msgstr "Bekräfta lösenord *"
+
+# 
+msgid "Email Address *"
+msgstr "Email adress *"
+
+# 
+msgid "Country *"
+msgstr "Land *"
+
+# 
+msgid "City *"
+msgstr "Stad *"
+
+# 
+msgid "Address *"
+msgstr "Adress *"
+
+# 
+msgid "Contact number *"
+msgstr "Kontaktnummer *"
+
+# 
+msgid "Currency *"
+msgstr "Valuta *"
+
+# 
+msgid "SMS Code *"
+msgstr "SMS kod *"
+
+# 
+msgid " 0"
+msgstr " 0"
+
+# 
+msgid "47 hours"
+msgstr "47 timmar"
+
+# 
+msgid "We are not accepting bets on this game at the moment."
+msgstr "Vi accepterar inte bets på det här spelet just nu."
+
+# 
+msgid "Lottery Games"
+msgstr "Lottery Games"
+
+# 
+msgid "MiniGames"
+msgstr "Mini Games"
+
+# 
+msgid "Casual Games"
+msgstr "Casual Games"
+
+# 
+msgid "Classic Slots"
+msgstr "Classic Slots"
+
+# 
+msgid "VideoSlots"
+msgstr "Video Slots"
+
+# 
+msgid "10.000 E GTD tournament"
+msgstr "10.000 E GTD tournament"
+
+# 
+msgid "5.371.400 AMD GTD tournament"
+msgstr "5.371.400 AMD GTD tournament"
+
+# 
+msgid "All OS"
+msgstr "All OS"
+
+# 
+msgid "Your Booking is ready !"
+msgstr "Your Booking is ready !"
+
+# 
+msgid "Make a Deposit"
+msgstr "Make a Deposit"
+
+# 
+msgid "  Modern"
+msgstr "  Modern"
+
+# 
+msgid " Classic"
+msgstr " Classic"
+
+# 
+msgid " Asian"
+msgstr " Asian"
+
+# 
+msgid " Eastern"
+msgstr " Eastern"
+
+# 
+msgid "Event details"
+msgstr "Event details"
+
+# 
+msgid "5.950.000 AMD GTD tournament"
+msgstr "5.950.000 AMD GTD tournament"
+
+# 
+msgid "tell me more"
+msgstr "tell me more"
+
+# 
+msgid "What was the number of your school?"
+msgstr "What was the number of your school?"
+
+# 
+msgid "What was the name of your first love?"
+msgstr "What was the name of your first love?"
+
+# 
+msgid "message_1026"
+msgstr "message_1026"
+
+# 
+msgid "Confirmed"
+msgstr "Confirmed"
+
+# 
+msgid "Scratch Games"
+msgstr "Scratch Games"
+
+# 
+msgid "Jackpot Slot"
+msgstr "Jackpot Slot"
+
+# 
+msgid "Password should contain at least 8 characters"
+msgstr "Password should contain at least 8 characters"
+
+# 
+msgid "Password should contain at least 8 characters."
+msgstr "Password should contain at least 8 characters."
+
+# 
+msgid "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "backgammon"
+msgstr "backgammon"
+
+# 
+msgid "Top 10 sports"
+msgstr "Top 10 sports"
+
+# 
+msgid "Your request is accepted."
+msgstr "Your request is accepted."
+
+# 
+msgid "Your request is declined."
+msgstr "Your request is declined."
+
+# 
+msgid "Join Now"
+msgstr "Join Now"
+
+# 
+msgid "VGS"
+msgstr "VGS"
+
+# 
+msgid "NET"
+msgstr "NET"
+
+# 
+msgid "MGS"
+msgstr "MGS"
+
+# 
+msgid "EZG"
+msgstr "EZG"
+
+# 
+msgid "Cash-out Temporary unavailable"
+msgstr "Cash-out Temporary unavailable"
+
+# 
+msgid "This field cannot be edited."
+msgstr "This field cannot be edited."
+
+# 
+msgid "Pin/Unpin"
+msgstr "Pin/Unpin"
+
+# 
+msgid "Thank you for choosing Vivaro.<br/>Our Live Chat support is at your disposal  24 hours a day."
+msgstr "Thank you for choosing Vivaro.<br/>Our Live Chat support is at your disposal  24 hours a day."
+
+# 
+msgid "Live Roulette"
+msgstr "Live Roulette"
+
+# 
+msgid "Live BlackJack"
+msgstr "Live BlackJack"
+
+# 
+msgid "Live Baccarat"
+msgstr "Live Baccarat"
+
+# 
+msgid "Live Bet on Poker"
+msgstr "Live Bet on Poker"
+
+# 
+msgid "Welcome to Vivarobet"
+msgstr "Welcome to Vivarobet"
+
+# 
+msgid "Your Booking ID is:"
+msgstr "Your Booking ID is:"
+
+# 
+msgid "Dear valued customer"
+msgstr "Dear valued customer"
+
+# 
+msgid "<p>You have entered the Vivaro Betting website. This company provides services to clients within territory of the republic of Armenia.</p><p>We suggest you redirect to Vbet.com, the site meant for international players.</p>"
+msgstr "<p>You have entered the Vivaro Betting website. This company provides services to clients within territory of the republic of Armenia.</p><p>We suggest you redirect to Vbet.com, the site meant for international players.</p>"
+
+# 
+msgid "Stay on VivaroBet.am"
+msgstr "Stay on VivaroBet.am"
+
+# 
+msgid "Redirect to Vbet.com"
+msgstr "Redirect to Vbet.com"
+
+# 
+msgid "Total Goals"
+msgstr "Total Goals"
+
+# 
+msgid "FUTURE"
+msgstr "FUTURE"
+
+# 
+msgid "LIVE"
+msgstr "LIVE"
+
+# 
+msgid "TODAY"
+msgstr "TODAY"
+
+# 
+msgid "message_1510_sb"
+msgstr "message_1510_sb"
+
+# 
+msgid "Your superbet ({1}) request is accepted"
+msgstr "Your superbet ({1}) request is accepted"
+
+# 
+msgid "Your superbet ({1}) request is declined"
+msgstr "Your superbet ({1}) request is declined"
+
+# 
+msgid "Email/Account Id "
+msgstr "Email/Account Id "
+
+# 
+msgid "Secure Id/Authentication code"
+msgstr "Secure Id/Authentication code"
+
+# 
+msgid "Please select a bet-shop from the list."
+msgstr "Please select a bet-shop from the list."
+
+# 
+msgid "Live Bet on Baccarat"
+msgstr "Live Bet on Baccarat"
+
+# 
+msgid "id:Â "
+msgstr "id:Â "
+
+# 
+msgid "â"
+msgstr "â"
+
+#
+msgid "Live Casino"
+msgstr "Live Casino"
+
+#
+msgid "Every week Jackpot"
+msgstr "Every week Jackpot"
+
+#
+msgid "points"
+msgstr "points"
+
+#
+msgid "Don`t show again"
+msgstr "Don`t show again"
+
+#
+msgid "Show more"
+msgstr "Show more"

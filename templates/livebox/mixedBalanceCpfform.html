@@ -1,0 +1,747 @@
+<div class="info-scroll-contain-b-new" ng-controller="mixedBalanceCtrl"   ng-class="{'mixedBalanceHistory-j':env.sliderContent === 'balanceHistory'}" no-animate>
+    <div class="any-tabs-wrapper-b">
+        <div class="group-tabs-wrapper">
+            <div class="first-level-history-tab">
+                <ul>
+                    <li ng-click="env.sliderContent = 'cashier'" ng-if="conf.transferEnabled && env.authorized" ng-class="{'active':env.sliderContent === 'cashier'}" ><span trans>Wallet</span></li>
+                    <li ng-click="env.sliderContent = 'deposit'; " ng-class="{'active':env.sliderContent === 'deposit'}"><span trans>Deposit</span></li>
+                    <li ng-click="env.sliderContent = 'withdraw';" ng-class="{'active':env.sliderContent === 'withdraw'}"><span trans>Withdraw</span></li>
+                    <li ng-click="env.sliderContent = 'balanceHistory'" ng-class="{'active':env.sliderContent === 'balanceHistory'}" ng-if="env.authorized"><span trans>History</span></li>
+                </ul>
+            </div>
+            <div class="second-view-nav-box-w" ng-if="env.authorized && env.sliderContent === 'balanceHistory'" >
+                <div class="all-history-filter-container" ng-init="balanceHistoryParams.balanceCategory =(($location.path() === '/casino/' && conf.enableCasinoBalanceHistory) ? '1' : '0');initMixedBalanceHistory();">
+                    <div class="filter-columns-container">
+                        <ul>
+                            <li>
+                                <p trans>Transaction Type</p>
+                                <div class="select-box-period-b" ng-click="transactionDropdownOpened=!transactionDropdownOpened;openedTo = false; openedFrom = false; categoryDropdownOpened = false;" ng-class="{'active': transactionDropdownOpened}"> <!--active-->
+                                    <p >{{balanceHistoryParams.balanceTypes[balanceHistoryParams.balanceType]}}</p>
+                                    <ul>
+                                        <li ng-repeat="(key, value) in balanceHistoryParams.balanceTypes track by $index"
+                                            ng-click="balanceHistoryParams.balanceType=key;transactionDropdownOpened = false;">
+                                            {{value|translate}}
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li ng-show="balanceHistoryParams.availableProducts[0] && balanceHistoryParams.availableProducts[1]">
+                                <p trans>Category</p>
+                                <div class="select-box-period-b" ng-click="categoryDropdownOpened=!categoryDropdownOpened;openedTo = false; openedFrom = false; transactionDropdownOpened = false;"
+                                     ng-class="{'active': categoryDropdownOpened}" > <!--active-->
+                                    <p>{{balanceHistoryParams.availableProducts[balanceHistoryParams.balanceCategory]|translate}}</p>
+                                    <ul>
+                                        <li ng-repeat="(key, value) in balanceHistoryParams.availableProducts track by $index"
+                                            ng-click="balanceHistoryParams.balanceCategory=key;transactionDropdownOpened = false;">
+                                            {{value|translate}}
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </li>
+                            <li class="range-filter-box">
+                                <p trans>Range</p>
+                                <div class="mini-form-box-b">
+                                    <div class="date-picker-b">
+                                        <div class="picker-contain">
+                                            <div class="input-group" ng-click="openedFrom = !openedFrom;openedTo = false; openBetTypeFilter = false; transactionDropdownOpened = false;categoryDropdownOpened = false;">
+                                                <input type="text"
+                                                       class="form-control"
+                                                       placeholder="{{'From'|translate}}"
+                                                       datepicker-popup="dd/MM/yyyy"
+                                                       min-date="datePickerLimits.minFromDate"
+                                                       max-date="datePickerLimits.maxFromDate || today"
+                                                       ng-model="requestData.dateFrom"
+                                                       is-open="openedFrom"
+                                                       disabled="disabled"
+                                                       datepicker-options="dateOptions"
+                                                       ng-change="adjustDate('from')"
+                                                       ng-required="true"
+                                                       close-text="Close"
+                                                />
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default date-view" ng-click="openedFrom = !openedFrom;openedTo = false; openBetTypeFilter = false; transactionDropdownOpened = false;categoryDropdownOpened = false;$event.stopPropagation();">
+                                                        <i class="date-p"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <p></p>
+                                <div class="mini-form-box-b">
+                                    <div class="date-picker-b">
+                                        <div class="picker-contain">
+                                            <div class="input-group" ng-click="openedTo = !openedTo;openedFrom = false; openBetTypeFilter = false; transactionDropdownOpened = false;categoryDropdownOpened = false;">
+                                                <input type="text" class="form-control"
+                                                       placeholder="{{'To'|translate}}"
+                                                       datepicker-popup="dd/MM/yyyy"
+                                                       min-date="datePickerLimits.minToDate"
+                                                       max-date="datePickerLimits.maxToDate || today"
+                                                       ng-model="requestData.dateTo"
+                                                       is-open="openedTo"
+                                                       disabled="disabled"
+                                                       datepicker-options="dateOptions"
+                                                       ng-change="adjustDate('to')"
+                                                       ng-required="true"
+                                                       close-text="Close"/>
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default date-view" ng-click="openedTo = !openedTo;openedFrom = false; openBetTypeFilter = false; transactionDropdownOpened = false;categoryDropdownOpened = false;$event.stopPropagation();">
+                                                        <i class="date-p"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mybets-filter-show-b">
+                        <button trans="" ng-click="loadMixedBalanceHistory()" ng-disabled="!balanceHistoryLoaded">SHOW</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="balance-lightbox-j">
+        <section ng-if="env.sliderContent === 'cashier'" ng-controller="cashierCtrl" ng-init="initCashier();" ng-include="getTemplate('templates/livebox/mixedWallet.html')" class="mixedWallet-iwrap-j"></section>
+        <section ng-if="env.sliderContent === 'withdraw' || env.sliderContent === 'deposit'" >
+            <input type="checkbox" id="switchPaymenthMethod" checked ng-model="env.paymentListShown" >
+            <ul>
+                <li><label for="switchPaymenthMethod" trans>Payment Method</label></li>
+                <li trans>Description</li>
+                <!--<li trans>Promo</li>-->
+            </ul>
+            <div class="switchPaymenthMethodScroll">
+
+                <article>
+                    <div class="compare-payments" ng-if="env.paymentListShown">
+                        <table>
+                            <tr>
+                                <th trans>Name</th>
+                                <th trans>Fee</th>
+                                <th trans>Process Time</th>
+                                <th trans>Min</th>
+                                <th trans>Max</th>
+                            </tr>
+                            <tr ng-repeat="system in (env.authorized ? (paymentConfig | orderBy:'order') : (paymentSystems|faqPayment:env.sliderContent:currencyHolder.selectedCurrency)) track by $index"
+                                ng-show="env.sliderContent === 'deposit' ? system.canDeposit : system.canWithdraw">
+                                <td><div>{{system.displayName}}</div></td>
+                                <td>
+                                    <div>
+                                        <span trans ng-show="system.info[currencyHolder.selectedCurrency][env.sliderContent + 'Fee'] == 0">Free</span>
+                                        <span ng-show="system.info[currencyHolder.selectedCurrency][env.sliderContent + 'Fee'] != 0" ng-bind="system.info[currencyHolder.selectedCurrency][env.sliderContent + 'Fee']"></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span ng-show="system.info[currencyHolder.selectedCurrency][env.sliderContent + 'ProcessTime'] == 0" trans>Instant</span>
+                                        <span ng-show="system.info[currencyHolder.selectedCurrency][env.sliderContent + 'ProcessTime'] != 0"  ng-bind="system.info[currencyHolder.selectedCurrency][env.sliderContent + 'ProcessTime'] + (' ') + ('hours'| translate)"></span>
+                                    </div>
+                                </td>
+                                <td><div><span ng-bind="system.info[currencyHolder.selectedCurrency]['min' + (env.sliderContent|capitalise)] || ('No'|translate)"></span></div></td>
+                                <td><div><span ng-bind="system.info[currencyHolder.selectedCurrency]['max' + (env.sliderContent|capitalise)] || ('No'|translate)"></span></div></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div ng-if="!env.paymentListShown">
+                        <div>
+                            <h5 ng-if="env.authorized && isProfilePartial" ><p trans>It is very important to keep your personal information up to date. Hence our request to you is to submit your personal information in My Profile / Personal Details as soon as possible.</p> <span trans>To be able to make a deposit and/or withdrawal please complete your</span><span>&nbsp;</span><a ng-click="env.showSlider=true; env.sliderContent='settings';env.mixedSettingsPage='details'" trans>My Profile</a></h5>
+                            <h5 trans ng-if="!isProfilePartial && (selectedPaymentSystem[env.sliderContent + 'InfoText'][env.lang] || selectedPaymentSystem[env.sliderContent + 'InfoText'].eng || selectedPaymentSystem[env.sliderContent + 'InfoTextKey'])"
+                                ng-bind-html="(selectedPaymentSystem[env.sliderContent + 'InfoText'][env.lang] || selectedPaymentSystem[env.sliderContent + 'InfoText'].eng || selectedPaymentSystem[env.sliderContent + 'InfoTextKey']) |translate|html ">
+                            </h5>
+
+                            <form ng-if="env.authorized && selectedPaymentSystem && !isProfilePartial" ng-model="paymentFormData"  name="paymentForm"  novalidate>
+                                <div class="betshops-j" ng-if="selectedPaymentSystem.hasBetShops" ng-init="loadBetShops(env.sliderContent === 'withdraw')">
+                                    <ul ng-hide="selectedPaymentSystem.betShops.cities.length === 1 && selectedPaymentSystem.betShops.cities[0].betshops.length === 1 && selectedPaymentSystem.betShops.cities[0].betshops[0].address == ''">
+                                        <li ng-repeat="city in selectedPaymentSystem.betShops.cities">
+                                            <p class="bet-shop-city-name">{{city.name}}</p>
+                                            <ul ng-if="env.sliderContent === 'deposit'">
+                                                <li ng-repeat="shop in city.betshops">{{shop.address}}<i class="{{shop.type}}">{{shop.type}}</i> </li>
+                                            </ul>
+                                            <ul ng-if="env.sliderContent === 'withdraw'">
+                                                <li ng-repeat="shop in city.betshops track by $index">
+                                                    <label class="notthis">
+                                                        <input class="notthis" type="radio" name="office_id"
+                                                               ng-model="paymentFormData.office_id" value="{{shop.id}}"
+                                                               ng-required="$first"><span>{{shop.address}}<i class="{{shop.type}}">{{shop.type}}</i></span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div ng-repeat="field in selectedPaymentSystem[env.sliderContent + 'FormFields']" ng-switch on="field.type" ng-show="!selectedPaymentSystem.hasBetShops">
+                                    <label>
+                                        <p ng-show="!field.hideLabel">{{field.label|translate}}</p>
+                                        <div ng-switch-when="text" >
+                                            <input name="{{field.name}}" ng-attr-id="{{field.id}}" ng-model="paymentFormData[field.name]" type="text" size="{{field.size}}" maxlength="{{field.maxlength}}" ng-required="field.required" prevent-input="{{field.restrict}}" allow-spaces="{{field.allowSpaces}}" ng-disabled="field.disabled">
+                                        </div>
+                                        <div ng-switch-when="hidden" class="ng-hide">
+                                            <input name="{{field.name}}" ng-attr-id="{{field.id}}" ng-model="paymentFormData[field.name]" type="text" ng-hide="true">
+                                        </div>
+                                        <div ng-switch-when="password" >
+                                            <input name="{{field.name}}" ng-attr-id="{{field.id}}" ng-model="paymentFormData[field.name]" type="password" size="{{field.size}}" maxlength="{{field.maxlength}}" ng-required="field.required">
+                                        </div>
+                                        <div ng-switch-when="email">
+                                            <input name="{{field.name}}" ng-attr-id="{{field.id}}" ng-model="paymentFormData[field.name]" type="email" size="{{field.size}}" ng-required="field.required">
+                                        </div>
+                                        <div ng-switch-when="number">
+                                            <input name="{{field.name}}" id="numpad-{{field.name}}" numpad numpad-force ng-model="paymentFormData[field.name]" type="number" min="{{field.min}}" max="{{field.max}}" size="{{field.size}}" ng-required="field.required">
+                                        </div>
+                                        <div ng-switch-when="country">
+                                            <select name="{{field.name}}" ng-model="paymentFormData[field.name]" ng-include="getTemplate('templates/slider/countries.html')"></select>
+                                        </div>
+                                        <div class="select-block birthdayForm" ng-switch-when="day">
+                                            <select name="{{field.name}}"
+                                                    day-selector
+                                                    month-model="$parent.$parent.depositFormData.month"
+                                                    year-model="$parent.$parent.depositFormData.year"
+                                                    options="days"
+                                                    ng-change="calculateAge()"
+                                                    ng-init="depositFormData.day = fieldBirthday.day[0] "
+                                                    ng-model="$parent.$parent.depositFormData.day"
+                                                    ng-options="item for item in days">
+
+                                            </select>
+                                        </div>
+
+                                        <div class="select-block birthdayForm" ng-switch-when="month">
+                                            <select
+                                                    name="{{field.name}}"
+                                                    ng-model="$parent.$parent.depositFormData.month"
+                                                    ng-change="calculateAge()"
+                                                    ng-init="$parent.$parent.depositFormData.month = fieldBirthday.month[0] "
+                                                    ng-options="item for item in fieldBirthday.month "
+                                            >
+
+                                            </select>
+                                        </div>
+
+                                        <div class="select-block birthdayForm" ng-switch-when="year" ng-init="fieldBirthdayYears()">
+                                            <select
+                                                    name="{{field.name}}"
+                                                    ng-model="$parent.$parent.depositFormData.year"
+                                                    ng-change="calculateAge()"
+                                                    ng-init="$parent.$parent.depositFormData.year = fieldBirthday.year[50] "
+                                                    ng-options="item for item in fieldBirthday.year"
+                                            >
+
+                                            </select>
+                                        </div>
+
+                                        <div ng-switch-when="month">
+                                            <select name="{{field.name}}" ng-model="paymentFormData[field.name]"  ng-init="paymentFormData[field.name]=cartExpiry.month[0]" ng-options="item for item in cartExpiry.month"></select>
+                                        </div>
+                                        <div ng-switch-when="year" ng-init="cartExpiryYears()">
+                                            <select name="{{field.name}}" ng-model=".paymentFormData[field.name]" ng-init="paymentFormData[field.name]=cartExpiry.year[0]" ng-options="item for item in cartExpiry.year"></select>
+                                        </div>
+                                        <div ng-switch-when="date">
+                                            <div class="picker-contain">
+                                                <div class="input-group" ng-click="openDatePicker(field.name, $event)">
+                                                    <input type="text" class="form-control" placeholder={{today}} datepicker-popup="dd/MM/yyyy" min-date="minDate" max-date="today"
+                                                           ng-attr-id="{{field.id}}"
+                                                           ng-model="paymentFormData[field.name]" is-open="datePickers[field.name]"
+                                                           datepicker-options="dateOptions"
+                                                           disabled="disabled"
+                                                           ng-required="true" close-text="Close"/>
+                                                    <span class="input-group-btn"><button type="button" class="btn btn-default date-view deposit-btn" ng-click="openDatePicker(field.name, $event)"><i class="date-p"></i></button></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div ng-switch-when="select">
+                                            <select name="{{field.name}}" ng-model="paymentFormData[field.name]" ng-required="field.required"
+                                                    ng-init="paymentFormData[field.name] = field.options[0].value;setInfo(field.options, paymentFormData[field.name], 'withdrawText')"
+                                                    ng-change="setInfo(field.options, paymentFormData[field.name], 'withdrawText')">
+                                                <option ng-repeat="option in field.options" value="{{option.value}}" ng-selected="$first">{{option.text|translate}}</option>
+                                            </select>
+                                        </div>
+                                        <div class="radio-contein-withdraw" ng-switch-when="radio">
+                                            <div ng-repeat="option in field.options">
+                                                <input type="radio" name="{{field.name}}" ng-model="paymentFormData[field.name]" value="{{option.value}}" ng-checked="$first" ng-required="field.required && $first"><span>{{option.text|translate}}</span>
+                                            </div>
+                                        </div>
+                                        <div class="text-payment-contain" ng-switch-when="html" ng-bind-html="field.html"></div>
+                                        <div ng-switch-when="template">
+                                            <ng-include src="getTemplate(field.path)"></ng-include>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div>
+                                    <div ng-show="!showConfirmation && !selectedPaymentSystem.onlyInfoTextOnWithdraw" ng-if="selectedPaymentSystem.withdrawPrefilledAmount === undefined && env.sliderContent === 'withdraw'">
+                                        <div class="profile-tab-contain-b no-border">
+
+                                            <div class="settings-info-contain">
+
+                                                    <li>
+                                                        <label><span trans>Bank</span>:</label>
+                                                        <div class="select-block">
+                                                            <select name="PAYINBANK_CODE" ng-model="paymentData.PAYINBANK_CODE">
+                                                                <option value="246	Banco ABC Brasil S.A.">246	Banco ABC Brasil S.A.</option>
+                                                                <option value="75	Banco ABN AMRO S.A.">75	Banco ABN AMRO S.A.</option>
+                                                                <option value="25	Banco Alfa S.A.">25	Banco Alfa S.A.</option>
+                                                                <option value="641	Banco Alvorada S.A.">641	Banco Alvorada S.A.</option>
+                                                                <option value="29	Banco Banerj S.A.">29	Banco Banerj S.A.</option>
+                                                                <option value="0	Banco Bankpar S.A.">0	Banco Bankpar S.A.</option>
+                                                                <option value="740	Banco Barclays S.A.">740	Banco Barclays S.A.</option>
+                                                                <option value="107	Banco BBM S.A.">107	Banco BBM S.A.</option>
+                                                                <option value="31	Banco Beg S.A.">31	Banco Beg S.A.</option>
+                                                                <option value="739	Banco BGN S.A.">739	Banco BGN S.A.</option>
+                                                                <option value="96	Banco BM&amp;FBOVESPA de Serviços de Liquidação e Custódia S.A">96	Banco BM&amp;FBOVESPA de Serviços de Liquidação e Custódia S.A</option>
+                                                                <option value="318	Banco BMG S.A.">318	Banco BMG S.A.</option>
+                                                                <option value="752	Banco BNP Paribas Brasil S.A.">752	Banco BNP Paribas Brasil S.A.</option>
+                                                                <option value="248	Banco Boavista Interatlântico S.A.">248	Banco Boavista Interatlântico S.A.</option>
+                                                                <option value="218	Banco Bonsucesso S.A.">218	Banco Bonsucesso S.A.</option>
+                                                                <option value="65	Banco Bracce S.A.">65	Banco Bracce S.A.</option>
+                                                                <option value="36	Banco Bradesco BBI S.A.">36	Banco Bradesco BBI S.A.</option>
+                                                                <option value="204	Banco Bradesco Cartões S.A.">204	Banco Bradesco Cartões S.A.</option>
+                                                                <option value="394	Banco Bradesco Financiamentos S.A.">394	Banco Bradesco Financiamentos S.A.</option>
+                                                                <option value="237	Banco Bradesco S.A.">237	Banco Bradesco S.A.</option>
+                                                                <option value="208	Banco BTG Pactual S.A.">208	Banco BTG Pactual S.A.</option>
+                                                                <option value="263	Banco Cacique S.A.">263	Banco Cacique S.A.</option>
+                                                                <option value="473	Banco Caixa Geral - Brasil S.A.">473	Banco Caixa Geral - Brasil S.A.</option>
+                                                                <option value="40	Banco Cargill S.A.">40	Banco Cargill S.A.</option>
+                                                                <option value="Banco Caterpillar S.A.">	Banco Caterpillar S.A.</option>
+                                                                <option value="233	Banco Cifra S.A.">233	Banco Cifra S.A.</option>
+                                                                <option value="745	Banco Citibank S.A.">745	Banco Citibank S.A.</option>
+                                                                <option value="M08	Banco Citicard S.A.">M08	Banco Citicard S.A.</option>
+                                                                <option value="M19	Banco CNH Capital S.A.">M19	Banco CNH Capital S.A.</option>
+                                                                <option value="215	Banco Comercial e de Investimento Sudameris S.A.">215	Banco Comercial e de Investimento Sudameris S.A.</option>
+                                                                <option value="95	Banco Confidence de Câmbio S.A.">95	Banco Confidence de Câmbio S.A.</option>
+                                                                <option value="756	Banco Cooperativo do Brasil S.A. - BANCOOB">756	Banco Cooperativo do Brasil S.A. - BANCOOB</option>
+                                                                <option value="748	Banco Cooperativo Sicredi S.A.">748	Banco Cooperativo Sicredi S.A.</option>
+                                                                <option value="222	Banco Credit Agricole Brasil S.A.">222	Banco Credit Agricole Brasil S.A.</option>
+                                                                <option value="505	Banco Credit Suisse (Brasil) S.A.">505	Banco Credit Suisse (Brasil) S.A.</option>
+                                                                <option value="Banco CSF S.A.">	Banco CSF S.A.</option>
+                                                                <option value="3	Banco da Amazônia S.A.">3	Banco da Amazônia S.A.</option>
+                                                                <option value="083-3	Banco da China Brasil S.A.">083-3	Banco da China Brasil S.A.</option>
+                                                                <option value="707	Banco Daycoval S.A.">707	Banco Daycoval S.A.</option>
+                                                                <option value="M06	Banco de Lage Landen Brasil S.A.">M06	Banco de Lage Landen Brasil S.A.</option>
+                                                                <option value="24	Banco de Pernambuco S.A. - BANDEPE">24	Banco de Pernambuco S.A. - BANDEPE</option>
+                                                                <option value="456	Banco de Tokyo-Mitsubishi UFJ Brasil S.A.">456	Banco de Tokyo-Mitsubishi UFJ Brasil S.A.</option>
+                                                                <option value="214	Banco Dibens S.A.">214	Banco Dibens S.A.</option>
+                                                                <option value="1	Banco do Brasil S.A.">1	Banco do Brasil S.A.</option>
+                                                                <option value="47	Banco do Estado de Sergipe S.A.">47	Banco do Estado de Sergipe S.A.</option>
+                                                                <option value="37	Banco do Estado do Pará S.A.">37	Banco do Estado do Pará S.A.</option>
+                                                                <option value="41	Banco do Estado do Rio Grande do Sul S.A.">41	Banco do Estado do Rio Grande do Sul S.A.</option>
+                                                                <option value="4	Banco do Nordeste do Brasil S.A.">4	Banco do Nordeste do Brasil S.A.</option>
+                                                                <option value="265	Banco Fator S.A.">265	Banco Fator S.A.</option>
+                                                                <option value="M03	Banco Fiat S.A.">M03	Banco Fiat S.A.</option>
+                                                                <option value="224	Banco Fibra S.A.">224	Banco Fibra S.A.</option>
+                                                                <option value="626	Banco Ficsa S.A.">626	Banco Ficsa S.A.</option>
+                                                                <option value="Banco Fidis S.A.">	Banco Fidis S.A.</option>
+                                                                <option value="394	Banco Finasa BMC S.A.">394	Banco Finasa BMC S.A.</option>
+                                                                <option value="M18	Banco Ford S.A.">M18	Banco Ford S.A.</option>
+                                                                <option value="M07	Banco GMAC S.A.">M07	Banco GMAC S.A.</option>
+                                                                <option value="612	Banco Guanabara S.A.">612	Banco Guanabara S.A.</option>
+                                                                <option value="M22	Banco Honda S.A.">M22	Banco Honda S.A.</option>
+                                                                <option value="63	Banco Ibi S.A. Banco Múltiplo">63	Banco Ibi S.A. Banco Múltiplo</option>
+                                                                <option value="M11	Banco IBM S.A.">M11	Banco IBM S.A.</option>
+                                                                <option value="604	Banco Industrial do Brasil S.A.">604	Banco Industrial do Brasil S.A.</option>
+                                                                <option value="320	Banco Industrial e Comercial S.A.">320	Banco Industrial e Comercial S.A.</option>
+                                                                <option value="653	Banco Indusval S.A.">653	Banco Indusval S.A.</option>
+                                                                <option value="249	Banco Investcred Unibanco S.A.">249	Banco Investcred Unibanco S.A.</option>
+                                                                <option value="184	Banco Itaú BBA S.A.">184	Banco Itaú BBA S.A.</option>
+                                                                <option value="479	Banco ItaúBank S.A">479	Banco ItaúBank S.A</option>
+                                                                <option value="Banco Itaucard S.A.">	Banco Itaucard S.A.</option>
+                                                                <option value="M09	Banco Itaucred Financiamentos S.A.">M09	Banco Itaucred Financiamentos S.A.</option>
+                                                                <option value="376	Banco J. P. Morgan S.A.">376	Banco J. P. Morgan S.A.</option>
+                                                                <option value="74	Banco J. Safra S.A.">74	Banco J. Safra S.A.</option>
+                                                                <option value="217	Banco John Deere S.A.">217	Banco John Deere S.A.</option>
+                                                                <option value="600	Banco Luso Brasileiro S.A.">600	Banco Luso Brasileiro S.A.</option>
+                                                                <option value="389	Banco Mercantil do Brasil S.A.">389	Banco Mercantil do Brasil S.A.</option>
+                                                                <option value="370	Banco Mizuho do Brasil S.A.">370	Banco Mizuho do Brasil S.A.</option>
+                                                                <option value="746	Banco Modal S.A.">746	Banco Modal S.A.</option>
+                                                                <option value="45	Banco Opportunity S.A.">45	Banco Opportunity S.A.</option>
+                                                                <option value="79	Banco Original do Agronegócio S.A.">79	Banco Original do Agronegócio S.A.</option>
+                                                                <option value="623	Banco Panamericano S.A.">623	Banco Panamericano S.A.</option>
+                                                                <option value="611	Banco Paulista S.A.">611	Banco Paulista S.A.</option>
+                                                                <option value="643	Banco Pine S.A.">643	Banco Pine S.A.</option>
+                                                                <option value="M24	Banco PSA Finance Brasil S.A.">M24	Banco PSA Finance Brasil S.A.</option>
+                                                                <option value="747	Banco Rabobank International Brasil S.A.">747	Banco Rabobank International Brasil S.A.</option>
+                                                                <option value="356	Banco Real S.A.">356	Banco Real S.A.</option>
+                                                                <option value="633	Banco Rendimento S.A.">633	Banco Rendimento S.A.</option>
+                                                                <option value="M16	Banco Rodobens S.A.">M16	Banco Rodobens S.A.</option>
+                                                                <option value="72	Banco Rural Mais S.A.">72	Banco Rural Mais S.A.</option>
+                                                                <option value="453	Banco Rural S.A.">453	Banco Rural S.A.</option>
+                                                                <option value="422	Banco Safra S.A.">422	Banco Safra S.A.</option>
+                                                                <option value="33	Banco Santander (Brasil) S.A.">33	Banco Santander (Brasil) S.A.</option>
+                                                                <option value="749	Banco Simples S.A.">749	Banco Simples S.A.</option>
+                                                                <option value="366	Banco Société Générale Brasil S.A.">366	Banco Société Générale Brasil S.A.</option>
+                                                                <option value="12	Banco Standard de Investimentos S.A.">12	Banco Standard de Investimentos S.A.</option>
+                                                                <option value="464	Banco Sumitomo Mitsui Brasileiro S.A.">464	Banco Sumitomo Mitsui Brasileiro S.A.</option>
+                                                                <option value="082-5	Banco Topázio S.A.">082-5	Banco Topázio S.A.</option>
+                                                                <option value="M20	Banco Toyota do Brasil S.A.">M20	Banco Toyota do Brasil S.A.</option>
+                                                                <option value="634	Banco Triângulo S.A.">634	Banco Triângulo S.A.</option>
+                                                                <option value="M14	Banco Volkswagen S.A.">M14	Banco Volkswagen S.A.</option>
+                                                                <option value="M23	Banco Volvo (Brasil) S.A.">M23	Banco Volvo (Brasil) S.A.</option>
+                                                                <option value="655	Banco Votorantim S.A.">655	Banco Votorantim S.A.</option>
+                                                                <option value="610	Banco VR S.A.">610	Banco VR S.A.</option>
+                                                                <option value="119	Banco Western Union do Brasil S.A.">119	Banco Western Union do Brasil S.A.</option>
+                                                                <option value="Banco Yamaha Motor S.A.">	Banco Yamaha Motor S.A.</option>
+                                                                <option value="21	BANESTES S.A. Banco do Estado do Espírito Santo">21	BANESTES S.A. Banco do Estado do Espírito Santo</option>
+                                                                <option value="719	Banif-Banco Internacional do Funchal (Brasil)S.A.">719	Banif-Banco Internacional do Funchal (Brasil)S.A.</option>
+                                                                <option value="755	Bank of America Merrill Lynch Banco Múltiplo S.A.">755	Bank of America Merrill Lynch Banco Múltiplo S.A.</option>
+                                                                <option value="73	BB Banco Popular do Brasil S.A.">73	BB Banco Popular do Brasil S.A.</option>
+                                                                <option value="250	BCV - Banco de Crédito e Varejo S.A.">250	BCV - Banco de Crédito e Varejo S.A.</option>
+                                                                <option value="78	BES Investimento do Brasil S.A.-Banco de Investimento">78	BES Investimento do Brasil S.A.-Banco de Investimento</option>
+                                                                <option value="BNY Mellon Banco S.A.">	BNY Mellon Banco S.A.</option>
+                                                                <option value="69	BPN Brasil Banco Múltiplo S.A.">69	BPN Brasil Banco Múltiplo S.A.</option>
+                                                                <option value="125	Brasil Plural S.A. - Banco Múltiplo">125	Brasil Plural S.A. - Banco Múltiplo</option>
+                                                                <option value="70	BRB - Banco de Brasília S.A.">70	BRB - Banco de Brasília S.A.</option>
+                                                                <option value="104	Caixa Econômica Federal">104	Caixa Econômica Federal</option>
+                                                                <option value="477	Citibank S.A.">477	Citibank S.A.</option>
+                                                                <option value="081-7	Concórdia Banco S.A.">081-7	Concórdia Banco S.A.</option>
+                                                                <option value="487	Deutsche Bank S.A. - Banco Alemão">487	Deutsche Bank S.A. - Banco Alemão</option>
+                                                                <option value="64	Goldman Sachs do Brasil Banco Múltiplo S.A.">64	Goldman Sachs do Brasil Banco Múltiplo S.A.</option>
+                                                                <option value="62	Hipercard Banco Múltiplo S.A.">62	Hipercard Banco Múltiplo S.A.</option>
+                                                                <option value="399	HSBC Bank Brasil S.A. - Banco Múltiplo">399	HSBC Bank Brasil S.A. - Banco Múltiplo</option>
+                                                                <option value="492	ING Bank N.V.">492	ING Bank N.V.</option>
+                                                                <option value="652	Itaú Unibanco Holding S.A.">652	Itaú Unibanco Holding S.A.</option>
+                                                                <option value="341	Itaú Unibanco S.A.">341	Itaú Unibanco S.A.</option>
+                                                                <option value="488	JPMorgan Chase Bank">488	JPMorgan Chase Bank</option>
+                                                                <option value="751	Scotiabank Brasil S.A. Banco Múltiplo">751	Scotiabank Brasil S.A. Banco Múltiplo</option>
+                                                                <option value="Standard Chartered Bank (Brasil) S/A–Bco Invest.">	Standard Chartered Bank (Brasil) S/A–Bco Invest.</option>
+                                                                <option value="UBS Brasil Banco de Investimento S.A.">	UBS Brasil Banco de Investimento S.A.</option>
+                                                                <option value="409	UNIBANCO - União de Bancos Brasileiros S.A.">409	UNIBANCO - União de Bancos Brasileiros S.A.</option>
+                                                                <option value="230	Unicard Banco Múltiplo S.A.">230	Unicard Banco Múltiplo S.A.</option>
+                                                            </select>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label><span trans>Agency - Digit</span>:</label>
+                                                        <div class="form-text section-2-1" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_AGENCY.$dirty && PAYINBANK_FORM.PAYINBANK_AGENCY.$invalid}">
+                                                            <input class="marker-b" type="text" name="PAYINBANK_AGENCY" value="" ng-model="paymentData.PAYINBANK_AGENCY" required="required">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-text section-2-2" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_AGENCY2.$dirty && PAYINBANK_FORM.PAYINBANK_AGENCY2.$invalid}">
+                                                            <input class="marker-b" type="text" name="PAYINBANK_AGENCY2" value="" prevent-input="[^0-9]+" ng-model="paymentData.PAYINBANK_AGENCY2">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label><span trans>Account - Digit</span>:</label>
+                                                        <div class="form-text section-2-1" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_ACCOUNT.$dirty && PAYINBANK_FORM.PAYINBANK_ACCOUNT.$invalid}">
+                                                            <input class="marker-b" type="text" name="PAYINBANK_ACCOUNT" value="" ng-model="paymentData.PAYINBANK_ACCOUNT" required="required">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-text section-2-2" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_ACCOUNT2.$dirty && PAYINBANK_FORM.PAYINBANK_ACCOUNT2.$invalid}">
+                                                            <input class="marker-b" type="text" name="PAYINBANK_ACCOUNT2" value="" prevent-input="[^0-9]+" ng-model="paymentData.PAYINBANK_ACCOUNT2">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label><span trans>Account Type</span>:</label>
+                                                        <div class="select-block">
+                                                            <select name="PAYINBANK_TYPEACCOUNT" ng-model="paymentData.PAYINBANK_TYPEACCOUNT">
+                                                                <option value="CONTA CORRENTE">CONTA CORRENTE</option>
+                                                                <option value="CONTA POUPANÇA">CONTA POUPANÇA</option>
+                                                                <option value="CONTA CORRENTE CONJUNTA">CONTA CORRENTE CONJUNTA</option>
+                                                                <option value="CONTA POUPANÇA CONJUNTA">CONTA POUPANÇA CONJUNTA</option>
+                                                            </select>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label><span trans>First Name</span>:</label>
+                                                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_NAME.$dirty && PAYINBANK_FORM.PAYINBANK_NAME.$invalid}">
+                                                            <input class="Text" type="text" name="PAYINBANK_NAME" disabled="disabled" ng-model="paymentData.PAYINBANK_NAME"  required="required">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label><span trans>Last Name</span>:</label>
+                                                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_SURNAME.$dirty && PAYINBANK_FORM.PAYINBANK_SURNAME.$invalid}">
+                                                            <input class="Text"  name="PAYINBANK_SURNAME" disabled="disabled" ng-model="paymentData.PAYINBANK_SURNAME"  required="required" type="text">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label><span trans>Username</span>:</label>
+                                                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_USERNAME.$dirty && PAYINBANK_FORM.PAYINBANK_USERNAME.$invalid}">
+                                                            <input class="Text" type="text" name="PAYINBANK_USERNAME"  disabled="disabled" ng-model="paymentData.PAYINBANK_USERNAME" required="required">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label><span trans>Birth date</span>:</label>
+                                                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_DATA.$dirty && PAYINBANK_FORM.PAYINBANK_DATA.$invalid}">
+                                                            <input class="Text" type="text" name="PAYINBANK_DATA" disabled="disabled" ng-model="paymentData.PAYINBANK_DATA" required="required">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label><span trans>Email Address</span>:</label>
+                                                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_EMAIL.$dirty && PAYINBANK_FORM.PAYINBANK_EMAIL.$invalid}">
+                                                            <input class="Text" type="text" name="PAYINBANK_EMAIL" value=""  ng-model="paymentData.PAYINBANK_EMAIL" required="required" ng-pattern="/^[\w!.%+\-]+@[\w\-]+(?:\.[\w\-]+)+$/">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>Please enter a valid email address</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label><span>CPF</span>:</label>
+                                                        <div class="form-text section-4" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF1.$dirty && PAYINBANK_FORM.PAYINBANK_CPF1.$invalid}">
+                                                            <input class="first-s" type="text" name="PAYINBANK_CPF1" id="PAYINBANK_CPF1" value="" prevent-input="[^0-9]+" maxlength="3" ng-disabled="paymentData.PAYINBANK_CPF1 === userDocNumber[0]" ng-model="paymentData.PAYINBANK_CPF1" required="required">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-text section-4" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF2.$dirty && PAYINBANK_FORM.PAYINBANK_CPF2.$invalid}">
+                                                            <span class="marker-b"></span> <input type="text" name="PAYINBANK_CPF2" id="PAYINBANK_CPF2" value="" prevent-input="[^0-9]+" maxlength="3" ng-disabled="paymentData.PAYINBANK_CPF2 === userDocNumber[1]" ng-model="paymentData.PAYINBANK_CPF2" required="required">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-text section-4" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF3.$dirty && PAYINBANK_FORM.PAYINBANK_CPF3.$invalid}">
+                                                            <span class="marker-b"></span> <input type="text" name="PAYINBANK_CPF3" id="PAYINBANK_CPF3" value="" prevent-input="[^0-9]+" maxlength="3" ng-disabled="paymentData.PAYINBANK_CPF3 === userDocNumber[2]" ng-model="paymentData.PAYINBANK_CPF3" required="required">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-text section-4-1" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF4.$dirty && PAYINBANK_FORM.PAYINBANK_CPF4.$invalid}">
+                                                            <span class="marker-b"></span> <input type="text"  name="PAYINBANK_CPF4" id="PAYINBANK_CPF4" value="" prevent-input="[^0-9]+" maxlength="2" ng-disabled="paymentData.PAYINBANK_CPF4 === userDocNumber[3]" ng-model="paymentData.PAYINBANK_CPF4" required="required">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label><span trans>Amount</span>:</label>
+                                                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_SUM.$dirty && PAYINBANK_FORM.PAYINBANK_SUM.$invalid}">
+                                                            <small>{{profile.currency_name}}</small>
+                                                            <input class="last-i-form" type="text" name="PAYINBANK_SUM" onchange="this.value = amountwrite(this.value);" onkeyup="this.value = amountwrite(this.value);" placeholder="00.000,00" id="PAYINBANK_SUM" value="" prevent-input="[^0-9]+"  required="required" ng-model="paymentData.PAYINBANK_SUM"  ng-change="paymentData.PAYINBANK_SUM = amountwrite(paymentData.PAYINBANK_SUM)">
+                                                            <div class="form-error-icon"></div>
+                                                            <div class="form-error-text">
+                                                                <div class="error-icon-f"></div>
+                                                                <p trans>This field is required</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li><input class="send-b-new" type="submit" value="Send" name="PAYINBANK_SUBMIT" id="PAYINBANK_SUBMIT" ng-disabled="PAYINBANK_FORM.$invalid" ng-click="withdraw()"></li>
+
+
+                                                <div ng-show="step === 2">
+                                                    <p ng-show="!resultError"> Sua retirada será processado durante 72 horário commercial.</p>
+                                                    <p ng-show="resultError" ng-bind="resultError"></p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div ng-hide="hideWithdrawAmount || selectedPaymentSystem.onlyInfoTextOnDeposit || selectedPaymentSystem.hideDepositButton"
+                                         ng-if="selectedPaymentSystem.withdrawPrefilledAmount === undefined && env.sliderContent === 'deposit'">
+
+
+                                            <div class="profile-tab-contain-b no-border">
+
+                                                <div class="settings-info-contain">
+
+
+                                                        <li>
+                                                            <label><span trans>First Name</span>:</label>
+                                                            <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_NAME.$dirty && PAYINBANK_FORM.PAYINBANK_NAME.$invalid}">
+                                                                <input class="Text" type="text" name="PAYINBANK_NAME" disabled="disabled" ng-model="paymentData.PAYINBANK_NAME"  required="required">
+                                                                <div class="form-error-icon"></div>
+                                                                <div class="form-error-text">
+                                                                    <div class="error-icon-f"></div>
+                                                                    <p trans>This field is required</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <label><span trans>Last Name</span>:</label>
+                                                            <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_SURNAME.$dirty && PAYINBANK_FORM.PAYINBANK_SURNAME.$invalid}">
+                                                                <input class="Text" type="text" name="PAYINBANK_SURNAME" disabled="disabled" ng-model="paymentData.PAYINBANK_SURNAME"  required="required">
+                                                                <div class="form-error-icon"></div>
+                                                                <div class="form-error-text">
+                                                                    <div class="error-icon-f"></div>
+                                                                    <p trans>This field is required</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <label><span trans>Username</span>:</label>
+                                                            <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_USERNAME.$dirty && PAYINBANK_FORM.PAYINBANK_USERNAME.$invalid}">
+                                                                <input class="Text" type="text" name="PAYINBANK_USERNAME"  disabled="disabled" ng-model="paymentData.PAYINBANK_USERNAME" required="required">
+                                                                <div class="form-error-icon"></div>
+                                                                <div class="form-error-text">
+                                                                    <div class="error-icon-f"></div>
+                                                                    <p trans>This field is required</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <label><span trans>Birth date</span>:</label>
+                                                            <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_DATA.$dirty && PAYINBANK_FORM.PAYINBANK_DATA.$invalid}">
+                                                                <input class="Text" type="text" name="PAYINBANK_DATA" disabled="disabled" ng-model="paymentData.PAYINBANK_DATA" required="required">
+                                                                <div class="form-error-icon"></div>
+                                                                <div class="form-error-text">
+                                                                    <div class="error-icon-f"></div>
+                                                                    <p trans>This field is required</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <label><span trans>Email Address</span>:</label>
+                                                            <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_EMAIL.$dirty && PAYINBANK_FORM.PAYINBANK_EMAIL.$invalid}">
+                                                                <input class="Text" type="text" name="PAYINBANK_EMAIL" value=""  ng-model="paymentData.PAYINBANK_EMAIL" required="required" ng-pattern="/^[\w!.%+\-]+@[\w\-]+(?:\.[\w\-]+)+$/">
+                                                                <div class="form-error-icon"></div>
+                                                                <div class="form-error-text">
+                                                                    <div class="error-icon-f"></div>
+                                                                    <p trans>Please enter a valid email address</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <label><span>CPF</span>:</label>
+                                                            <div class="form-text section-4" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF1.$dirty && PAYINBANK_FORM.PAYINBANK_CPF1.$invalid}">
+                                                                <input class="first-s" type="text" name="PAYINBANK_CPF1" id="PAYINBANK_CPF1" auto-tab-to ="PAYINBANK_CPF2" value="" prevent-input="[^0-9]+" maxlength="3"  ng-model="paymentData.PAYINBANK_CPF1" required="required" >
+                                                                <div class="form-error-icon"></div>
+                                                                <div class="form-error-text">
+                                                                    <div class="error-icon-f"></div>
+                                                                    <p trans>This field is required</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-text section-4" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF2.$dirty && PAYINBANK_FORM.PAYINBANK_CPF2.$invalid}">
+                                                                <span class="marker-b"></span> <input type="text" name="PAYINBANK_CPF2" id="PAYINBANK_CPF2"auto-tab-to ="PAYINBANK_CPF3" value="" prevent-input="[^0-9]+" maxlength="3"  ng-model="paymentData.PAYINBANK_CPF2" required="required">
+                                                                <div class="form-error-icon"></div>
+                                                                <div class="form-error-text">
+                                                                    <div class="error-icon-f"></div>
+                                                                    <p trans>This field is required</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-text section-4" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF3.$dirty && PAYINBANK_FORM.PAYINBANK_CPF3.$invalid}">
+                                                                <span class="marker-b"></span> <input type="text" name="PAYINBANK_CPF3" id="PAYINBANK_CPF3" value="" prevent-input="[^0-9]+" maxlength="3"  ng-model="paymentData.PAYINBANK_CPF3" required="required">
+                                                                <div class="form-error-icon"></div>
+                                                                <div class="form-error-text">
+                                                                    <div class="error-icon-f"></div>
+                                                                    <p trans>This field is required</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-text section-4-1" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF4.$dirty && PAYINBANK_FORM.PAYINBANK_CPF4.$invalid}">
+                                                                <span class="marker-b"></span> <input type="text"  name="PAYINBANK_CPF4" id="PAYINBANK_CPF4" value="" prevent-input="[^0-9]+" maxlength="2"  ng-model="paymentData.PAYINBANK_CPF4" required="required">
+                                                                <div class="form-error-icon"></div>
+                                                                <div class="form-error-text">
+                                                                    <div class="error-icon-f"></div>
+                                                                    <p trans>This field is required</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <label><span trans>Amount</span>:</label>
+                                                            <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_SUM.$dirty && PAYINBANK_FORM.PAYINBANK_SUM.$invalid}">
+                                                                <small>{{profile.currency_name}}</small>
+                                                                <input class="last-i-form" type="text" name="PAYINBANK_SUM" onchange="this.value = amountwrite(this.value);" onkeyup="this.value = amountwrite(this.value);" placeholder="00.000,00" id="PAYINBANK_SUM" value="" prevent-input="[^0-9]+"  required="required" ng-model="paymentData.PAYINBANK_SUM" ng-change="paymentData.PAYINBANK_SUM = amountwrite(paymentData.PAYINBANK_SUM)">
+                                                                <div class="form-error-icon"></div>
+                                                                <div class="form-error-text">
+                                                                    <div class="error-icon-f"></div>
+                                                                    <p trans>This field is required</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li><input class="send-b-new" type="submit" value="Send" name="PAYINBANK_SUBMIT" id="PAYINBANK_SUBMIT" ng-disabled="PAYINBANK_FORM.$invalid" ng-click="deposit('Santander')"></li>
+                                                    </ul>
+                                                    <div>
+                                                        <div ng-show="!resultError">
+
+                                                            <p class="deposit-send-info" ng-show="resultMessage" ng-bind-html="resultMessage|html"></p>
+                                                        </div>
+                                                        <p ng-show="resultError" ng-bind="resultError"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                    </div>
+                                </div>
+
+                            </form>
+
+                            <div class="custom-amounts-list" ng-if="env.sliderContent === 'deposit' && !isProfilePartial">
+                                <button ng-repeat="customAmount in depositCustomAmounts track by $index" ng-click="paymentAmount.deposit = (paymentAmount.deposit || 0) + customAmount">{{customAmount|number}}</button>
+                            </div>
+
+                            <div class="custom-amounts-list" ng-if="env.sliderContent === 'withdraw' && !isProfilePartial">
+                                <button ng-repeat="customAmount in withdrawCustomAmounts track by $index" ng-click="paymentAmount.withdraw = (paymentAmount.withdraw || 0) + customAmount">{{customAmount|number}}</button>
+                            </div>
+
+                            <form ng-model="custumPaymentFields" ng-if="externalFormParams && !isProfilePartial" target="{{selectedPaymentSystem.stayInSameTabOnDeposit ? '_self' : '_blank'}}"
+                                      novalidate id="custum-payment-fields" action="{{$sce.trustAsResourceUrl(externalFormParams.action)}}" method="{{externalFormParams.method || 'post'}}" ng-show="false">
+                                <input ng-repeat="field in externalFormParams.fields" name="{{field.name}}" type="hidden" value="{{field.value}}" ng-if="field.type == undefined || field.type == 'hidden' ">
+                            </form>
+
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+<!--            <div class="promotions-balance-j">
+
+                            <div ng-controller="cmsPagesCtrl" ng-init="gePageBanners('balance','withdraw-banner-' + $root.env.lang);" >
+                                <vbet-big-slider class="big-slider-casino-directive" ng-if="balanceTopBanners" images="balanceTopBanners" link-click-handler="openCBannerLink" slider-template="true"></vbet-big-slider>
+                            </div>
+                        </div>
+-->
+        </section>
+        <section ng-if="env.sliderContent === 'balanceHistory'">
+            <vbet-loader ng-show="!balanceHistoryLoaded"></vbet-loader>
+            <ng-include ng-show="balanceHistoryLoaded" src="getTemplate('templates/livebox/mixedBalanceHistory.html')"></ng-include>
+        </section>
+    </div>
+</div>

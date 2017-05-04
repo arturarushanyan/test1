@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+msgid "poker_download_description_windows"
+msgstr "<ol><li>A window will appear. Press Run.</li><li>Once downloading has finished, you may be asked to verify the publisher.</li><li>Press "Run" again.</li><li>At the next window, to install the software click Next.</li><li>Once the installation is finished, you can find our Vivaro Poker icon on your desktop.</li><li>Double-click the icon to start the Vivaro cardroom.</li></ol>"
+
+#
+msgid "Previous version"
+msgstr "Old Vivaro"
+
+#
+msgid "freebet_info"
+msgstr "Vivaro betting company offers its customers a free quiz.<br />Customers will be offered 3 types of express, which contains 6, 8 or 10 events. If the customer guesses correctly 6 out of 6 events and the winning amount will be 7000 AMD, 8 out of 8 events the payout will be 15.000 AMD, and if you guess 10 out of 10 events the payoff will be 20.000 AMD. The winning amount will be transferred to the customer&rsquo;s account within 5 days after completion of all events are included in all 3 express bets.<br />If there are events, which have not taken place in this variant of express, the quiz will be lost.<br />Each customer can daily make an express bet on each variant only once."
+
+#
+msgid "Poker Leaderboard"
+msgstr "Casino Points"
+
+#
+msgid "Points left"
+msgstr "Points left"
+
+#
+msgid "Use Points"
+msgstr "Use Points"
+
+#
+msgid "Play games"
+msgstr "Play games"
+
+#
+msgid "To win iphone 6"
+msgstr "To win iphone 6"
+
+#
+msgid "Use points to win"
+msgstr "Use points to win"

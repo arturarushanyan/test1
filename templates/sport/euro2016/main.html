@@ -59,7 +59,15 @@
                         <!--filters-->
                         <div class="filter-view-v3">
                             <div class="filter-row-v3">
-                                <ul>
+                                <ul ng-init="toggleVideoFilter(false)">
+                                    <li ng-show="env.live && conf.videoEnabled"
+                                        ng-click="!liveFilters.withVideo || toggleVideoFilter(false)"
+                                        ng-class="{'active':!liveFilters.withVideo}"
+                                        class="all_live_filter"
+                                        title="All games"
+                                        trans="attr-only">
+                                        <span>All </span>
+                                    </li>
                                     <li ng-show="!env.live">
                                         <div class="time-filter-v3" ng-class="{'active': periodDropdownOpened}">
                                             <p ng-click="periodDropdownOpened=!periodDropdownOpened"><span>{{(selectedUpcomingPeriod ? selectedUpcomingPeriod + ' hours' : 'All')|translate}}</span>
@@ -82,14 +90,7 @@
                                         trans="attr-only">
                                         <i class="video-icon-v3"></i>
                                     </li>
-                                    <li ng-show="env.live && conf.videoEnabled"
-                                        ng-click="!liveFilters.withVideo || toggleVideoFilter(false)"
-                                        ng-class="{'active':!liveFilters.withVideo}"
-                                        class="all_live_filter"
-                                        title="All games"
-                                        trans="attr-only">
-                                        <span>All </span>
-                                    </li>
+
                                     <!--<li>-->
                                     <!--<i class="tv-icon-v3"></i>-->
                                     <!--</li>-->

@@ -1,0 +1,61 @@
+$footer-height: 420px !default;
+.wrapper-contein{ 
+    padding: 0 0 $footer-height 0;
+}
+.contain-footer {
+	box-sizing: border-box;
+    height: $footer-height;
+	margin: -$footer-height 0 0 0;
+}
+.body-wrapper ~ .footer-button{
+    display: none;
+}
+.body-wrapper.footer-movable ~ .footer-button {
+    display: block;
+}
+.body-wrapper.footer-movable .wrapper-contein{
+    padding: 0;
+}
+.contain-footer.footer-movable{
+    margin: -$footer-height 0 0 0;
+    padding: 0;
+    height: $footer-height;
+    overflow: hidden;
+    position: fixed;
+    z-index: 994;
+    bottom: 0;
+    animation: footerclosed 300ms;
+    transform: translate3d(0, $footer-height + 2px, 0);
+    -webkit-transform: translate3d(0, $footer-height + 2px, 0);;
+}
+@keyframes footerclosed{
+    0%   {
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+	100% {
+        transform: translate3d(0, $footer-height + 2px, 0);
+        -webkit-transform: translate3d(0, $footer-height + 2px, 0);}
+}
+.contain-footer.footer-movable.footer-open{
+    animation: bsEventAnimation 300ms;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.contain-footer.footer-movable.no-animations,
+.contain-footer.footer-movable.no-animations.footer-open{
+    animation: none;
+}
+@keyframes bsEventAnimation{
+    0%   {
+        transform: translate3d(0, $footer-height, 0);
+        -webkit-transform: translate3d(0, $footer-height, 0);
+    }
+    100% {transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+}
+.footer-button.footer-button-open {
+    transform: translate3d(0, -$footer-height, 0);
+    -webkit-transform: translate3d(0, -$footer-height, 0);
+}

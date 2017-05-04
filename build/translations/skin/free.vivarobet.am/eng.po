@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+msgid "Do you want to log out from Facebook as well? If you don't log out from Facebook, you will be automatically logged in next time you open this page."
+msgstr "Do you want to log out from Facebook as well? If you don't log out from Facebook, you will be automatically logged in next time you open this page."
+
+#
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "Do you plan to sign in with login/password as well?"
+
+#
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+msgstr "If you plan to sign in not using Facebook or Odnoklassniki login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+
+#
+msgid "Deposit by payment system"
+msgstr "Deposit"

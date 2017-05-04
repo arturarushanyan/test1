@@ -1,0 +1,192 @@
+{
+    "1-8": [
+       [
+            {
+                "game_id": 1,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            },
+            {
+                "game_id": 2,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            }
+        ],
+        [
+            {
+                "game_id": 3,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            },
+            {
+                "game_id": 4,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            }
+        ],
+        [
+            {
+                "game_id": 5,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            },
+            {
+                "game_id": 6,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            }
+        ],
+        [
+            {
+                "game_id": 7,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            },
+            {
+                "game_id": 8,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            }
+        ]
+    ],
+    "1-4": [
+       [
+            {
+                "game_id": 1,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            },
+            {
+                "game_id": 2,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            }
+        ],
+        [
+            {
+                "game_id": 3,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            },
+            {
+                "game_id": 4,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            }
+        ]
+    ],
+    "1-2": [
+       [
+            {
+                "game_id": 1,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            },
+            {
+                "game_id": 2,
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            }
+        ]
+    ],
+    "1-1": [
+       [
+            {
+                "game_id": 1,
+                "game_title": "Final",
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            }
+        ]
+    ],
+    "3rd_place": [
+       [
+            {
+                "game_id": 1,
+                "game_title": "3rd place game",
+                "half": "1st H",
+                "time": "56'",
+                "team1_name": "Argentina",
+                "team2_name": "Brasil",
+                "team1_goal_count": "3",
+                "team2_goal_count": "2",
+                "is_live": true
+            }
+        ]
+    ]
+}

@@ -1,0 +1,352 @@
+$hero-color: $red-bg !default;
+$brand-color-1: #1a7051 !default;
+$brand-color-2: #ac8336 !default;
+$red-bg: $hero-color !default;
+
+$vbet-colors: false !default;
+@if $vbet-colors == true {
+  $skin-color: #1e2639 !global !default;
+  $text-color: #1e2639 !global !default;
+} @else {
+  $skin-color: #252525 !global !default;
+  $text-color: #252525 !global !default;
+}
+
+$white-skin: false !default;
+// Skin colors
+$skin-palette-1: #ffffff !default;                                                           //#ffffff;
+$skin-palette-2: lighten( desaturate( adjust-hue( $skin-color, 18deg ), 22 ), 79 ) !default; //#f3f3f5;
+$skin-palette-3: lighten( desaturate( adjust-hue( $skin-color, 2deg ), 21 ), 61 ) !default;  //#c2c5cd;
+$skin-palette-4: lighten( desaturate( adjust-hue( $skin-color, 2deg ), 22 ), 36 ) !default;  //#7b8191;
+$skin-palette-5: lighten( desaturate( $skin-color, 18 ), 19 ) !default;                      //#505767;
+$skin-palette-6: lighten( desaturate( $skin-color, 17 ), 12 ) !default;                      //#3f4553;
+$skin-palette-7: lighten( desaturate( adjust-hue( $skin-color, 3deg ), 16 ), 4 ) !default;   //#2e323e;
+$skin-palette-8: darken( desaturate( adjust-hue( $skin-color, 4deg ), 11 ), 1 ) !default;    //#212532;
+$skin-palette-9: lighten( $skin-color, 4 ) !default;                                         //#242e45;
+$skin-palette-10: $skin-color !default;                                                      //#1e2639;
+$skin-palette-11: darken( adjust-hue( $skin-color, 4deg ), 4 ) !default;                     //#171c2c;
+$skin-palette-12: darken( saturate( adjust-hue( $skin-color, 4deg ), 1 ), 7 ) !default;      //#121623;
+$skin-palette-13: #000000 !default;                                                          //#000000;
+// End skin colors
+
+// Text colors
+$text-palette-1: #ffffff !default;                                                           //#ffffff;
+$text-palette-2: lighten( desaturate( adjust-hue( $text-color, 18deg ), 22 ), 79 ) !default; //#f3f3f5;
+$text-palette-3: lighten( desaturate( adjust-hue( $text-color, 2deg ), 21 ), 61 ) !default;  //#c2c5cd;
+$text-palette-4: lighten( desaturate( adjust-hue( $text-color, 2deg ), 22 ), 36 ) !default;  //#7b8191;
+$text-palette-5: lighten( desaturate( $text-color, 18 ), 19 ) !default;                      //#505767;
+$text-palette-6: lighten( desaturate( $text-color, 17 ), 12 ) !default;                      //#3f4553;
+$text-palette-7: lighten( desaturate( adjust-hue( $text-color, 3deg ), 16 ), 4 ) !default;   //#2e323e;
+$text-palette-8: darken( desaturate( adjust-hue( $text-color, 4deg ), 11 ), 1 ) !default;    //#212532;
+$text-palette-9: lighten( $text-color, 4 ) !default;                                         //#242e45;
+$text-palette-10: $text-color !default;                                                      //#1e2639;
+$text-palette-11: darken( adjust-hue( $text-color, 4deg ), 4 ) !default;                     //#171c2c;
+$text-palette-12: darken( saturate( adjust-hue( $text-color, 4deg ), 1 ), 7 ) !default;      //#121623;
+$text-palette-13: #000000 !default;                                                          //#000000;
+@if $white-skin == true {
+  // Skin colors
+  $skin-palette-1: #ffffff !default;
+  $skin-palette-2: lighten( desaturate( $skin-color, 22 ), 79 ) !default;
+  $skin-palette-3: lighten( desaturate( $skin-color, 21 ), 61 ) !default;
+  $skin-palette-4: lighten( desaturate( $skin-color, 22 ), 36 ) !default;
+  $skin-palette-5: lighten( desaturate( $skin-color, 18 ), 19 ) !default;
+  $skin-palette-6: lighten( desaturate( $skin-color, 17 ), 12 ) !default;
+  $skin-palette-7: lighten( desaturate( $skin-color, 16 ), 4 ) !default;
+  $skin-palette-8: darken( desaturate( $skin-color, 11 ), 1 ) !default;
+  $skin-palette-9: lighten( $skin-color, 4 ) !default;
+  $skin-palette-10: darken($skin-color, 4 ) !default;
+  $skin-palette-11: $skin-color !default;
+  $skin-palette-12: darken( saturate( adjust-hue( $skin-color, 4deg ), 1 ), 7 ) !default;
+  $skin-palette-13: #000000 !default;
+  
+  $text-palette-13: #ffffff !default;
+  $text-palette-12: lighten( desaturate( adjust-hue( $text-color, 18deg ), 22 ), 79 ) !default;
+  $text-palette-11: lighten( desaturate( adjust-hue( $text-color, 2deg ), 21 ), 61 ) !default;
+  $text-palette-10: lighten( desaturate( adjust-hue( $text-color, 2deg ), 22 ), 36 ) !default;
+  $text-palette-9: lighten( desaturate( $text-color, 18 ), 19 ) !default;
+  $text-palette-8: lighten( desaturate( $text-color, 17 ), 12 ) !default;
+  $text-palette-7: lighten( desaturate( adjust-hue( $text-color, 3deg ), 16 ), 4 ) !default;
+  $text-palette-6: darken( desaturate( adjust-hue( $text-color, 4deg ), 11 ), 1 ) !default;
+  $text-palette-5: lighten( $text-color, 4 ) !default;
+  $text-palette-4: $text-color !default;
+  $text-palette-3: darken( adjust-hue( $text-color, 4deg ), 4 ) !default;
+  $text-palette-2: darken( saturate( adjust-hue( $text-color, 4deg ), 1 ), 7 ) !default;
+  $text-palette-1: #000000 !default;
+}
+// End text colors
+
+// Buttons
+$button-bg: $brand-color-1 !default;
+$button-disable-bg: $skin-palette-6 !default;
+$button-border-radius: 0px !default;
+$button-border-color: $skin-palette-5 !default;
+@if $white-skin == true {
+  
+  $button-disable-bg: rgba(0,0,0,0.3) !default;
+  $button-border-color: rgba(0,0,0,0.5) !default;
+  $j-betslip-button-disabled: $skin-palette-10 !default;
+  $form-elements-bg: darken($skin-palette-10, 5) !default;
+  $body-background: #dcdde2 !default;
+  $homepage-background: $body-background url(../images/bg-homepage-new-white.jpg) no-repeat 0 0 !default;
+  $scroll-main-color: white !default;
+  $scroll-main-thumb-color: $hero-color !default;
+  $header-first-line-background: white !default;
+  $footer-background: #FDFDFD !default;
+}
+// End buttons
+
+// Typography
+$style-text: normal !default;
+$bold-text: bold !default;
+$font-f: Arial, Helvetica, sans-serif !default;
+// End typography
+
+// Scroll colors
+$scroll-main-color: $skin-palette-8 !default;
+$scroll-main-thumb-color: $skin-palette-5 !default;
+@if $white-skin == true {
+  $scroll-main-color: white !default;
+  $scroll-main-thumb-color: $hero-color !default;
+}
+// End scroll colors
+
+// Modules
+$enable-new-header: false !default;
+$meet-our-dealers: false !default;
+$enable-exchange: true !default;
+$enable-about-us: true !default;
+$homepage-background: #161C2C url(../images/bg-homepage-new.jpg) no-repeat 0 0 !default;
+@if $white-skin == true {
+  $homepage-background: #f3f3f5 url(../images/bg-homepage-new-white.jpg) no-repeat 0 0 !default;
+}
+// End modules
+
+// Backgrounds 
+$body-background: $skin-palette-11 !default;
+$homepage-background: $body-background !default;
+$jackpot-background: $body-background !default;
+$casino-background: $body-background !default;
+$classic-view-background: $body-background !default;
+$classic-view-foreground: darken( saturate( $body-background, 1 ), 3 ) !default;
+$news-background: $body-background !default;
+// Footer header
+$header-first-line-background: $skin-palette-11 !default;
+$header-nav-line-background: $hero-color !default;
+$footer-background: $skin-palette-12 !default;
+$footer-payments-line-background: $skin-palette-11 !default;
+// End footer header
+// End backgrounds
+
+// UI elements
+$calendar-widget-bg: $skin-palette-8 !default;
+$form-elements-bg: $skin-palette-10 !default;
+$form-elements-focus: $skin-palette-4 !default;
+$table-zebra-1: $skin-palette-10 !default;
+$table-zebra-2: $skin-palette-7 !default;
+$favorite-active-color: #B5D000 !default;
+// End UI elements
+
+// Sportsbook
+$coeff-color: $brand-color-2 !default;
+$market-title-color: $skin-palette-7 !default;
+$market-active-title-color: lighten( desaturate( adjust-hue( $market-title-color, -1deg ), 1 ), 11 ) !default;
+$market-active-bg: $hero-color !default;
+// End sportsbook
+
+// Exchange
+$r-global-color-1: $skin-palette-8 !default;
+$r-wrapper-rialto-bg: darken( saturate( adjust-hue( $r-global-color-1, -1deg ), 10 ), 8 ) !default;
+$r-top-header-bg: $r-global-color-1 !default;
+$r-center-top-header-bg: $r-top-header-bg !default;
+$r-rialto-betslip-title-bg: $r-top-header-bg !default;
+$r-game-block-title-bg: $r-top-header-bg !default;
+$r-live-prematch-switcher-new-bg: $r-top-header-bg !default;
+$r-live-prematch-switcher-new-button-bg: lighten( desaturate( adjust-hue( $r-live-prematch-switcher-new-bg, -4deg ), 6 ), 13 ) !default;
+$r-input-rialto-b-bg: darken( saturate( $r-top-header-bg, 12 ), 6 ) !default;
+$r-title-nav-rialto-h3-bg: lighten( desaturate( adjust-hue( $r-global-color-1, -4deg ), 6 ), 13 ) !default;
+$r-rialto-left-nav-ul-li-bg: darken( saturate( adjust-hue( $r-title-nav-rialto-h3-bg, 3deg ), 1 ), 8 ) !default;
+$r-secont-level-row-rialto-bg: $r-global-color-1 !default;
+$r-secont-level-row-rialto-active-bg: lighten( desaturate( adjust-hue( $r-secont-level-row-rialto-bg, -1deg ), 5 ), 5 ) !default;
+$r-live-game-statistics-bg: lighten( desaturate( adjust-hue( $r-global-color-1, -4deg ), 6 ), 13 ) !default;
+$r-team-name-betslip-rialto-bg: $r-global-color-1 !default;
+$r-odds-title-rialto-bg: $r-global-color-1 !default;
+$r-single-event-iformation-b-bg: lighten( desaturate( adjust-hue( $r-global-color-1, -1deg ), 5 ), 5 ) !default;
+$r-mini-contain-row-rialto-bg: $r-global-color-1 !default;
+$r-filter-cashout-rialto-bg: darken( saturate( $r-global-color-1, 12 ), 6 ) !default;
+$r-default-fielt-color-bg: lighten( desaturate( adjust-hue( $r-global-color-1, -1deg ), 5 ), 5 ) !default;
+$r-color-fieald-range-bg:lighten( desaturate( adjust-hue( $r-global-color-1, -2deg ), 11 ), 37 ) !default;
+$r-scrollbar-bg: $r-global-color-1 !default;
+$r-scrollbar-thumb-bg: lighten( desaturate( adjust-hue( $r-scrollbar-bg, -4deg ), 7 ), 20 ) !default;
+// End exchange
+
+@mixin scroll($scroll: scroll, $width: 4px, $background: $scroll-main-color, $border-radius: 10px) {
+  @if $background == light {
+    $background: $skin-palette-4;
+    $scroll-main-thumb-color: $skin-palette-5;
+  }
+  overflow-y: $scroll;
+  overflow-x: hidden;
+  scrollbar-base-color: $background;
+  scrollbar-track-color: $background;
+  scrollbar-shadow-color: $background;
+  scrollbar-base-color: $scroll-main-thumb-color;
+  scrollbar-arrow-color: $scroll-main-thumb-color;
+  &::-webkit-scrollbar-track {
+    border-radius: $border-radius;
+  }
+  &::-webkit-scrollbar {
+    width: $width;
+    background: $background;
+    border-radius: $border-radius;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: $border-radius;
+    background: $scroll-main-thumb-color;
+    &:hover {
+      background: lighten( desaturate( $scroll-main-thumb-color, 1 ), 6 );
+    }
+  }
+}
+@function set-color($color, $color-dark: #000000, $color-light: #ffffff) {
+  @if (lightness($color) > 50) {
+    @return $color-dark;
+  } @else {
+    @return $color-light;
+  }
+}
+@mixin bg-and-color($background, $border: no) {
+  background: $background;
+  @if $border == yes {
+    border-color: $background;
+  }
+  color: set-color($background);
+}
+$j-header-additional-height-for-livecalendar-and-results: 0px !default;
+$sportsbook-height-and-top: $j-header-additional-height-for-livecalendar-and-results !default;
+$ucraft-icons: true !default;
+
+
+// Modern view
+$modern-view-body-background: white !default;
+$modern-view-navigation: #F9F9F9 !default;
+$modern-view-game-background: white !default;
+$modern-view-game-bottom-borders: $hero-color !default;
+$modern-view-game-league-bottom-borders: black !default;
+$modern-view-game-league-colors: black !default;
+$modern-view-game-league-count-colors: black !default;
+$modern-view-game-market-name-colors: black !default;
+$modern-view-game-market-row-count-colors: #505767 !default;
+$modern-view-coeff-color: black !default; 
+$modern-view-market-item-color: black !default;
+$modern-view-news-block-palette: darken( $modern-view-game-background, 6 ) !default;
+$modern-view-betslip-palette: $modern-view-game-background !default;
+$modern-view-betslip-text-palette: #616161 !default; 
+// End modern view
+
+// Classic view
+$coeff-color: $brand-color-2 !default;
+$classic-skinning-color: $skin-palette-11 !default;
+$classic-market-background: lighten( desaturate( $classic-skinning-color, 11 ), 3 ) !default;
+$classic-market-hover-background: lighten( desaturate( adjust-hue( $classic-market-background, -2deg ), 2 ), 10 ) !default;
+$classic-market-active-background: $hero-color !default;
+$classic-market-group-background: lighten( desaturate( adjust-hue( $classic-skinning-color, -1deg ), 16 ), 8 ) !default;
+$classic-prematch-market-active-background: lighten( desaturate( adjust-hue( $classic-market-group-background, -1deg ), 1 ), 11 ) !default;
+// End classic view
+
+
+// Combo view
+$sport-white-color: #ffffff !default;
+$sport-black-color: #000000 !default;
+$sport-color-1: $skin-palette-6 !default;
+$sport-color-2: #DBE1E6 !default;
+$sport-color-3: #debe0b !default;
+$sport-color-4: #e8edf1 !default;
+$sport-color-5: #666666 !default;
+$sport-color-active: #cfd6dc !default;
+$sport-tree-color: #BDBCBC !default;
+$active-button-color-bet: $hero-color !default;
+$up-color: #017901 !default;
+$down-color: #ff0000 !default;
+
+
+
+// Asian view
+// Text colors
+$text-color-active: $text-palette-1 !default;
+$text-color-dark: $text-palette-1 !default;
+$text-color-white: $text-palette-1 !default;
+$text-color-menu: $text-palette-4 !default;
+// Background colors
+$global-color-1: $skin-palette-5 !default;
+$global-color-2: $skin-palette-4 !default;
+$global-color-3: $skin-palette-7 !default;
+$global-color-4: $skin-palette-4 !default;
+$global-white-bg: $skin-palette-12 !default;
+$asian-page-layout: $global-white-bg url(../../../images/backgrounds/bg-asian-view.jpg) no-repeat 50% 0 fixed !default;
+// Popup
+$global-color-popup: rgba(18, 22, 34, 0.5) !default;
+// Headers background
+$bg-headers: $global-color-1 !default;
+// Buttons
+$bg-buttons-normal: $hero-color !default;
+$bg-buttons-disable: $skin-palette-8 !default;
+// Filters
+$bg-filters: $global-color-2 !default;
+// Team name
+$team-name-bg: $skin-palette-6 !default;
+$score-bg: darken( desaturate( adjust-hue( $team-name-bg, -240deg ), 4 ), 40 ) !default;
+// Market colors
+$market-color: $skin-palette-7 !default;
+$market-color-active: $hero-color !default;
+$market-color-hover: $skin-palette-5 !default;
+// Border colors
+$border-color-default: $global-color-2 !default;
+$border-color-white: $skin-palette-12 !default;
+$base-color-border: $skin-palette-12 !default;
+$base-color-light: lighten( desaturate( adjust-hue( $border-color-default, 34deg ), 13 ), 41 ) !default;
+// Element states
+$element-default-color: $skin-palette-7 !default;
+$element-default-2-color: lighten( desaturate( adjust-hue( $element-default-color, -206deg ), 17 ), 1 ) !default;
+$element-active-color: $hero-color !default;
+$element-hover-color: darken( $element-default-color, 17 ) !default;
+$element-disable-color: darken( desaturate( adjust-hue( $global-color-3, -240deg ), 4 ), 13 ) !default;
+// Up down
+$up-bg: #2d423a !default;
+$down-bg: #3f343a !default;
+$up-text-color: #1dbd15 !default;
+$down-text-color: #e44108 !default;
+// Sport icons color
+$sport-icon-color: $global-white-bg !default;
+
+
+// Classic 2016 colors;
+$c16-sp: $classic-skinning-color !default; // #171c2c
+$c16-tp: $c16-sp !default; // #171c2c
+
+
+
+$c16-sp-1: #ffffff !default;
+$c16-sp-2: lighten( desaturate( adjust-hue( $c16-sp, 14deg ), 22 ), 83 ) !default; //#f3f3f5;
+$c16-sp-3: lighten( desaturate( adjust-hue( $c16-sp, -2deg ), 21 ), 65 ) !default; //#c2c5cd;
+$c16-sp-4: lighten( desaturate( adjust-hue( $c16-sp, 1deg ), 16 ), 56 ) !default;  //#a5aabc;
+$c16-sp-5: lighten( desaturate( $c16-sp, 20 ), 47 ) !default;                      //#8d92a3;
+$c16-sp-6: lighten( desaturate( adjust-hue( $c16-sp, -2deg ), 22 ), 40 ) !default; //#7b8191;
+$c16-sp-7: lighten( desaturate( adjust-hue( $c16-sp, -4deg ), 18 ), 23 ) !default; //#505767;
+$c16-sp-8: lighten( desaturate( adjust-hue( $c16-sp, -4deg ), 17 ), 16 ) !default; //#3f4553;
+$c16-sp-9: lighten( desaturate( adjust-hue( $c16-sp, -1deg ), 16 ), 8 ) !default;  //#2e323e;
+$c16-sp-10: lighten( desaturate( $c16-sp, 11 ), 3 ) !default;                      //#212532;
+$c16-sp-11: darken( saturate( $c16-sp, 1 ), 3 ) !default;                          //#121623;
+$c16-sp-12: #000000 !default; 
+
+$c16-tp-1: #ffffff !default;
+$c16-tp-2: lighten( desaturate( adjust-hue( $c16-tp, 14deg ), 22 ), 83 ) !default; //#f3f3f5;
+$c16-tp-3: lighten( desaturate( adjust-hue( $c16-tp, -2deg ), 21 ), 65 ) !default; //#c2c5cd;
+$c16-tp-4: lighten( desaturate( adjust-hue( $c16-tp, 1deg ), 16 ), 56 ) !default;  //#a5aabc;
+$c16-tp-5: lighten( desaturate( $c16-tp, 20 ), 47 ) !default;                      //#8d92a3;
+$c16-tp-6: lighten( desaturate( adjust-hue( $c16-tp, -2deg ), 22 ), 40 ) !default; //#7b8191;
+$c16-tp-7: lighten( desaturate( adjust-hue( $c16-tp, -4deg ), 18 ), 23 ) !default; //#505767;
+$c16-tp-8: lighten( desaturate( adjust-hue( $c16-tp, -4deg ), 17 ), 16 ) !default; //#3f4553;
+$c16-tp-9: lighten( desaturate( adjust-hue( $c16-tp, -1deg ), 16 ), 8 ) !default;  //#2e323e;
+$c16-tp-10: lighten( desaturate( $c16-tp, 11 ), 3 ) !default;                      //#212532;
+$c16-tp-11: darken( saturate( $c16-tp, 1 ), 3 ) !default;                          //#121623;
+$c16-tp-12: #000000 !default; 

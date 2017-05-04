@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+msgid "Games"
+msgstr "Нарды"
+
+# 
+msgid "Casino"
+msgstr "Игры"
+
+# 
+msgid "Search a casino game..."
+msgstr "Поиск игры"
+
+# 
+msgid "play now"
+msgstr "play"
+
+# 
+msgid "CardsLast4digits"
+msgstr "Последние 4 цифры карточки"
+
+# 
+msgid "IdentificationNumber"
+msgstr "личный номер"
+
+# 
+msgid "CardNumber"
+msgstr "Номер карты"
+
+# 
+msgid "purse"
+msgstr "Кошелек"
+
+# 
+msgid "privateID"
+msgstr "личный номер"
+
+# 
+msgid "name"
+msgstr "Имя и фамилия"
+
+# 
+msgid "On Hold"
+msgstr "ЗАДЕРЖАННЫЙ"

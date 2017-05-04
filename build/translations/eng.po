@@ -1,0 +1,2020 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+msgid "(NET) Please be informed that some IP addresses are blocked."
+msgstr "Please be informed that IP addresses from the jurisdictions of France, Italy, Algeria, Ecuador, Indonesia, Iran, Myanmar, Afghanistan, Albania, Angola, Cambodia, Guyana, Iraq, Kuwait, Lao, Namibia, Nicaragua, North Korea, Pakistan, Panama, Papua New Guinea, Sudan, Syria, Uganda, Yemen, Zimbabwe, Afghanistan, Albania, Algeria, Angola, Cambodia, Ecuador, Guyana, Hong Kong, Indonesia, Iran, Iraq, Israel, Kuwait, Lao, Myanmar, Namibia, Nicaragua, North Korea, Pakistan, Panama, Papua New Guinea, Philippines, Singapore, South Korea, Sudan, Syria, Taiwan, Uganda, Yemen, Zimbabwe are blocked and the Players cannot be registered from the mentioned Restricted Territories.By trying to access to the games via PROXY servers you are acting at your own risk and the Company is not obliged to pay any winning to the end user from the mentioned jurisdictions."
+
+#
+msgid "1 hours"
+msgstr "1 hour"
+
+#
+msgid "10.000 E GTD tournament"
+msgstr "5000 E GTD tournament"
+
+#
+msgid "1x2_1"
+msgstr "1"
+
+#
+msgid "1x2_2"
+msgstr "2"
+
+#
+msgid "1x2_X"
+msgstr "X"
+
+#
+msgid "3 Steps To start the game"
+msgstr "<b>3 Steps</b> To start the game"
+
+#
+msgid "30,000 live events every month"
+msgstr "30,000+ live events every month"
+
+#
+msgid "3D  Slots"
+msgstr "3D Slots"
+
+#
+msgid "5.371.400 AMD GTD tournament"
+msgstr "2.685.000 AMD GTD tournament"
+
+#
+msgid "5.950.000 AMD GTD tournament"
+msgstr "2.685.000 AMD GTD tournament"
+
+#
+msgid "AGC"
+msgstr "Asia Gaming Casino"
+
+#
+msgid "Accept Any odds"
+msgstr "Accept any odds"
+
+#
+msgid "Accept Changes"
+msgstr "Accept changes"
+
+#
+msgid "Accept Higher odds"
+msgstr "Accept higher odds"
+
+#
+msgid "Accepted"
+msgstr "Accepted"
+
+#
+msgid "AccountNotFound"
+msgstr "Account Not Found"
+
+#
+msgid "Add to My Games"
+msgstr "Add to Favorite Games"
+
+#
+msgid "All games"
+msgstr "All Games"
+
+#
+msgid "AllWeather"
+msgstr "All Weather"
+
+#
+msgid "AmountRangeDoesNotValidRange"
+msgstr "Amount Range Does Not Valid Range"
+
+#
+msgid "ArgumentError"
+msgstr "Argument Error"
+
+#
+msgid "Attention: Once you choose your currency, you will not be able to change it later in your profile."
+msgstr "Attention: Once you choose your currency,
+you will not be able to change it later in your profile.
+"
+
+#
+msgid "BET_APPROVED_TITLE"
+msgstr "APPROVED BET"
+
+#
+msgid "BET_DECLINED_MESSAGE"
+msgstr "YOUR BET HAS BEEN DECLINED."
+
+#
+msgid "BET_DECLINED_TITLE"
+msgstr "DECLINED BET"
+
+#
+msgid "Bank of America"
+msgstr "BANK OF AMERICA"
+
+#
+msgid "Bet-52 Company offers its customers a free quiz. Costumers will be offered 3 types of express, which contains 6,8 or 10 events. If the costumer guesses correctly 6 out of 6 events and the winning amount will be 25€, 8 of 8 events payout will be 50€ and if you guess 10 of 10 events payoff will be 100€. The winning amount will be transfered to the customer\'s account within 3 days after completion of all events are included in all 3 express bets. If there are events, which have not take place in this variant of express, the quiz will be lost. Each customer can daily make an express bet on each variant only once. Costumer should have at least 0, 1€ on the account to be able to qualify for free quiz. "
+msgstr "RamBet Company offers its customers a free quiz. Costumers will be offered 3 types of express, which contains 6,8 or 10 events. If the costumer guesses correctly 6 out of 6 events and the winning amount will be 25€, 8 of 8 events payout will be 50€ and if you guess 10 of 10 events payoff will be 100€. The winning amount will be transfered to the customer\'s account within 3 days after completion of all events are included in all 3 express bets. If there are events, which have not take place in this variant of express, the quiz will be lost. Each customer can daily make an express bet on each variant only once. Costumer should have at least 0, 1€ on the account to be able to qualify for free quiz. "
+
+#
+msgid "BetAlreadyPaid"
+msgstr "Bet Already Paid"
+
+#
+msgid "BetNotFoundError"
+msgstr "Bet Not Found"
+
+#
+msgid "BetSelectionsCombindedError"
+msgstr "Bet Selections Combinded Error"
+
+#
+msgid "BetTypeError"
+msgstr "Bet Type Error"
+
+#
+msgid "BetshopNotFound"
+msgstr "Betshop Not Found"
+
+#
+msgid "By clicking here, you can walk through demo tour"
+msgstr "By clicking here you can walk through demo tour"
+
+#
+msgid "CPF"
+msgstr "CPF “National Social ID”.
+"
+
+#
+msgid "CardHolderName"
+msgstr "Card Holder Name"
+
+#
+msgid "CardNumber"
+msgstr "Card Number"
+
+#
+msgid "Cash-out done."
+msgstr "Cash-out completed."
+
+#
+msgid "Cashed out"
+msgstr "Cashed Out"
+
+#
+msgid "Casino"
+msgstr "Casino"
+
+#
+msgid "Casino - Poker"
+msgstr "Casino"
+
+#
+msgid "Citibank Korea"
+msgstr "CITIBANK KOREA"
+
+#
+msgid "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+msgstr "Click on the Register button in the login window to register your account.<br>If you have already registered, enter your credentials and login."
+
+#
+msgid "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+msgstr "Click on the downloaded file to start installation process.<br>Follow the steps to complete installation and run the software."
+
+#
+msgid "ClientActivationCodeExpired"
+msgstr "Client Activation Code Expired"
+
+#
+msgid "ClientActivationCodeNotMatch"
+msgstr "Client Activation Code Not Match"
+
+#
+msgid "ClientOrAgentNotFound"
+msgstr "Client Or Agent Not Found"
+
+#
+msgid "ClientRestrictedForAction"
+msgstr "Client Restricted For Action"
+
+#
+msgid "ClientVerificationStepExpired"
+msgstr "Client Verification Step Expired"
+
+#
+msgid "Contact Support"
+msgstr "Need Help? Live Chat Support - 24/7\"   "
+
+#
+msgid "Contact number"
+msgstr "Contact Number"
+
+#
+msgid "Cool, just login."
+msgstr "Cool, just login"
+
+#
+msgid "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+msgstr "Create and enjoy betting on your own Live Multi view <br>by selecting events from the left hand navigation menu."
+
+#
+msgid "CreditCardNumber"
+msgstr "Credit Card Number"
+
+#
+msgid "Currency unsupported"
+msgstr "This transfer is not supported for Your currency"
+
+#
+msgid "Daily coupon"
+msgstr "Live Calendar"
+
+#
+msgid "Date of Birth"
+msgstr "Birthday"
+
+#
+msgid "Deposit to main wallet"
+msgstr "Deposit to main wallet."
+
+#
+msgid "Disable regions"
+msgstr "Grouping by regions"
+
+#
+msgid "Document Number"
+msgstr "BTC Address"
+
+#
+msgid "Download Beta version"
+msgstr "Download New"
+
+#
+msgid "Duplicate product"
+msgstr "Please choose different products for transfer"
+
+#
+msgid "EVL"
+msgstr "Evolution"
+
+#
+msgid "EZG"
+msgstr "Ezugi"
+
+#
+msgid "EZG_STUDIO_1"
+msgstr "Latin America Studio"
+
+#
+msgid "EZG_STUDIO_30"
+msgstr "Asian Studio"
+
+#
+msgid "EZG_STUDIO_4"
+msgstr "Europe Studio"
+
+#
+msgid "EZG_STUDIO_50"
+msgstr "Eastern Europe Studio"
+
+#
+msgid "EZG_STUDIO_60"
+msgstr "Baltic Studio"
+
+#
+msgid "Eastern"
+msgstr "Eastern"
+
+#
+msgid "EditBetDurationError"
+msgstr "Edit Bet Duration Error"
+
+#
+msgid "Email"
+msgstr "Email Address"
+
+#
+msgid "Email/Account Id"
+msgstr "Email/Account ID"
+
+#
+msgid "Email/Account Id "
+msgstr "Email Address / Account ID "
+
+#
+msgid "EmailTypeNotFound"
+msgstr "Email Type Not Found"
+
+#
+msgid "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+msgstr "Enjoy playing in our poker room.<br>For inquiries and suggestions please contact Live Support."
+
+#
+msgid "Enjoy your time with us playing on our sportsbook and casino games"
+msgstr "Enjoy your time with us playing on our sportsbook and casino games."
+
+#
+msgid "Enter your password"
+msgstr "Еnter your password"
+
+#
+msgid "Error occured"
+msgstr "Error "
+
+#
+msgid "ExpirationMonth"
+msgstr "Expiration Month"
+
+#
+msgid "ExpirationYear"
+msgstr "Expiration Year"
+
+#
+msgid "Expiry date (yyyy)"
+msgstr "Son kullanma tarihi (yıl olarak)"
+
+#
+msgid "Express"
+msgstr "Multiple"
+
+#
+msgid "External"
+msgstr "Eastern"
+
+#
+msgid "Fair"
+msgstr "Exchange"
+
+#
+msgid "Favorite games"
+msgstr "Favorites"
+
+#
+msgid "Frame 1"
+msgstr "1st Frame"
+
+#
+msgid "Frame 10"
+msgstr "10th Frame"
+
+#
+msgid "Frame 11"
+msgstr "11th Frame"
+
+#
+msgid "Frame 12"
+msgstr "12th Frame"
+
+#
+msgid "Frame 13"
+msgstr "13th Frame"
+
+#
+msgid "Frame 14"
+msgstr "14th Frame"
+
+#
+msgid "Frame 15"
+msgstr "15th Frame"
+
+#
+msgid "Frame 16"
+msgstr "16th Frame"
+
+#
+msgid "Frame 17"
+msgstr "17th Frame"
+
+#
+msgid "Frame 18"
+msgstr "18th Frame"
+
+#
+msgid "Frame 19"
+msgstr "19th Frame"
+
+#
+msgid "Frame 2"
+msgstr "2nd Frame"
+
+#
+msgid "Frame 20"
+msgstr "20th Frame"
+
+#
+msgid "Frame 21"
+msgstr "21th Frame"
+
+#
+msgid "Frame 22"
+msgstr "22th Frame"
+
+#
+msgid "Frame 23"
+msgstr "23th Frame"
+
+#
+msgid "Frame 24"
+msgstr "24th Frame"
+
+#
+msgid "Frame 25"
+msgstr "25th Frame"
+
+#
+msgid "Frame 26"
+msgstr "26th Frame"
+
+#
+msgid "Frame 27"
+msgstr "27th Frame"
+
+#
+msgid "Frame 28"
+msgstr "28th Frame"
+
+#
+msgid "Frame 29"
+msgstr "29th Frame"
+
+#
+msgid "Frame 3"
+msgstr "3rd Frame"
+
+#
+msgid "Frame 30"
+msgstr "30th Frame"
+
+#
+msgid "Frame 31"
+msgstr "31st Frame"
+
+#
+msgid "Frame 32"
+msgstr "32nd Frame"
+
+#
+msgid "Frame 33"
+msgstr "33rd Frame"
+
+#
+msgid "Frame 34"
+msgstr "34th Frame"
+
+#
+msgid "Frame 35"
+msgstr "35th Frame"
+
+#
+msgid "Frame 36"
+msgstr "36th Frame"
+
+#
+msgid "Frame 37"
+msgstr "37th Frame"
+
+#
+msgid "Frame 38"
+msgstr "38th Frame"
+
+#
+msgid "Frame 39"
+msgstr "39th Frame"
+
+#
+msgid "Frame 4"
+msgstr "4th Frame"
+
+#
+msgid "Frame 5"
+msgstr "5th Frame"
+
+#
+msgid "Frame 6"
+msgstr "6th Frame"
+
+#
+msgid "Frame 7"
+msgstr "7th Frame"
+
+#
+msgid "Frame 8"
+msgstr "8th Frame"
+
+#
+msgid "Frame 9"
+msgstr "9th Frame"
+
+#
+msgid "Free Bet"
+msgstr "Free Quiz"
+
+#
+msgid "Full name"
+msgstr "Full Name"
+
+#
+msgid "Game"
+msgstr "TABLE"
+
+#
+msgid "Game 1"
+msgstr "1st Game"
+
+#
+msgid "Game 5"
+msgstr "5th Game"
+
+#
+msgid "Games"
+msgstr "Games"
+
+#
+msgid "If your balance less, top up your balance now."
+msgstr "If funds on balance are insufficient, fill it"
+
+#
+msgid "InvalidClientVerificationArgs"
+msgstr "Invalid Client Verification Args"
+
+#
+msgid "It is very important to keep your personal information up to date. Hence our request to you is to submit your personal information in My Profile / Personal Details as soon as possible."
+msgstr "To make a Deposit, please fill in the missing data in \"MY PROFILE\" section "
+
+#
+msgid "LIVE BET ON POKER TURBO"
+msgstr "BET ON POKER TURBO"
+
+#
+msgid "Limit"
+msgstr "LIMITS"
+
+#
+msgid "Live"
+msgstr "In-Play"
+
+#
+msgid "Live Bet On Baccarat"
+msgstr "LIVE BET ON BACCARAT"
+
+#
+msgid "Live Bet on Baccarat"
+msgstr "LIVE BET ON BACCARAT"
+
+#
+msgid "Live Bet on Poker"
+msgstr "LIVE BET ON POKER "
+
+#
+msgid "Live Draw 6 of 49"
+msgstr "Live Bet on Numbers"
+
+#
+msgid "Live MultiView"
+msgstr "Live Multiview"
+
+#
+msgid "Live casino"
+msgstr "Live Casino"
+
+#
+msgid "Lobby Baccarat"
+msgstr "Baccarat"
+
+#
+msgid "Lobby BlackJack"
+msgstr "BlackJack"
+
+#
+msgid "Lobby Live Bet On Baccarat"
+msgstr "Bet On Baccarat"
+
+#
+msgid "Lobby Live Bet on Poker"
+msgstr "Bet on Poker"
+
+#
+msgid "Lobby Live Russian Poker"
+msgstr "Russian Poker"
+
+#
+msgid "Lobby LiveBetOnPoker"
+msgstr "Bet on Poker"
+
+#
+msgid "Lobby Roulette"
+msgstr "Roulette"
+
+#
+msgid "Lobby Vivaro Fortune"
+msgstr "Roulette Fortune"
+
+#
+msgid "MGS"
+msgstr "Microgaming"
+
+#
+msgid "MaxDepositRequestSum"
+msgstr "Max Deposit Request Sum"
+
+#
+msgid "MaxWithdrawalRequestsCount"
+msgstr "Max Withdrawal Requests Count"
+
+#
+msgid "MinDepositRequestSum"
+msgstr "Min Deposit Request Sum"
+
+#
+msgid "MinWithdrawalRequestSum"
+msgstr "Min Withdrawal Request Sum"
+
+#
+msgid "My bets"
+msgstr "My Bets"
+
+#
+msgid "NET"
+msgstr "NetEnt"
+
+#
+msgid "N_H_Flat"
+msgstr "NH Flat"
+
+#
+msgid "Not Started"
+msgstr "Not Started"
+
+#
+msgid "Notstarted"
+msgstr "Not Started"
+
+#
+msgid "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+msgstr "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press &quot;Send&quot;."
+
+#
+msgid "Olympic games"
+msgstr "Olympic Games"
+
+#
+msgid "Open Мy Bets, check Recent Bets and Bet History here!"
+msgstr "Open My Bets, check Recent Bets and Bet History here!"
+
+#
+msgid "PendingWithdrawalRequests"
+msgstr "Pending withdrawal requests"
+
+#
+msgid "Period 1"
+msgstr "1st Period"
+
+#
+msgid "Period 2"
+msgstr "2nd Period"
+
+#
+msgid "Period 3"
+msgstr "3rd Period"
+
+#
+msgid "Period 4"
+msgstr "4th Period"
+
+#
+msgid "Period 5"
+msgstr "5th Period"
+
+#
+msgid "Period 6"
+msgstr "6th Period"
+
+#
+msgid "Play For Free"
+msgstr "Play for free"
+
+#
+msgid "Please check your email."
+msgstr "Please check your email. If you don’t see it in your inbox within the next few minutes, try to look in your spam folder.
+"
+
+#
+msgid "Please enter a valid name: only letters-no space, no digits and/or symbols."
+msgstr "Please enter a valid first name: only letters-no space, no digits and/or symbols."
+
+#
+msgid "Please note that you\'ll be able to decrease the self-exclusion period only after seven days from your 1st request."
+msgstr "Please note that you\'ll be able to decrease the self-exclusion period only after seven days from your first request."
+
+#
+msgid "Powered by BetConstruct"
+msgstr "Powered by <a href=\"http://www.betconstruct.com\" target=\"_blank\">BetConstruct</a>"
+
+#
+msgid "Previous Flash version"
+msgstr "Flash version"
+
+#
+msgid "Previous version"
+msgstr "Old Vivaro"
+
+#
+msgid "Price changes"
+msgstr "Price Changes"
+
+#
+msgid "Promo code"
+msgstr "Promo Code"
+
+#
+msgid "Promotional Bonuses"
+msgstr "Promotional bonuses"
+
+#
+msgid "Quarter 1"
+msgstr "1st Quarter"
+
+#
+msgid "Quarter 2"
+msgstr "2nd Quarter"
+
+#
+msgid "Quarter 3"
+msgstr "3rd Quarter"
+
+#
+msgid "Quarter 4"
+msgstr "4th Quarter"
+
+#
+msgid "Recharge Account"
+msgstr "Deposit"
+
+#
+msgid "Recipient Marsbet account no"
+msgstr "Recipient Marsbet account number"
+
+#
+msgid "Recipient mobile ID no"
+msgstr "Recipient mobile ID number"
+
+#
+msgid "Remove from My Games"
+msgstr "Remove from Favorite Games"
+
+#
+msgid "RequiredFieldsMissing"
+msgstr "Required Fields Missing"
+
+#
+msgid "Round 1"
+msgstr "1st Round"
+
+#
+msgid "Round 10"
+msgstr "10th Round"
+
+#
+msgid "Round 11"
+msgstr "11th Round"
+
+#
+msgid "Round 12"
+msgstr "12th Round"
+
+#
+msgid "Round 2"
+msgstr "2nd Round"
+
+#
+msgid "Round 3"
+msgstr "3rd Round"
+
+#
+msgid "Round 4"
+msgstr "4th Round"
+
+#
+msgid "Round 5"
+msgstr "5th Round"
+
+#
+msgid "Round 6"
+msgstr "6th Round"
+
+#
+msgid "Round 7"
+msgstr "7th Round"
+
+#
+msgid "Round 8"
+msgstr "8th Round"
+
+#
+msgid "Round 9"
+msgstr "9th Round"
+
+#
+msgid "Search a casino game..."
+msgstr "Search a casino game"
+
+#
+msgid "Search a competition or a team..."
+msgstr "Search a competition or a team"
+
+#
+msgid "Secure Id/Authentication code"
+msgstr "Secure ID / Authentication Code"
+
+#
+msgid "Security answer"
+msgstr "Security Answer"
+
+#
+msgid "Security question"
+msgstr "Security Question"
+
+#
+msgid "Select a payment method"
+msgstr "Select a payment method."
+
+#
+msgid "Selected games"
+msgstr "Chosen games"
+
+#
+msgid "Self exclusion of a one year period"
+msgstr "Self exclusion of one year period"
+
+#
+msgid "Set 1"
+msgstr "1st Set"
+
+#
+msgid "Set 10"
+msgstr "10th Set"
+
+#
+msgid "Set 11"
+msgstr "11th Set"
+
+#
+msgid "Set 12"
+msgstr "12th Set"
+
+#
+msgid "Set 13"
+msgstr "13th Set"
+
+#
+msgid "Set 14"
+msgstr "14th Set"
+
+#
+msgid "Set 15"
+msgstr "15th Set"
+
+#
+msgid "Set 16"
+msgstr "16th Set"
+
+#
+msgid "Set 17"
+msgstr "17th Set"
+
+#
+msgid "Set 18"
+msgstr "18th Set"
+
+#
+msgid "Set 19"
+msgstr "19th Set"
+
+#
+msgid "Set 2"
+msgstr "2nd Set"
+
+#
+msgid "Set 20"
+msgstr "20th Set"
+
+#
+msgid "Set 3"
+msgstr "3rd Set"
+
+#
+msgid "Set 4"
+msgstr "4th Set"
+
+#
+msgid "Set 5"
+msgstr "5th Set"
+
+#
+msgid "Set 6"
+msgstr "6th Set"
+
+#
+msgid "Set 7"
+msgstr "7th Set"
+
+#
+msgid "Set 8"
+msgstr "8th Set"
+
+#
+msgid "Set 9"
+msgstr "9th Set"
+
+#
+msgid "Sign in"
+msgstr "Sign In"
+
+#
+msgid "Sign up now, it\'s easy!"
+msgstr "Join us now, it\'s easy!"
+
+#
+msgid "Single Only Events"
+msgstr "Only Single Events"
+
+#
+msgid "Son Kullanım Tarihi (Ay) "
+msgstr "Expiration Date (Month)
+"
+
+#
+msgid "Soyisim"
+msgstr "Surname"
+
+#
+msgid "Sport"
+msgstr "Sports"
+
+#
+msgid "Sportsbook Layout"
+msgstr "Sportsbook layout:"
+
+#
+msgid "Stake..."
+msgstr "Stake"
+
+#
+msgid "TV Games"
+msgstr "TvGames"
+
+#
+msgid "Technical support:+7 495 3088250"
+msgstr "Technical support: +7 495 3088250"
+
+#
+msgid "There are no Live Events at the moment"
+msgstr "There are no Live Events at the moment."
+
+#
+msgid "There was an error during file upload, please try again."
+msgstr " There was an error during file upload, please try again. "
+
+#
+msgid "This Game is already finished"
+msgstr "This game is already finished"
+
+#
+msgid "This field can contain only digits and English letters"
+msgstr "This field can contain only digits and English letters"
+
+#
+msgid "This field can contain only digits and letters"
+msgstr "This field can contain only digits and English letters"
+
+#
+msgid "Tie"
+msgstr "Draw"
+
+#
+msgid "Time 1"
+msgstr "1st Time"
+
+#
+msgid "Time 2"
+msgstr "2nd Time"
+
+#
+msgid "Time to wager"
+msgstr "Time to Wager"
+
+#
+msgid "Todays bets"
+msgstr "Today\'s Bets"
+
+#
+msgid "TransactionAmountExceedsFrozenMoney"
+msgstr "Transaction Amount Exceeds Frozen Money"
+
+#
+msgid "TransferProductRROR_LOW_BALANCE"
+msgstr "Your balance is not sufficient for this operation"
+
+#
+msgid "TvGames"
+msgstr "TvGames"
+
+#
+msgid "UserPasswordMustBeLonger"
+msgstr "User Password Must Be Longer"
+
+#
+msgid "Username (1)"
+msgstr "Username"
+
+#
+msgid "Username (2)"
+msgstr "Username "
+
+#
+msgid "Username / Email"
+msgstr "Username / Email Address"
+
+#
+msgid "VGS"
+msgstr "BetConstruct"
+
+#
+msgid "VbetNews"
+msgstr "Vbet News"
+
+#
+msgid "Verify Account"
+msgstr "Verify Account"
+
+#
+msgid "Verify account"
+msgstr "Verify Account"
+
+#
+msgid "Video Slots"
+msgstr "Video Slots"
+
+#
+msgid "VideoSlots"
+msgstr "Video Slots"
+
+#
+msgid "View"
+msgstr "VIEW"
+
+#
+msgid "Vivaro Fortune"
+msgstr "ROULETTE FORTUNE"
+
+#
+msgid "Wagering req"
+msgstr "Wagering Requirements"
+
+#
+msgid "Wagering requirement"
+msgstr "Wagering Requirements"
+
+#
+msgid "Wallet id"
+msgstr "Wallet ID"
+
+#
+msgid "Withdrawable Balance"
+msgstr "Withdrawable Balance"
+
+#
+msgid "You need to be logged in to be able to play video."
+msgstr "You need to sign in to be able to play video."
+
+#
+msgid "Your Wallet, Deposit, Withdrawal and History sections are here!"
+msgstr "Open your Wallet, Deposit, Withdrawal sections and Balance History here!"
+
+#
+msgid "Your file successfully uploaded"
+msgstr "Your file successfully uploaded "
+
+#
+msgid "Your login"
+msgstr "Enter your Login or Email"
+
+#
+msgid "ZeroAmountTransfer"
+msgstr "Zero Amount Transfer"
+
+#
+msgid "and I am over 18 years of age and have read and accepted the general terms and conditions."
+msgstr "and I am over 18 years of age."
+
+#
+msgid "and I am over 21 years of age and have read and accepted the general terms and conditions."
+msgstr "and I am over 21 years of age."
+
+#
+msgid "backgammon_download_description_windows"
+msgstr "Please download application from the website and then Run downloaded file. Complete installation pushing Next button. On the last step push Finish. After installation is complete launch installed file. "
+
+#
+msgid "backgammon_requirements_windows"
+msgstr "Minimal Requirments:<br>OS: WinXP or higher. CPU: Pentium 4 and higher.<br>Minimal RAM - 512MB. HDD- 100MB."
+
+#
+msgid "belote"
+msgstr "Belote"
+
+#
+msgid "bet id:"
+msgstr "Bet ID"
+
+#
+msgid "casino"
+msgstr "Casino"
+
+#
+msgid "casino_auth_error"
+msgstr "We\'re experiencing temporary difficulties. Please try a little later."
+
+#
+msgid "competition or a team..."
+msgstr "Competition or a team"
+
+#
+msgid "deposit_info_arca"
+msgstr "&quot;Armenian Card&quot; CJSC was established by the Central Bank of RA and 10 commercial banks in March 2000 for the establishment and development of the new banking payment system in Armenia. The company provides a set of services that allows banks to issue and serve ArCa, MasterCard, VISA cards, also to serve Armenian Express cards using modern technical, technological and software opportunities of the processing center using also specialized support of the company. The company is:<ul><li>Full member of international payment system of MasterCard Europe and the Centre for the provision of processing services (Member Service Provider)</li><li>Center to provide processing services for the system VISA (Third Party Processor)</li><li>Center to provide processing services for the system of American Express (Third Party Processor)</li></ul>"
+
+#
+msgid "deposit_info_astropay"
+msgstr "<p>AstroPay Card - our anonymous, virtual prepaid card and e-wallet, for customers who dont want to expose their personal information when making online transactions. Register for free, choose the value of the card you want to purchase and pay in local currency using the most popular payment methods in your country.It is an immediate solution. Simply purchase your card, make your payment and receive an e-mail with your AstroPay Card details ready for use.
+</p>"
+
+#
+msgid "deposit_info_btabank"
+msgstr "It is of capital importance for Vbet to provide its clients with up-to-date, trustworthy and comfortable payment services.<br>You can henceforth replenish your VBET account through the BTA BANK.<br>BTA Bank JSC functions on the basis of license N31, provided by the Central Bank of the Republic of Armenia.<br>Through BTA BANK JSC you can pay for fixed line and mobile networks, public service and digital wallets."
+
+#
+msgid "deposit_info_cash"
+msgstr "<p>To deposit money you should tell the bookmaker-cashier your VivaroBet account number which you were granted after the registration on our website.</p><p>At Baghramyan 1, Andranik 73/5, Komitas 60 and N.Zaryan sidestreet 1, h. 9 you can replenish your game account and receive your winning 24/7. In other betting offices you can replenish your game account and receive your winning from 14:00 till 23:00.</p><p>The addresses of betting offices where you can deposit cash money.</p>"
+
+#
+msgid "deposit_info_cashbill"
+msgstr "CashBill is a global settlement system enabling internet users to conduct safe money transfers in real time. Funds will be transfered to your account immediately. There are no fees for using this payment method. Transfers don\'t have a minimum and/or a maximum value. To deposit funds into your account using CashBill, simply press deposit after entering your login & amount you want to transfer below. You will be redirected to CashBill to complete your transaction. Please note that you must have bank account in PLN currency to use this payment method."
+
+#
+msgid "deposit_info_centili"
+msgstr "Mobile Payment - You can easily pay with your phone in no time. The amount is automatically added to your mobile phone bill or deducted from your prepaid account, so you do not need a credit card or a bank account. Simply pay by mobile and enjoy! Currencies supported - RUB. To make a deposit at Vbet please fill in the sum and then your mobile phone number. You will recieive an SMS asking to confirm the payment by answering it with a specific number. After confirmation the payment is done.<br><br>Please read the following:<br>1. This Payment System is only for Beeline Russia customers.<br>2. After payment there should be minimum 50 RUB left on your mobile account.<br>3. Commission for deposit is 8%  "
+
+#
+msgid "deposit_info_dotpay"
+msgstr "Dotpay is a big Polish payment aggregator, which enables payments from different European banks through internet banking."
+
+#
+msgid "deposit_info_ecocard"
+msgstr "<p>EcoPayz is a global payment solutions provider offering instant safe and convenient payment services to customers and businesses across the globe.
+Supported currencies include EUR, RUB and USD.
+Funds will be transferred to your account immediately.
+There are no fees for using this payment method. 
+Transfers don`t have a minimum and/or a maximum value.
+To deposit funds into your account using ecoPayz, simply press deposit after entering the amount you want to transfer below. You will be redirected to ecoPayz to complete your transaction.
+</p>"
+
+#
+msgid "deposit_info_edram"
+msgstr "<a href=\"http://www.idram.am/\">IDram</a> is a payment system on the Internet. For realization of payment it is necessary to be registered in IDram system. IDram system does not demand loading the additional program. On a special page you can expose to yourselves the account for the necessary sum and pay it in IDram system. After that it is necessary to check up the status of the exposed account on the same page. If it has been paid, your game account will be replenished with the transferred sum. For input of money into the system it is necessary to buy а card IDram through branches of &quot;ArmPost&quot; communication. It is possible to familiarize with the rules of the system on the website <a href=\"http://www.idram.am/\">www.idram.am</a>. There are no expenses for this payment method."
+
+#
+msgid "deposit_info_interkassa"
+msgstr "Interkassa – the system for receiving and payments in real time.The service has a lot of advantages over a disparate network of payment systems. So, with her help, you, as the buyer can make payment without leaving your own home. The firm is a legal entity, thereby is responsible for the safety of users and the reliability of the encryption transaction.
+Intercash has established itself on the positive side, as evidenced by the number of people connected to Interkassa payment instruments including such as Visa, Master Card, Приват24, QIWI,Liqpay, W1, PerfectMoney, ADVcash, Terminals, Bitcoin, Ecoint, EXmo, Okpay, Payeer, Swift.
+
+To funds to Your account with Interkassa , You must specify the amount of Deposit and press Deposit. After clicking the Deposit button, You will be automatically redirected to the payment processor\'s site to complete the transaction."
+
+#
+msgid "deposit_info_megapay"
+msgstr "<p><b>\"Mega Panther\" LLC</b> is a payment organization which represents <b>MegaPay</b>. The system operates through payment terminals. Via payment terminals you can pay for mobile and fixed telephony, gas, water, electricity, Internet, IP-telephony, commercial TV, <b>Vivarobet</b>,&nbsp;and etc. Payment terminals are the most modern way to pay your bills easily and quickly. Due to these modern methods of dialogue construction with client the process of financial operations becomes accessible, easy and gives an opportunity to serve the maximum number of people in a short period of time. There is no need of special explanation for using these terminals. Anyone can do the operation through the terminals;it is enough to follow the text and graphic instructions on the screen.</p><p>All payments are carried out in online operation mode by the simple touch on the screen. For all types of payments through <b>MegaPay</b> system no commission is collected – <span class=\"CRed\"><strong>0 %</strong></span>.</p><p>Payment system <b>MegaPay</b> is an optimal financial and technological solution, and payment terminal means comfortability along with availability.<br></p><p>Mega Panther <b>LLC</b> created stable software which is permanently improved for terminals. And our monitoring group is constantly observing terminals to reduce possible errors.</p><p>Half the success of any business is satisfied clients. Guided by this slogan <b>Mega Panther LLC</b> constantly improves <b>MegaPay</b> payment system, increases efficiency of payment terminals, works with its clients through the united call-center. As a result, day by day grows not only the quantity of services offered, but also the number of satisfied and loyal clients.</p>"
+
+#
+msgid "deposit_info_mobidram"
+msgstr " If you have a MobiDram account from now on you can top up your Vivaro account online via MobiDram. After login you should click \"Deposit\" button and then choose MobiDram. There you should fill in appropriate fields with data and confirm payment.<br>The whole amount will be transfered to your account."
+
+#
+msgid "deposit_info_moneta"
+msgstr "<p>Moneta.ru is a payment system established in Russia to provide Internet users with the ability to make secure and instant transactions.
+Supported currencies include EUR, RUB and USD. There are no fees for using this payment method. Transfers don\'t have a minimum and/or a maximum value. To deposit funds from your account using Moneta.Ru, simply press deposit after enter the amount you want to transfer below. You will be redirected to Moneta.Ru to complete your transaction.
+</p>"
+
+#
+msgid "deposit_info_neteller"
+msgstr "<p>Neteller gives users the ability to make secure on-line payments with a system offering instant deposits, withdrawals and payouts trusted by millions worldwide. Supported currencies include USD, EUR and RUB. Funds will be transferred to your 
+account immediately. There are no fees for using this payment method. Transfers don\'t have a minimum and/or a maximum value. To deposit funds into your account using Neteller, simply press deposit after entering your Neteller account number, Secure ID and the amount you want to transfer below. You will be redirected to Neteller to complete your transaction. 
+</p>"
+
+#
+msgid "deposit_info_osmp"
+msgstr "<p>\"OSMP\" LLC (United System of Instant Payments) - Armenian representative office of Russian \"OSMP\" CJSC which was set up in September, 2007.<br>RA Central Bank’s № 9 license from April 22, 2008 (payment system). RA Central Bank’s № 5 license from April 22, 2008 (processing and clearing of payments)<br>The System organizes acceptance of payments for the following services: <br>- mobile connection: Beeline, VivaCell-MTS;<br>- fixed connection;<br>- bookmaker offices (Vivarobet)<br>- payment systems (EDram) <br>- VoIP service (Kargin kap) – <strong>New</strong>. <br>- gaz service (ArmRusgazprom) – <strong>New.</strong></p><p>As of 01.12.08, 28 payment terminals located in various districts of Yerevan and Ashtarak are functioning in the system. <br>Russian \"OSMP\" CJSC was founded in 2004. It possesses payment acceptance points in all regions of Russia. Aside from Armenia, the Company’s payment systems function in Georgia, Kazakhstan, Tajikistan, Uzbekistan, Ukraine, Moldova, Belarus. </p>"
+
+#
+msgid "deposit_info_paytopay"
+msgstr "If you have a MobiDram account from now on you can top up your Vivaro account by sending an SMS to 1009 short number mentioning the amount and Vivaro ID you want to top up. For example: 5000, 1234567.<br>The minimum amount for top up is 1000 AMD. The whole amount will be transfered to your account"
+
+#
+msgid "deposit_info_qiwi"
+msgstr "<p>QIWI is a digital wallet that can be used to send and receive money with a wide range of methods allowing for every user to choose what is most convenient and preferable.  Supported currencies include EUR, RUB and USD.  Funds will be transferred to your account within 24 hours.</p><p>There are no fees for using this payment method.</p><p>Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your account using QIWI, simply press deposit after entering the phone number registered with QIWI and the amount you want to transfer below. You will be redirected to QIWI to complete your transaction.</p>"
+
+#
+msgid "deposit_info_safecharge"
+msgstr "SafeCharge is a leading global payment service provider of end-to-end payment acceptance and card issuing solutions. SafeCharge processes all major credit/debit cards as Visa and MasterCard, as well as hundreds of alternative payment methods for quick deposits and withdrawals."
+
+#
+msgid "deposit_info_skrill"
+msgstr "Skrill is a secure, convenient and affordable way to send and receive money worldwide. Supported currencies include EUR and USD. Funds will be transferred to your account immediately.
+There are no fees for using this payment method.
+The minimum value for transfers is 5 and there\'s no maximum value.
+To deposit funds into your account using Skrill, simply press deposit after entering the e-mail address registered with Skrill and the amount you want to transfer below. You will be redirected to Skrill to complete your transaction.
+"
+
+#
+msgid "deposit_info_skrill_1tap"
+msgstr "<b>Skrill 1-Tap</b> is Skrill\'s convenient service that lets users make small transfers easily without the need to always re-enter an e-mail address and password.<br /> <br /> Supported currencies include EUR and USD.<br /> Funds will be transferred to your Vbet account immediately.<br /> There are no fees for using this payment method. <br /> The minimum for transfers is 5, the maximum is 1000. <br /> <br /> To deposit funds into your Vbet account using Skrill 1-Tap, simply press “Deposit” entering the amount you want to transfer below. You will be redirected to Skrill to complete your transaction.<br /> Please note that you only have to enter your e-mail address for your first Skrill 1-Tap transaction. After the first time, your account information will be automatically recognized by the Skrill system."
+
+#
+msgid "deposit_info_tandem"
+msgstr "<b>Tandem Payment<br>    LLC</b>, Tandem Payment LLC founded in 2007 practices setting, distribution and support of automatized payment systems. The payment terminals offered by our company guarantee quick, comfortable and foolproof method of billing, paying for public utilities, Internet, replenishment of accounts and etc. The software of Tandem Payment&Otilde;s terminals is developed in RA by Smart-Tech LLC which has a great experience in development of various systems of e-payments such as ArCa portal and system of E-card Banking. This fact gives an opportunity to continually improve the system of payment terminals, to execute and apply different innovations into the system.<br><i><b>Our primary advantages are:</b></i><br><br>    <b>We work without commission (0%)</b><br>    <b>Our terminals enable to distribute paid-in sum of money among different types of services.</b><b> </b><b>(You can get more detailed information on these items on &quot;for users&quot; page).</b><br>Our operators work on a twenty-four hour basis and are always ready to answer your all questions concerning our system."
+
+#
+msgid "deposit_info_telcell"
+msgstr "It is very important for &quot;VivaroBet&quot; company to provide its consumers with modern, reliable and convenient payment service. Therefore &quot;VivaroBet&quot; company has incorporated to system <a href=\"http://www.telcell.am/\">TelCell</a>."
+
+#
+msgid "deposit_info_ukash"
+msgstr "<p>Ukash was created to give customers an easy, safe and private method to make online payments using cash.  Supported currencies include EUR and USD.  Funds will be transferred to your Vbet account immediately.  There are no fees for using this payment method.  Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your Vbet account using Ukash, simply press submit after entering the amount you want to transfer below. You will be redirected to Ukash where you must enter your Ukash Voucher details to complete your transaction.</p>"
+
+#
+msgid "deposit_info_webmoney"
+msgstr "<p>WebMoney is a global settlement system enabling Internet users to conduct safe money transfers in real time.  Supported currencies include EUR, RUB, UAH and USD.  Funds will be transferred to your account immediately.  There are no fees for using this payment method.</p><p>Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your Vbet account using WebMoney, simply press deposit after entering the amount you want to transfer below. You will be redirected to WebMoney to complete your transaction.  Please note that you must have a WebMoney E, R or Z wallet.</p>"
+
+#
+msgid "deposit_info_wirecard"
+msgstr "WireCard is a secure, convenient & fast way to deposit funds at your account using your credit card. The supported currencies are: EUR, USD, RUB, & UAH. Funds will be transfered to your account immediately. There are no fees using this payment method. To deposit funds into your account using WireCard, simply fill out all the required fields and press the \'deposit\' button.
+"
+
+#
+msgid "deposit_info_yandex"
+msgstr "<p>Yandex.Money - an electronic payment system, one of the most popular services of \"Yandex\" company, which is Russia\'s largest portal and leading search system in Russian part of the Internet. \"Yandex.Money\" payment system helps you to make purchases from online stores, contribute to charity funds, pay for communication services and much more. For more information and opportunities on \"Yandex.Money\" payment system, visit the money.yandex.ru website.
+</p>"
+
+#
+msgid "deposit_info_yandexprbank"
+msgstr "<p>
+You can replenish your account directly from your “PromSvyazBank” internet-bank account and in this case transfers are carried out via the payment system YandexMoney.
+\"Yandex.Money\" - an electronic payment system, one of the most popular services of \"Yandex\" company, which is Russia\'s largest portal and leading search system in Russian part of the Internet. \"Yandex.Money\" payment system helps you to make purchases from online stores, contribute to charity funds, pay for communication services and much more. For more information and opportunities on \"Yandex.Money\" payment system, visit the money.yandex.ru website.
+</p>"
+
+#
+msgid "enter amount here"
+msgstr "Enter Amount Here"
+
+#
+msgid "express"
+msgstr "Multiple"
+
+#
+msgid "freebet_info"
+msgstr "Vivaro betting company offers its customers a free quiz.<br />Customers will be offered 3 types of express, which contains 6, 8 or 10 events. If the customer guesses correctly 6 out of 6 events and the winning amount will be 7000 AMD, 8 out of 8 events the payout will be 15.000 AMD, and if you guess 10 out of 10 events the payoff will be 20.000 AMD. The winning amount will be transferred to the customer&rsquo;s account within 5 days after completion of all events are included in all 3 express bets.<br />If there are events, which have not taken place in this variant of express, the quiz will be lost.<br />Each customer can daily make an express bet on each variant only once."
+
+#
+msgid "games"
+msgstr "Games"
+
+#
+msgid "livecasino_101_1"
+msgstr "Live BlackJack A"
+
+#
+msgid "livecasino_101_2"
+msgstr "Live BlackJack B"
+
+#
+msgid "livecasino_101_3"
+msgstr "Live BlackJack C"
+
+#
+msgid "livecasino_101_4"
+msgstr "Live BlackJack D"
+
+#
+msgid "livecasino_102"
+msgstr "Live Roulette"
+
+#
+msgid "livecasino_103"
+msgstr "Live Baccarat"
+
+#
+msgid "livecasino_104"
+msgstr "Bet on Poker 2"
+
+#
+msgid "message_1"
+msgstr "Bad Request"
+
+#
+msgid "message_10"
+msgstr "Invalid Level"
+
+#
+msgid "message_1000"
+msgstr "Internal Error"
+
+#
+msgid "message_10000"
+msgstr "Wrong request"
+
+#
+msgid "message_10001"
+msgstr "Socket error"
+
+#
+msgid "message_10002"
+msgstr "Network connection problem"
+
+#
+msgid "message_10003"
+msgstr "Socket data error"
+
+#
+msgid "message_10004"
+msgstr "Server internal error"
+
+#
+msgid "message_10006"
+msgstr "Request data not valid"
+
+#
+msgid "message_10007"
+msgstr "Error when sending \"E-mail\""
+
+#
+msgid "message_1001"
+msgstr "Null value for argument"
+
+#
+msgid "message_1002"
+msgstr "Invalid Username or Password"
+
+#
+msgid "message_1003"
+msgstr "Wrong Login/Password"
+
+#
+msgid "message_1004"
+msgstr "User blocked"
+
+#
+msgid "message_1006"
+msgstr "Password error"
+
+#
+msgid "message_1008"
+msgstr "Logging in the page is not possible,since you have not activated your account from your e-mail."
+
+#
+msgid "message_1009"
+msgstr "Such a verification code does not exist."
+
+#
+msgid "message_1026"
+msgstr "You can make a new superbet only after the existing one is completed."
+
+#
+msgid "message_1031"
+msgstr "Not enough bonus balance."
+
+#
+msgid "message_1099"
+msgstr "Fork exception"
+
+#
+msgid "message_11"
+msgstr "Invalid Field"
+
+#
+msgid "message_1100"
+msgstr "Game is already started"
+
+#
+msgid "message_1102"
+msgstr "Game starttime is already past"
+
+#
+msgid "message_1103"
+msgstr "Bet editing time is already past"
+
+#
+msgid "message_1104"
+msgstr "Bet is payed"
+
+#
+msgid "message_1105"
+msgstr "Bet status not fixed"
+
+#
+msgid "message_1106"
+msgstr "Bet lose"
+
+#
+msgid "message_1107"
+msgstr "Bet is online"
+
+#
+msgid "message_1108"
+msgstr "Wrong value for coefficient"
+
+#
+msgid "message_1109"
+msgstr "Wrong value for amount"
+
+#
+msgid "message_1110"
+msgstr "Deposit limit is set by player (self-limitation)"
+
+#
+msgid "message_1112"
+msgstr "Request is already paid!"
+
+#
+msgid "message_1113"
+msgstr "Request is already storned!"
+
+#
+msgid "message_1114"
+msgstr "Card Lot blocked!"
+
+#
+msgid "message_1115"
+msgstr "Card blocked!"
+
+#
+msgid "message_1116"
+msgstr "Card activated!"
+
+#
+msgid "message_1117"
+msgstr "Wrong login or E-mail"
+
+#
+msgid "message_1118"
+msgstr "Duplicate Login"
+
+#
+msgid "message_1119"
+msgstr "Duplicate EMail"
+
+#
+msgid "message_1120"
+msgstr "Duplicate Nick Name"
+
+#
+msgid "message_1122"
+msgstr "Duplicate Personal Id"
+
+#
+msgid "message_1123"
+msgstr "Duplicate Document Number"
+
+#
+msgid "message_1150"
+msgstr "You yet are not allowed to bet on the given event yet"
+
+#
+msgid "message_12"
+msgstr "Invalid Credentials"
+
+#
+msgid "message_1200"
+msgstr "Wrong value exception"
+
+#
+msgid "message_13"
+msgstr "Invalid tree mode"
+
+#
+msgid "message_1300"
+msgstr "Double value exception"
+
+#
+msgid "message_14"
+msgstr "Invalid query syntax"
+
+#
+msgid "message_1400"
+msgstr "Double event exception"
+
+#
+msgid "message_15"
+msgstr "Invalid regular expression"
+
+#
+msgid "message_1500"
+msgstr "Stake exceeds maximum allowable limit"
+
+#
+msgid "message_1510"
+msgstr "Win Limit has Exceeded"
+
+#
+msgid "message_1510_sb"
+msgstr "Bet amount exceeds Your current limit. Please use Superbet option."
+
+#
+msgid "message_1550"
+msgstr "The sum exceeds maximum allowable limit"
+
+#
+msgid "message_1560"
+msgstr "The sum is less than minimum allowable limit"
+
+#
+msgid "message_16"
+msgstr "Invalid data source"
+
+#
+msgid "message_1600"
+msgstr "Some events are not available"
+
+#
+msgid "message_17"
+msgstr "File unsupported format"
+
+#
+msgid "message_1700"
+msgstr "Wrong access exception"
+
+#
+msgid "message_18"
+msgstr "File size limit exception"
+
+#
+msgid "message_1800"
+msgstr "Odds have been changed"
+
+#
+msgid "message_1900"
+msgstr "The events can be included only in the multiple type of bet"
+
+#
+msgid "message_1910"
+msgstr "The events can be included only in the ordinar type of bet"
+
+#
+msgid "message_2"
+msgstr "Invalid Command"
+
+#
+msgid "message_20"
+msgstr "Not enough balance for operation"
+
+#
+msgid "message_2000"
+msgstr "Odds restriction exception"
+
+#
+msgid "message_20000"
+msgstr "Server internal exception"
+
+#
+msgid "message_20001"
+msgstr "Undefined exception"
+
+#
+msgid "message_20002"
+msgstr "Your session has expired, please login again"
+
+#
+msgid "message_2001"
+msgstr "Bet error."
+
+#
+msgid "message_2003"
+msgstr "Bet State Error"
+
+#
+msgid "message_2007"
+msgstr "Currency Mismatch"
+
+#
+msgid "message_2008"
+msgstr "Client Excluded"
+
+#
+msgid "message_2009"
+msgstr "Client Locked"
+
+#
+msgid "message_2018"
+msgstr "Email should not be empty"
+
+#
+msgid "message_2019"
+msgstr "Expired reset code"
+
+#
+msgid "message_2020"
+msgstr "Empty First Name"
+
+#
+msgid "message_2024"
+msgstr "Invalid E-mail"
+
+#
+msgid "message_2031"
+msgstr "Empty Last Name"
+
+#
+msgid "message_2033"
+msgstr "Market Suspended"
+
+#
+msgid "message_2036"
+msgstr "Match Suspended"
+
+#
+msgid "message_2037"
+msgstr "Max daily bet amount Error"
+
+#
+msgid "message_2038"
+msgstr "Max single bet amount Error"
+
+#
+msgid "message_2050"
+msgstr "One market type Group"
+
+#
+msgid "message_2077"
+msgstr "Selection Suspended"
+
+#
+msgid "message_21"
+msgstr "Operation not allowed"
+
+#
+msgid "message_2100"
+msgstr "Payment restriction exception"
+
+#
+msgid "message_22"
+msgstr "Limit reached"
+
+#
+msgid "message_2200"
+msgstr "Client limit exception"
+
+#
+msgid "message_23"
+msgstr "server temporary is down"
+
+#
+msgid "message_2300"
+msgstr "Office limit exception"
+
+#
+msgid "message_2400"
+msgstr "Insufficient balance"
+
+#
+msgid "message_2403"
+msgstr "There are active requests for this client"
+
+#
+msgid "message_2406"
+msgstr "Player self-excluded themself from being able to place bet"
+
+#
+msgid "message_2407"
+msgstr "CLIENT BONUS AMOUNT"
+
+#
+msgid "message_2408"
+msgstr "DUPLICATE BONUS ID"
+
+#
+msgid "message_2409"
+msgstr "HAS BONUS"
+
+#
+msgid "message_2410"
+msgstr "NO BONUS"
+
+#
+msgid "message_2411"
+msgstr "WRONG CLIENT ID"
+
+#
+msgid "message_2412"
+msgstr "AGENT PAYOFF REQUEST"
+
+#
+msgid "message_2413"
+msgstr "TRANSFER DENIED"
+
+#
+msgid "message_2414"
+msgstr "Incompatible events"
+
+#
+msgid "message_2415"
+msgstr "WRONG EXPIRY DATE"
+
+#
+msgid "message_2416"
+msgstr "PROMO-CODE REWRITE"
+
+#
+msgid "message_2417"
+msgstr "CLIENT AMOUNT"
+
+#
+msgid "message_2500"
+msgstr "TODAY WINNER EXIST"
+
+#
+msgid "message_2501"
+msgstr "TODAY RAFFLE TIME"
+
+#
+msgid "message_3"
+msgstr "This site is currently not available due to technical problems. Please try again later. Thank you for your understanding."
+
+#
+msgid "message_3000"
+msgstr "Wrong Login Attempts"
+
+#
+msgid "message_3001"
+msgstr "Not Supported Currency"
+
+#
+msgid "message_3002"
+msgstr "Wrong Old Password"
+
+#
+msgid "message_3003"
+msgstr "Wrong Transaction Id"
+
+#
+msgid "message_3004"
+msgstr "Invalid Token"
+
+#
+msgid "message_3005"
+msgstr "Token Already Exists"
+
+#
+msgid "message_3006"
+msgstr "Invalid Payment System Operation"
+
+#
+msgid "message_3007"
+msgstr "Invalid Payment System Commission"
+
+#
+msgid "message_3008"
+msgstr "Image Upload Failed"
+
+#
+msgid "message_3009"
+msgstr "Incorrect Client Request"
+
+#
+msgid "message_3011"
+msgstr "Is Not An Image"
+
+#
+msgid "message_3012"
+msgstr "Cant Create Directory"
+
+#
+msgid "message_3013"
+msgstr "Invalid Agent"
+
+#
+msgid "message_3014"
+msgstr "Invalid Agent System"
+
+#
+msgid "message_3015"
+msgstr "Negative Amount"
+
+#
+msgid "message_3016"
+msgstr "Wrong Agent Group"
+
+#
+msgid "message_3017"
+msgstr "Wrong Agent Group Value"
+
+#
+msgid "message_3018"
+msgstr "Invalid Agent Group Item"
+
+#
+msgid "message_3019"
+msgstr "Bet Selections Combined Error"
+
+#
+msgid "message_4"
+msgstr "Request Timeout"
+
+#
+msgid "message_5"
+msgstr "No Session"
+
+#
+msgid "message_5000"
+msgstr "Please sign in first"
+
+#
+msgid "message_6"
+msgstr "Subscription not found"
+
+#
+msgid "message_7"
+msgstr "Not subscribed"
+
+#
+msgid "message_99"
+msgstr "Unknown Error"
+
+#
+msgid "message_CHANGE_ODD"
+msgstr "Odd has been changed"
+
+#
+msgid "message_EVENT_LOCKED"
+msgstr "This event has been locked"
+
+#
+msgid "message_GAME_STARTED"
+msgstr "Game started"
+
+#
+msgid "message_LIMIT_ERROR"
+msgstr "There is an odd correction"
+
+#
+msgid "message_OK"
+msgstr "Accepted"
+
+#
+msgid "message_ONHOLD"
+msgstr "Waiting confirmation"
+
+#
+msgid "months"
+msgstr "month"
+
+#
+msgid "poker_download_description_android"
+msgstr "<ol><li>Before you download, in the System Settings select item Security> Device Management> Allow Unknown Sources.</li><li>For the correct operation of the program Adobe Air must also be installed.</li><li>If the conditions are met, you can start by clicking on the icon to download the app.</li><li>After the successful Download, the software will be installed automatically.</li><li>After installation, start the program by simply clicking on the program icon.</li></ol>"
+
+#
+msgid "poker_download_description_mac"
+msgstr "<ol><li>Download Application bundle</li><li>Extract Application bundle by double clicking</li><li>Move extracted Application bundle to Programs</li><li>Click Application bundle in Programs to start</li></ol>"
+
+#
+msgid "poker_download_description_windows"
+msgstr "<ol><li>A window will appear. Press Run.</li><li>Once downloading has finished, you may be asked to verify the publisher.</li><li>Press \"Run\" again.</li><li>At the next window, to install the software click Next.</li><li>Once the installation is finished, you can find our Vivaro Poker icon on your desktop.</li><li>Double-click the icon to start the Vivaro cardroom.</li></ol>"
+
+#
+msgid "poker_requirements_android"
+msgstr "Minimum System Requirements:<br>Installed version of Adobe Air (can be downloaded <a href=https://play.google.com/store/apps/details?id=com.adobe.air&hl=en target=_blank>here</a>)<br>Android version 4.0 or higher<br>3G or Wifi Connection<br>"
+
+#
+msgid "poker_requirements_mac"
+msgstr "Minimum system requirements:<br>Windows XP / Vista / Windows 7<br>Pentium 4 with 3 GHz (or compatible CPU)<br>1 GB system RAM<br>Broadband Internet connection<br>"
+
+#
+msgid "register"
+msgstr "Register"
+
+#
+msgid "single"
+msgstr "Single"
+
+#
+msgid "sport news"
+msgstr "News"
+
+#
+msgid "statistic"
+msgstr "Statistics"
+
+#
+msgid "system"
+msgstr "system "
+
+#
+msgid "withdraw_info_arca"
+msgstr "The ordered sum is transferred to Armenian banks\' ArCa, MasterCard, VISA cards you mentioned, which is registered in your name.<br>The order execution term is 24 hours.<br>Due to unstable operation of the system, transfer delay may exceed the specified time.<br>The minimal sum of withdrawal is <b>500</b> dram.<br>The maximum sum for withdraw is <b>200.000</b> dram per day.<br>No commissions are charged with this payment method."
+
+#
+msgid "withdraw_info_astropay"
+msgstr "AstroPay Card - our anonymous, virtual prepaid card and e-wallet, for customers who don\'t want to expose their personal information when making on-line transactions. Register for free, choose the value of the card you want to purchase and pay in local currency using the most popular payment methods in your country. It is an immediate solution. Simply purchase your card, make your payment and receive an e-mail with your AstroPay Card details ready for use."
+
+#
+msgid "withdraw_info_cash"
+msgstr "<p>You can receive the sum ordered in the betting offices on the same or next day after the registration of inquiry. You should present your passport to receive your winning. The order is valid within 3 days. If you cannot receive the winning sum during this term, the inquiry will be cancelled, the ordered sum will return on the game account. The minimal sum of the order is not limited. There are no additional charges for this payment method.</p><p>At Baghramyan 1, Andranik 73/5, Amiryan 18/2a you can receive your winnings from 11:00 till 23:00. In other betting offices you can receive your winnings from 14:00 till 23:00.</p><p>You can receive cash sum at the following branches of VivaroBet:</p>"
+
+#
+msgid "withdraw_info_ecocard"
+msgstr "<p>ecoPayz is a global payment solutions provider offering instant safe and convenient payment services to customers and businesses across the globe.
+Supported currencies include EUR, RUB and USD.
+Funds will be transferred from your within maximum 72 hours.
+There are no fees for using this payment method.
+Transfers don`t have a minimum and/or a maximum value.
+To withdraw funds from your account using ecoPayz, simply press withdraw after entering your full name, your account number and the amount you want to transfer below. You will be redirected to ecoPayz to complete your transaction.
+</p>"
+
+#
+msgid "withdraw_info_edram"
+msgstr "Your payout order will be transferred to your <a href=\"http://www.idram.am/\">iDram</a> account which is registered in your name. Execution term of the order is 12 hours. With this payment method you are not paying any commission."
+
+#
+msgid "withdraw_info_interkassa"
+msgstr "Interkassa – the system for receiving and payments in real time.The service has a lot of advantages over a disparate network of payment systems. So, with her help, you, as the buyer can make payment without leaving your own home. The firm is a legal entity, thereby is responsible for the safety of users and the reliability of the encryption transaction.
+Intercash has established itself on the positive side, as evidenced by the number of people connected to Interkassa payment instruments, Including such asVisa, Master Card, Приват24, QIWI,Liqpay, W1, PerfectMoney, ADVcash, Terminals, Bitcoin, Ecoint, EXmo, Okpay, Payeer, Swift.
+
+To withdraw funds from Your account to the site Napoleon Casino with the help of Interkassa, You must specify Your personal data, number of a purse registered in system and the amount of withdrawal, then click on the Output button."
+
+#
+msgid "withdraw_info_moneta"
+msgstr "<p>Moneta.ru is a payment system established in Russia to provide Internet users with the ability to make secure and instant transactions.
+Supported currencies include EUR, RUB and USD. Funds will be transferred from your account within maximum 72 hours. There are no fees for using this payment method. Transfers don`t have a minimum and/or a maximum value. To withdraw funds from your  account using Moneta.Ru, simply press withdraw after entering your full name, the e-mail address registered with Moneta.Ru, your Wallet Number and the amount you want to transfer below. You will be redirected to Moneta.Ru to complete your transaction.
+</p>"
+
+#
+msgid "withdraw_info_neteller"
+msgstr "<p>Neteller gives users the ability to make secure on-line payments with a system offering instant deposits, withdrawals and payouts trusted by millions worldwide.
+Supported currencies include USD, EUR and RUB. Funds will be transferred from your account within maximum 72 hours. There are no fees for using this payment method. Transfers don\'t have a minimum and/or a maximum value.
+To withdraw funds from your account using Neteller, simply press withdraw after entering your account number and the amount you want to transfer below.
+</p>"
+
+#
+msgid "withdraw_info_netellernew"
+msgstr "<p>Neteller gives users the ability to make secure online payments with a system offering instant deposits, withdrawals and payouts trusted by millions worldwide.</p><p>Supported currencies include USD, EUR and RUB.  Funds will be transferred from your Vbet account within 24 hours.  There are no fees for using this payment method.  Transfers don`t have a minimum and/or a maximum value.</p><p>To withdraw funds from your Vbet account using Neteller, simply press withdraw after entering your account number and the amount you want to transfer below. </p>"
+
+#
+msgid "withdraw_info_qiwi"
+msgstr "<p>QIWI is a digital wallet that can be used to send and receive money with a wide range of methods allowing for every user to choose what is most convenient and preferable.</p><p>Supported currencies include EUR, RUB and USD.  Funds will be transferred from your account within 24 hours.  There are no fees for using this payment method.  Transfers don&#96;t have a minimum value, and the maximum value is 300 EUR.  To withdraw funds from your account using QIWI, simply press withdraw after entering your QIWI Wallet Number and the amount you want to transfer below. You will be redirected to QIWI to complete your transaction.</p>"
+
+#
+msgid "withdraw_info_safecharge"
+msgstr "SafeCharge is a leading global payment service provider of end-to-end payment acceptance and card issuing solutions. SafeCharge processes all major credit/debit cards as Visa and MasterCard, as well as hundreds of alternative payment methods for quick deposits and withdrawals"
+
+#
+msgid "withdraw_info_skrill"
+msgstr "Skrill is a secure, convenient and affordable way to send and receive money worldwide.
+Supported currencies include EUR and USD.
+Funds will be transferred from your account within maximum 72 hours.
+There are no fees for using this payment method. 
+Transfers don`t have a minimum and/or a maximum value.
+To withdraw funds from your  account using Skrill, simply press “Submit” after entering your full name, your e-mail address registered with Skrill and the amount you want to transfer below. You will be redirected to Skrill to complete your transaction.
+"
+
+#
+msgid "withdraw_info_topoker"
+msgstr "If you have a VivaroPoker account, you can transfer money to it. Please enter your VivaroPoker username and password(you will be asked only for the first time) and chosen amount will be transferred to <b>your</b> VivaroPoker account"
+
+#
+msgid "withdraw_info_tovivaropet"
+msgstr "If you have a Vivarobet account, you can transfer money to it. Please enter your Vivarobet username and password(you will be asked only for the first time) and chosen amount will be transferred to <b>your</b> Vivarobet account"
+
+#
+msgid "withdraw_info_webmoney"
+msgstr "<p>WebMoney is a global settlement system enabling Internet users to conduct safe money transfers in real time. Supported currencies include EUR, RUB, UAH and USD. Funds will be transferred from your account within maximum 72 hours. There are no fees for using this payment method. Transfers don`t have a minimum and/or a maximum value. To withdraw funds from your  account using WebMoney, simply press wirhdraw after entering your full name as registered with WebMoney, your Wallet Number and the amount you want to transfer below. Please note that you must have a WebMoney E, R or Z wallet.</p>"
+
+#
+msgid "withdraw_info_wirecard"
+msgstr "WireCard is a secure, convenient  fast way to deposit and withdraw funds at your Vbet account using your credit card."
+
+#
+msgid "withdraw_info_wirecardnew"
+msgstr "WireCard is a secure, convenient  fast way to deposit and withdraw funds at your Vbet account using your credit card."
+
+#
+msgid "x_card_code"
+msgstr "Card Security Code"
+
+#
+msgid "x_card_num"
+msgstr "Card Number"
+
+#
+msgid "x_exp_date_mm"
+msgstr "Expiry Month ( mm )"
+
+#
+msgid "x_exp_date_yyyy"
+msgstr "Expiry Year"

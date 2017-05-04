@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+msgid "Do you want to log out from Facebook as well? If you don't log out from Facebook, you will be automatically logged in next time you open this page."
+msgstr "Ցանկանում ե՞ք դուրս գալ նաև Facebook-ից։ Եթե  դուրս չգաք Facebook-ից, ապա մյուս անգամ այցելելով մեր կայք ավտոմատ մուտք կգործեք։"
+
+#
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "Մտնելու ե՞ք նաև մուտքանուն/գաղնտաբառով։"
+
+#
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+msgstr "Եթե ուզում եք հետագայում մուտք գործել նաև չօգտագործելով Facebook կամ Odnoklassniki, ապա մուտքագրեք մուտքանուն և գաղտնաբառ։ Հակառակ դեպքում մենք ավտոմատ կսարքենք դրանք Ձեզ համար և կուղարկենք Ձեզ էլ․ փոստով։ Կարող եք չգրել մուտքանուն և գաղտնաբառ եթե ցանկանում եք մուտք գործել միայն Facebook-ի կամ Odnoklassniki-ի միջոցով:"
+
+#
+msgid "Deposit by payment system"
+msgstr "Լիցքավորում"

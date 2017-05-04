@@ -47333,7 +47333,7 @@ top-game-block {
     content: '';
     background-color: #7c8292;
     position: absolute;
-    left: -2px;
+    left: 32px;
     top: 8px;
     height: 21px;
 }

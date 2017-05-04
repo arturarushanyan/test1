@@ -9346,6 +9346,14 @@ rzslider span.rz-pointer.rz-active:after {
         background: #111522;
     }
 
+    .gameing-wrapper.overview, .gameing-wrapper.overview .contain-gameing.overview{
+        min-width: 100%;
+    }
+
+    .gameing-wrapper.overview .contain-gameing.overview{
+        background: transparent;
+        display: block;
+    }
 
     .body-wrapper .gameing-wrapper.live .scroll-j-scroll-wrap, .body-wrapper .gameing-wrapper.live .scroll-j-scroll {
         position: static;
@@ -9504,7 +9512,7 @@ rzslider span.rz-pointer.rz-active:after {
     }
 
     .body-wrapper.classic .scroll-contain.overview{
-        width: 98%;
+        width: calc(100% - 301px);
     }
 
     .body-wrapper .gameing-wrapper.prematch .multiview-enabled .left-list-menu ul li ul li .poup-sports {

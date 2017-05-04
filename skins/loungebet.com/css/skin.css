@@ -47483,6 +47483,11 @@ top-game-block {
     overflow: hidden;
 }
 
+.upcoming-games-filter-v3 > .time-filter-v3,
+.upcoming-games-filter-v3 > .time-filter-v3.active {
+    background: #0e4a51;
+    border-radius: 4px;
+}
 .filter-row-v3-i > p :before {
     box-sizing: border-box;
     width: 28px;
@@ -52907,7 +52912,7 @@ top-game-block {
     text-overflow: ellipsis;
     overflow: hidden;
     color: #ffffff;
-    font: 12px/36px Arial, Helvetica, sans-serif;
+    font: 14px/36px Ubuntu, Arial, Helvetica, sans-serif;
 }
 
 .upcoming-column-title-v3 > h2 > span, .live-column-title-v3 > h2 > span {
@@ -53024,7 +53029,7 @@ top-game-block {
     box-sizing: border-box;
     float: left;
     width: 100%;
-    height: 50px;
+    height: 58px;
     padding: 0;
     margin: 0 0 5px;
 }
@@ -53083,14 +53088,6 @@ top-game-block {
     padding: 0 1px 0 2px;
 }
 
-.market-name-d-v3 {
-    box-sizing: border-box;
-    float: left;
-    width: 100%;
-    background: #282c39;
-    margin: 0;
-    height: 21px;
-}
 
 .market-name-d-v3 > h4 {
     box-sizing: border-box;
@@ -53141,6 +53138,7 @@ top-game-block {
     position: relative;
     text-align: center;
     top: 4px;
+    right: 10px;
 }
 
 .favorite-icon-market-v3 .markets-count-view-v3 > span {
@@ -53355,12 +53353,13 @@ top-game-block {
     box-sizing: border-box;
     float: left;
     width: 100%;
-    color: #a4a9bc;
+    color: #303838;
     font: 11px/24px Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    padding: 0 26px;
 }
 
 .title-competition-dashboard-v3 > .arrow-view-v3,
@@ -53400,7 +53399,7 @@ top-game-block {
     position: absolute;
     left: 0;
     top: 0;
-    font: 16px/36px icomoon;
+    font: 14px/36px icomoon;
     text-indent: 10px;
     color: #ffffff;
     background: #505768;
@@ -53420,7 +53419,7 @@ top-game-block {
 .live-column-title-v3 .upcoming-icon-v3:before {
     box-sizing: border-box;
     content: "\e936";
-    color: #ffffff;
+    color: #ff8067;
 }
 
 .upcoming-games-filter-v3 {
@@ -53444,6 +53443,7 @@ top-game-block {
     margin: 0 0 4px;
     max-height: 30000px;
     animation: upcoming-open-animate-b 500ms ease-in-out;
+    background: #d3d2c7;
 }
 
 .region-list-view-d-v3 {
@@ -53462,30 +53462,15 @@ top-game-block {
     box-sizing: border-box;
     float: left;
     width: 100%;
-    height: 30px;
-    background: #2e323e;
+    height: 32px;
+    background: #fffef6;
     position: relative;
-    padding: 0 30px 0 34px;
+    padding: 0 30px 0 44px;
     border-radius: 2px 2px 0 0;
     cursor: pointer;
-    margin: 0 0 3px;
+    margin: 0 0 6px;
 }
 
-.sport-name-up-game-v3.Tennis {
-    box-shadow: 0 -1px 0 #8c893a inset;
-}
-
-.sport-name-up-game-v3.Soccer {
-    box-shadow: 0 -1px 0 #1a7051 inset;
-}
-
-.sport-name-up-game-v3.Basketball {
-    box-shadow: 0 -1px 0 #ff7f00 inset;
-}
-
-.sport-name-up-game-v3.Volleyball {
-    box-shadow: 0 -1px 0 #7B8191 inset;
-}
 
 .single-sport-box-v3.sport-closed > .sport-name-up-game-v3 {
     box-shadow: none;
@@ -59253,26 +59238,13 @@ div.slider-image-wrapper-b {
     overflow: hidden;
 }
 
-.sport-name-up-game-v3 {
-    box-sizing: border-box;
-    float: left;
-    width: 100%;
-    height: 30px;
-    background: #ede6d6;
-    position: relative;
-    padding: 0 30px 0 34px;
-    border-radius: 2px 2px 0 0;
-    cursor: pointer;
-    margin: 0 0 3px;
-    border: 1px solid #c5c2b7;
-}
 
 .sport-name-up-game-v3 > h3 {
     box-sizing: border-box;
     float: left;
     width: 100%;
     color: #303038;
-    font: 12px/30px Arial, Helvetica, sans-serif;
+    font: 13px/32px Ubuntu, Arial, Helvetica, sans-serif;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -59299,7 +59271,7 @@ div.slider-image-wrapper-b {
     overflow: hidden;
     color: #303038;
     font: 11px/21px Arial, Helvetica, sans-serif;
-    padding: 0 10px;
+    padding: 5px 10px;
 }
 
 .market-name-d-v3 {
@@ -59308,14 +59280,14 @@ div.slider-image-wrapper-b {
     width: 100%;
     background: #ede6d6;
     margin: 0;
-    height: 21px;
+    height: 30px;
 }
 
 .all-markets-favorite-d-v3 {
     box-sizing: border-box;
     float: left;
     width: 100%;
-    height: 50px;
+    height: 58px;
     background: #fffef6;
 }
 
@@ -59761,7 +59733,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 }
 
 .time-filter-v3 > p {
-    color: #7c8292;
+    color: #bbbbbb;
     font-weight: bold;
 
 }
@@ -59790,7 +59762,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 }
 
 .arrow-rotate-filter-v3 {
-    color: #7c8292;
+    color: #bbbbbb;
     font: 12px/28px icomoon;
 }
 
@@ -61859,142 +61831,197 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* Soccer */
     .sports-item-v3.Soccer,
     .event-view-title.Soccer,
-    .sport-title.Soccer, .overview-Soccer, .overview-Football {
+    .sport-title.Soccer, .overview-Soccer, .overview-Football,
+    .sport-name-up-game-v3.Soccer.opened{
         background: #1ba673;
+    }
+
+    .sport-name-up-game-v3.Soccer {
+        border-left: solid 4px #1ba673;
     }
 
     .sports-item-v3.Soccer + .menu-popup .menu-popup-arrow {
         border-right-color: #1ba673;
     }
 
-    .sports-item-v3.Soccer > p {
+    .sports-item-v3.Soccer > p,
+    .sport-name-up-game-v3.Soccer.opened > h3{
         color: #fff;
     }
 
     /* Tennis */
     .sports-item-v3.Tennis,
     .event-view-title.Tennis,
-    .sport-title.Tennis, .overview-Tennis {
+    .sport-title.Tennis, .overview-Tennis,
+    .sport-name-up-game-v3.Tennis.opened{
         background: #0c6ab3;
+    }
+
+    .sport-name-up-game-v3.Tennis {
+        border-left: solid 4px #0c6ab3;
     }
 
     .sports-item-v3.Tennis + .menu-popup .menu-popup-arrow {
         border-right-color: #0c6ab3;
     }
 
-    .sports-item-v3.Tennis > p {
+    .sports-item-v3.Tennis > p,
+    .sport-name-up-game-v3.Tennis.opened > h3 {
         color: #fff;
     }
 
     /* Basketball */
     .sports-item-v3.Basketball,
     .event-view-title.Basketball,
-    .sport-title.Basketball, .overview-Basketball {
+    .sport-title.Basketball, .overview-Basketball,
+    .sport-name-up-game-v3.Basketball.opened{
         background: #ef7626;
+    }
+
+    .sport-name-up-game-v3.Basketball {
+        border-left: solid 4px #ef7626;
     }
 
     .sports-item-v3.Basketball + .menu-popup .menu-popup-arrow {
         border-right-color: #ef7626;
     }
 
-    .sports-item-v3.Basketball > p {
+    .sports-item-v3.Basketball > p,
+    .sport-name-up-game-v3.Basketball.opened > h3{
         color: #fff;
     }
 
     /* Volleyball */
     .sports-item-v3.Volleyball,
     .event-view-title.Volleyball,
-    .sport-title.Volleyball, .overview-Volleyball {
+    .sport-title.Volleyball, .overview-Volleyball,
+    .sport-name-up-game-v3.Volleyball.opened{
         background: #197c91;
+    }
+
+    .sport-name-up-game-v3.Volleyball {
+        border-left: solid 4px #197c91;
     }
 
     .sports-item-v3.Volleyball + .menu-popup .menu-popup-arrow {
         border-right-color: #197c91;
     }
 
-    .sports-item-v3.Volleyball > p {
+    .sports-item-v3.Volleyball > p,
+    .sport-name-up-game-v3.Volleyball.opened > h3{
         color: #fff;
     }
 
     /* IceHockey */
     .sports-item-v3.IceHockey,
     .event-view-title.IceHockey,
-    .sport-title.IceHockey, .overview-IceHockey {
+    .sport-title.IceHockey, .overview-IceHockey,
+    .sport-name-up-game-v3.IceHockey.opened {
         background: #50a2c6;
+    }
+
+    .sport-name-up-game-v3.IceHockey {
+        border-left: solid 4px #50a2c6;
     }
 
     .sports-item-v3.IceHockey + .menu-popup .menu-popup-arrow {
         border-right-color: #50a2c6;
     }
 
-    .sports-item-v3.IceHockey > p {
+    .sports-item-v3.IceHockey > p ,
+    .sport-name-up-game-v3.IceHockey.opened > h3    {
         color: #fff;
     }
 
     /* Baseball */
     .sports-item-v3.Baseball,
     .event-view-title.Baseball,
-    .sport-title.Baseball, .overview-Baseball {
+    .sport-title.Baseball, .overview-Baseball,
+    .sport-name-up-game-v3.Baseball.opened{
         background: #b07a5c;
+    }
+
+    .sport-name-up-game-v3.Baseball {
+        border-left: solid 4px #b07a5c;
     }
 
     .sports-item-v3.Baseball + .menu-popup .menu-popup-arrow {
         border-right-color: #b07a5c;
     }
 
-    .sports-item-v3.Baseball > p {
+    .sports-item-v3.Baseball > p,
+    .sport-name-up-game-v3.Baseball.opened > h3{
         color: #fff;
     }
 
     /* Handball */
     .sports-item-v3.Handball,
     .event-view-title.Handball,
-    .sport-title.Handball, .overview-Handball {
+    .sport-title.Handball, .overview-Handball,
+    .sport-name-up-game-v3.Handball.opened{
         background: #42777f;
+    }
+
+    .sport-name-up-game-v3.Handball {
+        border-left: solid 4px #42777f;
     }
 
     .sports-item-v3.Handball + .menu-popup .menu-popup-arrow {
         border-right-color: #42777f;
     }
 
-    .sports-item-v3.Handball > p {
+    .sports-item-v3.Handball > p,
+    .sport-name-up-game-v3.Handball.opened > h3{
         color: #fff;
     }
 
     /* Badminton */
     .sports-item-v3.Badminton,
     .event-view-title.Badminton,
-    .sport-title.Badminton, .overview-Badminton {
+    .sport-title.Badminton, .overview-Badminton,
+    .sport-name-up-game-v3.Badminton.opened{
         background: #70c2a7;
+    }
+
+    .sport-name-up-game-v3.Badminton {
+        border-left: solid 4px #70c2a7;
     }
 
     .sports-item-v3.Badminton + .menu-popup .menu-popup-arrow {
         border-right-color: #70c2a7;
     }
 
-    .sports-item-v3.Badminton > p {
+    .sports-item-v3.Badminton > p,
+    .sport-name-up-game-v3.Badminton.opened > h3{
         color: #fff;
     }
 
     /* AmericanFootball */
     .sports-item-v3.AmericanFootball,
     .event-view-title.AmericanFootball,
-    .sport-title.AmericanFootball, .overview-AmericanFootball {
+    .sport-title.AmericanFootball, .overview-AmericanFootball,
+    .sport-name-up-game-v3.AmericanFootball.opened{
         background: #14805e;
+    }
+
+    .sport-name-up-game-v3.AmericanFootball {
+        border-left: solid 4px #14805e;
     }
 
     .sports-item-v3.AmericanFootball + .menu-popup .menu-popup-arrow {
         border-right-color: #14805e;
     }
 
-    .sports-item-v3.AmericanFootball > p {
+    .sports-item-v3.AmericanFootball > p,
+    .sport-name-up-game-v3.AmericanFootball.opened > h3{
         color: #fff;
     }
 
     /* AustralianFootball */
     .sports-item-v3.AustralianFootball,
     .event-view-title.AustralianFootball,
-    .sport-title.AustralianFootball, .overview-AustralianFootball {
+    .sport-title.AustralianFootball, .overview-AustralianFootball,
+    .sport-name-up-game-v3.AustralianFootball.opened > h3{
         background: #0b614b;
     }
 
@@ -62009,7 +62036,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* BeachFootball */
     .sports-item-v3.BeachFootball,
     .event-view-title.BeachFootball,
-    .sport-title.BeachFootball, .overview-BeachFootball {
+    .sport-title.BeachFootball, .overview-BeachFootball,
+    .sport-name-up-game-v3.BeachFootball.opened {
         background: #918560;
     }
 
@@ -62017,7 +62045,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         border-right-color: #918560;
     }
 
-    .sports-item-v3.BeachFootball > p {
+    .sports-item-v3.BeachFootball > p,
+    .sport-name-up-game-v3.BeachFootball.opened > h3{
         color: #fff;
     }
 
@@ -62114,15 +62143,21 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* CounterStrike */
     .sports-item-v3.CounterStrike,
     .event-view-title.CounterStrike,
-    .sport-title.CounterStrike, .overview-CounterStrike {
+    .sport-title.CounterStrike, .overview-CounterStrike,
+    .sport-name-up-game-v3.CounterStrike.opened{
         background: #494546;
+    }
+
+    .sport-name-up-game-v3.CounterStrike {
+        border-left: solid 4px #494546;
     }
 
     .sports-item-v3.CounterStrike + .menu-popup .menu-popup-arrow {
         border-right-color: #494546;
     }
 
-    .sports-item-v3.CounterStrike > p {
+    .sports-item-v3.CounterStrike > p,
+    .sport-name-up-game-v3.CounterStrike.opened > h3{
         color: #fff;
     }
 
@@ -62209,15 +62244,21 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* CyberFootball */
     .sports-item-v3.CyberFootball,
     .event-view-title.CyberFootball,
-    .sport-title.CyberFootball, .overview-CyberFootball {
+    .sport-title.CyberFootball, .overview-CyberFootball,
+    .sport-name-up-game-v3.CyberFootball.opened{
         background: #1ba673;
+    }
+
+    .sport-name-up-game-v3.CyberFootball {
+        border-left: solid 4px #1ba673;
     }
 
     .sports-item-v3.CyberFootball + .menu-popup .menu-popup-arrow {
         border-right-color: #1ba673;
     }
 
-    .sports-item-v3.CyberFootball > p {
+    .sports-item-v3.CyberFootball > p,
+    .sport-name-up-game-v3.CyberFootball.opened > h3{
         color: #fff;
     }
 
@@ -62239,15 +62280,21 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* Dota2 */
     .sports-item-v3.Dota2,
     .event-view-title.Dota2,
-    .sport-title.Dota2, .overview-Dota2 {
+    .sport-title.Dota2, .overview-Dota2,
+    .sport-name-up-game-v3.Dota2.opened{
         background: #510808;
+    }
+
+    .sport-name-up-game-v3.Dota2 {
+        border-left: solid 4px #510808;
     }
 
     .sports-item-v3.Dota2 + .menu-popup .menu-popup-arrow {
         border-right-color: #510808;
     }
 
-    .sports-item-v3.Dota2 > p {
+    .sports-item-v3.Dota2 > p,
+    .sport-name-up-game-v3.Dota2.opened > h3{
         color: #fff;
     }
 
@@ -62384,15 +62431,21 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     /* TableTennis */
     .sports-item-v3.TableTennis,
     .event-view-title.TableTennis,
-    .sport-title.TableTennis, .overview-TableTennis {
+    .sport-title.TableTennis, .overview-TableTennis,
+    .sport-name-up-game-v3.TableTennis.opened {
         background: #3882ba;
+    }
+
+    .sport-name-up-game-v3.TableTennis {
+        border-left: solid 4px #3882ba;
     }
 
     .sports-item-v3.TableTennis + .menu-popup .menu-popup-arrow {
         border-right-color: #3882ba;
     }
 
-    .sports-item-v3.TableTennis > p {
+    .sports-item-v3.TableTennis > p,
+    .sport-name-up-game-v3.TableTennis.opened > h3{
         color: #fff;
     }
 

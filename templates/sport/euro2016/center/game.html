@@ -2,7 +2,7 @@
 
 <div ng-hide="$location.path()=='/sport/'" mb-scrollbar="scrollbar('vertical', false)" style="height: 100%">
 
-    <div id="frame"  class="markets-group-wrap-v3 frame" ng-if="openGame.availableMarketGroups.length > 2" ng-class="{'market-group-prematch': !env.live}"  ng-show="openGame.markets && openGame.sport.alias !== 'HorseRacing'">
+    <div id="frame" class="markets-group-wrap-v3 frame" ng-if="openGame.availableMarketGroups.length > 2 && isLiveGamePinned && openGame.type == 1 " ng-class="{'market-group-prematch': !env.live}"  ng-show="openGame.markets && openGame.sport.alias !== 'HorseRacing'">
         <ul>
             <li sly-horizontal-repeat ng-repeat="group in openGame.availableMarketGroups track by group.id"
                 ng-class="{active: openGame.selectedMarketGroupId === group.id, 'favorte-markets-group-j': $first, 'animate-star-odd' : $first && openGame.sport.favouriteMarkets.length % 2 == 1, 'animate-star-even': $first && openGame.sport.favouriteMarkets.length % 2 == 0}"
@@ -10,8 +10,8 @@
                 <span><i><b>{{ group.name|translate }} </b></i><i ng-show="group.count !== undefined">{{ group.count }}</i></span>
             </li>
         </ul>
-        <button class="btn prevPage"><div class="arrow-view-v3"></div></button>
-        <button class="btn nextPage"><div class="arrow-view-v3"></div></button>
+        <button class="btn prevPage" title="Previous group"><div class="arrow-view-v3"></div></button>
+        <button class="btn nextPage" title="Next group"><div class="arrow-view-v3"></div></button>
     </div>
 
     <!--Start Of Favorites Markets-->
@@ -216,8 +216,8 @@
                     <span><i><b>{{ group.name|translate }} </b></i><i ng-show="group.count !== undefined">{{ group.count }}</i></span>
                 </li>
             </ul>
-            <button class="btn prevPage"><div class="arrow-view-v3"></div></button>
-            <button class="btn nextPage"><div class="arrow-view-v3"></div></button>
+            <button class="btn prevPage" title="Previous group"><div class="arrow-view-v3"></div></button>
+            <button class="btn nextPage" title="Next group"><div class="arrow-view-v3"></div></button>
         </div>
 
         <!-- Start Of Favorites Markets-->

@@ -1,25 +1,31 @@
 'use strict';
+var $frame = $('#frame');
 //DEFAULTS
 var defaultOptions = {
-	itemNav: 'basic',
-	smart: 1,
-	activateOn: 'click',
-	mouseDragging: 1,
-	touchDragging: 1,
-	releaseSwing: 1,
+  horizontal: 1,
+  itemNav: 'basic',
+  activateMiddle: 0,
+  smart: 1,
+  activateOn: 'click',
+  mouseDragging: 1,
+  touchDragging: 1,
+  releaseSwing: 1,
+  startAt: 1,
+  activatePageOn: 'click',
+  speed: 200,
+  moveBy: 600,
+  elasticBounds: 1,
+  dragHandle: 1,
+  dynamicHandle: 1,
+  clickBar: 1,
 	scrollBy: 1,
-	activatePageOn: 'click',
-	speed: 100,
-	elasticBounds: 1,
-	easing: 'easeOutExpo',
-	dragHandle: 1,
-	dynamicHandle: 1,
-	clickBar: 1,
 	forward : 1,
 	backward: 1,
+  prev: $frame.find('.prevPage'),
+  next: $frame.find('.nextPage'),
 };
 
-var sly = new Sly(document.getElementById('frame')); 
+var sly = new Sly(document.getElementById('#frame')); 
 
 VBET5.directive('slyHorizontalRepeat', [
   '$timeout',
@@ -27,7 +33,6 @@ VBET5.directive('slyHorizontalRepeat', [
     return {
       restrict: 'A',
       link: function (scope, el, attrs) {
-
         if (scope.$last === true) {
           $timeout(function () {
             var cont = $('#frame')
@@ -39,23 +44,24 @@ VBET5.directive('slyHorizontalRepeat', [
                 pagesBar: wrap.find('.pages') || null,
                 forward: wrap.find('.forward') || null,
                 backward: wrap.find('.backward') || null,
-                prev: wrap.find('.prev') || null,
-                next: wrap.find('.next') || null,
-                prevPage: wrap.find('.prevPage') || null,
-                nextPage: wrap.find('.nextPage') || null
+                prev: wrap.find('.prevPage') || null,
+                next: wrap.find('.nextPage') || null,
+                //prevPage: wrap.find('.prevPage') || null,
+               // nextPage: wrap.find('.nextPage') || null
               };
             // Merge parts into options object for sly argument
             var options = $.extend({}, defaultOptions, defaultControls, scope.$eval(attrs.slyOptions));
-            var callback = scope.$eval(attrs.slyCallback) || function (cb) {
-            };
+            var callback = scope.$eval(attrs.slyCallback) || function (cb) {};
+          
             $(window).on('resize', function () {
               frame.sly('reload');
             });
+          
             scope.$watch(
-              function() {return cont.width()},
+              function(){ return cont.width() },
               function(newValue, oldValue) {
                 if ( newValue !== oldValue ) {
-                  frame.sly('reload');
+                  frame.sly('reload');                 
                 }
               }
             );

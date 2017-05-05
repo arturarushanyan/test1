@@ -84,13 +84,12 @@ VBET5.constant('SkinConfig', {
             {
                 alias: "dashboard",
                 displayName: "Dashboard",
-                enabled: false
+                enabled: true
             },
             {
                 alias: "overview",
                 displayName: "Live Overview",
                 enabledConfig: "liveOverviewEnabled",
-                exceptViews: "modern, euro2016"
             },
             {
                 alias: "multiview",

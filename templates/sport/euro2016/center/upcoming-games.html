@@ -47,9 +47,9 @@
                                 <div class="game-events-view-v3" ng-repeat="game in competition.game" ng-click="goToUrl(game); $event.stopPropagation();">
                                     <div class="mini-title-box-gameview-v3">
 
-                                        <div class="pematch-single-game-info-v3">
-                                            <div class="team-name-view-table-v3">
-                                                <div class="team-names-date-icons-v3">
+                                        <div class="upcoming-pematch-single-game-info-v3">
+                                            <div class="upcoming-team-name-view-table-v3">
+                                                <div class="team-names-date-icons-v3 name-upcoming">
                                                     <div class="time-game-v3">
                                                         <p>{{ game.start_ts| formatDate:'noLocaleTime':null:$root.env.timeFormat}}</p>
                                                     </div>

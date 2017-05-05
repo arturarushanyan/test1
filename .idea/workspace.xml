@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="446abebe-a10c-42be-96b9-0890c2960aa9" name="Default" comment="" />
+=======
+    <list default="true" id="907cd14c-58a9-41a6-945b-5a2fda3f49c5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skins/loungebet.com/css/skin.css" afterPath="$PROJECT_DIR$/skins/loungebet.com/css/skin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sport/overview/main.html" afterPath="$PROJECT_DIR$/templates/sport/overview/main.html" />
+    </list>
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+    <ignored path="lbproject.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="lbproject" />
+  </component>
+  <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf>
+      <file leaf-file-name="loungebet.com.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/skins/loungebet.com.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1493890682446" expanded="true" signature="11648:11660" ph="..." />
+                <marker date="1493890682446" expanded="true" signature="12091:12103" ph="..." />
+                <marker date="1493890682446" expanded="true" signature="12534:12546" ph="..." />
+                <marker date="1493890682446" expanded="true" signature="12977:12989" ph="..." />
+                <marker date="1493890682446" expanded="true" signature="13420:13432" ph="..." />
+                <marker date="1493890682446" expanded="true" signature="13863:13875" ph="..." />
+                <marker date="1493890682446" expanded="true" signature="14306:14318" ph="..." />
+              </folding>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="skin.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skins/loungebet.com/css/skin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="9346" column="5" lean-forward="true" selection-start-line="9346" selection-start-column="5" selection-end-line="9346" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/sport/overview/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+              <folding />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.my-details-bottom</find>
+      <find>woman</find>
+      <find>.account-heading&gt;p&gt;span.icon-expand2, .acc-main-item&gt;p&gt;span.icon-expand2</find>
+      <find>input</find>
+      <find>documents-table</find>
+      <find>.my-account-changing-content input[disabled]</find>
+      <find>.info</find>
+      <find>ng-v</find>
+      <find>button</find>
+      <find>overv</find>
+      <find>deposit-method</find>
+      <find>my-account-changing-content</find>
+      <find>deposit-method.active</find>
+      <find>.deposit-left-side label, .deposit-right-side label</find>
+      <find>div.acc-main-item.active</find>
+      <find>top-row</find>
+      <find>.deposit-button.large, .my-account-changing-content input.deposit-input</find>
+      <find>amount-text-wrapper</find>
+      <find>middle-row</find>
+      <find>.deposit-left-side input, .my-account-changing-content input.deposit-input</find>
+      <find>visa</find>
+      <find>withdraw</find>
+      <find>/*deposit</find>
+      <find>withdraw a</find>
+      <find>deposit</find>
+      <find>withdraw-button-wrap</find>
+      <find>expiry-date-cvv-wrap</find>
+      <find>.expiry-date-wrap</find>
+      <find>.body-wrapper.classic .scroll-contain.overview</find>
+      <find>.body-wrapper .contain-gameing</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.html</replace>
+      <replace>deposit</replace>
+      <replace>withdraw</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/livebox/mixedUserProfile.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_self_limits_session_limit.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_documents.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_my_details.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_self_limits.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_self_limits_account_closure.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_self_limits_self_exclusion.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/my_account_my_profile_settings.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/my_account_my_profile_security.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_neteller.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_skrill.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_visa.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_visa-select.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_visa-filling.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_mastercard.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_mastercard-filling.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_mastercard-select.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_pedning.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_skrill.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_neteller.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_visa.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_visa-filling.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_visa-select.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_mastercard.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_mastercard-filling.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_mastercard-select.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/my_account_balance_management_my_cards_add_card.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/my_account_balance_management_my_cards_add_card_edit.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/my_account_balance_management_my_cards_add_card_no_card.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/my_account_balance_management_my_cards.html" />
+        <option value="$PROJECT_DIR$/templates/livebox/version_2/css/new_account_style.css" />
+        <option value="$PROJECT_DIR$/templates/sport/overview/overview.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/js/skins/loungebet.com.js" />
+=======
+        <option value="$PROJECT_DIR$/skins/loungebet.com/css/skin.css" />
+        <option value="$PROJECT_DIR$/templates/sport/dashboard/main.html" />
+        <option value="$PROJECT_DIR$/templates/sport/overview/main.html" />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+<<<<<<< HEAD
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+=======
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="skins" />
+=======
+              <option name="myItemId" value="sport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.loungebet.com.html">
+    <configuration default="false" name="my_account_balance_management_my_cards.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lbproject/templates/livebox/version_2/my_account_balance_management_my_cards.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="my_account_balance_management_my_cards_add_card.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lbproject/templates/livebox/version_2/my_account_balance_management_my_cards_add_card.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="new_account_history_access_list.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lbproject/templates/livebox/version_2/new_account_history_access_list.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="new_account_balance_management_withdraw_neteller.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lbproject/templates/livebox/version_2/new_account_balance_management_withdraw_neteller.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="loungebet.com.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lbproject/loungebet.com.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.my_account_balance_management_my_cards.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.my_account_balance_management_my_cards_add_card.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.new_account_history_access_list.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.new_account_balance_management_withdraw_neteller.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.loungebet.com.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.loungebet.com.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.new_account_balance_management_withdraw_neteller.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.new_account_history_access_list.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my_account_balance_management_my_cards_add_card.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.my_account_balance_management_my_cards.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="446abebe-a10c-42be-96b9-0890c2960aa9" name="Default" comment="" />
+      <created>1486372301823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1486372301823</updated>
+      <workItem from="1486533503788" duration="3000" />
+      <workItem from="1486533537594" duration="1452000" />
+      <workItem from="1486536074035" duration="816000" />
+      <workItem from="1486538313291" duration="21279000" />
+      <workItem from="1486617865460" duration="22247000" />
+      <workItem from="1486703362507" duration="24346000" />
+      <workItem from="1486963195243" duration="2683000" />
+      <workItem from="1486966731822" duration="10650000" />
+      <workItem from="1486984026504" duration="3493000" />
+      <workItem from="1486987693493" duration="5872000" />
+      <workItem from="1487050021646" duration="18771000" />
+      <workItem from="1487136348481" duration="19855000" />
+      <workItem from="1487221965088" duration="1157000" />
+      <workItem from="1487223635838" duration="6589000" />
+      <workItem from="1487254098837" duration="925000" />
+      <workItem from="1487311201188" duration="20323000" />
+      <workItem from="1487567921482" duration="22464000" />
+      <workItem from="1487654068544" duration="23213000" />
+      <workItem from="1487739714168" duration="25165000" />
+      <workItem from="1487827646832" duration="12288000" />
+      <workItem from="1487846002311" duration="1758000" />
+      <workItem from="1487849299041" duration="11000" />
+      <workItem from="1493881921555" duration="595000" />
+      <workItem from="1493890610856" duration="72000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="246029000" />
+=======
+    <option name="totallyTimeSpent" value="246409000" />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.116740085" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.116740085" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24815595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/templates/livebox/mixedUserProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+    <entry file="file://$PROJECT_DIR$/css/fonts/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/js/new_account_script.js" />
+    <entry file="file://$PROJECT_DIR$/../circle/New folder/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/../New folder (10)/demo-files/demo.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="408" column="16" lean-forward="false" selection-start-line="408" selection-start-column="16" selection-end-line="408" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/css/medias.css" />
+    <entry file="file://$PROJECT_DIR$/../circle/New folder (2)/nouislider.min.js" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/mixedWallet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_self_limits_account_closure.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_self_limits_self_exclusion.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_documents.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_my_details.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_self_limits_session_limit.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/my_account_my_profile_security.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_self_limits.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_pedning.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/my_account_my_profile_settings.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_skrill.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_skrill.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_neteller.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_visa.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_visa.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_visa-filling.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_visa-select.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_visa-select.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_mastercard.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_mastercard.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_mastercard-filling.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_mastercard-filling.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_mastercard-select.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_mastercard-select.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/my_account_balance_management_my_cards_add_card.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_deposit_visa-filling.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/my_account_balance_management_my_cards_add_card_no_card.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/my_account_balance_management_my_cards_add_card_edit.html" />
+    <entry file="file://$USER_HOME$/Documents/ass/file.js" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/my_account_balance_management_my_cards_add_card.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/my_account_balance_management_my_cards.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/css/new_account_style.css" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_history_access_list.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_history_bets_casino.html" />
+    <entry file="file://$PROJECT_DIR$/templates/livebox/version_2/new_account_balance_management_withdraw_neteller.html" />
+    <entry file="file://$PROJECT_DIR$/loungebet.com.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+=======
+        <state relative-caret-position="17">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sport/overview/overview.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="204">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+=======
+        <state relative-caret-position="408">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sport/dashboard/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/skins/loungebet.com.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1493890682446" expanded="true" signature="11648:11660" ph="..." />
+            <marker date="1493890682446" expanded="true" signature="12091:12103" ph="..." />
+            <marker date="1493890682446" expanded="true" signature="12534:12546" ph="..." />
+            <marker date="1493890682446" expanded="true" signature="12977:12989" ph="..." />
+            <marker date="1493890682446" expanded="true" signature="13420:13432" ph="..." />
+            <marker date="1493890682446" expanded="true" signature="13863:13875" ph="..." />
+            <marker date="1493890682446" expanded="true" signature="14306:14318" ph="..." />
+          </folding>
+=======
+        <state relative-caret-position="17">
+          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skins/loungebet.com/css/skin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="9346" column="5" lean-forward="true" selection-start-line="9346" selection-start-column="5" selection-end-line="9346" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sport/overview/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding />
+>>>>>>> 947fddd50428f092acf8a7b9218f68d39dbd99be
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

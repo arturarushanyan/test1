@@ -13,7 +13,7 @@
             <div class="game-center-container ng-scope"  ng-class="{'left-menu-closed':leftMenuClosed}">
                 <div class="scroll-contain">
                     <!--Dashboard center-->
-                  <div class="dashboard-wrapper" ng-class="{'dashboarde-extended-j':conf.dashboard.version==2}" no-animate>
+                    <div class="dashboard-wrapper" ng-class="{'dashboarde-extended-j':conf.dashboard.version==2}" no-animate>
 
                         <div ng-if="conf.dashboard.version==2 && conf.dashboard.sliders" class="bet-now-widget-contain" ng-class="{'closed':topBannersClosed}">
                             <div class="title-b-widget" ng-click="topBannersClosed = !topBannersClosed">
@@ -52,7 +52,7 @@
                                 </table>
                             </div>
                             <div ng-if="conf.dashboard.version==3" make-slider move-roundly="true" items-count="{{showGames[0].concat(showGames[1]).length}}"
-                                  initial-index="1" class="generic-slider" ng-class="{'widget-closed': featuredGamesSlider.closed}">
+                                 initial-index="1" class="generic-slider" ng-class="{'widget-closed': featuredGamesSlider.closed}">
 
                                 <div class="slide-buttons" ng-show="showGames[0].concat(showGames[1]).length && !featuredGamesSlider.closed" >
                                     <span ng-click="nextSlide()" class="slide-next"></span>
@@ -82,7 +82,7 @@
 
                             <!--slider-->
                             <div ng-if="conf.dashboard.version==1" class="bet-now-widget-contain slider">
-                               <div class="dashboard-slider-contain" banner-slider slug="dashboardBanners" ng-hide="hide"></div><!--dashboardBanners-->
+                                <div class="dashboard-slider-contain" banner-slider slug="dashboardBanners" ng-hide="hide"></div><!--dashboardBanners-->
                             </div>
                             <!--slider END-->
                             <div class="bet-now-widget-contain" ng-class="{'closed':livenowWidgetClosed}">

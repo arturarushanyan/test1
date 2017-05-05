@@ -537,7 +537,6 @@ angular.module('vbet5').constant('Config', {
                 alias: "overview",
                 displayName: "Live Overview",
                 enabledConfig: "liveOverviewEnabled",
-                exceptViews: ["modern", "euro2016"]
             },
             {
                 alias: "multiview",

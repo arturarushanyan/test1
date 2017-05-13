@@ -116,7 +116,7 @@ body{
   box-sizing: border-box;
   font-size: 0;
 }
-.winner-list-box-j > ul > li{
+.winner-list-box-j > ul .casino-game-card{
   display: inline-block;
   vertical-align: top;
   margin: 0 0 0 10px;
@@ -128,7 +128,7 @@ body{
   box-sizing: border-box;
   padding: 14px 13px 0;
 }
-.winner-list-box-j > ul > li:first-child{
+.winner-list-box-j > ul .casino-game-card:first-child{
   margin: 0;
 }
 .left-arrow-winners,
@@ -506,7 +506,7 @@ body{
   height: 174px;
   box-sizing: border-box;
 }
-.casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul > li{
+.casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul .casino-game-card{
   width: 232px;
   height: 174px;
   box-shadow: none;
@@ -650,7 +650,7 @@ body{
   height: auto;
   text-align: center;
 }
-.casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul > li{
+.casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul .casino-game-card{
   margin: 0 3px 10px 0;
 }
 
@@ -1369,7 +1369,7 @@ body{
 {
   background: rgba(0, 0, 0, 0.5);
 }
-.games-info-list-r-j > .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul > li{
+.games-info-list-r-j > .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul .casino-game-card{
   width: 148px;
   height: 108px;
   margin: 4px;
@@ -1412,18 +1412,18 @@ body{
   width: 100%;
   box-sizing: border-box;
 }
-.games-info-list-r-j > .winner-list-box-j > ul > li{
+.games-info-list-r-j > .winner-list-box-j > ul .casino-game-card{
   width: 100%;
   margin: 0 0 10px;
   background: rgba(0, 0, 0, 0.3);
   box-shadow: none;
 }
-.games-info-list-r-j > .winner-list-box-j > ul > li .text-info-winners-j{
+.games-info-list-r-j > .winner-list-box-j > ul .casino-game-card .text-info-winners-j{
   width: calc(100% - 77px);
 }
-.games-info-list-r-j > .winner-list-box-j > ul > li .text-info-winners-j > p > a,
-.games-info-list-r-j > .winner-list-box-j > ul > li .text-info-winners-j > h3,
-.games-info-list-r-j > .winner-list-box-j > ul > li .text-info-winners-j > p{
+.games-info-list-r-j > .winner-list-box-j > ul .casino-game-card .text-info-winners-j > p > a,
+.games-info-list-r-j > .winner-list-box-j > ul .casino-game-card .text-info-winners-j > h3,
+.games-info-list-r-j > .winner-list-box-j > ul .casino-game-card .text-info-winners-j > p{
   color: #ffffff;
 }
 //Slot interface END
@@ -1528,7 +1528,7 @@ body{
     overflow-x: auto;
     overflow-y: hidden;
   }
-  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul > li{
+  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul .casino-game-card{
     overflow: inherit;
   }
   .left-arrow-winners, .right-arrow-winners{
@@ -1570,10 +1570,10 @@ body{
   }
   .casino-top-container-jf.winner-list-jf{padding: 0 10px;}
   .casino-nav-wrapper-jf{margin: 0 0 10px;}
-  .casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul > li {
+  .casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul .casino-game-card {
     margin: 0 5px 10px 5px;
   }
-  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul > li{
+  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul .casino-game-card{
     width: 144px;
     height: 112px;
   }
@@ -1591,7 +1591,7 @@ body{
   .casino-menu-contain-jf > ul > li > a > span, .icon-search-jf{
     font-size: 20px;
   }
-  .winner-list-box-j > ul > li{
+  .winner-list-box-j > ul .casino-game-card{
     width: 240px;
     height: 80px;
   }

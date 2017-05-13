@@ -5,7 +5,7 @@
  *
  * Main module working with swarm
  */
-var VBET5 = angular.module('vbet5', ['vbet5.betting', 'ngRoute', 'ngAnimate', 'ngCookies', 'truncate', 'smoothScroll', 'liveChat', 'monospaced.qrcode', 'rangeSlider', 'barcodeGenerator', 'ui.bootstrap', 'rzModule']);
+var VBET5 = angular.module('vbet5', ['vbet5.betting', 'angular.filter', 'ngRoute', 'ngAnimate', 'ngCookies', 'truncate', 'smoothScroll', 'liveChat', 'monospaced.qrcode', 'rangeSlider', 'barcodeGenerator', 'ui.bootstrap', 'rzModule']);
 
 /**
  * @ngdoc module

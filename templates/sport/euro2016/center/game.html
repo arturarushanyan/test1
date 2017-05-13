@@ -2,7 +2,7 @@
 
 <div ng-hide="$location.path()=='/sport/'" mb-scrollbar="scrollbar('vertical', false)" style="height: 100%">
 
-    <div id="frame" class="markets-group-wrap-v3 frame" ng-if="openGame.availableMarketGroups.length > 2 && isLiveGamePinned && openGame.type == 1 " ng-class="{'market-group-prematch': !env.live}"  ng-show="openGame.markets && openGame.sport.alias !== 'HorseRacing'">
+    <div class="markets-group-wrap-v3 sly-frame" ng-if="openGame.availableMarketGroups.length > 2 && isLiveGamePinned && openGame.type == 1 " ng-class="{'market-group-prematch': !env.live}"  ng-show="openGame.markets && openGame.sport.alias !== 'HorseRacing'">
         <ul>
             <li sly-horizontal-repeat ng-repeat="group in openGame.availableMarketGroups track by group.id"
                 ng-class="{active: openGame.selectedMarketGroupId === group.id, 'favorte-markets-group-j': $first, 'animate-star-odd' : $first && openGame.sport.favouriteMarkets.length % 2 == 1, 'animate-star-even': $first && openGame.sport.favouriteMarkets.length % 2 == 0}"
@@ -208,7 +208,7 @@
 
 <div ng-if="$location.path()=='/sport/'">
 
-        <div id="frame" ng-if="openGame.availableMarketGroups.length > 2"  class="markets-group-wrap-v3" ng-class="{'market-group-prematch': !env.live}"  ng-show="openGame.markets && openGame.sport.alias !== 'HorseRacing'">
+        <div ng-if="openGame.availableMarketGroups.length > 2"  class="markets-group-wrap-v3 sly-frame" ng-class="{'market-group-prematch': !env.live}"  ng-show="openGame.markets && openGame.sport.alias !== 'HorseRacing'">
             <ul>
                 <li sly-horizontal-repeat ng-repeat="group in openGame.availableMarketGroups track by group.id"
                     ng-class="{active: openGame.selectedMarketGroupId === group.id, 'favorte-markets-group-j': $first, 'animate-star-odd' : $first && openGame.sport.favouriteMarkets.length % 2 == 1, 'animate-star-even': $first && openGame.sport.favouriteMarkets.length % 2 == 0}"

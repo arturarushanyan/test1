@@ -1,4 +1,4 @@
-CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScope, CConfig) {
+CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScope, CConfig, $location) {
     'use strict';
 
     return {
@@ -45,7 +45,15 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
             };
             scope.removeGameFromSaved = function removeGameFromSaved(gameId) {
                 scope.$emit('game.removeGameFromMyCasinoGames',{id:gameId});
-            }
-        }
+            };
+
+            scope.$on("ifFavoriteCategoryEnable", function(event, message) {
+                if (message === true) {
+                    scope.favoriteCategoryGames = true;
+                } else {
+                    scope.favoriteCategoryGames = false
+                }
+            });
+        },
     };
 }]);

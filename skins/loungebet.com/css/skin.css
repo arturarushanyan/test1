@@ -66152,16 +66152,57 @@ body {
     font-size: 0;
 }
 
+.winner-list-box-j > ul li > ul {
+    display: flex;
+}
+
+.winner-list-box-j > ul li > ul.show-all {
+    width: 100% !important;
+    transform: translateZ(0) !important;
+    display: block;
+}
+
 .winner-list-box-j > ul .casino-category-title {
     color: #105B63;
-    margin: 0 0 10px 5px;
+    margin: 0 0 10px 0;
     font-size: 18px;
+    display: inline-block;
+}
+
+.winner-list-box-j > ul:not(.sly-frame) {
+    border-bottom: 2px solid #bebeba;
+    padding-bottom: 16px;
+}
+
+.winner-list-box-j > ul:not(.sly-frame) .casino-category-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.winner-list-box-j > ul .casino-category-title:hover {
+    color: #676764;
+}
+
+.winner-list-box-j > ul .casino-category-title:hover .toggle-all-view {
+    border: 2px solid #676764;
+}
+
+.winner-list-box-j > ul .casino-category-title.show-all {
+    color: #676764;
+}
+
+.winner-list-box-j > ul .casino-category-title.show-all .toggle-all-view {
+    border: 2px solid #676764;
+}
+
+.winner-list-box-j > ul .casino-category-title.show-all .toggle-all-view:before {
+    content: "\e62d";
 }
 
 .winner-list-box-j > ul .casino-category-title .toggle-all-view {
     display: inline-block;
     font: 14px icomoon;
-    color: #105B63;
     border: 2px solid #105B63;
     border-radius: 50%;
     font-weight: 600;
@@ -66194,11 +66235,11 @@ body {
     position: absolute;
     left: 0;
     top: 32px;
-    width: 40px;
+    width: 60px;
     height: 172px;
     background: -moz-linear-gradient(left, rgba(230, 229, 220, 0.98) 0%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.48) 70%, rgba(230, 229, 220, 0) 100%);
     background: -webkit-linear-gradient(left, rgba(230, 229, 220, 0.98) 0%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.48) 70%, rgba(230, 229, 220, 0) 100%);
-    background: linear-gradient(to right, rgba(230, 229, 220, 0.98) 0%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.48) 70%, rgba(230, 229, 220, 0) 100%);
+    background: linear-gradient(to left, rgba(230, 229, 220, 0) , rgba(230, 229, 220, 0.3) ,rgba(230, 229, 220, 0.55) , rgba(230, 229, 220, 0.75) , rgba(230, 229, 220, 0.9), rgba(230, 229, 220, 1), rgb(230, 229, 220));
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fae6e5dc', endColorstr='#00e6e5dc',GradientType=1 );
     z-index: 66;
     opacity: 0;
@@ -66213,34 +66254,45 @@ body {
 .right-arrow-winners {
     left: auto;
     right: 0;
-    background: -moz-linear-gradient(left, rgba(230, 229, 220, 0) 0%, rgba(230, 229, 220, 0.48) 30%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.98) 100%);
-    background: -webkit-linear-gradient(left, rgba(230, 229, 220, 0) 0%, rgba(230, 229, 220, 0.48) 30%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.98) 100%);
-    background: linear-gradient(to right, rgba(230, 229, 220, 0) 0%, rgba(230, 229, 220, 0.48) 30%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.98) 100%);
+    background: -moz-linear-gradient(right, rgba(230, 229, 220, 0) 0%, rgba(230, 229, 220, 0.48) 30%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.98) 100%);
+    background: -webkit-linear-gradient(right, rgba(230, 229, 220, 0) 0%, rgba(230, 229, 220, 0.48) 30%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.98) 100%);
+    background: linear-gradient(to right, rgba(230, 229, 220, 0) , rgba(230, 229, 220, 0.3) ,rgba(230, 229, 220, 0.55) , rgba(230, 229, 220, 0.75) , rgba(230, 229, 220, 0.9), rgba(230, 229, 220, 1), rgb(230, 229, 220));
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e6e5dc', endColorstr='#fae6e5dc',GradientType=1 );
 }
 
-.winner-list-box-j ul.sly-frame:hover .left-arrow-winners,
-.winner-list-box-j ul.sly-frame:hover .right-arrow-winners {
+.winner-list-box-j ul.sly-frame > li:nth-child(2):hover .left-arrow-winners,
+.winner-list-box-j ul.sly-frame > li:nth-child(2):hover .right-arrow-winners,
+.winner-list-box-j ul.sly-frame  .left-arrow-winners:hover:before ,
+.winner-list-box-j ul.sly-frame  .right-arrow-winners:hover:before  {
     opacity: 1;
+}
+
+.winner-list-box-j ul.sly-frame  .left-arrow-winners.disabled:hover:before ,
+.winner-list-box-j ul.sly-frame  .right-arrow-winners.disabled:hover:before {
+    opacity: 0.5;
+}
+
+.winner-list-box-j ul.sly-frame  .left-arrow-winners.disabled ,
+.winner-list-box-j ul.sly-frame  .right-arrow-winners.disabled {
+    display: none;
 }
 
 .left-arrow-winners:before {
     content: "\e66f";
-    transform: translate3d(-50px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
     display: inline-block;
-    transition: transform 400ms;
+    transition: all 400ms;
+    color: rgb(16, 91, 99);
+    opacity: 0.5;
 }
 
 .right-arrow-winners:before {
     content: "\e672";
-    transform: translate3d(50px, 0, 0);
+    transform: translate3d(10px, 0, 0);
     display: inline-block;
-    transition: transform 400ms;
-}
-
-.winner-list-box-j:hover .right-arrow-winners:before,
-.winner-list-box-j:hover .left-arrow-winners:before {
-    transform: translate3d(0, 0, 0);
+    transition: all 400ms;
+    color: rgb(16, 91, 99);
+    opacity: 0.5;
 }
 
 .icon-winner-b {
@@ -66780,7 +66832,7 @@ body {
     box-shadow: none;
     box-sizing: border-box;
     background: none;
-    padding: 4px 0 0 4px;
+    padding: 4px 0 0 0;
     margin: 0 0 0 3px;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
@@ -66802,6 +66854,10 @@ body {
 
 .casino-games-list-view-jf .left-arrow-winners, .casino-games-list-view-jf .right-arrow-winners {
     line-height: 174px;
+}
+
+.casino-games-list-view-jf .left-arrow-winners.disabled, .casino-games-list-view-jf .right-arrow-winners.disabled {
+    cursor: default;
 }
 
 .game-screen-view-jf:before {
@@ -66926,6 +66982,25 @@ body {
     white-space: normal;
 }
 
+.casino-view-container-jf.disable-carousels .winner-list-box-j > ul .casino-category-title {
+    pointer-events: none;
+}
+
+.casino-view-container-jf.disable-carousels .winner-list-box-j > ul .casino-category-title .toggle-all-view {
+    display: none;
+}
+
+.casino-view-container-jf.disable-carousels .winner-list-box-j > ul li > ul {
+    width: 100% !important;
+    transform: translateZ(0) !important;
+    display: block
+}
+
+.casino-view-container-jf.disable-carousels .winner-list-box-j > ul li .right-arrow-winners,
+.casino-view-container-jf.disable-carousels .winner-list-box-j > ul li .left-arrow-winners {
+    display: none;
+}
+
 .casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul {
     position: relative;
     height: auto;
@@ -66934,7 +67009,7 @@ body {
 }
 
 .casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul .casino-game-card {
-    margin: 0 3px 10px 0;
+    margin: 0 6px 10px 0;
 }
 
 .casino-games-list-view-jf.open-view-list > .title-category-game-b > h3 > span:after {

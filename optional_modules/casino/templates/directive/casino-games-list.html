@@ -23,20 +23,31 @@
                 </ul>
 
                 <ul class="sly-frame" ng-repeat="(key, value) in gamesList | groupBy: 'cats[0].title'" ng-show="showConditions" ng-if="isNewDesignEnabled">
-                    <li><p ng-click="showall = !showall" ng-class="{'show-all': showall}" class="casino-category-title"> {{ key }} <span class="toggle-all-view"></span></p></li>
+                    <li>
+                        <p class="casino-category-title">
+                            {{ key }}
+                        </p>
+                        <p class="casino-category-title toggle-all-view" ng-click="showall = !showall" title="expand all games" ng-class="{'expanded': showall}">
+                            see all
+                        </p>
+                        </li>
                     <li>
                         <ul ng-class="{'show-all': showall}">
-                            <li sly-horizontal-repeat-simple class="casino-game-card" ng-repeat="game in value | limitTo: gamesLimit track by game.id" no-animate>
+                            <li sly-horizontal-repeat-simple class="casino-game-card" ng-repeat="game in value | limitTo: gamesLimit track by game.id">
                                 <div class="game-screen-view-jf" ng-style="{'background-image': 'url({{useBigIcons ? game.icon_3 : game.icon_2}})'}">
                                     <label class="game-view-m-b" for="play-game-v"></label>
+                                    <div ng-if="!($index % 3)" class="mobile-enabled-jf">
+                                        <span class="icon-mobile"></span>
+                                    </div>
                                     <div class="favorite-icon-jf" ng-click="toggleSaveToMyCasinoGames(game); $event.stopPropagation();" ng-class="{'active': isFromSaved(game.id)}">
                                         <span></span>
                                     </div>
                                     <a ng-click="openGame(game, 'real'); $event.stopPropagation();">
                                         <span class="category-icon-view-jf {{game.name}}"></span>
                                         <p>{{game.name}}</p>
-                                        <!--<span class="star-icon-jf"><i>2.5</i></span> -->
-                                        <button ng-show="$root.env.authorized"class="play-icon-jackpot-j play-game" ng-click="openGame(game, 'real'); $event.stopPropagation();" ng-if="game.types.realMode"></button>
+                                        <span class="star-icon-jf"><i>3.5</i></span> 
+                                        <span class="play-for-fun-jf">Play for fun</span>
+                                        <button ng-show="$root.env.authorized" class="play-icon-jackpot-j play-game" ng-click="openGame(game, 'real'); $event.stopPropagation();" ng-if="game.types.realMode"></button>
                                         <button ng-show="!$root.env.authorized" class="play-icon-jackpot-j play-game" ng-if="game.types.funMode && cConf.funModeEnabled" ng-click="openGame(game, 'fun'); $event.stopPropagation();"></button>
                                         <button ng-show="!$root.env.authorized" class="play-icon-jackpot-j play-game" ng-if="game.types.viewMode && !$root.env.authorized" ng-click="openGame(game, 'fun'); $event.stopPropagation();"></button>
                                     </a>
@@ -45,7 +56,6 @@
                         </ul>
                         <span ng-show="!showall" class="left-arrow-winners"></span>
                         <span ng-show="!showall" class="right-arrow-winners"></span>
-
                     </li>          
                 </ul>     
             </div>

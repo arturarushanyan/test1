@@ -4,7 +4,7 @@
             <div class="winner-list-box-j">
                 <ul ng-show="showConditions" ng-if="isNewDesignEnabled && favoriteCategoryGames">
                     <li class="casino-category-title" trans> Favourites </li>
-                    <li class="casino-game-card" ng-repeat="game in gamesList | limitTo: gamesLimit track by game.id" ng-show="gameShowConditions"  no-animate>
+                    <li ng-style="{width: calculateGameWidth()+'px'}"  class="casino-game-card" ng-repeat="game in gamesList | limitTo: gamesLimit track by game.id" ng-show="gameShowConditions"  no-animate>
                         <div class="game-screen-view-jf" ng-style="{'background-image': 'url({{useBigIcons ? game.icon_3 : game.icon_2}})'}">
                             <label class="game-view-m-b" for="play-game-v"></label>
                             <div class="favorite-icon-jf" ng-click="toggleSaveToMyCasinoGames(game); $event.stopPropagation();" ng-class="{'active': isFromSaved(game.id)}">
@@ -27,13 +27,13 @@
                         <p class="casino-category-title">
                             {{ key }}
                         </p>
-                        <p class="casino-category-title toggle-all-view" ng-click="showall = !showall" title="expand all games" ng-class="{'expanded': showall}">
+                        <p ng-show="windowWidth < (value.length * calculateGameWidth())" class="casino-category-title toggle-all-view" ng-click="expanded = !expanded" title="Expand all games" ng-class="{'expanded': expanded}">
                             see all
                         </p>
-                        </li>
+                    </li>
                     <li>
-                        <ul ng-class="{'show-all': showall}">
-                            <li sly-horizontal-repeat-simple class="casino-game-card" ng-repeat="game in value | limitTo: gamesLimit track by game.id">
+                        <ul ng-class="{'show-all': expanded}">
+                            <li ng-style="{width: calculateGameWidth()+'px'}" sly-horizontal-repeat-simple class="casino-game-card" ng-repeat="game in value | limitTo: gamesLimit track by game.id">
                                 <div class="game-screen-view-jf" ng-style="{'background-image': 'url({{useBigIcons ? game.icon_3 : game.icon_2}})'}">
                                     <label class="game-view-m-b" for="play-game-v"></label>
                                     <div ng-if="!($index % 3)" class="mobile-enabled-jf">
@@ -55,7 +55,7 @@
                             </li>                                               
                         </ul>
                         <span ng-show="!showall" class="left-arrow-winners"></span>
-                        <span ng-show="!showall" class="right-arrow-winners"></span>
+                        <span ng-show="!showall" class="right-arrow-winners" pass-click-to="loadMoreGames"></span>
                     </li>          
                 </ul>     
             </div>

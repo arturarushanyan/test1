@@ -33,13 +33,38 @@
 body {
     font-family: 'Ubuntu';
     width: 100%;
-    height: auto;
+    height: 100%;
     line-height: 1;
     background: #e6e5dc;
-    overflow: visible !important;
+    overflow: hidden !important;
     margin: 0 auto auto;
     -ms-user-select: none;
 }
+
+body > div > .ngscroll-resizable > .ngscroll-scrollbar-container {
+    z-index: 1000000;
+    background-color: #FFFEF6 !important;
+    right: 0 !important
+}
+
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container > .ngscroll-scrollbar { 
+     background-color: #c1c1c1 !important
+}
+
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container , 
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container > .ngscroll-scrollbar { 
+    width: 6px !important;
+}
+
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container:hover , 
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container:focus ,
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container:active , 
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container:hover > .ngscroll-scrollbar ,
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container:focus > .ngscroll-scrollbar ,
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container:active > .ngscroll-scrollbar {
+    width: 8px !important;
+}
+
 
 .ellipsis-text {
     overflow: hidden;
@@ -66166,6 +66191,11 @@ body {
     display: block;
 }
 
+.winner-list-box-j > ul li > ul:not(.show-all) > li {
+    width: 232px !important;
+    min-width: 232px !important;
+}
+
 .winner-list-box-j > ul .casino-category-title {
     color: #105B63;
     margin: 0 0 10px 0;
@@ -66810,8 +66840,7 @@ body {
 }
 
 .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul .casino-game-card {
-    width: 232px;
-    min-width: 232px;
+    min-width: 220px;
     height: 174px;
     box-shadow: none;
     box-sizing: border-box;
@@ -66878,7 +66907,7 @@ body {
     border-radius: 4px;
     background-color: #105b63;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: center;
     background-size: cover;
     position: relative;
 }
@@ -66952,8 +66981,8 @@ body {
 .game-screen-view-jf > a > p {
     position: absolute;
     left: 0;
-    bottom: 10px;
-    width: 190px;
+    bottom: 12px;
+    width: 180px;
     color: #f7f7f7;
     font-size: 16px;
     box-sizing: border-box;
@@ -66969,8 +66998,8 @@ body {
 
 .star-icon-jf {
     position: absolute;
-    right: 5px;
-    bottom: 5px;
+    right: 9px;
+    bottom: 9px;
     box-sizing: border-box;
     width: 36px;
     height: 36px;
@@ -67187,7 +67216,7 @@ body {
     overflow: hidden;
     z-index: 111;
     cursor: pointer;
-    transition: height 400ms cubic-bezier(0.18, 0.89, 0.32, 1.28) , opacity 150ms
+    transition: height 400ms cubic-bezier(0.18, 0.89, 0.32, 1.28) , opacity 200ms cubic-bezier(0.4, 0, 1, 1)
 }
 
 .game-screen-view-jf:hover .favorite-icon-jf {
@@ -67579,8 +67608,9 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    background: url("../images/logo-slot.png") no-repeat 0 0;
+    background: url(../images/logo.png);
     box-sizing: border-box;
+    background-size: cover;
 }
 
 .right-column-top-nav-slot {
@@ -67992,6 +68022,7 @@ body {
 }
 
 .games-info-list-r-j  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul .casino-game-card {
+    min-width:  148px;
     width: 148px;
     height: 108px;
     margin: 4px;

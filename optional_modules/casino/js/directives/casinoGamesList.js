@@ -1,4 +1,4 @@
-CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScope, CConfig, $location) {
+CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScope, CConfig, $location, $window) {
     'use strict';
 
     return {
@@ -54,6 +54,19 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
                     scope.favoriteCategoryGames = false
                 }
             });
+
+            scope.windowWidth = window.innerWidth;
+
+            scope.calculateGameWidth = function () {    
+                return Math.floor(( window.innerWidth - 22 ) / Math.floor(( window.innerWidth - 22 ) / 232 )) - 6;
+            } 
+
+            scope.calculateGameWidth;
+            
+            //** On resize
+            window.onresize = function () {
+                scope.calculateGameWidth;
+            }
         },
     };
 }]);

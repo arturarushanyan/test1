@@ -8,6 +8,7 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
         scope: {
             isNewDesignEnabled: '=',
             gamesList: '=',
+            myGames: '=',
             showConditions: '=',
             gameShowConditions: '=',
             gamesLimit: '=',
@@ -32,6 +33,10 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
 
             scope.toggleSaveToMyCasinoGames = function toggleSaveToMyCasinoGames(game) {
                 scope.$emit('casinoGamesList.toggleSaveToMyCasinoGames', game);
+            };
+
+            scope.loadMoreGames = function loadMoreGames(category) {
+                scope.$emit('casinoGamesList.loadMoreGames', category);
             };
 
             scope.isFromSaved = function isFromSaved(gameId) {
@@ -61,9 +66,6 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
                 return Math.floor(( window.innerWidth - 22 ) / Math.floor(( window.innerWidth - 22 ) / 232 )) - 6;
             } 
 
-            scope.calculateGameWidth;
-            
-            //** On resize
             window.onresize = function () {
                 scope.calculateGameWidth;
             }

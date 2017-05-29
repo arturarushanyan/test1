@@ -33,7 +33,7 @@ var defaultOptions = {
 var defaultOptions_simple = {
   horizontal: 1,
   itemNav: 'basic',
-  activateMiddle: 0,
+  activateMiddle: 1,
   smart: 1,
   activateOn: 'click',
   mouseDragging: 0,
@@ -41,11 +41,12 @@ var defaultOptions_simple = {
   releaseSwing: 1,
   startAt: 0,
   activatePageOn: 'click',
-  speed: 200,
-  moveBy: 600,
+  speed: 500,
+  moveBy: 0,
   elasticBounds: 1,
   dragHandle: 0,
   dynamicHandle: 1,
+  easing: 'swing',
   clickBar: 1,
   scrollBy: 0,
   forward : 1,
@@ -147,10 +148,6 @@ VBET5.directive('slyHorizontalRepeatSimple', function($timeout,$window) {
                     //         scope.$emit('ngRepeatFinished');
                     $(window).on("resize", function() {
                         frame.sly("reload");
-                    });
-
-                    scope.$watch('value', function() {
-                    //    console.log(frame);
                     });
 
                     scope.$watch(

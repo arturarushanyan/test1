@@ -2,9 +2,10 @@
     <div class="casino-games-list-view-jf open-view-list">
         <div class="slider-casino-container-jf">
             <div class="winner-list-box-j">
-                <ul ng-show="showConditions" ng-if="isNewDesignEnabled && favoriteCategoryGames">
-                    <li class="casino-category-title" trans> Favourites </li>
-                    <li ng-style="{width: calculateGameWidth()+'px'}"  class="casino-game-card" ng-repeat="game in gamesList | limitTo: gamesLimit track by game.id" ng-show="gameShowConditions"  no-animate>
+                <ul ng-if="isNewDesignEnabled && favoriteCategoryGames">
+                    <li ng-show="myGames.length" class="casino-category-title" trans> Favourites </li>
+                    <li ng-show="!myGames.length" class="empty-myGames">Click on the <span class="icon-Favourites-casino"></span> of the game to add it to the Favourites</li>
+                    <li ng-style="{width: calculateGameWidth()+'px'}"  class="casino-game-card" ng-repeat="game in myGames | limitTo: gamesLimit track by game.id" ng-show="gameShowConditions"  no-animate>
                         <div class="game-screen-view-jf" ng-style="{'background-image': 'url({{useBigIcons ? game.icon_3 : game.icon_2}})'}">
                             <label class="game-view-m-b" for="play-game-v"></label>
                             <div class="favorite-icon-jf" ng-click="toggleSaveToMyCasinoGames(game); $event.stopPropagation();" ng-class="{'active': isFromSaved(game.id)}">
@@ -13,7 +14,8 @@
                             <a ng-click="openGame(game, 'real'); $event.stopPropagation();">
                                 <span class="category-icon-view-jf {{game.name}}"></span>
                                 <p>{{game.name}}</p>
-                                <!--<span class="star-icon-jf"><i>2.5</i></span> -->
+                                <span class="star-icon-jf"><i>2.5</i></span> 
+                                <span class="play-for-fun-jf">Play for fun</span>
                                 <button ng-show="$root.env.authorized"class="play-icon-jackpot-j play-game" ng-click="openGame(game, 'real'); $event.stopPropagation();" ng-if="game.types.realMode"></button>
                                 <button ng-show="!$root.env.authorized" class="play-icon-jackpot-j play-game" ng-if="game.types.funMode && cConf.funModeEnabled" ng-click="openGame(game, 'fun'); $event.stopPropagation();"></button>
                                 <button ng-show="!$root.env.authorized" class="play-icon-jackpot-j play-game" ng-if="game.types.viewMode && !$root.env.authorized" ng-click="openGame(game, 'fun'); $event.stopPropagation();"></button>
@@ -22,7 +24,7 @@
                     </li>
                 </ul>
 
-                <ul class="sly-frame" ng-repeat="(key, value) in gamesList | groupBy: 'cats[0].title'" ng-show="showConditions" ng-if="isNewDesignEnabled">
+                <ul ng-if="isNewDesignEnabled && showConditions" class="sly-frame" ng-repeat="(key, value) in gamesList | groupBy: 'cats[0].title' ">
                     <li>
                         <p class="casino-category-title">
                             {{ key }}
@@ -43,7 +45,7 @@
                                         <span></span>
                                     </div>
                                     <a ng-click="openGame(game, 'real'); $event.stopPropagation();">
-                                        <span class="category-icon-view-jf {{game.name}}"></span>
+                                        <span ng-if="game.categories[0] === '93'" ng-class="{'top-b': game.categories[0] === '93'}" class="category-icon-view-jf"></span>
                                         <p>{{game.name}}</p>
                                         <span class="star-icon-jf"><i>3.5</i></span> 
                                         <span class="play-for-fun-jf">Play for fun</span>
@@ -54,10 +56,29 @@
                                 </div>
                             </li>                                               
                         </ul>
-                        <span ng-show="!showall" class="left-arrow-winners"></span>
-                        <span ng-show="!showall" class="right-arrow-winners" pass-click-to="loadMoreGames"></span>
+                        <span ng-show="!expanded" class="left-arrow-winners"></span>
+                        <span ng-show="!expanded" class="right-arrow-winners" ng-click="loadMoreGames(value[0].cats[0].id)"></span>
                     </li>          
-                </ul>     
+                </ul>
+
+                <ul class="slot" ng-if="isNewDesignEnabled" ng-show="!showConditions">
+                    <li ng-repeat="game in gamesList track by $index" ng-show="gameShowConditions" class="casino-game-card">
+                        <div class="game-screen-view-jf" ng-style="{'background-image': 'url({{useBigIcons ? game.icon_3 : game.icon_2}})'}">
+                            <label class="game-view-m-b" for="play-game-v"></label>
+                            <div class="favorite-icon-jf" ng-click="toggleSaveToMyCasinoGames(game); $event.stopPropagation();" ng-class="{'active': isFromSaved(game.id)}">
+                                <span></span>
+                            </div>
+                            <a ng-click="openGame(game, 'real'); $event.stopPropagation();">
+                                <span class="category-icon-view-jf {{game.name}}"></span>
+                                <p>{{game.name}}</p>
+                                <span class="star-icon-jf"><i>2.5</i></span>
+                                <button ng-show="$root.env.authorized"class="play-icon-jackpot-j play-game" ng-click="openGame(game, 'real'); $event.stopPropagation();" ng-if="game.types.realMode"></button>
+                                <button ng-show="!$root.env.authorized" class="play-icon-jackpot-j play-game" ng-if="game.types.funMode && cConf.funModeEnabled" ng-click="openGame(game, 'fun'); $event.stopPropagation();"></button>
+                                <button ng-show="!$root.env.authorized" class="play-icon-jackpot-j play-game" ng-if="game.types.viewMode && !$root.env.authorized" ng-click="openGame(game, 'fun'); $event.stopPropagation();"></button>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

@@ -21,8 +21,8 @@ CASINO.constant('CConfig', {
         moreColumnNumber: 6, //number of columns in categories  "more" dropdown block
         numberOfRecentGames: 20, //initial number of recent games to show.  When newCasinoDesign is enabled change this value to be 3X
         numberOfRecentGamesWide: 28, //initial number of recent games to show in wide screen mode.  When newCasinoDesign is enabled change this value to be 5X
-        increaseBy: 50, // load this number of additional games when clicking "load more".   When newCasinoDesign is enabled change this value to be 3X
-        increaseByWide: 15, // load this number of additional games when clicking "load more".  When newCasinoDesign is enabled change this value to be 5X
+        increaseBy: 10, // load this number of additional games when clicking "load more".   When newCasinoDesign is enabled change this value to be 3X
+        increaseByWide: 10, // load this number of additional games when clicking "load more".  When newCasinoDesign is enabled change this value to be 5X
         partnerID: '13', // partner ID
         popularGamesID: 'PopularGames', // popular games ID
         topSlotsID: 'TopSlots', // top slots ID
@@ -30,6 +30,8 @@ CASINO.constant('CConfig', {
         multiViewEnabled: false,
         fourGameViewEnable: true,
         filterByProviderEnabled: true,
+        specialsCategoryEnabled: true,
+        slotsGamesEnabled: true,
         funModeEnabled: true,// enable/disable fun mode
         realModeEnabled: true, // enable/disable real playing mode
         providersThatHaveNotFunMode: ['MTG'],

@@ -11,6 +11,11 @@ VBET5.controller('euro2016DashboardCenterController', ['$rootScope', '$scope', '
     var updateCentralLiveViewWithExpandedRegion = updateCentralViewWithExpandedRegionFactory('centerViewLiveData');
     var updateCentralPrematchViewWithExpandedRegion = updateCentralViewWithExpandedRegionFactory('centerViewPrematchData');
     var updateCentralPrematchViewWithExpandedRegionForLiveToday = updateCentralViewWithExpandedRegionFactory('centerViewPrematchData', updateLinkedGames);
+    var firstTimeLoaded = false;
+    //adding sport basketball to show only P1P2
+    $scope.sportP1P2Alias = ['Dota2', 'CounterStrike', 'Tennis', 'TableTennis', 'Volleyball', 'Golf', 'Snooker', 'Mma', 'LeagueOfLegends', 'StarCraft2', 'WorldOfTanks', 'Basketball', 'Badminton', 'Baseball','EBasketball', 'BeachVolleyball']; //sport aliases which haven't X (only P1 P2)
+
+    ;
 
     (function initScope () {
         $scope.displayBase = GameInfo.displayBase;
@@ -240,7 +245,7 @@ VBET5.controller('euro2016DashboardCenterController', ['$rootScope', '$scope', '
                                     return;
                                 }
 
-                                //event.name = $filter('improveName')(event.name, game);
+                                event.name = $filter('improveName')(event.name, game);
                             });
                         });
 
@@ -840,6 +845,7 @@ VBET5.controller('euro2016DashboardCenterController', ['$rootScope', '$scope', '
         }
     };
 
+
     function checkToggleAllStatus() {
         var expandedCount = 0;
         angular.forEach($scope.sportBlock, function (item) {
@@ -854,4 +860,5 @@ VBET5.controller('euro2016DashboardCenterController', ['$rootScope', '$scope', '
             $scope.expandedAll = false;
         }
     }
+
 }]);

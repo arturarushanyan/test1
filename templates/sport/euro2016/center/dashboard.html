@@ -1,7 +1,7 @@
 <div class="dashboard-view-v3" ng-controller="euro2016DashboardMainController">
     <!--Live games column dashboard-->
     <div class="live-events-column-v3"  ng-controller="euro2016DashboardCenterController">
-        <div mb-scrollbar="scrollbar('vertical', false)">
+        <div mb-scrollbar="scrollbar('vertical', false)" style="height: 100%;">
             <div class="live-games-list-d-v3" >
                 <div class="live-column-title-v3">
                     <div class="upcoming-icon-v3"></div>
@@ -72,10 +72,22 @@
                                                 <li>
                                                     <div class="market-info-view-d-v3">
                                                         <div class="market-name-d-v3">
-                                                            <h4 trans >Match winner</h4>
+                                                            <!--header start-->
+                                                            <div class="marked-event-header">
+                                                                <div class="odds-1x2 dashboard floating-element" ng-show="!(sportP1P2Alias.indexOf(sport.alias) > -1)">
+                                                                    <span>1</span>
+                                                                    <span>X</span>
+                                                                    <span>2</span>
+                                                                </div>
+                                                                <div class="odds-12 dashboard floating-element" ng-show="sportP1P2Alias.indexOf(sport.alias) > -1">
+                                                                    <span>1</span>
+                                                                    <span>2</span>
+                                                                </div>
+                                                            </div>
+                                                            <!--header end-->
                                                         </div>
                                                         <div class="events-list-view-v3">
-                                                            <ul class="column-{{market[0] ? (market[0].type === 'P1P2' ? 2 : 3) : 1}}"
+                                                            <ul class="column-{{(sportP1P2Alias.indexOf(sport.alias) > -1) ? 2 : 3}}"
                                                                 ng-init="market = game.filteredMarkets['P1XP2'] || game.filteredMarkets['P1P2']">
                                                                 <li
                                                                         ng-repeat="event in market[0].event track by event.id"
@@ -87,9 +99,6 @@
                                                                     {{isEventInBetSlip(event) ? 'active' : ''}}
                                                                     {{(event.price === 1 || game.is_blocked) ? 'blocked' : ''}}">
                                                                         <div class="mini-box-market-info-v3">
-                                                                            <p>
-                                                                                <i>{{event.name}}</i>
-                                                                            </p>
                                                                             <span ng-show="event.price !== 1 && !openGame.is_blocked">
                                                                         <b ng-class="{'factor-top': event.price_change > 0, 'factor-bottom': event.price_change < 0}">
                                                                             {{event.price|oddConvert:env.oddFormat}}
@@ -98,8 +107,14 @@
                                                                         </div>
                                                                     </div>
                                                                 </li>
-                                                                <li ng-show="!market[0]">
-                                                                    <div class="single-events-b-v3"></div>
+                                                                <li ng-show="!market[0]" class="market0" ng-class="{'P1P2' : (sportP1P2Alias.indexOf(sport.alias) > -1)}">
+                                                                    <div class="single-events-b-v3 dashboard no-hover"><span>-</span></div>
+                                                                </li>
+                                                                <li ng-show="!market[0]" class="market0" ng-class="{'P1P2' : (sportP1P2Alias.indexOf(sport.alias) > -1)}">
+                                                                    <div class="single-events-b-v3 dashboard no-hover"><span>-</span></div>
+                                                                </li>
+                                                                <li ng-show="!market[0] && (sportP1P2Alias.indexOf(sport.alias) === -1)" class="market0 no-right" ng-class="{'P1P2' : (sportP1P2Alias.indexOf(sport.alias) > -1)}">
+                                                                    <div class="single-events-b-v3 dashboard no-hover"><span>-</span></div>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -134,7 +149,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <!--Live games column dashboard END-->
     <!--upcoming games column dashboard END-->

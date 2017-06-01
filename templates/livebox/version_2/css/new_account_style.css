@@ -1,0 +1,1015 @@
+@font-face {
+    font-family: Icomoon;
+    src: url(../../../../fonts/icomoon.woff);
+}
+
+/*ICONS*/
+.icon-Balance_Management:before {
+    content: "\e959";
+}
+.icon-Close_LSB:before {
+    content: "\e95a";
+}
+
+.icon-Close_LSB{
+    float: right;
+}
+.icon-expand2:before {
+    content: "\e95b";
+}
+
+.dob-select:after{
+    content: "\e95b";
+}
+.icon-History:before {
+    content: "\e95c";
+}
+.icon-Messages:before {
+    content: "\e95d";
+    font-size: 10px;
+}
+.icon-My_Profile:before {
+    content: "\e95e";
+}
+.icon-Promotions:before {
+    content: "\e95f";
+}
+.icon-VIP:before {
+    content: "\e960";
+}
+/*ICONS END*/
+
+/*LEFT BAR STYLE START*/
+
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.floating-element{
+    float: left;
+}
+
+.inline-element{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.account-main-container{
+    background-color: #e6e5dc;
+    color: #3e4545;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.account-left-container{
+    width: 250px;
+    margin: 10px;
+}
+
+.acc-main-item, .account-heading{
+    border-radius: 4px;
+    background-color: #fffef6;
+    margin-bottom: 6px;
+    height: 34px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    box-shadow: 0 1px 0 0 rgba(48, 56, 56, 0.21);
+}
+
+.account-heading>p>span, .acc-main-item>p>span{
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+.account-heading>p>span.icon-expand2, .acc-main-item>p>span.icon-expand2{
+    float: right;
+    width: 16px;
+    height: 14px;
+    font-size: 8px;
+    padding-top: 7px;
+    padding-right: 0;
+}
+
+.account-heading>p>span.icon-Close_LSB{
+    padding-right: 0
+}
+
+.acc-main-item p, .account-heading p{
+    margin: 0;
+    padding: 8px 10px;
+}
+
+
+.acc-main-item:hover{
+    color: white;
+    background-color: #1c89b0;
+    transition: 0.5s;
+}
+
+
+
+.account-heading{
+    background-color: #105b63;
+    color: #ffffff;
+}
+
+.accordion-container>ul{
+    list-style: none;
+    background-color: #f5f4ec;
+    padding: 1px 0;
+    margin: 4px 0 4px 0;
+    border-radius: 4px;
+}
+
+.accordion-container>ul>li{
+     width: 96%;
+     margin: 5px auto 5px auto;
+     background-color: #f3f2e9;
+     border-radius: 4px;
+     height: 29px;
+     border: 1px solid #d0cebe;
+     position: relative;
+    opacity: 0.8;
+ }
+
+.accordion-container>ul>li:hover{
+    background-color: #fffef6;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.accordion-container>ul>li>a, ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #3e4545;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+div.acc-main-item.active{
+    background-color: #1c89b0;
+    color: white;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    pointer-events: none;
+    box-shadow: none;
+}
+
+div.acc-main-item.active:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 12px solid #1c89b0;
+    border-radius: 4px;
+}
+
+.accordion-container>ul>li.active{
+    background-color: #fffef6;
+    opacity: 1;
+    pointer-events:none;
+}
+
+.accordion-container>ul>li.active:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: -1px;
+    left: -1px;
+    width: 4px;
+    height: 31px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: #ff8067;
+}
+
+.fill-div{
+    width: 100%;
+    background-color: #fffef6;
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* ANIMATION START*/
+.circle-points-wrapper{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: -3px;
+    left: 10px;
+    clip: rect(0px, 200px, 200px, 100px);
+    transform: rotate(-90deg);
+}
+/* Set the sizes of the elements that make up the progress bar */
+.loyalty-points-circle {
+    width: 160px;
+    height: 160px;
+    border: 10px solid #ff7f66;
+    border-radius: 50%;
+    position: absolute;
+    clip: rect(0px, 100px, 200px, 0px);
+}
+
+.gray-border{
+    width: 161px;
+    height: 160px;
+    border-radius: 50%;
+    border: 10px solid #d4d3cb;
+    position: absolute;
+    top: -3px;
+    left: 10px;
+}
+
+.loyalty-level-circle{
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 1;
+    top: 72px;
+    left: -1px;
+    padding-top: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: #fffef6;
+    font-size: 15px;
+    color: #ff7f66;
+}
+/* Using the data attributes for the animation selectors. */
+/* Base settings for all animated elements */
+div[data-anim~=base] {
+    -webkit-animation-iteration-count: 1;  /* Only run once */
+    -webkit-animation-fill-mode: forwards; /* Hold the last keyframe */
+    -webkit-animation-timing-function:linear; /* Linear animation */
+}
+
+.circle-points-wrapper[data-anim~=wrapper] {
+    -webkit-animation-duration: 0.01s; /* Complete keyframes asap */
+    -webkit-animation-delay: 2.82s; /* Wait half of the animation */
+    -webkit-animation-name: close-wrapper; /* Keyframes name */
+}
+
+.loyalty-points-circle[data-anim~=left] {
+    -webkit-animation-duration: 3.66s; /* Full animation time */
+    -webkit-animation-name: left-spin;
+}
+
+.loyalty-points-circle[data-anim~=right] {
+    -webkit-animation-duration: 3s; /* Half animation time */
+    -webkit-animation-name: right-spin;
+}
+/* Rotate the right side of the progress bar from 0 to 180 degrees */
+@-webkit-keyframes right-spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(180deg);
+    }
+}
+/* Rotate the left side of the progress bar from 0 to 360 degrees */
+@-webkit-keyframes left-spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(220deg);
+    }
+}
+/* Set the wrapper clip to auto, effectively removing the clip */
+@-webkit-keyframes close-wrapper {
+    to {
+        clip: rect(auto, auto, auto, auto);
+    }
+}
+/* ANIMATION END*/
+
+/*LEFT BAR STYLE END*/
+
+
+/*MIDDLE SIDE STYLE START*/
+/************************/
+.account-middle-container{
+    background-color: #fffef6;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    width: calc(100% - 300px);
+    margin-top: 10px;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.middle-wrapper-heading p{
+    padding: 15px 10px;
+}
+
+.account-middle-left-wrapper{
+    width: 290px;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.account-middle-left-wrapper>.avatar-wrapper>.image-wrapper, .account-middle-left-wrapper>.avatar-wrapper>.image-wrapper>img{
+    width: 120px;
+    margin: 30px auto;
+    border-radius: 50%;
+}
+
+.account-middle-left-wrapper>.avatar-wrapper>.image-wrapper{
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+.username-heading>.username{
+    font-size: 18px;
+    text-align: center;
+}
+
+.button-wrapper{
+    text-align: center;
+}
+
+.button-wrapper>button{
+    width: 130px;
+    height: 40px;
+    background-color: #ff8067;
+    border: 1px solid #ff8067;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.button-wrapper>button.file-upload {
+    position: relative;
+    overflow: hidden;
+    background-color: #52a178;
+    border-color: #52a178;
+}
+
+.file-upload input.file-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.balance-table{
+    width: 263px;
+    margin: 20px auto;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.balance-table tr{
+    height: 32px;
+}
+
+.balance-table tr td{
+     vertical-align: middle;
+}
+
+.balance-table tr td:last-child{
+    text-align: right;
+}
+
+.balance-table tr:first-child td{
+    padding-top: 16px;
+}
+
+.balance-table tr:last-child td{
+    padding-bottom: 16px;
+}
+
+.total-balance, .total-bonus, .withdraw-funds{
+    color: #006aa6;
+}
+
+.total-bonus{
+    color: #52a178;
+}
+
+.withdraw-funds{
+    color: #be3a49;
+}
+
+.loyalty-heading{
+    text-align: center;
+}
+
+.loyalty-heading h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.loyalty-level p{
+    width: 42.6%;
+    padding-left: 14px;
+}
+
+.loyalty-level p.current-level{
+    text-align: right;
+}
+
+.level-progress-bar{
+    width: 92%;
+    height: 8px;
+    background-color: #d4d3cb;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.progress-level{
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.progress-level:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.progress-level:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.level-1{
+    background-color: #69cfcb;
+}
+
+.level-2{
+    background-color: #c4cf69;
+}
+.level-3{
+    background-color: #cf6969;
+}
+
+
+/*MIDDLE middle*/
+.account-middle-middle-wrapper{
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    width: calc(100% - 323px);
+    height: 100%;
+    margin-left: 6px;
+}
+
+.account-middle-navigation>ul{
+    background-color: #f3f2e9;
+    height: 31px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.account-middle-navigation>ul>li{
+    width: 140px;
+    height: 31px;
+    box-sizing: border-box;
+    text-align: center;
+    border-right: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    opacity: 0.8;
+}
+
+.account-middle-navigation>ul>li:first-child{
+    border-top-left-radius: 4px;
+}
+
+.account-middle-navigation>ul>li>a{
+    padding-left: 0;
+    padding-top: 8px;
+}
+
+.account-middle-navigation>ul>li.active{
+    background-color: #fffef6;
+    border-bottom: 0;
+    border-top: 3px solid #ff7f66;
+    height: 31px;
+    opacity: 1;
+    pointer-events:none;
+}
+
+.account-middle-navigation>ul>li:hover{
+    opacity: 1;
+    background-color: #fffef6;
+    transition: 0.5s;
+}
+
+.my-details-left, .my-details-right{
+    width: 48.6%;
+    margin-left: 10px;
+}
+
+.my-details-wrapper label{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.my-account-changing-content input, .my-account-changing-content select{
+    background-color: #fffef6;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    height: 40px;
+    color: #303838;
+    font-size: 14px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.my-account-changing-content input:focus, .my-account-changing-content select:focus{
+    border-color: #59605e;
+}
+
+.my-account-changing-content input, .country-code-select{
+    width: 100%;
+
+}
+
+.my-account-changing-content input[disabled]{
+    background-color: #f5f4ec;
+    border: 1px solid #59605e;
+}
+
+#month, #year{
+    margin-left: 5px;
+    width: 31.3%;
+}
+
+#day{
+    width: 23%;
+}
+
+#year{
+    width: 43%;
+}
+
+#country{
+    width: 100%;
+}
+
+.my-details-wrapper input[type="radio"]{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.gender-span{
+    vertical-align: middle;
+}
+
+.gender-span.disabled{
+    opacity: 0.5;
+}
+
+.my-details-wrapper label.gender-label {
+    margin: 13px;
+    vertical-align: top;
+}
+.my-details-bottom{
+    margin: 0 1%;
+}
+
+.address-wrapper{
+    width: 78%;
+}
+
+.postal-code-wrapper{
+    width: 20.5%;
+    margin-left: 6px;
+}
+
+.country-code{
+    width: 17%;
+}
+
+.mobile-number-wrapper{
+    width: 60.4%;
+    margin-left: 5px;
+}
+
+.verify-button-wrapper{
+    width: 20.5%;
+    margin-top: 44px;
+    margin-left: 6px;
+}
+
+.verify-button-wrapper button{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #a2aba8;
+    border: 1px solid #a2aba8;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.verify-button-wrapper button.active{
+    background-color: #52a178;
+    border: 1px solid #52a178;
+}
+
+.info-note{
+    margin-top: 10px;
+    text-align: center;
+    opacity: 0.5;
+    background-color: #f3f2e9;
+    padding: 10px 0;
+}
+
+.save-changes-wrap{
+    margin: 1%;
+    text-align: center;
+}
+
+button.save-changes{
+    width: 190px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #a2aba8;
+    border-radius: 4px;
+    background-color: #a2aba8;
+}
+
+button.save-changes.active{
+    background-color: #52a178;
+    border-color: #52a178;
+}
+/*MIDDLE SIDE STYLE END*/
+/* COMMON RADIO AND CHECKBOX STYLES  */
+input[type=radio]{
+    visibility: hidden;
+    position: absolute;
+}
+
+input[type=radio]:disabled + label{
+    opacity: 0.5;
+}
+
+input[type=radio] + label:before{
+    height:12px;
+    width:12px;
+    margin-right: 7px;
+    content: " ";
+    display:inline-block;
+    vertical-align: top;
+    border:1px solid #777;
+    background: #fffef6;
+}
+input[type=radio]:checked + label:before{
+    background: #fffef6;
+}
+
+input#r1:checked + label:after, input#r2:checked + label:after{
+    height: 8px;
+    width: 8px;
+    margin-right: 2px;
+    content: " ";
+    display: inline-block;
+    vertical-align: baseline;
+    background: #303838;
+    border-radius: 50%;
+    margin-left: -44px;
+    margin-bottom: 1px;
+}
+
+input#r2:checked + label:after{
+    margin-left: -63px;
+}
+
+input[type=radio] + label:before{
+    border-radius:50%;
+}
+input[type=checkbox] + label:before{
+    border-radius: 2px;
+}
+/* CUSTOM RADIO AND CHECKBOX STYLES END */
+
+
+/**************************************/
+/**************************************/
+
+/* DOCUMENTS SECTION STYLES */
+.documents-wrapper{
+    margin: 0 10px;
+}
+
+.documents-info{
+    margin: 20px 0;
+}
+
+.proof-container{
+    border: 1px solid #c1c0ba;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.proof-container p{
+    margin: 1%;
+    margin-bottom: 20px;
+}
+
+.doctype-label{
+    margin-left: 1%;
+}
+
+.proof-heading{
+    margin: 15px 1%;
+}
+
+.half-container{
+    margin: 1%;
+    width:48%;
+}
+
+.half-container select{
+    width: 100%;
+}
+
+.my-account-changing-content input.inputfile {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.inputfile + label {
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3e4545;
+    background-color: transparent;
+    display: inline-block;
+    border: 1px solid #979b97;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 79%;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 9px;
+}
+
+.upload-button{
+    cursor: pointer;
+    width: 20%;
+    height: 40px;
+    background-color: #a2aba8;
+    border: 1px solid #8d9795;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    vertical-align: bottom;
+    margin-left: -4px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.documents-table-wrapper{
+    margin: 1% 0;
+    border: 1px solid #c1c0ba;
+    border-radius: 4px;
+}
+
+.documents-table-wrapper h5{
+    margin: 1%;
+}
+
+.documents-table, .documents-table tbody{
+    width: 98%;
+    border-radius: 4px;
+    margin: 1%;
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+.documents-table tr th,.documents-table tr td{
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #c1c0ba;
+    border-top: 0;
+    border-right: 0;
+    border-spacing: 0;
+}
+
+.documents-table tr th{
+    background-color: #f3f2e9;
+    color: #006aa6;
+}
+
+.documents-table tr:first-child th:first-child{
+    border-top-left-radius: 4px;
+}
+
+.documents-table tr:first-child th:last-child{
+    border-top-right-radius: 4px;
+}
+
+.documents-table tr:last-child td:first-child{
+     border-bottom-left-radius: 4px;
+ }
+
+.documents-table tr:last-child td:last-child{
+    border-bottom-right-radius: 4px;
+}
+
+.documents-table tr:first-child th{
+    border-top: 1px solid #c1c0ba;
+}
+
+.documents-table tr th:last-child, .documents-table tr td:last-child{
+    border-right: 1px solid #c1c0ba;
+}
+
+.documents-table tr td:last-child{
+    text-transform: uppercase;
+}
+
+/* DOCUMENTS SECTION STYLES END */
+
+
+/* SELF LIMITS SECTION STYLES START */
+
+/*****mY LIMITS********start*/
+.self-limits-wrapper{
+    margin: 0 1%;
+    height: 100%;
+}
+
+.self-limits-navigation, .self-limits-navigation>li{
+    height: 50px;
+}
+
+.self-limits-navigation>li{
+    border-bottom: 1px solid #d4d4d0;
+    width: 140px;
+
+}
+
+.self-limits-navigation>li.active{
+    border-bottom: 3px solid #ff7f66;
+}
+
+.self-limits-navigation>li>a{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.limits-info{
+    margin: 1% 0;
+}
+
+.self-limits-form{
+    border: 1px solid #c1c0ba;
+    border-radius: 4px;
+    margin-bottom: 1%;
+}
+
+.self-limit-form-content{
+    margin: 1%;
+}
+
+.self-limit-form-content h5{
+    margin-bottom: 1%;
+}
+
+.self-limit-form-content p{
+    margin-bottom: 30px;
+}
+
+.self-limit-form-content label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.self-limit-form-content select{
+    width: 100%;
+}
+
+.limit-amount, .limit-period, .save-limit{
+    width: 32%;
+}
+
+.limit-period{
+    margin: 0 2%;
+}
+
+.save-limit-button{
+    width: 130px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #8b9694;
+    border: 1px solid #8b9694;
+    margin-top: 24px;
+    border-radius: 4px;
+}
+
+.save-limit, .save-limit-exclusion{
+    text-align: right;
+}
+/*****mY LIMITS********end*/
+
+/*****self exclusion********start*/
+.self-limits-form.self-exclusion{
+    margin-top: 1%;
+}
+
+.self-exclusion-form-content{
+    margin: 1%;
+}
+
+.self-exclusion-form-content h5, .self-exclusion-form-content p{
+    margin-bottom: 1%;
+}
+
+.exclusion-period label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.exclusion-period select{
+    width: 285px;
+}
+
+.exclusion-period, .save-limit-exclusion{
+    width: 50%;
+}
+/*****self exclusion********end*/
+
+ /*Account closure*/
+.self-limits-form.account-closure{
+    margin-top: 1%;
+}
+
+.account-closure-form-content h5, .account-closure-form-content p{
+    margin: 1%;
+}
+
+.account-closure-form-content p:last-child{
+    margin-top: 2%;
+}
+
+.account-closure-form-content p a{
+    text-decoration: none;
+    color: #ff7f66;
+}
+/*Account closure end*/
+
+/*session limit */
+.set-session-limit{
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #e6e6e1;
+}
+
+.set-session-limit-button {
+    width: 190px;
+    height: 40px;
+    background-color: #8b9694;
+    color: white;
+    border: 1px solid #8b9694;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.self-limit-form-content p.session-limit-details-heading{
+    margin-bottom: 15px;
+}
+
+.session-limit-details>.details-info{
+    margin-bottom: 5px;
+}
+/*session limit */
+
+
+/* SELF LIMITS SECTION STYLES END */

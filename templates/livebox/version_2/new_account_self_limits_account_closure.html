@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Self Limits - Account Closure
+    </title>
+    <link rel="stylesheet" type="text/css" href="../../../css/fonts/default.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../../skins/loungebet.com/css/skin.css">
+    <link rel="stylesheet" type="text/css" href="css/new_account_style.css">
+    <link rel="stylesheet" type="text/css" href="css/medias.css">
+</head>
+<body>
+
+<div class="account-main-container">
+    <!-- left side start -->
+    <div class="account-left-container floating-element">
+        <div class="account-heading">
+            <p>
+                My Account
+                <span class="icon-Close_LSB"></span>
+            </p>
+        </div>
+        <div class="account-accordion">
+            <div class="acc-main-item balance-management">
+                <p>
+                    <span class="icon-Balance_Management"></span>
+                    Balance Management
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="acc-main-item my-profile active">
+                <p>
+                    <span class="icon-My_Profile"></span>
+                    My Profile
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+            <div class="accordion-container">
+                <ul class="my-profile-container">
+                    <li ><a href="#">My Details</a></li>
+                    <li><a href="#">Documents</a></li>
+                    <li class="active"><a href="new_account_self_limits.html">Self Limits</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+            </div>
+            <div class="acc-main-item history">
+                <p>
+                    <span class="icon-History"></span>
+                    History
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item promotions">
+                <p>
+                    <span class="icon-Promotions"></span>
+                    Promotions
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item vip">
+                <p>
+                    <span class="icon-VIP"></span>
+                    VIP
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+
+            <div class="acc-main-item messages">
+                <p>
+                    <span class="icon-Messages"></span>
+                    Messages
+                    <span class="icon-expand2"></span>
+                </p>
+            </div>
+        </div>
+
+        <div class="fill-div"></div>
+    </div>
+    <!-- left side end -->
+
+    <!-- middle side start -->
+    <div class="account-middle-container floating-element">
+        <div class="middle-wrapper-heading">
+            <p>My Profile</p>
+        </div>
+
+        <div class="account-middle-left-wrapper inline-element">
+            <div class="avatar-wrapper">
+
+                <div class="image-wrapper">
+                    <div class="gray-border"></div>
+                    <div class="loyalty-level-circle">3</div>
+                    <div class="circle-points-wrapper" data-anim="base wrapper">
+
+                        <div class="loyalty-points-circle" data-anim="base left"></div>
+                        <div class="loyalty-points-circle" data-anim="base right"></div>
+
+                    </div>
+                    <img src="img/avatar.jpg" alt="avatar">
+                </div>
+            </div>
+            <div class="username-heading">
+                <p class="username">John Doe</p>
+            </div>
+            <div class="button-wrapper">
+                <button class="change-avatar">Change Avatar</button>
+                <button class="file-upload">
+                    <input type="file" class="file-input">Upload Image
+                </button>
+            </div>
+            <table class="balance-table">
+                <tr class="total-balance">
+                    <td>Total Balance</td>
+                    <td>$ 601.50</td>
+                </tr>
+                <tr class="total-bonus">
+                    <td>Total Bonus Money </td>
+                    <td>$ 325.80</td>
+                </tr>
+                <tr class="withdraw-funds">
+                    <td>Withdrawable Funds </td>
+                    <td>$ 927.30</td>
+                </tr>
+            </table>
+            <div class="loyalty-wrapper">
+                <div class="loyalty-heading">
+
+                    <h4>
+                        <span class="icon-VIP"></span>
+                        Loyalty Points
+                    </h4>
+                </div>
+                <div class="loyalty-level">
+                    <p class="inline-element">Your Level Now</p>
+                    <p class="current-level inline-element">LEVEL 3</p>
+                    <div class="level-progress-bar">
+                        <span class="progress-level level-1 floating-element"></span>
+                        <span class="progress-level level-2 floating-element"></span>
+                        <span class="progress-level level-3 floating-element"></span>
+                        <span class="progress-level level-4 floating-element"></span>
+                        <span class="progress-level level-5 floating-element"></span>
+                    </div>
+                </div>
+            </div>
+        </div> <!--end middle-left-->
+
+        <!-- MIDDLE MIDDLE -->
+        <div class="account-middle-middle-wrapper inline-element">
+            <div class="account-middle-navigation">
+                <ul class="acc-middle-top-menu">
+                    <li class="floating-element"><a href="new_account_my_details.html">My Details</a></li>
+                    <li class="floating-element  "><a href="new_account_documents.html">Documents</a></li>
+                    <li class="floating-element active"><a href="new_account_self_limits.html">Self Limits</a></li>
+                    <li class="floating-element"><a href="#">Settings</a></li>
+                    <li class="floating-element"><a href="#">Security</a></li>
+                </ul>
+            </div>
+            <div class="my-account-changing-content" ng-view>
+                <div class="self-limits-wrapper">
+                    <ul class="self-limits-navigation">
+                        <li class="floating-element"><a href="new_account_self_limits.html">My Limits</a></li>
+                        <li class="floating-element"><a href="new_account_self_limits_self_exclusion.html">Self Exclusion</a></li>
+                        <li class="floating-element active"><a href="new_account_self_limits_account_closure.html">Account Closure</a></li>
+                        <li class="floating-element"><a href="new_account_self_limits_session_limit.html">Session Limit</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="self-limits-form account-closure">
+                        <div class="account-closure-form-content">
+                            <h5>Account Closure</h5>
+                            <p>If you want to stop playing with us, you may do so by closing your account.</p>
+                            <p>
+                                Please contact our <a href="#">Live Chat</a> to clarify your situation.
+                                Once you have closed your account, you will not be able to reopen it again.
+                                The remaining balance you may have will be returned to you after.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- middle side end -->
+</div>
+
+
+
+
+
+
+</body>
+</html>

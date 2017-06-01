@@ -1,0 +1,18 @@
+<div class="live-services-wrap">
+    <div class="live-services" ng-controller="euro2016DashboardMainController">
+        <h2 class="live-services-heading">Live Services</h2>
+        <ul class="live-services-nav" ng-init="liveNowVisible = true">
+            <li class="floating-element {{liveNowVisible ? 'active' : ''}}" ng-click="liveNowVisible = true">
+                <a>Live Now</a>
+            </li>
+            <li class="floating-element {{!liveNowVisible ? 'active' : ''}}" ng-click="liveNowVisible = false;">
+                <a>Upcoming</a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+        <div class="live-events-column-v3 live-services" ng-show="liveNowVisible" ng-controller="euro2016DashboardCenterController">
+            <include-template template-path="templates/sport/euro2016/center/live-services-live-now.html" ng-if="liveNowVisible"></include-template>
+        </div>
+        <game-widget sport-tabs-quantity="15" game-widget-type="'upcoming'" game-widget-title="'Upcoming games'" template-path="templates/sport/euro2016/center/live-services-upcoming-games.html" ng-if="!liveNowVisible"></game-widget>
+    </div>
+</div>

@@ -42,7 +42,6 @@ var defaultOptions_simple = {
   startAt: 0,
   activatePageOn: 'click',
   speed: 500,
-  moveBy: 0,
   elasticBounds: 1,
   dragHandle: 0,
   dynamicHandle: 1,
@@ -118,7 +117,9 @@ VBET5.directive('slyHorizontalRepeat', [
 ]);
 
 
-VBET5.directive('slyHorizontalRepeatSimple', function($timeout,$window) {
+VBET5.directive('slyHorizontalRepeatSimple', [
+  '$timeout',
+  function($timeout,$window) { 
     return {
         restrict: 'A',
         link: function(scope, el, attrs) {
@@ -150,30 +151,27 @@ VBET5.directive('slyHorizontalRepeatSimple', function($timeout,$window) {
                         frame.sly("reload");
                     });
 
-                    scope.$watch(
-                        function () {
-                            return scope.value;
-                        },
-                        function (newValue, oldValue) {
-                            if (!angular.equals(oldValue, newValue)) {
-                              frame.sly("reload");
-                            }
-                        },
-                    true);
+                    var watcher = scope.$watch(
 
-                    /*angular.element($window).bind("scroll", function () {
-                      // detect if scroll has stop and reload sly 
-                      clearTimeout( $.data( this, "scrollCheck" ) );
-                      $.data( this, "scrollCheck", setTimeout(function() {
-                          console.log("Stopped");
-                          frame.sly("reload");
-                      }, 250) );   
-                    });*/
+                      function () {
+                         return scope.value;
+                      },
+
+                      function (newValue, oldValue) {
+                         if (!angular.equals(oldValue, newValue)) {
+                              $timeout(function() { 
+                                  frame.sly("reload");                              
+                                  watcher();
+                                  console.log('aaa');
+                              }, 300)
+                         }
+
+                    }  ,true);
 
                     // Call Sly on frame
                     frame.sly(options, callback());
                 });
             }
         }
-    }
-});
+  }
+}]);

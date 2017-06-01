@@ -1,36 +1,19 @@
 ﻿<!--Wrapper-->
 <div ng-show="!gamesInfo.length" class="full-casino-wrapper-jf">
-    <div class="casino-view-container-jf"  ng-class="{'disable-carousels': carouselDisable}">
 
-        <!--Slider view-->
-        <div class="casino-top-container-jf">
-            <div class="slider-casino-container-jf">
-                <div ng-controller="cmsPagesCtrl" ng-init="getCasinoBanners();" class="slide-view-contain-jf">
-                    <vbet-big-slider class="mini-wrapper-slider-img" ng-if="casinoTopBanners" images="casinoTopBanners" link-click-handler="openCBannerLink" slider-template="cConf.newCasinoDesignEnabled">
-
-                    </vbet-big-slider>
-                </div>
-
-                <div class="slider-control-box-jf">
-                    <span class="active"></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-
-
-            <div ng-init="loadPopularGameBanner('banner-most-popular-game-' + env.lang)" class="right-img-contain" >
-                <div class="slide-view-contain-jf">
-                    <div class="mini-wrapper-slider-img" style="background-image: url({{mostPopularGame.imageurl}});">
-                        <a ng-href="{{mostPopularGame.link}}" ng-click="routeReload()"></a>
-                    </div>
-                </div>
+    <!--Slider view-->
+    <div class="casino-top-container-jf">
+        <div class="slider-casino-container-jf">
+            <div ng-controller="cmsPagesCtrl" ng-init="getCasinoBanners();" class="slide-view-contain-jf">
+                <vbet-big-slider class="mini-wrapper-slider-img" ng-if="casinoTopBanners" images="casinoTopBanners" link-click-handler="openCBannerLink" slider-template="cConf.newCasinoDesignEnabled">
+                </vbet-big-slider>
             </div>
         </div>
-        <!--Slider END-->
+    </div>
+    <!--Slider END-->
+
+    <div class="casino-view-container-jf"  ng-class="{'disable-carousels': carouselDisable}">
+
 
         <!--Casino nav view-->
         <div class="casino-nav-wrapper-jf">
@@ -41,20 +24,14 @@
                             ng-class="{'active': selections.category.id === category.id}"
                             ng-click="selectCategory(category)">
                             <a>
-                                <span class="menu-icon-g icon-{{category.title}}-casino"></span>
                                 <p>{{ category.title | translate : null : 'Casino ' + category.title }}</p>
                             </a>
                         </li>
+                        <li class="search-contain-jf" ng-class="{'search-enabled': searchEnabled}">
+                            <div ng-include="getTemplate('optional_modules/casino/templates/version_2/search.html')"></div>
+                        </li>
                     </ul>
-                </div>
-
-                <div class="search-contain-jf">
-                    <div class="mini-search-box-jf">
-                        <span class="icon-search-jf"></span>
-                        <input type="text" placeholder="Search a casino game">
-                        <p>Search</p>
-                    </div>
-                </div>
+                </div>             
             </div>
         </div>
         <!--Casino nav view END-->
@@ -70,7 +47,8 @@
                            show-conditions="true"
                            games-list="games"
                            game-show-conditions="true"
-                           my-games="myGames">
+                           my-games="myGames"
+                           games-count="gamesCount">
         </casino-games-list>
         <vbet-loader ng-show="loadingProcess"></vbet-loader>
         <div ng-show="false" class="more-casino-games-load-b"><p load-more id="loadMoreGames" ng-click="loadMoreGames(); setTargetElementFixed('casinoCategories')"><span trans>Load more</span></p></div>
@@ -78,7 +56,6 @@
 
 
         <!--Game list view END-->
-
 
 
     </div>

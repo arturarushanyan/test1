@@ -15,6 +15,7 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
             selectedCategory: '=',
             showDeleteBtn: '=',
             useBigIcons: '=',
+            gamesCount: '=',
             templateUrl: '@'
         },
         link: function(scope) {
@@ -63,7 +64,7 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
             scope.windowWidth = window.innerWidth;
 
             scope.calculateGameWidth = function () {    
-                return Math.floor(( window.innerWidth - 22 ) / Math.floor(( window.innerWidth - 22 ) / 232 )) - 6;
+                return Math.floor(( window.innerWidth - 42 ) / Math.floor(( window.innerWidth - 42 ) / 232 )) - 6;
             } 
 
             window.onresize = function () {

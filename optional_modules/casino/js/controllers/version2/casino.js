@@ -80,6 +80,8 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
         title: 'All Providers'
     };
 
+    $scope.gamesCount = [];
+
     var favouriteGamesWatcherPromise;
 
     function init(){
@@ -147,10 +149,13 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
 
         $scope.disableCarouselOnAllCategories($scope.selections.category);
         resetGamesOptions();
-        $scope.getGames(category);
+
+        $scope.getGames();
 
         findAndOpenGame(searchParams);
     }
+
+    $scope.slotGamesLoadOnScroll = true;
 
     $scope.getGames = function getGames(category) {
         favouriteGamesWatcherPromise && favouriteGamesWatcherPromise();
@@ -193,31 +198,32 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
         } 
 
         // If carousel next button doesnt works , and selected category has not carousels games
-        if (category == undefined && ( $scope.selections.category.id === SPECIALS_CATEGORY.id || $scope.selections.category.id === ALL_GAMES_CATEGORY.id || $scope.selections.category.id === SLOTS.id || $scope.selections.category.id === FAVOURITE_CATEGORY.id)) {
+        if ($scope.slotGamesLoadOnScroll && category == undefined && ( $scope.selections.category.id === SPECIALS_CATEGORY.id || $scope.selections.category.id === ALL_GAMES_CATEGORY.id || $scope.selections.category.id === SLOTS.id || $scope.selections.category.id === FAVOURITE_CATEGORY.id)) {
+            if ( $scope.selections.category.id === SLOTS.id) {
+                $scope.slotGamesLoadOnScroll = false;
+            }
             for (var i = 0, length = categoryToLoad.length; i < length; i += 1) {
                 casinoData.getGames(categoryToLoad[i], $scope.selections.providerName, $scope.limits.from, $scope.limits.to).then(function (response) {
-                if (response && response.data && response.data.status !== -1) {
-                    Array.prototype.push.apply($scope.games, response.data.games);
-                    $scope.limits.max = parseInt(response.data.total_count);
+                    if (response && response.data && response.data.status !== -1) {
+                        Array.prototype.push.apply($scope.games, response.data.games);
+                        $scope.limits.max = parseInt(response.data.total_count);
+                        $scope.gamesCount.push($scope.limits.max);
                     }
                 })
             }
         }  
-        else { 
+        else {
             casinoData.getGames(categoryToLoad, $scope.selections.providerName, $scope.limits.from, $scope.limits.to).then(function (response) {
                 if (response && response.data && response.data.status !== -1) {
                     Array.prototype.push.apply($scope.games, response.data.games);
                 //  $scope.games = $filter('orderBy')($scope.games, 'title');
                     $scope.limits.max = parseInt(response.data.total_count);
                 }
-            })['finally'](function () {
+
                 $scope.loadingProcess = false;
             })
-        }
-
-      
-
-    };
+        }   
+    }
 
     // If selected category is NOT 'all' , then disable carousels and expaned games
     $scope.disableCarouselOnAllCategories = function disableCarouselOnAllCategories(category) {
@@ -239,6 +245,7 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
             $scope.favoriteCategory = false;
         }
 
+        $scope.slotGamesLoadOnScroll = true;
         $scope.$broadcast('ifFavoriteCategoryEnable', $scope.favoriteCategory);
     
         $scope.disableCarouselOnAllCategories(category);
@@ -280,6 +287,8 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
     function resetGamesOptions () {
         $scope.myGames = [];
         $scope.games = [];
+        $scope.gamesCount = [];
+
         $scope.limits = {
             from: 0,
             to: $scope.wideMode ? CConfig.main.increaseByWide : CConfig.main.increaseBy,
@@ -459,12 +468,12 @@ CASINO.controller('casinoVersion2Ctrl', ['$rootScope', '$scope', '$sce', '$locat
      * @description  Increases number of recent games to show
      */
     $scope.loadMoreGames = function loadMoreGames(category) {
-        if (category !== undefined) {
-            if ($scope.limits && $scope.limits.to < $scope.limits.max) {
+        if (category) {
+           // if ($scope.limits && $scope.limits.to < $scope.limits.max) {
                 $scope.limits.from = $scope.limits.to;
-                $scope.limits.to += 2 ;
+                $scope.limits.to += $scope.wideMode ? CConfig.main.increaseByWide : CConfig.main.increaseBy;;
                 $scope.getGames(category);
-            }
+           // }
         }
         else {
             if (($scope.selections.category.id != 'all') && ($scope.selections.category.id != '-1') && ($scope.selections.category.id != '-2') && $scope.limits && $scope.limits.to < $scope.limits.max) {

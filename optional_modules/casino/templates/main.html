@@ -4,6 +4,7 @@
      ng-class="{'casino-mainpage-wrapper-b': cConf.newCasinoDesignEnabled}">
 <!--Casino-our hompage-->
     <div ng-include="getTemplate('optional_modules/casino/templates/casino-our-template.html')" ng-if="cConf.newCasinoDesignEnabled"></div>
+
 <!--Casino-new hompage-->
    <div ng-include="getTemplate('optional_modules/casino/templates/casino-new-template.html')" ng-if="!cConf.newCasinoDesignEnabled"></div>
 <!--Casino old homepage-->

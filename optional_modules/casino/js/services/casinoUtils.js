@@ -227,7 +227,7 @@ CASINO.service('casinoUtils', ['$rootScope', '$window', '$sce', '$location', 'St
      * @methodOf vbet5.controller:mainHeaderCtrl
      * @description  go to fullscreen mode
      */
-    $scope.goFullscreen = function goFullscreen() {
+    casinoUtils.goFullscreen = function goFullscreen() {
         if (!document.fullscreenElement &&    // alternative standard method
             !document.mozFullScreenElement && !document.webkitFullscreenElement) {  // current working methods
             if (document.documentElement.requestFullscreen) {

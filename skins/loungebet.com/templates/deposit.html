@@ -1,0 +1,124 @@
+<div ng-controller="mixedBalanceCtrl">
+    <form name="PAYINBANK_FORM" id="PAYINBANK_FORM">
+        <div class="form-sign-in">
+            <div class="text-payment-contain">
+                <p>Por favor preencha os dados abaixo para que possamos identificar seus dados pessoais e a origem de sua transferencia. Dessa forma poderemos acelerar o credito em sua conta. As transferencias deverão ser procedentes de uma conta bancária de mesma titularidade de sua conta de jogo.</p>
+             </div>
+        </div>
+        <div class="form-sign-in">
+
+            <div class="all-inputs-container">
+                <ul ng-show="step === 1">
+                    <li ng-show="resultError"><p  ng-bind="resultError"></p></li>
+                    <li>
+                        <label>Nome:</label>
+                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_NAME.$dirty && PAYINBANK_FORM.PAYINBANK_NAME.$invalid}">
+                            <input class="Text" type="text" name="PAYINBANK_NAME" value="" ng-model="paymentData.PAYINBANK_NAME" prevent-input="[0-9\-\_\\\*\^\%\&\(\)\#\@\.\:\\\+\/\=\!\?\;]+" required="required">
+                            <div class="form-error-icon"></div>
+                            <div class="form-error-text">
+                                <div class="error-icon-f"></div>
+                                <p trans>This field is required</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label>Nome de usuário:</label>
+                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_USERNAME.$dirty && PAYINBANK_FORM.PAYINBANK_USERNAME.$invalid}">
+                            <input class="Text" type="text" name="PAYINBANK_USERNAME"  disabled="disabled" ng-model="paymentData.PAYINBANK_USERNAME" required="required">
+                            <div class="form-error-icon"></div>
+                            <div class="form-error-text">
+                                <div class="error-icon-f"></div>
+                                <p trans>This field is required</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label>Data de nascimento:</label>
+                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_DATA.$dirty && PAYINBANK_FORM.PAYINBANK_DATA.$invalid}">
+                            <input class="Text" type="text" name="PAYINBANK_DATA" disabled="disabled" ng-model="paymentData.PAYINBANK_DATA" required="required">
+                            <div class="form-error-icon"></div>
+                            <div class="form-error-text">
+                                <div class="error-icon-f"></div>
+                                <p trans>This field is required</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label>E-mail:</label>
+                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_EMAIL.$dirty && PAYINBANK_FORM.PAYINBANK_EMAIL.$invalid}">
+                            <input class="Text" type="text" name="PAYINBANK_EMAIL" value="" ng-disabled="paymentData.PAYINBANK_EMAIL == profile.email" ng-model="paymentData.PAYINBANK_EMAIL" required="required" ng-pattern="/^[\w!.%+\-]+@[\w\-]+(?:\.[\w\-]+)+$/">
+                            <div class="form-error-icon"></div>
+                            <div class="form-error-text">
+                                <div class="error-icon-f"></div>
+                                <p trans>Please enter a valid email address</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label>CPF:</label>
+                        <div class="form-text section-4" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF1.$dirty && PAYINBANK_FORM.PAYINBANK_CPF1.$invalid}">
+                            <input class="first-s" type="text" name="PAYINBANK_CPF1" id="PAYINBANK_CPF1" value="" prevent-input="[^0-9]+" maxlength="3" ng-disabled="paymentData.PAYINBANK_CPF1 === userDocNumber[0]" ng-model="paymentData.PAYINBANK_CPF1" required="required">
+                            <div class="form-error-icon"></div>
+                            <div class="form-error-text">
+                                <div class="error-icon-f"></div>
+                                <p trans>This field is required</p>
+                            </div>
+                        </div>
+
+                        <div class="form-text section-4" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF2.$dirty && PAYINBANK_FORM.PAYINBANK_CPF2.$invalid}">
+                            <span class="marker-b">.</span> <input type="text" name="PAYINBANK_CPF2" id="PAYINBANK_CPF2" value="" prevent-input="[^0-9]+" maxlength="3" ng-disabled="paymentData.PAYINBANK_CPF2 === userDocNumber[1]" ng-model="paymentData.PAYINBANK_CPF2" required="required">
+                            <div class="form-error-icon"></div>
+                            <div class="form-error-text">
+                                <div class="error-icon-f"></div>
+                                <p trans>This field is required</p>
+                            </div>
+                        </div>
+
+                        <div class="form-text section-4" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF3.$dirty && PAYINBANK_FORM.PAYINBANK_CPF3.$invalid}">
+                            <span class="marker-b">.</span> <input type="text" name="PAYINBANK_CPF3" id="PAYINBANK_CPF3" value="" prevent-input="[^0-9]+" maxlength="3" ng-disabled="paymentData.PAYINBANK_CPF3 === userDocNumber[2]" ng-model="paymentData.PAYINBANK_CPF3" required="required">
+                            <div class="form-error-icon"></div>
+                            <div class="form-error-text">
+                                <div class="error-icon-f"></div>
+                                <p trans>This field is required</p>
+                            </div>
+                        </div>
+
+                        <div class="form-text section-4" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_CPF4.$dirty && PAYINBANK_FORM.PAYINBANK_CPF4.$invalid}">
+                            <span class="marker-b">-</span> <input type="text"  name="PAYINBANK_CPF4" id="PAYINBANK_CPF4" value="" prevent-input="[^0-9]+" maxlength="2" ng-disabled="paymentData.PAYINBANK_CPF4 === userDocNumber[3]" ng-model="paymentData.PAYINBANK_CPF4" required="required">
+                            <div class="form-error-icon"></div>
+                            <div class="form-error-text">
+                                <div class="error-icon-f"></div>
+                                <p trans>This field is required</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label>Valor: {{paymentData.PAYINBANK_SUM}}</label>
+                        <div class="form-text" ng-class="{'error': PAYINBANK_FORM.PAYINBANK_SUM.$dirty && PAYINBANK_FORM.PAYINBANK_SUM.$invalid}">
+                            <input class="last-i-form" type="text" name="PAYINBANK_SUM" onchange="this.value = amountwrite(this.value);" onkeyup="this.value = amountwrite(this.value);" placeholder="00.000,00" id="PAYINBANK_SUM" value="" prevent-input="[^0-9]+"  required="required" ng-model="paymentData.PAYINBANK_SUM" ng-change="paymentData.PAYINBANK_SUM = amountwrite(paymentData.PAYINBANK_SUM)">
+                            <div class="form-error-icon"></div>
+                            <div class="form-error-text">
+                                <div class="error-icon-f"></div>
+                                <p trans>This field is required</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><input class="send-b-new" type="submit" value="Send" name="PAYINBANK_SUBMIT" id="PAYINBANK_SUBMIT" ng-disabled="PAYINBANK_FORM.$invalid" ng-click="step = 2"></li>
+                </ul>
+                <ul ng-show="step === 2" class="step-2-image">
+                    <li class="second-bl"  ng-click="deposit('Santander')"></li>
+                    <li class="last-bl"  ng-click="deposit('Caixa Econômica Federal')"></li>
+                    <li class="bradesco-bl"  ng-click="deposit('Bradesco')"></li>
+                    <li class="itau-bl"  ng-click="deposit('Itau')"></li>
+                </ul>
+                <div ng-show="step === 3">
+                    <div ng-show="!resultError">
+                        <p>Agradecemos sua solicitação de deposito. Conferimos os depósitos em nossa conta diariamente. Um e-mail foi enviado para você com instruções de depósito.</p>
+                        <p ng-show="resultMessage" ng-bind-html="resultMessage|html"></p>
+                    </div>
+                    <p ng-show="resultError" ng-bind="resultError"></p>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

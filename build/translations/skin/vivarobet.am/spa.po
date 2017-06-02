@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+msgid "poker_download_description_windows"
+msgstr "<ol><li>A window will appear. Press Run.</li><li>Once downloading has finished, you may be asked to verify the publisher.</li><li>Press "Run" again.</li><li>At the next window, to install the software click Next.</li><li>Once the installation is finished, you can find our Vivaro Poker icon on your desktop.</li><li>Double-click the icon to start the Vivaro cardroom.</li></ol>"
+
+#
+msgid "Previous version"
+msgstr "Old Vivaro"
+
+#
+msgid "Poker Leaderboard"
+msgstr "Casino Points"
+
+#
+msgid "Points left"
+msgstr "Points left"
+
+#
+msgid "Use Points"
+msgstr "Use Points"
+
+#
+msgid "Play games"
+msgstr "Play games"
+
+#
+msgid "To win iphone 6"
+msgstr "To win iphone 6"
+
+#
+msgid "Use points to win"
+msgstr "Use points to win"

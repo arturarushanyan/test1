@@ -1,0 +1,48 @@
+<!-- active game template -->
+<div class="live-game-container" ng-show="openGame.type == 1">
+    <div class="game-content">
+        <div class="game-info"
+             ng-show="!openGameLoading">
+<!--            <div class="game-detailed-stats"  ng-if="openGame.live_events">
+                <span class="icon-stat-details"></span>
+
+                <div class="hover-sp"
+                     ng-class="{'to-right': openGame.info.currMinute>60, 'to-center': (openGame.info.currMinute >30 && openGame.info.currMinute <= 60)}">
+                    <div class="football-gamer-name"
+                         ng-repeat="gameEvent in openGame.live_events|orderBy:'add_info_order':true">
+                        <div ng-class="gameEvent.event_type+'-icon'" class="{{gameEvent.event_icon}}"></div>
+                                            <span ng-class="gameEvent.team">
+                                                <tshirt shirt="{{ openGame.info['shirt'+ gameEvent.team.slice(-1) + '_color'] }}"
+                                                        shorts="{{ openGame.info['short'+ gameEvent.team.slice(-1) + '_color'] }}"></tshirt>
+                                            </span>
+
+                        <p>{{gameEvent.event_type.replace('_', ' ')|capitalise|translate}} {{
+                            gameEvent.add_info }} {{openGame[gameEvent.team + '_name']}}</p>
+                    </div>
+                </div>
+            </div>
+-->
+            <div class="sport-title {{openGame.sport.alias}}"
+                 ng-click="broadcast('liveGame.headerClicked', openGame);$event.stopPropagation();"
+                 >
+                <b class="mini-icon-1 mini-icon-{{openGame.sport.id}} {{openGame.sport.alias}}"
+                   title="{{openGame.sport.alias}}"></b>
+                                <span class="ellipsis-text" title="{{openGame.competition.name}}">
+                                    <b ng-show="conf.showGameIds">{{openGame.game_number}}</b> {{openGame.competition.name}}
+                                </span>
+                <span ng-if="openGame.sport.alias === 'HorseRacing'"
+                      title="{{ openGame.team2_name ?  openGame.team2_name: '' }}">{{ openGame.team2_name ?  openGame.team2_name: '' }}&nbsp;&nbsp;&nbsp; {{ openGame.start_ts| formatDate: "LT"}}</span>
+                <a ng-show="conf.enableH2HStat && openGame.is_stat_available"
+                   ng-click="openStatistics(openGame);$event.stopPropagation();"
+                   class="statistics-h2h live-pin-stats"></a>
+<!--                <div class="favorite-icon-2 live-pin-fav" ng-show="!env.preMatchMultiSelection || outrightSelected" ng-class="{'active': myGames.indexOf(game) === -1}" ng-click="toggleGameFavorite(game); $event.stopPropagation()"></div> -->
+
+            </div>
+            <ng-include src="getTemplate('templates/sport/livescore_multiview.html')" ></ng-include>
+            <ng-include src="getTemplate('templates/sport/livescore.html')" ng-if="!$root.multiViewLiveOpenedGames" ></ng-include>
+<!--            <ng-include
+                    src="getTemplate('templates/sport/livegamestatistics.html')"></ng-include>
+-->
+        </div>
+    </div>
+</div>

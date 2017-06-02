@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#
+msgid "Games"
+msgstr "ნარდი"
+
+# 
+msgid "Casino"
+msgstr "თამაშები"
+
+# 
+msgid "Search a casino game..."
+msgstr "თამაშის ძიება"
+
+# 
+msgid "play now"
+msgstr "play"
+
+# 
+msgid "CardsLast4digits"
+msgstr "ბარათის ბოლო 4 ციფრი"
+
+
+# 
+msgid "IdentificationNumber"
+msgstr "პირადი ნომერი"
+
+# 
+msgid "CardNumber"
+msgstr "ბარათის ნომერი"
+
+
+# 
+msgid "purse"
+msgstr "საფულე"
+
+# 
+msgid "name"
+msgstr "სახელი და გვარი"
+
+# 
+msgid "privateID"
+msgstr "პირადი ნომერი"
+
+
+# 
+msgid "sport news"
+msgstr "სიახლე"
+
+#
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "დრო რომელიც გამოსახულია LIVE ფსონებზე, მხოლოდ ინფორმაციულ ხასიათს ატარებს. კომპანია არ არის პასუხისმგებელი ისეთი ინფორმაციის სიზუსტეზე და აქტუალურობაზე. როგორიცაა ანგარიში და მატჩის დრო."
+
+
+# 
+msgid "On Hold"
+msgstr "დაყოვნებული"
+
+# 
+msgid "YOUR BET HAS BEEN DECLINED"
+msgstr "თქვენი ფსონი არ დაიდო"
+
+# 
+msgid "YOUR BET HAS BEEN APPROVED"
+msgstr "ფსონი წარმატებით განხორციელდა"
+
+# 
+msgid "DECLINED BET"
+msgstr "უარყოფილი ფსონი"
+
+# 
+msgid "APPROVED BET"
+msgstr "მიღებული ფსონი"

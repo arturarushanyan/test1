@@ -1,0 +1,25 @@
+<div class="table-status" ng-init="loadWithdrawStatuses()">
+    <table ng-show="withdrawListLoaded">
+        <tr>
+            <th><p trans>Payment Method</p></th>
+            <th><p trans>Date</p></th>
+            <th><p trans>Time</p></th>
+            <th><p trans>Amount</p></th>
+            <th><p>ID</p></th>
+            <th><p trans>Status</p></th>
+        </tr>
+        <tr ng-repeat="withdraw in withdrawHistory">
+            <td><div class="icon-deposit-logo" ng-class="withdraw.name"><a>{{paymentSystem.name}}</a></div></td>
+            <td><p>{{withdraw.date|formatDate:'ll'}}</p></td>
+            <td><p>{{withdraw.date|formatDate:'h:mm a'}}</p></td>
+            <td><p>{{withdraw.amount}}</p></td>
+            <td><p>{{withdraw.id}}</p></td>
+			<td ng-class="'status_' + withdraw.status"><p>{{withdrawStatus[withdraw.status]|translate}}</p>
+				<div class="cancel-btn"><button  ng-mousedown="cancelWithdrawRequest()" ng-disabled="cancelButton.disabled" trans>Cancel</button></div></td>
+        </tr>
+        <tr ng-show="withdrawHistory.length === 0">
+            <td colspan="6" trans>No Withdrawal Information</td>
+        </tr>
+    </table>
+	<vbet-loader ng-show="!withdrawListLoaded"></vbet-loader>
+</div>

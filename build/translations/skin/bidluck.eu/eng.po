@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+# 
+msgid "poker_requirements_windows"
+msgstr "Minimum system requirements:<br>Windows XP / Vista / Windows 7<br>Pentium 4 with 3 GHz (or compatible CPU)<br>1 GB system RAM<br>Broadband Internet connection<br>"
+
+# 
+msgid "poker_download_description_windows"
+msgstr "<ol><li>A window will appear. Press Run.</li><li>Once downloading has finished, you may be asked to verify the publisher.</li><li>Press \"Run\" again.</li><li>At the next window, to install the software click Next.</li><li>Once the installation is finished, you can find our Bidluck Poker icon on your desktop.</li><li>Double-click the icon to start the Bidluck cardroom.</li></ol>"

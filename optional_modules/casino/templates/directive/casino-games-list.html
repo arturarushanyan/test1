@@ -1,0 +1,27 @@
+
+    <div class="casino-games-list-view-jf open-view-list">
+        <div class="slider-casino-container-jf">
+            <div class="winner-list-box-j">
+                <ul ng-show="showConditions" ng-if="isNewDesignEnabled">
+                    <li ng-repeat="game in gamesList | limitTo: gamesLimit track by game.id" ng-show="gameShowConditions"  no-animate>
+                        <div class="game-screen-view-jf" ng-style="{'background-image': 'url({{useBigIcons ? game.icon_3 : game.icon_2}})'}">
+                            <label class="game-view-m-b" for="play-game-v"></label>
+                            <div class="favorite-icon-jf" ng-click="toggleSaveToMyCasinoGames(game); $event.stopPropagation();" ng-class="{'active': isFromSaved(game.id)}">
+                                <span></span>
+                            </div>
+                            <a ng-click="openGame(game, 'real'); $event.stopPropagation();">
+                                <span class="category-icon-view-jf {{game.name}}"></span>
+                                <p>{{game.name}}</p>
+                                <!--<span class="star-icon-jf"><i>2.5</i></span> -->
+                                <button ng-show="$root.env.authorized"class="play-icon-jackpot-j play-game" ng-click="openGame(game, 'real'); $event.stopPropagation();" ng-if="game.types.realMode"></button>
+                                <button ng-show="!$root.env.authorized" class="play-icon-jackpot-j play-game" ng-if="game.types.funMode && cConf.funModeEnabled" ng-click="openGame(game, 'fun'); $event.stopPropagation();"></button>
+                                <button ng-show="!$root.env.authorized" class="play-icon-jackpot-j play-game" ng-if="game.types.viewMode && !$root.env.authorized" ng-click="openGame(game, 'fun'); $event.stopPropagation();"></button>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="left-arrow-winners"></div>
+                <div class="right-arrow-winners" ng-click="slideJackpotGames('next')"></div>
+            </div>
+        </div>
+    </div>

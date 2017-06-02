@@ -1,0 +1,83 @@
+<div class="gameing-wrapper"  no-animate ng-controller="classicViewMainCtrl"
+     ng-class="{'live': env.live, 'prematch': !env.live, 'no-betslip': (conf.customSportsBook.enabled && !conf.customSportsBook.classic.showBetSlip)}"
+     ng-init="initRouteParams();setTitle('Sport')">
+    <div class="contain-gameing" ng-class="{'multiview-enabled': env.preMatchMultiSelection,'outright-selected': outrightSelected, 'alternative-games-layout' : conf.alternativeClassicGamesLayout, 'video-resize-block' : $root.videoResizeButton}">
+
+        <!-- Pinned  games-->
+        <ng-include ng-if="conf.videoEnabled && pinnedGameType === 'dragable'" src="getTemplate('templates/sport/classic/pinnedvideo.html')"></ng-include>
+        <!-- ! Pinned games  -->
+        <!-- System Calculator-->
+        <div id="system-claculator-container" ng-if="$root.showSystemCalculator" draggable allow-other-mouse-events drag-from="calculator-draggable-header">
+            <ng-include src="getTemplate('templates/sport/classic/systemCalculator.html')"></ng-include>
+        </div>
+        <!-- System Calculator-->
+        <!--left-menu-->
+        <div ng-class="{'mini':leftMenuClosed}" class="left-menu-wrapper-j" no-animate>
+            <ng-include src="getTemplate('templates/sport/classic/leftmenu/main.html')"></ng-include>
+        </div>
+        <!--left-menu END-->
+
+        <!--centr-market-->
+        <div class="centr-market-contain virtual-games" no-animate ng-if="virtualSportsSelected && conf.customSportsBook.classic.showMarkets" ng-class="{'mini-left-menu': leftMenuClosed}">
+            <!--<div class="team-name-market"><ul><li><span trans>Virtual sports</span></li></ul></div>-->
+            <div  ng-include="getTemplate('templates/sport/virtualsports.html')"></div>
+        </div>
+
+        <div class="centr-market-contain" ng-class="{'favorite-game-open': favoriteGameIsSelected && favoriteGameFromLeftMenu, 'premathch-in-live': (env.live && openGame.type == 0)}" ng-show="!virtualSportsSelected" ng-if="conf.customSportsBook.classic.showMarkets" ng-include="getTemplate('templates/sport/classic/center.html')">
+        </div>
+
+
+        <!--centr-market END-->
+
+        <!--betslip-contain-->
+        <div class="right-betslip-contain"
+             ng-show="conf.customSportsBook.classic.showBetSlip"
+             ng-class="{'video-and-animation': hideVideoAndAnimationBox && (openGame.has_animation || (openGame.video_id && conf.videoEnabled)), 'video-and-animation-opened': !hideVideoAndAnimationBox && (openGame.has_animation || openGame.video_id) && !isVideoDetached}">
+            <ng-include class="include-viewSwitcher-j" src="getTemplate('templates/sport/viewswitcher.html')"></ng-include>
+            <div class="scroll-contain" ng-class="{'animated-block': openGame.has_animation || (openGame.video_id && conf.videoEnabled && !isVideoDetached)}">
+
+                <!-- Animation control start -->
+                <div class="block-size-visible-b" ng-if="!conf.animationAndVideoOnLeft && (env.live || !virtualSportsSelected) && (((openGame.video_id || openGame.video_data) && conf.videoEnabled && !pinnedGames[openGame.id] && !enlargedGame) || openGame.has_animation)">
+                    <div class="animation-control" ng-include="getTemplate('templates/sport/classic/animation_video.html')"></div>
+                </div>
+
+                <!-- Animation control end -->
+                <div class="betslip-toggle" ng-click="betslipOpen=!betslipOpen" ng-class="{'betslip-button-open':betslipOpen }"><p>BetSlip</p><span class="betslip-bets-count" ng-bind="$root.betSlipBetsCount"></span></div>
+                <div class="list-bet-block" ng-if="$location.path() !== '/poolbetting/'" ng-include="getTemplate('templates/sport/betslip.html')"></div>
+                <!--<div class="exchange-offers-j">
+                    <h5 trans><div class="ellipsis-text">Exchange offers</div></h5>
+                    <div class="exchange-offer-block-j">
+                        <p trans>6 Jun, 01:00 GMT +4</p>
+                        <p class="title-j" trans>Sevilla longname - Napoli evenlonger</p>
+                        <div class="eo-league-info-j"><i class="Soccer"></i><span>Europa</span><span>Europa League</span></div>
+                        <ul>
+                            <li><div class="ellipsis-text">Total goals over (2.5)</div></li>
+                            <li class="back-j">3.15</li>
+                            <li><div class="ellipsis-text">10.000 C</div></li>
+                        </ul>
+                        <ul>
+                            <li><div class="ellipsis-text">Total goals over (2.5)</div></li>
+                            <li class="lay-j">3.15</li>
+                            <li><div class="ellipsis-text">10.000 C</div></li>
+                        </ul>
+                    </div>
+                    <div class="exchange-offer-block-j">
+                        <p trans>6 Jun, 01:00 GMT +4</p>
+                        <p class="title-j" trans>Sevilla longname - Napoli evenlonger</p>
+                        <div class="eo-league-info-j"><i class="Soccer"></i><span>Europa</span><span>Europa League</span></div>
+                        <ul>
+                            <li><div class="ellipsis-text">Total goals over (2.5)</div></li>
+                            <li class="back-j">3.15</li>
+                            <li><div class="ellipsis-text">10.000 C</div></li>
+                        </ul>
+                    </div>
+                </div>-->
+                <div class="mini-games" ng-if="conf.enableMiniGameUnderBetslip" ng-include="getTemplate('optional_modules/casino/templates/specialgames/minigames.html')"></div>
+                <div class="right-banner-container" ng-if="(conf.enableBannerUnderBetslip && !customSportAliasFilter) || (conf.enableBannerCustomAliasUnderBetslip && customSportAliasFilter)" ng-controller="cmsSportNewsCtrl" ng-include="getTemplate('templates/sport/classic/banners.html')"></div>
+                <!--Спортивные новости-->
+                <div ng-if="conf.enableNews && conf.showNewsInClassicView" ng-show="(!betSlipBetsCount || betSlipBetsCount === 0) && showNewsBlock && showNewsBetSet && (hideVideoAndAnimationBox || (!openGame.has_animation && (!openGame.video_id || !conf.videoEnabled || pinnedGames[openGame.id] || enlargedGame)))" class="sport-news" ng-include="getTemplate('templates/sport/sportnews.html')" id="sport-news-sidebar"></div>
+            </div>
+        </div>
+        <!--betslip-contain END-->
+    </div>
+</div>   

@@ -1,0 +1,6368 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "OK"
+msgstr "확인"
+
+# 
+msgid "Yes"
+msgstr "네"
+
+# 
+msgid "No"
+msgstr "아니요"
+
+# 
+msgid "Live"
+msgstr "실시간"
+
+# 
+msgid "pre-match"
+msgstr "스포츠"
+
+# 
+msgid "No games found"
+msgstr "게임을 찾을 수 없습니다"
+
+# 
+msgid "Games"
+msgstr "게임"
+
+# 
+msgid "all"
+msgstr "모든"
+
+# 
+msgid "Print coupon"
+msgstr "Print coupon"
+
+# 
+msgid "Today"
+msgstr "오늘"
+
+# 
+msgid "Tomorrow"
+msgstr "내일"
+
+# 
+msgid "1x2_1"
+msgstr "승"
+
+# 
+msgid "1x2_X"
+msgstr "무"
+
+# 
+msgid "1x2_2"
+msgstr "패"
+
+# 
+msgid "More"
+msgstr "더"
+
+# 
+msgid "Sorry the game which you chose doesn't have the type of play for fun"
+msgstr "죄송합니다 당신이 선택한 게임은 재미로 노는것이 아닙니다"
+
+# 
+msgid "Transfer"
+msgstr "이동하다"
+
+# 
+msgid "Enter"
+msgstr "입력하다"
+
+# 
+msgid "Withdraw from game"
+msgstr "게임 취소"
+
+# 
+msgid "Deposit to game"
+msgstr "??"
+
+# 
+msgid "Game Balance: "
+msgstr "게임 잔액:"
+
+# 
+msgid "Error occured"
+msgstr "오류발생"
+
+# 
+msgid "more"
+msgstr "더"
+
+# 
+msgid "Select a Category"
+msgstr "종류 선택"
+
+# 
+msgid "Select region"
+msgstr "지역 선택"
+
+# 
+msgid "All Providers"
+msgstr "모든 게임보기"
+
+# 
+msgid "left arrow"
+msgstr "왼쪽 화살표"
+
+# 
+msgid "right arrow"
+msgstr "오른쪽 화살표"
+
+# 
+msgid "Popular Games"
+msgstr "인기있는 게임"
+
+# 
+msgid "play now"
+msgstr "지금 하기"
+
+# 
+msgid "PLAY FOR FUN"
+msgstr "무료 이용하기"
+
+# 
+msgid "TOP SLOTS"
+msgstr "탑 슬롯"
+
+# 
+msgid "VIEW"
+msgstr "보기"
+
+# 
+msgid "Load more"
+msgstr "더 보기"
+
+# 
+msgid "Casino games"
+msgstr "카지노 게임"
+
+# 
+msgid "Live casino"
+msgstr "카지노"
+
+# 
+msgid "Skill games"
+msgstr "스킬 게임"
+
+# 
+msgid "Virtual games"
+msgstr "버추어 게임"
+
+# 
+msgid "All Multi View Games"
+msgstr "모든 다양한 게임보기"
+
+# 
+msgid "Search"
+msgstr "검색"
+
+# 
+msgid "Powered by"
+msgstr "의해 이용하는"
+
+# 
+msgid "All rights reserved."
+msgstr "모든 권리는 보존됩니다."
+
+# 
+msgid "Mobile version"
+msgstr "Mobile version"
+
+# 
+msgid "Previous version"
+msgstr "이전 버전"
+
+# 
+msgid "Previous Flash version"
+msgstr "플래시 버전"
+
+# 
+msgid "Points Calculator"
+msgstr "포인트 계산기"
+
+# 
+msgid "Buy-in"
+msgstr "낙찰"
+
+# 
+msgid "Entrants"
+msgstr "가입자"
+
+# 
+msgid "Position"
+msgstr "위치"
+
+# 
+msgid "Points"
+msgstr "포인트"
+
+# 
+msgid "Play now!"
+msgstr "지금 시작하기!"
+
+# 
+msgid "Download"
+msgstr "다운로드"
+
+# 
+msgid "How to Play"
+msgstr "How to Play"
+
+# 
+msgid "Tournament List"
+msgstr "Tournament List"
+
+# 
+msgid "Windows XP or higher"
+msgstr "Windows XP or higher"
+
+# 
+msgid "poker_requirements_windows"
+msgstr "포커_요구사항_윈도우"
+
+# 
+msgid "poker_download_description_windows"
+msgstr "포커_다운로드_기술_윈도우"
+
+# 
+msgid "Mac OS 9 or higher"
+msgstr "Mac OS 9 or higher"
+
+# 
+msgid "poker_requirements_mac"
+msgstr "포커_요구사항_맥"
+
+# 
+msgid "poker_download_description_mac"
+msgstr "포커_다운로드_기술_맥"
+
+# 
+msgid "Android version 4.0 or higher"
+msgstr "Android version 4.0 or higher"
+
+# 
+msgid "poker_requirements_android"
+msgstr "포커_요구사항_안드로이드"
+
+# 
+msgid "poker_download_description_android"
+msgstr "포커_다운로드_기술_안드로이드"
+
+# 
+msgid "Best Promotions"
+msgstr "Best Promotions"
+
+# 
+msgid "Download Windows client"
+msgstr "인도우 클라이언트 다운로드 하기"
+
+# 
+msgid "desktop"
+msgstr "데스크탑"
+
+# 
+msgid "Download MacOS client"
+msgstr "맥OS 크라이언트 다운로드 하기"
+
+# 
+msgid "iPhone"
+msgstr "아이폰"
+
+# 
+msgid "Instant Play"
+msgstr "즉석 게임"
+
+# 
+msgid "android"
+msgstr "안드로이드"
+
+# 
+msgid "Download Linux client"
+msgstr "리눅스 크라이언트 다운로드 하기"
+
+# 
+msgid "linux"
+msgstr "리눅스"
+
+# 
+msgid "Register"
+msgstr "회원가입"
+
+# 
+msgid "Play"
+msgstr "플레이"
+
+# 
+msgid "loading..."
+msgstr "로딩중..."
+
+# 
+msgid "Page not found"
+msgstr "페이지를 찾을 수 없습니다"
+
+# 
+msgid "Results Centre"
+msgstr "Results Centre"
+
+# 
+msgid "Sport"
+msgstr "스포츠"
+
+# 
+msgid "Region"
+msgstr "Region"
+
+# 
+msgid "Competition"
+msgstr "Competition"
+
+# 
+msgid "Date"
+msgstr "Date"
+
+# 
+msgid "Event"
+msgstr "이벤트"
+
+# 
+msgid "Score"
+msgstr "점수"
+
+# 
+msgid "No Results"
+msgstr "No Results"
+
+# 
+msgid "Today's Resluts"
+msgstr "Today's Resluts"
+
+# 
+msgid "You need to login to access this page."
+msgstr "You need to login to access this page."
+
+# 
+msgid "Recent Bets"
+msgstr "최근 베팅내역"
+
+# 
+msgid "Bet History"
+msgstr "모든 베팅내역"
+
+# 
+msgid "Casino Bet History"
+msgstr "카지노 베팅 내역"
+
+# 
+msgid "Wallet"
+msgstr "내 지갑"
+
+# 
+msgid "History"
+msgstr "입금/출금 내역"
+
+# 
+msgid "Renew"
+msgstr "갱신하기"
+
+# 
+msgid "Deposit"
+msgstr "입금 신청"
+
+# 
+msgid "Withdraw"
+msgstr "출금 신청"
+
+# 
+msgid "Sports"
+msgstr "스포츠"
+
+# 
+msgid "Casino"
+msgstr "카지노"
+
+# 
+msgid "Upcoming games"
+msgstr "다가오는 게임"
+
+# 
+msgid "News"
+msgstr "뉴스"
+
+# 
+msgid "Videos"
+msgstr "비디오"
+
+# 
+msgid "Results"
+msgstr "결과"
+
+# 
+msgid "Sport center"
+msgstr "스포츠 센터"
+
+# 
+msgid "Calendar"
+msgstr "달력"
+
+# 
+msgid "close"
+msgstr "닫기"
+
+# 
+msgid "Input Password"
+msgstr "비밀번호를 입력하세요"
+
+# 
+msgid "Hello, we'd love to hear your thoughts."
+msgstr "안녕하세요, 당신의 생각을 듣고 싶어요."
+
+# 
+msgid "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+msgstr "지금, 만약 당신이 질문, 언급, 또는 제안이 있으면, 당신의 의견을 아래에 입력하고 보내기를 누르세요."
+
+# 
+msgid "Email Address"
+msgstr "이메일"
+
+# 
+msgid "Enter your email address"
+msgstr "이메일을 입력하세요"
+
+# 
+msgid "Please enter a valid email address"
+msgstr "유효한 이메일 주소를 입력하세요"
+
+# 
+msgid "Your message"
+msgstr "메세지"
+
+# 
+msgid "Send"
+msgstr "보내기"
+
+# 
+msgid "Your message has been sent."
+msgstr "메세지 전송 완료."
+
+# 
+msgid "Cash-out"
+msgstr "Cash-out"
+
+# 
+msgid "Cash-out done."
+msgstr "Cash-out done."
+
+# 
+msgid "Error occured."
+msgstr "오류가 발생 했습니다."
+
+# 
+msgid "Cash-out for selected bet is not available."
+msgstr "Cash-out for selected bet is not available."
+
+# 
+msgid "Pick:"
+msgstr "선택 팀:"
+
+# 
+msgid "Price has changed"
+msgstr "Price has changed"
+
+# 
+msgid "Amount"
+msgstr "금액"
+
+# 
+msgid "Ok"
+msgstr "OK"
+
+# 
+msgid "Cancel"
+msgstr "Cancel"
+
+# 
+msgid "Blitz Survey"
+msgstr "Blitz Survey"
+
+# 
+msgid "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+msgstr "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+
+# 
+msgid "Chinese Poker"
+msgstr "차이니스 포커"
+
+# 
+msgid "Live Casino"
+msgstr "Live Casino"
+
+# 
+msgid "Poker"
+msgstr "포커"
+
+# 
+msgid "Backgammon"
+msgstr "주사위 게임"
+
+# 
+msgid "Belote"
+msgstr "벨로트"
+
+# 
+msgid "None of these"
+msgstr "None of these"
+
+# 
+msgid "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+msgstr "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+
+# 
+msgid "Submit"
+msgstr "Submit"
+
+# 
+msgid "Your balance is low"
+msgstr "잔액이 낮습니다"
+
+# 
+msgid "Renew to get more."
+msgstr "더 보기"
+
+# 
+msgid "SuperBet Counter Offer"
+msgstr "SuperBet Counter Offer"
+
+# 
+msgid "Bet Details"
+msgstr "Bet Details"
+
+# 
+msgid "Offer Details"
+msgstr "Offer Details"
+
+# 
+msgid "Odds:"
+msgstr "배당:"
+
+# 
+msgid "Amount:"
+msgstr "총액:"
+
+# 
+msgid "Remaining time:"
+msgstr "Remaining time:"
+
+# 
+msgid "Accept"
+msgstr "적용하기"
+
+# 
+msgid "Decline"
+msgstr "Decline"
+
+# 
+msgid "competition or a team..."
+msgstr "경기 또는 팀"
+
+# 
+msgid "Search a competition or a team..."
+msgstr "경기 또는 팀 검색하기"
+
+# 
+msgid "Search results"
+msgstr "검색 결과"
+
+# 
+msgid "no results"
+msgstr "검색 결과가 없습니다"
+
+# 
+msgid "Search a casino game..."
+msgstr "카지노 게임 검색하기"
+
+# 
+msgid "Play now"
+msgstr "플레이하기"
+
+# 
+msgid "brain"
+msgstr "brain"
+
+# 
+msgid "All downloads"
+msgstr "모든 다운로드"
+
+# 
+msgid "Windows"
+msgstr "윈도우"
+
+# 
+msgid "Mac OS"
+msgstr "맥 OS"
+
+# 
+msgid "Linux"
+msgstr "리눅스"
+
+# 
+msgid "Android"
+msgstr "안드로이드"
+
+# 
+msgid "Tell me more"
+msgstr "Tell me more"
+
+# 
+msgid "View on map"
+msgstr "View on map"
+
+# 
+msgid "Contact us"
+msgstr "Contact us"
+
+# 
+msgid "Hide Map"
+msgstr "Hide Map"
+
+# 
+msgid "Winners"
+msgstr "승자"
+
+# 
+msgid "There are no winners yet"
+msgstr "아직 승자가 없습니다."
+
+# 
+msgid "No data"
+msgstr "데이터가 없습니다"
+
+# 
+msgid "Name"
+msgstr "이름"
+
+# 
+msgid "ON THE WAY"
+msgstr "진행되는 중"
+
+# 
+msgid "TO VICTORY!"
+msgstr "승리를 향해!"
+
+# 
+msgid "Sign in"
+msgstr "로그인"
+
+# 
+msgid "Forgot your password?"
+msgstr "비밀번호를 잊어버렸습니까?"
+
+# 
+msgid "Join"
+msgstr "가입하기"
+
+# 
+msgid "Bet"
+msgstr "내기"
+
+# 
+msgid "Win"
+msgstr "승리"
+
+# 
+msgid "Print"
+msgstr "Print"
+
+# 
+msgid "Type your new password"
+msgstr "Type your new password"
+
+# 
+msgid "Password"
+msgstr "비밀번호"
+
+# 
+msgid "Please type your new password"
+msgstr "Please type your new password"
+
+# 
+msgid "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "Repeat Password"
+msgstr "Repeat Password"
+
+# 
+msgid "Please type your new password again"
+msgstr "Please type your new password again"
+
+# 
+msgid "Passwords are different"
+msgstr "Passwords are different"
+
+# 
+msgid "Your password has been changed."
+msgstr "Your password has been changed."
+
+# 
+msgid "Password reset failed."
+msgstr "비밀번호 변경 실패"
+
+# 
+msgid "Username or email invalid"
+msgstr "아이디 또는 이메일이 맞지않습니다."
+
+# 
+msgid "Draw number"
+msgstr "무승부 숫자"
+
+# 
+msgid "End date"
+msgstr "마감일"
+
+# 
+msgid "State"
+msgstr "상태"
+
+# 
+msgid "Jackpot"
+msgstr "대박"
+
+# 
+msgid "Pool"
+msgstr "공동"
+
+# 
+msgid "Prize fund"
+msgstr "??"
+
+# 
+msgid "Tickets / Variants"
+msgstr "티켓 / 변종"
+
+# 
+msgid "Current Draw"
+msgstr "?"
+
+# 
+msgid "Draw"
+msgstr "무승부"
+
+# 
+msgid "Result"
+msgstr "결과"
+
+# 
+msgid "Bookmakers probability / bets amount (in %)"
+msgstr "마권 가능성 / 베팅 금액 ( %)"
+
+# 
+msgid "min."
+msgstr "분."
+
+# 
+msgid "Tickets"
+msgstr "티켓"
+
+# 
+msgid "Variants"
+msgstr "변종"
+
+# 
+msgid "Winners (var.)"
+msgstr "이긴사람 (var.)"
+
+# 
+msgid "Win sum"
+msgstr "이긴 합계"
+
+# 
+msgid "Win coef"
+msgstr "승률"
+
+# 
+msgid "All draws"
+msgstr "모든 무승부"
+
+# 
+msgid "All bets"
+msgstr "모든 베팅"
+
+# 
+msgid "You need to confirm the agreements."
+msgstr "당신은 동의서를 확인하셔야 합니다."
+
+# 
+msgid "I agree to all"
+msgstr "모든것에 동의합니다"
+
+# 
+msgid "Terms & Conditions"
+msgstr "용어 & 상태"
+
+# 
+msgid "You can read our Terms and Conditions by clicking corresponding links in page footer."
+msgstr "당신은 우리의 용어와 상태를 페이지 아래에 있는 해당하는 링크를 클릭하시면 확인하실 수 있습니다."
+
+# 
+msgid "and I am over 18 years of age and have read and accepted the general terms and conditions."
+msgstr "나는 18세 이상이며 일반적인 용어와 상태를 읽고 인정합니다."
+
+# 
+msgid "and I am over 21 years of age and have read and accepted the general terms and conditions."
+msgstr "나는 21세 이상이며 일반적인 용어와 상태를 읽고 인정합니다."
+
+# 
+msgid "Registration complete."
+msgstr "회원가입이 정상적으로 되었습니다."
+
+# 
+msgid "Please check your email."
+msgstr "이메일을 확인하세요."
+
+# 
+msgid "Registration failed due to technical error."
+msgstr "기술적인 오류로 인해 가입이 실패 되었습니다."
+
+# 
+msgid "Please try again later."
+msgstr "잠시후 다시 시도하세요"
+
+# 
+msgid "Australia"
+msgstr "호주"
+
+# 
+msgid "Andorra"
+msgstr "안도라"
+
+# 
+msgid "UAE"
+msgstr "UAE"
+
+# 
+msgid "Afghanistan"
+msgstr "아프가니스탄"
+
+# 
+msgid "Antigua and Barbuda"
+msgstr "앤티가 바부다"
+
+# 
+msgid "Albania"
+msgstr "알바니아"
+
+# 
+msgid "Armenia"
+msgstr "아르메니아"
+
+# 
+msgid "Angola"
+msgstr "앙골라"
+
+# 
+msgid "Argentina"
+msgstr "아르헨티나"
+
+# 
+msgid "American Samoa"
+msgstr "미국령 사모아"
+
+# 
+msgid "Austria"
+msgstr "오스트리아"
+
+# 
+msgid "Aruba"
+msgstr "아루바"
+
+# 
+msgid "Azerbaijan"
+msgstr "아제르바이잔"
+
+# 
+msgid "Bosnia and Herzegovina"
+msgstr "보스니아 헤르체코비나"
+
+# 
+msgid "Barbados"
+msgstr "바베이도스"
+
+# 
+msgid "Bangladesh"
+msgstr "방글라데시"
+
+# 
+msgid "Belgium"
+msgstr "벨기에"
+
+# 
+msgid "Burkina Faso"
+msgstr "부르키나 파소"
+
+# 
+msgid "Bulgaria"
+msgstr "불가리아"
+
+# 
+msgid "Bahrain"
+msgstr "바레인"
+
+# 
+msgid "Burundi"
+msgstr "부룬디"
+
+# 
+msgid "Benin"
+msgstr "베냉"
+
+# 
+msgid "Bermuda"
+msgstr "버뮤다"
+
+# 
+msgid "Brunei"
+msgstr "브루나이"
+
+# 
+msgid "Bolivia"
+msgstr "볼리비아"
+
+# 
+msgid "Brazil"
+msgstr "브라질"
+
+# 
+msgid "Bahamas"
+msgstr "바하마"
+
+# 
+msgid "Bhutan"
+msgstr "부탄"
+
+# 
+msgid "Botswana"
+msgstr "보츠와나"
+
+# 
+msgid "Belarus"
+msgstr "벨로루시"
+
+# 
+msgid "Belize"
+msgstr "벨리즈"
+
+# 
+msgid "Canada"
+msgstr "캐나다"
+
+# 
+msgid "Democratic Republic of the Congo"
+msgstr "콩고민주공화국"
+
+# 
+msgid "Central African Republic"
+msgstr "중앙아프리카 공화국"
+
+# 
+msgid "Republic of the Congo"
+msgstr "콩고민주공화국"
+
+# 
+msgid "Switzerland"
+msgstr "스위스"
+
+# 
+msgid "Cote d'Ivoire"
+msgstr "코트디부아르"
+
+# 
+msgid "Cook Islands"
+msgstr "쿡제도"
+
+# 
+msgid "Chile"
+msgstr "칠레"
+
+# 
+msgid "Cameroon"
+msgstr "카메룬"
+
+# 
+msgid "China"
+msgstr "중국"
+
+# 
+msgid "Colombia"
+msgstr "콜롬비아"
+
+# 
+msgid "Costa Rica"
+msgstr "코스타리카"
+
+# 
+msgid "Cuba"
+msgstr "쿠바"
+
+# 
+msgid "Cape Verde"
+msgstr "카보베르데"
+
+# 
+msgid "Cyprus"
+msgstr "키프로스"
+
+# 
+msgid "Czech Republic"
+msgstr "체코 공화국"
+
+# 
+msgid "Germany"
+msgstr "독일"
+
+# 
+msgid "Djibouti"
+msgstr "지부티"
+
+# 
+msgid "Denmark"
+msgstr "덴마크"
+
+# 
+msgid "Dominica"
+msgstr "도미니카"
+
+# 
+msgid "Dominican Republic"
+msgstr "도미니카 공화국"
+
+# 
+msgid "Algeria"
+msgstr "알제리"
+
+# 
+msgid "Ecuador"
+msgstr "에콰도르"
+
+# 
+msgid "Estonia"
+msgstr "에스토니아"
+
+# 
+msgid "Egypt"
+msgstr "이집트"
+
+# 
+msgid "Eritrea"
+msgstr "에리트레아"
+
+# 
+msgid "Spain"
+msgstr "스페인"
+
+# 
+msgid "Ethiopia"
+msgstr "에티오피아"
+
+# 
+msgid "Finland"
+msgstr "필란드"
+
+# 
+msgid "Fiji"
+msgstr "피지"
+
+# 
+msgid "Federated States of Micronesia"
+msgstr "미크로네시아연방 공화국"
+
+# 
+msgid "Faroe Islands"
+msgstr "패로제도"
+
+# 
+msgid "France"
+msgstr "프랑스"
+
+# 
+msgid "Gabon"
+msgstr "가봉"
+
+# 
+msgid "Great Britain"
+msgstr "그레이트브리튼"
+
+# 
+msgid "Grenada"
+msgstr "그레나다"
+
+# 
+msgid "Georgia"
+msgstr "조지아"
+
+# 
+msgid "Ghana"
+msgstr "가나"
+
+# 
+msgid "Gambia"
+msgstr "감비아"
+
+# 
+msgid "Guinea"
+msgstr "기니"
+
+# 
+msgid "Equatorial Guinea"
+msgstr "적도 기니"
+
+# 
+msgid "Greece"
+msgstr "그리스"
+
+# 
+msgid "Guatemala"
+msgstr "과테말라"
+
+# 
+msgid "Guam"
+msgstr "괌"
+
+# 
+msgid "Guinea-Bissau"
+msgstr "기니비사우"
+
+# 
+msgid "Guyana"
+msgstr "가이아나"
+
+# 
+msgid "Hong Kong"
+msgstr "홍콩"
+
+# 
+msgid "Honduras"
+msgstr "온두라스"
+
+# 
+msgid "Croatia"
+msgstr "크로아티아"
+
+# 
+msgid "Republic of Haiti"
+msgstr "아이티"
+
+# 
+msgid "Hungary"
+msgstr "헝가리"
+
+# 
+msgid "Indonesia"
+msgstr "인도네시아"
+
+# 
+msgid "Ireland"
+msgstr "아일랜드"
+
+# 
+msgid "Israel"
+msgstr "이스라엘"
+
+# 
+msgid "India"
+msgstr "인도"
+
+# 
+msgid "Iraq"
+msgstr "이라크"
+
+# 
+msgid "Iran"
+msgstr "이란"
+
+# 
+msgid "Iceland"
+msgstr "아이슬란드"
+
+# 
+msgid "Italy"
+msgstr "이탈리아"
+
+# 
+msgid "Jamaica"
+msgstr "자메이카"
+
+# 
+msgid "Jordan"
+msgstr "요르단"
+
+# 
+msgid "Japan"
+msgstr "일본"
+
+# 
+msgid "Kenya"
+msgstr "케냐"
+
+# 
+msgid "Kyrgyzstan"
+msgstr "키르기스스탄"
+
+# 
+msgid "Cambodia"
+msgstr "캄보디아"
+
+# 
+msgid "Kiribati"
+msgstr "키리바시"
+
+# 
+msgid "Comoros"
+msgstr "코모로"
+
+# 
+msgid "Saint Kitts and Nevis"
+msgstr "세인트키츠 그리고 네비스"
+
+# 
+msgid "DPRK"
+msgstr "북한"
+
+# 
+msgid "South Korea"
+msgstr "대한민국"
+
+# 
+msgid "Kuwait"
+msgstr "쿠웨이트"
+
+# 
+msgid "Cayman Islands"
+msgstr "케이맨 제도"
+
+# 
+msgid "Kazakhstan"
+msgstr "카자흐스탄"
+
+# 
+msgid "Laos"
+msgstr "라오스"
+
+# 
+msgid "Lebanon"
+msgstr "레바논"
+
+# 
+msgid "Saint Lucia"
+msgstr "세인트루시아"
+
+# 
+msgid "Liechtenstein"
+msgstr "리히텐슈타인"
+
+# 
+msgid "Sri Lanka"
+msgstr "스리랑카"
+
+# 
+msgid "Liberia"
+msgstr "라이베리아"
+
+# 
+msgid "Lesotho"
+msgstr "레소토"
+
+# 
+msgid "Lithuania"
+msgstr "리투아니아"
+
+# 
+msgid "Luxemburg"
+msgstr "룩셈부르크"
+
+# 
+msgid "Latvia"
+msgstr "라트비아"
+
+# 
+msgid "Libya"
+msgstr "리비아"
+
+# 
+msgid "Morocco"
+msgstr "모로코"
+
+# 
+msgid "Monaco"
+msgstr "모나코"
+
+# 
+msgid "Moldavia"
+msgstr "몰다비아"
+
+# 
+msgid "Montenegro"
+msgstr "몬테네그로"
+
+# 
+msgid "Madagascar"
+msgstr "마다가스카르"
+
+# 
+msgid "Macedonia"
+msgstr "마케도니아"
+
+# 
+msgid "Mali"
+msgstr "말리"
+
+# 
+msgid "Myanmar"
+msgstr "미얀마"
+
+# 
+msgid "Mongolia"
+msgstr "몽골"
+
+# 
+msgid "Mauritania"
+msgstr "모리타니아"
+
+# 
+msgid "Malta"
+msgstr "몰타"
+
+# 
+msgid "Mauritius"
+msgstr "모리셔스"
+
+# 
+msgid "Maldives"
+msgstr "몰디브"
+
+# 
+msgid "Malawi"
+msgstr "말라위"
+
+# 
+msgid "Mexico"
+msgstr "멕시코"
+
+# 
+msgid "Malaysia"
+msgstr "말레이시아"
+
+# 
+msgid "Mozambique"
+msgstr "모잠비크"
+
+# 
+msgid "Namibia"
+msgstr "나미비아"
+
+# 
+msgid "Niger"
+msgstr "니제르"
+
+# 
+msgid "Nigeria"
+msgstr "나이지리아"
+
+# 
+msgid "Nicaragua"
+msgstr "니카과라"
+
+# 
+msgid "Netherlands"
+msgstr "네덜란드"
+
+# 
+msgid "Norway"
+msgstr "노르웨이"
+
+# 
+msgid "Nepal"
+msgstr "네팔"
+
+# 
+msgid "Nauru"
+msgstr "나우루"
+
+# 
+msgid "New Zealand"
+msgstr "뉴질랜드"
+
+# 
+msgid "Oman"
+msgstr "오만"
+
+# 
+msgid "Panama"
+msgstr "파나마"
+
+# 
+msgid "Peru"
+msgstr "페루"
+
+# 
+msgid "Papua New Guinea"
+msgstr "파푸아뉴기니"
+
+# 
+msgid "Philippines"
+msgstr "필리핀"
+
+# 
+msgid "Pakistan"
+msgstr "파키스탄"
+
+# 
+msgid "Poland"
+msgstr "폴란드"
+
+# 
+msgid "Puerto Rico"
+msgstr "푸에르토리코"
+
+# 
+msgid "Palestine"
+msgstr "팔레스타인"
+
+# 
+msgid "Portugal"
+msgstr "포르투갈"
+
+# 
+msgid "Palau"
+msgstr "팔라우"
+
+# 
+msgid "Paraguay"
+msgstr "파라과이"
+
+# 
+msgid "Qatar"
+msgstr "카타르"
+
+# 
+msgid "Romania"
+msgstr "루마니아"
+
+# 
+msgid "Serbia"
+msgstr "세르비아"
+
+# 
+msgid "Russia"
+msgstr "러시아"
+
+# 
+msgid "Rwanda"
+msgstr "르완다"
+
+# 
+msgid "Saudi Arabia"
+msgstr "사우디 아라비아"
+
+# 
+msgid "Solomon Islands"
+msgstr "솔로몬 제도"
+
+# 
+msgid "Seychelles"
+msgstr "세이셸"
+
+# 
+msgid "Sudan"
+msgstr "수단"
+
+# 
+msgid "Sweden"
+msgstr "스웨덴"
+
+# 
+msgid "Singapore"
+msgstr "상가포르"
+
+# 
+msgid "Slovenia"
+msgstr "슬로베니아 공화국"
+
+# 
+msgid "Slovakia"
+msgstr "슬로바키아 공화국"
+
+# 
+msgid "Sierra Leone"
+msgstr "시에라리온"
+
+# 
+msgid "San Marino"
+msgstr "산마리노"
+
+# 
+msgid "Senegal"
+msgstr "세네갈"
+
+# 
+msgid "Somalia"
+msgstr "소말리아"
+
+# 
+msgid "Republic of Suriname"
+msgstr "수리남"
+
+# 
+msgid "Sao Tome and Principe"
+msgstr "상투메 프린시페"
+
+# 
+msgid "Salvador"
+msgstr "살바도르"
+
+# 
+msgid "Syria"
+msgstr "시리아"
+
+# 
+msgid "Swaziland"
+msgstr "스와질란드"
+
+# 
+msgid "Chad"
+msgstr "차드"
+
+# 
+msgid "Togo"
+msgstr "토고"
+
+# 
+msgid "Thailand"
+msgstr "태국"
+
+# 
+msgid "Tadjikistan"
+msgstr "타지키스탄"
+
+# 
+msgid "Timor-Leste"
+msgstr "티모르 섬"
+
+# 
+msgid "Turkmenistan"
+msgstr "투르크메니스탄"
+
+# 
+msgid "Tunisia"
+msgstr "튀니지"
+
+# 
+msgid "Tonga"
+msgstr "통가"
+
+# 
+msgid "Turkey"
+msgstr "터키"
+
+# 
+msgid "Trinidad and Tobago"
+msgstr "트리니다드토바고"
+
+# 
+msgid "Tuvalu"
+msgstr "투발루"
+
+# 
+msgid "Taiwan"
+msgstr "대만"
+
+# 
+msgid "Tanzania"
+msgstr "탄자니아"
+
+# 
+msgid "Ukraine"
+msgstr "우크라이나"
+
+# 
+msgid "Uganda"
+msgstr "유간다"
+
+# 
+msgid "United States"
+msgstr "미국"
+
+# 
+msgid "Uruguay"
+msgstr "우루과이"
+
+# 
+msgid "Uzbekistan"
+msgstr "우즈베키스탄"
+
+# 
+msgid "Saint Vincent and the Grenadines"
+msgstr "세인트빈센트 그레나딘"
+
+# 
+msgid "Venezuela"
+msgstr "베네수엘라"
+
+# 
+msgid "British Virgin Islands"
+msgstr "영국령 버진 제도"
+
+# 
+msgid "United States Virgin Islands"
+msgstr "미국령 버진아이랜드"
+
+# 
+msgid "Vietnam"
+msgstr "베트남"
+
+# 
+msgid "Vanuatu"
+msgstr "바누아투"
+
+# 
+msgid "Samoa"
+msgstr "사모아"
+
+# 
+msgid "Yemen"
+msgstr "예멘"
+
+# 
+msgid "Republic of South Africa"
+msgstr "남아프리카공화국"
+
+# 
+msgid "Zambia"
+msgstr "잠비아"
+
+# 
+msgid "Zimbabwe"
+msgstr "짐바브웨"
+
+# 
+msgid "Contact Support"
+msgstr "고객센터"
+
+# 
+msgid "Live Chat"
+msgstr "실시간 채팅"
+
+# 
+msgid "Live Agent"
+msgstr "Live Agent"
+
+# 
+msgid "Login with Facebook"
+msgstr "페이스북으로 로그인하기"
+
+# 
+msgid "Sign in with Odnoklassniki"
+msgstr "오드노클라스니키로 로그인 하기"
+
+# 
+msgid "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+msgstr "만약 당신이 페이스북 계정으로 로그인 하고 싶으면 먼저 페이스북 계정을 가입해야 합니다."
+
+# 
+msgid "If you want to be able to login with your Odnoklassniki account you need to first Sign up with Odnoklassniki account."
+msgstr "만약 당신이 오드노클라스니키 계정으로 로그인 하고 싶으면 먼저 오드노클라스니키 계정을 가입해야 합니다."
+
+# 
+msgid "Username"
+msgstr "아이디"
+
+# 
+msgid "Your login"
+msgstr "아이디를 입력하세요"
+
+# 
+msgid "Enter your password"
+msgstr "비밀번호를 입력하세요"
+
+# 
+msgid "SMS verification code"
+msgstr "SMS 확인 코드"
+
+# 
+msgid "Enter verification code"
+msgstr "확인 코드를 입력하세요"
+
+# 
+msgid "Invalid username or password."
+msgstr "아이디 또는 비밀번호가 맞지 않습니다."
+
+# 
+msgid "Create an account"
+msgstr "회원가입"
+
+# 
+msgid "Time Period"
+msgstr "기간"
+
+# 
+msgid "All Casino Transactions"
+msgstr "모든 카지노 거래"
+
+# 
+msgid "id: "
+msgstr "아이디:"
+
+# 
+msgid "next"
+msgstr "다음"
+
+# 
+msgid "prev"
+msgstr "이전으로"
+
+# 
+msgid "Deposit to main wallet"
+msgstr "입금신청 하기,"
+
+# 
+msgid "Select a payment method"
+msgstr "입금 방법을 선택하세요."
+
+# 
+msgid "Please confirm money transfer"
+msgstr "입금을 확인하세요"
+
+# 
+msgid "Amount: "
+msgstr "총액:"
+
+# 
+msgid "Status:"
+msgstr "신분:"
+
+# 
+msgid "Unknown"
+msgstr "알려지지 않은"
+
+# 
+msgid "Success"
+msgstr "성공"
+
+# 
+msgid "Pending"
+msgstr "보류중"
+
+# 
+msgid "Failure"
+msgstr "실패"
+
+# 
+msgid "Deposit Amount"
+msgstr "입금 총액"
+
+# 
+msgid "Payment complete"
+msgstr "지불이 완성 되었습니다"
+
+# 
+msgid "enter amount here"
+msgstr "총액을 여기에 입력하세요"
+
+# 
+msgid "Status"
+msgstr "상태"
+
+# 
+msgid "Withdraw from main wallet"
+msgstr "출금 신청하기,"
+
+# 
+msgid "Select withdraw method"
+msgstr "Select withdraw method"
+
+# 
+msgid "User ID"
+msgstr "사용자 아이디"
+
+# 
+msgid "Withdraw Amount"
+msgstr "출금 금액"
+
+# 
+msgid "available:"
+msgstr "사용가능:"
+
+# 
+msgid "Please, upload your passport scan or passport photo to ease your further withdrawals."
+msgstr "탈퇴를 쉽게하기 위해, 여권 스캔이나 여권 사진을 업로드 하세요."
+
+# 
+msgid "Verify Account"
+msgstr "계정 확인"
+
+# 
+msgid "Payment Method"
+msgstr "입금 방법"
+
+# 
+msgid "Time"
+msgstr "시간"
+
+# 
+msgid "Your currency is"
+msgstr "통화:"
+
+# 
+msgid "Balance"
+msgstr "잔액"
+
+# 
+msgid "Total"
+msgstr "총"
+
+# 
+msgid "Main"
+msgstr "스포츠"
+
+# 
+msgid "If your balance less, top up your balance now."
+msgstr "만약 당신 잔고가 적으면, 당신의 잔고를 지금 채우세요."
+
+# 
+msgid "From"
+msgstr "부터"
+
+# 
+msgid "To"
+msgstr "까지"
+
+# 
+msgid "Max"
+msgstr "최대"
+
+# 
+msgid "Wait..."
+msgstr "기다리세요..."
+
+# 
+msgid "Bonus"
+msgstr "보너스"
+
+# 
+msgid "Pool Betting"
+msgstr "여럿이 어울려 돈내기"
+
+# 
+msgid "Use points to win"
+msgstr "Use points to win"
+
+# 
+msgid "Use Points"
+msgstr "Use Points"
+
+# 
+msgid "Points left"
+msgstr "Points left"
+
+# 
+msgid "To win iphone 6"
+msgstr "To win iphone 6"
+
+# 
+msgid "Play games"
+msgstr "Play games"
+
+# 
+msgid "Go to shop"
+msgstr "Go to shop"
+
+# 
+msgid "Main Bonus"
+msgstr "Main Bonus"
+
+# 
+msgid "Casino Bonus"
+msgstr "Casino Bonus"
+
+# 
+msgid "Transactions"
+msgstr "거래내역\n"
+
+# 
+msgid "All Transactions"
+msgstr "모든 거래내역:"
+
+# 
+msgid "Categories"
+msgstr "종류"
+
+# 
+msgid "Financials"
+msgstr "환율 베팅\n"
+
+# 
+msgid "Fantasy Sports"
+msgstr "판타지 스포츠"
+
+# 
+msgid "Ogwil"
+msgstr "텍사스 사다리"
+
+# 
+msgid "Live games"
+msgstr "실시간 게임"
+
+# 
+msgid "All games"
+msgstr "모든게임"
+
+# 
+msgid "Roulette"
+msgstr "룰렛"
+
+# 
+msgid "BlackJack"
+msgstr "블랙잭"
+
+# 
+msgid "Bet on Poker"
+msgstr "포커 베팅하기"
+
+# 
+msgid "Baccarat"
+msgstr "바카라"
+
+# 
+msgid "Please try later or contact support."
+msgstr "잠시후에 다시 시도해보시거나 고객센터에 문의하세요."
+
+# 
+msgid "All Bets"
+msgstr "모든 내기"
+
+# 
+msgid "unsettled"
+msgstr "진행중"
+
+# 
+msgid "lost"
+msgstr "낙첨"
+
+# 
+msgid "returned"
+msgstr "베팅취소"
+
+# 
+msgid "Won"
+msgstr "적중"
+
+# 
+msgid "Set"
+msgstr "세트"
+
+# 
+msgid "Prize"
+msgstr "상품"
+
+# 
+msgid "Distance"
+msgstr "거리"
+
+# 
+msgid "Surface"
+msgstr "표면"
+
+# 
+msgid "Game start:"
+msgstr "게임 시작:"
+
+# 
+msgid "You don't have favourite games. To add some, click the star icon near the game name."
+msgstr "선택하신 게임이 없습니다. 게임을 추가하실때는, 해당게임 옆 별 모양을 체크해주세요."
+
+# 
+msgid "Bet Type"
+msgstr "베팅 타입"
+
+# 
+msgid "All"
+msgstr "모든"
+
+# 
+msgid "Single"
+msgstr "싱글"
+
+# 
+msgid "express"
+msgstr "나타내다"
+
+# 
+msgid "system"
+msgstr "시스템 베팅"
+
+# 
+msgid "chain"
+msgstr "체인 베팅"
+
+# 
+msgid "Outcome"
+msgstr "결과"
+
+# 
+msgid "Unsettled"
+msgstr "진행중"
+
+# 
+msgid "Lost"
+msgstr "미당첨"
+
+# 
+msgid "Returned"
+msgstr "반환"
+
+# 
+msgid "Cashed out"
+msgstr "Cashed out"
+
+# 
+msgid "Pick"
+msgstr "선택"
+
+# 
+msgid "Bet placed from bonus."
+msgstr "보너스 베팅"
+
+# 
+msgid "On Hold"
+msgstr "보류"
+
+# 
+msgid "Declined"
+msgstr "Declined"
+
+# 
+msgid "Sign up with Odnoklassniki"
+msgstr "오드노클라스니키로 가입하기"
+
+# 
+msgid "Sign up with Facebook"
+msgstr "페이스북으로 가입하기"
+
+# 
+msgid "User details:"
+msgstr "사용자 세부사항:"
+
+# 
+msgid "Enter here"
+msgstr "여기에 입력하세요"
+
+# 
+msgid "This field is required"
+msgstr "이 분야는 필수 입니다"
+
+# 
+msgid "This email already exists in our database, please enter another"
+msgstr "이미 등록된 이메일입니다. 다른 이메일을 입력해주세요."
+
+# 
+msgid "First"
+msgstr "처음"
+
+# 
+msgid "Please enter a valid first name"
+msgstr "유요한 이름을 입력하세요"
+
+# 
+msgid "Last"
+msgstr "마지막"
+
+# 
+msgid "Please enter a valid last name"
+msgstr "올바른 성을 입력하세요"
+
+# 
+msgid "Gender"
+msgstr "성별"
+
+# 
+msgid "Male"
+msgstr "남자"
+
+# 
+msgid "Female"
+msgstr "여자"
+
+# 
+msgid "Passport Number"
+msgstr "여권번호"
+
+# 
+msgid "Passport Number is already registered for another account"
+msgstr "여권번호는 이미 다른 계정으로 가입되었습니다"
+
+# 
+msgid "Contact number"
+msgstr "모바일 번호"
+
+# 
+msgid "Number"
+msgstr "번호"
+
+# 
+msgid "Invalid phone number"
+msgstr "휴대폰 번호가 맞지 않습니다."
+
+# 
+msgid "Duplicate phone number"
+msgstr "휴대폰 번호 복사하기"
+
+# 
+msgid "Verify phone number by sms"
+msgstr "SMS을 통하여 휴대폰 번호 확인하기"
+
+# 
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "로그인/비밀번호로 가입 할 계획이 있습니까?"
+
+# 
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+msgstr "만약 당신이 사회 연결망으로 미래에 로그인 하지 않는다면, 당신은 사용자이름/비밀번호를 제공해야 합니다. 그렇지 않으면 이것은 자동적으로 당신을 위해 발생 될 것이며 당신은 이메일을 통해 받을 것 입니다. 당신은 사용자이름/비밀번호를 사용 할 필요가 없습니다 만약 당신이 사회 연결망으로 매번 로그인 한다면."
+
+# 
+msgid "Some games will still require you to sign in using username/password."
+msgstr "몇몇의 게임은 아직도 당신이 사용자이름/비밀번호를 이용하여 로그인 하길 요구합니다."
+
+# 
+msgid "Sorry, this username has been used already"
+msgstr "죄송합니다, 당신의 사용자 이름은 이미 사용되고 있습니다"
+
+# 
+msgid "Password cannot be same as login"
+msgstr "비밀번호는 로그인과 같을 수 없습니다"
+
+# 
+msgid "Must be at least 6 characters"
+msgstr "최소 6글자,숫자 이상의 조합 이어야 합니다."
+
+# 
+msgid "Repeat password"
+msgstr "비밀번호를 반복하세요"
+
+# 
+msgid "passwords don't match"
+msgstr "비밀번호가 맞지 않습니다."
+
+# 
+msgid "Start playing now."
+msgstr "지금 시작하기"
+
+# 
+msgid "You have"
+msgstr "당신은 가지고 있습니다."
+
+# 
+msgid "Reset password"
+msgstr "비밀번호 리셋"
+
+# 
+msgid "Enter your username"
+msgstr "사용자이름을 입력하세요"
+
+# 
+msgid "Please enter a valid username"
+msgstr "유효한 사용자이름을 입력하세요"
+
+# 
+msgid "Password reset complete."
+msgstr "비밀번호 변경 완료"
+
+# 
+msgid "Express"
+msgstr "다수"
+
+# 
+msgid "System"
+msgstr "시스템"
+
+# 
+msgid "Chain"
+msgstr "체인"
+
+# 
+msgid "UNSETTLED"
+msgstr "진행중"
+
+# 
+msgid "UNSETTLED "
+msgstr "진행중"
+
+# 
+msgid "Won:"
+msgstr "승리 팀:"
+
+# 
+msgid "Potential win:"
+msgstr "당첨 금액"
+
+# 
+msgid "Settings"
+msgstr "설정"
+
+# 
+msgid "Personal Details"
+msgstr "회원정보 변경"
+
+# 
+msgid "Change Password"
+msgstr "비밀번호 변경하기"
+
+# 
+msgid "Self-Exclusion"
+msgstr "계정차단 설정"
+
+# 
+msgid "Deposit Limits"
+msgstr "입금 제한"
+
+# 
+msgid "Preferences"
+msgstr "우선권"
+
+# 
+msgid "Change language"
+msgstr "언어 변경"
+
+# 
+msgid "Odds in"
+msgstr "배당보기 방식"
+
+# 
+msgid "Decimal"
+msgstr "십진법"
+
+# 
+msgid "Fractional"
+msgstr "분수"
+
+# 
+msgid "American"
+msgstr "아메리칸"
+
+# 
+msgid "Save"
+msgstr "저장하기"
+
+# 
+msgid "Current Password"
+msgstr "현재 비밀번호"
+
+# 
+msgid "Password incorrect"
+msgstr "비밀번호가 맞지 않습니다"
+
+# 
+msgid "New Password"
+msgstr "새로운 비밀번호"
+
+# 
+msgid "Must be at least 8 characters"
+msgstr "최소한 8개 이상의 문자이어야 합니다"
+
+# 
+msgid "Password must contain uppercase letters, lowercase letters and numbers."
+msgstr "Password must contain uppercase letters, lowercase letters and numbers."
+
+# 
+msgid "Confirm New Password"
+msgstr "새로운 비밀번호를 확인하세요"
+
+# 
+msgid "Confirm password"
+msgstr "비밀번호 확인하기"
+
+# 
+msgid "Passwords don't match"
+msgstr "비밀번호가 일치하지 않습니다"
+
+# 
+msgid "First Name"
+msgstr "이름"
+
+#
+msgid "First name"
+msgstr "이름"
+
+# 
+msgid "Last Name"
+msgstr "성"
+
+#
+msgid "Last name"
+msgstr "성"
+
+# 
+msgid "Birth date"
+msgstr "생년월일"
+
+# 
+msgid "Email"
+msgstr "이메일"
+
+# 
+msgid "Country"
+msgstr "나라"
+
+# 
+msgid "City"
+msgstr "도시"
+
+# 
+msgid "Address"
+msgstr "주소"
+
+# 
+msgid "E-mail"
+msgstr "이메일"
+
+# 
+msgid "message_1119"
+msgstr "이메일 복사하기"
+
+# 
+msgid "Deposit limits allow you to limit the amount of funds you can deposit into the account. The amount can be chosen over a daily, weekly or monthly period. The deposit limit will allow you to restrict the amount of money entering your account, before betting takes place."
+msgstr "입금 제한은 당신이 계좌로 입금할 수 있는 펀드의 양을 제한한다. 이 양은 매일, 매주, 그리고 매달 기간으로 선택 될 수 있다. 이 입금 제한은 내기를 하기 전에 당신이 계좌에 넣는 돈의 양을 제한 할 수 있다."
+
+# 
+msgid "Enter amount"
+msgstr "총액을 입력하세요"
+
+# 
+msgid "Day"
+msgstr "일"
+
+# 
+msgid "Week"
+msgstr "주"
+
+# 
+msgid "Month"
+msgstr "달"
+
+# 
+msgid "Please note that you'll be able to increase your limits only after seven days from your 1st request."
+msgstr "Please note that you'll be able to increase your limits only after seven days from your 1st request."
+
+# 
+msgid "You can exclude online for a minimum period of six months, once the six months has expired your account will be reactivated again."
+msgstr "차단설정을 하시면 선택하신 기간동안은 해당 아이디로 접속이 불가능하며, 동일 정보로 재가입 또한 불가능합니다."
+
+# 
+msgid "Please note that you'll be able to decrease the self-exclusion period only after seven days from your 1st request."
+msgstr "Please note that you'll be able to decrease the self-exclusion period only after seven days from your 1st request."
+
+# 
+msgid "Self exclusion of six month period"
+msgstr "6개월 동안의 차단"
+
+# 
+msgid "Self exclusion of a one year period"
+msgstr "1년 동안의 차단"
+
+# 
+msgid "Messages"
+msgstr "메세지"
+
+# 
+msgid "Inbox"
+msgstr "받은편지함"
+
+# 
+msgid "Sent messages"
+msgstr "보낸 메세지"
+
+# 
+msgid "New message"
+msgstr "새로운 메세지"
+
+# 
+msgid "Subject"
+msgstr "제목"
+
+# 
+msgid "Message"
+msgstr "메세지"
+
+# 
+msgid "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "Pool:"
+msgstr "공동 출자"
+
+# 
+msgid "Rules"
+msgstr "규칙"
+
+# 
+msgid "W1"
+msgstr "W1"
+
+# 
+msgid "W2"
+msgstr "W2"
+
+# 
+msgid "Options:"
+msgstr "옵션:"
+
+# 
+msgid "Minimal Bet Amount:"
+msgstr "최소베팅 금액"
+
+# 
+msgid "0"
+msgstr "0"
+
+# 
+msgid "Random Choice"
+msgstr "랜덤 선택"
+
+# 
+msgid "Favourite Choice"
+msgstr "즐겨찾기에 추가"
+
+# 
+msgid "Place bets!"
+msgstr "베팅 하기!"
+
+# 
+msgid "To place your bet, please"
+msgstr "당신의 베팅을 하기 위해서"
+
+# 
+msgid "sign in"
+msgstr "로그인"
+
+# 
+msgid "or"
+msgstr "또는"
+
+# 
+msgid "register"
+msgstr "회원가입"
+
+# 
+msgid "Free Bet"
+msgstr "무료 베팅"
+
+# 
+msgid "freebet_info"
+msgstr "프리벳_정보"
+
+# 
+msgid "backgammon_requirements_windows"
+msgstr "backgammon_requirements_windows"
+
+# 
+msgid "backgammon_download_description_windows"
+msgstr "backgammon_download_description_windows"
+
+# 
+msgid "Use your"
+msgstr "Use your"
+
+# 
+msgid "skills"
+msgstr "skills"
+
+# 
+msgid "100%"
+msgstr "100%"
+
+# 
+msgid "MORE!"
+msgstr "더!"
+
+# 
+msgid "Register Now"
+msgstr "지금 가입하기"
+
+# 
+msgid "know more..."
+msgstr "자세한내용"
+
+# 
+msgid "Get more"
+msgstr "더 가져오기"
+
+# 
+msgid "Read More"
+msgstr "자세히 보기"
+
+# 
+msgid "Share"
+msgstr "공유하기"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome   "
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome   "
+
+# 
+msgid "Your file successfully uploaded "
+msgstr "Your file successfully uploaded "
+
+# 
+msgid " There was an error during file upload, please try again. "
+msgstr " There was an error during file upload, please try again. "
+
+# 
+msgid "Loading"
+msgstr "로딩중"
+
+# 
+msgid "Current Rank"
+msgstr "현재 랭크"
+
+# 
+msgid "ID"
+msgstr "아이디"
+
+# 
+msgid "Previous Rank"
+msgstr "이전 랭크"
+
+# 
+msgid "Currency"
+msgstr "통화"
+
+# 
+msgid "Fee"
+msgstr "요금"
+
+# 
+msgid "Process Time"
+msgstr "처리 시간"
+
+# 
+msgid "Min"
+msgstr "최소"
+
+# 
+msgid "Info"
+msgstr "정보"
+
+# 
+msgid "Free"
+msgstr "무료"
+
+# 
+msgid "Instant"
+msgstr "즉시"
+
+# 
+msgid "Additional information"
+msgstr "추가적인 정보"
+
+# 
+msgid "DAILY COUPON"
+msgstr "DAILY COUPON"
+
+# 
+msgid "Pick: "
+msgstr "Pick: "
+
+# 
+msgid "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+msgstr "이 예약 번호는 마지막 내기 가능성을 결정하지 않습니다 하지만 오로지 정확한 내기의 선택. 내기의 가능성은 끊임없이 변경되고 마지막 내기의 동의 후에 오로지 출납원에 의해 확인 될 수 있습니다."
+
+# 
+msgid "This week's winners"
+msgstr "이번주 승리자"
+
+# 
+msgid "My tickets"
+msgstr "내 티켓"
+
+# 
+msgid "You have no tickets"
+msgstr "당신은 티켓을 가지고 있지 않습니다"
+
+# 
+msgid "Live Casino Page is currently closed for"
+msgstr "실시간 카지노 페이지는 현재 닫혔습니다"
+
+# 
+msgid "maintenance."
+msgstr "유지."
+
+# 
+msgid "We will be back soon with more and better features. Thank you for your patience."
+msgstr "우리는 더 좋은 특생으로 올 것 입니다. 당신의 인내심에 감사드립니다."
+
+# 
+msgid "Click here to see other games."
+msgstr "다른 게임을 보기 위해 여기를 누르세요."
+
+# 
+msgid "Offline"
+msgstr "오프라인"
+
+# 
+msgid "Every Week JACKPOT 500.000$"
+msgstr "Every Week JACKPOT 500.000$"
+
+# 
+msgid "Show more"
+msgstr "Show more"
+
+# 
+msgid "Live Keno"
+msgstr "실시간 키노"
+
+# 
+msgid "Live Draw 6 of 49"
+msgstr "실시간 49의 드로 6"
+
+# 
+msgid "Quarter"
+msgstr "쿼터"
+
+# 
+msgid "Video not available yet"
+msgstr "중계시청이 불가능합니다."
+
+# 
+msgid "You need to be logged in to be able to play video."
+msgstr "중계시청은 로그인후 이용가능합니다."
+
+# 
+msgid "You need to have non-zero balance to be able to play video."
+msgstr "보유금이 0이면 중계시청이 불가능합니다."
+
+# 
+msgid "Detach"
+msgstr "분리"
+
+# 
+msgid "End"
+msgstr "종료"
+
+# 
+msgid "Inning"
+msgstr "이닝"
+
+# 
+msgid "First Quarter"
+msgstr "1쿼터"
+
+# 
+msgid "First Quarter Ended"
+msgstr "1 쿼터 종료"
+
+# 
+msgid "Second Quarter"
+msgstr "2쿼터"
+
+# 
+msgid "Second Quarter Ended"
+msgstr "2쿼터 종료"
+
+# 
+msgid "Third Quarter"
+msgstr "3쿼터"
+
+# 
+msgid "Third Quarter Ended"
+msgstr "3쿼터 종료"
+
+# 
+msgid "Fourth Quarter"
+msgstr "4쿼터"
+
+# 
+msgid "Fourth Quarter Ended"
+msgstr "4쿼터 종료"
+
+# 
+msgid "Overtime"
+msgstr "연장전"
+
+# 
+msgid "Overtime Ended"
+msgstr "연장전 종료"
+
+# 
+msgid "Foul"
+msgstr "파울"
+
+# 
+msgid "Free Throw"
+msgstr "자유투"
+
+# 
+msgid "Free 1-Point Throw"
+msgstr "자유투 1-포인트"
+
+# 
+msgid "Free 2-Point Throw"
+msgstr "자유투 2-포인트"
+
+# 
+msgid "Free 3-Point Throw"
+msgstr "자유투 3-포인트"
+
+# 
+msgid "Missed Free Throw"
+msgstr "자유투 실패"
+
+# 
+msgid "Attack"
+msgstr "공격"
+
+# 
+msgid "One Point"
+msgstr "1포인트"
+
+# 
+msgid "Two Points"
+msgstr "2포인트"
+
+# 
+msgid "Three Points"
+msgstr "3포인트"
+
+# 
+msgid "Timeout"
+msgstr "타임아웃"
+
+# 
+msgid "Finished"
+msgstr "종료"
+
+# 
+msgid "Point"
+msgstr "포인트"
+
+# 
+msgid "Fault"
+msgstr "실패"
+
+# 
+msgid "First Set"
+msgstr "첫번째 세트"
+
+# 
+msgid "Second Set"
+msgstr "두번째 세트"
+
+# 
+msgid "Third Set"
+msgstr "세번째 세트"
+
+# 
+msgid "Fourth Set"
+msgstr "네번째 세트"
+
+# 
+msgid "Fifth Set"
+msgstr "다섯번째 세트"
+
+# 
+msgid "Dangerous Attack"
+msgstr "위험한 공격"
+
+# 
+msgid "Shot on target"
+msgstr "유효 슛"
+
+# 
+msgid "Shot off target"
+msgstr "유효 하지 않은 슛팅"
+
+# 
+msgid "Corner kick"
+msgstr "코너킥"
+
+# 
+msgid "Yellow card"
+msgstr "엘로우 카드"
+
+# 
+msgid "Red card"
+msgstr "레드 카드"
+
+# 
+msgid "Period"
+msgstr "기간"
+
+# 
+msgid "Game"
+msgstr "게임"
+
+# 
+msgid "Ace"
+msgstr "에이스"
+
+# 
+msgid "Service Fault"
+msgstr "서비스 폴트"
+
+# 
+msgid "Double Fault"
+msgstr "더플 폴트"
+
+# 
+msgid "Injury Break"
+msgstr "부상, 경기지연"
+
+# 
+msgid "Rain Delay"
+msgstr "우천 지연"
+
+# 
+msgid "Aces"
+msgstr "에이스"
+
+# 
+msgid "Double Faults"
+msgstr "더블 폴트"
+
+# 
+msgid "Corner"
+msgstr "코너킥"
+
+# 
+msgid "Yellow Card"
+msgstr "엘로우 카드"
+
+# 
+msgid "Extra Time Half Time"
+msgstr "연장전 하프타임"
+
+# 
+msgid "Not Started"
+msgstr "대기중"
+
+# 
+msgid "Offside"
+msgstr "오프사이드"
+
+# 
+msgid "Goal"
+msgstr "골"
+
+# 
+msgid "Pre Extra Half"
+msgstr "이전 추가 반 ???"
+
+# 
+msgid "Throw In"
+msgstr "드로우인"
+
+# 
+msgid "Goal Kick"
+msgstr "골킥"
+
+# 
+msgid "Substitution"
+msgstr "선수교체"
+
+# 
+msgid "Extra Time First Half"
+msgstr "전반 추가시간"
+
+# 
+msgid "Second Half"
+msgstr "후반전"
+
+# 
+msgid "Half Time"
+msgstr "하프타임"
+
+# 
+msgid "Ball Safe"
+msgstr "볼세이프"
+
+# 
+msgid "Free Kick"
+msgstr "프리킥"
+
+# 
+msgid "Extra Time Second Half"
+msgstr "후반전 추가시간"
+
+# 
+msgid "Red Card"
+msgstr "레드 카드"
+
+# 
+msgid "First Half"
+msgstr "전반전"
+
+# 
+msgid "Penalty"
+msgstr "패널티 킥"
+
+# 
+msgid "First time score"
+msgstr "전반전 점수"
+
+# 
+msgid "HT"
+msgstr "하프타임"
+
+# 
+msgid "yellow cards"
+msgstr "엘로우 카드"
+
+# 
+msgid "red cards"
+msgstr "레드 카드"
+
+# 
+msgid "corners"
+msgstr "코너킥"
+
+# 
+msgid "penalties"
+msgstr "패널티 킥"
+
+# 
+msgid "Sound"
+msgstr "Sound"
+
+# 
+msgid "Frame"
+msgstr "프레임"
+
+# 
+msgid "Race Type"
+msgstr "경주 종류"
+
+# 
+msgid "Select a Sport"
+msgstr "스포츠 선택"
+
+# 
+msgid "Next Event"
+msgstr "다음 이벤트"
+
+# 
+msgid "Events from different groups can be combined in combined bets"
+msgstr "Events from different groups can be combined in combined bets"
+
+# 
+msgid "Horse"
+msgstr "말"
+
+# 
+msgid "Greyhound"
+msgstr "Greyhound"
+
+# 
+msgid "Jockey"
+msgstr "기수"
+
+# 
+msgid "Cash-out available"
+msgstr "Cash-out available"
+
+# 
+msgid "№"
+msgstr "№"
+
+# 
+msgid "sport news"
+msgstr "뉴스"
+
+# 
+msgid "Change statistics mode"
+msgstr "통계 모드 바꾸기"
+
+# 
+msgid "Show / Hide statistics"
+msgstr "Show / Hide statistics"
+
+# 
+msgid "Use this selector to switch between Live and Pre-match games"
+msgstr "실시간 그리고 프리메치 게임으로 바꾸기 위해 이 선택장치를 사용하세요"
+
+# 
+msgid "click to switch to pre-match"
+msgstr "프리 메치로 변경하기 위하여 클릭하세요"
+
+# 
+msgid "live"
+msgstr "살다"
+
+# 
+msgid "click to swicth to Live games"
+msgstr "실시간 게임으로 변경하기 위해 클릭하세요"
+
+# 
+msgid "Switch to"
+msgstr "변경하기"
+
+# 
+msgid "Select sport"
+msgstr "스포츠 선택"
+
+# 
+msgid "Remove All from Favorites"
+msgstr "좋아하는 게임 목록 제거하기"
+
+# 
+msgid "Remove from My Games"
+msgstr "내 게임에서 제거"
+
+# 
+msgid "Add to My Games"
+msgstr "내 게임에 경기등록"
+
+# 
+msgid "Phone only market"
+msgstr "모바일 버전"
+
+# 
+msgid "To place a bet, please call"
+msgstr "베팅을 원하시면 전화하세요"
+
+# 
+msgid "statistic"
+msgstr "경기 분석"
+
+# 
+msgid "There may be a Rule 4 on this Race"
+msgstr "There may be a Rule 4 on this Race"
+
+# 
+msgid "Win Only"
+msgstr "Win Only"
+
+# 
+msgid "show more"
+msgstr "더 보기"
+
+# 
+msgid "show"
+msgstr "보이기"
+
+# 
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+
+# 
+msgid "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+msgstr "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+
+# 
+msgid "Today at"
+msgstr "오늘은"
+
+# 
+msgid "Course"
+msgstr "과정"
+
+# 
+msgid "Winner"
+msgstr "Winner"
+
+# 
+msgid "Handicap"
+msgstr "Handicap"
+
+# 
+msgid "Tie"
+msgstr "Tie"
+
+# 
+msgid "Odds"
+msgstr "Odds"
+
+# 
+msgid "Full Time"
+msgstr "Full Time"
+
+# 
+msgid "1st Goal"
+msgstr "1st Goal"
+
+# 
+msgid "Last Goal"
+msgstr "Last Goal"
+
+# 
+msgid "None"
+msgstr "없음"
+
+# 
+msgid "ODD"
+msgstr "ODD"
+
+# 
+msgid "EVEN"
+msgstr "EVEN"
+
+# 
+msgid "Full Time 1X2"
+msgstr "Full Time 1X2"
+
+# 
+msgid "Half Time 1X2"
+msgstr "Half Time 1X2"
+
+# 
+msgid "Order by Time"
+msgstr "Order by Time"
+
+# 
+msgid "Back"
+msgstr "Back"
+
+# 
+msgid "HongKong"
+msgstr "HongKong"
+
+# 
+msgid "Malay"
+msgstr "Malay"
+
+# 
+msgid "Indo"
+msgstr "Indo"
+
+# 
+msgid "Date Filter"
+msgstr "Date Filter"
+
+# 
+msgid "Select competition"
+msgstr "Select competition"
+
+# 
+msgid "Event View"
+msgstr "Event View"
+
+# 
+msgid "Live Overview"
+msgstr "Live Overview"
+
+# 
+msgid "Live MultiView"
+msgstr "Live MultiView"
+
+# 
+msgid "Live Calendar"
+msgstr "Live Calendar"
+
+# 
+msgid "Statistics"
+msgstr "Statistics"
+
+# 
+msgid "Toggle inner scrolling"
+msgstr "Toggle inner scrolling"
+
+# 
+msgid "My games"
+msgstr "내가 선택한 경기"
+
+# 
+msgid "My bets"
+msgstr "베팅 내역"
+
+# 
+msgid "Time format"
+msgstr "시간대 설정"
+
+# 
+msgid "12 hours"
+msgstr "12 시간"
+
+# 
+msgid "24 hours"
+msgstr "24 시간"
+
+# 
+msgid "Sportsbook layout:"
+msgstr "스포츠북 타입"
+
+# 
+msgid "Modern"
+msgstr "모던"
+
+# 
+msgid "Classic"
+msgstr "클래식"
+
+# 
+msgid "Asian"
+msgstr "Asian"
+
+# 
+msgid "Betting"
+msgstr "베팅"
+
+# 
+msgid "Booking"
+msgstr "예약"
+
+# 
+msgid "bet slip"
+msgstr "베팅 슬립"
+
+# 
+msgid "Betting options"
+msgstr "베팅 옵션"
+
+# 
+msgid "Automatically accept price changes"
+msgstr "자동으로 금액변경 설정하기"
+
+# 
+msgid "Higher odds"
+msgstr "높은 배당"
+
+# 
+msgid "Any odds"
+msgstr "모든 배당"
+
+# 
+msgid "Quick bet"
+msgstr "빠른 베팅"
+
+# 
+msgid "Your bet is accepted."
+msgstr "당신의 내기는 수락되었습니다."
+
+# 
+msgid "To select a bet, please click on any odd."
+msgstr "베팅을 하기위해, 원하시는 경기의 베당을 선택해주세요."
+
+# 
+msgid "Click on any odd to place a bet."
+msgstr "내기 하기 위해 클릭하세요."
+
+# 
+msgid "Single only"
+msgstr "단폴더 베팅만 가능"
+
+# 
+msgid "Event Locked"
+msgstr "이벤트 락"
+
+# 
+msgid "This event is not available now"
+msgstr "이 이벤트는 현재 이용이 불가능합니다."
+
+# 
+msgid "This pick cannot be combined with:"
+msgstr "해당 이벤트는 단폴로만 베팅이 가능합니다."
+
+# 
+msgid "delete"
+msgstr "삭제"
+
+# 
+msgid " Pick: "
+msgstr "선택"
+
+# 
+msgid "Unit Stake"
+msgstr "유닛 내기"
+
+# 
+msgid "Stake..."
+msgstr "내기..."
+
+# 
+msgid "Repeat for all"
+msgstr "모두 반복하기"
+
+# 
+msgid "Win:"
+msgstr "승리:"
+
+# 
+msgid "Superbet"
+msgstr "슈퍼벳"
+
+# 
+msgid "Superbet is turned ON"
+msgstr "Superbet is turned ON"
+
+# 
+msgid "SuperBet is a new offer that allows requesting a Max Bet Limit Increase for selected sporting events."
+msgstr "SuperBet is a new offer that allows requesting a Max Bet Limit Increase for selected sporting events."
+
+# 
+msgid "Booking ID:"
+msgstr "예약 아이디:"
+
+# 
+msgid "Stake amount"
+msgstr "베팅 금액"
+
+# 
+msgid "Possible win:"
+msgstr "가능한 이김:"
+
+# 
+msgid "Bonus:"
+msgstr "보너스:"
+
+# 
+msgid "Total win:"
+msgstr "최종 승리:"
+
+# 
+msgid "Invalid stake amount entered"
+msgstr "잘못된 금액입력"
+
+# 
+msgid "Please enter stake amount"
+msgstr "베팅금액을 입력하세요"
+
+# 
+msgid "Insufficient balance"
+msgstr "충분하지 않는 잔액"
+
+# 
+msgid "You have to accept changes to be able to place bets"
+msgstr "베팅을 하기 위해서 변경 사항을 받아드려야 합니다"
+
+# 
+msgid "Get bet ID"
+msgstr "베팅 아이디 받기"
+
+# 
+msgid "Add more events to be able to place bet"
+msgstr "베팅을 하기 위해 더 많은 이벤트 추가하기"
+
+# 
+msgid "There are locked events"
+msgstr "베팅이 불가능한 이벤트가 있습니다"
+
+# 
+msgid "Incompatible events"
+msgstr "양립 할 수 없는 이벤트"
+
+# 
+msgid "There are deleted events"
+msgstr "삭제된 이벤트가 있습니다"
+
+# 
+msgid "Market base for some events have changed"
+msgstr "몇몇의 이벤트를 위한 마켓 베이스는 변경되었습니다"
+
+# 
+msgid "Single Only Events"
+msgstr "단폴베팅만 가능한 이벤트"
+
+# 
+msgid "Prices for some events have changed"
+msgstr "몇몇의 이벤트 금액이 변경 되었습니다"
+
+# 
+msgid "Multi-selection mode"
+msgstr "조합베팅 선택 모드"
+
+# 
+msgid "Disable regions"
+msgstr "지역으로 그룹 나누기"
+
+# 
+msgid "With video"
+msgstr "비디오 추가"
+
+# 
+msgid "Daily coupon"
+msgstr "Daily coupon"
+
+# 
+msgid "For upcoming races please look in Live betting"
+msgstr "다가오는 경주를 위해 실시간 내기를 보세요"
+
+# 
+msgid "Selected games"
+msgstr "선택한 게임"
+
+# 
+msgid "Clear All"
+msgstr "모두 지우기"
+
+# 
+msgid "Trainer/Jockey"
+msgstr "트레이너/기수"
+
+# 
+msgid "Age"
+msgstr "나이"
+
+# 
+msgid "Weight"
+msgstr "몸무게"
+
+# 
+msgid "Form"
+msgstr "부터"
+
+# 
+msgid "We are not accepting bets on this event at the moment."
+msgstr "We are not accepting bets on this event at the moment."
+
+# 
+msgid "Clear"
+msgstr "Clear"
+
+# 
+msgid "Payment Requests Withdrawal"
+msgstr "출금진행상태"
+
+# 
+msgid "Confirm"
+msgstr "확인"
+
+# 
+msgid "1. The minimum withdrawal amount 10,000 KRW."
+msgstr "1. The minimum withdrawal amount 10,000 KRW."
+
+# 
+msgid "2. Withdrawal can only be made from registered accounts."
+msgstr "2. Withdrawal can only be made from registered accounts."
+
+# 
+msgid "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+msgstr "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+
+# 
+msgid "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+msgstr "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+
+# 
+msgid "5. If you want a quick withdrawal, please use the above time away."
+msgstr "5. 빠른 출금을 원하시면 위의 시간은 피해서 이용해 주시기 바랍니다."
+
+# 
+msgid "Payment Requests Deposit"
+msgstr "입금진행상태"
+
+# 
+msgid "1. The minimum deposit amount is 10,000 KRW."
+msgstr "1. The minimum deposit amount is 10,000 KRW."
+
+# 
+msgid "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+msgstr "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+
+# 
+msgid "3. Please always check deposit bank account from time to time."
+msgstr "3. Please always check deposit bank account from time to time."
+
+# 
+msgid "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+msgstr "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+
+# 
+msgid "SKILL GAMES"
+msgstr "스킬게임"
+
+# 
+msgid "DOWNLOAD"
+msgstr "다운로드"
+
+# 
+msgid "logo"
+msgstr "로고"
+
+# 
+msgid "back to top"
+msgstr "위로가기"
+
+# 
+msgid "Number Drawn Today"
+msgstr "Number Drawn Today"
+
+# 
+msgid "Get Started"
+msgstr "Get Started"
+
+# 
+msgid "Phone"
+msgstr "휴대폰"
+
+# 
+msgid "Ticket Number"
+msgstr "티켓 번호"
+
+# 
+msgid "Tournaments"
+msgstr "토너먼트"
+
+# 
+msgid "Poker Leaderboard"
+msgstr "Poker Leaderboard"
+
+# 
+msgid "Show All"
+msgstr "Show All"
+
+# 
+msgid "FIFA WORLD CUP"
+msgstr "피파 월드컵"
+
+# 
+msgid "years"
+msgstr "년"
+
+# 
+msgid "months"
+msgstr "달"
+
+# 
+msgid "days"
+msgstr "일"
+
+# 
+msgid "hours"
+msgstr "시간"
+
+# 
+msgid "minutes"
+msgstr "분"
+
+# 
+msgid "seconds"
+msgstr "초"
+
+# 
+msgid "Select a Sport "
+msgstr "스포츠 선택하기"
+
+# 
+msgid "Place A bet!"
+msgstr "내기 하세요!"
+
+# 
+msgid "Poker Tournament"
+msgstr "포커 토너먼트"
+
+# 
+msgid "Biggest tournament of this year."
+msgstr "이번년도의 가장 큰 토너먼트"
+
+# 
+msgid "Bet now!"
+msgstr "지금 베팅하세요!"
+
+# 
+msgid "Live now"
+msgstr "실시간"
+
+# 
+msgid "Live news"
+msgstr "실시간 뉴스"
+
+# 
+msgid "All news"
+msgstr "All news"
+
+# 
+msgid "Eastern"
+msgstr "Eastern"
+
+# 
+msgid "OGWIL"
+msgstr "텍사스 사다리"
+
+# 
+msgid "Don't show this again."
+msgstr "이것 다시 보이지 않기."
+
+# 
+msgid "Event sounds:"
+msgstr "이벤트 사운드:"
+
+# 
+msgid "On"
+msgstr "켜기"
+
+# 
+msgid "Off"
+msgstr "끄기"
+
+# 
+msgid "Hide:"
+msgstr "숨기기:"
+
+# 
+msgid "Choose color scheme:"
+msgstr "색 구성 설정:"
+
+# 
+msgid "FAQ"
+msgstr "자주 묻는 질문"
+
+# 
+msgid "My messages"
+msgstr "내 메세지"
+
+# 
+msgid "Log Out"
+msgstr "로그아웃"
+
+# 
+msgid "deposit_info_skrill_1tap"
+msgstr "입금_정보_돈_1텝"
+
+# 
+msgid "deposit_info_skrill"
+msgstr "입금_정보_돈"
+
+# 
+msgid "withdraw_info_skrill"
+msgstr "출금_정보_돈"
+
+# 
+msgid "deposit_info_webmoney"
+msgstr "입금_정보_웹머니"
+
+# 
+msgid "withdraw_info_webmoney"
+msgstr "출금_정보_웹머니"
+
+# 
+msgid "Purse"
+msgstr "지갑"
+
+# 
+msgid "deposit_info_qiwi"
+msgstr "입금_정보_키위"
+
+# 
+msgid "withdraw_info_qiwi"
+msgstr "출금_정보_키위"
+
+# 
+msgid "Wallet id"
+msgstr "지갑 아이디"
+
+# 
+msgid "deposit_info_neteller"
+msgstr "입금_정보_넷텔러"
+
+# 
+msgid "withdraw_info_neteller"
+msgstr "출금_정보_넷텔러"
+
+# 
+msgid "Account Id"
+msgstr "계좌 아이디"
+
+# 
+msgid "Secure Id"
+msgstr "보안 아이디"
+
+# 
+msgid "deposit_info_moneta"
+msgstr "입금_정보_모네타"
+
+# 
+msgid "withdraw_info_moneta"
+msgstr "출금_정보_모네타"
+
+# 
+msgid "deposit_info_ecocard"
+msgstr "입금_정보_에코카드"
+
+# 
+msgid "withdraw_info_ecocard"
+msgstr "출금_정보_에코카드"
+
+# 
+msgid "deposit_info_ukash"
+msgstr "입금_정보_유카시"
+
+# 
+msgid "withdraw_info_ukash"
+msgstr "출금_정보_유카시"
+
+# 
+msgid "deposit_info_cash"
+msgstr "입금_정보_캐시"
+
+# 
+msgid "deposit_info_bitcoin"
+msgstr "deposit_info_빛코인"
+
+# 
+msgid "deposit_info_cashbill"
+msgstr "입금_정보_캐시빌"
+
+# 
+msgid "deposit_info_arca"
+msgstr "입금_정보_에라카"
+
+# 
+msgid "withdraw_info_arca"
+msgstr "출금_정보_에라카"
+
+# 
+msgid "Last name/surname, name, middle name"
+msgstr "성/성, 이름, 가운데 이름"
+
+# 
+msgid "deposit_info_edram"
+msgstr "입금_정보_에드람"
+
+# 
+msgid "withdraw_info_edram"
+msgstr "출금_정보_에드람"
+
+# 
+msgid "withdraw_info_cash"
+msgstr "출금_정보_캐시"
+
+# 
+msgid "deposit_info_telcell"
+msgstr "입금_정보_테셀"
+
+# 
+msgid "deposit_info_tandem"
+msgstr "입금_정보_텐뎀"
+
+# 
+msgid "deposit_info_btabank"
+msgstr "입금_정보_베타뱅크"
+
+# 
+msgid "deposit_info_mobidram"
+msgstr "입금_정보_모비드람"
+
+# 
+msgid "deposit_info_paytopay"
+msgstr "입금_정보_페이투페이"
+
+# 
+msgid "withdraw_info_topoker"
+msgstr "출금_정보_탑포커"
+
+# 
+msgid "deposit_info_card"
+msgstr "입금_정보_카드"
+
+# 
+msgid "PinCode"
+msgstr "비밀번호"
+
+# 
+msgid "x_card_num"
+msgstr "x_card_num"
+
+# 
+msgid "x_card_code"
+msgstr "x_card_code"
+
+# 
+msgid "x_exp_date_yy"
+msgstr "x_exp_date_yy"
+
+# 
+msgid "withdraw_info_astropay"
+msgstr "출금_info_아스트로페이"
+
+# 
+msgid "Credit Card Number"
+msgstr "Credit Card Number"
+
+# 
+msgid "Expiration Year"
+msgstr "Expiration Year"
+
+# 
+msgid "Expiration Month"
+msgstr "Expiration Month"
+
+# 
+msgid "Card Holder Name"
+msgstr "Card Holder Name"
+
+# 
+msgid "Card Number"
+msgstr "Card Number"
+
+# 
+msgid "Card code"
+msgstr "Card code"
+
+# 
+msgid "Expiry date (mm)"
+msgstr "Expiry date (mm)"
+
+# 
+msgid "Expiry date (yyyy)"
+msgstr "Expiry date (yyyy)"
+
+# 
+msgid "deposit_info_wirecard"
+msgstr "입금_정보_와이어카드"
+
+# 
+msgid "CardNumber"
+msgstr "카드 번호"
+
+# 
+msgid "CardHolderName"
+msgstr "카드 주인 이름"
+
+# 
+msgid "ExpirationYear"
+msgstr "만료 년"
+
+# 
+msgid "ExpirationMonth"
+msgstr "만료 달"
+
+# 
+msgid "Cvc2"
+msgstr "CVC2"
+
+# 
+msgid "deposit_info_bankform"
+msgstr "deposit_info_bankform"
+
+# 
+msgid "IBAN"
+msgstr "IBAN"
+
+# 
+msgid "SWIFT"
+msgstr "SWIFT"
+
+# 
+msgid "withdraw_info_bankform"
+msgstr "출금_info_뱅크포럼"
+
+# 
+msgid "deposit_info_moneysafe"
+msgstr "입금_정보_돈안전"
+
+# 
+msgid "Code"
+msgstr "코드"
+
+# 
+msgid "withdraw_info_tovivaropet"
+msgstr "출금_정보_토비바로펫"
+
+# 
+msgid "deposit_info_eblontransfer"
+msgstr "입금_정보_에보론트렌스퍼"
+
+# 
+msgid "withdraw_info_eblontransfer"
+msgstr "출금_정보_에보론트렌스퍼"
+
+# 
+msgid "CustomerID"
+msgstr "손님 아이디"
+
+# 
+msgid "casino_auth_error"
+msgstr "We're experiencing temporary difficulties. Please try a little later."
+
+# 
+msgid "Sorry, this game cannot be opened in multi-view mode"
+msgstr "죄송합니다, 이 게음은 다수의 관점 모드에서 열려 질 수 없습니다"
+
+# 
+msgid "This Game Is Already Opened In Multi Game View. Please Choose Another Game."
+msgstr "이 게임은 아미 다수의 게임 전망에서 열려져 있습니다. 다른 게임을 선택하세요."
+
+# 
+msgid "It Is Possible To Play Only One Game Of The Same Provider In Multi Game View. Please Choose Another Game."
+msgstr "다수의 게임 전망에서 제공자의 하나의 게임을 하는 것이 가능합니다. 다른 게임을 선택하여 주세요."
+
+# 
+msgid "Please close one of the games for adding new one"
+msgstr "다른 새로운 것을 더하기 위해 하나의 게임을 닫으세요"
+
+# 
+msgid "The game is not available"
+msgstr "The game is not available"
+
+# 
+msgid "Home"
+msgstr "홈"
+
+# 
+msgid "message_OK"
+msgstr "메세지_네"
+
+# 
+msgid "Virtual sports"
+msgstr "버추어 스포츠"
+
+# 
+msgid "More sports"
+msgstr "More sports"
+
+# 
+msgid "Popular competitions"
+msgstr "Popular competitions"
+
+# 
+msgid "Your Facebook account is already linked to another existing user."
+msgstr "당신의 페이스북 계정은 이미 다른 사용자와 연결 되었습니다."
+
+# 
+msgid "Unknown error"
+msgstr "알수 없는 오류"
+
+# 
+msgid "Come play on "
+msgstr "시작하기"
+
+# 
+msgid "Password changed"
+msgstr "비밀번호 변경"
+
+# 
+msgid "Personal information updated."
+msgstr "개인 정보가 업데이트 되었습니다."
+
+# 
+msgid "Invalid password."
+msgstr "잘못된 비밀번호."
+
+# 
+msgid "Deposit limits set."
+msgstr "입금제한 설정."
+
+# 
+msgid "Self-Exclusion period set."
+msgstr "계정 차단기간 설정"
+
+# 
+msgid "New Bets"
+msgstr "새로운 베팅"
+
+# 
+msgid "Winning Bets"
+msgstr "적중내역"
+
+# 
+msgid "Returned Bet"
+msgstr "베팅 취소"
+
+# 
+msgid "Card Deposit"
+msgstr "카드 입금"
+
+# 
+msgid "Bonus Bet"
+msgstr "보너스 베팅"
+
+# 
+msgid "Commission"
+msgstr "수수료"
+
+# 
+msgid "Withdrawal"
+msgstr "출금"
+
+# 
+msgid "Correction"
+msgstr "수정"
+
+# 
+msgid "Deposit by payment system"
+msgstr "??"
+
+# 
+msgid "Withdrawal request"
+msgstr "출금 신청"
+
+# 
+msgid "Authorized Withdrawal"
+msgstr "??"
+
+# 
+msgid "Withdrawal denied"
+msgstr "출금 취소"
+
+# 
+msgid "Withdrawal paid"
+msgstr "출금 완료"
+
+# 
+msgid "Pool Bet"
+msgstr "여럿이 어울려 내기"
+
+# 
+msgid "Pool Bet Win"
+msgstr "여럿이 어울려 내기 승리"
+
+# 
+msgid "Pool Bet Return"
+msgstr "여럿이 어율러 내기 돌아옴"
+
+# 
+msgid "In the process of revision"
+msgstr "In the process of revision"
+
+# 
+msgid "Removed for recalculation"
+msgstr "Removed for recalculation"
+
+# 
+msgid "Free Bet Bonus received"
+msgstr "Free Bet Bonus received"
+
+# 
+msgid "Wagering Bonus received"
+msgstr "Wagering Bonus received"
+
+# 
+msgid "Transfer from Gaming Wallet"
+msgstr "Transfer from Gaming Wallet"
+
+# 
+msgid "Transfer to Gaming Wallet"
+msgstr "Transfer to Gaming Wallet"
+
+# 
+msgid "Declined Superbet"
+msgstr "Declined Superbet"
+
+# 
+msgid "Bet on hold"
+msgstr "Bet on hold"
+
+# 
+msgid "Bet cashout"
+msgstr "Bet cashout"
+
+# 
+msgid "Fair"
+msgstr "정당한"
+
+# 
+msgid "Fair Win"
+msgstr "정당한 승리"
+
+# 
+msgid "Fair Return"
+msgstr "정당한 돌아옴"
+
+# 
+msgid "Tip"
+msgstr "팁"
+
+# 
+msgid "Error"
+msgstr "오류"
+
+# 
+msgid "Your E-mail Has been confirmed"
+msgstr "Your E-mail Has been confirmed"
+
+# 
+msgid "You account has been locked. Please try again later !"
+msgstr "You account has been locked. Please try again later !"
+
+# 
+msgid "Invalid email"
+msgstr "Invalid email"
+
+# 
+msgid "Upcoming"
+msgstr "다가오는"
+
+# 
+msgid "Popular"
+msgstr "인기있는"
+
+# 
+msgid "Favorite games"
+msgstr "좋아하는 게임"
+
+# 
+msgid "Unsupported service"
+msgstr "지원하지 않는 서비스"
+
+# 
+msgid "Currency unsupported"
+msgstr "통화가 지원되지 않습니다."
+
+# 
+msgid "Amount is less than minimum allowed"
+msgstr "최소 베팅가능 금액보다 낮습니다."
+
+# 
+msgid "Amount is greater than maximum allowed"
+msgstr "최대 베팅가능 금액보다 높습니다."
+
+# 
+msgid "Entered payee information is not correct."
+msgstr "입력된 수취인은 맞지 않습니다."
+
+# 
+msgid "Entered payer information is not correct."
+msgstr "입력된 회원정보가 맞지 않습니다."
+
+# 
+msgid "Internal service fault"
+msgstr "서비스 실패"
+
+# 
+msgid "Withdraw request blocked."
+msgstr "출금신청이 취소되었습니다."
+
+# 
+msgid "User link blocked, please contact support."
+msgstr "사용자 링크는 막혔습니다, 고객센터에 문의하세요."
+
+# 
+msgid "Day limit reached. Please try later."
+msgstr "제한되었습니다. 잠시후 시도하세요."
+
+# 
+msgid "Withdraw request is already in progress"
+msgstr "출금신청 진행중"
+
+# 
+msgid "Withdrawal was successful."
+msgstr "출금 완료"
+
+# 
+msgid "Withdraw failed."
+msgstr "출금신청 취소"
+
+# 
+msgid "There was an error processing your request."
+msgstr "당신의 요구를 진행하는데 오류가 있었습니다."
+
+# 
+msgid "Withdrawal was successful"
+msgstr "출금 완료"
+
+# 
+msgid "Deposit was successful."
+msgstr "입금 완료"
+
+# 
+msgid "Deposit failed."
+msgstr "입금 취소"
+
+# 
+msgid "Your transfer is successfully completed"
+msgstr "입금 완료"
+
+# 
+msgid "Internal Error"
+msgstr "오휴"
+
+# 
+msgid "Invalid RFID card"
+msgstr "무효한 RFID 카드"
+
+# 
+msgid "Invalid Password"
+msgstr "비밀번호가 맞지 않습니다\n"
+
+# 
+msgid "Please put your RFID card on card reader"
+msgstr "당신의 카드 리더의 RFID 카드를 입력하세요"
+
+# 
+msgid "LiveCalendar"
+msgstr "실시간 경기 목록"
+
+# 
+msgid "Favorites"
+msgstr "Favorites"
+
+# 
+msgid "Live calendar"
+msgstr "Live calendar"
+
+# 
+msgid "Virtual Betting"
+msgstr "버추어 베팅"
+
+# 
+msgid "Keno"
+msgstr "키노"
+
+# 
+msgid "Connection lost. Reconnecting."
+msgstr "연결이 중단 되었습니다. 다시 연결중."
+
+# 
+msgid "Connection restored"
+msgstr "연결이 복구되었습니다"
+
+# 
+msgid "In progress"
+msgstr "진행중"
+
+# 
+msgid "Blocked"
+msgstr "취소"
+
+# 
+msgid "Calculating wins"
+msgstr "계산적인 승리"
+
+# 
+msgid "Closed"
+msgstr "닫힘"
+
+# 
+msgid "Wrong phone number"
+msgstr "잘못된 모바일 번호"
+
+# 
+msgid "Invalid verification code"
+msgstr "잘못된 확인코드"
+
+# 
+msgid "Code has been sent, please check your mobile phone"
+msgstr "코드가 발송되었습니다, 당신의 휴대폰을 확인하세요"
+
+# 
+msgid "APPROVED BET"
+msgstr "승인된 베팅"
+
+# 
+msgid "YOUR BET HAS BEEN APPROVED"
+msgstr "베팅이 승인되었습니다"
+
+# 
+msgid "DECLINED BET"
+msgstr "거절된 베팅"
+
+# 
+msgid "YOUR BET HAS BEEN DECLINED"
+msgstr "베팅이 거절되었습니다"
+
+# 
+msgid "Message sent"
+msgstr "메세지가 보내졌습니다"
+
+# 
+msgid "Cannot play this video in your region."
+msgstr "해당지역은 시청이 불가능합니다."
+
+# 
+msgid "Cannot play video stream.Sorry."
+msgstr "중계를 전송할 수 없습니다.죄송합니다."
+
+# 
+msgid "Done"
+msgstr "끝"
+
+# 
+msgid "Next"
+msgstr "다음"
+
+# 
+msgid "Previous"
+msgstr "이전"
+
+# 
+msgid "Skip"
+msgstr "넘기기"
+
+# 
+msgid "Press Ctrl + C to copy link address to clipboard"
+msgstr "클립보드에 링크주소를 복사하기 위해 Ctrl + C를 누르세요"
+
+# 
+msgid "Feedback"
+msgstr "피드백"
+
+# 
+msgid "Live Lottery"
+msgstr "실시간 복권"
+
+# 
+msgid "Download Beta version"
+msgstr "다운로드 베타 버전"
+
+# 
+msgid "Armenian"
+msgstr "아메리칸"
+
+# 
+msgid "online"
+msgstr "온라인"
+
+# 
+msgid "Championship"
+msgstr "챔피언쉽"
+
+# 
+msgid "season"
+msgstr "시즌"
+
+# 
+msgid "choose your os"
+msgstr "운영체제  선택"
+
+# 
+msgid "poker_requirements_linux"
+msgstr "포커_요구사항_리눅스"
+
+# 
+msgid "poker_download_description_linux"
+msgstr "포커_다운로드_기술_리눅스"
+
+# 
+msgid "3 Steps To start the game"
+msgstr "3 Steps To start the game"
+
+# 
+msgid "Start"
+msgstr "시작"
+
+# 
+msgid "Download and Install"
+msgstr "Download and Install"
+
+# 
+msgid "Register your account"
+msgstr "회원가입"
+
+# 
+msgid "Start to Play"
+msgstr "시작하기"
+
+# 
+msgid "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+msgstr "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+
+# 
+msgid "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+msgstr "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+
+# 
+msgid "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+msgstr "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+
+# 
+msgid "Note:"
+msgstr "메모:"
+
+# 
+msgid "You can change the layout of the sportsbook in the settings."
+msgstr "당신은 설정에서 스포츠북의 배치를 바꿀 수 있습니다."
+
+# 
+msgid "Please note:"
+msgstr "주목하세요:"
+
+# 
+msgid "If previous deposit limits are increased, you must wait 24 hours until changes take effect."
+msgstr "만약 전의 입금 제한이 증가 했으면, 당신은 변화가 영향을 주기까지 24시간 기달려야 합니다."
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome "
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome "
+
+# 
+msgid "Turn on sound from settings"
+msgstr "설정에서 사운드를 켜세요"
+
+# 
+msgid "Popular games"
+msgstr "Popular games"
+
+# 
+msgid "Leaderboard"
+msgstr "Leaderboard"
+
+# 
+msgid "Come play on"
+msgstr "Come play on"
+
+# 
+msgid "Enter number"
+msgstr "Enter number"
+
+# 
+msgid "Points:"
+msgstr "포인트:"
+
+# 
+msgid "Account"
+msgstr "지갑"
+
+# 
+msgid "Quarters"
+msgstr "쿼터"
+
+# 
+msgid "Innings"
+msgstr "배팅 기회"
+
+# 
+msgid "Periods"
+msgstr "기간"
+
+# 
+msgid "Sets"
+msgstr "세트"
+
+# 
+msgid "Play Now"
+msgstr "Play Now"
+
+# 
+msgid "AOC"
+msgstr "AOC"
+
+# 
+msgid "Free Quiz"
+msgstr "무료 베팅"
+
+# 
+msgid "Promotions"
+msgstr "이벤트"
+
+# 
+msgid "Life tournament"
+msgstr "라이프 토너먼트"
+
+# 
+msgid "for our users"
+msgstr "for our users"
+
+# 
+msgid "system "
+msgstr "시스템"
+
+# 
+msgid "Middle"
+msgstr "중간"
+
+# 
+msgid "Jan"
+msgstr "1월"
+
+# 
+msgid "Feb"
+msgstr "2월"
+
+# 
+msgid "Mar"
+msgstr "3월"
+
+# 
+msgid "Apr"
+msgstr "4월"
+
+# 
+msgid "May"
+msgstr "5월"
+
+# 
+msgid "Jun"
+msgstr "6월"
+
+# 
+msgid "Jul"
+msgstr "7월"
+
+# 
+msgid "Aug"
+msgstr "8월"
+
+# 
+msgid "Sep"
+msgstr "9월"
+
+# 
+msgid "Oct"
+msgstr "10월"
+
+# 
+msgid "Nov"
+msgstr "11월"
+
+# 
+msgid "Dec"
+msgstr "12월"
+
+# 
+msgid "Gender "
+msgstr "성별"
+
+# 
+msgid "This field can contain only digits and letters"
+msgstr "숫자와 문자를 포함합니다"
+
+# 
+msgid "Username "
+msgstr "아이디"
+
+# 
+msgid "Password is too short"
+msgstr "비밀번호가 너무 짧습니다"
+
+# 
+msgid "Confirm Password"
+msgstr "비밀번호 확인"
+
+# 
+msgid "Registration on this site is not permitted in selected country."
+msgstr "해당 거주국가에서는 사이트 이용이 불가능합니다."
+
+# 
+msgid "You can register here:"
+msgstr "회원가입:"
+
+# 
+msgid "Country code is not correct"
+msgstr "국가 코드가 맞지 않습니다"
+
+# 
+msgid "Failed to send sms"
+msgstr "문자발송 실패"
+
+# 
+msgid "Field can contain only digits"
+msgstr "숫자만 포함합니다"
+
+# 
+msgid "SMS Code"
+msgstr "SMS 코드"
+
+# 
+msgid "Promo code"
+msgstr "가입 코드"
+
+# 
+msgid "Security question"
+msgstr "보안 질문"
+
+# 
+msgid "Security answer"
+msgstr "보안 질문 답"
+
+# 
+msgid "I would like to receive information about bonuses and new offers via email."
+msgstr "이메일을 통하여 보너스나 새로운 이벤트 제공에 관한 정보를 받고 싶습니다."
+
+# 
+msgid "I would like to receive information about bonuses and new offers via SMS"
+msgstr "SMS를 통하여 보너스나 새로운 이벤트 제공에 관한 정보를 얻고 싶습니다"
+
+# 
+msgid "Register also for poker."
+msgstr "포커게임 가입하기."
+
+# 
+msgid "Video roundups"
+msgstr "비디오 모으기"
+
+# 
+msgid "Popular bets"
+msgstr "인기있는 베팅"
+
+# 
+msgid "Use your "
+msgstr "Use your "
+
+# 
+msgid "Deberc"
+msgstr "데베르크"
+
+# 
+msgid "deposit_info_yandex"
+msgstr "deposit_info_yandex"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome"
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome"
+
+# 
+msgid "I would like to subscribe for email updates and offers from this site."
+msgstr "이메일 업데이트와 이 사이트로 부터의 정보제공에 관한 구독을 원한다."
+
+# 
+msgid "What was the name of your first pet?"
+msgstr "당신의 첫번째 애완견의 이름은 무엇입니까?"
+
+# 
+msgid "What age were you when you went to school?"
+msgstr "학교를 몇 살 때 갔습니까?"
+
+# 
+msgid "What was the name of the city you were born in?"
+msgstr "당신이 태어난 도시의 이름은 무엇입니까?"
+
+# 
+msgid "What was then number of your school?"
+msgstr "What was then number of your school?"
+
+# 
+msgid "What was then name of your first love?"
+msgstr "What was then name of your first love?"
+
+# 
+msgid "What was the make and model of your first car?"
+msgstr "당신의 첫번째 자동차의 제품과 모델은 무엇이었습니까?"
+
+# 
+msgid "deposit_info_centili"
+msgstr "입금_정보_센티리터"
+
+# 
+msgid "BET_APPROVED_TITLE"
+msgstr "베팅_승인된_제목"
+
+# 
+msgid "BET_DECLINED_TITLE"
+msgstr "베팅_거절된_제목"
+
+# 
+msgid "BET_DECLINED_MESSAGE"
+msgstr "베팅_거절된_메세지"
+
+# 
+msgid "Horse Age"
+msgstr "말 나이"
+
+# 
+msgid "Jockey Weight"
+msgstr "기수 몸무게"
+
+# 
+msgid "Trainer/Jokey"
+msgstr "트레이너/기수"
+
+# 
+msgid "Coming soon"
+msgstr "다가오는"
+
+# 
+msgid "You have exited website, but your page on odnoklassniki.ru is still active."
+msgstr "당신은 웹사이트에서 나갔습니다, 하지만 당신의 오드노클라스니키 페이지는 아직 활동적입니다."
+
+# 
+msgid "Game is temporarily locked"
+msgstr "게임은 임시적으로 폐쇄되었습니다"
+
+# 
+msgid "Ranking table"
+msgstr "랭킹표"
+
+# 
+msgid "Continue"
+msgstr "계속하기"
+
+# 
+msgid "Coating"
+msgstr "코칭"
+
+# 
+msgid "Hide Balance"
+msgstr "보유금 숨기기"
+
+# 
+msgid "Show Balance"
+msgstr "보유금 보이기"
+
+# 
+msgid "Show Username"
+msgstr "아이디 보이기"
+
+# 
+msgid "Hide Username"
+msgstr "아이디 숨기기"
+
+# 
+msgid "Hide statistics"
+msgstr "통계 숨기기"
+
+# 
+msgid "Show statistics"
+msgstr "통계 보이기"
+
+# 
+msgid "Profile"
+msgstr "프로필"
+
+# 
+msgid "username"
+msgstr "아이디"
+
+# 
+msgid "balance"
+msgstr "보유금"
+
+# 
+msgid "help"
+msgstr "Help"
+
+# 
+msgid "single"
+msgstr "단폴 베팅"
+
+# 
+msgid "Live Dealer"
+msgstr "실시간 딜러"
+
+# 
+msgid "Invite"
+msgstr "초대하기"
+
+# 
+msgid "Sign up with your Facebook account"
+msgstr "페이스북 계정으로 가입하세요"
+
+# 
+msgid "Username(in case you'll want to login without facebook)"
+msgstr "사용자이름(당신이 페이스북 없이 로그인 하고 싶을 경우를 위해)"
+
+# 
+msgid "withdraw_info_wirecard"
+msgstr "출금_정보_와이어카드"
+
+# 
+msgid "Turf"
+msgstr "잔디"
+
+# 
+msgid "Dirt"
+msgstr "먼지"
+
+# 
+msgid "Polytrack"
+msgstr "폴리트랙"
+
+# 
+msgid "yards"
+msgstr "야드"
+
+# 
+msgid "Sound:"
+msgstr "사운드:"
+
+# 
+msgid "Part of bet placed from bonus."
+msgstr "보너스 베팅"
+
+# 
+msgid "Live chat / FAQ"
+msgstr "실시간 채팅 / 많이 물어보는 질문"
+
+# 
+msgid "id:"
+msgstr "아이디:"
+
+# 
+msgid "DEMO MODE"
+msgstr "데모 모드"
+
+# 
+msgid "Exchange"
+msgstr "교체하기"
+
+# 
+msgid "Duplicate product"
+msgstr "상품 복제하기"
+
+# 
+msgid "Wrong Password"
+msgstr "잘못된 비밀번호"
+
+# 
+msgid "Wrong Amount"
+msgstr "잘못된 계정"
+
+# 
+msgid "Product not allowed"
+msgstr "상품이 허용되지 않습니다"
+
+# 
+msgid "Upccomming events"
+msgstr "다가오는 이벤트"
+
+# 
+msgid "Add to BetSlip"
+msgstr "베팅슬립에 추가하기"
+
+# 
+msgid "deposit_info_megapay"
+msgstr "입금_정보_메가페이"
+
+# 
+msgid "deposit_info_osmp"
+msgstr "입금_정보_오스프"
+
+# 
+msgid "Canceled"
+msgstr "취소"
+
+# 
+msgid "Depost Amount"
+msgstr "입금 총액"
+
+# 
+msgid "Active"
+msgstr "활동적인"
+
+# 
+msgid "Fixed"
+msgstr "수정완료"
+
+# 
+msgid "Payed"
+msgstr "지급완료"
+
+# 
+msgid "will start in"
+msgstr "시작할"
+
+# 
+msgid "Frames"
+msgstr "프레임"
+
+# 
+msgid "Last update:"
+msgstr "마지막 업데이트:"
+
+# 
+msgid "OnePoint"
+msgstr "1 포인트"
+
+# 
+msgid "TwoPoints"
+msgstr "2 포인트"
+
+# 
+msgid "ThreePoints"
+msgstr "3 포인트"
+
+# 
+msgid "0 Half"
+msgstr "0 반"
+
+# 
+msgid "1st Half"
+msgstr "전반전"
+
+# 
+msgid "2nd Half"
+msgstr "후반전"
+
+# 
+msgid "Additional Time1"
+msgstr "추가시간1"
+
+# 
+msgid "Additional Time2"
+msgstr "추가시간2"
+
+# 
+msgid "Waiting"
+msgstr "대기중"
+
+# 
+msgid "Round"
+msgstr "라운드"
+
+# 
+msgid "Round 0"
+msgstr "라운드0"
+
+# 
+msgid "Round 1"
+msgstr "라운드1"
+
+# 
+msgid "Round 2"
+msgstr "라운드2"
+
+# 
+msgid "Round 3"
+msgstr "라운드3"
+
+# 
+msgid "Round 4"
+msgstr "라운드4"
+
+# 
+msgid "Round 5"
+msgstr "라운드5"
+
+# 
+msgid "Round 6"
+msgstr "라운드6"
+
+# 
+msgid "Round 7"
+msgstr "라운드7"
+
+# 
+msgid "Round 8"
+msgstr "라운드8"
+
+# 
+msgid "Round 9"
+msgstr "라운드9"
+
+# 
+msgid "Round 10"
+msgstr "라운드10"
+
+# 
+msgid "Round 11"
+msgstr "라운드11"
+
+# 
+msgid "Round 12"
+msgstr "라운드12"
+
+# 
+msgid "Set 0"
+msgstr "세트0"
+
+# 
+msgid "Set 1"
+msgstr "세트1"
+
+# 
+msgid "Set 2"
+msgstr "세트2"
+
+# 
+msgid "Set 3"
+msgstr "세트3"
+
+# 
+msgid "Set 4"
+msgstr "세트4"
+
+# 
+msgid "Set 5"
+msgstr "세트5"
+
+# 
+msgid "Set 6"
+msgstr "세트6"
+
+# 
+msgid "Set 7"
+msgstr "세트7"
+
+# 
+msgid "Set 8"
+msgstr "세트8"
+
+# 
+msgid "Set 9"
+msgstr "세트9"
+
+# 
+msgid "Set 10"
+msgstr "세트10"
+
+# 
+msgid "Period 0"
+msgstr "피어리드0"
+
+# 
+msgid "Period 1"
+msgstr "1피어리드"
+
+# 
+msgid "Period 2"
+msgstr "2피어리드"
+
+# 
+msgid "Period 3"
+msgstr "3피어리드"
+
+# 
+msgid "Quarter 0"
+msgstr "쿼터0"
+
+# 
+msgid "Quarter 1"
+msgstr "1쿼터"
+
+# 
+msgid "Quarter 2"
+msgstr "2쿼터"
+
+# 
+msgid "Quarter 3"
+msgstr "3쿼터"
+
+# 
+msgid "Quarter 4"
+msgstr "4쿼터"
+
+# 
+msgid "Inning 0"
+msgstr "이닝"
+
+# 
+msgid "1st Inning"
+msgstr "1이닝"
+
+# 
+msgid "2nd Inning"
+msgstr "2이닝"
+
+# 
+msgid "3rd Inning"
+msgstr "3이닝"
+
+# 
+msgid "4th Inning"
+msgstr "4이닝"
+
+# 
+msgid "5th Inning"
+msgstr "5이닝"
+
+# 
+msgid "6th Inning"
+msgstr "6이닝"
+
+# 
+msgid "7th Inning"
+msgstr "7이닝"
+
+# 
+msgid "8th Inning"
+msgstr "8이닝"
+
+# 
+msgid "9th Inning"
+msgstr "9이닝"
+
+# 
+msgid "10th Inning"
+msgstr "10이닝"
+
+# 
+msgid "11th Inning"
+msgstr "11이닝"
+
+# 
+msgid "12th Inning"
+msgstr "12이닝"
+
+# 
+msgid "13th Inning"
+msgstr "13이닝"
+
+# 
+msgid "14th Inning"
+msgstr "14이닝"
+
+# 
+msgid "15th Inning"
+msgstr "15이닝"
+
+# 
+msgid "16th Inning"
+msgstr "16이닝"
+
+# 
+msgid "17th Inning"
+msgstr "17이닝"
+
+# 
+msgid "18th Inning"
+msgstr "18이닝"
+
+# 
+msgid "19th Inning"
+msgstr "19이닝"
+
+# 
+msgid "20th Inning"
+msgstr "20이닝"
+
+# 
+msgid "21th Inning"
+msgstr "21이닝"
+
+# 
+msgid "22th Inning"
+msgstr "22이닝"
+
+# 
+msgid "23th Inning"
+msgstr "23이닝"
+
+# 
+msgid "24th Inning"
+msgstr "24이닝"
+
+# 
+msgid "25th Inning"
+msgstr "25이닝"
+
+# 
+msgid "Time 0"
+msgstr "시간 0"
+
+# 
+msgid "Time 1"
+msgstr "시간 1"
+
+# 
+msgid "Time 2"
+msgstr "시간 2"
+
+# 
+msgid "Frame 0"
+msgstr "프레임 0"
+
+# 
+msgid "Frame 1"
+msgstr "프레임1"
+
+# 
+msgid "Frame 2"
+msgstr "프레임2"
+
+# 
+msgid "Frame 3"
+msgstr "프레임3"
+
+# 
+msgid "Frame 4"
+msgstr "프레임4"
+
+# 
+msgid "Frame 5"
+msgstr "프레임5"
+
+# 
+msgid "Frame 6"
+msgstr "프레임6"
+
+# 
+msgid "Frame 7"
+msgstr "프레임7"
+
+# 
+msgid "Frame 8"
+msgstr "프레임8"
+
+# 
+msgid "Frame 9"
+msgstr "프레임9"
+
+# 
+msgid "Frame 10"
+msgstr "프레임10"
+
+# 
+msgid "Frame 11"
+msgstr "프레임11"
+
+# 
+msgid "Frame 12"
+msgstr "프레임12"
+
+# 
+msgid "Frame 13"
+msgstr "프레임13"
+
+# 
+msgid "Frame 14"
+msgstr "프레임14"
+
+# 
+msgid "Frame 15"
+msgstr "프레임15"
+
+# 
+msgid "Frame 16"
+msgstr "프레임16"
+
+# 
+msgid "Frame 17"
+msgstr "프레임17"
+
+# 
+msgid "Frame 18"
+msgstr "프레임18"
+
+# 
+msgid "Frame 19"
+msgstr "프레임19"
+
+# 
+msgid "Frame 20"
+msgstr "프레임20"
+
+# 
+msgid "Frame 21"
+msgstr "프레임21"
+
+# 
+msgid "Frame 22"
+msgstr "프레임22"
+
+# 
+msgid "Frame 23"
+msgstr "프레임23"
+
+# 
+msgid "Frame 24"
+msgstr "프레임24"
+
+# 
+msgid "Frame 25"
+msgstr "프레임25"
+
+# 
+msgid "Frame 26"
+msgstr "프레임26"
+
+# 
+msgid "Frame 27"
+msgstr "프레임27"
+
+# 
+msgid "Frame 28"
+msgstr "프레임28"
+
+# 
+msgid "Frame 29"
+msgstr "프레임29"
+
+# 
+msgid "Frame 30"
+msgstr "프레임30"
+
+# 
+msgid "Frame 31"
+msgstr "프레임31"
+
+# 
+msgid "Frame 32"
+msgstr "프레임32"
+
+# 
+msgid "Frame 33"
+msgstr "프레임33"
+
+# 
+msgid "Frame 34"
+msgstr "프레임34"
+
+# 
+msgid "Frame 35"
+msgstr "프레임35"
+
+# 
+msgid "Frame 36"
+msgstr "프레임36"
+
+# 
+msgid "Frame 37"
+msgstr "프레임37"
+
+# 
+msgid "Frame 38"
+msgstr "프레임38"
+
+# 
+msgid "Frame 39"
+msgstr "프레임39"
+
+# 
+msgid "Period 4"
+msgstr "4피어리드"
+
+# 
+msgid "Period 5"
+msgstr "5피어리드"
+
+# 
+msgid "Period 6"
+msgstr "6피어리드"
+
+# 
+msgid "Game 0"
+msgstr "게임0"
+
+# 
+msgid "Game 1"
+msgstr "게임1"
+
+# 
+msgid "Game 2"
+msgstr "게임2"
+
+# 
+msgid "Game 3"
+msgstr "게임3"
+
+# 
+msgid "Game 4"
+msgstr "게임4"
+
+# 
+msgid "Game 5"
+msgstr "게임5"
+
+# 
+msgid "Set 11"
+msgstr "11세트"
+
+# 
+msgid "Set 12"
+msgstr "12세트"
+
+# 
+msgid "Set 13"
+msgstr "13세트"
+
+# 
+msgid "Set 14"
+msgstr "14세트"
+
+# 
+msgid "Set 15"
+msgstr "15세트"
+
+# 
+msgid "Set 16"
+msgstr "16세트"
+
+# 
+msgid "Set 17"
+msgstr "17세트"
+
+# 
+msgid "Set 18"
+msgstr "18세트"
+
+# 
+msgid "Set 19"
+msgstr "19세트"
+
+# 
+msgid "Set 20"
+msgstr "20세트"
+
+# 
+msgid "Events"
+msgstr "이벤트"
+
+# 
+msgid "SHOW"
+msgstr "보이기"
+
+# 
+msgid "In-Play"
+msgstr "진행중"
+
+# 
+msgid "Id"
+msgstr "아이디"
+
+# 
+msgid "To place your bet, please log in"
+msgstr "베팅을 원하시면, 로그인 하세요"
+
+# 
+msgid "Win % 1 st Service"
+msgstr "% 첫번째 서비스 얻기"
+
+# 
+msgid "Break Point Conversions"
+msgstr "휴식 포인트 대화/............??????????"
+
+# 
+msgid "Your bet is not accepted"
+msgstr "베팅이 되지 않았습니다."
+
+# 
+msgid "TransferProduct:\nERROR_LOW_BALANCE"
+msgstr "송금상품:\n오류_낮은_잔액"
+
+# 
+msgid "this field is required"
+msgstr "이 분야는 요구됩니다"
+
+# 
+msgid "Invalid payee"
+msgstr "잘못된 수취인"
+
+# 
+msgid "Invalid payer"
+msgstr "잘못된 지급인"
+
+# 
+msgid "ok"
+msgstr "네"
+
+# 
+msgid "Email Address or Username"
+msgstr "이메일 또는 사용자이름"
+
+# 
+msgid "Terms &amp; Conditions"
+msgstr "용어&amp;조건"
+
+# 
+msgid "TransferProductRROR_LOW_BALANCE"
+msgstr "송금상품ROR_LOW_BALANCE"
+
+# 
+msgid "FEATURED GAMES"
+msgstr "특색화된 게임"
+
+# 
+msgid "Welcome"
+msgstr "환영합니다"
+
+# 
+msgid "Join us now!"
+msgstr "지금 가입하세요!"
+
+# 
+msgid "Cashier"
+msgstr "캐쉬어"
+
+# 
+msgid "new"
+msgstr "새로운"
+
+# 
+msgid "Not a valid password"
+msgstr "유효한 비밀번호가 아닙니다"
+
+# 
+msgid "Available/Withdrawable"
+msgstr "사용가능한/탈퇴가능한"
+
+# 
+msgid "bet id:"
+msgstr "베팅 아이디:"
+
+# 
+msgid "automatically accept price changes"
+msgstr "자동으로 배당 변화를 받아드립니다"
+
+# 
+msgid "incompatible events"
+msgstr "양립 할 수 없는 이벤트??"
+
+# 
+msgid "there are deleted events"
+msgstr "삭제된 이벤트가 있습니다"
+
+# 
+msgid "prices for some events have changed"
+msgstr "몇몇의 이벤트의 배팅금액이 변경 되었습니다"
+
+# 
+msgid "Accept changes"
+msgstr "변경 적용"
+
+# 
+msgid "You need to sign in to be able to place bets"
+msgstr "베팅을 하기 위해서 로그인을 해야 합니다"
+
+# 
+msgid "Invalid recipient"
+msgstr "잘못된 수령인"
+
+# 
+msgid "deposit_info_mastercard"
+msgstr "입금_정보_메스터카드"
+
+# 
+msgid "withdraw_info_mastercard"
+msgstr "출금_정보_메스터카드"
+
+# 
+msgid "label_card_number"
+msgstr "라벨_카드_번호"
+
+# 
+msgid "deposit_info_visa"
+msgstr "입금_정보_비자"
+
+# 
+msgid "withdraw_info_visa"
+msgstr "출금_정보_비자"
+
+# 
+msgid "deposit_info_paypal"
+msgstr "입금_정보_페이팔"
+
+# 
+msgid "withdraw_info_paypal"
+msgstr "출금_정보_페이팔"
+
+# 
+msgid "Select one"
+msgstr "하나를 선택하세요"
+
+# 
+msgid "Deposit Amount (USD)"
+msgstr "입금 총액 (USD)"
+
+# 
+msgid "Attach"
+msgstr "첨부하기"
+
+# 
+msgid "Middle Name"
+msgstr "가운데 이름"
+
+#
+msgid "Middle name"
+msgstr "가운데 이름"
+
+# 
+msgid "prevew"
+msgstr "prevew ?"
+
+# 
+msgid "Full Name"
+msgstr "Full Name"
+
+# 
+msgid "Select your country"
+msgstr "국적을 선택하세요"
+
+# 
+msgid "Select your currency"
+msgstr "통화를 선택하세요"
+
+# 
+msgid "Enter the text here"
+msgstr "텍스트 입력하세요"
+
+# 
+msgid "I would like to subbscribe for email updates and offeres from VBET."
+msgstr "나는 이메일 업데이트 그리고 VBET부터의 제공을 구독하길 원합니다."
+
+# 
+msgid "message_ONHOLD"
+msgstr "메세지_보류중"
+
+# 
+msgid "message_CHANGE_ODD"
+msgstr "메세지_변화_가능성"
+
+# 
+msgid "message_EVENT_LOCKED"
+msgstr "메세지_이벤트_잠겨진"
+
+# 
+msgid "message_LIMIT_ERROR"
+msgstr "메세지_제한_오류"
+
+# 
+msgid "message_GAME_STARTED"
+msgstr "메세지_게임_시작된"
+
+# 
+msgid "message_1000"
+msgstr "메세지_1000"
+
+# 
+msgid "message_1001"
+msgstr "메세지_1001"
+
+# 
+msgid "message_1003"
+msgstr "메세지_1003"
+
+# 
+msgid "message_1004"
+msgstr "메세지_1004"
+
+# 
+msgid "message_1006"
+msgstr "메세지_1006"
+
+# 
+msgid "message_1008"
+msgstr "메세지_1008"
+
+# 
+msgid "message_1009"
+msgstr "메세지_1009"
+
+# 
+msgid "message_1099"
+msgstr "메세지_1099"
+
+# 
+msgid "message_1100"
+msgstr "메세지_1100"
+
+# 
+msgid "message_1102"
+msgstr "메세지_1102"
+
+# 
+msgid "message_1103"
+msgstr "메세지_1103"
+
+# 
+msgid "message_1104"
+msgstr "메세지_1104"
+
+# 
+msgid "message_1105"
+msgstr "메세지_1105"
+
+# 
+msgid "message_1106"
+msgstr "메세지_1106"
+
+# 
+msgid "message_1107"
+msgstr "메세지_1107"
+
+# 
+msgid "message_1108"
+msgstr "메세지_1108"
+
+# 
+msgid "message_1109"
+msgstr "메세지_1109"
+
+# 
+msgid "message_1112"
+msgstr "메세지_1112"
+
+# 
+msgid "message_1113"
+msgstr "메세지_1113"
+
+# 
+msgid "message_1114"
+msgstr "메세지_1114"
+
+# 
+msgid "message_1115"
+msgstr "메세지_1115"
+
+# 
+msgid "message_1116"
+msgstr "메세지_1116"
+
+# 
+msgid "message_1117"
+msgstr "메세지_1117"
+
+# 
+msgid "message_1118"
+msgstr "메세지_1118"
+
+# 
+msgid "message_1150"
+msgstr "메세지_1150"
+
+# 
+msgid "message_1200"
+msgstr "메세지_1200"
+
+# 
+msgid "message_1300"
+msgstr "메세지_1300"
+
+# 
+msgid "message_1400"
+msgstr "메세지_1400"
+
+# 
+msgid "message_1510"
+msgstr "메세지_1510"
+
+# 
+msgid "message_1500"
+msgstr "메세지_1500"
+
+# 
+msgid "message_1550"
+msgstr "메세지_1550"
+
+# 
+msgid "message_1560"
+msgstr "메세지_1560"
+
+# 
+msgid "message_1600"
+msgstr "메세지_1600"
+
+# 
+msgid "message_1700"
+msgstr "메세지_1700"
+
+# 
+msgid "message_1800"
+msgstr "메세지_1800"
+
+# 
+msgid "message_1900"
+msgstr "메세지_1900"
+
+# 
+msgid "message_1910"
+msgstr "메세지_1910"
+
+# 
+msgid "message_2000"
+msgstr "메세지_2000"
+
+# 
+msgid "message_2100"
+msgstr "메세지_2100"
+
+# 
+msgid "message_2200"
+msgstr "메세지_2200"
+
+# 
+msgid "message_2300"
+msgstr "메세지_2300"
+
+# 
+msgid "message_2400"
+msgstr "메세지_2400"
+
+# 
+msgid "message_2403"
+msgstr "메세지_2403"
+
+# 
+msgid "Sex"
+msgstr "성별"
+
+# 
+msgid "Bermudas"
+msgstr "버뮤다"
+
+# 
+msgid "Butane"
+msgstr "부탄"
+
+# 
+msgid "East Timor"
+msgstr "동티모르"
+
+# 
+msgid "Papua - New Guinea"
+msgstr "파푸아뉴기니"
+
+# 
+msgid "South Africa"
+msgstr "남아프리카 공화국"
+
+# 
+msgid "St. Lucia"
+msgstr "세인트루시아 섬"
+
+# 
+msgid "Surinam"
+msgstr "수리남"
+
+# 
+msgid "Tongo"
+msgstr "통고"
+
+# 
+msgid "The Cayman Islands"
+msgstr "케이멘 제도"
+
+# 
+msgid "The Central African Republic"
+msgstr "중아프리카 공화국"
+
+# 
+msgid "The Cook Islands"
+msgstr "쿡 제도"
+
+# 
+msgid "The Democratic Republic of the Congo"
+msgstr "콩고 민주주의 공화주의"
+
+# 
+msgid "Sent Messages"
+msgstr "보내진 메세지"
+
+# 
+msgid "New Message"
+msgstr "새로운 메세지"
+
+# 
+msgid "Clear Bet Slip to activate Qiuck Bet"
+msgstr "빠른 내기를 활동화하기 위해 내기 걸기를 치우세요"
+
+# 
+msgid "Other"
+msgstr "다른"
+
+# 
+msgid "There is no downloadable client for your operating system"
+msgstr "당신의 작동 시스템을 위한 다운로드 가능한 클라이언트가 없습니다"
+
+# 
+msgid "message_1110"
+msgstr "메세지_1110"
+
+# 
+msgid "message_2406"
+msgstr "메세지_2406"
+
+# 
+msgid "Reset"
+msgstr "다시시작하기"
+
+# 
+msgid "Switch to "
+msgstr "바꾸기"
+
+# 
+msgid "Conditional bet"
+msgstr "조건적인 내기"
+
+# 
+msgid "Odd..."
+msgstr "이상한...."
+
+# 
+msgid "Score:"
+msgstr "점수:"
+
+# 
+msgid "3D  Slots"
+msgstr "3D 슬롯"
+
+# 
+msgid "Film Slot"
+msgstr "플림 자리"
+
+# 
+msgid "Instant Win"
+msgstr "즉석 이김"
+
+# 
+msgid "Table Games"
+msgstr "탑 슬롯게임"
+
+# 
+msgid "Top Slots"
+msgstr "최고의 자리"
+
+# 
+msgid "TvGames"
+msgstr "TvGames"
+
+# 
+msgid "Video Poker"
+msgstr "비디오 포커"
+
+# 
+msgid "Other Games"
+msgstr "다른 게임"
+
+# 
+msgid "Progressive"
+msgstr "Progressive"
+
+# 
+msgid "Add more events to be able to place bet "
+msgstr "내기를 하기 위해 다른 이벤트를 추가하세요"
+
+# 
+msgid "Depost Amount (USD)"
+msgstr "입금 총액 (USD)"
+
+# 
+msgid "1 hours"
+msgstr "1시간"
+
+# 
+msgid "2 hours"
+msgstr "2 시간"
+
+# 
+msgid "3 hours"
+msgstr "3 시간"
+
+# 
+msgid "5 hours"
+msgstr "5 시간"
+
+# 
+msgid "6 hours"
+msgstr "6 시간"
+
+# 
+msgid "48 hours"
+msgstr "48 시간"
+
+# 
+msgid "72 hours"
+msgstr "72 시간"
+
+# 
+msgid "User age is under minimum allowed."
+msgstr "사용자의 나이는 허용된 최소 나이보다 아래입니다."
+
+# 
+msgid "Please close {1} game(s) to change view"
+msgstr "닫다 {1} 게임(s) 화면변경을 위하여"
+
+# 
+msgid "One Game View"
+msgstr "한 게임 보기"
+
+# 
+msgid "Two Games View"
+msgstr "두 게임 보기"
+
+# 
+msgid "Four Games View"
+msgstr "네 게임 보기"
+
+# 
+msgid "Open In Pop-Up Window"
+msgstr "팝업 윈도우 열기"
+
+# 
+msgid "Add a Game"
+msgstr "게임 추가하기"
+
+# 
+msgid "Durak"
+msgstr "바보"
+
+# 
+msgid "Preferans"
+msgstr "카드게임"
+
+# 
+msgid "Domino"
+msgstr "도미노"
+
+# 
+msgid "Sea Battle"
+msgstr "수중 배틀"
+
+# 
+msgid "Refresh"
+msgstr "세로고침"
+
+# 
+msgid "multiple"
+msgstr "조합 베팅\n"
+
+# 
+msgid "livecasino_101_1"
+msgstr "실시간카지노_101_1"
+
+# 
+msgid "livecasino_101_2"
+msgstr "실시간카지노_101_2"
+
+# 
+msgid "livecasino_101_3"
+msgstr "실시간카지노_101_3"
+
+# 
+msgid "livecasino_101_4"
+msgstr "실시간카지노_101_4"
+
+# 
+msgid "livecasino_102"
+msgstr "실시간카지노_102"
+
+# 
+msgid "livecasino_103"
+msgstr "실시간카지노_103"
+
+# 
+msgid "livecasino_104"
+msgstr "실시간카지노_104"
+
+# 
+msgid "AllWeather"
+msgstr "모든 날씨"
+
+# 
+msgid "N_H_Flat"
+msgstr "NH 플랫"
+
+# 
+msgid "Game Balance:"
+msgstr "보유금:"
+
+# 
+msgid " Horse"
+msgstr "말"
+
+# 
+msgid " Jockey"
+msgstr "기수"
+
+# 
+msgid " Jockey Weight"
+msgstr "기수 몸무게"
+
+# 
+msgid "Name *"
+msgstr "이름 *"
+
+# 
+msgid "Birth date *"
+msgstr "태어난 날 *"
+
+# 
+msgid "Gender *"
+msgstr "성별 *"
+
+# 
+msgid "Passport Number *"
+msgstr "여권번호 *"
+
+# 
+msgid "Username *"
+msgstr "사용자이름 *"
+
+# 
+msgid "Password *"
+msgstr "비밀번호 *"
+
+# 
+msgid "Confirm Password *"
+msgstr "비밀번호를 확인 *"
+
+# 
+msgid "Email Address *"
+msgstr "이메일 주소 *"
+
+# 
+msgid "Country *"
+msgstr "국가\n*"
+
+# 
+msgid "City *"
+msgstr "도시 *"
+
+# 
+msgid "Address *"
+msgstr "주소 *"
+
+# 
+msgid "Contact number *"
+msgstr "모바일 번호 *"
+
+# 
+msgid "Currency *"
+msgstr "통화 *"
+
+# 
+msgid "SMS Code *"
+msgstr "SMS 코드 *"
+
+# 
+msgid " 0"
+msgstr " 0"
+
+# 
+msgid "47 hours"
+msgstr "47 시간"
+
+# 
+msgid "We are not accepting bets on this game at the moment."
+msgstr "해당 경기의 베팅이 불가능합니다."
+
+# 
+msgid "Lottery Games"
+msgstr "Lottery Games"
+
+# 
+msgid "MiniGames"
+msgstr "Mini Games"
+
+# 
+msgid "Casual Games"
+msgstr "Casual Games"
+
+# 
+msgid "Classic Slots"
+msgstr "Classic Slots"
+
+# 
+msgid "VideoSlots"
+msgstr "Video Slots"
+
+# 
+msgid "10.000 E GTD tournament"
+msgstr "5000 E GTD tournament"
+
+# 
+msgid "5.371.400 AMD GTD tournament"
+msgstr "2.685.000 AMD GTD tournament"
+
+# 
+msgid "All OS"
+msgstr "All OS"
+
+# 
+msgid "Your Booking is ready !"
+msgstr "Your Booking is ready !"
+
+# 
+msgid "Make a Deposit"
+msgstr "Make a Deposit"
+
+# 
+msgid "  Modern"
+msgstr "  Modern"
+
+# 
+msgid " Classic"
+msgstr " Classic"
+
+# 
+msgid " Asian"
+msgstr " Asian"
+
+# 
+msgid " Eastern"
+msgstr " Eastern"
+
+# 
+msgid "Event details"
+msgstr "Event details"
+
+# 
+msgid "5.950.000 AMD GTD tournament"
+msgstr "5.950.000 AMD GTD tournament"
+
+# 
+msgid "tell me more"
+msgstr "tell me more"
+
+# 
+msgid "What was the number of your school?"
+msgstr "당신의 학교 번호는 무엇이었습니까?"
+
+# 
+msgid "What was the name of your first love?"
+msgstr "당신의 첫사랑의 이름은 무엇입니까?"
+
+# 
+msgid "message_1026"
+msgstr "You can make a new superbet only after the existing one is completed."
+
+# 
+msgid "Confirmed"
+msgstr "Confirmed"
+
+# 
+msgid "Scratch Games"
+msgstr "즉석 복원"
+
+# 
+msgid "Jackpot Slot"
+msgstr "잭팟게임"
+
+# 
+msgid "Password should contain at least 8 characters"
+msgstr "Password should contain at least 8 characters"
+
+# 
+msgid "Password should contain at least 8 characters."
+msgstr "Password should contain at least 8 characters."
+
+# 
+msgid "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "backgammon"
+msgstr "backgammon"
+
+# 
+msgid "Top 10 sports"
+msgstr "Top 10 sports"
+
+# 
+msgid "Your request is accepted."
+msgstr "Your request is accepted."
+
+# 
+msgid "Your request is declined."
+msgstr "Your request is declined."
+
+# 
+msgid "Join Now"
+msgstr "Join Now"
+
+# 
+msgid "VGS"
+msgstr "BetConstruct"
+
+# 
+msgid "NET"
+msgstr "NetEnt"
+
+# 
+msgid "MGS"
+msgstr "Microgaming"
+
+# 
+msgid "EZG"
+msgstr "Ezugi"
+
+# 
+msgid "Cash-out Temporary unavailable"
+msgstr "Cash-out Temporary unavailable"
+
+# 
+msgid "This field cannot be edited."
+msgstr "This field cannot be edited."
+
+# 
+msgid "Pin/Unpin"
+msgstr "Pin/Unpin"
+
+# 
+msgid "Thank you for choosing Vivaro.<br/>Our Live Chat support is at your disposal  24 hours a day."
+msgstr "Thank you for choosing Vivaro.<br/>Our Live Chat support is at your disposal  24 hours a day."
+
+# 
+msgid "Live Roulette"
+msgstr "Live Roulette"
+
+# 
+msgid "Live BlackJack"
+msgstr "Live BlackJack"
+
+# 
+msgid "Live Baccarat"
+msgstr "Live Baccarat"
+
+# 
+msgid "Live Bet on Poker"
+msgstr "Live Bet on Poker"
+
+# 
+msgid "Welcome to Vivarobet"
+msgstr "Welcome to Vivarobet"
+
+# 
+msgid "Your Booking ID is:"
+msgstr "Your Booking ID is:"
+
+# 
+msgid "Dear valued customer"
+msgstr "Dear valued customer"
+
+# 
+msgid "<p>You have entered the Vivaro Betting website. This company provides services to clients within territory of the republic of Armenia.</p><p>We suggest you redirect to Vbet.com, the site meant for international players.</p>"
+msgstr "<p>You have entered the Vivaro Betting website. This company provides services to clients within territory of the republic of Armenia.</p><p>We suggest you redirect to Vbet.com, the site meant for international players.</p>"
+
+# 
+msgid "Stay on VivaroBet.am"
+msgstr "Stay on VivaroBet.am"
+
+# 
+msgid "Redirect to Vbet.com"
+msgstr "Redirect to Vbet.com"
+
+# 
+msgid "Total Goals"
+msgstr "Total Goals"
+
+# 
+msgid "FUTURE"
+msgstr "FUTURE"
+
+# 
+msgid "LIVE"
+msgstr "LIVE"
+
+# 
+msgid "TODAY"
+msgstr "TODAY"
+
+# 
+msgid "message_1510_sb"
+msgstr "message_1510_sb"
+
+# 
+msgid "Your superbet ({1}) request is accepted"
+msgstr "Your superbet ({1}) request is accepted"
+
+# 
+msgid "Your superbet ({1}) request is declined"
+msgstr "Your superbet ({1}) request is declined"
+
+# 
+msgid "Email/Account Id "
+msgstr "Email/Account Id "
+
+# 
+msgid "Secure Id/Authentication code"
+msgstr "Secure Id/Authentication code"
+
+# 
+msgid "Please select a bet-shop from the list."
+msgstr "Please select a bet-shop from the list."
+
+# 
+msgid "Live Bet on Baccarat"
+msgstr "Live Bet on Baccarat"
+
+# 
+msgid "id:Â "
+msgstr "id:Â "
+
+# 
+msgid "â"
+msgstr "â"
+
+#
+msgid "Live Casino"
+msgstr "Live Casino"
+
+#
+msgid "Every week Jackpot"
+msgstr "Every week Jackpot"
+
+#
+msgid "points"
+msgstr "points"
+
+#
+msgid "Don`t show again"
+msgstr "Don`t show again"
+
+#
+msgid "Show more"
+msgstr "Show more"

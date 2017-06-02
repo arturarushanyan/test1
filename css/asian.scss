@@ -1,0 +1,2291 @@
+.body-wrapper.sport.asian{
+  background: $asian-page-layout;
+  background-size: cover;
+}
+.big-contain-view {
+  float: left;
+  width: 100%;
+  min-width: 970px;
+  padding: 0;
+}
+/*asian view*/
+.gaming-wrapper-asia{
+  float: left;
+  width: 100%;
+  min-width: 970px;
+  height: 100%;
+  font: 10px/12px $font-f !important;
+  color: $text-color-dark;
+  margin: 44px 0 0;
+  overflow: hidden;
+}
+.gaming-wrapper-asia .md-progress-circular.md-theme {
+  left: 50%;
+  margin-left: -50px;
+  .md-inner .md-gap{  border-top-color: $element-default-color; border-bottom-color: $element-default-color;}
+  .md-inner .md-left .md-half-circle{ border-left-color: $element-default-color; border-top-color: $element-default-color;}
+  .md-inner .md-right .md-half-circle{ border-right-color: $element-default-color;  border-top-color: $element-default-color;}
+}
+.gaming-wrapper-asia .contein-mini-filtr .md-progress-circular.md-theme{
+  position: absolute;
+  top: 1px;
+  left: auto;
+  right: 22px;
+  .md-inner .md-gap{  border-top-color: $element-active-color; border-bottom-color: $element-active-color;}
+  .md-inner .md-left .md-half-circle{ border-left-color: $element-active-color; border-top-color: $element-active-color;}
+  .md-inner .md-right .md-half-circle{ border-right-color: $element-active-color; border-top-color: $element-active-color;}
+}
+.asian-contain{
+  width: 950px;
+  margin: 10px auto;
+  padding: 10px 10px 0;
+  background: $global-white-bg;
+  border-radius: 5px;
+}
+.asian-contain:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/*left block*/
+.asian-left-contain-menu{
+  float: left;
+  width: 230px;
+  background: $global-white-bg;
+}
+//animation & video
+.asian-left-contain-menu .video-animation-vox-v3{height: 138px;}
+.asian-left-contain-menu .contain-v-a-fanction-icons-v3 > ul > li.resize-icon-b-v3{display: none;}
+.asian-left-contain-menu .video-animation-vox-v3 .video-player-container{height: 138px;}
+.asian-left-contain-menu .video-player-control {
+  top: -28px;
+  right: 112px;
+}
+.gaming-wrapper-asia .video-player-control.volume-control {
+  top: -28px;
+  right: 82px;
+}
+.gaming-wrapper-asia .video-player-control.volume-control > span,
+.gaming-wrapper-asia .contain-v-a-fanction-icons-v3 > ul > li.sound-icon-v3:before{
+  font-size: 18px;
+}
+.gaming-wrapper-asia .video-player-control > span.video-pause:before, .gaming-wrapper-asia .video-player-control > span.video-play:before{
+  content: "\e651";
+  position: absolute;
+  left: 0;
+  text-indent: 0;
+  font: 18px/20px icomoon;
+  width: 24px;
+  text-align: center;
+  top: 2px;
+  border-right: 1px solid $global-color-3;
+}
+.gaming-wrapper-asia .video-player-control > span.video-play:before{
+  content: "\e650";
+}
+
+.gaming-wrapper-asia .game-video-detached {
+  border: 1px solid $global-color-3;
+  padding: 0;
+  background: $global-color-3;
+  box-shadow: 0 0 20px $global-color-3;
+}
+.gaming-wrapper-asia .game-video-detached .animation-video-title-row-v3 {
+  position: relative;
+  z-index: 99;
+  top: -31px;
+  width: calc(100% + 2px);
+  left: -1px;
+
+}
+.gaming-wrapper-asia .game-video-detached .game-video-container.detached-game-container{
+  padding: 31px 0 0;
+}
+.gaming-wrapper-asia .game-video-fullscreen .game-video-container.detached-game-container{
+  padding: 0;
+}
+.gaming-wrapper-asia .game-video-detached .detached-game-container .game-video-container{
+  position: absolute;
+  z-index: 22;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.gaming-wrapper-asia .game-video-detached .detached-game-container .animation-control .game-video .video-player-container{
+  height: 100%;
+}
+.gaming-wrapper-asia .game-video-detached .detached-game-container .video-player-control{
+  background: none;
+  top: -28px;
+  right: 54px;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+}
+.gaming-wrapper-asia .game-video-fullscreen .detached-game-container .video-player-control{
+  width: auto;
+  right: 24px;
+  top: 0;
+  height: 18px;
+}
+.gaming-wrapper-asia .game-video-detached .detached-game-container .video-player-control.volume-control{
+  right: 27px;
+  top: -32px;
+}
+.gaming-wrapper-asia .game-video-detached .detached-game-container .animation-control .game-video{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.gaming-wrapper-asia .game-video-detached .detached-game-container .animation-control{
+  overflow: inherit;
+  height: 100%;
+  z-index: 111;
+}
+.gaming-wrapper-asia .detached-game-container .detached-game-name{
+  background: $global-color-3;
+  text-shadow: none;
+  height: 24px;
+}
+.gaming-wrapper-asia .detached-game-container .detached-game-name p{
+  color: set-color($global-color-3);
+  line-height: 24px;
+}
+.gaming-wrapper-asia .game-video.game-video-detached.game-video-fullscreen {
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 22;
+  width: 100% !important;
+  margin-bottom: 30px;
+}
+.gaming-wrapper-asia .game-video-container a{
+  text-indent: -9999em;
+  box-sizing: border-box;
+  background: none;
+  width: 24px;
+  height: 24px;
+  font: 9px/24px icomoon;
+  top: 0;
+  right: 0;
+}
+.gaming-wrapper-asia .game-video-container a:before{
+  box-sizing: border-box;
+  content: "\e6f2";
+  position: absolute;
+  right: 0;
+  text-indent: 0;
+  width: 24px;
+  text-align: center;
+}
+.gaming-wrapper-asia .game-video-fullscreen .game-video-container object{
+  position: relative;
+  top: 0;
+}
+.gaming-wrapper-asia .detached-info{
+  line-height: 12px;
+  padding-right: 10px;
+}
+//animation & video END
+
+/*betslip*/
+.asian-left-contain-menu .list-bet-block{
+  width: 230px;
+  border-radius: 4px;
+  margin: 0 0 10px;
+  padding: 0;
+  box-shadow: -1px 0 0 $base-color-border inset, 1px 0 0 $base-color-border  inset, 0 -1px 0 $base-color-border inset, 0 1px 0 $base-color-border inset;
+  border: none;
+  background: $global-color-3;
+}
+.asian-left-contain-menu .quick-bet-button{
+  top: 32px;
+  left: 10px;
+}
+.asian-left-contain-menu .bet-notification-zone.quick-bet-notifications{
+  width: 225px;
+  background: $global-color-3;
+  border-top: none;
+  border-bottom: 1px solid $base-color-border;
+  box-shadow: -1px 0 0 $base-color-border inset, 1px 0 0 $base-color-border inset;
+  border-radius: 0 0 4px 4px;
+}
+.asian-left-contain-menu .bet-settings-container .betslip-options{width: 209px;}
+.asian-left-contain-menu .bs-type-switcher{
+  margin: 5px 6px 0 0;
+  width: 104px;
+  font-family: $font-f;
+}
+.asian-left-contain-menu .arrow-bs-type-switcher{background: none;}
+.asian-left-contain-menu .arrow-bs-type-switcher:after{
+  content: "\e674";
+  font: 14px/24px "icomoon";
+  left: -6px;
+  position: absolute;
+  top: -5px;
+  color: $text-color-white;
+}
+.asian-left-contain-menu .betslip-system-chenge{
+  margin: 5px 0 5px 6px;
+  float: left;
+  right: 0;
+  width: 89px;
+}
+.asian-left-contain-menu .bankers-button-container{
+  top: 0;
+  right: 24px;
+}
+.asian-left-contain-menu .betting-result-info{
+  margin: 0;
+  border-bottom: 1px solid $base-color-border;
+  background: #2e323e;
+}
+.asian-left-contain-menu .bet-notification-warning a{
+  color: $text-color-white;
+}
+.asian-left-contain-menu .quickbet-processing-info{
+  top: -14px;
+}
+.asian-left-contain-menu .button-bet .bet-notification-update-text{
+  background: $global-color-3;
+}
+.asian-left-contain-menu .list-bet-block ul li:first-child span a{
+  background: none;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  color: #7b8191;
+}
+.asian-left-contain-menu .list-bet-block ul li:first-child span a:after{
+  content: "\e6eb";
+  font: 16px/20px "icomoon";
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  top: -2px;
+  text-indent: 1px;
+  width: 20px;
+  height: 20px;
+}
+.asian-left-contain-menu .list-bet-block ul li{
+  font-size: 10px;
+  color: $text-color-menu;
+}
+.asian-left-contain-menu .eachway-selector,
+.asian-left-contain-menu .empty-betslip,
+.asian-left-contain-menu .quickbet-mode-betslip,
+.asian-left-contain-menu .detached-info{
+  font-size: 10px;
+}
+.asian-left-contain-menu .bet-event-title{
+  padding: 0 10px 0 0;
+  color: #c2c5cd;
+  display: table;
+}
+.asian-left-contain-menu .bet-event-notifications{top: 0;}
+.asian-left-contain-menu .single-bet-container .single-bet-betmax{
+  border: none;
+  background: $global-color-2;
+  border-radius: 2px;
+  padding: 1px 1px 2px 3px;
+  margin: 1px 0 0 4px;
+  opacity: 1;
+}
+.asian-left-contain-menu .bet-currency-value .single-bet-betmax{
+  background: $global-color-2;
+  border-radius: 2px;
+  border: none;
+  padding: 0 3px 1px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 7px 6px 0 0;
+}
+.asian-left-contain-menu .list-bet-block ul li .single-bet-container .single-bet-betmax span{color: $text-color-white;}
+.asian-left-contain-menu .single-bet-container .single-bet-betmax:hover,
+.asian-left-contain-menu .bet-currency-value .single-bet-betmax:hover{
+  background: $global-color-1;
+}
+.asian-left-contain-menu .superbet-checkbox input[type="checkbox"]{
+  position: absolute;
+}
+.asian-left-contain-menu .bet-conflict-warning{margin-top: 1px;}
+.asian-left-contain-menu .list-bet-block ul li .betprice{
+  color: #aa8136;
+  font-size: 11px;
+}
+.asian-left-contain-menu .list-bet-block ul li p,
+.asian-left-contain-menu  .list-bet-block ul li p span.pick{
+  font-size: 10px;
+  color: #7b8191;
+}
+.asian-left-contain-menu  .list-bet-block ul li span{font-size: 10px;}
+.asian-left-contain-menu  .list-bet-block ul li span.bet-initial-price{
+  color: $text-color-menu;
+}
+.asian-left-contain-menu .betslip-options label,
+.asian-left-contain-menu .bet-notification-zone > div{
+  font-size: 10px;
+  color: $text-color-menu;
+}
+.asian-left-contain-menu .button-bet .bet-button-wrapper{padding: 0;}
+.asian-left-contain-menu .button-bet .bet-notification-update-container{padding: 0 10px 0 0;}
+.asian-left-contain-menu .button-bet{
+  width: calc(100% - 20px);
+  padding: 10px;
+  height: 31px;
+}
+.asian-left-contain-menu .button-bet button{
+  background: $bg-buttons-normal;
+  border: none;
+  min-height: 26px;
+  margin: 0;
+}
+.asian-left-contain-menu .button-bet button:disabled{background: $bg-buttons-disable;}
+.asian-left-contain-menu .betslip-clearall-button i{
+  background: #a71f67;
+  border-radius: 0 0 4px 4px;
+}
+.asian-left-contain-menu .button-bet.bet-in-progress button[disabled="disabled"] {
+  background: $bg-buttons-normal url(../images/betslip-loader.gif) no-repeat 50% 50%;
+}
+.asian-left-contain-menu .betslip-clearall-button i:after{
+  content: "\e908";
+  font: 6px/16px "icomoon";
+  right: 10px;
+  position: absolute;
+  top: -1px;
+  color: #FFF;
+  height: 16px;
+}
+.asian-left-contain-menu .betslip-clearall-button input{
+  background: none;
+  color: $text-color-white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+  height: 16px;
+  border: none;
+  padding: 0 26px 2px 5px;
+  z-index: 33;
+  position: relative;
+}
+.asian-left-contain-menu .quick-bet-button p{
+  color: $text-color-dark;
+  line-height: 18px;
+}
+.asian-left-contain-menu .quick-bet-button .quickbet-switcher-jumper{background: $global-color-2;}
+.asian-left-contain-menu .superbet-checkbox label{
+  line-height: 18px;
+  min-width: 85px;
+  max-width: 85px;
+}
+.asian-left-contain-menu .express-stake-label{height: 28px;}
+.asian-left-contain-menu .bet-form form input[type="text"]{
+  width: 50px;
+  height: 13px;
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-size: 11px;
+  border: 1px solid $base-color-border;
+  color: #aa8136;
+  margin-right: 4px;
+  background: #121623;
+}
+.asian-left-contain-menu .single-bet-container [type="text"]{
+  box-shadow: none;
+  border: 1px solid $base-color-border;
+  color: $base-color-border;
+  font-size: 11px;
+  width: 50px;
+  height: 13px;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+.asian-left-contain-menu .bet-form form input[type="text"]:focus,
+.asian-left-contain-menu .single-bet-container input[type="text"]:focus{
+  border-color: $global-color-2;
+}
+.asian-left-contain-menu .bet-form form .bet-currency-value p{
+  padding-top: 8px;
+  color: $global-color-1;
+}
+.asian-left-contain-menu .express-stake-label span{color: #c2c5cd;}
+.asian-left-contain-menu .list-bet-block ul li:first-child span a:hover{color: $global-color-1;}
+.asian-left-contain-menu .express-stake-label span,
+.asian-left-contain-menu .bet-form form p span{color: #7b8191;}
+.asian-left-contain-menu .bs-type-switcher, .asian-left-contain-menu .betslip-system-chenge{
+  box-shadow: none;
+  border: none;
+  background: #232630;
+  padding: 6px 4px 6px 6px;
+}
+.asian-left-contain-menu .open-type-switcher{
+  box-shadow: none;
+  right: 0;
+  top: 24px;
+}
+.asian-left-contain-menu .open-type-switcher ul li a{
+  min-width: 100px;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid $base-color-border;
+  background: $global-color-3;
+  box-shadow: 1px 0 0 $base-color-border, -1px 0 0 $base-color-border;
+  color: $text-color-menu;
+  font-size: 11px;
+}
+.asian-left-contain-menu .list-bet-block .name-b-list ul{left: 1px;}
+.asian-left-contain-menu .betslip-system-chenge .open-type-switcher ul li a{
+  width: 85px;
+  white-space: nowrap;
+  font-size: 10px;
+}
+.asian-left-contain-menu .open-type-switcher ul li:last-child a,
+.asian-left-contain-menu .betslip-system-chenge .open-type-switcher ul:last-child li:last-child a{
+  border-radius: 0 0 3px 3px;
+}
+.asian-left-contain-menu .betslip-system-chenge .open-type-switcher ul li:last-child a{
+  border-radius: inherit;
+  border-top: none;
+}
+.asian-left-contain-menu .open-type-switcher ul li:first-child a,
+.asian-left-contain-menu .open-type-switcher ul:first-child li:first-child a{
+  border-top: 1px solid $base-color-border;
+}
+.asian-left-contain-menu .open-type-switcher ul li a:hover{
+  color: $text-color-white;
+  background: $element-default-color;
+}
+
+.asian-left-contain-menu .open-type-switcher ul li a.active, .asian-left-contain-menu .open-type-switcher ul li a.active:hover{
+  color: $text-color-white;
+  background: $element-active-color;
+}
+.asian-left-contain-menu .list-bet-block .name-b-list ul li:hover{background: none;}
+
+.asian-left-contain-menu .bs-type-switcher p, .asian-left-contain-menu .betslip-system-chenge p{
+  color: $text-color-white;
+  font-size: 11px;
+  line-height: 11px;
+}
+.asian-left-contain-menu .bet-button-wrapper:hover .bet-notification-zone{right: 69px;}
+.asian-left-contain-menu .bet-button-wrapper .bet-notification-zone {
+  bottom: 55px;
+  border-top: 1px solid $border-color-default;
+  border-bottom: 1px solid $border-color-default;
+  background: $global-color-3;
+  width: 155px;
+  box-shadow: 0 0 8px $global-color-2;
+}
+.asian-left-contain-menu .button-bet .bet-notification-zone:before{color: $global-color-3;}
+.asian-left-contain-menu .button-bet .bet-notification-update-text{
+  width: 150px;
+  bottom: 56px;
+  color: $text-color-dark;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 5px;
+  box-shadow: 0 0 5px $global-color-2;
+}
+.asian-left-contain-menu .button-bet .bet-notification-update-text:before{bottom: -10px;}
+.asian-left-contain-menu .button-bet .bet-notification-update-container:hover .bet-notification-update-text{left: 1px;}
+.asian-left-contain-menu .bet-settings-container .set-icon{
+  margin: 1px -5px 0 0;
+  box-shadow: none;
+  background: none;
+  opacity: 1;
+}
+.asian-left-contain-menu .bet-settings-container .set-icon:after{
+  content: "\e6a6";
+  font: 38px/22px "icomoon";
+  color: $text-color-white;
+  left: -8px;
+  position: absolute;
+  top: 0;
+}
+.asian-left-contain-menu .settings-icon-bet{
+  top: -59px;
+  right: 0;
+  background: $element-default-color;
+  border-radius: 0 3px 0 0;
+  width: 24px;
+  height: 24px;
+}
+.asian-left-contain-menu .list-bet-block .bet-container .bet-conflict-warning .conflict-content ul{padding: 0;}
+.asian-left-contain-menu .list-bet-block .bet-container .bet-conflict-warning .conflict-content ul li{
+  border-top: 1px solid $base-color-border;
+  color: $global-color-1;
+  box-shadow: none;
+  background: none;
+}
+.asian-left-contain-menu .bet-conflict-warning .list-bet-block .bet-container .conflict-content ul:last-child{border-bottom: none;}
+.asian-left-contain-menu .name-b-list{
+  height: 58px;
+  border-bottom: 1px solid $global-color-1;
+}
+.asian-left-contain-menu .name-b-list h2{
+  padding: 0;
+  width: 205px;
+  border-right: 1px solid $border-color-white;
+  text-indent: 10px;
+  font-size: 11px;
+  color: $text-color-active;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  background: $element-active-color;
+  height: 24px;
+  border-radius: 3px 0 0;
+}
+.asian-left-contain-menu .list-bet-block ul li{
+  width: calc(100% - 22px);
+  box-shadow: 1px 0 0 $base-color-border inset, 1px 0 0 $base-color-border inset;
+  background: #232630;
+  padding: 5px 16px 5px 5px;
+}
+.asian-left-contain-menu .bet-container{
+  max-height: inherit;
+  overflow: inherit;
+}
+.asian-left-contain-menu .bet-settings-container{border-bottom: none;}
+.asian-left-contain-menu .bet-container .list-bet-block ul{border-bottom: 1px solid $base-color-border;}
+.asian-left-contain-menu .bet-container .list-bet-block ul.deleted{border-bottom: 1px solid $team-name-bg;}
+.asian-left-contain-menu .list-bet-block .bet-container ul:last-child{border-bottom: 1px solid $element-active-color;}
+.asian-left-contain-menu .bet-settings-container.active .betslip-options{
+  border-bottom: 1px solid $element-active-color;
+  width: 210px;
+}
+.asian-left-contain-menu .list-bet-block ul.changed li {background: #2e323e;}
+.asian-left-contain-menu .list-bet-block ul.deleted li {background: $element-disable-color;}
+.asian-left-contain-menu .mini-game-container iframe{height: 129px;}
+.asian-left-contain-menu .info-mini-icon{
+  background: #232630;
+}
+.asian-left-contain-menu  .better-odds{
+  border-bottom-color: #222530;
+}
+.asian-left-contain-menu .list-bet-block ul li > .better-odd-contain{
+  right: 2px;
+  top: 20px;
+}
+.asian-left-contain-menu .list-bet-block ul li > .better-odd-contain > span{
+  display: inline-block;
+  padding: 0 3px;
+}
+/*betslip END*/
+
+
+/*Menu tabs*/
+.menu-tabs-b{
+  float: left;
+  width: 100%;
+  margin: 0 0 5px;
+}
+.menu-tabs-b ul{
+  float: left;
+  width: 100%;
+  display: table;
+}
+.menu-tabs-b ul li{
+  display: table-cell;
+  width: 30%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 10px 5px;
+  background: $element-default-color;
+  border-left: 1px solid $border-color-white;
+  color: $text-color-white;
+  cursor: pointer;
+}
+.menu-tabs-b ul li.active{
+  background: $element-active-color;
+  color: $text-color-active;
+}
+.menu-tabs-b ul li:first-child{
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+.menu-tabs-b ul li:last-child{
+  border-radius: 0 5px 5px 0;
+}
+/*Menu tabs END*/
+
+
+/*left menu sport*/
+.asian-left-menu{
+  float: left;
+  width: 230px;
+  margin: 0 0 10px;
+}
+.asian-left-menu ul{width: 100%;}
+.asian-left-menu ul li{
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 1px 0;
+  font-size: 11px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $text-color-white;
+ /* background: $element-default-2-color;*/
+  border-radius: 4px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  max-height: 24px;
+  min-height: 24px;
+  transition: max-height 200ms, background 200ms, color 200ms;
+}
+.asian-left-menu ul li:nth-child(odd){background: #232630;}
+.asian-left-menu ul li:nth-child(even){background: #232630;}
+.asian-left-menu  .sport-markets-menu ul li{background: #232630;}
+.asian-left-menu ul li:hover .icon-sport-asia, .asian-live .mini-icon-1,
+.asian-left-menu ul li.active .asian-live .mini-icon-1{color: #ffffff;}
+.asian-left-menu ul li .icon-sport-asia, .asian-live .mini-icon-1{color: #7b8191;}
+.asian-left-menu ul li:hover{
+  background: $element-default-color;
+  cursor: pointer;
+}
+.asian-left-menu ul li.active{
+  background: $element-default-color;
+  height: 100%;
+  margin: 1px 0 5px;
+  max-height: 260px;
+  min-height: auto;
+}
+.asian-left-contain-menu.type-1 .asian-left-menu ul li.active{
+  margin: 1px 0;
+}
+.icon-sport-asia {
+  position: absolute;
+  z-index: 22;
+  left: 10px;
+  top: 4px;
+  width: 18px;
+  height: 16px;
+  font: 16px/16px 'sport-icon';
+  color: $sport-icon-color;
+  text-align: center;
+}
+.sport-name-asia{
+  float: left;
+  padding: 0 22px 0 36px;
+  width: 146px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu-arrow-asia{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 0;
+  top: 0;
+  color: $text-color-white;
+  text-align: center;
+}
+.menu-arrow-asia:before{
+  font: 16px/24px "icomoon";
+  content: "\e674";
+  position: absolute;
+  display: block;
+  left: 4px;
+  top: 0;
+}
+.asian-left-menu ul li.active .menu-arrow-asia:before{content: "\e675";}
+.sport-market-counts{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.sport-markets-menu{
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+.sport-markets-menu ul li {
+  border-radius: inherit;
+  border-top: none;
+  margin: 0;
+  border-bottom: 1px solid $base-color-border;
+  background: $global-color-3;
+  color: $text-color-menu;
+  box-shadow: 1px 0 0 #232630  inset, -1px 0 0 #232630  inset;
+}
+.market-neme-asia{
+  padding: 0 36px 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  width: 178px;
+}
+.sport-markets-menu ul li.active{
+  margin: 0;
+  color: $text-color-white;
+  background: $element-default-color;
+  box-shadow: 1px 0 0 $element-default-color, -1px 0 0 $element-default-color;
+}
+.sport-markets-menu ul li:first-child.active,.sport-markets-menu ul li:first-child:hover{
+	box-shadow: 0 1px 0 #121623  inset;
+}
+.sport-markets-menu ul li:hover{
+  box-shadow: 1px 0 0 $element-default-color, -1px 0 0 $element-default-color;
+  color: $text-color-white;
+}
+/*left menu sport END*/
+
+/*left block END*/
+
+/*Game wrapper*/
+
+.game-contain{
+  float: right;
+  width: calc(100% - 240px);
+  padding: 0;
+}
+.game-list-compitishion{
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: $market-color;
+}
+/*filter*/
+.big-filter-wrapper{
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+}
+.big-filter-wrapper ul{
+  width: calc(100% - 25px);
+  display: table;
+  float: left;
+}
+.big-filter-wrapper ul li{
+  display: table-cell;
+  border-left: 1px solid $border-color-white;
+  width: 25%;
+  background: $element-default-color;
+  height: 24px;
+  line-height: 24px;
+  color: $text-color-white;
+  font-size: 11px;
+  text-indent: 10px;
+  cursor: pointer;
+}
+.big-filter-wrapper ul li:first-child{
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+.big-filter-wrapper ul li.active:first-child{border-radius: 4px 0 0 0;}
+.big-filter-wrapper ul li.active .sub-menu-filter li:first-child{border-radius: inherit;}
+.contein-mini-filtr{
+  float: left;
+  width: 100%;
+  position: relative;
+  height: 24px;
+}
+.filter-icon{
+  float: left;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.filter-icon:before{
+  font: 18px/24px "icomoon";
+  content: "";
+  position: absolute;
+  display: block;
+  left: -4px;
+  top: 0;
+  width: 24px;
+  text-align: center;
+}
+.filter-icon.back:before{
+  content: "\e66f";
+}
+.big-filter-wrapper ul li:first-child .filter-icon:before{
+  font: 20px/24px icomoon;
+  content: "\e665";
+  left: -4px;
+}
+.big-filter-wrapper ul li:first-child .contein-mini-filtr .filter-icon.asc:before{
+  content: "\e664";
+}
+.date .filter-icon:before{
+  font: 12px/24px "icomoon";
+  content: "\e907";
+  left: -2px;
+}
+.competition .filter-icon:before, .name-filter-asian .filter-icon:before{content: "\e63f";}
+.contein-mini-filtr .menu-arrow-asia:before{left: -10px;}
+.big-filter-wrapper ul li.active .menu-arrow-asia:before{content: "\e023";}
+.sub-menu-filter{
+  position: absolute;
+  top: 24px;
+  left: 0;
+  width: 100%;
+  z-index: 33;
+  display: none;
+}
+.big-filter-wrapper ul li.active .sub-menu-filter{display: block;}
+.sub-menu-filter ul{
+  float: left;
+  width: 100%;
+  display: block;
+}
+.sub-menu-filter ul li{
+  display: block;
+  width: 100%;
+  float: left;
+  border: none;
+  border-bottom: 1px solid $base-color-border;
+  background: $global-color-3;
+  box-shadow: 1px 0 0 $base-color-border inset, -1px 0 0 $base-color-border inset;
+  color: $text-color-menu;
+  font-size: 11px;
+  position: relative;
+}
+.sub-menu-filter ul li:first-child{
+  border-top: 1px solid $base-color-border;
+  border-bottom: 1px solid $base-color-border;
+  border-radius: inherit;
+}
+.name-filter-b{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: calc(100% - 24px);
+}
+.contein-mini-filtr.time .name-filter-b{
+  max-width: 100%;
+  position: relative;
+  z-index: 33;
+}
+.sub-menu-filter ul li p{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.sub-menu-filter ul li:last-child{border-radius: 0 0 4px 4px;}
+.sub-menu-filter ul li:hover{
+  color: $text-color-white;
+  background: $element-default-color;
+}
+.sub-menu-filter ul li.active, .sub-menu-filter ul li.active:hover{
+  color: $text-color-white;
+  background: $element-active-color;
+}
+.sub-menu-filter ul li input[type="checkbox"],
+.popup-asian-info input[type="checkbox"] {
+  position: absolute;
+  left: -9999em;
+}
+.sub-menu-filter ul li label{
+  float: left;
+  height: 24px;
+  width: 100%;
+  text-indent: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.sub-menu-filter ul li input[type="checkbox"] + label:before,
+.popup-asian-info input[type="checkbox"] + label:before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background: $global-white-bg;
+  border-radius: 2px;
+  left: 8px;
+  top: 6px;
+  box-shadow: 0 0 1px $global-color-1;
+}
+.sub-menu-filter ul li input[type="checkbox"]:checked + label:after,
+.popup-asian-info input[type="checkbox"]:checked + label:after{
+  font-family: "icomoon";
+  content: "\e6f3";
+  color: #888A90;
+  display: block;
+  position: absolute;
+  border-radius: 2px;
+  line-height: 0;
+  font-size: 6px;
+  left: 11px;
+  top: 12px;
+  text-indent: 0;
+}
+.sub-menu-filter ul li.active input[type="checkbox"]:checked + label:after{color: $element-active-color;}
+/*filter END*/
+
+
+/*compitishion layout*/
+.asian-separator-container-b{
+  float: left;
+  width: 100%;
+}
+.market_list_view{
+  float: left;
+  width: 100%;
+}
+.game-list-compitishion.closed{
+  height: 24px;
+}
+.name-chempionship-asia{
+  float: left;
+  width: 100%;
+  background: $bg-headers;
+  height: 24px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+}
+.game-list-compitishion.closed .name-chempionship-asia{border-radius: 4px;}
+.name-chempionship-asia h3{
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 99%;
+  display: block;
+  line-height: 24px;
+  text-indent: 28px;
+  color: $text-color-white;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.all_view .name-chempionship-asia h3{
+  padding-left: 24px;
+}
+.all_view .name-chempionship-asia .icon-sport-asia{
+  left: 25px;
+  //color: $sport-icon-color;
+}
+.name-chempionship-asia h3:before{
+  font: normal 14px/24px "icomoon";
+  content: "\e671";
+  position: absolute;
+  display: block;
+  left: -21px;
+  top: 0;
+}
+.game-list-compitishion.closed .name-chempionship-asia h3:before{
+  font: normal 14px/24px "icomoon";
+  content: "\e670";
+  position: absolute;
+  display: block;
+  left: -21px;
+  top: 0;
+}
+.game-list-compitishion table{
+  float: left;
+  width: 100%;
+}
+.game-list-compitishion table tr td{
+  border: 1px solid #232630;
+  padding:  0;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 10px;
+  line-height: 12px;
+  background: $market-color;
+}
+.info-bl{
+  float: left;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+.info-bl p{
+  padding: 5px;
+  position: relative;
+}
+.match-odd1X2 .info-bl p {
+  padding: 7px 10px;
+}
+.match-odd1X2.ft-ht .info-bl p.time-g-asia {
+  padding: 1px 5px;
+  text-align: center;
+}
+.outright-tamplate .info-bl p {
+  padding: 5px 10px;
+}
+.outright-tamplate.sport .sport-outright .info-bl p{padding-left: 38px;}
+.outright-tamplate.sport .sport-outright .info-bl p i{top: 8px;}
+.section-2 .info-bl p{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.game-list-compitishion table tr td.big-row{
+  min-width: 230px;
+  max-width: 230px;
+  width: 230px;
+  text-transform: uppercase;
+  background: $team-name-bg;
+  text-align: left;
+}
+.game-list-compitishion table.name-ft-ht-layout.odd-even tr td.big-row{
+  min-width: 374px;
+  max-width: 374px;
+  width: 374px;
+}
+.game-list-compitishion table tr td.m-odds-b{
+  width: 52%;
+}
+.game-list-compitishion table tr td.big-row p{
+  padding-left: 38px;
+}
+.game-list-compitishion table tr td.big-row p i{
+  top: 3px;
+}
+.game-list-compitishion table tr td.sport-outright{
+  min-width: 144px;
+  max-width: 144px;
+  width: 144px;
+  text-transform: uppercase;
+  background: $team-name-bg;
+  text-align: left;
+}
+.game-list-compitishion table.outright-tamplate.sport tr td.big-row{
+  min-width: 144px;
+  max-width: 144px;
+  width: 144px;
+}
+.game-list-compitishion table.match-odd1X2.total-goal tr td.big-row{
+  min-width: 230px;
+  max-width: 230px;
+  width: 230px;
+}
+.game-list-compitishion table tr td.sport-outright.date{
+  background: $global-white-bg;
+}
+.game-list-compitishion table.outright-tamplate tr:nth-last-child(even) td{
+  background: $market-color-hover;
+}
+.game-list-compitishion table tr td.outiright-odds-asia{
+  text-align: left;
+}
+.game-list-compitishion table tr td.section-1{
+  min-width: 48px;
+  max-width: 48px;
+  width: 48px;
+  text-align: left;
+  height: 20px;
+}
+.game-list-compitishion table tr td.event-title-asia{
+  min-width: 464px;
+  max-width: 464px;
+  width: 464px;
+  text-align: left;
+}
+.game-list-compitishion table tr td.section-2{
+  min-width: 154px;
+  max-width: 154px;
+  width: 154px;
+  text-align: left;
+  background: $team-name-bg;
+}
+.game-list-compitishion table.match-odd1X2 tr td.section-2 {
+  min-width: 182px;
+  max-width: 182px;
+  width: 182px;
+}
+.game-list-compitishion table.match-odd1X2.odd-even tr td.section-2 {
+  min-width: 325px;
+  max-width: 325px;
+  width: 325px;
+}
+.game-list-compitishion table tr td.section-3{
+  min-width: 26px;
+  max-width: 26px;
+  width: 26px;
+  background: $team-name-bg;
+}
+.game-list-compitishion table tr td.section-3 .info-bl{
+  background: $score-bg;
+  color: $text-color-active;
+}
+.game-list-compitishion table tr td.factor-name{
+  min-width: 60px;
+  max-width: 60px;
+  width: 20%;
+}
+.game-list-compitishion table tr td.factor-w{
+  min-width: 60px;
+  max-width: 60px;
+  width: 20%;
+}
+.game-list-compitishion table tr td.factor-w .info-bl p b, .k-and-info p b{
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+.game-list-compitishion table tr td.factor-w .info-bl p i, .k-and-info p i{
+  font-style: normal;
+  float: right;
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+.game-list-compitishion table.match-odd1X2.correct-score tr td.factor-w{
+  min-width: 60px;
+  max-width: 200px;
+  width: 30%;
+}
+.game-list-compitishion table.ft-ht tr td.factor-w{
+  min-width: 40px;
+  max-width: 40px;
+  width: 10%;
+}
+.game-list-compitishion table.match-odd1X2.total-goal tr td.factor-w,
+.game-list-compitishion table.match-odd1X2.total-goal tr td.factor-name{
+  min-width: 50px;
+  max-width: 50px;
+  width: 10%;
+}
+
+.game-list-compitishion table tr td.factor-w.up,
+.game-list-compitishion table tr td.factor-w.up:hover,
+.game-list-compitishion table.second-more-view td.more-c-view.up,
+.game-list-compitishion table.second-more-view td.more-c-view.up:hover{
+  background: $up-bg;
+  color: $down-text-color;
+}
+.game-list-compitishion table tr td.factor-w.down,
+.game-list-compitishion table tr td.factor-w.down:hover,
+.game-list-compitishion table.second-more-view td.more-c-view.down,
+.game-list-compitishion table.second-more-view td.more-c-view.down:hover{
+  background: $down-bg;
+  color: $up-text-color;
+}
+.game-list-compitishion table tr td.factor-w.up p:before,
+.game-list-compitishion table.match-odd1X2.correct-score .factor-w.up p i:before,
+.game-list-compitishion table.hdp-contain .factor-w.up p i:before,
+.game-list-compitishion table.second-more-view td.more-c-view.up .k-and-info i:before{
+  font-family: icomoon;
+  font-size: 16px;
+  line-height: 0;
+  position: relative;
+  top: 4px;
+  content: "\e66d";
+  animation: blink 300ms linear 3;
+  -webkit-animation: blink 300ms linear 3;
+}
+@-webkit-keyframes blink{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes blink{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.game-list-compitishion table tr td.factor-w.down p:before,
+.game-list-compitishion table.match-odd1X2.correct-score .factor-w.down p i:before,
+.game-list-compitishion table.hdp-contain .factor-w.down p i:before,
+.game-list-compitishion table.second-more-view td.more-c-view.down .k-and-info i:before{
+  font-family: icomoon;
+  content: "\e66c";
+  font-size: 16px;
+  line-height: 0;
+  position: relative;
+  top: 4px;
+  animation: blink 300ms linear 3;
+  -webkit-animation: blink 300ms linear 3;
+ }
+.game-list-compitishion table.match-odd1X2.correct-score .factor-w.down p:before,
+.game-list-compitishion table.match-odd1X2.correct-score .factor-w.up p:before,
+.game-list-compitishion table.hdp-contain .factor-w.up .info-bl.k-and-info p:before,
+.game-list-compitishion table.hdp-contain .factor-w.down .info-bl.k-and-info p:before{
+  display: none;
+}
+.game-list-compitishion table tr td.factor-w:hover,
+.game-list-compitishion table tr td.outiright-odds-asia:hover{
+  background: $market-color-hover;
+  cursor: pointer;
+}
+.game-list-compitishion table tr td.factor-w.active,
+.game-list-compitishion table tr td.factor-w.active:hover,
+.game-list-compitishion table tr td.outiright-odds-asia.active,
+.game-list-compitishion table tr td.outiright-odds-asia.active:hover,
+.game-list-compitishion table.second-more-view td.more-c-view.active,
+.game-list-compitishion table.second-more-view td.more-c-view.active:hover{
+  color: $text-color-active;
+  background: $market-color-active;
+}
+.game-list-compitishion table tr td.factor-w.active.up,
+.game-list-compitishion table tr td.factor-w.active.up:hover{
+  background: $market-color-active;
+}
+.game-list-compitishion table tr td.factor-w.active.down,
+.game-list-compitishion table tr td.factor-w.active.down:hover{
+  background: $market-color-active;
+}
+.game-list-compitishion table tr td.more-competition{
+  min-width: 50px;
+  max-width: 50px;
+  width: 50px;
+  background: $team-name-bg;
+}
+.game-list-compitishion table.match-odd1X2 tr td.factor-w,
+.game-list-compitishion table.name-ft-ht-layout tr td.factor-w{
+  border-left-color: $global-color-3;
+  border-right-color: $global-color-3;
+}
+.game-list-compitishion table.match-odd1X2 tr td.factor-w.border-c,
+.game-list-compitishion table.name-ft-ht-layout tr td.factor-w.border-c{
+  border-right-color: $base-color-border;
+}
+.game-list-compitishion table.match-odd1X2 tr td:nth-last-child(2),
+.game-list-compitishion table.name-ft-ht-layout tr td:nth-last-child(2){border-right-color: $base-color-border;}
+.game-list-compitishion table tr td.factor-w.active.down p:after,
+.game-list-compitishion table tr td.factor-w.active.up p:after{color: $text-color-white;}
+.game-list-compitishion table tr td.border-d{border-bottom-color: transparent;}
+.time-g-asia span{
+  padding-right: 4px;
+  display: inline-block;
+}
+.teams-n-account-asia{
+  display: table;
+}
+.teams-n-account-asia span{
+  display: table-cell;
+  padding: 0 8px;
+  width: 10%;
+}
+.teams-n-account-asia span.name-team-asian-1x2{
+  max-width: 100px;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.match-odd1X2.odd-even .teams-n-account-asia span.name-team-asian-1x2{
+  max-width: 220px;
+}
+.teams-n-account-asia span.account-asian-1x2{
+  text-align: right;
+  white-space: nowrap;
+  min-width: 40px;
+  max-width: 40px;
+  width: 40px;
+}
+.teams-n-account-asia span.account-asian-1x2 b{
+  background: $score-bg;
+  color: $text-color-active;
+  display: inline-block;
+  padding: 4px 7px;
+  border-radius: 3px;
+  position: relative;
+}
+.match-odd1X2.correct-score .info-bl p{
+  padding: 4px 10px;
+}
+.match-odd1X2.correct-score p.teams-n-account-asia{
+  display: inline-block;
+  padding: 5px 0;
+  float: left;
+  text-transform: uppercase;
+}
+.match-odd1X2.correct-score .teams-n-account-asia span{
+  display: inline;
+ }
+.match-odd1X2.correct-score .teams-n-account-asia span.account-asian-1x2{
+  text-align: left;
+  padding: 4px 0;
+}
+.match-odd1X2.ft-ht .teams-n-account-asia span.account-asian-1x2 b{
+  padding: 2px 7px 3px;
+}
+.teams-n-account-asia span.account-asian-1x2 b:first-child{
+  margin-right: 5px;
+}
+.teams-n-account-asia span.account-asian-1x2 b:first-child:after{
+  content: ":";
+  position: absolute;
+  right: -5px;
+  top: 3px;
+  color: $text-color-dark;
+}
+.match-odd1X2.ft-ht .teams-n-account-asia span.account-asian-1x2 b:first-child:after{top: 1px;}
+
+.more-arrow-b-asia{
+  width: 100%;
+  height: 22px;
+  background: $global-color-3;
+  text-align: center;
+  color: $text-color-dark;
+  position: relative;
+  cursor: pointer;
+}
+.more-arrow-b-asia:before{
+  font: 16px/20px "icomoon";
+  content: "\e674";
+}
+.more-b-asia.active .more-arrow-b-asia:before{content: "\e675";}
+.game-list-compitishion table tr td.name-teams-hdp{
+  text-align: left;
+  border-right-color: transparent;
+  text-transform: uppercase;
+}
+.game-list-compitishion table tr td.filters-hdp{
+  text-align: right;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.game-list-compitishion table tr td.more-competition.first{
+  border-left-color: transparent;
+  background: $market-color;
+}
+.game-list-compitishion table tr td.name-teams-hdp .info-bl p{padding: 4px 10px;}
+.game-list-compitishion table tr td.name-teams-hdp .info-bl p span:first-child:after{
+  content: " - ";
+}
+.block-filter-hdp{
+  float: right;
+}
+.block-filter-hdp ul{
+  float: left;
+}
+.block-filter-hdp ul li{
+  float: left;
+  display: inline-block;
+  padding: 0 10px;
+  height: 16px;
+  line-height: 16px;
+  margin: 0 0 0 3px;
+  border-radius: 4px;
+  background: $element-disable-color;
+  color: $text-color-white;
+  cursor: pointer;
+}
+.block-filter-hdp ul li:hover, .block-filter-hdp ul li.active{
+  background: #A61F67;
+}
+.game-list-compitishion table.hdp-contain-title tr td.big-row{
+  min-width: 304px;
+  max-width: 304px;
+  width: 304px;
+}
+.game-list-compitishion table tr td.title-names-1x2{
+  width: 30%;
+}
+.game-list-compitishion table.hdp-contain-title tr td.title-names-hdp{
+  width: 17%;
+}
+.game-list-compitishion table.hdp-contain tr td.section-2{
+  min-width: 254px;
+  max-width: 254px;
+  width: 254px;
+}
+.game-list-compitishion table tr td.more-b-asia{
+  background: $team-name-bg;
+}
+.game-list-compitishion table .second-l-hdp tr td:first-child,
+.game-list-compitishion table .second-l-hdp tr td:last-child{
+  border-top: none;
+  border-bottom: none;
+}
+.game-list-compitishion table .second-l-hdp tr:last-child td:first-child,
+.game-list-compitishion table .second-l-hdp tr:last-child td:last-child{
+  border-bottom: 1px solid $base-color-border;
+}
+.game-list-compitishion table .second-l-hdp tr td:first-child,
+.game-list-compitishion table .second-l-hdp tr td:last-child{
+  border-top: none;
+  border-bottom: none;
+}
+.game-list-compitishion table .second-l-hdp tr:last-child td:first-child,
+.game-list-compitishion table .second-l-hdp tr:last-child td:last-child{
+  border-bottom: 1px solid $base-color-border;
+}
+.game-list-compitishion table .second-l-hdp tr:nth-child(2n+1) td.section-2{
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.hdp-contain .teams-n-account-asia span {
+  padding: 2px 8px;
+}
+.hdp-contain .teams-n-account-asia span.name-team-asian-1x2{max-width: 180px;}
+.hdp-contain .teams-n-account-asia span.account-asian-1x2{padding-right: 2px;}
+.hdp-contain .teams-n-account-asia span.account-asian-1x2 b:first-child{
+  margin-right: 0;
+  padding: 3px 7px;
+}
+.hdp-contain .teams-n-account-asia span.account-asian-1x2 b:first-child:after{display: none;}
+.match-odd1X2.correct-score .block-filter-hdp {
+  margin: 1px 54px 2px 0;
+}
+.match-odd1X2.correct-score .block-filter-hdp ul li {
+  height: 20px;
+  line-height: 20px;
+}
+.game-list-compitishion .match-odd1X2.correct-score tr td.section-1,
+.game-list-compitishion .match-odd1X2.correct-score tr td.more-competition{
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.game-list-compitishion .match-odd1X2.correct-score tr:last-child td.section-1,
+.game-list-compitishion .match-odd1X2.correct-score tr:last-child td.more-competition{
+  border-bottom-color: $base-color-border;
+}
+.big-row .info-bl{
+  position: relative;
+}
+.big-row .info-bl .icon-sport-asia{
+  left: 0;
+  top: 0;
+  width: 26px;
+  height: 100%;
+}
+.big-row .info-bl .icon-sport-asia:before{
+  left: 0;
+  top: 3px;
+  position: relative;
+}
+.big-row .info-bl:before,
+.big-row .info-bl:after{
+  content: "";
+  position: absolute;
+  top: -54%;
+  width: 26px;
+  background: $bg-headers;
+ /* height: 120%;*/
+  box-shadow: 0 1px 0 $bg-headers, 0 -1px 0 $bg-headers, -1px 0 0 $bg-headers;
+}
+.big-row .info-bl:after{
+  top: auto;
+  bottom: -54%;
+}
+
+.name-chempionship-asia.more-c .block-filter-hdp{
+  margin: 3px 10px 0 0;
+}
+.name-chempionship-asia.more-c .block-filter-hdp li{
+  height: 18px;
+  line-height: 18px;
+  background: $element-default-color;
+  padding: 0 15px;
+}
+.name-chempionship-asia.more-c .block-filter-hdp li.active,
+.name-chempionship-asia.more-c .block-filter-hdp li:hover{
+  background: $global-white-bg;
+  color: $text-color-dark;
+}
+.game-list-compitishion table tr td.name-b-more{
+  min-width: 230px;
+  max-width: 230px;
+  width: 230px;
+  text-align: left;
+  background: $team-name-bg;
+}
+.game-list-compitishion table tr td.comp-column-more{
+  color: $text-color-menu;
+  width: 30%;
+}
+.game-list-compitishion table tr td.name-b-more.title{
+  text-transform: uppercase;
+  background: $global-white-bg;
+}
+.sport-more-title,
+.name-b-teame-more{
+  float: left;
+  width:  100%;
+}
+.sport-more-title p,
+.name-b-teame-more p{
+  padding: 5px 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.game-list-compitishion table.more-events-t tr td.factor-w{
+  width: 14%;
+  min-width: 50px;
+  max-width: 50px;
+}
+.game-list-compitishion table.more-events-t tr td.factor-w.border-light{
+  border-right-color: $base-color-light;
+}
+.name-chempionship-asia.more-c h3{
+  max-width: 250px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.game-list-compitishion table.second-more-view td.more-c-view{
+  background: $team-name-bg;
+  width: 10%;
+}
+.name-market-view{
+  float: left;
+  width: 100%;
+  display: table;
+}
+.name-market-view p{
+  display: table-cell;
+  padding: 5px 0;
+  text-align: left;
+  width: 90%;
+  max-width: 90%;
+  vertical-align: middle;
+  position: relative;
+}
+.name-market-view p i{
+  font-style: normal;
+  display: block;
+  width: 90%;
+  position: absolute;
+  padding: 5px 10px;
+  left: 0;
+  top: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.name-market-view span{
+  display: table-cell;
+  padding: 5px 10px;
+  background: $global-white-bg;
+  border-left: 1px solid $base-color-border;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.game-list-compitishion table.second-more-view td.more-c-view.up .name-market-view span,
+.game-list-compitishion table.second-more-view td.more-c-view.up:hover .name-market-view span,
+.game-list-compitishion table.any-markets-more td.more-c-view.up,
+.game-list-compitishion table.any-markets-more td.more-c-view.up:hover,
+.game-list-compitishion .many-columns-b ul li.more-c-view.up,
+.game-list-compitishion .many-columns-b ul li.more-c-view.up:hover{
+  background: $up-bg;
+  color: $up-text-color;
+}
+.game-list-compitishion table.second-more-view td.more-c-view.down .name-market-view span,
+.game-list-compitishion table.second-more-view td.more-c-view.down:hover .name-market-view span,
+.game-list-compitishion table.any-markets-more td.more-c-view.down,
+.game-list-compitishion table.any-markets-more td.more-c-view.down:hover,
+.game-list-compitishion .many-columns-b ul li.more-c-view.down,
+.game-list-compitishion .many-columns-b ul li.more-c-view.down:hover{
+  background: $down-bg;
+  color: $down-text-color;
+}
+.game-list-compitishion table.second-more-view td.more-c-view.up .name-market-view span:before,
+.game-list-compitishion table.any-markets-more td.more-c-view.up .name-market-view span:before,
+.game-list-compitishion .many-columns-b ul li.more-c-view.up .name-market-view span:before{
+  font-family: icomoon;
+  font-size: 16px;
+  line-height: 0;
+  position: relative;
+  top: 4px;
+  content: "\e66d";
+}
+.game-list-compitishion table.second-more-view td.more-c-view.down .name-market-view span:before,
+.game-list-compitishion table.any-markets-more td.more-c-view.down .name-market-view span:before,
+.game-list-compitishion .many-columns-b ul li.more-c-view.down .name-market-view span:before{
+  font-family: icomoon;
+  content: "\e66c";
+  font-size: 16px;
+  line-height: 0;
+  position: relative;
+  top: 4px;
+}
+.game-list-compitishion table.second-more-view td.more-c-view:hover{cursor: pointer;}
+.game-list-compitishion table.second-more-view td.more-c-view:hover .name-market-view span{
+  background: $market-color-active;
+  cursor: pointer;
+  color: $text-color-active;
+}
+.game-list-compitishion table.second-more-view td.more-c-view.active .name-market-view span,
+.game-list-compitishion table.second-more-view td.more-c-view.active:hover .name-market-view span{
+  color: $text-color-active;
+  background: $market-color-active;
+}
+.game-list-compitishion table.second-more-view td.more-c-view.active.up .name-market-view span,
+.game-list-compitishion table.second-more-view td.more-c-view.active.up:hover .name-market-view span,
+.game-list-compitishion .many-columns-b ul li.more-c-view.active.up{
+  background: $market-color-active;
+}
+.game-list-compitishion table.second-more-view td.more-c-view.active.down .name-market-view span,
+.game-list-compitishion table.second-more-view td.more-c-view.active.down:hover .name-market-view span,
+.game-list-compitishion .many-columns-b ul li.more-c-view.active.down{
+  background: $market-color-active;
+}
+.game-list-compitishion table.any-markets-more td.more-c-view{
+  width: 10%;
+}
+.game-list-compitishion table.any-markets-more td.more-c-view .name-market-view span{
+  border: none;
+  background: none;
+}
+.game-list-compitishion table.any-markets-more td.more-c-view:hover,
+.game-list-compitishion table.any-markets-more td.more-c-view.active{
+  background: $market-color-hover;
+  cursor: pointer;
+}
+.game-list-compitishion table.any-markets-more td.more-c-view.active:hover,
+.game-list-compitishion table.any-markets-more td.more-c-view.active{
+  background: $market-color-active;
+  color: $text-color-active;
+}
+.match-odd1X2.correct-score .section-1 .time-g-asia {
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+.many-columns-b{
+  float: left;
+  width: 100%;
+}
+.many-columns-b .name-market-view span{
+  border: none;
+}
+.many-columns-b ul{
+  float: left;
+  width: 100%;
+}
+.many-columns-b ul li{
+  display: inline-block;
+  float: left;
+  width: calc(100% - 2px);
+  border: 1px solid $global-color-1;
+  border-top: none;
+}
+.many-columns-b.cols-2 ul li{
+  width: calc((100% - 3px) / 2);
+}
+.many-columns-b.cols-2 ul li:nth-child(even){
+  border-left: none;
+}
+.many-columns-b.cols-3 ul li{
+  width: calc((100% - 5px) / 3);
+  border-left: none;
+}
+.many-columns-b.cols-3 ul li:first-child,
+.many-columns-b.cols-3 ul li:nth-child(3n+4){
+  border-left: 1px solid $base-color-border;
+  width: calc((100% - 2px) / 3);
+}
+
+
+.many-columns-b.cols-4 ul li{
+  width: calc((100% - 4px) / 4);
+  border-left: none;
+}
+
+.many-columns-b.cols-4 ul li:first-child, .many-columns-b.cols-4 ul li:nth-child(4n+5) {
+  border-left: 1px solid #c1c4cc;
+  width: calc((100% - 8px) / 4);
+}
+
+.many-columns-b.cols-5 ul li{
+  width: calc((100% - 5px) / 5);
+  border-left: none;
+}
+
+.many-columns-b.cols-5 ul li:first-child, .many-columns-b.cols-5 ul li:nth-child(5n+6) {
+  border-left: 1px solid #c1c4cc;
+  width: calc((100% - 10px) / 5);
+}
+
+
+
+.many-columns-b .name-market-view p{
+  width: 100%;
+}
+.many-columns-b ul li:hover{
+  background: $market-color-hover;
+  cursor: pointer;
+
+}
+.many-columns-b ul li:nth-child(1):hover,.many-columns-b ul li:nth-child(2):hover, .many-columns-b ul li:nth-child(1),.many-columns-b ul li:nth-child(2){
+	  box-shadow: 0 1px 0 #121623  inset; 
+}
+.many-columns-b ul li.active, .many-columns-b ul li.active:hover {
+  color: $text-color-active;
+  background: $market-color-active;
+}
+.game-list-compitishion .many-columns-b ul li.more-c-view.active.up,
+.game-list-compitishion .many-columns-b ul li.more-c-view.active.down{
+  color: $text-color-active;
+}
+.many-columns-b .name-market-view span{
+  background: none;
+}
+/*compitishion layout END*/
+/*Game wrapper END*/
+
+/*popup*/
+.popup-wrapper-asian{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background: $global-color-popup;
+  overflow: hidden;
+}
+.popup-wrapper-asian.active{display: block;}
+.contain-poput-asia{
+  width: 950px;
+  margin: 0 auto;
+  display: table;
+  height: 100%;
+}
+.block-position-b{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.popup-asian-info{
+  display: inline-block;
+  background: $global-white-bg;
+  width: calc(100% - 40px);
+  padding: 20px;
+  border-radius: 4px;
+}
+.popup-title-b{
+  float: left;
+  width: 100%;
+  margin: 0 0 20px;
+}
+.name-filter-asian{float: left;}
+.name-filter-asian h3{
+  float: left;
+  font-size: 12px;
+  line-height: 24px;
+  color: $text-color-menu;
+  text-transform: uppercase;
+}
+.filter-function-b{float: right;}
+.filter-function-b ul{float: left;}
+.filter-function-b ul li{
+  float: left;
+  margin: 0 0 0 10px;
+  position: relative;
+}
+.popup-asian-info label{
+  float: left;
+  height: 24px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 24px;
+  color: $text-color-menu;
+  text-indent: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.filter-function-b ul li label{
+  margin-right: 20px;
+  overflow: inherit;
+}
+.filter-function-b ul li button{
+  float: right;
+  height: 24px;
+  background: $bg-buttons-normal;
+  color: $text-color-white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 11px;
+  font-weight: bold;
+  min-width: 100px;
+  cursor: pointer;
+}
+.filter-function-b ul li button:disabled{
+  background: $bg-buttons-disable;
+  cursor: default;
+}
+.all-filter-competitions{
+  float: left;
+  width: 100%;
+  @include scroll;
+  max-height: 480px;
+}
+.all-filter-competitions ul{
+  float: left;
+  width: 100%;
+  position: relative;
+  left: -6px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  -ms-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
+  -ms-column-gap: 0;
+  column-gap: 0;
+}
+.all-filter-competitions ul li{
+  float: none;
+  width: 100%;
+  max-width: 294px;
+  height: 24px;
+  border: 1px solid $base-color-border;
+  border-top: none;
+  margin: 0 0 0 5px;
+  background: $global-color-3;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.all-filter-competitions ul li:hover{
+  background: $element-default-color;
+  border-left-color: #A71F67;
+  border-right-color: #121623;
+}
+.all-filter-competitions ul li.active,
+.all-filter-competitions ul li.active:hover{
+  background: $element-active-color;
+  border-left-color: $element-active-color;
+  border-right-color: $element-active-color;
+}
+.all-filter-competitions ul li:hover label,
+.all-filter-competitions ul li.active label{color: $text-color-white;}
+/*popup END*/
+
+/*live game style*/
+.asian-live{
+  float: left;
+  width: 100%;
+  border: 1px solid $base-color-border;
+  border-radius: 4px;
+  margin: 0 0 10px;
+  background-image: url(../../../images/game-category/custom.jpg?v=1);
+  background-size: cover;
+  position: relative;
+  /*live score style*/
+  /*.game-score.soccer-template{margin: 15px 0;}*/
+  .sport-title{
+    height: 30px;
+    text-align: left;
+    padding-left: 30px;
+    background: $c16-sp-9;
+    border-top: 1px solid $c16-sp-9;
+    font: 12px/30px $font-f;
+    color: set-color($c16-sp-9);
+    white-space: nowrap;
+    b{
+      margin-top: 3px;
+      margin-left: -3px;
+      color: $text-palette-4;
+    }
+    span {
+      float: left;
+      max-width: 450px;
+    }
+    .curr-minute-info {
+      float: right;
+      margin-right: 30px;
+    }
+    .statistics-h2h{
+      right: 5px;
+    }
+  }
+  .game-info .game-detailed-stats {
+    top: 108px;
+  }
+  .game-score.soccer-template ul li.score-total span{
+    display: inline-block;
+    padding: 2px 8px 4px;
+  }
+  .game-score.soccer-template ul li p{text-shadow: 1px 1px 2px #222;}
+  .game-score-multiset {
+    color: $text-color-white;
+    text-align: center;
+  }
+  .game-score-multiset ul.title li{background: $bg-headers; border-top: 0 none;}
+  .game-score-multiset ul li.total-score span, .game-score-multiset ul li.sets-score span{border-radius: 4px;}
+  .game-score-multiset ul li p{text-shadow: 0 1px 1px #333;}
+
+  &.game-soccer, &.game-cyberfootball{background-image: url(../../../images/game-category/Football-bg.jpg?v=1); background-position: 50% 75%; color:#fff;}
+  &.game-tennis {background-image: url(../../../images/game-category/tennis.jpg?v=1);}
+  &.game-basketball, &.game-ebasketball {background-image: url(../../../images/game-category/basketball.jpg?v=1);}
+  &.game-volleyball {background-image: url(../../../images/game-category/valleyball.jpg?v=1);}
+  &.game-tabletennis {background-image: url(../../../images/game-category/tab_tennis.jpg?v=1);}
+  &.game-baseball {background-image: url(../../../images/game-category/baceball.jpg?v=1); }
+  &.game-badminton {background-image: url(../../../images/game-category/badmenton.jpg?v=1);}
+  &.game-icehockey {background-image: url(../../../images/game-category/ice_hockey.jpg?v=1);}
+  &.game-horseracing {background-image: url(../../../images/game-category/horse_racing.jpg); background-size: cover;}
+  &.game-snooker {background-image: url(../../../images/game-category/snooker2.jpg?v=1);}
+  &.game-cricket {background-image: url(../../../images/game-category/Cricket.jpg);}
+  &.game-golf {background-image: url(../../../images/game-category/golf.jpg?v=1);}
+  &.game-beachvolleyball{background-image: url(../../../images/game-category/b_Volleyball.jpg);}
+  &.game-handball {background-image: url(../../../images/game-category/handball.jpg?v=1);}
+  &.game-boxing {background-image: url(../../../images/game-category/box.jpg?v=1);}
+  &.game-cycling {background-image: url(../../../images/game-category/cycling.jpg?v=1);}
+  &.game-futsal {background-image: url(../../../images/game-category/footsal.jpg?v=1);}
+  &.game-rugby {background-image: url(../../../images/game-category/rugby.jpg);}
+  &.game-wrestling {background-image: url(../../../images/game-category/Wrestling1.jpg);}
+  &.game-americanfootball {background-image: url(../../../images/game-category/amer_fball.jpg);}
+  &.game-leagueoflegends {background-image: url(../../../images/game-category/league-of-legends.jpg?v=2)};
+  &.game-starcraft {background-image: url(../../../images/game-category/star-craft.jpg?v=2)};
+  &.game-counterstrike {background-image: url(../../../images/game-category/counter-strike.jpg?v=2)};
+  &.game-callofduty {background-image: url(../../../images/game-category/callofduty.jpg?v=2);}
+  &.game-hearthstone {background-image: url(../../../images/game-category/hearthstone.jpg?v=2);}
+  &.game-heroesofthestorm{background-image: url(../../../images/game-category/heroesofthestorm.jpg?v=2);}
+  &.game-worldoftanks {background-image: url(../../../images/game-category/worldoftanks.jpg?v=2);}
+  &.game-overwatch {background-image: url(../../../images/game-category/overwatch.jpg?v=1);}
+
+
+  .game-score-multiset ul.title .mini-icon-1{
+    margin: 2px 0 0;
+    left: -10px;
+  }
+  .game-score-multiset ul.title li:first-child{padding-left: 24px;}
+  .mini-icon-1{
+    background: none;
+    @extend .icon-sport-asia;
+    &:before{display: block;}
+  }
+  /*statistics styles */
+  .live-stats{
+    float: left;
+    width: 100%;
+    .game-control{margin: 0; border-top: 1px solid $base-color-border;}
+    .game-control.basketball{display: none;}
+    .game-control .statistics-toggle{
+      background: #263E22;
+      color: $text-color-dark;
+      border-radius: 0 0 2px 2px;
+      padding: 5px 0;
+      .timeline-container{
+        width: 94%;
+        margin: 12px 0 8px;
+        margin-left: 3.7%;
+        float: none;
+      }
+    }
+    .game-control .game-statistics li .stat-l, .game-control .game-statistics li .stat-r{font-size: 10px; text-align: center;}
+    .game-control .game-statistics li .team-2{box-shadow: none;}
+   /* .statistics-toggle.flip-contain .flip-btn{display: none;}*/
+    /*.statistics-toggle.flip-contain .flip-card .front, .statistics-toggle.flip-contain .flip-card .back{width: calc(100% - 0.6em);}*/
+
+  }
+}
+
+/*top swicher*/
+.gaming-wrapper-asia .sportsbook-top-tab-t{
+  float: left;
+  width: 100%;
+  background: $element-default-color;
+  height: 28px;
+  border-bottom: 2px solid $element-active-color;
+  border-radius: 3px 3px 0 0;
+  margin: 0 0 10px;
+  text-align: center;
+}
+.gaming-wrapper-asia .layout-switcher{}
+.gaming-wrapper-asia .layout-switcher > ul{
+  float: none;
+}
+.gaming-wrapper-asia .sportsbook-top-tab-t > ul li{
+  line-height: 26px;
+  color: #7b8191;
+}
+.gaming-wrapper-asia .layout-switcher > ul li, .gaming-wrapper-asia .sportsbook-top-tab-t > ul li a{
+  float: none;
+  color: #7b8191;
+  height: 28px;
+  display: inline-block;
+  position: relative;
+  font: 12px/28px "LatoRegular", "NotoSans", "NotoSans2";
+  padding: 0 20px 0 42px;
+  margin: 0;
+  text-transform: uppercase;
+  transition-duration: 250ms;
+  cursor: pointer;
+}
+.gaming-wrapper-asia .layout-switcher > ul li.title-sep{
+  font: 12px/26px "LatoRegular", "NotoSans", "NotoSans2";
+  color: #7b8191;
+  display: none;
+}
+.gaming-wrapper-asia .layout-switcher > ul li.active-format:before{
+  display: none;
+}
+.gaming-wrapper-asia .game-score-multiset > ul.title li:first-child span{
+  text-indent: 10px;
+}
+.gaming-wrapper-asia .layout-switcher > ul li i{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background: #7b8191;
+  border-radius: 50%;
+  display: block;
+  left: 20px;
+  top: 6px;
+  text-align: center;
+  font: 10px/15px "LatoRegular", "NotoSans", "NotoSans2";
+  color: #111522;
+}
+.gaming-wrapper-asia .layout-switcher > ul li.active-format i, .gaming-wrapper-asia .layout-switcher > ul li:hover i{
+  background: $element-active-color;
+  color: $text-color-white;
+}
+.gaming-wrapper-asia .layout-switcher > ul li.active-format, .gaming-wrapper-asia .layout-switcher > ul li:hover,
+.gaming-wrapper-asia .sportsbook-top-tab-t > ul li a:hover,
+.gaming-wrapper-asia .sportsbook-top-tab-t > ul li.active a{
+  background: #212532;
+  color: $text-color-white;
+}
+.gaming-wrapper-asia .layout-switcher > ul li.title-sep:hover{
+  background: none;
+  color: #7b8191;
+}
+.gaming-wrapper-asia .factor-change-wrapper{
+  right: 10px;
+  height: 28px;
+}
+.gaming-wrapper-asia .factor-change-wrapper > p{
+  color: #7b8191;
+  font: 12px/28px "LatoRegular", "NotoSans", "NotoSans2";
+}
+.gaming-wrapper-asia .factor-change-wrapper > p:after {
+  font: 16px/28px icomoon;
+}
+.gaming-wrapper-asia .sportsbook-top-tab-t > ul li .statistics-icon-new {
+  top: 9px;
+  color: #7B8191;
+  font-size: 12px;
+}
+.gaming-wrapper-asia .sportsbook-top-tab-t > ul li .calendar-icon-new {
+  font-size: 16px;
+  top: 6px;
+  color: #7B8191;
+}
+.gaming-wrapper-asia .sportsbook-top-tab-t > ul li:hover .calendar-icon-new, .gaming-wrapper-asia .sportsbook-top-tab-t > ul li:hover .statistics-icon-new {
+  color: $red-bg;
+}
+/*top swicher end*/
+/*live game style END*/
+/*asian view END*/
+
+/*asian full view*/
+@media screen and (min-width: 1250px) {
+  .asian-contain {
+   width: calc(100% - 40px);
+    max-width: 1310px;
+  }
+  .game-list-compitishion table.hdp-contain-title tr td.big-row {
+    max-width: 366px;
+    width: 35%;
+  }
+  .game-list-compitishion table.hdp-contain-title tr td.title-names-hdp{width: 20%;}
+  .game-list-compitishion table tr td.more-competition{width: 5%;}
+  .game-list-compitishion table tr td.m-odds-b {width: 55.5%;}
+}
+/*asian full view END*/
+// Locked icon
+.game-list-compitishion table tr td.factor-w.locked-market-asi:hover,
+.game-list-compitishion table tr td.factor-w.up.locked-market-asi,
+.game-list-compitishion table tr td.factor-w.up.locked-market-asi:hover,
+.game-list-compitishion table.second-more-view td.more-c-view.up.locked-market-asi,
+.game-list-compitishion table.second-more-view td.more-c-view.up.locked-market-asi:hover,
+.game-list-compitishion table tr td.factor-w.down.locked-market-asi,
+.game-list-compitishion table tr td.factor-w.down.locked-market-asi:hover,
+.game-list-compitishion table.second-more-view td.more-c-view.down.locked-market-asi,
+.game-list-compitishion table.second-more-view td.more-c-view.down.locked-market-asi:hover,
+.game-list-compitishion table.second-more-view td.more-c-view.up.locked-market-asi .name-market-view span,
+.game-list-compitishion table.second-more-view td.more-c-view.up.locked-market-asi:hover .name-market-view span,
+.game-list-compitishion table.any-markets-more td.more-c-view.up.locked-market-asi,
+.game-list-compitishion table.any-markets-more td.more-c-view.up.locked-market-asi:hover,
+.game-list-compitishion .many-columns-b ul li.more-c-view.up.locked-market-asi,
+.game-list-compitishion .many-columns-b ul li.more-c-view.up.locked-market-asi:hover,
+.game-list-compitishion table.second-more-view td.more-c-view.down.locked-market-asi .name-market-view span,
+.game-list-compitishion table.second-more-view td.more-c-view.down.locked-market-asi:hover .name-market-view span,
+.game-list-compitishion table.any-markets-more td.more-c-view.down.locked-market-asi,
+.game-list-compitishion table.any-markets-more td.more-c-view.down.locked-market-asi:hover,
+.game-list-compitishion .many-columns-b ul li.more-c-view.down.locked-market-asi,
+.game-list-compitishion .many-columns-b ul li.more-c-view.down.locked-market-asi:hover {
+  background: none;
+}
+.game-list-compitishion table tr td.factor-w.locked-market-asi p:before, .game-list-compitishion table tr td.factor-w.locked-market-asi i:before {
+  display:none;
+}
+.game-list-compitishion table.second-more-view td.more-c-view.locked-market-asi .info-bl, 
+.game-list-compitishion table tr td.factor-w.locked-market-asi .info-bl,
+.game-list-compitishion table.any-markets-more td.more-c-view.locked-market-asi .info-bl {
+  cursor: default;
+  height: 22px;
+  p {
+    font-size: 0;
+    b {
+      font-size: 10px;
+    }
+    i:before {
+      display: none;
+    }
+  }
+  p:after {
+    font: 11px 'icomoon';
+    content: "\e68f";
+    color: $text-palette-4;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+}  
+.many-columns-b ul li.more-c-view.locked-market-asi,
+.game-list-compitishion table.second-more-view td.more-c-view.locked-market-asi,
+.game-list-compitishion table.any-markets-more td.more-c-view.locked-market-asi {
+  .name-market-view {
+    cursor: default;
+  }
+  span {
+    position: relative;
+    font-size: 0;
+    background: none !important;
+    &:before {
+      display: none;
+    }
+  }
+  span:after {
+    font: 11px 'icomoon';
+    content: "\e68f";
+    color: $text-palette-4;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+}
+// End locked icon
+.game-list-compitishion.outright:before {
+  display: none;
+}
+
+
+.teams-n-account-asia span.account-asian-1x2 b {
+  &.red-card-asian, &.yellow-card-asian {
+    padding: 3px 2px;
+    min-width: 10px;
+    text-align: center;
+    font-size: 9px;
+  }
+  &.red-card-asian {
+    background: #af1428;
+  }  
+  &.yellow-card-asian {
+    background: #fde000;
+    color: black;
+  }
+}
+
+.asian-left-contain-menu .viewSwitcher-j {
+  margin: 0 0 2px;
+}
+.selectSportsbookColor-j {
+  float: right;
+  width: 24px;
+  height: 24px;
+  border-radius: 0 4px 4px 0;
+  background: #404654;
+  position: relative;
+  z-index: 200;
+  p {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 4px 0 0;
+    &:before {
+      content: "\e6f9";
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: block;
+      color: #8e93a4;
+      font: normal 14px/24px icomoon;
+      text-align: center;
+    }
+  }
+  &.active {
+    p {
+      background: #363945;
+    }
+    > div {
+      display: inline-block;
+    }
+  }
+  > div {
+    display: none;
+    background: #363945;
+    box-shadow: 0 2px 3px -1px #000;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    min-width: 100%;
+    white-space: nowrap;
+    > div {
+      box-sizing: border-box;
+      float: left;
+      width: 100%;
+      color: #7c8292;
+      font: 11px/30px $font-f;
+      padding: 0 20px;
+      height: 30px;
+      transition: color 240ms, background 240ms;
+      text-align: right;
+      text-transform: uppercase;
+      span {
+        float: left;
+        width: 100%;
+        display: block;
+        box-shadow: 0 1px 0 #212531 inset;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      &:first-child span {
+        box-shadow: none;
+      }
+      &.active {
+        background: #1a7051;
+        color: #f4f4f6;
+        pointer-events: none;
+        span {
+          box-shadow: none;
+        }
+      }
+      &:hover {
+        color: #f4f4f6;
+      }
+    }
+  }
+}

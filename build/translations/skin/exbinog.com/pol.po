@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+# 
+msgid "message_2300"
+msgstr "Maks. Stawka - Osiągnięto limit"
+
+
+# 
+msgid "Deposit to main wallet"
+msgstr "Złóż depozyt na swoim koncie gracza eXbinoG.com."
+
+# 
+msgid "Withdraw from main wallet"
+msgstr "Wypłać środki ze swojego konta gracza eXbinoG.com"
+
+# 
+msgid "Name"
+msgstr "Imię"

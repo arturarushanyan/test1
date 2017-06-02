@@ -1,0 +1,5616 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: iw\n"
+"X-Generator: Poedit 1.8.3\n"
+
+#
+msgid "Your balance is low"
+msgstr "המאזן שלך נמוך"
+
+#
+msgid "Renew to get more."
+msgstr "תחדש בשביל לקבל עוד."
+
+#
+msgid "OK"
+msgstr "אישור"
+
+#
+msgid "Yes"
+msgstr "כן"
+
+#
+msgid "No"
+msgstr "לא"
+
+#
+msgid "Blitz Survey"
+msgstr "Blitz Survey"
+
+#
+msgid "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+msgstr "אנו מעוניינים לדעת איזו מהמשחקים הבאים אתה יודע לשחק (אתה יכול לבחור עד 5 מוצרים):"
+
+#
+msgid "Chinese Poker"
+msgstr "פוקר סיני"
+
+#
+msgid "Live Casino"
+msgstr "קזינו חי"
+
+#
+msgid "Poker"
+msgstr "פוקר"
+
+#
+msgid "Backgammon"
+msgstr "שש-בש"
+
+#
+msgid "Belote"
+msgstr "בלוט"
+
+#
+msgid "None"
+msgstr "כלום"
+
+#
+msgid "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+msgstr "תודה על ההשתתפות בסקר שלנו. אנו מעריכים את התעניינותך במוצרינו."
+
+#
+msgid "Submit"
+msgstr "שלח"
+
+#
+msgid "Input Password"
+msgstr "הכנס סיסמה"
+
+#
+msgid "Feedback"
+msgstr "משוב"
+
+#
+msgid "Hello, we'd love to hear your thoughts."
+msgstr "שלום, נשמח לשמוע את דעותיך."
+
+#
+msgid "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+msgstr "במידה ויש לך שאלות, הערות או הצעות, אנא הכנס את המשוב בשדה למטה ולחץ על &quot;שלח&quot;."
+
+#
+msgid "Email Address"
+msgstr "כתובת דואר אלקטרוני"
+
+#
+msgid "Enter your email address"
+msgstr "הכנס כתובת הדואר האלקטרוני שלך"
+
+#
+msgid "Please enter a valid email address"
+msgstr "אנא הכנס כתובת דואר אלקטרוני תקינה"
+
+#
+msgid "Your message"
+msgstr "ההודעה שלך"
+
+#
+msgid "Send"
+msgstr "שלח"
+
+#
+msgid "Your message has been sent."
+msgstr "הודעתך נשלחה."
+
+#
+msgid "Live"
+msgstr "חי"
+
+#
+msgid "pre-match"
+msgstr "לפני-משחק"
+
+#
+msgid "No games found"
+msgstr "לא נמצאו משחקים"
+
+#
+msgid "Games"
+msgstr "משחקים"
+
+#
+msgid "all"
+msgstr "הכל"
+
+#
+msgid "Today"
+msgstr "היום"
+
+#
+msgid "Tomorrow"
+msgstr "מחר"
+
+#
+msgid "More"
+msgstr "עוד"
+
+#
+msgid "Sorry the game which you chose doesn't have the type of play for fun"
+msgstr "מצטערים, המשחק שבחרת לא זמין למשחק לכיף"
+
+#
+msgid "Transfer"
+msgstr "העברה"
+
+#
+msgid "Enter"
+msgstr "הכנס"
+
+#
+msgid "Withdraw from game"
+msgstr "משיכה ממשחק"
+
+#
+msgid "Deposit to game"
+msgstr "הפקדה למשחק"
+
+#
+msgid "Game Balance: "
+msgstr "מאזן משחק: "
+
+#
+msgid "Error occured"
+msgstr "תקלה "
+
+#
+msgid "more"
+msgstr "עוד"
+
+#
+msgid "Select a Category"
+msgstr "בחר קטגוריה"
+
+#
+msgid "Select region"
+msgstr "בחר אזור"
+
+#
+msgid "All Providers"
+msgstr "כל הספקים"
+
+#
+msgid "left arrow"
+msgstr "חץ שמאלי"
+
+#
+msgid "right arrow"
+msgstr "חץ ימני"
+
+#
+msgid "Popular Games"
+msgstr "משחקים פופולרים"
+
+#
+msgid "play now"
+msgstr "שחק עכשיו"
+
+#
+msgid "PLAY FOR FUN"
+msgstr "שחק לכיף"
+
+#
+msgid "TOP SLOTS"
+msgstr "מכונות המזל המובילות"
+
+#
+msgid "VIEW"
+msgstr "תצוגה"
+
+#
+msgid "Load more"
+msgstr "טען עוד"
+
+#
+msgid "Casino games"
+msgstr "משחקי קזינו"
+
+#
+msgid "Live casino"
+msgstr "קזינו חי"
+
+#
+msgid "Live Lottery"
+msgstr "לוטו חי"
+
+#
+msgid "Skill games"
+msgstr "משחקי מיומנות"
+
+#
+msgid "Virtual games"
+msgstr "משחקים וירטואלים"
+
+#
+msgid "All Multi View Games"
+msgstr "כל המשחקי התצוגות המרובות"
+
+#
+msgid "Search"
+msgstr "חיפוש"
+
+#
+msgid "Points Calculator"
+msgstr "מחשבון נקודות"
+
+#
+msgid "Buy-in"
+msgstr "קניה"
+
+#
+msgid "Entrants"
+msgstr "משתתפים"
+
+#
+msgid "Position"
+msgstr "מיקום"
+
+#
+msgid "Points"
+msgstr "נקודות"
+
+#
+msgid "Download"
+msgstr "הורדה"
+
+#
+msgid "Download Beta version"
+msgstr "הורד גרסה חדשה"
+
+#
+msgid "Play now"
+msgstr "שחק עכשיו"
+
+#
+msgid "Armenian"
+msgstr "ארמנית"
+
+#
+msgid "online"
+msgstr "מקוון"
+
+#
+msgid "Championship"
+msgstr "אליפות"
+
+#
+msgid "season"
+msgstr "עונה"
+
+#
+msgid "Play now!"
+msgstr "שחק עכשיו!"
+
+#
+msgid "choose your os"
+msgstr "בחר את מערכת ההפעלה שלך"
+
+#
+msgid "All"
+msgstr "הכל"
+
+#
+msgid "All downloads"
+msgstr "כל ההורדות"
+
+#
+msgid "Windows"
+msgstr "ווינדוס"
+
+#
+msgid "poker_requirements_windows"
+msgstr "דרישות מערכת מינימליות:<br>Windows XP / Vista / Windows 7<br>Pentium 4 עם 3GHz (או מעבד תואם)<br>1GB RAM<br>חיבור אינטרנט מהיר<br>"
+
+#
+msgid "poker_download_description_windows"
+msgstr "<ol><li>חלון יופיע. לחץ הפעל.</li><li>ברגע שההורדה תסתיים, עלולה להופיע הודעה לאישור המפעיל.</li><li>לחץ \"הפעל\" .</li><li>בחלון הבא, להתקנת התוכנה לחץ הבא.</li><li>ברגע שההתקנה מסיימת, תוכל למצוא את סמל הVbet Poker בשולחן העבודה שלך.</li><li>לחץ פעמיים על הסמל כדי להתחיל את התוכנה.</li></ol>"
+
+#
+msgid "Mac OS"
+msgstr "מק"
+
+#
+msgid "poker_requirements_mac"
+msgstr "דרישות מערכת מינימליות:<br>MacÂ® OS X 10.6.8 או גבוה יותר <br>מעבד IntelÂ® <br>300MB זמינים בדיסק הקשיח<br>1GB RAM<br>חיבור אינטרנט מהיר<br>רזולוציית מסך מינימלית 1024X720"
+
+#
+msgid "poker_download_description_mac"
+msgstr "<ol><li>הורד את חבילת התוכנה</li><li>פתח את חבילת התוכנה בלחיצה כפולה</li><li>העבר את החבילה הפתוחה לתוכנות</li><li>לחץ על התוכנה כדי להפעילה</li></ol>"
+
+#
+msgid "Linux"
+msgstr "לינוקס"
+
+#
+msgid "poker_requirements_linux"
+msgstr " "
+
+#
+msgid "poker_download_description_linux"
+msgstr " "
+
+#
+msgid "Android"
+msgstr "אנדרואיד"
+
+#
+msgid "poker_requirements_android"
+msgstr "דרישות מערכת מינימליות:<br> Adobe Air (הורדהÂ <a href=https://play.google.com/store/apps/details?id=com.adobe.air&hl=en target=_blank>כאן</a>)<br>אנדרואיד גרסה 4.0 או חדשה יותר<br>Wi-Fi דור 3 או ויי פייbr>"
+
+#
+msgid "poker_download_description_android"
+msgstr "<ol><li>לפני ההורדה, בהגדרות המערכת בחר  באבטחה> אשר מקורות לא ידועים.</li><li>בשביל הפעלה תקינה של התוכנה Adobe Air חייב להיות מותקן.</li><li>במידה ועמדת בתנאים, תוכל לתחיל על ידי לחיצה על סמל האפליקציה.</li><li>אחרי השלחמת ההורדה, התוכנה תותקן בצורה אוטומטית.</li><li>אחרי ההתקנה, הפעל את התוכנה על ידי לחיצה על סמל התוכנה.</li></ol>"
+
+#
+msgid "3 Steps To start the game"
+msgstr "<b>3 שלבים</b>  להתחלת המשחק"
+
+#
+msgid "Register"
+msgstr "הרשם"
+
+#
+msgid "Play"
+msgstr "שחק"
+
+#
+msgid "Start"
+msgstr "התחל"
+
+#
+msgid "Download and Install"
+msgstr "הורד והתקן"
+
+#
+msgid "Register your account"
+msgstr "הרשם"
+
+#
+msgid "Start to Play"
+msgstr "התחל לשחק"
+
+#
+msgid "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+msgstr "לחץ על הקובץ שהורדת כדי להתחיל את תהליך ההתקנה.<br>עקוב אחרי השלבים להשלמת ההתקנה והפעלת התוכנה."
+
+#
+msgid "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+msgstr "לחץ על כפתור ההרשמה במסך ההתחברות כדי  להרשם.<br>במידה וכבר נרשמת, הכנס את פרטי ההתחברות והתחבר."
+
+#
+msgid "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+msgstr "תהנה מחדר הפוקר שלנו.<br>בשביל הערות והצעות אנא פנה לצוות התמיכה."
+
+#
+msgid "Download Windows client"
+msgstr "הורדת תוכנה לווינדוס"
+
+#
+msgid "desktop"
+msgstr "שולחן עבודה"
+
+#
+msgid "Download MacOS client"
+msgstr "הורדת תוכנה למק"
+
+#
+msgid "iPhone"
+msgstr "אייפון"
+
+#
+msgid "Instant Play"
+msgstr "משחק מיידי"
+
+#
+msgid "android"
+msgstr "אנדרואי"
+
+#
+msgid "Download Linux client"
+msgstr "הורדת תוכנה ללינוקס"
+
+#
+msgid "linux"
+msgstr "לינוקס"
+
+#
+msgid "loading..."
+msgstr "טוען..."
+
+#
+msgid "Page not found"
+msgstr "דף לא נמצא"
+
+#
+msgid "statistic"
+msgstr "סטטיסטיקה"
+
+#
+msgid "Previous Flash version"
+msgstr "גרסאת פלאש"
+
+#
+msgid "Casino"
+msgstr "קזינו"
+
+#
+msgid "Fantasy Sports"
+msgstr "ספורט פנטזיה"
+
+#
+msgid "OGWIL"
+msgstr "OGWIL"
+
+#
+msgid "Jackpot"
+msgstr "Jackpot"
+
+#
+msgid "Financials"
+msgstr "פיננסים"
+
+#
+msgid "Free Bet"
+msgstr "Free Quiz"
+
+#
+msgid "Pool Betting"
+msgstr "Pool Betting"
+
+#
+msgid "Note:"
+msgstr "הערה:"
+
+#
+msgid "You can change the layout of the sportsbook in the settings."
+msgstr "אתה יכול לשנות את צורת הפריסה של הספורט בהגדרות."
+
+#
+msgid "Don't show this again."
+msgstr "אל תראה זאת שוב."
+
+#
+msgid "Settings"
+msgstr "הגדרות"
+
+#
+msgid "Odds in"
+msgstr "סוג יחסים"
+
+#
+msgid "Decimal"
+msgstr "דצימלים"
+
+#
+msgid "Fractional"
+msgstr "שברים"
+
+#
+msgid "American"
+msgstr "אמריקאי"
+
+#
+msgid "Event sounds:"
+msgstr "קול אירוע:"
+
+#
+msgid "On"
+msgstr "פועל"
+
+#
+msgid "Off"
+msgstr "מכובה"
+
+#
+msgid "Hide:"
+msgstr "הסתר:"
+
+#
+msgid "Username"
+msgstr "שם משתמש"
+
+#
+msgid "Balance"
+msgstr "מאזן"
+
+#
+msgid "Time format"
+msgstr "תצוגת זמן"
+
+#
+msgid "12 hours"
+msgstr "12 שעות"
+
+#
+msgid "24 hours"
+msgstr "24 שעות"
+
+#
+msgid "Sportsbook layout:"
+msgstr "פריסת ספורט:"
+
+#
+msgid "Modern"
+msgstr "מודרני"
+
+#
+msgid "Classic"
+msgstr "קלאסי"
+
+#
+msgid "Choose color scheme:"
+msgstr "בחר את תבנית הצבע:"
+
+#
+msgid "Change language"
+msgstr "שנה שפה"
+
+#
+msgid "Live Agent"
+msgstr "סוכן חי"
+
+#
+msgid "Live Chat"
+msgstr "צ'אט חי"
+
+#
+msgid "FAQ"
+msgstr "שאלות נפוצות"
+
+#
+msgid "My messages"
+msgstr "ההודעות שלי"
+
+#
+msgid "Log Out"
+msgstr "התנתק"
+
+#
+msgid "My bets"
+msgstr "ההימורים שלי"
+
+#
+msgid "My games"
+msgstr "המשחקים שלי"
+
+#
+msgid "Sign in"
+msgstr "התחבר"
+
+#
+msgid "Recent Bets"
+msgstr "הימורים אחרונים"
+
+#
+msgid "Bet History"
+msgstr "היסטורית הימורים"
+
+#
+msgid "Casino Bet History"
+msgstr "היסטורית הימורי קזינו"
+
+#
+msgid "Wallet"
+msgstr "ארנק"
+
+#
+msgid "History"
+msgstr "היסטוריה"
+
+#
+msgid "Renew"
+msgstr "חידוש"
+
+#
+msgid "Deposit"
+msgstr "הפקדה"
+
+#
+msgid "Withdraw"
+msgstr "משיכה"
+
+#
+msgid "Sports"
+msgstr "ספורט"
+
+#
+msgid "Upcoming games"
+msgstr "המשחקים הבאים"
+
+#
+msgid "News"
+msgstr "חדשות"
+
+#
+msgid "Videos"
+msgstr "וידאו"
+
+#
+msgid "Results"
+msgstr "תוצאות"
+
+#
+msgid "Sport center"
+msgstr "מרכז ספורט"
+
+#
+msgid "Calendar"
+msgstr "יומן"
+
+#
+msgid "close"
+msgstr "סגור"
+
+#
+msgid "competition or a team..."
+msgstr "תחרות או קבוצה..."
+
+#
+msgid "Search a competition or a team..."
+msgstr "חפש תחרות או קבוצה"
+
+#
+msgid "Search results"
+msgstr "תוצאות חיפוש"
+
+#
+msgid "no results"
+msgstr "אין תוצאות"
+
+#
+msgid "Search a casino game..."
+msgstr "חפש משחק קזינו"
+
+#
+msgid "brain"
+msgstr "מוח"
+
+#
+msgid "Winners"
+msgstr "זוכים"
+
+#
+msgid "There are no winners yet"
+msgstr "עדיין אין זוכים"
+
+#
+msgid "No data"
+msgstr "אין מידע"
+
+#
+msgid "Name"
+msgstr "שם"
+
+#
+msgid "Amount"
+msgstr "כמות"
+
+#
+msgid "ON THE WAY"
+msgstr "על הדרך"
+
+#
+msgid "TO VICTORY!"
+msgstr "לניצחון!"
+
+#
+msgid "Forgot your password?"
+msgstr "שכחת את הסיסמה?"
+
+#
+msgid "Join"
+msgstr "הצטרף"
+
+#
+msgid "Bet"
+msgstr "המר"
+
+#
+msgid "Win"
+msgstr "זכה"
+
+#
+msgid "Draw number"
+msgstr "Draw number"
+
+#
+msgid "End date"
+msgstr "תאריך סיום"
+
+#
+msgid "State"
+msgstr "מצב"
+
+#
+msgid "Pool"
+msgstr "Pool"
+
+#
+msgid "Prize fund"
+msgstr "Prize fund"
+
+#
+msgid "Tickets / Variants"
+msgstr "Tickets / Variants"
+
+#
+msgid "Current Draw"
+msgstr "Current Draw"
+
+#
+msgid "Draw"
+msgstr "Draw"
+
+#
+msgid "Event"
+msgstr "אירוע"
+
+#
+msgid "Result"
+msgstr "תוצאה"
+
+#
+msgid "Bookmakers probability / bets amount (in %)"
+msgstr "Bookmakers probability / bets amount (in %)"
+
+#
+msgid "min."
+msgstr "מינימום"
+
+#
+msgid "Tickets"
+msgstr "כרטיסים"
+
+#
+msgid "Variants"
+msgstr "Variants"
+
+#
+msgid "Winners (var.)"
+msgstr "מנצחקים (var.)"
+
+#
+msgid "Win sum"
+msgstr "סיכום זכיה"
+
+#
+msgid "Win coef"
+msgstr "Win coef"
+
+#
+msgid "All draws"
+msgstr "All draws"
+
+#
+msgid "All bets"
+msgstr "כל ההימורים"
+
+#
+msgid "You need to confirm the agreements."
+msgstr "אתה צריך לאשר את ההסכם."
+
+#
+msgid "I agree to all"
+msgstr "אני מסכים להכל"
+
+#
+msgid "Terms & Conditions"
+msgstr "תנאים וכללים"
+
+#
+msgid "You can read our Terms and Conditions by clicking corresponding links in page footer."
+msgstr "אתה יכול לקרוא את התנאים והכללים שלנו על ידי לחיצה על הלינק המתאים בתחתית הדף."
+
+#
+msgid "and I am over 18 years of age and have read and accepted the general terms and conditions."
+msgstr "ואני מעל גיל 18."
+
+#
+msgid "and I am over 21 years of age and have read and accepted the general terms and conditions."
+msgstr "ואני מעל גיל 21."
+
+#
+msgid "Registration complete."
+msgstr "ההרשמה הושלמה."
+
+#
+msgid "Please check your email."
+msgstr "בבקשה תבדוק את המייל."
+
+#
+msgid "Registration failed due to technical error."
+msgstr "ההרשמה נכשלה בגלל תקלה טכנית."
+
+#
+msgid "Please try again later."
+msgstr "אנא נסה שוב מאוחר יותר"
+
+#
+msgid "Australia"
+msgstr "אוסטרליה"
+
+#
+msgid "Andorra"
+msgstr "אנדורה"
+
+#
+msgid "UAE"
+msgstr "UAE"
+
+#
+msgid "Afghanistan"
+msgstr "אפגניסטן"
+
+#
+msgid "Antigua and Barbuda"
+msgstr "אנטיגואה וברבודה"
+
+#
+msgid "Albania"
+msgstr "אלבניה"
+
+#
+msgid "Armenia"
+msgstr "ארמניה"
+
+#
+msgid "Angola"
+msgstr "אנגולה"
+
+#
+msgid "Argentina"
+msgstr "ארגנטינה"
+
+#
+msgid "American Samoa"
+msgstr "סמואה האמריקאית"
+
+#
+msgid "Austria"
+msgstr "אוסטריה"
+
+#
+msgid "Aruba"
+msgstr "ארובה"
+
+#
+msgid "Azerbaijan"
+msgstr "אזרבייז'אן"
+
+#
+msgid "Bosnia and Herzegovina"
+msgstr "בוסניה והרצגובינה"
+
+#
+msgid "Barbados"
+msgstr "ברבדוס"
+
+#
+msgid "Bangladesh"
+msgstr "בנגלדש"
+
+#
+msgid "Belgium"
+msgstr "בלגיה"
+
+#
+msgid "Burkina Faso"
+msgstr "בורקינה פאסו"
+
+#
+msgid "Bulgaria"
+msgstr "בולגריה"
+
+#
+msgid "Bahrain"
+msgstr "בחריין"
+
+#
+msgid "Burundi"
+msgstr "בורונדי"
+
+#
+msgid "Benin"
+msgstr "בנין"
+
+#
+msgid "Bermuda"
+msgstr "ברמודה"
+
+#
+msgid "Brunei"
+msgstr "ברוניי"
+
+#
+msgid "Bolivia"
+msgstr "בוליביה"
+
+#
+msgid "Brazil"
+msgstr "ברזיל"
+
+#
+msgid "Bahamas"
+msgstr "בהמאס"
+
+#
+msgid "Bhutan"
+msgstr "בהוטן"
+
+#
+msgid "Botswana"
+msgstr "בוטסוואנה"
+
+#
+msgid "Belarus"
+msgstr "בלרוס"
+
+#
+msgid "Belize"
+msgstr "בליז"
+
+#
+msgid "Canada"
+msgstr "קנדה"
+
+#
+msgid "Democratic Republic of the Congo"
+msgstr "הרפובליקה הדמוקרטית של קונגו"
+
+#
+msgid "Central African Republic"
+msgstr "הרפובליקה המרכז-אפריקאית"
+
+#
+msgid "Republic of the Congo"
+msgstr "הרפובליקה של קונגו"
+
+#
+msgid "Switzerland"
+msgstr "שוויץ"
+
+#
+msgid "Cote d'Ivoire"
+msgstr "חוף השנהב"
+
+#
+msgid "Cook Islands"
+msgstr "איי קוק"
+
+#
+msgid "Chile"
+msgstr "צ'ילה"
+
+#
+msgid "Cameroon"
+msgstr "קמרון"
+
+#
+msgid "China"
+msgstr "סין"
+
+#
+msgid "Colombia"
+msgstr "קולומביה"
+
+#
+msgid "Costa Rica"
+msgstr "קוסטה ריקה"
+
+#
+msgid "Cuba"
+msgstr "קובה"
+
+#
+msgid "Cape Verde"
+msgstr "כף ורדה"
+
+#
+msgid "Cyprus"
+msgstr "קפריסין"
+
+#
+msgid "Czech Republic"
+msgstr "צ'כיה"
+
+#
+msgid "Germany"
+msgstr "גרמניה"
+
+#
+msgid "Djibouti"
+msgstr "ג'יבוטי"
+
+#
+msgid "Denmark"
+msgstr "דנמרק"
+
+#
+msgid "Dominica"
+msgstr "דומיניקה"
+
+#
+msgid "Dominican Republic"
+msgstr "הרפובליקה הדומיניקנית"
+
+#
+msgid "Algeria"
+msgstr "אלגריה"
+
+#
+msgid "Ecuador"
+msgstr "אקוואדור"
+
+#
+msgid "Estonia"
+msgstr "אסטוניה"
+
+#
+msgid "Egypt"
+msgstr "מצריים"
+
+#
+msgid "Eritrea"
+msgstr "אריתריאה"
+
+#
+msgid "Spain"
+msgstr "ספרד"
+
+#
+msgid "Ethiopia"
+msgstr "אתיופיה"
+
+#
+msgid "Finland"
+msgstr "פינלנד"
+
+#
+msgid "Fiji"
+msgstr "פיג'י"
+
+#
+msgid "Federated States of Micronesia"
+msgstr "מיקרונזיה"
+
+#
+msgid "Faroe Islands"
+msgstr "איי פארו"
+
+#
+msgid "France"
+msgstr "צרפת"
+
+#
+msgid "Gabon"
+msgstr "גבון"
+
+#
+msgid "Great Britain"
+msgstr "בריטניה"
+
+#
+msgid "Grenada"
+msgstr "גרנדה"
+
+#
+msgid "Georgia"
+msgstr "גיאורגיה"
+
+#
+msgid "Ghana"
+msgstr "גאנה"
+
+#
+msgid "Gambia"
+msgstr "גמביה"
+
+#
+msgid "Guinea"
+msgstr "גינאה"
+
+#
+msgid "Equatorial Guinea"
+msgstr "גינאה המשוונית"
+
+#
+msgid "Greece"
+msgstr "יוון"
+
+#
+msgid "Guatemala"
+msgstr "גואטמלה"
+
+#
+msgid "Guam"
+msgstr "גואם"
+
+#
+msgid "Guinea-Bissau"
+msgstr "גינאה ביסאו"
+
+#
+msgid "Guyana"
+msgstr "גויאנה"
+
+#
+msgid "Hong Kong"
+msgstr "הונג קונג"
+
+#
+msgid "Honduras"
+msgstr "הונדורס"
+
+#
+msgid "Croatia"
+msgstr "קרואטיה"
+
+#
+msgid "Republic of Haiti"
+msgstr "האיטי"
+
+#
+msgid "Hungary"
+msgstr "הונגריה"
+
+#
+msgid "Indonesia"
+msgstr "אינדונסיה"
+
+#
+msgid "Ireland"
+msgstr "אירלנד"
+
+#
+msgid "Israel"
+msgstr "ישראל"
+
+#
+msgid "India"
+msgstr "הודו"
+
+#
+msgid "Iraq"
+msgstr "עיראק"
+
+#
+msgid "Iran"
+msgstr "איראן"
+
+#
+msgid "Iceland"
+msgstr "איסלנד"
+
+#
+msgid "Italy"
+msgstr "איטליה"
+
+#
+msgid "Jamaica"
+msgstr "ג'מייקה"
+
+#
+msgid "Jordan"
+msgstr "ירדן"
+
+#
+msgid "Japan"
+msgstr "יפן"
+
+#
+msgid "Kenya"
+msgstr "קניה"
+
+#
+msgid "Kyrgyzstan"
+msgstr "קירגיזסטן"
+
+#
+msgid "Cambodia"
+msgstr "קמבודיה"
+
+#
+msgid "Kiribati"
+msgstr "קיריבטי"
+
+#
+msgid "Comoros"
+msgstr "קומורוס"
+
+#
+msgid "Saint Kitts and Nevis"
+msgstr "סנט קיטס ונוויס"
+
+#
+msgid "DPRK"
+msgstr "צפון קוריאה"
+
+#
+msgid "South Korea"
+msgstr "דרום קוריאה"
+
+#
+msgid "Kuwait"
+msgstr "קוויט"
+
+#
+msgid "Cayman Islands"
+msgstr "איי קיימן"
+
+#
+msgid "Kazakhstan"
+msgstr "קזחסטן"
+
+#
+msgid "Laos"
+msgstr "לאוס"
+
+#
+msgid "Lebanon"
+msgstr "לבנון"
+
+#
+msgid "Saint Lucia"
+msgstr "סנט לוסיה"
+
+#
+msgid "Liechtenstein"
+msgstr "ליכטנשטיין"
+
+#
+msgid "Sri Lanka"
+msgstr "סרי לנקה"
+
+#
+msgid "Liberia"
+msgstr "ליבריה"
+
+#
+msgid "Lesotho"
+msgstr "לסוטו"
+
+#
+msgid "Lithuania"
+msgstr "ליטואניה"
+
+#
+msgid "Luxemburg"
+msgstr "לוקסמבורג"
+
+#
+msgid "Latvia"
+msgstr "לטביה"
+
+#
+msgid "Libya"
+msgstr "ליביה"
+
+#
+msgid "Morocco"
+msgstr "מרוקו"
+
+#
+msgid "Monaco"
+msgstr "מונקו"
+
+#
+msgid "Moldavia"
+msgstr "מולדובה"
+
+#
+msgid "Montenegro"
+msgstr "מונטנגרו"
+
+#
+msgid "Madagascar"
+msgstr "מדגסקר"
+
+#
+msgid "Macedonia"
+msgstr "מקדוניה"
+
+#
+msgid "Mali"
+msgstr "מאלי"
+
+#
+msgid "Myanmar"
+msgstr "מיינמאר"
+
+#
+msgid "Mongolia"
+msgstr "מונגוליה"
+
+#
+msgid "Mauritania"
+msgstr "מאוריטניה"
+
+#
+msgid "Malta"
+msgstr "מלטה"
+
+#
+msgid "Mauritius"
+msgstr "מאוריטוס"
+
+#
+msgid "Maldives"
+msgstr "מלדיבים"
+
+#
+msgid "Malawi"
+msgstr "מלאווי"
+
+#
+msgid "Mexico"
+msgstr "מקסיקו"
+
+#
+msgid "Malaysia"
+msgstr "מלזייה"
+
+#
+msgid "Mozambique"
+msgstr "מוזמביק"
+
+#
+msgid "Namibia"
+msgstr "נמיביה"
+
+#
+msgid "Niger"
+msgstr "ניז'ר"
+
+#
+msgid "Nigeria"
+msgstr "ניגריה"
+
+#
+msgid "Nicaragua"
+msgstr "ניקרגואה"
+
+#
+msgid "Netherlands"
+msgstr "הולנד"
+
+#
+msgid "Norway"
+msgstr "נורבגיה"
+
+#
+msgid "Nepal"
+msgstr "נפאל"
+
+#
+msgid "Nauru"
+msgstr "נאורו"
+
+#
+msgid "New Zealand"
+msgstr "ניו זילאנד"
+
+#
+msgid "Oman"
+msgstr "אומאן"
+
+#
+msgid "Panama"
+msgstr "פנמה"
+
+#
+msgid "Peru"
+msgstr "פרו"
+
+#
+msgid "Papua New Guinea"
+msgstr "פפואה גינאה החדשה"
+
+#
+msgid "Philippines"
+msgstr "פיליפינים"
+
+#
+msgid "Pakistan"
+msgstr "פקיסטאן"
+
+#
+msgid "Poland"
+msgstr "פולין"
+
+#
+msgid "Puerto Rico"
+msgstr "פורטו ריקו"
+
+#
+msgid "Palestine"
+msgstr "פלסטין"
+
+#
+msgid "Portugal"
+msgstr "פורטוגל"
+
+#
+msgid "Palau"
+msgstr "פאלאו"
+
+#
+msgid "Paraguay"
+msgstr "פאראגוואי"
+
+#
+msgid "Qatar"
+msgstr "קאטאר"
+
+#
+msgid "Romania"
+msgstr "רומניה"
+
+#
+msgid "Serbia"
+msgstr "סרביה"
+
+#
+msgid "Russia"
+msgstr "רוסיה"
+
+#
+msgid "Rwanda"
+msgstr "רואנדה"
+
+#
+msgid "Saudi Arabia"
+msgstr "ערב הסעודית"
+
+#
+msgid "Solomon Islands"
+msgstr "איי שלמה"
+
+#
+msgid "Seychelles"
+msgstr "סיישל"
+
+#
+msgid "Sudan"
+msgstr "סודאן"
+
+#
+msgid "Sweden"
+msgstr "שבדיה"
+
+#
+msgid "Singapore"
+msgstr "סינגפור"
+
+#
+msgid "Slovenia"
+msgstr "סלובניה"
+
+#
+msgid "Slovakia"
+msgstr "סלובקיה"
+
+#
+msgid "Sierra Leone"
+msgstr "סיירה ליאון"
+
+#
+msgid "San Marino"
+msgstr "סן מרינו"
+
+#
+msgid "Senegal"
+msgstr "סנגל"
+
+#
+msgid "Somalia"
+msgstr "סומליה"
+
+#
+msgid "Republic of Suriname"
+msgstr "רפובליקת סורינאם"
+
+#
+msgid "Sao Tome and Principe"
+msgstr "סאו טומה ופרינסיפה"
+
+#
+msgid "Salvador"
+msgstr "סלבדור"
+
+#
+msgid "Syria"
+msgstr "סוריה"
+
+#
+msgid "Swaziland"
+msgstr "סווזילנד"
+
+#
+msgid "Chad"
+msgstr "צ'אד"
+
+#
+msgid "Togo"
+msgstr "טוגו"
+
+#
+msgid "Thailand"
+msgstr "תאילנד"
+
+#
+msgid "Tadjikistan"
+msgstr "טג'יקיסטן"
+
+#
+msgid "Timor-Leste"
+msgstr "מזרח טימור"
+
+#
+msgid "Turkmenistan"
+msgstr "טורקמניסטן"
+
+#
+msgid "Tunisia"
+msgstr "טוניסיה"
+
+#
+msgid "Tonga"
+msgstr "טונגה"
+
+#
+msgid "Turkey"
+msgstr "טורקיה"
+
+#
+msgid "Trinidad and Tobago"
+msgstr "טרינידד וטובגו"
+
+#
+msgid "Tuvalu"
+msgstr "טובאלו"
+
+#
+msgid "Taiwan"
+msgstr "טאיוואן"
+
+#
+msgid "Tanzania"
+msgstr "טנזניה"
+
+#
+msgid "Ukraine"
+msgstr "אוקראינה"
+
+#
+msgid "Uganda"
+msgstr "אוגנדה"
+
+#
+msgid "United States"
+msgstr "ארצות הברית"
+
+#
+msgid "Uruguay"
+msgstr "אורוגוואי"
+
+#
+msgid "Uzbekistan"
+msgstr "אוזבקיסטן"
+
+#
+msgid "Saint Vincent and the Grenadines"
+msgstr "סנט וינסנט והגרנדינים"
+
+#
+msgid "Venezuela"
+msgstr "ונצואלה"
+
+#
+msgid "British Virgin Islands"
+msgstr "איי הבתולה הבריטיים"
+
+#
+msgid "United States Virgin Islands"
+msgstr "איי הבתולה של ארצות הברית"
+
+#
+msgid "Vietnam"
+msgstr "וייטנאם"
+
+#
+msgid "Vanuatu"
+msgstr "ונואטו"
+
+#
+msgid "Samoa"
+msgstr "סמואה"
+
+#
+msgid "Yemen"
+msgstr "תימן"
+
+#
+msgid "Republic of South Africa"
+msgstr "דרום אפריקה"
+
+#
+msgid "Zambia"
+msgstr "זמביה"
+
+#
+msgid "Zimbabwe"
+msgstr "זימבבואה"
+
+#
+msgid "Time Period"
+msgstr "טווח זמן"
+
+#
+msgid "All Casino Transactions"
+msgstr "כל העברות הקזינו"
+
+#
+msgid "id:Â "
+msgstr "id:Â "
+
+#
+msgid "next"
+msgstr "הבא"
+
+#
+msgid "prev"
+msgstr "חזור"
+
+#
+msgid "Categories"
+msgstr "קטגוריות"
+
+#
+msgid "Ogwil"
+msgstr "Ogwil"
+
+#
+msgid "Live games"
+msgstr "משחקים חיים"
+
+#
+msgid "All games"
+msgstr "כל המשחקים"
+
+#
+msgid "Roulette"
+msgstr "רולטה"
+
+#
+msgid "BlackJack"
+msgstr "בלאקג'ק"
+
+#
+msgid "Bet on Poker"
+msgstr "המר בפוקר"
+
+#
+msgid "Baccarat"
+msgstr "Baccarat"
+
+#
+msgid "Please try later or contact support."
+msgstr "אנא נסה שוב יותר מאוחר או צור קשר עם שירות הלקוחות."
+
+#
+msgid "All Bets"
+msgstr "כל ההימורים"
+
+#
+msgid "unsettled"
+msgstr "פתוח"
+
+#
+msgid "lost"
+msgstr "הפסיד"
+
+#
+msgid "returned"
+msgstr "הוחזר"
+
+#
+msgid "Won"
+msgstr "ניצח"
+
+#
+msgid "Deposit to main wallet"
+msgstr "הפקדה ליתרה הראשית"
+
+#
+msgid "Select a payment method"
+msgstr "בחר שיטת תשלום"
+
+#
+msgid "Please confirm money transfer"
+msgstr "אנא אשר העברת כספים"
+
+#
+msgid "Amount: "
+msgstr "סכום: "
+
+#
+msgid "Status:"
+msgstr "סטטוס:"
+
+#
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#
+msgid "Success"
+msgstr "Success"
+
+#
+msgid "Pending"
+msgstr "תלוי ועומד"
+
+#
+msgid "Failure"
+msgstr "כישלון"
+
+#
+msgid "Deposit Amount"
+msgstr "סכום הפקדה"
+
+#
+msgid "Payment complete"
+msgstr "תשלום הושלם"
+
+#
+msgid "enter amount here"
+msgstr "הזן סכום פה"
+
+#
+msgid "Set"
+msgstr "Set"
+
+#
+msgid "Time"
+msgstr "זמן"
+
+#
+msgid "Prize"
+msgstr "פרס"
+
+#
+msgid "Distance"
+msgstr "מרחק"
+
+#
+msgid "Surface"
+msgstr "משטח"
+
+#
+msgid "Game start:"
+msgstr "החל משחק:"
+
+#
+msgid "You don't have favourite games. To add some, click the star icon near the game name."
+msgstr "אין לך משחקים מועדפים. בכדי להוסיף כמה, לחץ על כפתור הכוכב ליד שם המשחק."
+
+#
+msgid "Withdraw from main wallet"
+msgstr "משוך מהיתרה המרכזית"
+
+#
+msgid "Password"
+msgstr "סיסמה"
+
+#
+msgid "User ID"
+msgstr "שם משתמש"
+
+#
+msgid "Please, upload your passport scan or passport photo to ease your further withdrawals."
+msgstr "אנא העלה את תצלום הפספורט שלך בכדי להקל על משיכותיך הבאות."
+
+#
+msgid "Verify Account"
+msgstr "אימות חשבון"
+
+#
+msgid "Withdraw Amount"
+msgstr "סכום משיכה"
+
+#
+msgid "available:"
+msgstr "זמין:"
+
+#
+msgid "Bet Type"
+msgstr "סוג הימור"
+
+#
+msgid "Single"
+msgstr "סינגל"
+
+#
+msgid "express"
+msgstr "משולב"
+
+#
+msgid "system"
+msgstr "שיטה"
+
+#
+msgid "chain"
+msgstr "שרשרת"
+
+#
+msgid "Outcome"
+msgstr "תוצאה"
+
+#
+msgid "Unsettled"
+msgstr "פתוח"
+
+#
+msgid "Lost"
+msgstr "הפסיד"
+
+#
+msgid "Returned"
+msgstr "חזר"
+
+#
+msgid "Pick"
+msgstr "בחירה"
+
+#
+msgid "Bet placed from bonus."
+msgstr "הימור מייתרת הבונוס."
+
+#
+msgid "On Hold"
+msgstr "בהמתנה"
+
+#
+msgid "Bonus"
+msgstr "בונוס"
+
+#
+msgid "Sign up with Odnoklassniki"
+msgstr "הרשם עם Odnoklassniki"
+
+#
+msgid "Sign up with Facebook"
+msgstr "הירשם דרך פייסבוק"
+
+#
+msgid "User details:"
+msgstr "פרטי משתמש:"
+
+#
+msgid "Enter here"
+msgstr "Enter here"
+
+#
+msgid "This field is required"
+msgstr "שדה חובה"
+
+#
+msgid "This email already exists in our database, please enter another"
+msgstr "דואר אלקטרוני זה כבר קיים במערכת, אנא הכנס כתובת אחרת"
+
+#
+msgid "First"
+msgstr "ראשון"
+
+#
+msgid "Please enter a valid first name"
+msgstr "אנא הכנס שם פרטי תקין"
+
+#
+msgid "Last"
+msgstr "אחרון"
+
+#
+msgid "Please enter a valid last name"
+msgstr "אנא הכנס שם משפחה תקין"
+
+#
+msgid "Gender"
+msgstr "מין"
+
+#
+msgid "Male"
+msgstr "זכר"
+
+#
+msgid "Female"
+msgstr "נקבה"
+
+#
+msgid "Passport Number"
+msgstr "מספר דרכון"
+
+#
+msgid "Passport Number is already registered for another account"
+msgstr "מספר דרכון זה כבר רשום בחשבון אחר"
+
+#
+msgid "Contact number"
+msgstr "מספר קשר"
+
+#
+msgid "Number"
+msgstr "מספר"
+
+#
+msgid "Invalid phone number"
+msgstr "מספר טלפון לא תקין"
+
+#
+msgid "Duplicate phone number"
+msgstr "מספר טלפון כפול"
+
+#
+msgid "Verify phone number by sms"
+msgstr "לאמת את מספר הטלפון באמצעות SMS"
+
+#
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "האם אתה גם מתכוון להתחבר עם שם משתמש וסיסמה?"
+
+#
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+msgstr "אם אתה מתכוון להתחבר ללא רשתות חברתיות תאלץ לספק שם משתמש וסיסמה. אחרת זה ייוצר בשבילך בצורה אוטומטית וישלך אליך בדואר אלקטרוני. אינך נדרש לספק שם משתמש וסיסמה בכל התחברות במידה ואתה מתחבר דרך רשת חברתית"
+
+#
+msgid "Some games will still require you to sign in using username/password."
+msgstr "חלק מהמשחקים עדיין ידרשו ממך להיכנס באמצעות שם משתמש וסיסמה."
+
+#
+msgid "Your login"
+msgstr "Your login"
+
+#
+msgid "Sorry, this username has been used already"
+msgstr "סליחה, שם משתמש זה נלקח"
+
+#
+msgid "Password cannot be same as login"
+msgstr "סיסמה לא יכולה להיות זהה לשם משתמש"
+
+#
+msgid "Must be at least 6 characters"
+msgstr "חייב להיות לפחות 6 תווים"
+
+#
+msgid "Repeat password"
+msgstr "חזור על הסיסמא"
+
+#
+msgid "passwords don't match"
+msgstr "סיסמאות לא תואמות"
+
+#
+msgid "Start playing now."
+msgstr "תתחיל לשחק עכשיו."
+
+#
+msgid "You have"
+msgstr "יש לך"
+
+#
+msgid "Contact Support"
+msgstr "צור קשר עם תמיכה"
+
+#
+msgid "Login with Facebook"
+msgstr "התחבר עם פייסבוק"
+
+#
+msgid "Sign in with Odnoklassniki"
+msgstr "התחבר עם Odnoklassniki"
+
+#
+msgid "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+msgstr "אם ברצונך להתחבר עם חשבון הפייסבוק שלך אתה צריך תחילה לפתוח חשבון בפייסבוק."
+
+#
+msgid "If you want to be able to login with your Odnoklassniki account you need to first Sign up with Odnoklassniki account."
+msgstr "אם ברצונך להתחבר עם חשבון ה-Odnoklassniki שלך, אתה צריך תחילה לפתוח חשבון ב-Odnoklassniki."
+
+#
+msgid "Enter your password"
+msgstr "Ðnter your password"
+
+#
+msgid "SMS verification code"
+msgstr "קוד אימות SMS"
+
+#
+msgid "Enter verification code"
+msgstr "הזן קוד אימות"
+
+#
+msgid "Invalid username or password."
+msgstr "שם משתמש או סיסמה לא תואמים."
+
+#
+msgid "Create an account"
+msgstr "צור חשבון"
+
+#
+msgid "Reset password"
+msgstr "אפס סיסמה"
+
+#
+msgid "Enter your username"
+msgstr "הכנס את שם המשתמש שלך"
+
+#
+msgid "Please enter a valid username"
+msgstr "אנא הכנס שם משתמש תקין"
+
+#
+msgid "Password reset complete."
+msgstr "איפוס סיסמה הושלם."
+
+#
+msgid "Password reset failed."
+msgstr "איפוס סיסמה נכשל."
+
+#
+msgid "Express"
+msgstr "משולב"
+
+#
+msgid "System"
+msgstr "שיטה"
+
+#
+msgid "Chain"
+msgstr "שרשרת"
+
+#
+msgid "UNSETTLED"
+msgstr "פתוח"
+
+#
+msgid "UNSETTLED "
+msgstr "פתוח "
+
+#
+msgid "Pick:"
+msgstr "בחירה:"
+
+#
+msgid "Won:"
+msgstr "זכיה:"
+
+#
+msgid "Potential win:"
+msgstr "זכיה מקסימלית:"
+
+#
+msgid "Personal Details"
+msgstr "פרטים אישיים"
+
+#
+msgid "Change Password"
+msgstr "שנה סיסמה"
+
+#
+msgid "Self-Exclusion"
+msgstr "חסימה עצמית"
+
+#
+msgid "Deposit Limits"
+msgstr "הגבלות הפקדה"
+
+#
+msgid "Preferences"
+msgstr "העדפות"
+
+#
+msgid "Save"
+msgstr "שמירה"
+
+#
+msgid "Wait..."
+msgstr "תמתין..."
+
+#
+msgid "Current Password"
+msgstr "סיסמה נוכחית"
+
+#
+msgid "Password incorrect"
+msgstr "סיסמה לא נכונה"
+
+#
+msgid "New Password"
+msgstr "סיסמה חדשה"
+
+#
+msgid "Confirm New Password"
+msgstr "אמת סיסמה חדשה"
+
+#
+msgid "Confirm password"
+msgstr "אמת סיסמה"
+
+#
+msgid "Passwords don't match"
+msgstr "הסיסמאות לא תואמים"
+
+#
+msgid "First Name"
+msgstr "שם"
+
+#
+msgid "First name"
+msgstr "שם"
+
+#
+msgid "Last Name"
+msgstr "שם משפחה"
+
+#
+msgid "Last name"
+msgstr "שם משפחה"
+
+#
+msgid "Birth date"
+msgstr "תאריך לידה"
+
+#
+msgid "Email"
+msgstr "דוא\""
+
+#
+msgid "Country"
+msgstr "ארץ"
+
+#
+msgid "City"
+msgstr "עיר"
+
+#
+msgid "Address"
+msgstr "כתובת"
+
+#
+msgid "E-mail"
+msgstr "דוא\""
+
+#
+msgid "message_1119"
+msgstr "כתובת דואר אלקטרוני כפולה'"
+
+#
+msgid "Deposit limits allow you to limit the amount of funds you can deposit into the account. The amount can be chosen over a daily, weekly or monthly period. The deposit limit will allow you to restrict the amount of money entering your account, before betting takes place."
+msgstr "הגבלות הפקדה מאפשרות לך להגביל את כמות הכסף אשר ביכולתך להפקיד לחשבון. הסכום יכול להיבחר לזמנים של  יומי, שבועי או חודשי. הגבלת הפקדה תאפשר לך להגביל את כמות הכסף שנכנס לך לחשבון, לפני שההימורים מתבצעים."
+
+#
+msgid "Enter amount"
+msgstr "הכנס סכום"
+
+#
+msgid "Day"
+msgstr "יום"
+
+#
+msgid "Week"
+msgstr "שבוע"
+
+#
+msgid "Month"
+msgstr "חודש"
+
+#
+msgid "Please note:"
+msgstr "אנא שים לב:"
+
+#
+msgid "If previous deposit limits are increased, you must wait 24 hours until changes take effect."
+msgstr "במקרה של עדכון ההגבלה על ההפקדה, עלייך להמתין 24 שעות לכניסת השינויים לתוקף."
+
+#
+msgid "You can exclude online for a minimum period of six months, once the six months has expired your account will be reactivated again."
+msgstr ".באפשרותך לחסום את החשבון לתקופה של חצי שנה לכל הפחות, ובחלוף חצי שנה חשבונך ייפתח מחדש"
+
+#
+msgid "Self exclusion of six month period"
+msgstr "חשימה עצמית לתקופה של חצי שנה"
+
+#
+msgid "Self exclusion of a one year period"
+msgstr "חסימה עצמית לתקופה של שנה"
+
+#
+msgid "Messages"
+msgstr "הודעות"
+
+#
+msgid "Inbox"
+msgstr "דואר נכנס"
+
+#
+msgid "Sent messages"
+msgstr "הודעות שנשלחו"
+
+#
+msgid "New message"
+msgstr "הודעה חדשה"
+
+#
+msgid "Subject"
+msgstr "נושא"
+
+#
+msgid "Message"
+msgstr "הודעה"
+
+#
+msgid "Your currency is"
+msgstr "סוג המטבע שלך הוא"
+
+#
+msgid "Points:"
+msgstr "נקודות:"
+
+#
+msgid "Account"
+msgstr "חשבון"
+
+#
+msgid "Main"
+msgstr "ראשי"
+
+#
+msgid "If your balance less, top up your balance now."
+msgstr "אם אין במאזנך את הסכום המבוקש, אנא בצע הפקדה"
+
+#
+msgid "Main Bonus"
+msgstr "בונוס ראשי"
+
+#
+msgid "Casino Bonus"
+msgstr "בונוס קזינו"
+
+#
+msgid "Total"
+msgstr "סך הכל"
+
+#
+msgid "From"
+msgstr "מ"
+
+#
+msgid "To"
+msgstr "עד"
+
+#
+msgid "Transactions"
+msgstr "פעולות"
+
+#
+msgid "All Transactions"
+msgstr "כל הפעולות"
+
+#
+msgid "Pool:"
+msgstr "Pool:"
+
+#
+msgid "Rules"
+msgstr "חוקים"
+
+#
+msgid "W1"
+msgstr "W1"
+
+#
+msgid "W2"
+msgstr "W2"
+
+#
+msgid "Options:"
+msgstr "אפשרויות:"
+
+#
+msgid "Minimal Bet Amount:"
+msgstr "סכום הימור מינימלי:"
+
+#
+msgid "Stake..."
+msgstr "סכום ההימור..."
+
+#
+msgid "Random Choice"
+msgstr "בחירה אקראית"
+
+#
+msgid "Favourite Choice"
+msgstr "בחירה מועדפת"
+
+#
+msgid "Place bets!"
+msgstr "הנח הימורים!"
+
+#
+msgid "To place your bet, please"
+msgstr "להנחת ההימור, בבקשה"
+
+#
+msgid "sign in"
+msgstr "היכנס"
+
+#
+msgid "or"
+msgstr "או"
+
+#
+msgid "register"
+msgstr "הירשם"
+
+#
+msgid "freebet_info"
+msgstr "Vivaro betting company offers its customers a free quiz.<br />Customers will be offered 3 types of express, which contains 6, 8 or 10 events. If the customer guesses correctly 6 out of 6 events and the winning amount will be 7000 AMD, 8 out of 8 events the payout will be 15.000 AMD, and if you guess 10 out of 10 events the payoff will be 20.000 AMD. The winning amount will be transferred to the customer&rsquo;s account within 5 days after completion of all events are included in all 3 express bets.<br />If there are events, which have not taken place in this variant of express, the quiz will be lost.<br />Each customer can daily make an express bet on each variant only once."
+
+#
+msgid "Use your"
+msgstr "Use your"
+
+#
+msgid "skills"
+msgstr "מיומנויות"
+
+#
+msgid "backgammon_requirements_windows"
+msgstr "דרישות מינימליות:<br>מערכת הפעלה: ווינדוס XP או חדש יותר. מעבד: פנטיום 4 או חדש יותר.<br>זיכרון RAM - 512MB. דיסק קשיח - 100MB."
+
+#
+msgid "backgammon_download_description_windows"
+msgstr "אנא הורד את התוכנה מהאתר והפעל את הקובץ שירד. סיים את ההתקנה בלחיצה על הבא. בשלב האחרון לחץ סיים. אחרי שההתקנה הסתיימה הפעל את התוכנה. "
+
+#
+msgid "100%"
+msgstr "100%"
+
+#
+msgid "MORE!"
+msgstr "עוד!"
+
+#
+msgid "Register Now"
+msgstr "הירשם עכשיו"
+
+#
+msgid "know more..."
+msgstr "קרא עוד..."
+
+#
+msgid "Get more"
+msgstr "קבל עוד"
+
+#
+msgid "Read More"
+msgstr "קרא עוד..."
+
+#
+msgid "Share"
+msgstr "שתף"
+
+#
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome   "
+msgstr "הדפדפן שלך אינו תומך בהעלאת קבצים, אנא עדכן אותו או השתמש בגוגל כרום   "
+
+#
+msgid "Your file successfully uploaded "
+msgstr "הקובץ הועלה בהצלחה "
+
+#
+msgid " There was an error during file upload, please try again. "
+msgstr " אירעה תקלה בעת טעינת הקובץ, אנא נסה שנית. "
+
+#
+msgid "Loading"
+msgstr "טוען"
+
+#
+msgid "Current Rank"
+msgstr "בנק נוכחי"
+
+#
+msgid "ID"
+msgstr "ID"
+
+#
+msgid "Previous Rank"
+msgstr "בנק קודם"
+
+#
+msgid "Currency"
+msgstr "מטבע"
+
+#
+msgid "Payment Method"
+msgstr "אמצעי תשלום"
+
+#
+msgid "Fee"
+msgstr "עמלה"
+
+#
+msgid "Process Time"
+msgstr "זמן עיבוד"
+
+#
+msgid "Min"
+msgstr "מינימום"
+
+#
+msgid "Max"
+msgstr "מקסימום"
+
+#
+msgid "Info"
+msgstr "מידע"
+
+#
+msgid "Free"
+msgstr "חינם"
+
+#
+msgid "Instant"
+msgstr "מיידי"
+
+#
+msgid "Additional information"
+msgstr "מידע נוסף"
+
+#
+msgid "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+msgstr "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+
+#
+msgid "This week's winners"
+msgstr "מנצחי השבוע"
+
+#
+msgid "My tickets"
+msgstr "הכרטיסים שלי"
+
+#
+msgid "You have no tickets"
+msgstr "אין לך כרטיסים"
+
+#
+msgid "Live Casino Page is currently closed for"
+msgstr "דף הקזינו חי כרגע סגור לצורך"
+
+#
+msgid "maintenance."
+msgstr "תחזוקה."
+
+#
+msgid "We will be back soon with more and better features. Thank you for your patience."
+msgstr "נחזור בקרוב אחרי שיפורים חדשים. תודה על הסבלנות."
+
+#
+msgid "Click here to see other games."
+msgstr "לחץ כאן כדי לראות משחקים נוספים."
+
+#
+msgid "Offline"
+msgstr "לא מחובר"
+
+#
+msgid "Live Keno"
+msgstr "קנו חי"
+
+#
+msgid "Live Draw 6 of 49"
+msgstr "Live Draw 6 of 49"
+
+#
+msgid "Quarter"
+msgstr "רבע"
+
+#
+msgid "Video not available yet"
+msgstr "וידאו לא זמין עדיין."
+
+#
+msgid "You need to be logged in to be able to play video."
+msgstr "אתה צריך להתחבר בכדי לראות וידאו."
+
+#
+msgid "You need to have non-zero balance to be able to play video."
+msgstr "מאזנך חייב להיות גבוה מ0 בשביל האפשרות לראות וידאו."
+
+#
+msgid "Detach"
+msgstr "Detach"
+
+#
+msgid "End"
+msgstr "סיום"
+
+#
+msgid "Inning"
+msgstr "Inning"
+
+#
+msgid "First Quarter"
+msgstr "רבע ראשון"
+
+#
+msgid "First Quarter Ended"
+msgstr "רבע ראשון הסתיים"
+
+#
+msgid "Second Quarter"
+msgstr "רבע שני"
+
+#
+msgid "Second Quarter Ended"
+msgstr "רבע שני הסתיים"
+
+#
+msgid "Third Quarter"
+msgstr "רבע שלישי"
+
+#
+msgid "Third Quarter Ended"
+msgstr "רבע שלישי הסתיים"
+
+#
+msgid "Fourth Quarter"
+msgstr "רבע רביעי"
+
+#
+msgid "Fourth Quarter Ended"
+msgstr "רבע רביעי הסתיים"
+
+#
+msgid "Overtime"
+msgstr "הארכה"
+
+#
+msgid "Overtime Ended"
+msgstr "הארכה הסתיימה"
+
+#
+msgid "Foul"
+msgstr "עבירה"
+
+#
+msgid "Free Throw"
+msgstr "זריקת עונשין"
+
+#
+msgid "Free 1-Point Throw"
+msgstr "זריקת עונשין אחת"
+
+#
+msgid "Free 2-Point Throw"
+msgstr "שתי זריקות עונשין"
+
+#
+msgid "Free 3-Point Throw"
+msgstr "שלוש זריקות עונשין"
+
+#
+msgid "Missed Free Throw"
+msgstr "החטאת זריקת עונשין"
+
+#
+msgid "Attack"
+msgstr "התקפה"
+
+#
+msgid "One Point"
+msgstr "נקודה"
+
+#
+msgid "Two Points"
+msgstr "שתי נקודות"
+
+#
+msgid "Three Points"
+msgstr "שלוש נקודות"
+
+#
+msgid "Timeout"
+msgstr "פסק זמן"
+
+#
+msgid "Finished"
+msgstr "הסתיים"
+
+#
+msgid "Point"
+msgstr "נקודה"
+
+#
+msgid "Fault"
+msgstr "שגיאה"
+
+#
+msgid "First Set"
+msgstr "סט ראשון"
+
+#
+msgid "Second Set"
+msgstr "סט שני"
+
+#
+msgid "Third Set"
+msgstr "סט שלישי"
+
+#
+msgid "Fourth Set"
+msgstr "סט רביעי"
+
+#
+msgid "Fifth Set"
+msgstr "סט חמישי"
+
+#
+msgid "Dangerous Attack"
+msgstr "התקפה מסוכנת"
+
+#
+msgid "Shot on target"
+msgstr "בעיטה למסגרת"
+
+#
+msgid "Shot off target"
+msgstr "בעיטה לא למסגרת"
+
+#
+msgid "Corner kick"
+msgstr "בעיטת קרן"
+
+#
+msgid "Yellow card"
+msgstr "כרטיס צהוב"
+
+#
+msgid "Red card"
+msgstr "כרטיס אדום"
+
+#
+msgid "Period"
+msgstr "Period"
+
+#
+msgid "Game"
+msgstr "משחק"
+
+#
+msgid "Score"
+msgstr "תוצאה"
+
+#
+msgid "Turn on sound from settings"
+msgstr "הפעל קול בהגדרות"
+
+#
+msgid "Ace"
+msgstr "אייס"
+
+#
+msgid "Service Fault"
+msgstr "שגיאת הגשה"
+
+#
+msgid "Double Fault"
+msgstr "שגיאה כפולה"
+
+#
+msgid "Injury Break"
+msgstr "הפסקת פציעה"
+
+#
+msgid "Rain Delay"
+msgstr "הפסקת גשם"
+
+#
+msgid "Aces"
+msgstr "אסים"
+
+#
+msgid "Double Faults"
+msgstr "שגיאות כפולות"
+
+#
+msgid "Corner"
+msgstr "קרן"
+
+#
+msgid "Yellow Card"
+msgstr "כרטיס צהוב"
+
+#
+msgid "Extra Time Half Time"
+msgstr "תוספת זמן מחצית ראשונה"
+
+#
+msgid "Not Started"
+msgstr "טרם התחיל"
+
+#
+msgid "Offside"
+msgstr "נבדל"
+
+#
+msgid "Goal"
+msgstr "גול"
+
+#
+msgid "Pre Extra Half"
+msgstr "Pre Extra Half"
+
+#
+msgid "Throw In"
+msgstr "זריקת חוץ"
+
+#
+msgid "Goal Kick"
+msgstr "בעיטת שוער"
+
+#
+msgid "Substitution"
+msgstr "חילוף"
+
+#
+msgid "Extra Time First Half"
+msgstr "תוספת זמן מחצית ראשונה"
+
+#
+msgid "Second Half"
+msgstr "מחצית שנייה"
+
+#
+msgid "Half Time"
+msgstr "מחצית"
+
+#
+msgid "Ball Safe"
+msgstr "אין סכנה על השער"
+
+#
+msgid "Free Kick"
+msgstr "בעיטה חופשית"
+
+#
+msgid "Extra Time Second Half"
+msgstr "תוספת זמן מחצית שנייה"
+
+#
+msgid "Red Card"
+msgstr "כרטיס אדום"
+
+#
+msgid "First Half"
+msgstr "מחצית ראשונה"
+
+#
+msgid "Penalty"
+msgstr "פנדל"
+
+#
+msgid "First time score"
+msgstr "תוצאה מחצית ראשונה"
+
+#
+msgid "HT"
+msgstr "מחצית"
+
+#
+msgid "yellow cards"
+msgstr "כרטיסים צהובים"
+
+#
+msgid "red cards"
+msgstr "כרטיסים אדומים"
+
+#
+msgid "corners"
+msgstr "קרנות"
+
+#
+msgid "penalties"
+msgstr "פנדלים"
+
+#
+msgid "Frame"
+msgstr "משחקון"
+
+#
+msgid "Race Type"
+msgstr "סוג המירוץ"
+
+#
+msgid "Select a Sport"
+msgstr "בחר ספורט"
+
+#
+msgid "Next Event"
+msgstr "האירוע הבא"
+
+#
+msgid "Horse"
+msgstr "סוס"
+
+#
+msgid "Greyhound"
+msgstr "Greyhound"
+
+#
+msgid "Jockey"
+msgstr "Jockey"
+
+#
+msgid "Odds:"
+msgstr "יחסים:"
+
+#
+msgid "â"
+msgstr "â"
+
+#
+msgid "sport news"
+msgstr "חדשות"
+
+#
+msgid "Use this selector to switch between Live and Pre-match games"
+msgstr "השתמש במתג זה כדי להחליף בין ספורט חי וספורט  לפני משחק"
+
+#
+msgid "click to switch to pre-match"
+msgstr "לחץ להחלפה ללפני משחק"
+
+#
+msgid "live"
+msgstr "חי"
+
+#
+msgid "click to swicth to Live games"
+msgstr "לחץ להחלפה למשחקים חיים"
+
+#
+msgid "Switch to"
+msgstr "החלף ל"
+
+#
+msgid "Select sport"
+msgstr "בחר ספורט"
+
+#
+msgid "Remove All from Favorites"
+msgstr "הסר הכל מהמועדפים"
+
+#
+msgid "Remove from My Games"
+msgstr "הסר הכל מהמשחקים המועדפים"
+
+#
+msgid "Add to My Games"
+msgstr "הוסף למשחקים המועדפים"
+
+#
+msgid "Phone only market"
+msgstr "רק דרך הטלפון"
+
+#
+msgid "To place a bet, please call"
+msgstr "בשביל להכניס הימור, אנא התקשר"
+
+#
+msgid "There may be a Rule 4 on this Race"
+msgstr "חוק 4 עלול לפעול על מרוץ זה"
+
+#
+msgid "Win Only"
+msgstr "ניצחון בלבד"
+
+#
+msgid "show more"
+msgstr "הצג עוד"
+
+#
+msgid "show"
+msgstr "הצג"
+
+#
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "תצוגת הזמן אשר נמצא בהימורים חיים קיים בתור מדד. החברה לא לוקחת שום אחריות על דיוקו ועל עדכניותו של המידע המוצג כגון שער או זמן."
+
+#
+msgid "Betting"
+msgstr "הימור"
+
+#
+msgid "Booking"
+msgstr "Booking"
+
+#
+msgid "bet slip"
+msgstr "טופס ההימורים"
+
+#
+msgid "Betting options"
+msgstr "אפשרויות הימור"
+
+#
+msgid "Automatically accept price changes"
+msgstr "אשר אוטומאטית שינויים ביחס"
+
+#
+msgid "Higher odds"
+msgstr "יחסים גבוהים יותר"
+
+#
+msgid "Any odds"
+msgstr "כל היחסים"
+
+#
+msgid "Superbet"
+msgstr "הימור סופר"
+
+#
+msgid "Quick bet"
+msgstr "הימור מהיר"
+
+#
+msgid "Your bet is accepted."
+msgstr "הימורך התקבל."
+
+#
+msgid "To select a bet, please click on any odd."
+msgstr "כדי לבחור הימור לחץ על כל יחס"
+
+#
+msgid "Click on any odd to place a bet."
+msgstr "לחץ על כל יחס על מנת להניח הימור."
+
+#
+msgid "Single only"
+msgstr "סינגל בלבד"
+
+#
+msgid "Event Locked"
+msgstr "אירוע חסום"
+
+#
+msgid "This event is not available now"
+msgstr "האירוע אינו זמין להימור כרגע"
+
+#
+msgid "This pick cannot be combined with:"
+msgstr "לא ניתן לשלב בחירה זאת עם:"
+
+#
+msgid "delete"
+msgstr "מחק"
+
+#
+msgid " Pick: "
+msgstr " בחירה: "
+
+#
+msgid "Unit Stake"
+msgstr "כמות ליחידה"
+
+#
+msgid "Repeat for all"
+msgstr "חזור עבור כולם"
+
+#
+msgid "Win:"
+msgstr "זכיה:"
+
+#
+msgid "Booking ID:"
+msgstr "Booking ID:"
+
+#
+msgid "Stake amount"
+msgstr "סכום ההימור"
+
+#
+msgid "Possible win:"
+msgstr "זכייה אפשרית:"
+
+#
+msgid "Bonus:"
+msgstr "בונוס אקומולטור"
+
+#
+msgid "Total win:"
+msgstr "סהכ זכיה:"
+
+#
+msgid "Invalid stake amount entered"
+msgstr "סכום ההימור שהוכנס אינו תקף"
+
+#
+msgid "Please enter stake amount"
+msgstr "הכנס את סכום ההימור בבקשה"
+
+#
+msgid "Insufficient balance"
+msgstr "אין מספיק כסף בחשבון"
+
+#
+msgid "You have to accept changes to be able to place bets"
+msgstr "אלייך לאשר שינויים על מנת להניח הימור"
+
+#
+msgid "Accept"
+msgstr "אשר"
+
+#
+msgid "Get bet ID"
+msgstr "קבל מספר הימור"
+
+#
+msgid "Add more events to be able to place bet"
+msgstr "הוסף אירועים נוספים על מנת להניח הימור"
+
+#
+msgid "There are locked events"
+msgstr "ישנם אירועים שאינם זמינים להימור"
+
+#
+msgid "Incompatible events"
+msgstr "אירועים לא מתאימים"
+
+#
+msgid "There are deleted events"
+msgstr "ישנם אירועים שנמחקו"
+
+#
+msgid "Market base for some events have changed"
+msgstr "Market base for some events have changed"
+
+#
+msgid "Single Only Events"
+msgstr "אירועים בודדים בלבד"
+
+#
+msgid "Prices for some events have changed"
+msgstr "היחסים של מספר אירועים השתנו"
+
+#
+msgid "Multi-selection mode"
+msgstr "מצב בחירות מרובות"
+
+#
+msgid "Disable regions"
+msgstr "קבץ לפי אזורים"
+
+#
+msgid "With video"
+msgstr "עם וידאו"
+
+#
+msgid "For upcoming races please look in Live betting"
+msgstr "למרוצים הבאים אנה היכנס להימורים החיים"
+
+#
+msgid "Selected games"
+msgstr "משחקים שנבחרו"
+
+#
+msgid "Clear All"
+msgstr "נקה הכל"
+
+#
+msgid "Quarters"
+msgstr "רבעים"
+
+#
+msgid "Innings"
+msgstr "Innings"
+
+#
+msgid "Periods"
+msgstr "תקופות"
+
+#
+msgid "Sets"
+msgstr "מערכות"
+
+#
+msgid "Today at"
+msgstr "היום ב"
+
+#
+msgid "Course"
+msgstr "Course"
+
+#
+msgid "Change statistics mode"
+msgstr "שנה מצב סטטיסטיקה"
+
+#
+msgid "Trainer/Jockey"
+msgstr "Trainer/Jockey"
+
+#
+msgid "Age"
+msgstr "גיל"
+
+#
+msgid "Weight"
+msgstr "משקל"
+
+#
+msgid "Form"
+msgstr "טופס"
+
+#
+msgid "We are not accepting bets on this event at the moment."
+msgstr "איננו מקבלים הימורים על אירוע זה כרגע."
+
+#
+msgid "SKILL GAMES"
+msgstr "משחקי מיומנות"
+
+#
+msgid "DOWNLOAD"
+msgstr "הורדה"
+
+#
+msgid "logo"
+msgstr "לוגו"
+
+#
+msgid "back to top"
+msgstr "חזור לראשית העמוד"
+
+#
+msgid "Powered by"
+msgstr "מופעל על ידי"
+
+#
+msgid "All rights reserved."
+msgstr "כל הזכויות שמורות."
+
+#
+msgid "Previous version"
+msgstr "הגירסה הקודמת"
+
+#
+msgid "Number Drawn Today"
+msgstr "Number Drawn Today"
+
+#
+msgid "Get Started"
+msgstr "התחל"
+
+#
+msgid "Phone"
+msgstr "טלפון"
+
+#
+msgid "Ticket Number"
+msgstr "מספר כרטיס"
+
+#
+msgid "Play Now"
+msgstr "שחק עכשיו"
+
+#
+msgid "Leaderboard"
+msgstr "לוח המובילים"
+
+#
+msgid "Show All"
+msgstr "הצג הכל"
+
+#
+msgid "FIFA WORLD CUP"
+msgstr "גביע העולם בכדורגל"
+
+#
+msgid "years"
+msgstr "שנים"
+
+#
+msgid "months"
+msgstr "חודש"
+
+#
+msgid "days"
+msgstr "ימים"
+
+#
+msgid "hours"
+msgstr "שעות"
+
+#
+msgid "minutes"
+msgstr "דקות"
+
+#
+msgid "seconds"
+msgstr "שניות"
+
+#
+msgid "Select a Sport "
+msgstr "בחר ספורט"
+
+#
+msgid "Place A bet!"
+msgstr "הנח הימור!"
+
+#
+msgid "Poker Tournament"
+msgstr "טורניר פוקר"
+
+#
+msgid "Biggest tournament of this year."
+msgstr "הטורניר הגדול של השנה."
+
+#
+msgid "Bet now!"
+msgstr "המר עכשיו!"
+
+#
+msgid "Live now"
+msgstr "חי עכשיו"
+
+#
+msgid "Live news"
+msgstr "חדשות חיות"
+
+#
+msgid "deposit_info_skrill_1tap"
+msgstr "<b>Skrill 1-Tap</b> is Skrill's convenient service that lets users make small transfers easily without the need to always re-enter an e-mail address and password.<br /> <br /> Supported currencies include EUR and USD.<br /> Funds will be transferred to your Vbet account immediately.<br /> There are no fees for using this payment method. <br /> The minimum for transfers is 5, the maximum is 1000. <br /> <br /> To deposit funds into your Vbet account using Skrill 1-Tap, simply press âDepositâ entering the amount you want to transfer below. You will be redirected to Skrill to complete your transaction.<br /> Please note that you only have to enter your e-mail address for your first Skrill 1-Tap transaction. After the first time, your account information will be automatically recognized by the Skrill system."
+
+#
+msgid "deposit_info_skrill"
+msgstr "<p>Skrill is a secure, convenient and affordable way to send and receive money worldwide.  Supported currencies include EUR and USD.  Funds will be transferred to your account immediately.</p><p>There are no fees for using this payment method.</p><p>The minimum value for transfers is 5 and there's no maximum value.</p><p>To deposit funds into your Vbet account using Skrill, simply press deposit after entering the e-mail address registered with Skrill and the amount you want to transfer below. You will be redirected to Skrill to complete your transaction.</p>"
+
+#
+msgid "withdraw_info_skrill"
+msgstr "Skrill is a secure, convenient and affordable way to send and receive money worldwide.<br><br>Supported currencies include EUR and USD.<br>Funds will be transferred from your account within 24 hours.<br>There are no fees for using this payment method. <br>Transfers don`t have a minimum and/or a maximum value.<br>To withdraw funds from your Vbet account using Skrill, simply press âSubmitâ after entering your full name, your e-mail address registered with Skrill and the amount you want to transfer below. You will be redirected to Skrill to complete your transaction."
+
+#
+msgid "deposit_info_webmoney"
+msgstr "<p>WebMoney is a global settlement system enabling Internet users to conduct safe money transfers in real time.  Supported currencies include EUR, RUB, UAH and USD.  Funds will be transferred to your account immediately.  There are no fees for using this payment method.</p><p>Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your Vbet account using WebMoney, simply press deposit after entering the amount you want to transfer below. You will be redirected to WebMoney to complete your transaction.  Please note that you must have a WebMoney E, R or Z wallet.</p>"
+
+#
+msgid "withdraw_info_webmoney"
+msgstr "<p>WebMoney is a global settlement system enabling Internet users to conduct safe money transfers in real time.  Supported currencies include EUR, RUB, UAH and USD.  Funds will be transferred from your account within 72 hours.  There are no fees for using this payment method.  Transfers don`t have a minimum and/or a maximum value.  To withdraw funds from your Vbet account using WebMoney, simply press wirhdraw after entering your full name as registered with WebMoney, your Wallet Number and the amount you want to transfer below.  Please note that you must have a WebMoney E, R or Z wallet.</p>"
+
+#
+msgid "Purse"
+msgstr "ארנק"
+
+#
+msgid "deposit_info_qiwi"
+msgstr "<p>QIWI is a digital wallet that can be used to send and receive money with a wide range of methods allowing for every user to choose what is most convenient and preferable.  Supported currencies include EUR, RUB and USD.  Funds will be transferred to your account within 24 hours.</p><p>There are no fees for using this payment method.</p><p>Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your account using QIWI, simply press deposit after entering the phone number registered with QIWI and the amount you want to transfer below. You will be redirected to QIWI to complete your transaction.</p>"
+
+#
+msgid "withdraw_info_qiwi"
+msgstr "<p>QIWI is a digital wallet that can be used to send and receive money with a wide range of methods allowing for every user to choose what is most convenient and preferable.</p><p>Supported currencies include EUR, RUB and USD.  Funds will be transferred from your account within 24 hours.  There are no fees for using this payment method.  Transfers don&#96;t have a minimum value, and the maximum value is 300 EUR.  To withdraw funds from your account using QIWI, simply press withdraw after entering your QIWI Wallet Number and the amount you want to transfer below. You will be redirected to QIWI to complete your transaction.</p>"
+
+#
+msgid "Wallet id"
+msgstr "מזהה ארנק"
+
+#
+msgid "deposit_info_neteller"
+msgstr "<p>Neteller gives users the ability to make secure online payments with a system offering instant deposits, withdrawals and payouts trusted by millions worldwide.  Supported currencies include USD, EUR and RUB.  Funds will be transferred to your Vbet account immediately.  There are no fees for using this payment method.  Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your Vbet account using Neteller, simply press deposit after entering your Neteller account number, Secure ID and the amount you want to transfer below. You will be redirected to Neteller to complete your transaction.  Please note that the e-mail address registered to your Neteller account must match the e-mail address registered to your Vbet account for your transaction to be accepted.</p>"
+
+#
+msgid "withdraw_info_neteller"
+msgstr "<p>Neteller gives users the ability to make secure online payments with a system offering instant deposits, withdrawals and payouts trusted by millions worldwide.</p><p>Supported currencies include USD, EUR and RUB.  Funds will be transferred from your Vbet account within 24 hours.  There are no fees for using this payment method.  Transfers don`t have a minimum and/or a maximum value.</p><p>To withdraw funds from your Vbet account using Neteller, simply press withdraw after entering your account number and the amount you want to transfer below.</p>"
+
+#
+msgid "Account Id"
+msgstr "מזהה חשבון"
+
+#
+msgid "Secure Id"
+msgstr "Secure Id"
+
+#
+msgid "deposit_info_moneta"
+msgstr "<p>Moneta.ru is a payment system established in Russia to provide Internet users with the ability to make secure and instant transactions.</p><p>Supported currencies include EUR, RUB and USD.  Funds will be transferred from your Vbet account within 24 hours.  There are no fees for using this payment method.  Transfers don`t have a minimum and/or a maximum value.  To deposit funds from your Vbet account using Moneta.Ru, simply press deposit after enter  the amount you want to transfer below. You will be redirected to Moneta.Ru to complete your transaction. </p>"
+
+#
+msgid "withdraw_info_moneta"
+msgstr "<p>Moneta.ru is a payment system established in Russia to provide Internet users with the ability to make secure and instant transactions.</p><p>Supported currencies include EUR, RUB and USD.  Funds will be transferred from your Vbet account within 12 hours.  There are no fees for using this payment method.  Transfers don`t have a minimum and/or a maximum value.  To withdraw funds from your Vbet account using Moneta.Ru, simply press withdraw after entering your full name, the e-mail address registered with Moneta.Ru, your Wallet Number and the amount you want to transfer below. You will be redirected to Moneta.Ru to complete your transaction.</p>"
+
+#
+msgid "deposit_info_ecocard"
+msgstr "<p>EcoPayz is a global payment solutions provider offering instant safe and convenient payment services to customers and businesses across the globe.<br/>Supported currencies include EUR, RUB and USD.<br/>Funds will be transferred to your Vbet account immediately.<br/>There are no fees for using this payment method. <br/>Transfers don`t have a minimum and/or a maximum value.<br/>To deposit funds into your Vbet account using ecoPayz, simply press deposit after entering the amount you want to transfer below. You will be redirected to ecoPayz to complete your transaction.</p>"
+
+#
+msgid "withdraw_info_ecocard"
+msgstr "<p>ecoPayz is a global payment solutions provider offering instant safe and convenient payment services to customers and businesses across the globe.<br/>Supported currencies include EUR, RUB and USD.<br/>Funds will be transferred from your Vbet within 24 hours.<br/>There are no fees for using this payment method.<br/> Transfers don`t have a minimum and/or a maximum value.<br/>To withdraw funds from your Vbet account using ecoPayz, simply press withdraw after entering your full name, your account number and the amount you want to transfer below. You will be redirected to ecoPayz to complete your transaction.</p>"
+
+#
+msgid "deposit_info_ukash"
+msgstr "<p>Ukash was created to give customers an easy, safe and private method to make online payments using cash.  Supported currencies include EUR and USD.  Funds will be transferred to your Vbet account immediately.  There are no fees for using this payment method.  Transfers don&#96;t have a minimum and/or a maximum value.  To deposit funds into your Vbet account using Ukash, simply press submit after entering the amount you want to transfer below. You will be redirected to Ukash where you must enter your Ukash Voucher details to complete your transaction.</p>"
+
+#
+msgid "withdraw_info_ukash"
+msgstr "withdraw_info_ukash"
+
+#
+msgid "deposit_info_cash"
+msgstr "<p>To deposit money you should tell the bookmaker-cashier your VivaroBet account number which you were granted after the registration on our website.</p><p>At Baghramyan 1, Andranik 73/5, Komitas 60 and N.Zaryan sidestreet 1, h. 9 you can replenish your game account and receive your winning 24/7. In other betting offices you can replenish your game account and receive your winning from 14:00 till 23:00.</p><p>The addresses of betting offices where you can deposit cash money.</p>"
+
+#
+msgid "deposit_info_bitcoin"
+msgstr "deposit_info_bitcoin"
+
+#
+msgid "Tournaments"
+msgstr "טורנירים"
+
+#
+msgid "deposit_info_cashbill"
+msgstr "CashBill is a global settlement system enabling internet users to conduct safe money transfers in real time. Funds will be transfered to your account immediately. There are no fees for using this payment method. Transfers don't have a minimum and/or a maximum value. To deposit funds into your account using CashBill, simply press deposit after entering your login & amount you want to transfer below. You will be redirected to CashBill to complete your transaction. Please note that you must have bank account in PLN currency to use this payment method."
+
+#
+msgid "deposit_info_arca"
+msgstr "&quot;Armenian Card&quot; CJSC was established by the Central Bank of RA and 10 commercial banks in March 2000 for the establishment and development of the new banking payment system in Armenia. The company provides a set of services that allows banks to issue and serve ArCa, MasterCard, VISA cards, also to serve Armenian Express cards using modern technical, technological and software opportunities of the processing center using also specialized support of the company. The company is:<ul><li>Full member of international payment system of MasterCard Europe and the Centre for the provision of processing services (Member Service Provider)</li><li>Center to provide processing services for the system VISA (Third Party Processor)</li><li>Center to provide processing services for the system of American Express (Third Party Processor)</li></ul>"
+
+#
+msgid "withdraw_info_arca"
+msgstr "The ordered sum is transferred to Armenian banks' ArCa, MasterCard, VISA cards you mentioned, which is registered in your name.<br>The order execution term is 24 hours.<br>Due to unstable operation of the system, transfer delay may exceed the specified time.<br>The minimal sum of withdrawal is <b>500</b> dram.<br>The maximum sum for withdraw is <b>200.000</b> dram per day.<br>No commissions are charged with this payment method."
+
+#
+msgid "Last name/surname, name, middle name"
+msgstr "שם משפחה, שם, שם אמצעי"
+
+#
+msgid "deposit_info_edram"
+msgstr "<a href=\"http://www.idram.am/\">IDram</a> is a payment system on the Internet. For realization of payment it is necessary to be registered in IDram system. IDram system does not demand loading the additional program. On a special page you can expose to yourselves the account for the necessary sum and pay it in IDram system. After that it is necessary to check up the status of the exposed account on the same page. If it has been paid, your game account will be replenished with the transferred sum. For input of money into the system it is necessary to buy Ð° card IDram through branches of &quot;ArmPost&quot; communication. It is possible to familiarize with the rules of the system on the website <a href=\"http://www.idram.am/\">www.idram.am</a>. There are no expenses for this payment method."
+
+#
+msgid "withdraw_info_edram"
+msgstr "Your payout order will be transferred to your <a href=\"http://www.idram.am/\">iDram</a> account which is registered in your name. Execution term of the order is 12 hours. With this payment method you are not paying any commission."
+
+#
+msgid "withdraw_info_cash"
+msgstr "<p>You can receive the sum ordered in the betting offices on the same or next day after the registration of inquiry. You should present your passport to receive your winning. The order is valid within 3 days. If you cannot receive the winning sum during this term, the inquiry will be cancelled, the ordered sum will return on the game account. The minimal sum of the order is not limited. There are no additional charges for this payment method.</p><p>At Baghramyan 1, Andranik 73/5, Amiryan 18/2a you can receive your winnings from 11:00 till 23:00. In other betting offices you can receive your winnings from 14:00 till 23:00.</p><p>You can receive cash sum at the following branches of VivaroBet:</p>"
+
+#
+msgid "deposit_info_telcell"
+msgstr "It is very important for &quot;VivaroBet&quot; company to provide its consumers with modern, reliable and convenient payment service. Therefore &quot;VivaroBet&quot; company has incorporated to system <a href=\"http://www.telcell.am/\">TelCell</a>."
+
+#
+msgid "deposit_info_tandem"
+msgstr "<b>Tandem Payment<br>    LLC</b>, Tandem Payment LLC founded in 2007 practices setting, distribution and support of automatized payment systems. The payment terminals offered by our company guarantee quick, comfortable and foolproof method of billing, paying for public utilities, Internet, replenishment of accounts and etc. The software of Tandem Payment&Otilde;s terminals is developed in RA by Smart-Tech LLC which has a great experience in development of various systems of e-payments such as ArCa portal and system of E-card Banking. This fact gives an opportunity to continually improve the system of payment terminals, to execute and apply different innovations into the system.<br><i><b>Our primary advantages are:</b></i><br><br>    <b>We work without commission (0%)</b><br>    <b>Our terminals enable to distribute paid-in sum of money among different types of services.</b><b> </b><b>(You can get more detailed information on these items on &quot;for users&quot; page).</b><br>Our operators work on a twenty-four hour basis and are always ready to answer your all questions concerning our system."
+
+#
+msgid "deposit_info_btabank"
+msgstr "It is of capital importance for Vbet to provide its clients with up-to-date, trustworthy and comfortable payment services.<br>You can henceforth replenish your VBET account through the BTA BANK.<br>BTA Bank JSC functions on the basis of license N31, provided by the Central Bank of the Republic of Armenia.<br>Through BTA BANK JSC you can pay for fixed line and mobile networks, public service and digital wallets."
+
+#
+msgid "deposit_info_mobidram"
+msgstr " If you have a MobiDram account from now on you can top up your Vivaro account online via MobiDram. After login you should click \"Deposit\" button and then choose MobiDram. There you should fill in appropriate fields with data and confirm payment.<br>The whole amount will be transfered to your account."
+
+#
+msgid "deposit_info_paytopay"
+msgstr "If you have a MobiDram account from now on you can top up your Vivaro account by sending an SMS to 1009 short number mentioning the amount and Vivaro ID you want to top up. For example: 5000, 1234567.<br>The minimum amount for top up is 1000 AMD. The whole amount will be transfered to your account"
+
+#
+msgid "withdraw_info_topoker"
+msgstr "If you have a VivaroPoker account, you can transfer money to it. Please enter your VivaroPoker username and password(you will be asked only for the first time) and chosen amount will be transferred to <b>your</b> VivaroPoker account"
+
+#
+msgid "deposit_info_card"
+msgstr "deposit_info_card"
+
+#
+msgid "PinCode"
+msgstr "קוד PIN"
+
+#
+msgid "x_card_num"
+msgstr "x_card_num"
+
+#
+msgid "x_card_code"
+msgstr "x_card_code"
+
+#
+msgid "x_exp_date_yy"
+msgstr "x_exp_date_yy"
+
+#
+msgid "deposit_info_bankform"
+msgstr "deposit_info_bankform"
+
+#
+msgid "IBAN"
+msgstr "IBAN"
+
+#
+msgid "SWIFT"
+msgstr "SWIFT"
+
+#
+msgid "withdraw_info_bankform"
+msgstr "withdraw_info_bankform"
+
+#
+msgid "withdraw_info_astropay"
+msgstr "withdraw_info_astropay"
+
+#
+msgid "deposit_info_wirecard"
+msgstr " WireCard is a secure, convenient & fast way to deposit funds at your Vbet account using your credit card. The supported currencies are: EUR, USD, RUB, & UAH. The minimum deposit amount is 10 EUR and the maximum deposit amount is 5000 EUR. Funds will be transfered to your Vbet account immediately. There are no fees using this payment method. To deposit funds into your Vbet account using WireCard, simply fill out all the required fields and press the 'deposit' button."
+
+#
+msgid "CardNumber"
+msgstr "מספר הכרטיס"
+
+#
+msgid "CardHolderName"
+msgstr "שם בעל הכרטיס"
+
+#
+msgid "ExpirationYear"
+msgstr "שנת תפוגה"
+
+#
+msgid "ExpirationMonth"
+msgstr "חודש תפוגה"
+
+#
+msgid "Cvc2"
+msgstr "קוד סודי CVC2"
+
+#
+msgid "withdraw_info_tovivaropet"
+msgstr "If you have a Vivarobet account, you can transfer money to it. Please enter your Vivarobet username and password(you will be asked only for the first time) and chosen amount will be transferred to <b>your</b> Vivarobet account"
+
+#
+msgid "deposit_info_eblontransfer"
+msgstr "deposit_info_eblontransfer"
+
+#
+msgid "withdraw_info_eblontransfer"
+msgstr "withdraw_info_eblontransfer"
+
+#
+msgid "CustomerID"
+msgstr "CustomerID"
+
+#
+msgid "deposit_info_moneysafe"
+msgstr "deposit_info_moneysafe"
+
+#
+msgid "Code"
+msgstr "קוד"
+
+#
+msgid "This Game Is Already Opened In Multi Game View. Please Choose Another Game."
+msgstr "משחק זה כבר פתוח במצב תצוגה מרובת משחקים. אנא בחר משחק אחר."
+
+#
+msgid "It Is Possible To Play Only One Game Of The Same Provider In Multi Game View. Please Choose Another Game."
+msgstr "אפשר לשחק רק משחק אחד זהה מאותו ספק במצב תצוגה מרובת משחקים. אנא בחר משחק אחר."
+
+#
+msgid "Sorry, this game cannot be opened in multi-view mode"
+msgstr "מצטערים, משחק זה אינו יכול להיפתח במצב ריבוי תצוגות"
+
+#
+msgid "Please close one of the games for adding new one"
+msgstr "אנא סגור אחד מהמשחקים בכדי להוסיף אחד חדש"
+
+#
+msgid "The game is not available"
+msgstr "משחק זה אינו זמין"
+
+#
+msgid "Home"
+msgstr "בית"
+
+#
+msgid "message_OK"
+msgstr "התקבל"
+
+#
+msgid "Virtual sports"
+msgstr "ספורט וירטואלי"
+
+#
+msgid "Your Facebook account is already linked to another existing user."
+msgstr "חשבון הפייסבוק שלך כבר קשור למשתמש קיים אחר."
+
+#
+msgid "Unknown error"
+msgstr "שגיאה לא ידועה"
+
+#
+msgid "Come play on "
+msgstr "Come play on "
+
+#
+msgid "Password changed"
+msgstr "הסיסמה שונתה"
+
+#
+msgid "Personal information updated."
+msgstr "מידע אישי עודכן."
+
+#
+msgid "Invalid password."
+msgstr "סיסמה לא תקפה"
+
+#
+msgid "Deposit limits set."
+msgstr "נקבעו מגבלות הפקדה."
+
+#
+msgid "Self-Exclusion period set."
+msgstr "נקבעה תקופת חסימה עצמית"
+
+#
+msgid "New Bets"
+msgstr "הימורים חדשים"
+
+#
+msgid "Winning Bets"
+msgstr "הימורים זוכים"
+
+#
+msgid "Returned Bet"
+msgstr "הימור הוחזר"
+
+#
+msgid "Card Deposit"
+msgstr "הפקדה מכרטיס"
+
+#
+msgid "Bonus Bet"
+msgstr "הימור בונוס"
+
+#
+msgid "Commission"
+msgstr "עמלה"
+
+#
+msgid "Withdrawal"
+msgstr "משיכה"
+
+#
+msgid "Correction"
+msgstr "תיקון"
+
+#
+msgid "Deposit by payment system"
+msgstr "הפקדה דרך מערכת תשלומים"
+
+#
+msgid "Withdrawal request"
+msgstr "בקשת משיכה"
+
+#
+msgid "Authorized Withdrawal"
+msgstr "משיכה מאושרת"
+
+#
+msgid "Withdrawal denied"
+msgstr "משיכה נדחתה"
+
+#
+msgid "Withdrawal paid"
+msgstr "משיכה שולמה"
+
+#
+msgid "Pool Bet"
+msgstr "Pool Bet"
+
+#
+msgid "Pool Bet Win"
+msgstr "Pool Bet Win"
+
+#
+msgid "Pool Bet Return"
+msgstr "Pool Bet Return"
+
+#
+msgid "In the process of revision"
+msgstr "במהלך עדכון"
+
+#
+msgid "Removed for recalculation"
+msgstr "ירד לחישוב מחדש"
+
+#
+msgid "Free Bet Bonus received"
+msgstr "בונוס הימור חינם התקבל"
+
+#
+msgid "Wagering Bonus received"
+msgstr "בונוס הימורים התקבל"
+
+#
+msgid "Transfer from Gaming Wallet"
+msgstr "העברה מארנק המשחקים"
+
+#
+msgid "Transfer to Gaming Wallet"
+msgstr "העברה אל ארנק המשחקים"
+
+#
+msgid "Fair"
+msgstr "Fair"
+
+#
+msgid "Fair Win"
+msgstr "Fair Win"
+
+#
+msgid "Fair Return"
+msgstr "Fair Return"
+
+#
+msgid "Tip"
+msgstr "Tip"
+
+#
+msgid "Error"
+msgstr "שגיאה"
+
+#
+msgid "Username or email invalid"
+msgstr "שם משתמש או מייל אינם נכונים"
+
+#
+msgid "Upcoming"
+msgstr "הבאים"
+
+#
+msgid "Popular"
+msgstr "פופולרים"
+
+#
+msgid "Favorite games"
+msgstr "מועדפים"
+
+#
+msgid "Unsupported service"
+msgstr "שירות לא נתמך"
+
+#
+msgid "Currency unsupported"
+msgstr "העברה זו לא נתמכת על ידי המטבע שלך"
+
+#
+msgid "Amount is less than minimum allowed"
+msgstr "הסכום נמוך מהמינימום המותר"
+
+#
+msgid "Amount is greater than maximum allowed"
+msgstr "הסכום גבוה מהמקסימום המותר"
+
+#
+msgid "Entered payee information is not correct."
+msgstr "פרטי המקבל לא נכונים."
+
+#
+msgid "Entered payer information is not correct."
+msgstr "פרטי המשלם לא נכונים."
+
+#
+msgid "Internal service fault"
+msgstr "שגיאת מערכת"
+
+#
+msgid "Withdraw request blocked."
+msgstr "בקשת משיכה חסומה."
+
+#
+msgid "User link blocked, please contact support."
+msgstr "קישור המשתמש חסום,  אנא פנה לשירות הלקוחות."
+
+#
+msgid "Day limit reached. Please try later."
+msgstr "הגעת להגבלה היומית, אנא נסה שנית מאוחר יותר."
+
+#
+msgid "Withdraw request is already in progress"
+msgstr "בקשת המשיכה כבר בטיפול"
+
+#
+msgid "Withdrawal was successful."
+msgstr "המשיכה הושלמה בהצלחה."
+
+#
+msgid "Withdraw failed."
+msgstr "המשיכה נכשלה."
+
+#
+msgid "There was an error processing your request."
+msgstr "היתה תקלה בעיבוד הבקשה"
+
+#
+msgid "Withdrawal was successful"
+msgstr "המשיכה הושלמה בהצלחה"
+
+#
+msgid "Deposit was successful."
+msgstr "ההפקדה הושלמה בהצלחה."
+
+#
+msgid "Deposit failed."
+msgstr "ההפקדה נכשלה."
+
+#
+msgid "Your transfer is successfully completed"
+msgstr "ההעברה הושלמה בהצלחה"
+
+#
+msgid "Internal Error"
+msgstr "שגיאת מערכת"
+
+#
+msgid "Invalid RFID card"
+msgstr "כרטיס RFID לא תקין"
+
+#
+msgid "Invalid Password"
+msgstr "סיסמה לא נכונה"
+
+#
+msgid "Please put your RFID card on card reader"
+msgstr "אנא הכנס את כרטיס הRFID שלך בקורא הכרטיסים"
+
+#
+msgid "LiveCalendar"
+msgstr "יומן חי"
+
+#
+msgid "Sport"
+msgstr "ספורט"
+
+#
+msgid "Virtual Betting"
+msgstr "הימורים וירטואלים"
+
+#
+msgid "Connection lost. Reconnecting."
+msgstr "החיבור אבד. מתחבר מחדש."
+
+#
+msgid "Connection restored"
+msgstr "החיבור שוחזר"
+
+#
+msgid "In progress"
+msgstr "בתהליך"
+
+#
+msgid "Blocked"
+msgstr "חסום"
+
+#
+msgid "Calculating wins"
+msgstr "מחשב זכיות"
+
+#
+msgid "Closed"
+msgstr "סגור"
+
+#
+msgid "Wrong phone number"
+msgstr "מספר טלפון שגוי"
+
+#
+msgid "Invalid verification code"
+msgstr "קוד זיהוי שגוי"
+
+#
+msgid "Code has been sent, please check your mobile phone"
+msgstr "הקוד נשלח, אנא בדוק את הטלפון שלך"
+
+#
+msgid "APPROVED BET"
+msgstr "הימור מאושר"
+
+#
+msgid "YOUR BET HAS BEEN APPROVED"
+msgstr "ההימור שלך אושר"
+
+#
+msgid "DECLINED BET"
+msgstr "הימור לא התקבל"
+
+#
+msgid "YOUR BET HAS BEEN DECLINED"
+msgstr "ההימור שלך לא התקבל"
+
+#
+msgid "Message sent"
+msgstr "הודעה נשלחה"
+
+#
+msgid "Cannot play this video in your region."
+msgstr "אי אפשר להפעיל וידאו זה באזורך."
+
+#
+msgid "Cannot play video stream.Sorry."
+msgstr "אין אפשרות להפעיל תזרים וידאו. סליחה."
+
+#
+msgid "Confirm"
+msgstr "אשר"
+
+#
+msgid "Done"
+msgstr "נעשה"
+
+#
+msgid "Next"
+msgstr "הבא"
+
+#
+msgid "Previous"
+msgstr "הקודם"
+
+#
+msgid "Skip"
+msgstr "דלג"
+
+#
+msgid "Press Ctrl + C to copy link address to clipboard"
+msgstr "לחץ על Ctrl + C בכדי להעתיק את כתובת הקישור"
+
+#
+msgid "AOC"
+msgstr "AOC"
+
+#
+msgid "Free Quiz"
+msgstr "שאלון חינם"
+
+#
+msgid "Promotions"
+msgstr "מבצעים"
+
+#
+msgid "Life tournament"
+msgstr "טורניר חיים"
+
+#
+msgid "for our users"
+msgstr "למשתמשים שלנו"
+
+#
+msgid "system "
+msgstr "מערכת "
+
+#
+msgid "Middle"
+msgstr "אמצע"
+
+#
+msgid "Jan"
+msgstr "ינואר"
+
+#
+msgid "Feb"
+msgstr "פברואר"
+
+#
+msgid "Mar"
+msgstr "מרץ"
+
+#
+msgid "Apr"
+msgstr "אפריל"
+
+#
+msgid "May"
+msgstr "מאי"
+
+#
+msgid "Jun"
+msgstr "יוני"
+
+#
+msgid "Jul"
+msgstr "יולי"
+
+#
+msgid "Aug"
+msgstr "אוגוסט"
+
+#
+msgid "Sep"
+msgstr "ספטמבר"
+
+#
+msgid "Oct"
+msgstr "אוקטובר"
+
+#
+msgid "Nov"
+msgstr "נובמבר"
+
+#
+msgid "Dec"
+msgstr "דצמבר"
+
+#
+msgid "Gender "
+msgstr "מין "
+
+#
+msgid "This field can contain only digits and letters"
+msgstr "שדה זה יכול להכיל רק ספרות ואותיות לועזיות"
+
+#
+msgid "Username "
+msgstr "שם משתמש "
+
+#
+msgid "Password is too short"
+msgstr "הסיסמה קצרה מדי"
+
+#
+msgid "Confirm Password"
+msgstr "אשר סיסמה"
+
+#
+msgid "Registration on this site is not permitted in selected country."
+msgstr "הרשמה לאתר זה אסורה במדינות מסויימות."
+
+#
+msgid "You can register here:"
+msgstr "ניתן להירשם כאן:"
+
+#
+msgid "Country code is not correct"
+msgstr "קוד המדינה אינו נכון"
+
+#
+msgid "Failed to send sms"
+msgstr "שליחת הודת סמס נכשלה"
+
+#
+msgid "Field can contain only digits"
+msgstr "השדה יכול להכיל ספרות בלבד"
+
+#
+msgid "SMS Code"
+msgstr "קוד סמס"
+
+#
+msgid "Promo code"
+msgstr "קוד מבצע"
+
+#
+msgid "Security question"
+msgstr "שאלת אבטחה"
+
+#
+msgid "Security answer"
+msgstr "תשובה לשאלת אבטחה"
+
+#
+msgid "I would like to receive information about bonuses and new offers via email."
+msgstr "ברצוני לקבל מידע אודות בונוסים ומבצעים חדשים למייל"
+
+#
+msgid "I would like to receive information about bonuses and new offers via SMS"
+msgstr "ברצוני לקבל מידע אודות בונוסים ומבצעים חדשים בסמס"
+
+#
+msgid "Register also for poker."
+msgstr "הירשם גם לפוקר."
+
+#
+msgid "Video roundups"
+msgstr "Video roundups"
+
+#
+msgid "Popular bets"
+msgstr "הימורים פופולריים"
+
+#
+msgid "Use your "
+msgstr "השתמש ב"
+
+#
+msgid "Deberc"
+msgstr "Deberc"
+
+#
+msgid "deposit_info_yandex"
+msgstr "<p> \"Yandex.Money\" - an electronic payment system, one of the most popular services of \"Yandex\" company, which is Russia's largest portal and leading search system in Russian part of the Internet. \"Yandex.Money\" payment system helps you to make purchases from online stores, contribute to charity funds, pay for communication services and much more. For more information and opportunities on \"Yandex.Money\" payment system, visit the money.yandex.ru website. </p>"
+
+#
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome"
+msgstr "הדפדפן שלך אינו תומך בהעלאת קבצים, אנא עדכן אותו או השתמש בגוגל כרום"
+
+#
+msgid "I would like to subscribe for email updates and offers from this site."
+msgstr "ברצוני לקבל עידכונים והודעות על מבצעים חדשים מאתר זה"
+
+#
+msgid "What was the name of your first pet?"
+msgstr "מה היה השם של חיית המחמד הראשונה שלך?"
+
+#
+msgid "What age were you when you went to school?"
+msgstr "באיזה גיל הלכת לבית הספר?"
+
+#
+msgid "What was the name of the city you were born in?"
+msgstr "באיזו עיר נולדת?"
+
+#
+msgid "What was then number of your school?"
+msgstr "מה היה המספר של בית הספר שלך?"
+
+#
+msgid "What was then name of your first love?"
+msgstr "מה היה שמה של אהובתך הראשונה?"
+
+#
+msgid "What was the make and model of your first car?"
+msgstr "מה היה הסוג והדגם של מכוניתך הראשונה?"
+
+#
+msgid "deposit_info_centili"
+msgstr "Mobile Payment - You can easily pay with your phone in no time. The amount is automatically added to your mobile phone bill or deducted from your prepaid account, so you do not need a credit card or a bank account. Simply pay by mobile and enjoy! Currencies supported - RUB. To make a deposit at Vbet please fill in the sum and then your mobile phone number. You will recieive an SMS asking to confirm the payment by answering it with a specific number. After confirmation the payment is done.<br><br>Please read the following:<br>1. This Payment System is only for Beeline Russia customers.<br>2. After payment there should be minimum 50 RUB left on your mobile account.<br>3. Commission for deposit is 8%  "
+
+#
+msgid "BET_APPROVED_TITLE"
+msgstr "הימור מאושר"
+
+#
+msgid "BET_DECLINED_TITLE"
+msgstr "הימור לא מאושר"
+
+#
+msgid "BET_DECLINED_MESSAGE"
+msgstr "הימורך לא התקבל"
+
+#
+msgid "Horse Age"
+msgstr "גיל סוס"
+
+#
+msgid "Jockey Weight"
+msgstr "Jockey Weight"
+
+#
+msgid "Trainer/Jokey"
+msgstr "Trainer/Jokey"
+
+#
+msgid "Coming soon"
+msgstr "בקרוב"
+
+#
+msgid "You have exited website, but your page on odnoklassniki.ru is still active."
+msgstr "יצאת מהאתר, אבל הדף ב odnoklassniki.ru עדיין פעיל."
+
+#
+msgid "Game is temporarily locked"
+msgstr "המשחק חסום זמנית"
+
+#
+msgid "Ranking table"
+msgstr "לוח דירוג"
+
+#
+msgid "Continue"
+msgstr "המשך"
+
+#
+msgid "Coating"
+msgstr "Coating"
+
+#
+msgid "Hide Balance"
+msgstr "הסתר מאזן"
+
+#
+msgid "Show Balance"
+msgstr "הצג מאזן"
+
+#
+msgid "Show Username"
+msgstr "הצג שם משתמש"
+
+#
+msgid "Hide Username"
+msgstr "הסתר שם משתמש"
+
+#
+msgid "Hide statistics"
+msgstr "הסתר סטטיסטיקה"
+
+#
+msgid "Show statistics"
+msgstr "הצג סטטיסטיקה"
+
+#
+msgid "Show / Hide statistics"
+msgstr "Show / Hide statistics"
+
+#
+msgid "Profile"
+msgstr "פרופיל"
+
+#
+msgid "username"
+msgstr "שם משתמש"
+
+#
+msgid "balance"
+msgstr "מאזן"
+
+#
+msgid "help"
+msgstr "עזרה"
+
+#
+msgid "single"
+msgstr "סינגל"
+
+#
+msgid "Live Dealer"
+msgstr "דילר חי"
+
+#
+msgid "Invite"
+msgstr "הזמנה"
+
+#
+msgid "Sign up with your Facebook account"
+msgstr "היכנס עם חשבון הפייסבוק שלך"
+
+#
+msgid "Username(in case you'll want to login without facebook)"
+msgstr "שם משתמש(במידה ותרצה להתחבר ללא פייסבוק)"
+
+#
+msgid "withdraw_info_wirecard"
+msgstr "withdraw_info_wirecard"
+
+#
+msgid "Turf"
+msgstr "דשא"
+
+#
+msgid "Dirt"
+msgstr "עפר"
+
+#
+msgid "Polytrack"
+msgstr "פוליטרק"
+
+#
+msgid "yards"
+msgstr "יארדים"
+
+#
+msgid "Sound:"
+msgstr "קול:"
+
+#
+msgid "Part of bet placed from bonus."
+msgstr "חלק מההימור הונח מכספי הבונוס"
+
+#
+msgid "Live chat / FAQ"
+msgstr "צ'ט חי/שאלות נפוצות"
+
+#
+msgid "id:"
+msgstr "מזהה:"
+
+#
+msgid "DEMO MODE"
+msgstr "מצב דמו"
+
+#
+msgid "Exchange"
+msgstr "המרה"
+
+#
+msgid "Duplicate product"
+msgstr "אנא בחר מוצר אחר להעברה"
+
+#
+msgid "Wrong Password"
+msgstr "סיסמה שגויה"
+
+#
+msgid "Wrong Amount"
+msgstr "סכום שגוי"
+
+#
+msgid "Product not allowed"
+msgstr "מוצא לא מורשה"
+
+#
+msgid "Upccomming events"
+msgstr "האירועים הקרובים"
+
+#
+msgid "Add to BetSlip"
+msgstr "הוסף לטופס ההימורים"
+
+#
+msgid "deposit_info_megapay"
+msgstr "<p><b>\"Mega Panther\" LLC</b> is a payment organization which represents <b>MegaPay</b>. The system operates through payment terminals. Via payment terminals you can pay for mobile and fixed telephony, gas, water, electricity, Internet, IP-telephony, commercial TV, <b>Vivarobet</b>,&nbsp;and etc. Payment terminals are the most modern way to pay your bills easily and quickly. Due to these modern methods of dialogue construction with client the process of financial operations becomes accessible, easy and gives an opportunity to serve the maximum number of people in a short period of time. There is no need of special explanation for using these terminals. Anyone can do the operation through the terminals;it is enough to follow the text and graphic instructions on the screen.</p><p>All payments are carried out in online operation mode by the simple touch on the screen. For all types of payments through <b>MegaPay</b> system no commission is collected â <span class=\"CRed\"><strong>0 %</strong></span>.</p><p>Payment system <b>MegaPay</b> is an optimal financial and technological solution, and payment terminal means comfortability along with availability.<br></p><p>Mega Panther <b>LLC</b> created stable software which is permanently improved for terminals. And our monitoring group is constantly observing terminals to reduce possible errors.</p><p>Half the success of any business is satisfied clients. Guided by this slogan <b>Mega Panther LLC</b> constantly improves <b>MegaPay</b> payment system, increases efficiency of payment terminals, works with its clients through the united call-center. As a result, day by day grows not only the quantity of services offered, but also the number of satisfied and loyal clients.</p>"
+
+#
+msgid "deposit_info_osmp"
+msgstr "<p>\"OSMP\" LLC (United System of Instant Payments) - Armenian representative office of Russian \"OSMP\" CJSC which was set up in September, 2007.<br>RA Central Bankâs â 9 license from April 22, 2008 (payment system). RA Central Bankâs â 5 license from April 22, 2008 (processing and clearing of payments)<br>The System organizes acceptance of payments for the following services: <br>- mobile connection: Beeline, VivaCell-MTS;<br>- fixed connection;<br>- bookmaker offices (Vivarobet)<br>- payment systems (EDram) <br>- VoIP service (Kargin kap) â <strong>New</strong>. <br>- gaz service (ArmRusgazprom) â <strong>New.</strong></p><p>As of 01.12.08, 28 payment terminals located in various districts of Yerevan and Ashtarak are functioning in the system. <br>Russian \"OSMP\" CJSC was founded in 2004. It possesses payment acceptance points in all regions of Russia. Aside from Armenia, the Companyâs payment systems function in Georgia, Kazakhstan, Tajikistan, Uzbekistan, Ukraine, Moldova, Belarus. </p>"
+
+#
+msgid "Canceled"
+msgstr "בוטל"
+
+#
+msgid "Depost Amount"
+msgstr "סכום הפקדה"
+
+#
+msgid "Active"
+msgstr "פעיל"
+
+#
+msgid "Fixed"
+msgstr "קבוע"
+
+#
+msgid "Payed"
+msgstr "שולם"
+
+#
+msgid "will start in"
+msgstr "יתחיל בעוד"
+
+#
+msgid "Frames"
+msgstr "Frames"
+
+#
+msgid "Last update:"
+msgstr "עדכון אחרון:"
+
+#
+msgid "OnePoint"
+msgstr "OnePoint"
+
+#
+msgid "TwoPoints"
+msgstr "TwoPoints"
+
+#
+msgid "ThreePoints"
+msgstr "ThreePoints"
+
+#
+msgid "0 Half"
+msgstr "חצי 0"
+
+#
+msgid "1st Half"
+msgstr "מחצית ראשונה"
+
+#
+msgid "2nd Half"
+msgstr "מחצית שנייה"
+
+#
+msgid "Additional Time1"
+msgstr "תוספת זמן 1"
+
+#
+msgid "Additional Time2"
+msgstr "תוספת זמן 2"
+
+#
+msgid "Waiting"
+msgstr "המתנה"
+
+#
+msgid "Round"
+msgstr "סיבוב"
+
+#
+msgid "Round 0"
+msgstr "סיבוב 0"
+
+#
+msgid "Round 1"
+msgstr "סיבוב ראשון"
+
+#
+msgid "Round 2"
+msgstr "סיבוב שני"
+
+#
+msgid "Round 3"
+msgstr "סיבוב שלישי"
+
+#
+msgid "Round 4"
+msgstr "סיבוב רביעי"
+
+#
+msgid "Round 5"
+msgstr "סיבוב חמישי"
+
+#
+msgid "Round 6"
+msgstr "סיבוב שישי"
+
+#
+msgid "Round 7"
+msgstr "סיבוב שביעי"
+
+#
+msgid "Round 8"
+msgstr "סיבוב שמיני"
+
+#
+msgid "Round 9"
+msgstr "סיבוב תשיעי"
+
+#
+msgid "Round 10"
+msgstr "סיבוב עשירי"
+
+#
+msgid "Round 11"
+msgstr "סיבוב אחד עשרה"
+
+#
+msgid "Round 12"
+msgstr "סיבוב שתיים עשרה"
+
+#
+msgid "Set 0"
+msgstr "מערכה 0"
+
+#
+msgid "Set 1"
+msgstr "מערכה ראשונה"
+
+#
+msgid "Set 2"
+msgstr "מערכה שנייה"
+
+#
+msgid "Set 3"
+msgstr "מערכה שלישית"
+
+#
+msgid "Set 4"
+msgstr "מערכה רביעית"
+
+#
+msgid "Set 5"
+msgstr "מערכה חמישית"
+
+#
+msgid "Set 6"
+msgstr "מערכה שישית"
+
+#
+msgid "Set 7"
+msgstr "מערכה שביעית"
+
+#
+msgid "Set 8"
+msgstr "מערכה שמינית"
+
+#
+msgid "Set 9"
+msgstr "מערכה תשיעית"
+
+#
+msgid "Set 10"
+msgstr "מערכה עשירית"
+
+#
+msgid "Period 0"
+msgstr "תקופה 0"
+
+#
+msgid "Period 1"
+msgstr "תקופה ראשונה"
+
+#
+msgid "Period 2"
+msgstr "תקופה שניה"
+
+#
+msgid "Period 3"
+msgstr "תקופה שלישית"
+
+#
+msgid "Quarter 0"
+msgstr "רבע 0"
+
+#
+msgid "Quarter 1"
+msgstr "רבע ראשון"
+
+#
+msgid "Quarter 2"
+msgstr "רבע שני"
+
+#
+msgid "Quarter 3"
+msgstr "רבע שלישי"
+
+#
+msgid "Quarter 4"
+msgstr "רבע רביעי"
+
+#
+msgid "Inning 0"
+msgstr "Inning 0"
+
+#
+msgid "1st Inning"
+msgstr "1st Inning"
+
+#
+msgid "2nd Inning"
+msgstr "2nd Inning"
+
+#
+msgid "3rd Inning"
+msgstr "3rd Inning"
+
+#
+msgid "4th Inning"
+msgstr "4th Inning"
+
+#
+msgid "5th Inning"
+msgstr "5th Inning"
+
+#
+msgid "6th Inning"
+msgstr "6th Inning"
+
+#
+msgid "7th Inning"
+msgstr "7th Inning"
+
+#
+msgid "8th Inning"
+msgstr "8th Inning"
+
+#
+msgid "9th Inning"
+msgstr "9th Inning"
+
+#
+msgid "10th Inning"
+msgstr "10th Inning"
+
+#
+msgid "11th Inning"
+msgstr "11th Inning"
+
+#
+msgid "12th Inning"
+msgstr "12th Inning"
+
+#
+msgid "13th Inning"
+msgstr "13th Inning"
+
+#
+msgid "14th Inning"
+msgstr "14th Inning"
+
+#
+msgid "15th Inning"
+msgstr "15th Inning"
+
+#
+msgid "16th Inning"
+msgstr "16th Inning"
+
+#
+msgid "17th Inning"
+msgstr "17th Inning"
+
+#
+msgid "18th Inning"
+msgstr "18th Inning"
+
+#
+msgid "19th Inning"
+msgstr "19th Inning"
+
+#
+msgid "20th Inning"
+msgstr "20th Inning"
+
+#
+msgid "21th Inning"
+msgstr "21th Inning"
+
+#
+msgid "22th Inning"
+msgstr "22th Inning"
+
+#
+msgid "23th Inning"
+msgstr "23th Inning"
+
+#
+msgid "24th Inning"
+msgstr "24th Inning"
+
+#
+msgid "25th Inning"
+msgstr "25th Inning"
+
+#
+msgid "Time 0"
+msgstr "Time 0"
+
+#
+msgid "Time 1"
+msgstr "1st Time"
+
+#
+msgid "Time 2"
+msgstr "2nd Time"
+
+#
+msgid "Frame 0"
+msgstr "Frame 0"
+
+#
+msgid "Frame 1"
+msgstr "1st Frame"
+
+#
+msgid "Frame 2"
+msgstr "2nd Frame"
+
+#
+msgid "Frame 3"
+msgstr "3rd Frame"
+
+#
+msgid "Frame 4"
+msgstr "4th Frame"
+
+#
+msgid "Frame 5"
+msgstr "5th Frame"
+
+#
+msgid "Frame 6"
+msgstr "6th Frame"
+
+#
+msgid "Frame 7"
+msgstr "7th Frame"
+
+#
+msgid "Frame 8"
+msgstr "8th Frame"
+
+#
+msgid "Frame 9"
+msgstr "9th Frame"
+
+#
+msgid "Frame 10"
+msgstr "10th Frame"
+
+#
+msgid "Frame 11"
+msgstr "11th Frame"
+
+#
+msgid "Frame 12"
+msgstr "12th Frame"
+
+#
+msgid "Frame 13"
+msgstr "13th Frame"
+
+#
+msgid "Frame 14"
+msgstr "14th Frame"
+
+#
+msgid "Frame 15"
+msgstr "15th Frame"
+
+#
+msgid "Frame 16"
+msgstr "16th Frame"
+
+#
+msgid "Frame 17"
+msgstr "17th Frame"
+
+#
+msgid "Frame 18"
+msgstr "18th Frame"
+
+#
+msgid "Frame 19"
+msgstr "19th Frame"
+
+#
+msgid "Frame 20"
+msgstr "20th Frame"
+
+#
+msgid "Frame 21"
+msgstr "21th Frame"
+
+#
+msgid "Frame 22"
+msgstr "22th Frame"
+
+#
+msgid "Frame 23"
+msgstr "23th Frame"
+
+#
+msgid "Frame 24"
+msgstr "24th Frame"
+
+#
+msgid "Frame 25"
+msgstr "25th Frame"
+
+#
+msgid "Frame 26"
+msgstr "26th Frame"
+
+#
+msgid "Frame 27"
+msgstr "27th Frame"
+
+#
+msgid "Frame 28"
+msgstr "28th Frame"
+
+#
+msgid "Frame 29"
+msgstr "29th Frame"
+
+#
+msgid "Frame 30"
+msgstr "30th Frame"
+
+#
+msgid "Frame 31"
+msgstr "31st Frame"
+
+#
+msgid "Frame 32"
+msgstr "32nd Frame"
+
+#
+msgid "Frame 33"
+msgstr "33rd Frame"
+
+#
+msgid "Frame 34"
+msgstr "34th Frame"
+
+#
+msgid "Frame 35"
+msgstr "35th Frame"
+
+#
+msgid "Frame 36"
+msgstr "36th Frame"
+
+#
+msgid "Frame 37"
+msgstr "37th Frame"
+
+#
+msgid "Frame 38"
+msgstr "38th Frame"
+
+#
+msgid "Frame 39"
+msgstr "39th Frame"
+
+#
+msgid "Period 4"
+msgstr "4th Period"
+
+#
+msgid "Period 5"
+msgstr "5th Period"
+
+#
+msgid "Period 6"
+msgstr "6th Period"
+
+#
+msgid "Game 0"
+msgstr "Game 0"
+
+#
+msgid "Game 1"
+msgstr "1st Game"
+
+#
+msgid "Game 2"
+msgstr "2nd Game"
+
+#
+msgid "Game 3"
+msgstr "3rd Game"
+
+#
+msgid "Game 4"
+msgstr "4th Game"
+
+#
+msgid "Game 5"
+msgstr "5th Game"
+
+#
+msgid "Set 11"
+msgstr "11th Set"
+
+#
+msgid "Set 12"
+msgstr "12th Set"
+
+#
+msgid "Set 13"
+msgstr "13th Set"
+
+#
+msgid "Set 14"
+msgstr "14th Set"
+
+#
+msgid "Set 15"
+msgstr "15th Set"
+
+#
+msgid "Set 16"
+msgstr "16th Set"
+
+#
+msgid "Set 17"
+msgstr "17th Set"
+
+#
+msgid "Set 18"
+msgstr "18th Set"
+
+#
+msgid "Set 19"
+msgstr "19th Set"
+
+#
+msgid "Set 20"
+msgstr "20th Set"
+
+#
+msgid "Events"
+msgstr "אירועים"
+
+#
+msgid "SHOW"
+msgstr "הראה"
+
+#
+msgid "In-Play"
+msgstr "לייב"
+
+#
+msgid "Id"
+msgstr "Id"
+
+#
+msgid "To place your bet, please log in"
+msgstr "כדי להניח הימור, יש להתחבר לחשבון"
+
+#
+msgid "Must be at least 8 characters"
+msgstr "חייב להיות לפחות 8 תוים"
+
+#
+msgid "Win % 1 st Service"
+msgstr "Win % 1 st Service"
+
+#
+msgid "Break Point Conversions"
+msgstr "המרת שובר שוויון"
+
+#
+msgid "Your bet is not accepted"
+msgstr "ההימור נדחה"
+
+#
+msgid ""
+"TransferProduct:\n"
+"ERROR_LOW_BALANCE"
+msgstr ""
+"TransferProduct:\n"
+"ERROR_LOW_BALANCE"
+
+#
+msgid "this field is required"
+msgstr "השדה הזה נדרש"
+
+#
+msgid "Error occured."
+msgstr "אירעה תקלה."
+
+#
+msgid "Invalid payee"
+msgstr "מקבל לא תקין"
+
+#
+msgid "Invalid payer"
+msgstr "משלם לא תקין"
+
+#
+msgid "ok"
+msgstr "ok"
+
+#
+msgid "Email Address or Username"
+msgstr "כתובת דואר אלקטרוני או שם משתמש"
+
+#
+msgid "Terms &amp; Conditions"
+msgstr "תנאים וכללים"
+
+#
+msgid "TransferProductRROR_LOW_BALANCE"
+msgstr "המאזן שלך לא מספיק בשביל פעולה זו "
+
+#
+msgid "Amount:"
+msgstr "סכום:"
+
+#
+msgid "FEATURED GAMES"
+msgstr "משחקים מומלצים"
+
+#
+msgid "Welcome"
+msgstr "ברוכים הבאים"
+
+#
+msgid "Join us now!"
+msgstr "הצטרף עכשיו!"
+
+#
+msgid "Cashier"
+msgstr "קופאי"
+
+#
+msgid "new"
+msgstr "חדש"
+
+#
+msgid "Not a valid password"
+msgstr "סיסמה לא תקינה"
+
+#
+msgid "Available/Withdrawable"
+msgstr "זמין/בר משיכה"
+
+#
+msgid "bet id:"
+msgstr "מזהה הימור:"
+
+#
+msgid "automatically accept price changes"
+msgstr "אשר שינוים ביחסים אוטומטית"
+
+#
+msgid "incompatible events"
+msgstr "אירועים לא תואמים"
+
+#
+msgid "there are deleted events"
+msgstr "ישנם אירועים מחוקים"
+
+#
+msgid "prices for some events have changed"
+msgstr "יחסים לחלק מהאירועים השתנו"
+
+#
+msgid "Accept changes"
+msgstr "אשר שינויים"
+
+#
+msgid "You need to sign in to be able to place bets"
+msgstr "אתה צריך להתחבר בכדי להניח  הימורים"
+
+#
+msgid "Invalid recipient"
+msgstr "נמען לא תקין"
+
+#
+msgid "deposit_info_mastercard"
+msgstr "deposit_info_mastercard"
+
+#
+msgid "withdraw_info_mastercard"
+msgstr "withdraw_info_mastercard"
+
+#
+msgid "label_card_number"
+msgstr "label_card_number"
+
+#
+msgid "deposit_info_visa"
+msgstr "deposit_info_visa"
+
+#
+msgid "withdraw_info_visa"
+msgstr "withdraw_info_visa"
+
+#
+msgid "deposit_info_paypal"
+msgstr "deposit_info_paypal"
+
+#
+msgid "withdraw_info_paypal"
+msgstr "withdraw_info_paypal"
+
+#
+msgid "Select one"
+msgstr "בחר אחד"
+
+#
+msgid "Deposit Amount (USD)"
+msgstr "סכום הפקדה ($)"
+
+#
+msgid "Attach"
+msgstr "צרף"
+
+#
+msgid "Middle Name"
+msgstr "שם אמצעי"
+
+#
+msgid "Middle name"
+msgstr "שם אמצעי"
+
+#
+msgid "prevew"
+msgstr "תצוגה מקדימה"
+
+#
+msgid "Full Name"
+msgstr "שם מלא"
+
+#
+msgid "Select your country"
+msgstr "בחר את המדינה שלך"
+
+#
+msgid "Select your currency"
+msgstr "בחר את המטבע שלך"
+
+#
+msgid "Enter the text here"
+msgstr "הזן את הטקסט כאן"
+
+#
+msgid "I would like to subbscribe for email updates and offeres from VBET."
+msgstr "אני רוצה להרשם ולקבל עדכונים והצעות מהאתר."
+
+#
+msgid "message_ONHOLD"
+msgstr "מחכה לאישור"
+
+#
+msgid "message_CHANGE_ODD"
+msgstr "היחס השתנה"
+
+#
+msgid "message_EVENT_LOCKED"
+msgstr "אירוע זה נחסם"
+
+#
+msgid "message_LIMIT_ERROR"
+msgstr "יש תיקון יחס"
+
+#
+msgid "message_GAME_STARTED"
+msgstr "המשחק התחיל"
+
+#
+msgid "message_1000"
+msgstr "תקלה פנימית"
+
+#
+msgid "message_1001"
+msgstr "Null value for argument"
+
+#
+msgid "message_1003"
+msgstr "סיסמה שגויה"
+
+#
+msgid "message_1004"
+msgstr "המשתמש חסום"
+
+#
+msgid "message_1006"
+msgstr "תקלה בסיסמה"
+
+#
+msgid "message_1008"
+msgstr "התחברות לאתר לא אפשרית מכיוון שלא הפעלת את שבונך דרך הדואר האלקטרוני."
+
+#
+msgid "message_1009"
+msgstr "הקוד אימות לא קיים."
+
+#
+msgid "message_1099"
+msgstr "Fork exception"
+
+#
+msgid "message_1100"
+msgstr "המשחק התחיל"
+
+#
+msgid "message_1102"
+msgstr "זמן התחלת המשחק כבר עבר"
+
+#
+msgid "message_1103"
+msgstr "זמן עריכת ההימור כבר עבר"
+
+#
+msgid "message_1104"
+msgstr "ההימור שולם"
+
+#
+msgid "message_1105"
+msgstr "מצב הימור לא קבוע"
+
+#
+msgid "message_1106"
+msgstr "הימור מפסיד"
+
+#
+msgid "message_1107"
+msgstr "ההימור מקוון"
+
+#
+msgid "message_1108"
+msgstr "ערך שגוי למקדם"
+
+#
+msgid "message_1109"
+msgstr "ערך שגוי לסכום"
+
+#
+msgid "message_1112"
+msgstr "הבקשה כבר שולמה!"
+
+#
+msgid "message_1113"
+msgstr "Request is already storned!"
+
+#
+msgid "message_1114"
+msgstr "Card Lot blocked!"
+
+#
+msgid "message_1115"
+msgstr "כרטיס חסום!"
+
+#
+msgid "message_1116"
+msgstr "כרטיס מופעל!"
+
+#
+msgid "message_1117"
+msgstr "התחברות או דואר אלקטרוני שגויה"
+
+#
+msgid "message_1118"
+msgstr "התחברות כפולה"
+
+#
+msgid "message_1150"
+msgstr "אינך רשאי להמר על אירוע זה עדיין"
+
+#
+msgid "message_1200"
+msgstr "ערך לא נכון"
+
+#
+msgid "message_1300"
+msgstr "ערך כפול"
+
+#
+msgid "message_1400"
+msgstr "אירוע כפול"
+
+#
+msgid "message_1510"
+msgstr "הגבלה"
+
+#
+msgid "message_1500"
+msgstr "ההימור עובר את ההגבלה המותרת"
+
+#
+msgid "message_1550"
+msgstr "הסכום עובר את ההגבלה המותרת"
+
+#
+msgid "message_1560"
+msgstr "הסכום מתחת להגבלת המינימום המותרת"
+
+#
+msgid "message_1600"
+msgstr "מבצע תיקון מקדם."
+
+#
+msgid "message_1700"
+msgstr "גישה לא נכונה"
+
+#
+msgid "message_1800"
+msgstr "היחסים השתנו"
+
+#
+msgid "message_1900"
+msgstr "האירוע יכול להיכלל רק בסוג הימור משולב"
+
+#
+msgid "message_1910"
+msgstr "האירועים יכולים להכלל רק בסוג הימור רגיל"
+
+#
+msgid "message_2000"
+msgstr "הגבלת יחסים"
+
+#
+msgid "message_2100"
+msgstr "הגבלת תשלום"
+
+#
+msgid "message_2200"
+msgstr "הגבלת לקוח"
+
+#
+msgid "message_2300"
+msgstr "הגבלת משרד"
+
+#
+msgid "message_2400"
+msgstr "מאזן לא מספיק"
+
+#
+msgid "message_2403"
+msgstr "יש בקשות פעילות ללקוח זה"
+
+#
+msgid "Sex"
+msgstr "מין"
+
+#
+msgid "Bermudas"
+msgstr "ברמודה"
+
+#
+msgid "Butane"
+msgstr "בוטן"
+
+#
+msgid "East Timor"
+msgstr "מזרח טימור"
+
+#
+msgid "Papua - New Guinea"
+msgstr "פפואה - גינאה החדשה"
+
+#
+msgid "South Africa"
+msgstr "דרום אפריקה"
+
+#
+msgid "St. Lucia"
+msgstr "סנט לוסיה"
+
+#
+msgid "Surinam"
+msgstr "סורינם"
+
+#
+msgid "Tongo"
+msgstr "טונגו"
+
+#
+msgid "The Cayman Islands"
+msgstr "איי קיימן"
+
+#
+msgid "The Central African Republic"
+msgstr "הרפובליקה המרכז אפריקאית"
+
+#
+msgid "The Cook Islands"
+msgstr "איי קוק"
+
+#
+msgid "The Democratic Republic of the Congo"
+msgstr "הרפובליקה הדמוקרטית של קונגו"
+
+#
+msgid "Sent Messages"
+msgstr "הודעות שנשלחו"
+
+#
+msgid "New Message"
+msgstr "הודעה חדשה"
+
+#
+msgid "Clear Bet Slip to activate Qiuck Bet"
+msgstr "נקה את טופס ההימור בכדי להפעיל הימור מהיר"
+
+#
+msgid "Other"
+msgstr "אחר"
+
+#
+msgid "There is no downloadable client for your operating system"
+msgstr "אין תוכנה להורדה בשביל מערכת ההפעלה שלך"
+
+#
+msgid "message_1110"
+msgstr "הגבלת הפקדה הושמה על ידי המשתמש (הגבלה עצמית)"
+
+#
+msgid "message_2406"
+msgstr "השחקן חסם את עצמו לאפשרות להכניס הימורים"
+
+#
+msgid "Reset"
+msgstr "לאפס"
+
+#
+msgid "Switch to "
+msgstr "החלף ל "
+
+#
+msgid "Conditional bet"
+msgstr "הימור מותנה"
+
+#
+msgid "Odd..."
+msgstr "יחס..."
+
+#
+msgid "Score:"
+msgstr "תוצאה:"
+
+#
+msgid "3D  Slots"
+msgstr "מכונות 3D"
+
+#
+msgid "Film Slot"
+msgstr "מכונות סרטים"
+
+#
+msgid "Instant Win"
+msgstr "זכיה מיידית"
+
+#
+msgid "Table Games"
+msgstr "משחקי שולחן"
+
+#
+msgid "Top Slots"
+msgstr "Top Slots"
+
+#
+msgid "TvGames"
+msgstr "TvGames"
+
+#
+msgid "Video Poker"
+msgstr "וידאו פוקר"
+
+#
+msgid "Other Games"
+msgstr "משחקים אחרים"
+
+#
+msgid "Progressive"
+msgstr "מתקדם"
+
+#
+msgid "Add more events to be able to place bet "
+msgstr "הוסף עוד משחקים בכדי להני את ההימור "
+
+#
+msgid "Depost Amount (USD)"
+msgstr "סכום הפקדה (USD)"
+
+#
+msgid "1 hours"
+msgstr "שעה"
+
+#
+msgid "2 hours"
+msgstr "שעתיים"
+
+#
+msgid "3 hours"
+msgstr "3 שעות"
+
+#
+msgid "5 hours"
+msgstr "5 שעות"
+
+#
+msgid "6 hours"
+msgstr "6 שעות"
+
+#
+msgid "48 hours"
+msgstr "48 שעות"
+
+#
+msgid "72 hours"
+msgstr "72 שעות"
+
+#
+msgid "User age is under minimum allowed."
+msgstr "גיל המשתמש נמוך מהמותר."
+
+#
+msgid "Please close {1} game(s) to change view"
+msgstr "אנא סגור {1} משחקים כדי לשנות את התצוגה"
+
+#
+msgid "One Game View"
+msgstr "תצוגת משחק יחיד"
+
+#
+msgid "Two Games View"
+msgstr "תצוגת שני משחקים"
+
+#
+msgid "Four Games View"
+msgstr "תצוגת ארבעה משחקים"
+
+#
+msgid "Open In Pop-Up Window"
+msgstr "פתח בחלון חדש"
+
+#
+msgid "Add a Game"
+msgstr "הוסף משחק"
+
+#
+msgid "Durak"
+msgstr "Durak"
+
+#
+msgid "Preferans"
+msgstr "העדפות"
+
+#
+msgid "Domino"
+msgstr "דומינו"
+
+#
+msgid "Sea Battle"
+msgstr "קרב ים"
+
+#
+msgid "Refresh"
+msgstr "רענן"
+
+#
+msgid "multiple"
+msgstr "משולב"
+
+#
+msgid "livecasino_101_1"
+msgstr "בלאקג'ק חי 1"
+
+#
+msgid "livecasino_101_2"
+msgstr "בלאקג'ק חי 2"
+
+#
+msgid "livecasino_101_3"
+msgstr "בלאקג'ק חי 3"
+
+#
+msgid "livecasino_101_4"
+msgstr "בלאקג'ק חי 4"
+
+#
+msgid "livecasino_102"
+msgstr "רולטה חי"
+
+#
+msgid "livecasino_103"
+msgstr "בקרט חי"
+
+#
+msgid "livecasino_104"
+msgstr "הימורים חיים על פוקר"
+
+#
+msgid "AllWeather"
+msgstr "כל המזג אוויר"
+
+#
+msgid "N_H_Flat"
+msgstr "NH Flat"
+
+#
+msgid "Game Balance:"
+msgstr "מאזן משחק:"
+
+#
+msgid " Horse"
+msgstr " סוס"
+
+#
+msgid " Jockey"
+msgstr " Jockey"
+
+#
+msgid " Jockey Weight"
+msgstr " Jockey Weight"
+
+#
+msgid "Name *"
+msgstr "שם *"
+
+#
+msgid "Birth date *"
+msgstr "תאריך לידה *"
+
+#
+msgid "Gender *"
+msgstr "מין *"
+
+#
+msgid "Passport Number *"
+msgstr "מספר דרכון *"
+
+#
+msgid "Username *"
+msgstr "שם משתמש *"
+
+#
+msgid "Password *"
+msgstr "סיסמא *"
+
+#
+msgid "Confirm Password *"
+msgstr "אשר סיסמא *"
+
+#
+msgid "Email Address *"
+msgstr "כתובת אימייל *"
+
+#
+msgid "Country *"
+msgstr "מדינה *"
+
+#
+msgid "City *"
+msgstr "עיר *"
+
+#
+msgid "Address *"
+msgstr "כתובת *"
+
+#
+msgid "Contact number *"
+msgstr "מספר קשר*"
+
+#
+msgid "Currency *"
+msgstr "מטבע *"
+
+#
+msgid "SMS Code *"
+msgstr "SMS קוד *"
+
+#
+msgid " 0"
+msgstr " 0"
+
+#
+msgid "47 hours"
+msgstr "47 שעות"
+
+#
+msgid "Ok"
+msgstr "Ok"
+
+#
+msgid "We are not accepting bets on this game at the moment."
+msgstr "אנחנו לא מקבלים הימורים על אירוע זה כרגע."
+
+#
+msgid "Live calendar"
+msgstr "לוח אירועים חי"
+
+#
+msgid "None of these"
+msgstr "כלום מאלה"
+
+#
+msgid "Live Casino"
+msgstr "Live Casino"
+
+#
+msgid "Every week Jackpot"
+msgstr "Every week Jackpot"
+
+#
+msgid "points"
+msgstr "points"
+
+#
+msgid "Don`t show again"
+msgstr "Don`t show again"
+
+#
+msgid "Show more"
+msgstr "Show more"

@@ -1,0 +1,179 @@
+.menu-games .contain-menu-games ul .more-games .contein-games{margin: -5px 0 0 -630px; border: 1px solid #d6d6d6;}
+.arrow-sport{right: 2px;}
+.country-b .country-block-contain ul .flag-more .contein-games{border: 1px solid #d6d6d6;}
+.cotegory-game {
+	float: left;
+	width: 700px;
+	border-left: 1px solid #c1c1c1;
+	border-right: 1px solid #c1c1c1;
+	border-bottom: 1px solid #c1c1c1;
+	padding: 0 0 20px 0;
+}
+.logo{ background: none;}
+.conteiner{ position: fixed; top: 0;}
+.conteiner-live-block .game-team-soccer{left: -1px;}
+.menu-games {background: url(../images/bg-menu-games.png) repeat-x 0 -2px;margin: 97px 0 0 0;}
+.mein-page-contain{margin: 100px 0 0 0;}
+.game-team {width: 702px; margin-left: -1px;}
+.time-game {width: 700px;margin-left: -1px;}
+.market-groups .time-game, .time-game ul{ width: 699px;}
+.form-sign-in, .general-left-block, .centr-tabs-block ul li{background: url(../images/form-bg.png) repeat 0 0;}
+.form-sign-in input[type="text"], .form-sign-in input[type="text"], .form-sign-in input[type="password"], .form-sign-in input[type="number"], .form-sign-in input[type="email"]{
+	height: 23px;
+	padding: 5px 40px 0 10px;
+}
+.contain-cashier-forms input[type="text"], .contain-cashier-forms input[type="password"], .contain-cashier-forms input[type="number"] {	padding: 12px 10px 0;}
+.button-sign input[type="submit"] {
+	color: #fff !important;
+}
+.select-block {
+	height: 28px;
+}
+.form-sign-in select{
+	height: 28px;
+	padding: 0px 0 6px 5px;
+}
+.registr-mini-block .form-text input[type="text"], .registr-mini-block .form-text input[type="password"], .phone-form-contain .form-text input[type="text"], .country-reg-contain .form-text input[type="text"]{
+	padding: 4px 10px 2px 10px;
+}
+.check input[type="checkbox"] {
+	position: inherit;
+	float: left;
+	paddong: 0;
+	margin: -2px 5px 0 0;
+}
+.check input[type="checkbox"] + label {
+	background: inherit;
+	padding-left: 0;
+}
+.menu-games .contain-menu-games ul li .pl-toggle .switch{left: 0;}
+.menu-games .contain-menu-games ul li .pl-toggle .container{height: 42px;border: 1px solid #ccc;}
+.menu-games .contain-menu-games ul li .pl-toggle .container a{ background: #FCC;}
+.block-black-hover, .arrow-left-s, .arrow-right-s .flash-game-contain, .game-team-soccer .right-block-flash, .right-block-flash-soccer, .right-block-flash{background: url(../images/ie-8-bg-hover.png) repeat 0 0;}
+.header-bg{display: none;}
+.conteiner{background: url(../images/bg-header.png) repeat-x 0 100%;}
+
+/*arrow click*/
+.legue-sp li{
+    border-bottom: 3px solid #000;
+    padding: 16px 2px 10px;
+    text-align: right;
+    display: table-cell;
+	position: relative;
+}
+.legue-sp .show-block a{
+    text-decoration: none;
+    color: #000;
+    font: 11px/16px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: url(../images/gaming-arrow.png) no-repeat 15px -75px;
+    padding: 0 22px 0 0;
+    text-indent: -9999em;
+	height: 12px;
+}
+.legue-sp .show-block-open a{
+    text-decoration: none;
+    color: #000;
+    font: 11px/16px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: url(../images/show-spryte.png) no-repeat 15px 2px;
+    padding: 0 22px 0 0;
+	height: 9px;
+}
+.legue-sp .show-block a.not-closeable, .legue-sp .show-block-open a.not-closeable {background: none;}
+.legue-sp li:first-child{
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 0 0 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 260px;
+    text-overflow: ellipsis;
+}
+p.flag {
+	left: 2px;
+	bottom: -2px;
+}
+.contaien-country p.flag {bottom: 6px;}
+.legue-sp li:first-child span{
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    color: #ea1152;
+    font-weight: normal;
+}
+.list-bet-block ul li a.bet-event-title,
+.list-bet-block ul li a{
+	text-decoration: none;
+	color: #616161;
+}
+.closed-game .game-live-row .statistic, .closed-game .game-live-row .time-date, .closed-game .game-live-row .time-date span, .closed-game .game-live-row li:first-child, .closed-game .game-live-row li:first-child .star, .game-live-row .factor-game, .game-live-row .factor-game a, .conteiner-live-block .game-live-row .account{color: #999;}
+.conteiner-live-block:hover .closed-game {
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+.conteiner-live-block:hover .closed-game .game-live-row .factor-game a, .conteiner-live-block:hover .closed-game .game-live-row li:first-child, .conteiner-live-block:hover .closed-game .game-live-row li:first-child .star, .conteiner-live-block:hover .closed-game .game-live-row .time-date, .conteiner-live-block:hover .closed-game .game-live-row .time-date span, .conteiner-live-block:hover .closed-game .game-live-row .statistic, .conteiner-live-block:hover .closed-game .game-live-row, .conteiner-live-block:hover .closed-game .game-live-row .account, .open-game .live-table .game-live-row .factor-game a{color: #000;}
+.conteiner-live-block .open-game .game-live-row .account{color: #fff;}
+.open-lang .arrow-sport {
+	width: 12px;
+	top: -9px;
+	right: 4px;
+}
+.prof-name ul, .open-lang ul{border: 1px solid #999; border-top: none;}
+.closed-result a .market-arrow {background: url(../images/match-arrow.png) no-repeat 0 -36px; width: 5px; height: 9px;}
+.open-result a .market-arrow{background: url(../images/match-arrow.png) no-repeat 0 0; width: 9px; height: 5px;}
+/* IE8 style to hide animation  start*/
+.live-game-generic.no-video-ie8, .live-game-team.no-video-ie8{width: 680px;}
+.live-game-team.no-video-ie8 ul li{width: 40px;}
+.live-game-team.no-video-ie8 ul li:first-child span{width: 500px;}
+.live-game-horseracing.no-video-ie8{width:680px;}
+
+.cash-game.no-video-ie8, .cash-game.cash-game-tabletennis.no-video-ie8{width:680px;}
+.cash-game.no-video-ie8 tr td:first-child,
+.cash-game.cash-game-tabletennis.no-video-ie8 tr td:first-child{
+    width: auto;
+    position:relative;
+    display:block;
+    border-right: 0px none;
+}
+
+.cash-game.no-video-ie8 tr:nth-child(2) td:first-child,
+.cash-game.cash-game-tabletennis.no-video-ie8 tr:nth-child(2) td:first-child{
+    border-bottom: 0px none;
+}
+
+.cash-game.no-video-ie8 tr td:first-child span,
+.cash-game.cash-game-tabletennis.no-video-ie8 tr td:first-child span{width:350px; margin-top:8px;}
+.cash-game.cash-game-snooker.no-video-ie8 tr td:first-child span{width:250px; margin-top:8px;}
+.cash-game.no-video-ie8 tr .team-1 > div,
+.cash-game.no-video-ie8 tr .team-2 > div,
+.cash-game.cash-game-tabletennis.no-video-ie8 tr .team-1 > div,
+.cash-game.cash-game-tabletennis.no-video-ie8 tr .team-2 > div{
+    left: auto;
+    right: 10px;
+    margin-top:8px;
+}
+
+  .tl-container.no-video-ie8 {
+    width: 680px;
+    background: url("../images/animation/soccer-tl-2x.png") no-repeat 0 4px; }
+
+.hide-animation-ie8{display: none;}
+.game-control,.field-switcher .playing-field{display:none;}
+
+.tl-new .current-time {
+    background: url("../images/animation/tl-cur-time-bg.png");
+}
+.live-game-generic ul li .soccer-score{
+   font-size:38px;
+   line-height:36px;
+}
+.tl-new .tl-corner {
+    background:url("../images/animation/corner.png");
+    border:0;
+}
+.tl-new .tl-corner:after{
+    display:none;
+}
+/* IE8 style to hide animation   end*/

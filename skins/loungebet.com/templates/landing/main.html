@@ -1,0 +1,15 @@
+
+<div ng-controller="cmsPagesCtrl" class="contain-landing-new" ng-init="loadPage('landing-page-'+env.lang,true);">
+    <div class="center-b-new" ng-if="pagesLoaded">
+        <div class="mini-text-new-landing">
+            <div class="wp-content-b" ng-bind-html="mainPage.content|html">
+            </div>
+            <div class="reg-s-landing-buttons">
+                <button ng-click="broadcast('openLoginForm'); $event.stopPropagation();" trans>Sign in</button>
+                <button ng-click="broadcast('openRegForm'); $event.stopPropagation();" trans>Register</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>

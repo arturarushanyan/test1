@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "Bet now!"
+msgstr "Play now!"
+
+# 
+msgid "Fantasy Sports"
+msgstr "Fantasy Sports"

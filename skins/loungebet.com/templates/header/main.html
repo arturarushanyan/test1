@@ -1,0 +1,57 @@
+<!--header-->
+<div class="header-wrapper" ng-controller="mainHeaderVersion2Controller" ng-init="init()">
+    <div class="header-container-b">
+        <div class="logo-nav-wrapper">
+            <!--logo-->
+            <div class="logo-contain-b">
+                <a ng-href="{{logoUrl}}" ng-show="!env.authorized"></a>
+                <a ng-href="{{logoUrlAuto}}" ng-show="env.authorized"></a>
+
+            </div>
+            <!--logo END-->
+
+            <!--promo menu and menu icon-->
+            <div class="simple-nav-b">
+                <ul ng-init="menuItems = conf.theVeryTopMenu[env.lang] || conf.theVeryTopMenu['default'] || conf.theVeryTopMenu" >
+                    <li class="menu-visible-icon-b" id="compact-menu" >
+                        <label for="header-collapse" trans>Menu</label>
+                    </li>
+                    <li ng-repeat="item in menuItems" ng-show="!item.showCondition || item.showCondition.authorized === env.authorized">
+                        <a ng-if="item.href || (item.broadcast && !env.authorized)" target="{{item.target || '_self'}}"
+                           ng-href="{{item.href}}"
+                           ng-click="$root.topMenuDropDown=false;closeSlider();$parent.verytopMenuExpanded = false;broadcast(item.broadcast)"
+                           ng-bind="item.label|translate"></a>
+                        <a ng-if="item.help"
+                           ng-click="closeSlider();openHelpPage(item.help);goToTop();$parent.verytopMenuExpanded=false;$event.stopPropagation();"
+                           ng-bind="item.label|translate"></a>
+                        <a ng-if="item.sliderAuthorized && env.authorized"
+                           ng-click="conf.enableMixedView ? selectBalanceMenuItem($event,'deposit') : broadcast( 'toggleSliderTab', item.sliderAuthorized); goToTop();$parent.verytopMenuExpanded=false;$event.stopPropagation();"
+                           ng-bind="item.label|translate"></a>
+                        <a ng-if="item.sliderAuthorized && !env.authorized"
+                           ng-click="broadcast( 'openLoginForm');goToTop();$parent.verytopMenuExpanded=false;$event.stopPropagation();"
+                           ng-bind="item.label|translate"></a>
+                    </li>
+                </ul>
+            </div>
+            <!--promo menu and menu icon END-->
+
+
+        </div>
+
+
+
+
+        <ng-include class="include-menu-header-b" src="getTemplate('templates/header/version_2/topMenu.html')"></ng-include>
+    </div>
+</div>
+<!--header END-->
+
+
+
+<div class="subtop-header-menu-j" ng-class="{'poker' : isInPoker() || casinoGameOpened}" ng-show="currentPageHasSubHeader() && (isInSports()  || isInLivedealer() || isInPoker()) && $location.path() !== '/'">
+    <ng-include src="getTemplate('templates/sport/toptab.html')"></ng-include>
+</div>
+
+<div class="feedback-button" ng-if="conf.liveChat.liveChatInFooter" onclick="startLiveChat();">
+    <p ng-bind-html="'Live Chat'|translate|html:'nowrap'"></p>
+</div>

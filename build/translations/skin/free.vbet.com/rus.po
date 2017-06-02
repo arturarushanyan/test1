@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "You can renew in:"
+msgstr "You can renew in:"
+
+# 
+msgid "Renew done!"
+msgstr "Renew done!"
+
+# 
+msgid "Cannot renew right now."
+msgstr "Cannot renew right now."
+
+# 
+msgid "You can get more credits by"
+msgstr "Вы можете молучить дополнительные кредиты"
+
+# 
+msgid "inviting"
+msgstr "пригласив"
+
+# 
+msgid "your friends"
+msgstr "своих друзей"
+
+# 
+msgid "Invite your friends"
+msgstr "Пригасите своих друзей"
+
+# 
+msgid "Enter friends email addresses here:"
+msgstr "Enter friends email addresses here:"
+
+# 
+msgid "sending..."
+msgstr "sending..."
+
+# 
+msgid "Please enter valid e-mail addresses"
+msgstr "Please enter valid e-mail addresses"
+
+# 
+msgid "Done. Email(s) sent:"
+msgstr "Done. Email(s) sent:"
+
+# 
+msgid "Bet now!"
+msgstr "Bet now!"
+
+# 
+msgid "Register Now!"
+msgstr "Регистрируйтесь сейчас"
+
+# 
+msgid "and get"
+msgstr "чтобы получить"
+
+# 
+msgid "Virtual Credits"
+msgstr "виртуальных кредитов"
+
+# 
+msgid "Get more in"
+msgstr "Получите больше через"
+
+#
+msgid "Some games will still require you to sign in using username/password."
+msgstr "Some games will still require you to sign in using username/password."
+
+#
+msgid "Your Facebook account is already linked to another existing user."
+msgstr "Your Facebook account is already linked to another existing user."
+
+#
+msgid "Sign up with your Facebook account"
+msgstr "Sign up with your Facebook account"
+
+#
+msgid "User details:"
+msgstr "User details:"
+
+#
+msgid "Continue with Facebook signup"
+msgstr "Continue with Facebook signup"
+
+#
+msgid "Renew Now"
+msgstr "Обновить"
+
+#
+msgid "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+msgstr "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+
+#
+msgid "Invite Facebook friends"
+msgstr "Пригласить друзей с Facebook"
+
+#
+msgid "Or invite By email"
+msgstr "Или пригласить через эл. почту"
+
+#
+msgid "Invite"
+msgstr "Пригласить"
+
+#
+msgid "Start playing now."
+msgstr "Начните играть сейчас."
+
+#
+msgid "You have"
+msgstr "У вас есть"
+
+#
+msgid "Sportsbook"
+msgstr "Спортсбук"
+
+#
+msgid "Texas Hold'Em"
+msgstr "Техасский Холдем"
+
+#
+msgid "Belote"
+msgstr "Блот"
+
+#
+msgid "Backgammon"
+msgstr "Нарды"
+
+#
+msgid "Deberc"
+msgstr "Деберц"
+
+#
+msgid "Fantasy sport"
+msgstr "Фэнтези-спорт"
+
+#
+msgid "Fantasy Soccer"
+msgstr "Фэнтези-футбол"
+

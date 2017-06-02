@@ -1,0 +1,28 @@
+<div class="casino-games-list-view-jf" ng-class="{'open-view-list': openViewList}">
+    <div class="title-category-game-b">
+        <h3 ng-click="openViewList = !openViewList" hide-on-click state-flag-var="openViewList"><span>Slot</span></h3>
+    </div>
+    <div class="slider-casino-container-jf">
+        <div class="winner-list-box-j">
+            <ul ng-show="showConditions" ng-if="isNewDesignEnabled">
+                <li ng-repeat="game in gamesList | limitTo: gamesLimit track by game.id" ng-show="gameShowConditions"  no-animate>
+                    <div class="game-screen-view-jf" ng-style="{'background-image': 'url({{useBigIcons ? game.icon_3 : game.icon_2}})'}">
+                        <label class="game-view-m-b" for="play-game-v"></label>
+                        <div class="favorite-icon-jf">
+                            <span></span>
+                        </div>
+                        <a ng-click="openGame(game, 'real'); $event.stopPropagation();">
+                            <span class="category-icon-view-jf"></span>
+                            <p>{{game.name}}</p>
+                            <span class="star-icon-jf"><i>2.5</i></span>
+                            <button class="play-icon-jackpot-j play-game" ng-click="openGame(game, 'real'); $event.stopPropagation();" ng-if="game.types.realMode"></button>
+
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="left-arrow-winners"></div>
+            <div class="right-arrow-winners"></div>
+        </div>
+    </div>
+</div>

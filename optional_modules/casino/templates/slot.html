@@ -1,0 +1,284 @@
+﻿<body style="overflow: hidden;">
+
+<!--Wrapper-->
+<div class="full-casino-wrapper-jf">
+
+    <!--Slot Interface-->
+
+    <div class="slot-interface-jf" ng-class="{'bg-image' : casinoGameOpened }" >
+        <div class="game-view-wrapper-jf" ng-style="{background: gamesInfo.length === 1 && gamesInfo[0].game.background && 'url(' + gamesInfo[0].game.background + ') no-repeat 50% 0'}">
+            <div class="left-game-screen-view-m">
+
+                <div class="slot-view-top-menu-container">
+                    <div class="logo-slot-view">
+                        <a href="#/casino/"></a>
+                    </div>
+
+                    <div class="right-column-top-nav-slot">
+                        <div class="sign-in-buttons-slot" ng-show="!env.authorized">
+                            <ul>
+                                <li ng-hide="conf.disableRegistrationAndLogin"
+                                    ng-if="!conf.rfid.loginWIthRFID || conf.rfid.loginWIthRFID && conf.rfid.allowAccessWithoutRfid">
+                                    <button ng-class="{'active-s': env.sliderContent === 'signInForm'}" ng-click="broadcast( 'openLoginForm');goToTop();$parent.verytopMenuExpanded=false;$event.stopPropagation();" trans>Sign in</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="user-nav-wrapper" ng-show="env.authorized">
+                            <ng-include class="settings-include-contain" src="getTemplate('templates/header/version_2/profileMenu.html')"></ng-include>
+                            <ng-include class="settings-include-contain" src="getTemplate('templates/header/version_2/balance.html')"></ng-include>
+                            <ng-include class="settings-include-contain" src="getTemplate('templates/header/version_2/depositbutton.html')"></ng-include>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="game-container-box-jf" ng-class="{'slot-fullscreen' : isActive  }" ng-repeat="gameInfo in gamesInfo">
+                    <div class="top-row-game-box">
+                        <div class="left-box-b-jf">
+                            <div class="type-play-fun-jf" ng-class="{'active': gameInfo.gameMode === 'fun'}" ng-click="togglePlayForReal(gameInfo);$event.stopPropagation();">Play For Fun</div>
+                            <div class="type-play-fun-jf" ng-class="{'active': gameInfo.gameMode === 'real'}" ng-click="togglePlayForReal(gameInfo);$event.stopPropagation();">Play For Real</div>
+                        </div>
+
+                        <div class="center-box-b-jf">
+                            <p class="game-title-jf">{{gameInfo.game.name}}</p>
+                        </div>
+
+                        <div class="right-box-b-jf">
+                            <div class="game-control-icons-jf icon-1-b" ng-class="{'active': isFromSaved(gameInfo.game.id)}" ng-click="toggleSaveToMyCasinoGames(gameInfo.game)" title="{{ (!isFromSaved(gameInfo.game.id) ? 'Add to Favourites' : 'Remove from Favourites')|translate}}"></div>
+                            <div class="game-control-icons-jf icon-2-b" title="Game Info"></div>
+                            <div class="game-control-icons-jf icon-3-b" ng-click="openGameInNewWindow(gameInfo.id)" title="Open in pop-up"></div>
+                            <div class="game-control-icons-jf icon-4-b" ng-class="{'active' : isActive  }" ng-click="goFullscreen()" ng-attr-title= "{{ (!isActive ? 'Full Screen' : 'Exit Full Screen') |translate}}"></div>
+                            <div class="game-control-icons-jf icon-5-b" ng-click="closeGame(gameInfo.id)" title="Close"></div>
+                        </div>
+
+                    </div>
+                    <vbet-loader ng-show="gameInfo.loadingUserData"></vbet-loader>
+                    <iframe frame-control="" allowfullscreen="true" number-of-window="1" initial-width="{{gameInfo.game.width}}" initial-height="{{gameInfo.game.height}}" element-id="{{gameInfo.front_game_id}}" aspect-ratio="{{gameInfo.game.ratio}}" ng-src="{{gameInfo.gameUrl}}"></iframe>
+
+                    <div class="bottom-row-game-box">
+                        <div class="left-box-b-jf">
+                            <div class="time-view-jf" ng-bind="env.clock|formatDate:'fullHourWithoutAmPm':null:env.timeFormat"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <input type="checkbox" id="slot-info-jf">
+            <div class="right-slots-info-view-m">
+                <label class="open-slot-game-f" for="slot-info-jf"></label>
+                <div class="full-tab-container">
+
+                    <div class="tab-menu-view-jf">
+                        <ul>
+                            <li class="icon-tab-1-jf"></li>
+                            <li class="icon-tab-2-jf"></li>
+                            <li class="icon-tab-3-jf active"></li>
+                            <li class="icon-tab-4-jf"></li>
+                        </ul>
+                    </div>
+
+                    <div class="category-filter-v3" ng-class="{'active': showCategoryDropDown}">
+                        <p ng-show="categories.length" ng-click="showCategoryDropDown = !showCategoryDropDown" hide-on-click state-flag-var="showCategoryDropDown">
+                            <span>Specials</span>
+                            <i class="category-arrow-rotate-filter-v3"></i>
+                        </p>
+                        <div class="casino-slot-menu-contain-jf">
+                            <ul>
+                                <li ng-repeat="category in categories track by category.id" ng-hide="category.id === '65' || category.id === '95' || category.id === '93'"
+                                    ng-class="{'active': selections.category.id === category.id}"
+                                    ng-click="selectCategory(category)">
+                                    <a>
+                                        <p>{{category.title | translate : null : 'Casino ' + category.title }}</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                     </div>
+
+                    <div class="games-info-list-r-j">
+
+                        <!--games tab-->
+                        <casino-games-list class="casino-games-list-view-jf open-view-list" is-new-design-enabled="cConf.newCasinoDesignEnabled"
+                                           show-conditions="true"
+                                           games-list="games"
+                                           game-show-conditions="true">
+                        </casino-games-list>
+                        <vbet-loader ng-show="loadingProcess"></vbet-loader>
+                        <div ng-show="false" class="more-casino-games-load-b"><p load-more ng-click="loadMoreGames(); setTargetElementFixed('casinoCategories')"><span trans>Load more</span></p></div>
+                        <div ng-show="selectedCategoryGames.length === 0 && !loadingProcess" class="new-casino-no-games-text"><p trans>No games found</p></div>
+                        <!--games tab END-->
+
+
+
+                        <!--winners tab-->
+                        <div  style="display: none;" class="winner-list-box-j">
+                            <ul>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-1.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-2.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.<br>
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-3.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-1.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-1.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-2.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.<br>
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-3.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-1.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-1.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-2.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.<br>
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-3.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-winner-b">
+                                        <img src="images/icon-1.png" alt="">
+                                    </div>
+                                    <div class="text-info-winners-j">
+                                        <h3>New friends!</h3>
+                                        <p><a href="#">Anastasia054</a> is now friends with
+                                            <a href="#">Destefano111</a>.
+                                            Wonderful!
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!--winners tab END-->
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Slot Interface END-->
+
+</div>
+<!--Wrapper END-->
+
+</body>
+</html>

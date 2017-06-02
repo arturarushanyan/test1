@@ -1,0 +1,100 @@
+<div class="gameing-wrapper overview" ng-controller="overviewCtrl" ng-init="initOverview();setTitle('Live Overview')">
+    <div class="contain-gameing overview" ng-class="{'multiview-enabled': env.preMatchMultiSelection, 'alternative-games-layout' : conf.alternativeClassicGamesLayout}">
+        <!--centr-market-->
+        <vbet-loader ng-show="overviewLoading"></vbet-loader>
+
+
+            <div class="scroll-contain overview" mb-scrollbar="scrollbar('vertical', false)">
+                <div ng-include="getTemplate('templates/sport/overview/overview.html')" class="classic-overview-wrapper"></div>
+            </div>
+<!-- end ngIf: openGame || prematchGameViewData.length -->
+
+        <!--centr-market END-->
+        <!--right-column-->
+        <div class="right-column-v3 overview" ng-class="env.live ? 'live-mode':'default-mode'">
+            <div class="right-b-view-wrapper-v3">
+                <div style="height: 100%;" mb-scrollbar="scrollbar('vertical', true)">
+                    <!--animation and video-->
+                    <div class="animation-video-box-v3" ng-class="{'active': hideVideoAndAnimationBox}"
+                         ng-if="!conf.animationAndVideoOnLeft && (env.live || !virtualSportsSelected) && (((openGame.video_id || openGame.video_data) && conf.videoEnabled && !pinnedGames[openGame.id] && !enlargedGame) || openGame.has_animation)">
+                        <div class="animation-video-contain-v3" ng-if=" env.live">
+
+                            <div class="animation-video-title-row-v3">
+
+                                <div class="anime-video-switcher-v3">
+                                    <ul>
+                                        <li class="video-view-icon-v3"
+                                            ng-show="conf.videoEnabled && (openGame.video_id || openGame.video_data) && !pinnedGames[openGame.id] && (!enlargedGame || openGame.id !== enlargedGame.id)"
+                                            ng-class="{'active': (openGame.activeFieldType==='video' && !playerRemoved) || !openGame.has_animation}"
+                                            ng-click="openGame.activeFieldType='video'; playerRemoved = false;"
+                                            title="Live Stream">
+                                        </li>
+                                        <li class="animation-view-icon-v3"
+                                            ng-class="{'active': openGame.activeFieldType==='field' || playerRemoved || pinnedGames[openGame.id]}"
+                                            ng-show="openGame.has_animation"
+                                            ng-click="openGame.activeFieldType='field'; playerRemoved = true" title="Match Live"
+                                            ng-init="openGame.activeFieldType='field';playerRemoved = true">
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="contain-v-a-fanction-icons-v3">
+                                    <ul>
+                                        <li class="arrow-closed-anime-b-v3" ng-click="toggleVideoAndAnimationBox()"
+                                            ng-class="{'active': hideVideoAndAnimationBox}"></li>
+                                        <li class="resize-icon-b-v3"
+                                            ng-click="$root.videoResizeButton = !$root.videoResizeButton"
+                                            ng-class="{'active': !$root.videoResizeButton}"></li>
+                                        <li class="pin-icon-video-v3" ng-class="{'disabled': !env.authorized}"
+                                            ng-show="openGame.activeFieldType == 'video' && openGame.tv_type !== conf.defaultStreaming.tvType && !pinnedGames[openGame.id]"
+                                            ng-click="openGame.activeFieldType='field'; detachVideo('dragable');"></li>
+                                        <li class="resize-icon-full-video-v3"
+                                            ng-show="openGame.activeFieldType == 'video'"
+                                            ng-class="{'active': env.authorized && openGame.activeFieldType == 'video' &&!conf.detachedVideoSizes[openGame.tv_type],'disabled': !(env.authorized && openGame.activeFieldType == 'video' &&!conf.detachedVideoSizes[openGame.tv_type])}"
+                                            ng-click="openGame.activeFieldType='field'; detachVideo('fullScreen');"></li>
+                                        <li class="sound-icon-v3 " ng-click="env.sound = 0;"
+                                            ng-show="openGame.activeFieldType==='field' && env.sound > 0"
+                                            title="Sound" trans="attr-only"></li>
+                                        <li class="sound-icon-v3 active" ng-click="env.sound = 0.75;"
+                                            ng-show="openGame.activeFieldType==='field' && env.sound === 0"
+                                            title="Sound" trans="attr-only"></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+
+                            <div class="video-animation-vox-v3 animation-control">
+                                <include-template template-path="templates/sport/classic/video.html"
+                                                  ng-if="openGame.activeFieldType === 'video' && !hideVideoAndAnimationBox && conf.videoEnabled && !enlargedGame && !pinnedGames[openGame.id]"
+                                                  class="game-video"></include-template>
+                                <include-template class=" "
+                                                  template-path="templates/sport/classic/animations.html"></include-template>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- <include-template  class="animation-video-contain-v3 animation-control" template-path="templates/sport/classic/animation_video.html"></include-template>-->
+
+                    <!--animation and video END-->
+
+                    <!--Betslip-->
+                    <include-template class="betslip-include-v3"
+                                      template-path="templates/sport/euro2016/right/betslip.html"></include-template>
+                    <!--Betslip END-->
+                    <!--Mini Games-->
+                    <div class="mini-games" ng-if="conf.enableMiniGameUnderBetslip && env.live"
+                         ng-include="getTemplate('optional_modules/casino/templates/specialgames/mainminigames.html')"></div>
+                    <!--Mini Games-->
+
+                    <div class="right-banner-container"
+                         ng-if="(conf.enableBannerUnderBetslip && !customSportAliasFilter) || (conf.enableBannerCustomAliasUnderBetslip && customSportAliasFilter)"
+                         ng-controller="cmsSportNewsCtrl"
+                         ng-include="getTemplate('templates/sport/classic/banners.html')"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

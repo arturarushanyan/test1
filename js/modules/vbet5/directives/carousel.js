@@ -162,7 +162,6 @@ VBET5.directive('slyHorizontalRepeatSimple', [
                               $timeout(function() { 
                                   frame.sly("reload");                              
                                   watcher();
-                                  console.log('aaa');
                               }, 300)
                          }
 

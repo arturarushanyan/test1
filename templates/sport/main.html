@@ -10,7 +10,7 @@
          class="alternative-sportsbook-wrapper"
     ></div>
 
-    <div class="classic-version-euro2016" ng-include="getTemplate('templates/sport/euro2016/main.html')"
+    <div class="classic-version-euro2016" ng-class="{'prematch': (!$root.env.live && $root.$location.path() === '/sport/')}" ng-include="getTemplate('templates/sport/euro2016/main.html')"
          ng-if="conf.sportEnabled && conf.sportsLayout === 'euro2016' && $location.path() !== '/poolbetting/'"></div>
 
     <div ng-include="getTemplate('templates/external/sportsbook.html')"

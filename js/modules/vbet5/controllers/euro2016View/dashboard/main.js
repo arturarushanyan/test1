@@ -4,10 +4,15 @@
  * @description
  * Classic mode view controller
  */
-angular.module('vbet5.betting').controller('euro2016DashboardMainController', ['$rootScope', '$scope', '$controller', '$sce', 'TimeoutWrapper', 'Utils', 'Config', 'content', function ($rootScope, $scope, $controller, $sce, TimeoutWrapper, Utils, Config, content) {
+angular.module('vbet5.betting').controller('euro2016DashboardMainController', ['$rootScope', '$scope', '$controller', '$sce', 'TimeoutWrapper', 'Utils', 'Config', 'content', '$location', function ($rootScope, $scope, $controller, $sce, TimeoutWrapper, Utils, Config, content, $location) {
     'use strict';
 
     TimeoutWrapper = TimeoutWrapper($scope);
+
+    $rootScope.date = new moment();
+
+    console.log("DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+    console.log($rootScope.date);
 
     angular.extend(this, $controller('classicViewCenterController', {
         $rootScope: $rootScope,

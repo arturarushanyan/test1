@@ -474,7 +474,7 @@
     transform: translate3d(0, 0, 0);
     vertical-align: top;
   }
-  .single-events-b-v3:hover{
+  .single-events-b-v3:hover, .single-events-b-v3.live-services:hover{
     background: $c16-sp-8;
   }
   .factor-top:before, .factor-bottom:before{

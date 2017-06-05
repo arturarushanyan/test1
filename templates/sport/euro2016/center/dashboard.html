@@ -15,7 +15,7 @@
                         <div class="single-sport-box-v3 {{sportBlock[sport.id].expanded ? '' : 'sport-closed'}}"
                              ng-repeat="sport in centerViewLiveData track by sport.id"
                              ng-init="sportBlock[sport.id].expanded = true">
-                            <div class="sport-name-up-game-v3 {{sport.alias}}{{sportBlock[sport.id].expanded ? ' opened' : ''}}"
+                            <div class="sport-name-up-game-v3 opened {{sport.alias}}"
                                  ng-click="toggleSports(sport.id)">
                                 <div class="sport-icon-v3 {{sport.alias}}"></div>
                                 <h3>{{sport.name}}</h3>

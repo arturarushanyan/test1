@@ -1,4 +1,4 @@
-CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScope, CConfig) {
+CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScope, CConfig, $location, $window) {
     'use strict';
 
     return {
@@ -8,12 +8,14 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
         scope: {
             isNewDesignEnabled: '=',
             gamesList: '=',
+            myGames: '=',
             showConditions: '=',
             gameShowConditions: '=',
             gamesLimit: '=',
             selectedCategory: '=',
             showDeleteBtn: '=',
             useBigIcons: '=',
+            gamesCount: '=',
             templateUrl: '@'
         },
         link: function(scope) {
@@ -34,6 +36,10 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
                 scope.$emit('casinoGamesList.toggleSaveToMyCasinoGames', game);
             };
 
+            scope.loadMoreGames = function loadMoreGames(category) {
+                scope.$emit('casinoGamesList.loadMoreGames', category);
+            };
+
             scope.isFromSaved = function isFromSaved(gameId) {
                 var games = $rootScope.myCasinoGames   || [], i, j;
                 for (i = 0, j = games.length; i < j; i += 1) {
@@ -45,7 +51,25 @@ CASINO.directive('casinoGamesList', ['$rootScope', 'CConfig', function($rootScop
             };
             scope.removeGameFromSaved = function removeGameFromSaved(gameId) {
                 scope.$emit('game.removeGameFromMyCasinoGames',{id:gameId});
+            };
+
+            scope.$on("ifFavoriteCategoryEnable", function(event, message) {
+                if (message === true) {
+                    scope.favoriteCategoryGames = true;
+                } else {
+                    scope.favoriteCategoryGames = false
+                }
+            });
+
+            scope.windowWidth = window.innerWidth;
+
+            scope.calculateGameWidth = function () {    
+                return Math.floor(( window.innerWidth - 42 ) / Math.floor(( window.innerWidth - 42 ) / 232 )) - 6;
+            } 
+
+            window.onresize = function () {
+                scope.calculateGameWidth;
             }
-        }
+        },
     };
 }]);

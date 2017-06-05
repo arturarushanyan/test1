@@ -65,17 +65,17 @@
                             </div>
                             <!--header end-->
                             <div class="time-info-game-box-v3">
-                                <div class="game-events-view-v3" ng-repeat="game in competition.game" ng-click="goToUrl(game); $event.stopPropagation();">
+                                <div class="game-events-view-v3" ng-mouseover="favoriteShown = true" ng-mouseleave="favoriteShown = false" ng-repeat="game in competition.game" ng-click="goToUrl(game); $event.stopPropagation();">
                                     <div class="mini-title-box-gameview-v3 dashboard-upcoming">
                                         <div class="upcoming-pematch-single-game-info-v3">
                                             <div class="upcoming-team-name-view-table-v3">
                                                 <div class="team-names-date-icons-v3 dashboard-upcoming name-upcoming">
-                                                    <div class="time-game-v3 dashboard-upcoming" ng-mouseover="favoriteShown = true" ng-show="!favoriteShown">
+                                                    <div class="time-game-v3 dashboard-upcoming" ng-show="!favoriteShown">
                                                         <p>{{ game.start_ts| formatDate:'noLocaleTime':null:$root.env.timeFormat}}</p>
                                                     </div>
                                                     <div class="favorite-icon-market-v3 dashboard-upcoming {{$root.myGames.indexOf(game.id) !== -1 ? 'active' : ''}}"
                                                          ng-click="toggleGameFavorite(game); $event.stopPropagation();"
-                                                         ng-mouseleave="favoriteShown = false"
+
                                                          ng-show="favoriteShown"
                                                     ></div>
                                                     <p class="dashboard-upcoming-teams">

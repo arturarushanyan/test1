@@ -33,12 +33,33 @@
 body {
     font-family: 'Ubuntu';
     width: 100%;
-    height: auto;
+    height: 100%;
     line-height: 1;
     background: #e6e5dc;
-    overflow: visible !important;
+    overflow: hidden !important;
     margin: 0 auto auto;
     -ms-user-select: none;
+}
+
+body > div > .ngscroll-resizable > .ngscroll-scrollbar-container {
+    z-index: 1000000;
+    background-color: #FFFEF6 !important;
+    right: 0 !important
+}
+
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container > .ngscroll-scrollbar { 
+     background-color: #c1c1c1 !important
+}
+
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container , 
+body > div >  .ngscroll-resizable > .ngscroll-scrollbar-container > .ngscroll-scrollbar { 
+    width: 6px !important;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .ellipsis-text {
@@ -315,6 +336,10 @@ div.title-menu-b {
 
 .icon-screen:before {
     content: "\e61e";
+}
+
+.icon-mobile:before {
+  content: "\e959";
 }
 
 .icon-ic_public_24px:before {
@@ -3947,6 +3972,8 @@ div.title-menu-b {
 }
 
 .game-center-container.left-menu-closed .scroll-contain, .gameing-wrapper.prematch .centr-market-contain.favorite-game-open .game-center-container.left-menu-closed .scroll-contain {
+    position:relative;
+    visibility: hidden;
     width: calc(100% - 386px);
     min-width: 668px;
 }
@@ -6698,7 +6725,7 @@ rzslider span.rz-pointer.rz-active:after {
     overflow: hidden;
     animation-name: exampleclosed;
     animation-duration: 180ms;
-    transition-timing-function: linear;
+    transition-timing-function: .3linear;
 }
 
 .inplay-game-wrapper.pointer-events-none .arrow-toggle-inplay {
@@ -15292,9 +15319,19 @@ form.ng-pristine .form-text.error input {
 .casino-game-contain .icon-delete a:before {
     content: "\e62c";
     font: 18px/40px icomoon;
-    color: #ffffff;
+    color: #B2BDC1;
     position: absolute;
     right: 11px;
+    top: 0;
+    text-indent: 0;
+}
+
+span.icon-delete:before {
+    content: "\e62c";
+    font: 16px/22px icomoon;
+    color: #B2C0C3;
+    position: absolute;
+    right: 0;
     top: 0;
     text-indent: 0;
 }
@@ -32662,9 +32699,16 @@ div.draws-contain::-webkit-scrollbar-thumb:hover,
     border-color: #E8DED8;
 }
 
-#result-search dl dd:last-child,
-#casino-result-search dl:last-child {
+#result-search dl dd:last-child {
     border-radius: 0 0 2px 2px;
+}
+
+#casino-result-search .ngscroll-container > div:hover dl {
+    background-color: #C9CED1;
+}
+
+#casino-result-search .ngscroll-container > div:first-of-type dl {
+    border-top: none
 }
 
 #result-search dl dd button div {
@@ -32674,7 +32718,7 @@ div.draws-contain::-webkit-scrollbar-thumb:hover,
 
 #casino-result-search dl {
     padding: 3px 0 6px 0;
-    border-top: 1px solid #EEE;
+    border-top: 1px solid #C6CACB;
     margin: 0;
     float: left;
     width: 100%;
@@ -32688,10 +32732,13 @@ div.draws-contain::-webkit-scrollbar-thumb:hover,
     margin: 6px 0 0 8px;
 }
 
-#casino-result-search dt img {
+#casino-result-search dt span {
     display: block;
     max-width: 100px;
-    border-radius: 2px;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 60px;
+    background-size: cover;
 }
 
 #casino-result-search dd {
@@ -33819,16 +33866,54 @@ input[type="password"]:focus ~ .capslock-is-on-j {
 }
 
 .casino-slider-wrapper, .casino-slider-wrapper > div {
-    float: left;
+    min-height: 400px;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
 }
 
+.casino-slider-wrapper .arrow-left-s a:before {
+    content: "\e673";
+}
+
+.casino-slider-wrapper .arrow-right-s a:before {
+    content: "\e676";
+}
+
+.casino-slider-wrapper .arrow-left-s ,
+.casino-slider-wrapper .arrow-right-s ,
+.casino-slider-wrapper .arrow-left-s a ,
+.casino-slider-wrapper .arrow-right-s a {
+    top: 0;
+    transition: all 350ms;
+    height: 100%;
+    width: 100px;
+    opacity: 0
+}
+
+.casino-slider-wrapper:hover .arrow-left-s ,
+.casino-slider-wrapper:hover .arrow-right-s ,
+.casino-slider-wrapper:hover .arrow-left-s a ,
+.casino-slider-wrapper:hover .arrow-right-s a{
+    opacity: 1;
+    width: 60px;
+}
+
+.casino-slider-wrapper .arrow-left-s a:before ,
+.casino-slider-wrapper .arrow-right-s a:before {
+    transition: all 250ms;
+    font-size: 85px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.casino-slider-wrapper .arrow-left-s:hover a:before ,
+.casino-slider-wrapper .arrow-right-s:hover a:before {
+    color: rgba(255, 255, 255, 1)
+}
+
 .slide-container-repeat-b {
     position: absolute;
     width: 100%;
-    height: 100%;
     left: 0;
     top: 0;
     box-sizing: border-box;
@@ -33838,35 +33923,35 @@ input[type="password"]:focus ~ .capslock-is-on-j {
 
 .slider-optional-b-casino {
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
     height: 40px;
     box-sizing: border-box;
     z-index: 90;
     padding: 0 15px;
-    background: rgba(64, 70, 84, 0.4);
 }
 
 .slider-optional-b-casino > span {
     display: block;
     float: left;
-    width: 12px;
-    height: 12px;
-    background: #4e4e56;
-    border-radius: 50%;
-    margin: 14px 8px 0 0;
+    width: 18px;
+    height: 14px;
+    background: #b0baad;
+    border: 1px solid #a0a19d;
+    margin: 14px 9px 0 0;
     cursor: pointer;
 }
 
 .slider-optional-b-casino > span.active {
     cursor: default;
-    background: #a61f67;
+    background: #eb866f;
+    border: 1px solid #be897c;
 }
 
 .slide-casino-new-img-b {
-    float: left;
     width: 100%;
-    height: 416px;
+    height: 100%;
     box-sizing: border-box;
     display: block;
 }
@@ -33897,14 +33982,27 @@ input[type="password"]:focus ~ .capslock-is-on-j {
 
 .slide-casino-new-img-b > a {
     display: block;
-    float: left;
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
     text-decoration: none;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    border-radius: 4px;
+}
+
+.slide-casino-new-img-b > a > img {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: block;
+}
+
+.casino-slider-wrapper > div > img {
+    opacity: 0;
+    position:relative;
+    visibility: hidden;
+    margin: 0 auto;
+    display: block;
+    max-width: 1620px;
+    min-width: 900px;
+    width: calc(100% - 300px);
 }
 
 .slide-casino-new-img-b > button {
@@ -45308,7 +45406,7 @@ top-game-block {
 }
 
 .homepage .header-wrapper .signin-reg-buttons-b > ul > li > button {
-    display: block;
+    display: none;
 }
 
 
@@ -47237,6 +47335,7 @@ top-game-block {
 
 .view-switcher-v3 > ul > li:last-child > button {
     border-radius: 0 4px 0 0;
+    border-left: 1px solid #202833;
 }
 
 .view-switcher-v3 > ul > li > button > span {
@@ -50373,6 +50472,8 @@ top-game-block {
 .title-championship-v3.dashboard-upcoming {
     padding: 0 40px;
     margin: 0;
+    border-left: 1px solid #c2c5b7;
+    border-right: 1px solid #c2c5b7;
 }
 
 .prematch-list-view-v3.prematch .title-championship-v3 {
@@ -53555,6 +53656,7 @@ top-game-block {
     box-sizing: border-box;
     float: left;
     width: 100%;
+    padding: 0 5px;
 }
 
 .sport-name-up-game-v3 {
@@ -53813,9 +53915,9 @@ top-game-block {
 }
 
 @media screen and (max-width: 1366px) {
-    .dashboard-view-v3 > .live-events-column-v3 {
-        width: 100%;
-    }
+    /*.dashboard-view-v3 > .live-events-column-v3 {*/
+        /*width: 100%;*/
+    /*}*/
 
     .right-column-v3 {
         box-sizing: border-box;
@@ -53855,10 +53957,10 @@ top-game-block {
         width: calc(100% - 350px);
     }
 
-    .dashboard-view-v3 > .live-events-column-v3:first-child {
-        margin: 0 0 5px;
-        width: 100%;
-    }
+    /*.dashboard-view-v3 > .live-events-column-v3:first-child {*/
+        /*margin: 0 0 5px;*/
+        /*width: 100%;*/
+    /*}*/
 }
 
 @media screen and (min-width: 1440px) {
@@ -57641,9 +57743,9 @@ div.slider-image-wrapper-b {
 }
 
 @media screen and (max-width: 1366px) {
-    .dashboard-view-v3 > .live-events-column-v3 {
-        height: 45vh;
-    }
+    /*.dashboard-view-v3 > .live-events-column-v3 {*/
+        /*height: 45vh;*/
+    /*}*/
 
     .live-column-title-v3, .upcoming-column-title-v3{
         position: sticky;
@@ -59638,6 +59740,7 @@ div.slider-image-wrapper-b {
 .ngscroll-scrollbar-container:active .ngscroll-scrollbar:active{
     background: rgb(156, 155, 152) !important;
 }
+
 .menu-popup-holder > .sports-item-v3 {
     margin-bottom: 0;
     border-bottom-left-radius: 0;
@@ -62169,8 +62272,8 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
     }
 
     /* BeachVolleyball */
-    .sports-item-v3.BeachVolleyball,
-    .event-view-title.BeachVolleyball,
+    .sports-item-v3.BeachVolleyball,.single-sport-box-v3.BeachVolleyball,
+    .event-view-title.BeachVolleyball, .sport-name-up-game-v3.BeachVolleyball,
     .sport-title.BeachVolleyball, .overview-BeachVolleyball {
         background: #b9a877;
     }
@@ -62304,7 +62407,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         border-right-color: #489caa;
     }
 
-    .sports-item-v3.Hockey,
+    .sports-item-v3.Hockey, .sport-name-up-game-v3.Hockey,
     .event-view-title.Hockey,
     .sport-title.Hockey, .overview-Hockey {
         background: #189946;
@@ -62325,7 +62428,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
         border-right-color: #282a29;
     }
 
-    .sports-item-v3.Cricket > p {
+    .sports-item-v3.Cricket > p, .sport-name-up-game-v3.Hockey > h3{
         color: #fff;
     }
 
@@ -64860,7 +64963,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
             width: 930px;
         }
 
-        .classic-version-euro2016.prematch{
+        .classic-version-euro2016.prematch, .classic-view-column-v3.dashboard{
             width: 1280px;
         }
     }
@@ -66139,7 +66242,7 @@ body {
     float: left;
     width: 100%;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 0 0 10px 0;
 }
 
 .casino-view-container-jf:after {
@@ -66149,24 +66252,28 @@ body {
 }
 
 .casino-view-container-jf {
-    padding: 0 0 30px 0;
+    position: relative;
+    padding: 0 20px 30px 20px;
     margin: 0 auto;
     min-width: 280px;
     max-width: 1900px;
-    box-sizing: border-box;
+    z-index: 10000;
 }
 
-.casino-top-container-jf {
-    float: left;
+/*.casino-top-container-jf .slide-casino-new-img-b:after {
+    z-index: 8999;
+    position: absolute;
+    content: '';
+    display: block;
     width: 100%;
-    display: table;
-    box-sizing: border-box;
-    table-layout: fixed;
-}
+    height: 25%;
+    bottom: -5px;
+    background: linear-gradient(to bottom, rgba(230, 229, 220, 0) , rgba(230, 229, 220, 0.3) ,rgba(230, 229, 220, 0.55) , rgba(230, 229, 220, 0.75) , rgba(230, 229, 220, 0.9), rgba(230, 229, 220, 1), rgb(230, 229, 220));
+}*/
 
 .slider-casino-container-jf {
-    display: table-cell;
-    padding: 0 10px 0 0;
+    height: 100%;
+    padding: 0 ;
     vertical-align: top;
     box-sizing: border-box;
     position: relative;
@@ -66181,7 +66288,6 @@ body {
 }
 
 .slide-view-contain-jf {
-    float: left;
     width: 100%;
     padding: 0;
     box-sizing: border-box;
@@ -66192,14 +66298,19 @@ body {
 }
 
 .mini-wrapper-slider-img {
+    display: block;
     background-repeat: no-repeat;
     background-position: 50% 0;
-    float: left;
     width: 100%;
     padding: 0;
-    height: 416px;
     position: relative;
     border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.casino-top-container-jf {
+    width: 100%;
+    position: relative;
     box-sizing: border-box;
 }
 
@@ -66248,12 +66359,11 @@ body {
     width: 100%;
     box-sizing: border-box;
     height: 91px;
-    overflow: hidden;
     position: relative;
     white-space: nowrap;
 }
 
-.winner-list-box-j > ul {
+.winner-list-box-j > .cart-games  {
     position: absolute;
     left: 0;
     top: 0;
@@ -66262,7 +66372,58 @@ body {
     font-size: 0;
 }
 
-.winner-list-box-j > ul > li {
+.winner-list-box-j > .cart-games > div > ul.show-all {
+    width: 100% !important;
+    transform: translateZ(0) !important;
+    display: block;
+}
+
+.winner-list-box-j > .cart-games  .casino-category-title {
+    color: #105B63;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.winner-list-box-j > .cart-games:not(.sly-frame):not(.slot) {
+    border-bottom: 2px solid #bebeba;
+    padding-bottom: 16px;
+}
+
+.winner-list-box-j > .cart-games:not(.sly-frame) .casino-category-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.winner-list-box-j > .cart-games  .empty-myGames {
+    display: block;
+    margin: 40px 0 60px;
+    color: #5b5b5b;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+.winner-list-box-j > .cart-games  .empty-myGames span {
+    margin: 0 2px;
+}
+
+.winner-list-box-j > .cart-games  .casino-category-title.toggle-all-view {
+    float: right;
+    margin-right: 5px;
+}
+
+.winner-list-box-j > .cart-games  .casino-category-title.toggle-all-view:hover {
+    color: #676764;
+}
+
+.winner-list-box-j > .cart-games  .casino-category-title.toggle-all-view.expanded {
+    color: #676764;
+}
+
+.winner-list-box-j > .cart-games  .casino-game-card {
     display: inline-block;
     vertical-align: top;
     margin: 0 0 0 10px;
@@ -66275,20 +66436,20 @@ body {
     padding: 14px 13px 0;
 }
 
-.winner-list-box-j > ul > li:first-child {
+.winner-list-box-j > .cart-games  .casino-game-card:first-child {
     margin: 0;
 }
 
 .left-arrow-winners,
 .right-arrow-winners {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 40px;
-    height: 100%;
-    background: -moz-linear-gradient(left, rgba(230, 229, 220, 0.98) 0%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.48) 70%, rgba(230, 229, 220, 0) 100%);
-    background: -webkit-linear-gradient(left, rgba(230, 229, 220, 0.98) 0%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.48) 70%, rgba(230, 229, 220, 0) 100%);
-    background: linear-gradient(to right, rgba(230, 229, 220, 0.98) 0%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.48) 70%, rgba(230, 229, 220, 0) 100%);
+    left: -20px;
+    top: 32px;
+    width: 60px;
+    height: 172px;
+    background: -moz-linear-gradient(left, rgba(230, 229, 220, 0.98) 0%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.48) 90%);
+    background: -webkit-linear-gradient(left, rgba(230, 229, 220, 0.98) 0%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.48) 90%);
+    background: linear-gradient(to left, rgba(230, 229, 220, 0) , rgba(230, 229, 220, 0.3) ,rgba(230, 229, 220, 0.55) , rgba(230, 229, 220, 0.75) , rgba(230, 229, 220, 0.9));
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fae6e5dc', endColorstr='#00e6e5dc',GradientType=1 );
     z-index: 66;
     opacity: 0;
@@ -66302,35 +66463,46 @@ body {
 
 .right-arrow-winners {
     left: auto;
-    right: 0;
-    background: -moz-linear-gradient(left, rgba(230, 229, 220, 0) 0%, rgba(230, 229, 220, 0.48) 30%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.98) 100%);
-    background: -webkit-linear-gradient(left, rgba(230, 229, 220, 0) 0%, rgba(230, 229, 220, 0.48) 30%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.98) 100%);
-    background: linear-gradient(to right, rgba(230, 229, 220, 0) 0%, rgba(230, 229, 220, 0.48) 30%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.98) 100%);
+    right: -15px;
+    background: -moz-linear-gradient(right, rgba(230, 229, 220, 0.98) 0%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.48) 90%);
+    background: -webkit-linear-gradient(right, rgba(230, 229, 220, 0.98) 0%, rgba(230, 229, 220, 0.8) 50%, rgba(230, 229, 220, 0.48) 90%);
+    background: linear-gradient(to right, rgba(230, 229, 220, 0) , rgba(230, 229, 220, 0.3) ,rgba(230, 229, 220, 0.55) , rgba(230, 229, 220, 0.75) , rgba(230, 229, 220, 0.9));
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e6e5dc', endColorstr='#fae6e5dc',GradientType=1 );
 }
 
-.winner-list-box-j:hover .left-arrow-winners,
-.winner-list-box-j:hover .right-arrow-winners {
+.winner-list-box-j .cart-games.sly-frame > div:nth-child(2):hover .left-arrow-winners,
+.winner-list-box-j .cart-games.sly-frame > div:nth-child(2):hover .right-arrow-winners,
+.winner-list-box-j .cart-games.sly-frame  .left-arrow-winners:hover:before ,
+.winner-list-box-j .cart-games.sly-frame  .right-arrow-winners:hover:before  {
     opacity: 1;
+}
+
+.winner-list-box-j .cart-games.sly-frame  .left-arrow-winners.disabled:hover:before ,
+.winner-list-box-j .cart-games.sly-frame  .right-arrow-winners.disabled:hover:before {
+    opacity: 0.5;
+}
+
+.winner-list-box-j .cart-games.sly-frame  .left-arrow-winners.disabled ,
+.winner-list-box-j .cart-games.sly-frame  .right-arrow-winners.disabled {
+    display: none;
 }
 
 .left-arrow-winners:before {
     content: "\e66f";
-    transform: translate3d(-50px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
     display: inline-block;
-    transition: transform 400ms;
+    transition: all 400ms;
+    color: rgb(16, 91, 99);
+    opacity: 0.5;
 }
 
 .right-arrow-winners:before {
     content: "\e672";
-    transform: translate3d(50px, 0, 0);
+    transform: translate3d(10px, 0, 0);
     display: inline-block;
-    transition: transform 400ms;
-}
-
-.winner-list-box-j:hover .right-arrow-winners:before,
-.winner-list-box-j:hover .left-arrow-winners:before {
-    transform: translate3d(0, 0, 0);
+    transition: all 400ms;
+    color: rgb(16, 91, 99);
+    opacity: 0.5;
 }
 
 .icon-winner-b {
@@ -66429,7 +66601,7 @@ body {
     height: 51px;
     box-sizing: border-box;
     border-radius: 50%;
-    background: rgba(255, 128, 103, 0.8);
+    background: rgb(255, 128, 103);
     box-shadow: 0 0 0 5px #f0c7b7 inset, 0 0 10px #f0c7b7;
     margin: 2px 0 0;
     text-align: center;
@@ -66494,42 +66666,160 @@ body {
 .casino-nav-wrapper-jf {
     float: left;
     width: 100%;
-    margin: 10px 0;
+    margin-bottom: 20px;
     text-align: center;
     box-sizing: border-box;
 }
 
 .casino-menu-box-jf {
+    width: 100%;
     display: inline-block;
     vertical-align: top;
-    padding: 5px 100px 5px 0;
+    padding: 5px 0;
     box-sizing: border-box;
     position: relative;
 }
 
 .casino-menu-contain-jf {
+    width: 100%;
     float: left;
     box-sizing: border-box;
 }
 
 .casino-menu-contain-jf > ul {
+    width: 100%;
     float: left;
     box-sizing: border-box;
 }
 
 .casino-menu-contain-jf > ul > li {
     float: left;
+    display: inline-block;
     box-sizing: border-box;
-    padding: 0 8px;
+    margin: 0 12px;
+    padding: 4px 12px;
+    background-color: rgba(230, 229, 220, 0.75);
+    transition: all 250ms;
+    border-radius: 4px;
+}
+
+.casino-menu-contain-jf > ul > li:first-child {
+    margin-left: 0
+}
+
+.casino-menu-contain-jf > ul > li:last-child {
+    margin-right: 0
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf {
+    float: right;
+    position: static;
+    width: initial;
+    border-radius: 4px;
+    transition: all 250ms
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .block-search {
+    background-color: transparent;
+    margin: 0;
+    height: 22px
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .block-search input[type="text"] {
+    vertical-align: top;
+    position: static;
+    width: 100px;
+    height: 22px;
+    padding: 0;
+    color: #105B63;
+    font-size: 14px;
+    line-height: 22px;
+    -webkit-text-fill-color: #105B63;
+    transition: all 250ms;
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .search-results-container {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    right: -15px;
+    top: 38px;
+    width: 340px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .search-results-container .search-results-inner {
+    padding-top: 0
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .search-results-container .search-results-inner h3 {
+    text-transform: capitalize;
+    line-height: 22px;
+    padding: 7px 0;
+    background-color: #efefef;
+    color: #105B63;
+    font-size: 14px;
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .arrow-sport {
+    right: 4px;
+    bottom: -21px;
+    top: inherit;       
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .arrow-sport:before {
+    border-color: transparent transparent #efefef transparent;
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .search-results-container #casino-result-search {
+    overflow: hidden;
+    margin-top: 0;
+    background-color: #D9D9D9
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .search-results-container #casino-result-search > div {
+    max-height: 450px;
+    height: 100%;
+    float: left;
+    width: 100%;
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .search-results-container #casino-result-search dd {
+    line-height: 22px;
+    color: #105B63;
+    font-size: 14px;
+    margin: 25px 0 25px 15px;
+    padding: 0;
+    width: calc(100% - 140px);
+}
+
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .block-search input[type="text"].enabled {
+    width: 140px;
+} 
+
+.casino-menu-contain-jf > ul > li.search-contain-jf .block-search:before {
+    color: #105B63;
+    font-size: 20px;
+    line-height: 22px;
+    position: static;
+    margin-right: 8px;
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf.search-enabled,
+.casino-menu-contain-jf > ul > li:hover,
+.casino-menu-contain-jf > ul > li.active {
+    background-color: #EFEFEF;
+}
+
+.casino-menu-contain-jf > ul > li.search-contain-jf.search-enabled input[type="text"] {
+    width: 200px;
 }
 
 .casino-menu-contain-jf > ul > li > a {
     float: left;
     display: block;
     text-decoration: none;
-    color: #5b5b5b;
     box-sizing: border-box;
-    padding: 0 15px;
 }
 
 .casino-menu-contain-jf > ul > li > a > span, .icon-search-jf {
@@ -66562,7 +66852,7 @@ body {
     content: "\e952";
 }
 
-.icon-VideoSlots-casino:before {
+.icon-Slots-casino:before {
     content: "\e950";
 }
 
@@ -66593,23 +66883,12 @@ body {
     box-sizing: border-box;
     font-size: 16px;
     line-height: 22px;
-    color: #5b5b5b;
+    color: #105B63;
     text-transform: uppercase;
     text-decoration: none;
     transition: color 300ms;
     font-weight: 500;
 }
-
-.casino-menu-contain-jf > ul > li > a:hover > span:before,
-.casino-menu-contain-jf > ul > li > a:hover > p, .mini-search-box-jf:hover > p, .mini-search-box-jf > input[type="text"]:focus + p {
-    color: #ff8067;
-}
-
-.casino-menu-contain-jf > ul > li.active > a > span:before,
-.casino-menu-contain-jf > ul > li.active > a > p, .mini-search-box-jf:hover > p, .mini-search-box-jf > input[type="text"]:focus + p {
-    color: #ff8067;
-}
-
 
 .casino-slot-menu-contain-jf {
     float: left;
@@ -66644,15 +66923,13 @@ body {
     text-transform: uppercase;
 }
 
-.casino-slot-menu-contain-jf > ul > li > a > span, .icon-search-jf {
+.casino-menu-contain-jf .search-contain-jf .mini-search-box-jf span.icon-search-jf {
+    margin-right: 10px;
     float: left;
-    width: 100%;
-    height: 50px;
-    box-sizing: border-box;
-    display: block;
-    font: 32px/50px icomoon;
-    color: #52a178;
-    text-align: center;
+    width: initial;
+    font: 18px/22px icomoon;
+    color: #105B63;
+    height: initial;
 }
 
 .casino-slot-menu-contain-jf > ul > li > a > span:before {
@@ -66660,8 +66937,8 @@ body {
     transition: color 300ms;
 }
 
-.casino-slot-menu-contain-jf > ul > li > a:hover > span:before,
-.casino-slot-menu-contain-jf > ul > li > a:hover > p, .mini-search-box-jf:hover > p, .mini-search-box-jf > input[type="text"]:focus + p {
+.casino-slot-menu-contain-jf > ul > li:hover > a > span:before,
+.casino-slot-menu-contain-jf > ul > li:hover > a > p, .mini-search-box-jf:hover > p, .mini-search-box-jf > input[type="text"]:focus + p {
     color: #ff8067;
 }
 
@@ -66670,11 +66947,10 @@ body {
     color: #ff8067;
 }
 
-
 .category-filter-v3 {
     box-sizing: border-box;
     float: left;
-    width: 235px;
+    width: 250px;
     height: 48px;
     position: relative;
     z-index: 171;
@@ -66752,12 +67028,6 @@ body {
     font-size: 20px;
     line-height: 72px;
     color: #5b5b5b;
-}
-
-.mini-search-box-jf > input[type="text"]:focus {
-    box-shadow: 0 -1px 0 #b2ad9c inset, -5px 0 5px -4px #b2ad9c;
-    width: 360px;
-    padding: 0 100px 0 15px;
 }
 
 .mini-search-box-jf > input[type="text"]::-webkit-input-placeholder {
@@ -66863,8 +67133,8 @@ body {
     box-sizing: border-box;
 }
 
-.casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul > li {
-    width: 232px;
+.casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > .cart-games  .casino-game-card {
+    min-width: 220px;
     height: 174px;
     box-shadow: none;
     box-sizing: border-box;
@@ -66873,6 +67143,53 @@ body {
     margin: 0 0 0 3px;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
+    animation: opacity_show 400ms ease-in-out
+}
+
+@-webkit-keyframes opacity_show {
+    from {
+        opacity: 0
+    }
+    to {
+
+        opacity: 1
+    }
+}
+@-moz-keyframes opacity_show {
+    from {
+        opacity: 0
+    }
+    to {
+
+        opacity: 1
+    }
+}
+@-ms-keyframes opacity_show {
+    from {
+        opacity: 0
+    }
+    to {
+
+        opacity: 1
+    }
+}
+@-o-keyframes opacity_show {
+    from {
+        opacity: 0
+    }
+    to {
+
+        opacity: 1
+    }
+}
+@keyframes opacity_show {
+    from {
+        opacity: 0
+    }
+    to {
+
+        opacity: 1
+    }
 }
 
 .game-screen-view-jf {
@@ -66884,13 +67201,17 @@ body {
     border-radius: 4px;
     background-color: #105b63;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: center;
     background-size: cover;
     position: relative;
 }
 
 .casino-games-list-view-jf .left-arrow-winners, .casino-games-list-view-jf .right-arrow-winners {
     line-height: 174px;
+}
+
+.casino-games-list-view-jf .left-arrow-winners.disabled, .casino-games-list-view-jf .right-arrow-winners.disabled {
+    cursor: default;
 }
 
 .game-screen-view-jf:before {
@@ -66902,16 +67223,39 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: -moz-linear-gradient(top,transparent,rgba(0,0,0,.7));
-    background: -webkit-linear-gradient(top,transparent,rgba(0,0,0,.7));
-    background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.7))
+    background: -moz-linear-gradient(top,transparent,rgb(14, 82, 89));
+    background: -webkit-linear-gradient(top,transparent,rgb(14, 82, 89));
+    background: linear-gradient(180deg,transparent 0,rgba(14, 82, 89))
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00105b63', endColorstr='#f5105b63',GradientType=0 );
     border-radius: 0 0 4px 4px;
-    transition: height 400ms;
+    transition: all 400ms;
     opacity: 1;
 }
 
-.game-screen-view-jf:hover:before {
+.game-screen-view-jf:after {
+    content: "";
+    width: 100%;
+    height: 50%;
+    z-index: 44;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: -moz-linear-gradient(bottom,transparent,rgb(14, 82, 89));
+    background: -webkit-linear-gradient(bottom,transparent,rgb(14, 82, 89));
+    background: linear-gradient(0deg,transparent 0,rgba(14, 82, 89))
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5105b63', endColorstr='#00105b63',GradientType=0 );
+    border-radius: 0 0 4px 4px;
+    transition: all 400ms;
+    opacity: 0;
+}
+
+.game-screen-view-jf:hover {
+    overflow: hidden;
+}
+
+.game-screen-view-jf:hover:after {
+    opacity: 1;
     transition-delay: 100ms;
     height: 100%;
 }
@@ -66931,8 +67275,8 @@ body {
 .game-screen-view-jf > a > p {
     position: absolute;
     left: 0;
-    bottom: 10px;
-    width: 190px;
+    bottom: 12px;
+    width: 180px;
     color: #f7f7f7;
     font-size: 16px;
     box-sizing: border-box;
@@ -66948,8 +67292,8 @@ body {
 
 .star-icon-jf {
     position: absolute;
-    right: 5px;
-    bottom: 5px;
+    right: 9px;
+    bottom: 9px;
     box-sizing: border-box;
     width: 36px;
     height: 36px;
@@ -66959,6 +67303,20 @@ body {
     transition: opacity 400ms;
 }
 
+.play-for-fun-jf {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #e6e5dc;
+    padding: 5px 14px;
+    border-radius: 4px;
+    opacity: 0;
+    min-width: 85px;
+}
+
 .game-screen-view-jf:hover > a > p,
 .game-screen-view-jf:hover .star-icon-jf {
     opacity: 1;
@@ -66966,9 +67324,8 @@ body {
 
 .star-icon-jf > i {
     font-style: normal;
-    font-weight: bold;
-    font-size: 11px;
-    line-height: 38px;
+    font-size: 13px;
+    line-height: 45px;
     display: block;
     position: absolute;
     z-index: 88;
@@ -66978,7 +67335,7 @@ body {
 }
 
 .star-icon-jf:before {
-    font: 32px/36px icomoon;
+    font: 40px/44px icomoon;
     content: "\f005";
     color: #fbc02d;
 }
@@ -67015,22 +67372,39 @@ body {
     white-space: normal;
 }
 
-.casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul {
-    position: relative;
-    height: auto;
-    text-align: left;
+.casino-view-container-jf:not(.disable-carousels) .slider-casino-container-jf > .winner-list-box-j > .cart-games  > div > ul:not(.show-all) {
+    min-width: 100%;
+    white-space: nowrap;
 }
 
-.casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul > li {
-    margin: 0 3px 10px 0;
+.casino-view-container-jf.disable-carousels .winner-list-box-j > .cart-games > div > ul {
+    width: 100% !important;
+    transform: translateZ(0) !important;
+    display: block
 }
 
-.casino-games-list-view-jf.open-view-list .left-arrow-winners,
-.casino-games-list-view-jf.open-view-list .right-arrow-winners {
+.casino-view-container-jf.disable-carousels .winner-list-box-j > .cart-games > div .right-arrow-winners,
+.casino-view-container-jf.disable-carousels .winner-list-box-j > .cart-games > div .left-arrow-winners ,
+.casino-view-container-jf.disable-carousels .winner-list-box-j > .cart-games > div .toggle-all-view {
     display: none;
 }
 
-.casino-games-list-view-jf.open-view-list > .title-category-game-b > h3 > span:after {
+.casino-games-list-view-jf.open-view-list .slider-casino-container-jf > .winner-list-box-j > .cart-games  {
+    position: relative;
+    height: auto;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.casino-games-list-view-jf.open-view-list .slider-casino-container-jf > .winner-list-box-j > .cart-games > div {
+    overflow: visible !important
+}
+
+.casino-games-list-view-jf.open-view-list .slider-casino-container-jf > .winner-list-box-j > .cart-games  .casino-game-card {
+    margin: 0 6px 6px 0;
+}
+
+.casino-games-list-view-jf.open-view-list .title-category-game-b > h3 > span:after {
     content: "\e62a";
 }
 
@@ -67045,7 +67419,7 @@ body {
     box-sizing: border-box;
     text-decoration: none;
     margin: 0;
-    box-shadow: 0 0 0 7px rgba(255, 128, 103, 0.3);
+    box-shadow: 0 0 0 7px rgba(255, 128, 103, 0.45);
     border: none;
     outline: none;
     cursor: pointer;
@@ -67129,48 +67503,83 @@ body {
 
 .favorite-icon-jf {
     position: absolute;
-    right: 8px;
-    width: 26px;
-    bottom: 0px;
-    padding: 11px 0 0;
-    overflow: hidden;
+    right: 12px;
+    width: 28px;
+    bottom: 40px;
+    padding: 0;
+    height: 0;
     z-index: 111;
     cursor: pointer;
+    opacity: 1;
+    transition: all 200ms
 }
 
-.favorite-icon-jf > span {
+.game-screen-view-jf:hover .favorite-icon-jf {
+    opacity: 1
+}
+
+.play-for-fun-jf , .category-icon-view-jf {
+    transition: opacity 250ms;
+}
+
+.game-screen-view-jf:hover > a > span.play-for-fun-jf ,
+.game-screen-view-jf:hover > a > span.category-icon-view-jf{
+    opacity: .6;
+}
+
+.mobile-enabled-jf {
+    position: absolute;
+    right: 8px;
+    width: 28px;
+    top: 0;
+    z-index: 111;
+}
+
+.mobile-enabled-jf > span {  
     display: inline-block;
     width: 100%;
-    /*background: #ffd267; */
-    padding: 2px 0 8px;
+    padding: 0;
     position: relative;
-    font: 20px/20px icomoon;
+    font: 28px/36px icomoon;
+    color: white;
     text-align: center;
-    transition: transform 450ms;
 }
+
+.favorite-icon-jf > span {   
+    display: inline-block;
+    width: 100%;
+    height: 28px;
+    padding: 0;
+    position: relative;
+    font: 22px/28px icomoon;
+    text-align: center;
+}
+
 
 .favorite-icon-jf > span:before {
     content: "\e6e1";
-    color: #fff;
+    color: #fff;  
+    top: 3px;
+    position: relative;
 }
 
 .favorite-icon-jf.active > span:before {
     content: "\e6df";
-    color: #ff6767;
+    color: #FB6A67;
 }
 
 /*
-.favorite-icon-jf > span:after {
+.favorite-icon-jf > span:after { 
+    border-top: 12px solid #fbc02d;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    bottom: -12px;
     content: "";
-    display: block;
     position: absolute;
     left: 0;
-    bottom: 30px;
+    margin-left: 0;
     width: 0;
     height: 0;
-    border-style: solid;
-    border-width: 0 13px 11px;
-    border-color: transparent transparent #ffd167;
 }
 */
 
@@ -67442,6 +67851,7 @@ body {
 .slot-interface-jf.bg-image {
     background: #171c2c url(../../../images/backgrounds/slot-bg.jpg);
     background-size: cover;
+    background-position: center center;
 }
 
 .game-view-wrapper-jf {
@@ -67453,6 +67863,8 @@ body {
     display: table;
     table-layout: fixed;
     box-sizing: border-box;
+    background-size: cover !important;
+    background-position: center center !important
 }
 
 .game-view-wrapper-jf > input[type="checkbox"] {
@@ -67499,8 +67911,9 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    background: url("../images/logo-slot.png") no-repeat 0 0;
+    background: url(../images/logo.png);
     box-sizing: border-box;
+    background-size: cover;
 }
 
 .right-column-top-nav-slot {
@@ -67566,6 +67979,13 @@ body {
     box-sizing: content-box;
     transform: translate3d(0, 0, 0);
 }
+ 
+.game-container-box-jf > .md-progress-circular {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
 
 .game-container-box-jf.ng-scope.slot-fullscreen {
     max-width: 1477px;
@@ -67573,12 +67993,11 @@ body {
     transition: max-width 180ms, max-height 180ms;
 }
 
-/*
+
 .game-container-box-jf > iframe {
-     width: 100% !important;
-     height: 100% !important;
+     max-width: 100% !important;
+    /*  height: 100% !important;*/
  }
- */
 
 .top-row-game-box {
     float: left;
@@ -67753,6 +68172,57 @@ body {
     box-sizing: border-box;
 }
 
+.right-slots-info-view-m .ngscroll-scrollbar-container {
+    right: 0 !important;
+    background-color: #43464c !important;
+}
+
+.right-slots-info-view-m .search-contain-jf {
+    position: relative;
+    float: right;
+    width: 50px;
+    margin-right: 10px;
+    top: 0;
+}
+
+.right-slots-info-view-m .search-contain-jf .icon-search-jf {
+    position: relative;
+    z-index: 100;
+    background-color: rgba(91, 90, 90, 0.4);
+    font-size: 20px;
+    line-height: 38px;
+    height: 38px;
+    border-radius: 4px;
+    color: #a2abaf;
+}
+
+.right-slots-info-view-m .search-contain-jf .icon-search-jf.active:before {
+    content: "\e6ee";
+}
+
+.right-slots-info-view-m .search-contain-jf .icon-search-jf + input {
+    padding: 0;
+    width: 0;
+    padding: 19px 35px;
+    box-shadow: none;
+    border-radius: 4px;
+    padding-left: 15px;
+    font-size: 14px;
+    text-transform: inherit;
+    color:  #fff;
+    z-index: 10000;
+    -webkit-text-fill-color: #fff;
+    transition: width 200ms;
+    z-index: 0
+}
+
+.right-slots-info-view-m .search-contain-jf .icon-search-jf + input.active {
+    width: 240px;
+    background-color: rgb(53, 59, 72);
+    margin-right: 60px;
+    z-index: 1000
+}
+
 #slot-info-jf:checked + .right-slots-info-view-m {
     width: 320px;
 }
@@ -67854,7 +68324,7 @@ body {
     position: relative;
     z-index: 111;
     padding: 0;
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -67911,10 +68381,37 @@ body {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.games-info-list-r-j  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul > li {
+.games-info-list-r-j  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > .cart-games  .casino-game-card {
+    min-width:  148px;
     width: 148px;
     height: 108px;
     margin: 4px;
+}
+
+.games-info-list-r-j  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > .slot .casino-game-card .game-screen-view-jf {
+   height: 108px;
+}
+
+.games-info-list-r-j  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > .slot .casino-game-card .game-screen-view-jf > a > p {
+    font-size: 12px;
+    width: 100px;
+}
+
+.games-info-list-r-j  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > .slot .casino-game-card .game-screen-view-jf .star-icon-jf {
+    right: 5px;
+}
+
+.games-info-list-r-j  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > .slot .casino-game-card .game-screen-view-jf .play-game {
+    width: 40px;
+    height: 40px;
+    left: calc((100% - 40px) / 2);
+    top: calc((100% - 40px) / 2);
+    box-shadow: 0 0 0 3px rgba(255, 128, 103, 0.45);
+}
+
+.games-info-list-r-j  .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > .slot .casino-game-card .game-screen-view-jf .play-game:before {
+    font-size: 28px;
+    line-height: 40px;
 }
 
 .games-info-list-r-j > .casino-games-list-view-jf .game-screen-view-jf {
@@ -67951,22 +68448,22 @@ body {
 
 .games-info-list-r-j  .casino-games-list-view-jf .game-screen-view-jf .favorite-icon-jf {
     position: absolute;
-    right: 8px;
-    width: 24px;
+    right: 11px;
+    width: 22px;
     padding: 0 0 0px;
-    overflow: hidden;
+    bottom: 33px;
     z-index: 111;
     cursor: pointer;
 }
+
 .games-info-list-r-j  .casino-games-list-view-jf .game-screen-view-jf .favorite-icon-jf > span {
     font: 18px/14px icomoon;
 }
+
 .games-info-list-r-j  .casino-games-list-view-jf .game-screen-view-jf .favorite-icon-jf > span:after {
-    bottom: -10px;
-    border-width: 10px 12px 0 12px;
+    border-width: 10px 11px 0 11px;
+    bottom: -10px
 }
-
-
 
 .games-info-list-r-j > .winner-list-box-j {
     height: auto;
@@ -67976,50 +68473,37 @@ body {
     padding: 0 10px;
 }
 
-.games-info-list-r-j > .winner-list-box-j > ul {
+.games-info-list-r-j > .winner-list-box-j > .cart-games  {
     float: left;
     position: relative;
     width: 100%;
     box-sizing: border-box;
 }
 
-.games-info-list-r-j > .winner-list-box-j > ul > li {
+.games-info-list-r-j > .winner-list-box-j > .cart-games  .casino-game-card {
     width: 100%;
     margin: 0 0 10px;
     background: rgba(0, 0, 0, 0.3);
     box-shadow: none;
 }
 
-.games-info-list-r-j > .winner-list-box-j > ul > li .text-info-winners-j {
+.games-info-list-r-j > .winner-list-box-j > .cart-games  .casino-game-card .text-info-winners-j {
     width: calc(100% - 77px);
 }
 
-.games-info-list-r-j > .winner-list-box-j > ul > li .text-info-winners-j > p > a,
-.games-info-list-r-j > .winner-list-box-j > ul > li .text-info-winners-j > h3,
-.games-info-list-r-j > .winner-list-box-j > ul > li .text-info-winners-j > p {
+.games-info-list-r-j > .winner-list-box-j > .cart-games  .casino-game-card .text-info-winners-j > p > a,
+.games-info-list-r-j > .winner-list-box-j > .cart-games  .casino-game-card .text-info-winners-j > h3,
+.games-info-list-r-j > .winner-list-box-j > .cart-games  .casino-game-card .text-info-winners-j > p {
     color: #ffffff;
 }
 
 @media screen and (max-width: 1600px) {
-    .casino-menu-contain-jf > ul > li {
-        padding: 0 5px;
-    }
-
     .casino-menu-contain-jf > ul > li > a {
         padding: 0 5px;
     }
 
     .casino-menu-contain-jf > ul > li > a > p, .mini-search-box-jf > p {
         font-size: 16px;
-    }
-}
-@media screen and (max-width: 1400px) {
-    .casino-menu-contain-jf > ul > li {
-        padding: 0;
-    }
-
-    .casino-menu-contain-jf > ul > li > a {
-        padding: 0;
     }
 }
 
@@ -68061,9 +68545,9 @@ body {
     .betslip-expanded .center-column-v3 {
         width: calc(100% - 454px);
     }
-    .dashboard-view-v3 > .live-events-column-v3 {
-        width: 100%;
-    }
+    /*.dashboard-view-v3 > .live-events-column-v3 {*/
+        /*width: 100%;*/
+    /*}*/
 
     .left-menu-closed-v3>.left-column-v3 {
         box-shadow:none;
@@ -68091,6 +68575,17 @@ body {
 
     .right-img-contain {
         display: none;
+    }
+
+    .right-slots-info-view-m {
+        position: fixed;
+        right: 0;
+        height: 100%;
+    }
+
+    .right-slots-info-view-m .full-tab-container ,
+    .right-slots-info-view-m  .open-slot-game-f {
+        background: rgba(0, 0, 0, 0.9);
     }
 }
 @media screen and (max-width: 980px) {
@@ -68149,7 +68644,7 @@ body {
         overflow-y: hidden;
     }
 
-    .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul > li {
+    .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > .cart-games  .casino-game-card {
         overflow: inherit;
     }
 
@@ -68213,11 +68708,11 @@ body {
         margin: 0 0 10px;
     }
 
-    .casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > ul > li {
+    .casino-games-list-view-jf.open-view-list > .slider-casino-container-jf > .winner-list-box-j > .cart-games  .casino-game-card {
         margin: 0 5px 10px 5px;
     }
 
-    .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > ul > li {
+    .casino-games-list-view-jf > .slider-casino-container-jf > .winner-list-box-j > .cart-games  .casino-game-card {
         width: 144px;
         height: 112px;
     }
@@ -68240,7 +68735,7 @@ body {
         font-size: 20px;
     }
 
-    .winner-list-box-j > ul > li {
+    .winner-list-box-j > .cart-games  .casino-game-card {
         width: 240px;
         height: 80px;
     }
@@ -70771,6 +71266,8 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .marked-event-header.dashboard-upcoming{
     background: #f2f2e8;
     height: 21px;
+    border-left: 1px solid #c2c5b7;
+    border-right: 1px solid #c2c5b7;
 }
 
 .marked-event-header.dashboard-upcoming > .title-left > span:first-child{

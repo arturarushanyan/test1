@@ -1,5 +1,8 @@
 'use strict';
-var $frame = $('#frame');
+var $frame = $('.sly-frame');
+
+var sly = new Sly($('.sly-frame'));
+
 //DEFAULTS
 var defaultOptions = {
   horizontal: 1,
@@ -23,9 +26,36 @@ var defaultOptions = {
 	backward: 1,
   prev: $frame.find('.prevPage'),
   next: $frame.find('.nextPage'),
+  prevPage: $frame.find(''),
+  nextPage: $frame.find('')
 };
 
-var sly = new Sly(document.getElementById('#frame')); 
+var defaultOptions_simple = {
+  horizontal: 1,
+  itemNav: 'basic',
+  activateMiddle: 1,
+  smart: 1,
+  activateOn: 'click',
+  mouseDragging: 0,
+  touchDragging: 0,
+  releaseSwing: 1,
+  startAt: 0,
+  activatePageOn: 'click',
+  speed: 500,
+  elasticBounds: 1,
+  dragHandle: 0,
+  dynamicHandle: 1,
+  easing: 'swing',
+  clickBar: 1,
+  scrollBy: 0,
+  forward : 1,
+  backward: 1,
+  prev: $frame.find(''),
+  next: $frame.find(''),
+  prevPage: $frame.find('.left-arrow-winners'),
+  nextPage: $frame.find('.right-arrow-winners')
+};
+
 
 VBET5.directive('slyHorizontalRepeat', [
   '$timeout',
@@ -35,7 +65,7 @@ VBET5.directive('slyHorizontalRepeat', [
       link: function (scope, el, attrs) {
         if (scope.$last === true) {
           $timeout(function () {
-            var cont = $('#frame')
+            var cont = $('.sly-frame');
             var frame = $(el[0]).parent().parent();
             var wrap = $(el[0]).parent().parent().parent();
             defaultOptions.horizontal = 1;
@@ -46,8 +76,8 @@ VBET5.directive('slyHorizontalRepeat', [
                 backward: wrap.find('.backward') || null,
                 prev: wrap.find('.prevPage') || null,
                 next: wrap.find('.nextPage') || null,
-                //prevPage: wrap.find('.prevPage') || null,
-               // nextPage: wrap.find('.nextPage') || null
+                prevPage: wrap.find('.left-arrow-winners') || null,
+                nextPage: wrap.find('.right-arrow-winners') || null
               };
             // Merge parts into options object for sly argument
             var options = $.extend({}, defaultOptions, defaultControls, scope.$eval(attrs.slyOptions));
@@ -65,8 +95,20 @@ VBET5.directive('slyHorizontalRepeat', [
                 }
               }
             );
+
+            scope.$watch(
+                function () {
+                    return scope.value;
+                },
+                function (newValue, oldValue) {
+                    if (!angular.equals(oldValue, newValue)) {
+                      frame.sly("reload");
+                    }
+                },
+            true);
+            
             // Call Sly on frame
-            frame.sly(options, callback());  //         scope.$emit('ngRepeatFinished');
+            frame.sly(options, callback()); 
           });
         }
       }
@@ -74,51 +116,61 @@ VBET5.directive('slyHorizontalRepeat', [
   }
 ]);
 
-//METHODS
-//Positioning
-VBET5.directive('slyToBegin', function () {
-  //slyToStart doesnt seem to work :( 
-  return {
-    restrict: 'A',
-    link: function (scope, el, attrs) {
-      el.on('click', function () {
-        // Need to pass the sly frame element Id
-        var frame = $('#' + attrs.slyFrame);
-        var item = attrs.slyDataItem || undefined;
-        // Animate a particular item to the start of the frame.
-        // If no item is provided, the whole content will be animated.
-        frame.sly('toStart', item);
-      });
-    }
-  };
-});
-VBET5.directive('slyToCenter', function () {
-  return {
-    restrict: 'A',
-    link: function (scope, el, attrs) {
-      el.on('click', function () {
-        // Need to pass the sly frame element Id
-        var frame = $('#' + attrs.slyFrame);
-        var item = attrs.slyDataItem || undefined;
-        // Animate a particular item to the center of the frame.
-        // If no item is provided, the whole content will be animated.
-        frame.sly('toCenter', item);
-      });
-    }
-  };
-});
-VBET5.directive('slyToEnd', function () {
-  return {
-    restrict: 'A',
-    link: function (scope, el, attrs) {
-      el.on('click', function () {
-        // Need to pass the sly frame element Id
-        var frame = $('#' + attrs.slyFrame);
-        var item = attrs.slyDataItem || undefined;
-        // Animate a particular item to the center of the frame.
-        // If no item is provided, the whole content will be animated.
-        frame.sly('toEnd', item);
-      });
-    }
-  };
-});
+
+VBET5.directive('slyHorizontalRepeatSimple', [
+  '$timeout',
+  function($timeout,$window) { 
+    return {
+        restrict: 'A',
+        link: function(scope, el, attrs) {
+            if (scope.$last === true) {
+                $timeout(function() {
+                    var cont = $(el[0]);
+                  //  var _timeout  = null;
+                    var frame = $(el[0]).parent().parent();
+                    var wrap = $(el[0]).parent().parent().parent();
+                    defaultOptions_simple.horizontal = 1;
+
+                    var defaultControls = {
+                        scrollBar: wrap.find('.scrollbar') || null,
+                        pagesBar: wrap.find('.pages') || null,
+                        forward: wrap.find('.forward') || null,
+                        backward: wrap.find('.backward') || null,
+                        prev: wrap.find('.prev') || null,
+                        next: wrap.find('.next') || null,
+                        prevPage: wrap.find('.left-arrow-winners') || null,
+                        nextPage: wrap.find('.right-arrow-winners') || null
+                    };
+                    // Merge parts into options object for sly argument
+                    var options = $.extend({}, defaultOptions_simple, defaultControls, scope.$eval(attrs.slyOptions));
+                    var callback = scope.$eval(attrs.slyCallback) || function(cb) {};
+                    // Call Sly on frame
+                    frame.sly(options, callback());
+                    //         scope.$emit('ngRepeatFinished');
+                    $(window).on("resize", function() {
+                        frame.sly("reload");
+                    });
+
+                    var watcher = scope.$watch(
+
+                      function () {
+                         return scope.value;
+                      },
+
+                      function (newValue, oldValue) {
+                         if (!angular.equals(oldValue, newValue)) {
+                              $timeout(function() { 
+                                  frame.sly("reload");                              
+                                  watcher();
+                              }, 300)
+                         }
+
+                    }  ,true);
+
+                    // Call Sly on frame
+                    frame.sly(options, callback());
+                });
+            }
+        }
+  }
+}]);

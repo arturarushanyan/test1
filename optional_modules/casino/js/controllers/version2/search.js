@@ -10,6 +10,7 @@ VBET5.controller('casinoNewSearchCtrl', ['$rootScope', '$scope', '$timeout', '$l
 
     $scope.showSearchResults = false;
     $scope.showSearchCommandResults = false;
+    $scope.searchEnable = false;
 
 
     /**
@@ -60,6 +61,16 @@ VBET5.controller('casinoNewSearchCtrl', ['$rootScope', '$scope', '$timeout', '$l
             $scope.showSearchCommandResults = false;
         }
     }
+
+    /**
+     * @ngdoc method
+     * @name openCasinoGame
+     * @methodOf vbet5.controller:searchCtrl
+     * @description  Clear input value on close click
+     */
+    $scope.deleteValue = function(){
+        $scope.searchCommand = '';
+    };
 
     /**
      * @ngdoc method

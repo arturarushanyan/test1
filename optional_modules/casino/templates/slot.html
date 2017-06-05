@@ -11,7 +11,7 @@
 
                 <div class="slot-view-top-menu-container">
                     <div class="logo-slot-view">
-                        <a href="#/casino/"></a>
+                        <a href="#/casino/" ng-click="closeGame(gameInfo.id)"></a>
                     </div>
 
                     <div class="right-column-top-nav-slot">
@@ -53,8 +53,7 @@
 
                     </div>
                     <vbet-loader ng-show="gameInfo.loadingUserData"></vbet-loader>
-                    <iframe frame-control="" allowfullscreen="true" number-of-window="1" initial-width="{{gameInfo.game.width}}" initial-height="{{gameInfo.game.height}}" element-id="{{gameInfo.front_game_id}}" aspect-ratio="{{gameInfo.game.ratio}}" ng-src="{{gameInfo.gameUrl}}"></iframe>
-
+                    <iframe frame-control="" allowfullscreen="true" number-of-window="1" initial-width="{{gameInfo.game.width}}" initial-height="{{gameInfo.game.height}}" element-id="{{gameInfo.front_game_id}}" aspect-ratio="{{gameInfo.game.ratio}}" ng-src="{{gameInfo.gameUrl}}"></iframe> 
                     <div class="bottom-row-game-box">
                         <div class="left-box-b-jf">
                             <div class="time-view-jf" ng-bind="env.clock|formatDate:'fullHourWithoutAmPm':null:env.timeFormat"></div>
@@ -82,12 +81,12 @@
 
                     <div class="category-filter-v3" ng-class="{'active': showCategoryDropDown}">
                         <p ng-show="categories.length" ng-click="showCategoryDropDown = !showCategoryDropDown" hide-on-click state-flag-var="showCategoryDropDown">
-                            <span>Specials</span>
+                            <span>{{ selections.category.title }}</span>
                             <i class="category-arrow-rotate-filter-v3"></i>
                         </p>
                         <div class="casino-slot-menu-contain-jf">
                             <ul>
-                                <li ng-repeat="category in categories track by category.id" ng-hide="category.id === '65' || category.id === '95' || category.id === '93'"
+                                <li ng-repeat="category in categories track by category.id" ng-hide="category.id === '51' || category.id === '62' || category.id === '65' || category.id === '95' || category.id === '93'"
                                     ng-class="{'active': selections.category.id === category.id}"
                                     ng-click="selectCategory(category)">
                                     <a>
@@ -98,18 +97,26 @@
                         </div>
                      </div>
 
-                    <div class="games-info-list-r-j">
+                    <div class="search-contain-jf">
+                       <div class="mini-search-box-jf">
+                            <span ng-click="searchVisible = !searchVisible" ng-class="{'active': searchVisible}" class="icon-search-jf"></span>
+                            <input ng-class="{'active': searchVisible}" type="text" placeholder="Search a casino game">
+                        </div>
+                    </div>
+
+                    <div  mb-scrollbar class="games-info-list-r-j">
 
 
                         <!--games tab-->
                         <casino-games-list class="casino-games-list-view-jf open-view-list" is-new-design-enabled="cConf.newCasinoDesignEnabled"
-                                           show-conditions="true"
+                                           show-conditions="false"
                                            games-list="games"
-                                           game-show-conditions="true">
+                                           game-show-conditions="true"
+                                           slot-games="true">
                         </casino-games-list>
                         <vbet-loader ng-show="loadingProcess"></vbet-loader>
-                        <div ng-show="false" class="more-casino-games-load-b"><p load-more ng-click="loadMoreGames(); setTargetElementFixed('casinoCategories')"><span trans>Load more</span></p></div>
-                        <div ng-show="selectedCategoryGames.length === 0 && !loadingProcess" class="new-casino-no-games-text"><p trans>No games found</p></div>
+                        <div ng-show="false" class="more-casino-games-load-b"><p load-more id="loadMoreGames" ng-click="loadMoreGames(); setTargetElementFixed('casinoCategories')"><span trans>Load more</span></p></div>
+                        <div ng-hide="true" ng-show="selectedCategoryGames.length === 0 && !loadingProcess" class="new-casino-no-games-text"><p trans>No games found</p></div>
                         <!--games tab END-->
 
 

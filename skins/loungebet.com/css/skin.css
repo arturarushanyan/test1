@@ -69976,6 +69976,7 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .markets-group-wrap-v3>ul {
     position: relative;
     float: left;
+    width: initial !important;
     white-space: nowrap;
 }
 

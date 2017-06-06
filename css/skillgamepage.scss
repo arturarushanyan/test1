@@ -1,0 +1,332 @@
+.new-games-page-j {
+  width: 100%;
+  float: left;
+  background: rgb(63,67,79);
+  background: -moz-radial-gradient(top, ellipse cover,  rgba(63,67,79,1) 0%, rgba(23,26,41,1) 50%, rgba(19,22,37,1) 100%);
+  background: -webkit-gradient(radial, center top, 0, center center, 100%, color-stop(0%,rgba(63,67,79,1)), color-stop(50%,rgba(23,26,41,1)), color-stop(100%,rgba(19,22,37,1)));
+  background: -webkit-radial-gradient(top, ellipse cover,  rgba(63,67,79,1) 0%,rgba(23,26,41,1) 50%,rgba(19,22,37,1) 100%);
+  background: -o-radial-gradient(top, ellipse cover,  rgba(63,67,79,1) 0%,rgba(23,26,41,1) 50%,rgba(19,22,37,1) 100%);
+  background: -ms-radial-gradient(top, ellipse cover,  rgba(63,67,79,1) 0%,rgba(23,26,41,1) 50%,rgba(19,22,37,1) 100%);
+  background: radial-gradient(ellipse at top,  rgba(63,67,79,1) 0%,rgba(23,26,41,1) 50%,rgba(19,22,37,1) 100%);
+}
+.gamesp-container-j {
+  width: 100%;
+  float: left;
+  padding: 70px 0 60px;
+  background: -moz-radial-gradient(top, ellipse cover, rgba(63, 67, 79, 0.64) 0%, rgba(19, 22, 37, 0.6) 48%, rgba(19, 22, 37, 0) 100%);
+  background: -webkit-gradient(radial, center top, 0, center center, 100%, color-stop(0%, rgba(63, 67, 79, 0.64)), color-stop(48%, rgba(19, 22, 37, 0.6)), color-stop(100%, rgba(19, 22, 37, 0)));
+  background: -webkit-radial-gradient(top, ellipse cover, rgba(63, 67, 79, 0.64) 0%, rgba(19, 22, 37, 0.6) 48%, rgba(19, 22, 37, 0) 100%);
+  background: -o-radial-gradient(top, ellipse cover, rgba(63, 67, 79, 0.64) 0%, rgba(19, 22, 37, 0.6) 48%, rgba(19, 22, 37, 0) 100%);
+  background: -ms-radial-gradient(top, ellipse cover, rgba(63, 67, 79, 0.64) 0%, rgba(19, 22, 37, 0.6) 48%, rgba(19, 22, 37, 0) 100%);
+  background: radial-gradient(ellipse at top, rgba(63, 67, 79, 0.64) 0%, rgba(19, 22, 37, 0.6) 48%, rgba(19, 22, 37, 0) 100%);
+}
+.new-games-page-j .j-resize-950-1280 {padding: 0 15px;max-width: 1164px;}
+.new-games-page-j .j-resize-950-1280 li {
+  display: block;
+  float: left;
+  width: 281px;
+  height: 410px;
+  box-shadow: 0 3px 0 #0d0f18;
+  position: relative;
+  margin: 0 5px 12px;
+  @media screen and (max-height: 768px) {
+    height: 360px;
+  }
+}
+.new-games-page-j .j-resize-950-1280 li p {
+  display: block;
+  float: left;
+  color: #f3f3f5;
+  font: bold 20px/26px $font-f;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 126px;
+  position: relative;
+  z-index: 9;
+  &:before {
+    height: 44px;
+    width: 100%;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 100%;
+    display: block;
+    font: 44px/44px icomoon;
+    color: #f3f3f5;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+}
+.new-games-page-j  .game-link-tj {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.new-games-page-j .j-resize-950-1280 li.added-to-favorite-j {
+  box-shadow: 0 0 0 1px #b2b6c4, inset 0 0 0 1px #b2b6c4,  0 3px 0 #0d0f18;
+}
+.new-games-page-j .j-resize-950-1280 li.added-to-favorite-j .fav-bar-game-j {
+  opacity: 1;
+  color: $text-palette-1;
+}
+.new-games-page-j .j-resize-950-1280 li.added-to-favorite-j .fav-bar-game-j span:before {
+  content: "\f006";
+}
+.new-games-page-j .j-resize-950-1280 li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  box-shadow: inset 0 1px 0 #D29A09, 0 -1px 0 #624822, inset 0 2px 0 #5B523C, inset 0 3px 0 #83550D, -1px 0 0 #D08B1D, inset 1px 0 0 #E19319, 1px 0 0 #8A5D16, inset -1px 0 0 #E19319, 0 1px 0 #B78931,inset 0 -1px 0 #7E520D, inset 0 -2px 0 #322B22, inset 0 -3px 0 #FFD360, 0 3px 0 #0d0f18;
+}
+.new-games-page-j .j-resize-950-1280 li:before, .fav-bar-game-j {
+  transition: opacity 350ms ease-in-out;
+}
+.new-games-page-j .j-resize-950-1280 li:hover:before, .new-games-page-j .j-resize-950-1280 li:hover .fav-bar-game-j {
+  opacity: 1;
+}
+.new-games-page-j li.VGSPoker {
+  background: #181B2C url(../../../images/games-page/poker-1.jpg) no-repeat 0 -411px;
+  &:before {
+    background: url(../../../images/games-page/poker-1.jpg) no-repeat 0 0;
+  }
+  .action-button-set-j {
+    overflow: visible;
+  }
+  p:before {
+    content: "\e6c0";
+    font-size: 54px;
+  }
+} 
+.new-games-page-j li.VGSchPoker {
+  background: #181B2C url(../../../images/games-page/chinesse-1.jpg) no-repeat 0 -411px;
+  &:before {
+    background: url(../../../images/games-page/chinesse-1.jpg) no-repeat 0 0;
+  }
+  p:before {
+    content: "\e6da";
+  }
+} 
+.new-games-page-j li.VGSBELOTE {
+  background: #181B2C url(../../../images/games-page/belote-1.jpg) no-repeat 0 -411px;
+  &:before {
+    background: url(../../../images/games-page/belote-1.jpg) no-repeat 0 0;
+  }
+  p:before {
+    content: "\e6d0";
+  }
+}  
+.new-games-page-j li.VGSDeberc {
+  background: #181B2C url(../../../images/games-page/deberc-1.jpg) no-repeat 0 -411px;
+  &:before {
+    background: url(../../../images/games-page/deberc-1.jpg) no-repeat 0 0;
+  }
+  p:before {
+    content: "\e910";
+  }
+} 
+.new-games-page-j li.VGSnardi {
+  background: #181B2C url(../../../images/games-page/nardi-1.jpg) no-repeat 0 -411px;
+  &:before {
+    background: url(../../../images/games-page/nardi-1.jpg) no-repeat 0 0;
+  }
+  p:before {
+    content: "\e6cf";
+  }
+} 
+.new-games-page-j li.ASG1000 {
+  background: #181B2C url(../../../images/games-page/ogwil-1.jpg) no-repeat 0 -411px;
+  &:before {
+    background: url(../../../images/games-page/ogwil-1.jpg) no-repeat 0 0;
+  }
+  p:before {
+    content: "\e911";
+  }
+}
+
+.new-games-page-j li.NETkenobnjp_sw {
+  background: #181B2C url(../../../images/games-page/keno-1.jpg) no-repeat 0 -411px;
+  &:before {
+    background: url(../../../images/games-page/keno-1.jpg) no-repeat 0 0;
+  }
+  p:before {
+    content: "\e6d8";
+  }
+}
+
+.new-games-page-j li.VGSshashki {
+  background: #181B2C url(../../../images/games-page/checkers.jpg) no-repeat 0 -411px;
+  &:before {
+    background: url(../../../images/games-page/checkers.jpg) no-repeat 0 0;
+  }
+  p:before {
+    content: "\e939";
+  }
+}
+.new-games-page-j li.VGSrussianRoulette {
+  background: #181B2C url(../../../images/games-page/russian-roulette.jpg) no-repeat 0 -412px;
+  &:before {
+    background: url(../../../images/games-page/russian-roulette.jpg) no-repeat 0 0;
+  }
+  p:before {
+    content: "\e93a";
+  }
+}
+
+.fav-bar-game-j {
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  z-index: 20;
+  color: #302307;
+  overflow: hidden;
+}
+.fav-bar-game-j:before {
+  content: '';
+  display: block;
+  background: #ddbe62;
+  background: -moz-linear-gradient(45deg,  #ddbe62 0%, #decb92 20%, #a8852e 74%, #b08a36 100%);
+  background: -webkit-linear-gradient(45deg,  #ddbe62 0%,#decb92 20%,#a8852e 74%,#b08a36 100%);
+  background: linear-gradient(45deg,  #ddbe62 0%,#decb92 20%,#a8852e 74%,#b08a36 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddbe62', endColorstr='#b08a36',GradientType=1 );
+  width: 220px;
+  height: 26px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 30px;
+  left: -47px;
+}
+.fav-bar-game-j span {
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 33px;
+  right: 33px;
+  transform: rotate(42deg);
+  text-shadow: 1px 1px 0 #D0BB7E;
+}
+.fav-bar-game-j span:before {
+  content: "\f005";
+  font: 18px icomoon;
+}
+.games-pw-buttonset-j {
+  position: absolute;
+  z-index: 20;
+  text-align: center;
+  bottom: 25px;
+  left: 30px;
+  right: 30px; }
+.games-pw-buttonset-j button {
+  height: 36px;
+  background: $skin-palette-1;
+  color: $text-palette-8;
+  text-transform: uppercase;
+  min-width: 125px;
+  padding: 0 10px;
+  font: 14px $font-f;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  float: left;
+  transition-duration: 300ms;
+}
+.games-pw-buttonset-j button.skin-j {
+  border: 1px solid $skin-palette-1;
+  color: $text-palette-1;
+  min-width: 110px;
+  background: transparent;
+}
+.games-pw-buttonset-j button:hover, .games-pw-buttonset-j a:hover {
+  border-color: $hero-color;
+  background: $hero-color;
+  color: $text-palette-1;
+}
+.action-button-set-j {
+  float: right;
+  height: 36px;
+  overflow: hidden;
+}
+.action-button-set-j > div {
+  float: left;
+  width: 36px;
+}
+.action-button-set-j div a {
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 0;
+  min-width: 36px;
+  position: relative;
+  background: $skin-palette-9;
+  color: $text-palette-3;
+  padding: 0;
+  display: block;
+  transition-duration: 300ms;
+} 
+.action-button-set-j .download-j a{
+  background: $skin-palette-5;
+  color: $text-palette-2;
+}
+.action-button-set-j .download-j a:hover,
+.action-button-set-j .download-j.beta-j a:hover  {
+  background: $button-bg;
+}
+.action-button-set-j  .download-j.beta-j a {
+  background: $text-palette-4;
+  position: relative;
+  &:after {
+    content: "NEW. \03b2";
+    display: block;
+    font: 8px/12px $font-f;
+    color: $text-palette-1;
+    height: 12px;
+    min-width: 32px;
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background: $hero-color;
+    text-transform: none;
+  }
+}
+.action-button-set-j .view-j a:before {
+  content: "\e6b3";
+  font: 22px/36px icomoon;
+}
+.action-button-set-j .download-j a:before {
+  content: "\e6e0";
+  font: 16px/36px icomoon;
+}
+@media screen and (max-width: 1325px) {
+  .new-games-page-j .j-resize-950-1280 {
+    padding: 0 10px;
+    width: 958px;
+  }
+  .new-games-page-j .j-resize-950-1280 li:nth-child(4) {
+    margin-left: 0;
+  }
+  .new-games-page-j .j-resize-950-1280 li:nth-child(5) {
+    margin-left: 10px;
+  }
+}
+.casino-main .belote-with-fullscreen .contain-fantasy{
+  top: 136px;
+  height: calc(100% - 136px);
+}

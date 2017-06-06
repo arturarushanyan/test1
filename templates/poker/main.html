@@ -1,0 +1,9 @@
+<div class="gameing-wrapper poker-iframe" ng-controller="pokerCtrl" ng-init="initPoker()">
+    <style>body{overflow:hidden;}</style>
+    <!-- System Calculator-->
+    <div id="system-claculator-container" ng-if="$root.showSystemCalculator" draggable allow-other-mouse-events drag-from="calculator-draggable-header">
+        <ng-include src="getTemplate('templates/sport/classic/systemCalculator.html')"></ng-include>
+    </div>
+    <!-- System Calculator-->
+    <iframe ng-src="{{pokerUrl}} " class="poker-page"></iframe>
+</div>

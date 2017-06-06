@@ -1,0 +1,6368 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "OK"
+msgstr "O.K."
+
+# 
+msgid "Yes"
+msgstr "Ja"
+
+# 
+msgid "No"
+msgstr "Nein"
+
+# 
+msgid "Live"
+msgstr "Live"
+
+# 
+msgid "pre-match"
+msgstr "Pre-Match"
+
+# 
+msgid "No games found"
+msgstr "Keine Spiele gefunden"
+
+# 
+msgid "Games"
+msgstr "Spiele"
+
+# 
+msgid "all"
+msgstr "alle"
+
+# 
+msgid "Print coupon"
+msgstr "Print coupon"
+
+# 
+msgid "Today"
+msgstr "Heute"
+
+# 
+msgid "Tomorrow"
+msgstr "Morgen"
+
+# 
+msgid "1x2_1"
+msgstr "1x2_1"
+
+# 
+msgid "1x2_X"
+msgstr "1x2_X"
+
+# 
+msgid "1x2_2"
+msgstr "1x2_2"
+
+# 
+msgid "More"
+msgstr "Mehr"
+
+# 
+msgid "Sorry the game which you chose doesn't have the type of play for fun"
+msgstr "Leider können Sie dieses Spiel nicht ohne Einsatz spielen"
+
+# 
+msgid "Transfer"
+msgstr "Überweisung"
+
+# 
+msgid "Enter"
+msgstr "Eingeben"
+
+# 
+msgid "Withdraw from game"
+msgstr "Withdraw from game"
+
+# 
+msgid "Deposit to game"
+msgstr "Deposit to game"
+
+# 
+msgid "Game Balance: "
+msgstr "Game Balance: "
+
+# 
+msgid "Error occured"
+msgstr "Es ist ein Fehler aufgetreten"
+
+# 
+msgid "more"
+msgstr "Mehr"
+
+# 
+msgid "Select a Category"
+msgstr "Wählen Sie eine Kategorie"
+
+# 
+msgid "Select region"
+msgstr "Wählen Sie eine Region"
+
+# 
+msgid "All Providers"
+msgstr "All Providers"
+
+# 
+msgid "left arrow"
+msgstr "Pfeil links"
+
+# 
+msgid "right arrow"
+msgstr "Pfeil rechts"
+
+# 
+msgid "Popular Games"
+msgstr "Beliebte Spiele"
+
+# 
+msgid "play now"
+msgstr "Jetzt spielen"
+
+# 
+msgid "PLAY FOR FUN"
+msgstr "NUR ZUR UNTERHALTUNG"
+
+# 
+msgid "TOP SLOTS"
+msgstr "TOP-SPIELAUTOMATEN"
+
+# 
+msgid "VIEW"
+msgstr "ANZEIGEN"
+
+# 
+msgid "Load more"
+msgstr "Weitere laden"
+
+# 
+msgid "Casino games"
+msgstr "Casino games"
+
+# 
+msgid "Live casino"
+msgstr "Live casino"
+
+# 
+msgid "Skill games"
+msgstr "Skill games"
+
+# 
+msgid "Virtual games"
+msgstr "Virtual games"
+
+# 
+msgid "All Multi View Games"
+msgstr "All Multi View Games"
+
+# 
+msgid "Search"
+msgstr "Search"
+
+# 
+msgid "Powered by"
+msgstr "Mit Unterstützung von"
+
+# 
+msgid "All rights reserved."
+msgstr "Alle Rechte vorbehalten"
+
+# 
+msgid "Mobile version"
+msgstr "Mobile version"
+
+# 
+msgid "Previous version"
+msgstr "Vorherige Version"
+
+# 
+msgid "Previous Flash version"
+msgstr "Vorherige Flash-Version"
+
+# 
+msgid "Points Calculator"
+msgstr "Points Calculator"
+
+# 
+msgid "Buy-in"
+msgstr "Buy-in"
+
+# 
+msgid "Entrants"
+msgstr "Entrants"
+
+# 
+msgid "Position"
+msgstr "Position"
+
+# 
+msgid "Points"
+msgstr "Points"
+
+# 
+msgid "Play now!"
+msgstr "Jetzt spielen!"
+
+# 
+msgid "Download"
+msgstr "Herunterladen"
+
+# 
+msgid "How to Play"
+msgstr "How to Play"
+
+# 
+msgid "Tournament List"
+msgstr "Tournament List"
+
+# 
+msgid "Windows XP or higher"
+msgstr "Windows XP or higher"
+
+# 
+msgid "poker_requirements_windows"
+msgstr "poker_requirements_windows"
+
+# 
+msgid "poker_download_description_windows"
+msgstr "poker_download_description_windows"
+
+# 
+msgid "Mac OS 9 or higher"
+msgstr "Mac OS 9 or higher"
+
+# 
+msgid "poker_requirements_mac"
+msgstr "poker_requirements_mac"
+
+# 
+msgid "poker_download_description_mac"
+msgstr "poker_download_description_mac"
+
+# 
+msgid "Android version 4.0 or higher"
+msgstr "Android version 4.0 or higher"
+
+# 
+msgid "poker_requirements_android"
+msgstr "poker_requirements_android"
+
+# 
+msgid "poker_download_description_android"
+msgstr "poker_download_description_android"
+
+# 
+msgid "Best Promotions"
+msgstr "Best Promotions"
+
+# 
+msgid "Download Windows client"
+msgstr "Windows-Client herunterladen"
+
+# 
+msgid "desktop"
+msgstr "Desktop"
+
+# 
+msgid "Download MacOS client"
+msgstr "MacOS-Client herunterladen"
+
+# 
+msgid "iPhone"
+msgstr "iPhone"
+
+# 
+msgid "Instant Play"
+msgstr "Sofort spielen"
+
+# 
+msgid "android"
+msgstr "Android"
+
+# 
+msgid "Download Linux client"
+msgstr "Linux-Client herunterladen"
+
+# 
+msgid "linux"
+msgstr "Linux"
+
+# 
+msgid "Register"
+msgstr "Anmelden"
+
+# 
+msgid "Play"
+msgstr "Spielen"
+
+# 
+msgid "loading..."
+msgstr "Ladevorgang läuft"
+
+# 
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+# 
+msgid "Results Centre"
+msgstr "Results Centre"
+
+# 
+msgid "Sport"
+msgstr "Sport"
+
+# 
+msgid "Region"
+msgstr "Region"
+
+# 
+msgid "Competition"
+msgstr "Competition"
+
+# 
+msgid "Date"
+msgstr "Date"
+
+# 
+msgid "Event"
+msgstr "Veranstaltung"
+
+# 
+msgid "Score"
+msgstr "Score"
+
+# 
+msgid "No Results"
+msgstr "No Results"
+
+# 
+msgid "Today's Resluts"
+msgstr "Today's Resluts"
+
+# 
+msgid "You need to login to access this page."
+msgstr "You need to login to access this page."
+
+# 
+msgid "Recent Bets"
+msgstr "Letzte Wetten"
+
+# 
+msgid "Bet History"
+msgstr "Wett-Historie"
+
+# 
+msgid "Casino Bet History"
+msgstr "Casino Bet History"
+
+# 
+msgid "Wallet"
+msgstr "Wallet"
+
+# 
+msgid "History"
+msgstr "Historie"
+
+# 
+msgid "Renew"
+msgstr "Renew"
+
+# 
+msgid "Deposit"
+msgstr "Einzahlung"
+
+# 
+msgid "Withdraw"
+msgstr "Auszahlen"
+
+# 
+msgid "Sports"
+msgstr "Sport"
+
+# 
+msgid "Casino"
+msgstr "Casino"
+
+# 
+msgid "Upcoming games"
+msgstr "Nächste Spiele"
+
+# 
+msgid "News"
+msgstr "Neuigkeiten"
+
+# 
+msgid "Videos"
+msgstr "Videos"
+
+# 
+msgid "Results"
+msgstr "Ergebnisse"
+
+# 
+msgid "Sport center"
+msgstr "Sport-Center"
+
+# 
+msgid "Calendar"
+msgstr "Kalender"
+
+# 
+msgid "close"
+msgstr "Schließen"
+
+# 
+msgid "Input Password"
+msgstr "Input Password"
+
+# 
+msgid "Hello, we'd love to hear your thoughts."
+msgstr "Hello, we'd love to hear your thoughts."
+
+# 
+msgid "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+msgstr "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+
+# 
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+# 
+msgid "Enter your email address"
+msgstr "Geben Sie bitte Ihre E-Mail-Adresse ein"
+
+# 
+msgid "Please enter a valid email address"
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse an."
+
+# 
+msgid "Your message"
+msgstr "Your message"
+
+# 
+msgid "Send"
+msgstr "Senden"
+
+# 
+msgid "Your message has been sent."
+msgstr "Your message has been sent."
+
+# 
+msgid "Cash-out"
+msgstr "Cash-out"
+
+# 
+msgid "Cash-out done."
+msgstr "Cash-out done."
+
+# 
+msgid "Error occured."
+msgstr "Es ist ein Fehler aufgetreten"
+
+# 
+msgid "Cash-out for selected bet is not available."
+msgstr "Cash-out for selected bet is not available."
+
+# 
+msgid "Pick:"
+msgstr "Auswahl:"
+
+# 
+msgid "Price has changed"
+msgstr "Price has changed"
+
+# 
+msgid "Amount"
+msgstr "Betrag"
+
+# 
+msgid "Ok"
+msgstr "Ok"
+
+# 
+msgid "Cancel"
+msgstr "Cancel"
+
+# 
+msgid "Blitz Survey"
+msgstr "Blitz Survey"
+
+# 
+msgid "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+msgstr "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+
+# 
+msgid "Chinese Poker"
+msgstr "Chinese Poker"
+
+# 
+msgid "Live Casino"
+msgstr "Live Casino"
+
+# 
+msgid "Poker"
+msgstr "Poker"
+
+# 
+msgid "Backgammon"
+msgstr "Backgammon"
+
+# 
+msgid "Belote"
+msgstr "Belote"
+
+# 
+msgid "None of these"
+msgstr "None of these"
+
+# 
+msgid "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+msgstr "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+
+# 
+msgid "Submit"
+msgstr "Submit"
+
+# 
+msgid "Your balance is low"
+msgstr "Your balance is low"
+
+# 
+msgid "Renew to get more."
+msgstr "Renew to get more."
+
+# 
+msgid "SuperBet Counter Offer"
+msgstr "SuperBet Counter Offer"
+
+# 
+msgid "Bet Details"
+msgstr "Bet Details"
+
+# 
+msgid "Offer Details"
+msgstr "Offer Details"
+
+# 
+msgid "Odds:"
+msgstr "Quoten:"
+
+# 
+msgid "Amount:"
+msgstr "Betrag:"
+
+# 
+msgid "Remaining time:"
+msgstr "Remaining time:"
+
+# 
+msgid "Accept"
+msgstr "Akzeptieren"
+
+# 
+msgid "Decline"
+msgstr "Decline"
+
+# 
+msgid "competition or a team..."
+msgstr "Wettbewerb oder ein Team..."
+
+# 
+msgid "Search a competition or a team..."
+msgstr "Wettbewerb oder ein Team suchen ..."
+
+# 
+msgid "Search results"
+msgstr "Suchergebnisse"
+
+# 
+msgid "no results"
+msgstr "Keine Suchergebnisse"
+
+# 
+msgid "Search a casino game..."
+msgstr "Casino-Spiel suchen ...."
+
+# 
+msgid "Play now"
+msgstr "Play now"
+
+# 
+msgid "brain"
+msgstr "brain"
+
+# 
+msgid "All downloads"
+msgstr "All downloads"
+
+# 
+msgid "Windows"
+msgstr "Windows"
+
+# 
+msgid "Mac OS"
+msgstr "Mac OS"
+
+# 
+msgid "Linux"
+msgstr "Linux"
+
+# 
+msgid "Android"
+msgstr "Android"
+
+# 
+msgid "Tell me more"
+msgstr "Tell me more"
+
+# 
+msgid "View on map"
+msgstr "View on map"
+
+# 
+msgid "Contact us"
+msgstr "Contact us"
+
+# 
+msgid "Hide Map"
+msgstr "Hide Map"
+
+# 
+msgid "Winners"
+msgstr "Gewinner"
+
+# 
+msgid "There are no winners yet"
+msgstr "Noch keine Gewinner"
+
+# 
+msgid "No data"
+msgstr "No data"
+
+# 
+msgid "Name"
+msgstr " "
+
+# 
+msgid "ON THE WAY"
+msgstr "ON THE WAY"
+
+# 
+msgid "TO VICTORY!"
+msgstr "TO VICTORY!"
+
+# 
+msgid "Sign in"
+msgstr "Anmelden"
+
+# 
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+# 
+msgid "Join"
+msgstr "Join"
+
+# 
+msgid "Bet"
+msgstr "Bet"
+
+# 
+msgid "Win"
+msgstr "Win"
+
+# 
+msgid "Print"
+msgstr "Print"
+
+# 
+msgid "Type your new password"
+msgstr "Type your new password"
+
+# 
+msgid "Password"
+msgstr "Passwort"
+
+# 
+msgid "Please type your new password"
+msgstr "Please type your new password"
+
+# 
+msgid "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "Repeat Password"
+msgstr "Repeat Password"
+
+# 
+msgid "Please type your new password again"
+msgstr "Please type your new password again"
+
+# 
+msgid "Passwords are different"
+msgstr "Passwords are different"
+
+# 
+msgid "Your password has been changed."
+msgstr "Your password has been changed."
+
+# 
+msgid "Password reset failed."
+msgstr "Fehler bei Passwort-Reset."
+
+# 
+msgid "Username or email invalid"
+msgstr "Benutzername oder E-Mail-ungültig"
+
+# 
+msgid "Draw number"
+msgstr "Nummer der Ziehung"
+
+# 
+msgid "End date"
+msgstr "Enddatum"
+
+# 
+msgid "State"
+msgstr "Staat"
+
+# 
+msgid "Jackpot"
+msgstr "Jackpot"
+
+# 
+msgid "Pool"
+msgstr "Pool"
+
+# 
+msgid "Prize fund"
+msgstr "Preisgeld"
+
+# 
+msgid "Tickets / Variants"
+msgstr "Tickets / Varianten"
+
+# 
+msgid "Current Draw"
+msgstr "Laufende Ziehung"
+
+# 
+msgid "Draw"
+msgstr "Ziehung"
+
+# 
+msgid "Result"
+msgstr "Ergebnis"
+
+# 
+msgid "Bookmakers probability / bets amount (in %)"
+msgstr "Buchmacher-Wahrscheinlichkeit / Wettbetrag (in %)"
+
+# 
+msgid "min."
+msgstr "Min."
+
+# 
+msgid "Tickets"
+msgstr "Tickets"
+
+# 
+msgid "Variants"
+msgstr "Varianten"
+
+# 
+msgid "Winners (var.)"
+msgstr "Gewinner (Var.)"
+
+# 
+msgid "Win sum"
+msgstr "Gewinnsumme"
+
+# 
+msgid "Win coef"
+msgstr "Gewinnkoeff."
+
+# 
+msgid "All draws"
+msgstr "Alle Ziehungen"
+
+# 
+msgid "All bets"
+msgstr "Alle Wetten"
+
+# 
+msgid "You need to confirm the agreements."
+msgstr "Sie müssen die Vereinbarungen bestätigen."
+
+# 
+msgid "I agree to all"
+msgstr "Ich bin mit allen"
+
+# 
+msgid "Terms & Conditions"
+msgstr "Nutzungsbedingungen einverstanden"
+
+# 
+msgid "You can read our Terms and Conditions by clicking corresponding links in page footer."
+msgstr "Sie können unsere Allgemeinen Geschäftsbedingungen lesen, indem Sie entsprechenden Links in der Fußleiste anklicken."
+
+# 
+msgid "and I am over 18 years of age and have read and accepted the general terms and conditions."
+msgstr "und ich bin über 18 Jahre alt und habe die Allgemeinen Geschäftsbedingungen gelesen und akzeptiert."
+
+# 
+msgid "and I am over 21 years of age and have read and accepted the general terms and conditions."
+msgstr "und ich bin über 21 Jahre alt und habe die Allgemeinen Geschäftsbedingungen gelesen und akzeptiert."
+
+# 
+msgid "Registration complete."
+msgstr "Registrierung abgeschlossen."
+
+# 
+msgid "Please check your email."
+msgstr "Bitte überprüfen Sie Ihre E-Mails."
+
+# 
+msgid "Registration failed due to technical error."
+msgstr "Registrierung aufgrund technischer Fehler fehlgeschlagen."
+
+# 
+msgid "Please try again later."
+msgstr "Bitte versuchen Sie es später noch einmal."
+
+# 
+msgid "Australia"
+msgstr "Australien"
+
+# 
+msgid "Andorra"
+msgstr "Andorra"
+
+# 
+msgid "UAE"
+msgstr "VAE"
+
+# 
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+# 
+msgid "Antigua and Barbuda"
+msgstr "Antigua und Barbuda"
+
+# 
+msgid "Albania"
+msgstr "Albanien"
+
+# 
+msgid "Armenia"
+msgstr "Armenien"
+
+# 
+msgid "Angola"
+msgstr "Angola"
+
+# 
+msgid "Argentina"
+msgstr "Argentinien"
+
+# 
+msgid "American Samoa"
+msgstr "Amerikanisch-Samoa"
+
+# 
+msgid "Austria"
+msgstr "Österreich"
+
+# 
+msgid "Aruba"
+msgstr "Aruba"
+
+# 
+msgid "Azerbaijan"
+msgstr "Aserbaidschan"
+
+# 
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien-Herzegowina"
+
+# 
+msgid "Barbados"
+msgstr "Barbados"
+
+# 
+msgid "Bangladesh"
+msgstr "Bangladesch"
+
+# 
+msgid "Belgium"
+msgstr "Belgien"
+
+# 
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+# 
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+# 
+msgid "Bahrain"
+msgstr "Bahrain"
+
+# 
+msgid "Burundi"
+msgstr "Burundi"
+
+# 
+msgid "Benin"
+msgstr "Benin"
+
+# 
+msgid "Bermuda"
+msgstr "Bermuda"
+
+# 
+msgid "Brunei"
+msgstr "Brunei"
+
+# 
+msgid "Bolivia"
+msgstr "Bolivien"
+
+# 
+msgid "Brazil"
+msgstr "Brasilien"
+
+# 
+msgid "Bahamas"
+msgstr "Bahamas"
+
+# 
+msgid "Bhutan"
+msgstr "Bhutan"
+
+# 
+msgid "Botswana"
+msgstr "Botswana"
+
+# 
+msgid "Belarus"
+msgstr "Weißrussland"
+
+# 
+msgid "Belize"
+msgstr "Belize"
+
+# 
+msgid "Canada"
+msgstr "Kanada"
+
+# 
+msgid "Democratic Republic of the Congo"
+msgstr "Demokratische Republik Kongo"
+
+# 
+msgid "Central African Republic"
+msgstr "Zentralafrikanische Republik"
+
+# 
+msgid "Republic of the Congo"
+msgstr "Republik Kongo"
+
+# 
+msgid "Switzerland"
+msgstr "Schweiz"
+
+# 
+msgid "Cote d'Ivoire"
+msgstr "Elfenbeinküste"
+
+# 
+msgid "Cook Islands"
+msgstr "Cook-Inseln"
+
+# 
+msgid "Chile"
+msgstr "Chile"
+
+# 
+msgid "Cameroon"
+msgstr "Kamerun"
+
+# 
+msgid "China"
+msgstr "China"
+
+# 
+msgid "Colombia"
+msgstr "Kolumbien"
+
+# 
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+# 
+msgid "Cuba"
+msgstr "Kuba"
+
+# 
+msgid "Cape Verde"
+msgstr "Burkina Faso"
+
+# 
+msgid "Cyprus"
+msgstr "Zypern"
+
+# 
+msgid "Czech Republic"
+msgstr "Tschechien"
+
+# 
+msgid "Germany"
+msgstr "Deutschland"
+
+# 
+msgid "Djibouti"
+msgstr "Dschibuti"
+
+# 
+msgid "Denmark"
+msgstr "Dänemark"
+
+# 
+msgid "Dominica"
+msgstr "Dominica"
+
+# 
+msgid "Dominican Republic"
+msgstr "Dominikanische Republik"
+
+# 
+msgid "Algeria"
+msgstr "Algerien"
+
+# 
+msgid "Ecuador"
+msgstr "Ecuador"
+
+# 
+msgid "Estonia"
+msgstr "Estland"
+
+# 
+msgid "Egypt"
+msgstr "Ägypten"
+
+# 
+msgid "Eritrea"
+msgstr "Eritrea"
+
+# 
+msgid "Spain"
+msgstr "Spanien"
+
+# 
+msgid "Ethiopia"
+msgstr "Äthiopien"
+
+# 
+msgid "Finland"
+msgstr "Finnland"
+
+# 
+msgid "Fiji"
+msgstr "Fiji"
+
+# 
+msgid "Federated States of Micronesia"
+msgstr "Föderierte Staaten von Mikronesien"
+
+# 
+msgid "Faroe Islands"
+msgstr "Färöer"
+
+# 
+msgid "France"
+msgstr "Frankreich"
+
+# 
+msgid "Gabon"
+msgstr "Gabon"
+
+# 
+msgid "Great Britain"
+msgstr "Großbritannien"
+
+# 
+msgid "Grenada"
+msgstr "Staat Grenada"
+
+# 
+msgid "Georgia"
+msgstr "Georgien"
+
+# 
+msgid "Ghana"
+msgstr "Ghana"
+
+# 
+msgid "Gambia"
+msgstr "Gambia"
+
+# 
+msgid "Guinea"
+msgstr "Guinea"
+
+# 
+msgid "Equatorial Guinea"
+msgstr "Äquatorialguinea"
+
+# 
+msgid "Greece"
+msgstr "Griechenland"
+
+# 
+msgid "Guatemala"
+msgstr "Guatemala"
+
+# 
+msgid "Guam"
+msgstr "Guam"
+
+# 
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+# 
+msgid "Guyana"
+msgstr "Guyana"
+
+# 
+msgid "Hong Kong"
+msgstr "Hongkong"
+
+# 
+msgid "Honduras"
+msgstr "Honduras"
+
+# 
+msgid "Croatia"
+msgstr "Kroatien"
+
+# 
+msgid "Republic of Haiti"
+msgstr "Republik Haiti"
+
+# 
+msgid "Hungary"
+msgstr "Ungarn"
+
+# 
+msgid "Indonesia"
+msgstr "Indonesien"
+
+# 
+msgid "Ireland"
+msgstr "Irland"
+
+# 
+msgid "Israel"
+msgstr "Israel"
+
+# 
+msgid "India"
+msgstr "Indien"
+
+# 
+msgid "Iraq"
+msgstr "Irak"
+
+# 
+msgid "Iran"
+msgstr "Iran"
+
+# 
+msgid "Iceland"
+msgstr "Island"
+
+# 
+msgid "Italy"
+msgstr "Italien"
+
+# 
+msgid "Jamaica"
+msgstr "Jamaika"
+
+# 
+msgid "Jordan"
+msgstr "Jordanien"
+
+# 
+msgid "Japan"
+msgstr "Japan"
+
+# 
+msgid "Kenya"
+msgstr "Kenia"
+
+# 
+msgid "Kyrgyzstan"
+msgstr "Kirgisische Republik"
+
+# 
+msgid "Cambodia"
+msgstr "Kambodscha"
+
+# 
+msgid "Kiribati"
+msgstr "Kiribati"
+
+# 
+msgid "Comoros"
+msgstr "Komoren"
+
+# 
+msgid "Saint Kitts and Nevis"
+msgstr "St. Kitts und Nevis"
+
+# 
+msgid "DPRK"
+msgstr "Nordkorea"
+
+# 
+msgid "South Korea"
+msgstr "Südkorea"
+
+# 
+msgid "Kuwait"
+msgstr "Kuwait"
+
+# 
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+# 
+msgid "Kazakhstan"
+msgstr "Kasachstan"
+
+# 
+msgid "Laos"
+msgstr "Laos"
+
+# 
+msgid "Lebanon"
+msgstr "Libanon"
+
+# 
+msgid "Saint Lucia"
+msgstr "St. Lucia"
+
+# 
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+# 
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+# 
+msgid "Liberia"
+msgstr "Liberia"
+
+# 
+msgid "Lesotho"
+msgstr "Lesotho"
+
+# 
+msgid "Lithuania"
+msgstr "Litauen"
+
+# 
+msgid "Luxemburg"
+msgstr "Luxemburg"
+
+# 
+msgid "Latvia"
+msgstr "Lettland"
+
+# 
+msgid "Libya"
+msgstr "Libyen"
+
+# 
+msgid "Morocco"
+msgstr "Marokko"
+
+# 
+msgid "Monaco"
+msgstr "Monaco"
+
+# 
+msgid "Moldavia"
+msgstr "Moldawien"
+
+# 
+msgid "Montenegro"
+msgstr "Montenegro"
+
+# 
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+# 
+msgid "Macedonia"
+msgstr "Makedonien"
+
+# 
+msgid "Mali"
+msgstr "Mali"
+
+# 
+msgid "Myanmar"
+msgstr "Myanmar"
+
+# 
+msgid "Mongolia"
+msgstr "Mongolei"
+
+# 
+msgid "Mauritania"
+msgstr "Mauretanien"
+
+# 
+msgid "Malta"
+msgstr "Malta"
+
+# 
+msgid "Mauritius"
+msgstr "Mauritius"
+
+# 
+msgid "Maldives"
+msgstr "Malediven"
+
+# 
+msgid "Malawi"
+msgstr "Malawi"
+
+# 
+msgid "Mexico"
+msgstr "Mexiko"
+
+# 
+msgid "Malaysia"
+msgstr "Malaysia"
+
+# 
+msgid "Mozambique"
+msgstr "Mosambik"
+
+# 
+msgid "Namibia"
+msgstr "Namibia"
+
+# 
+msgid "Niger"
+msgstr "Niger"
+
+# 
+msgid "Nigeria"
+msgstr "Nigeria"
+
+# 
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+# 
+msgid "Netherlands"
+msgstr "Niederlande"
+
+# 
+msgid "Norway"
+msgstr "Norwegen"
+
+# 
+msgid "Nepal"
+msgstr "Nepal"
+
+# 
+msgid "Nauru"
+msgstr "Nauru"
+
+# 
+msgid "New Zealand"
+msgstr "Neuseeland"
+
+# 
+msgid "Oman"
+msgstr "Oman"
+
+# 
+msgid "Panama"
+msgstr "Panama"
+
+# 
+msgid "Peru"
+msgstr "Peru"
+
+# 
+msgid "Papua New Guinea"
+msgstr "Papua-Neuguinea"
+
+# 
+msgid "Philippines"
+msgstr "Philippinen"
+
+# 
+msgid "Pakistan"
+msgstr "Pakistan"
+
+# 
+msgid "Poland"
+msgstr "Polen"
+
+# 
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+# 
+msgid "Palestine"
+msgstr "Palästinensische Autonomiegebiete"
+
+# 
+msgid "Portugal"
+msgstr "Portugal"
+
+# 
+msgid "Palau"
+msgstr "Palau"
+
+# 
+msgid "Paraguay"
+msgstr "Paraguay"
+
+# 
+msgid "Qatar"
+msgstr "Katar"
+
+# 
+msgid "Romania"
+msgstr "Rumänien"
+
+# 
+msgid "Serbia"
+msgstr "Serbien"
+
+# 
+msgid "Russia"
+msgstr "Russland"
+
+# 
+msgid "Rwanda"
+msgstr "Ruanda"
+
+# 
+msgid "Saudi Arabia"
+msgstr "Saudi-Arabien"
+
+# 
+msgid "Solomon Islands"
+msgstr "Salomonen"
+
+# 
+msgid "Seychelles"
+msgstr "Seychellen"
+
+# 
+msgid "Sudan"
+msgstr "Sudan"
+
+# 
+msgid "Sweden"
+msgstr "Schweden"
+
+# 
+msgid "Singapore"
+msgstr "Singapur"
+
+# 
+msgid "Slovenia"
+msgstr "Slowenien"
+
+# 
+msgid "Slovakia"
+msgstr "Slowakei"
+
+# 
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+# 
+msgid "San Marino"
+msgstr "San Marino"
+
+# 
+msgid "Senegal"
+msgstr "Senegal"
+
+# 
+msgid "Somalia"
+msgstr "Somalia"
+
+# 
+msgid "Republic of Suriname"
+msgstr "Suriname"
+
+# 
+msgid "Sao Tome and Principe"
+msgstr "São Tomé und Príncipe"
+
+# 
+msgid "Salvador"
+msgstr "El Salvador"
+
+# 
+msgid "Syria"
+msgstr "Syrien"
+
+# 
+msgid "Swaziland"
+msgstr "Swasiland"
+
+# 
+msgid "Chad"
+msgstr "Tschad"
+
+# 
+msgid "Togo"
+msgstr "Togo"
+
+# 
+msgid "Thailand"
+msgstr "Thailand"
+
+# 
+msgid "Tadjikistan"
+msgstr "Tadschikistan"
+
+# 
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+# 
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+# 
+msgid "Tunisia"
+msgstr "Tunesien"
+
+# 
+msgid "Tonga"
+msgstr "Tonga"
+
+# 
+msgid "Turkey"
+msgstr "Türkei"
+
+# 
+msgid "Trinidad and Tobago"
+msgstr "Trinidad und Tobago"
+
+# 
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+# 
+msgid "Taiwan"
+msgstr "Taiwan"
+
+# 
+msgid "Tanzania"
+msgstr "Tansania"
+
+# 
+msgid "Ukraine"
+msgstr "Ukraine"
+
+# 
+msgid "Uganda"
+msgstr "Uganda"
+
+# 
+msgid "United States"
+msgstr "United States"
+
+# 
+msgid "Uruguay"
+msgstr "Uruguay"
+
+# 
+msgid "Uzbekistan"
+msgstr "Usbekistan"
+
+# 
+msgid "Saint Vincent and the Grenadines"
+msgstr "St. Vincent und die Grenadinen"
+
+# 
+msgid "Venezuela"
+msgstr "Venezuela"
+
+# 
+msgid "British Virgin Islands"
+msgstr "Britische Jungferninseln"
+
+# 
+msgid "United States Virgin Islands"
+msgstr "Amerikanische Jungferninseln"
+
+# 
+msgid "Vietnam"
+msgstr "Vietnam"
+
+# 
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+# 
+msgid "Samoa"
+msgstr "Samoa"
+
+# 
+msgid "Yemen"
+msgstr "Jemen"
+
+# 
+msgid "Republic of South Africa"
+msgstr "Republik Südafrika"
+
+# 
+msgid "Zambia"
+msgstr "Sambia"
+
+# 
+msgid "Zimbabwe"
+msgstr "Simbabwe"
+
+# 
+msgid "Contact Support"
+msgstr "Support kontaktieren"
+
+# 
+msgid "Live Chat"
+msgstr "Live-Chat"
+
+# 
+msgid "Live Agent"
+msgstr "Live Agent"
+
+# 
+msgid "Login with Facebook"
+msgstr "Login with Facebook"
+
+# 
+msgid "Sign in with Odnoklassniki"
+msgstr "Sign in with Odnoklassniki"
+
+# 
+msgid "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+msgstr "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+
+# 
+msgid "If you want to be able to login with your Odnoklassniki account you need to first Sign up with Odnoklassniki account."
+msgstr "If you want to be able to login with your Odnoklassniki account you need to first Sign up with Odnoklassniki account."
+
+# 
+msgid "Username"
+msgstr "Benutzername"
+
+# 
+msgid "Your login"
+msgstr "Ihr Login"
+
+# 
+msgid "Enter your password"
+msgstr "Geben Sie Ihr Passwort ein"
+
+# 
+msgid "SMS verification code"
+msgstr "SMS verification code"
+
+# 
+msgid "Enter verification code"
+msgstr "Enter verification code"
+
+# 
+msgid "Invalid username or password."
+msgstr "Benutzername oder Passwort ungültig"
+
+# 
+msgid "Create an account"
+msgstr "Erstellen Sie ein Konto"
+
+# 
+msgid "Time Period"
+msgstr "Zeitraum"
+
+# 
+msgid "All Casino Transactions"
+msgstr "All Casino Transactions"
+
+# 
+msgid "id: "
+msgstr "id: "
+
+# 
+msgid "next"
+msgstr "nächste"
+
+# 
+msgid "prev"
+msgstr "vorherige"
+
+# 
+msgid "Deposit to main wallet"
+msgstr "Einzahlung auf Hauptgeldbörse"
+
+# 
+msgid "Select a payment method"
+msgstr "Wählen Sie eine Zahlungsmethode"
+
+# 
+msgid "Please confirm money transfer"
+msgstr "Bitte bestätigen Sie die Überweisung"
+
+# 
+msgid "Amount: "
+msgstr "Betrag:"
+
+# 
+msgid "Status:"
+msgstr "Status:"
+
+# 
+msgid "Unknown"
+msgstr "Unknown"
+
+# 
+msgid "Success"
+msgstr "Success"
+
+# 
+msgid "Pending"
+msgstr "Pending"
+
+# 
+msgid "Failure"
+msgstr "Failure"
+
+# 
+msgid "Deposit Amount"
+msgstr "Einzahlungsbetrag"
+
+# 
+msgid "Payment complete"
+msgstr "Zahlung ist erfolgt"
+
+# 
+msgid "enter amount here"
+msgstr "Betrag hier eingeben"
+
+# 
+msgid "Status"
+msgstr "Status"
+
+# 
+msgid "Withdraw from main wallet"
+msgstr "Auszahlung von Hauptgeldbörse"
+
+# 
+msgid "Select withdraw method"
+msgstr "Select withdraw method"
+
+# 
+msgid "User ID"
+msgstr "User ID"
+
+# 
+msgid "Withdraw Amount"
+msgstr "Auszahlungsbetrag"
+
+# 
+msgid "available:"
+msgstr "verfügbar:"
+
+# 
+msgid "Please, upload your passport scan or passport photo to ease your further withdrawals."
+msgstr "Please, upload your passport scan or passport photo to ease your further withdrawals."
+
+# 
+msgid "Verify Account"
+msgstr "Verify Account"
+
+# 
+msgid "Payment Method"
+msgstr "Payment Method"
+
+# 
+msgid "Time"
+msgstr "Zeit"
+
+# 
+msgid "Your currency is"
+msgstr "Ihre Währung ist"
+
+# 
+msgid "Balance"
+msgstr " "
+
+# 
+msgid "Total"
+msgstr "Gesamt"
+
+# 
+msgid "Main"
+msgstr "Hauptkontostand"
+
+# 
+msgid "If your balance less, top up your balance now."
+msgstr "Machen Sie jetzt eine Einzahlung, wenn Ihr Kontostand niedriger ist."
+
+# 
+msgid "From"
+msgstr "Von"
+
+# 
+msgid "To"
+msgstr "Bis"
+
+# 
+msgid "Max"
+msgstr "Max"
+
+# 
+msgid "Wait..."
+msgstr "Bitte warten.."
+
+# 
+msgid "Bonus"
+msgstr "Bonus"
+
+# 
+msgid "Pool Betting"
+msgstr "Pool-Wetten"
+
+# 
+msgid "Use points to win"
+msgstr "Use points to win"
+
+# 
+msgid "Use Points"
+msgstr "Use Points"
+
+# 
+msgid "Points left"
+msgstr "Points left"
+
+# 
+msgid "To win iphone 6"
+msgstr "To win iphone 6"
+
+# 
+msgid "Play games"
+msgstr "Play games"
+
+# 
+msgid "Go to shop"
+msgstr "Go to shop"
+
+# 
+msgid "Main Bonus"
+msgstr "Main Bonus"
+
+# 
+msgid "Casino Bonus"
+msgstr "Casino Bonus"
+
+# 
+msgid "Transactions"
+msgstr "Transaktionen"
+
+# 
+msgid "All Transactions"
+msgstr "Alle Transaktionen"
+
+# 
+msgid "Categories"
+msgstr "Categories"
+
+# 
+msgid "Financials"
+msgstr "Kapital"
+
+# 
+msgid "Fantasy Sports"
+msgstr "Fantasy Sports"
+
+# 
+msgid "Ogwil"
+msgstr "Ogwil"
+
+# 
+msgid "Live games"
+msgstr "Live games"
+
+# 
+msgid "All games"
+msgstr "Alle Spiele"
+
+# 
+msgid "Roulette"
+msgstr "Roulette"
+
+# 
+msgid "BlackJack"
+msgstr "BlackJack"
+
+# 
+msgid "Bet on Poker"
+msgstr "Bet on Poker"
+
+# 
+msgid "Baccarat"
+msgstr "Baccarat"
+
+# 
+msgid "Please try later or contact support."
+msgstr "Bitte versuchen Sie es erneut oder wenden Sie sich an den Betreuungsservice."
+
+# 
+msgid "All Bets"
+msgstr "Alle Wetten"
+
+# 
+msgid "unsettled"
+msgstr "Unerledigt"
+
+# 
+msgid "lost"
+msgstr "Verloren"
+
+# 
+msgid "returned"
+msgstr "Zurückgezahlt"
+
+# 
+msgid "Won"
+msgstr "Gewonnen"
+
+# 
+msgid "Set"
+msgstr "Festlegen"
+
+# 
+msgid "Prize"
+msgstr "Preis"
+
+# 
+msgid "Distance"
+msgstr "Entfernung"
+
+# 
+msgid "Surface"
+msgstr "Oberfläche"
+
+# 
+msgid "Game start:"
+msgstr "Spielbeginn:"
+
+# 
+msgid "You don't have favourite games. To add some, click the star icon near the game name."
+msgstr "Sie haben noch keine Favoriten. Zum Hinzufügen klicken Sie auf das Sternsymbol bei der Spielebezeichnung."
+
+# 
+msgid "Bet Type"
+msgstr "Wett-Typ"
+
+# 
+msgid "All"
+msgstr "Alle"
+
+# 
+msgid "Single"
+msgstr "Einzel"
+
+# 
+msgid "express"
+msgstr "Express"
+
+# 
+msgid "system"
+msgstr "System"
+
+# 
+msgid "chain"
+msgstr "Verkettung"
+
+# 
+msgid "Outcome"
+msgstr "Ergebnis"
+
+# 
+msgid "Unsettled"
+msgstr "Unerledigt"
+
+# 
+msgid "Lost"
+msgstr "Verloren"
+
+# 
+msgid "Returned"
+msgstr "Zurückgezahlt"
+
+# 
+msgid "Cashed out"
+msgstr "Cashed out"
+
+# 
+msgid "Pick"
+msgstr "Auswahl"
+
+# 
+msgid "Bet placed from bonus."
+msgstr "Wette aus Bonus"
+
+# 
+msgid "On Hold"
+msgstr "On Hold"
+
+# 
+msgid "Declined"
+msgstr "Declined"
+
+# 
+msgid "Sign up with Odnoklassniki"
+msgstr "Sign up with Odnoklassniki"
+
+# 
+msgid "Sign up with Facebook"
+msgstr "Sign up with Facebook"
+
+# 
+msgid "User details:"
+msgstr "User details:"
+
+# 
+msgid "Enter here"
+msgstr "Hier eingeben"
+
+# 
+msgid "This field is required"
+msgstr "Dieses Feld ist erforderlich."
+
+# 
+msgid "This email already exists in our database, please enter another"
+msgstr "Diese E-Mail ist bereits in unserer Datenbank vorhanden. Geben Sie bitte eine andere ein."
+
+# 
+msgid "First"
+msgstr "Vorname"
+
+# 
+msgid "Please enter a valid first name"
+msgstr "Bitte geben Sie einen gültigen Vornamen an."
+
+# 
+msgid "Last"
+msgstr "Nachname"
+
+# 
+msgid "Please enter a valid last name"
+msgstr "Bitte geben Sie einen gültigen Nachnamen an."
+
+# 
+msgid "Gender"
+msgstr "Geschlecht"
+
+# 
+msgid "Male"
+msgstr "Männlich"
+
+# 
+msgid "Female"
+msgstr "Weiblich"
+
+# 
+msgid "Passport Number"
+msgstr "Reisepass-Nummer:"
+
+# 
+msgid "Passport Number is already registered for another account"
+msgstr "Diese Reisepass-Nummer ist bereits für ein anderes Konto vergeben"
+
+# 
+msgid "Contact number"
+msgstr "Kontaktnummer"
+
+# 
+msgid "Number"
+msgstr "Nummer"
+
+# 
+msgid "Invalid phone number"
+msgstr "Invalid phone number"
+
+# 
+msgid "Duplicate phone number"
+msgstr "Duplicate phone number"
+
+# 
+msgid "Verify phone number by sms"
+msgstr "Verify phone number by sms"
+
+# 
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "Do you plan to sign in with login/password as well?"
+
+# 
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+msgstr "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+
+# 
+msgid "Some games will still require you to sign in using username/password."
+msgstr "Some games will still require you to sign in using username/password."
+
+# 
+msgid "Sorry, this username has been used already"
+msgstr "Dieser Benutzername wird bereits verwendet"
+
+# 
+msgid "Password cannot be same as login"
+msgstr "Passwort und Login dürfen nicht identisch sein"
+
+# 
+msgid "Must be at least 6 characters"
+msgstr "Muss mindestens aus 6 Zeichen bestehen."
+
+# 
+msgid "Repeat password"
+msgstr "Repeat password"
+
+# 
+msgid "passwords don't match"
+msgstr "Passwörter stimmen nicht überein"
+
+# 
+msgid "Start playing now."
+msgstr "Start playing now."
+
+# 
+msgid "You have"
+msgstr "You have"
+
+# 
+msgid "Reset password"
+msgstr "Kennwort zurücksetzen"
+
+# 
+msgid "Enter your username"
+msgstr "Benutzername eingeben"
+
+# 
+msgid "Please enter a valid username"
+msgstr "Bitte geben Sie einen gültigen Benutzernamen ein"
+
+# 
+msgid "Password reset complete."
+msgstr "Passwort wurde zurückgesetzt."
+
+# 
+msgid "Express"
+msgstr "Express"
+
+# 
+msgid "System"
+msgstr "System"
+
+# 
+msgid "Chain"
+msgstr "Verkettung"
+
+# 
+msgid "UNSETTLED"
+msgstr "UNERLEDIGT"
+
+# 
+msgid "UNSETTLED "
+msgstr "UNERLEDIGT"
+
+# 
+msgid "Won:"
+msgstr "Gewonnen:"
+
+# 
+msgid "Potential win:"
+msgstr "Gewinnchance:"
+
+# 
+msgid "Settings"
+msgstr "Einstellungen"
+
+# 
+msgid "Personal Details"
+msgstr "Persönliche Daten"
+
+# 
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+# 
+msgid "Self-Exclusion"
+msgstr "Selbstausschluss"
+
+# 
+msgid "Deposit Limits"
+msgstr "Einzahlungslimits"
+
+# 
+msgid "Preferences"
+msgstr "Einstellungen"
+
+# 
+msgid "Change language"
+msgstr "Sprache ändern"
+
+# 
+msgid "Odds in"
+msgstr "Gewinnquoten"
+
+# 
+msgid "Decimal"
+msgstr "Dezimal"
+
+# 
+msgid "Fractional"
+msgstr "Fraktionell"
+
+# 
+msgid "American"
+msgstr "Amerikanisch"
+
+# 
+msgid "Save"
+msgstr "Speichern"
+
+# 
+msgid "Current Password"
+msgstr "Aktuelles Passwort"
+
+# 
+msgid "Password incorrect"
+msgstr "Passwort falsch"
+
+# 
+msgid "New Password"
+msgstr "Neues Passwort"
+
+# 
+msgid "Must be at least 8 characters"
+msgstr "Muss mindestens aus 8 Zeichen bestehen."
+
+# 
+msgid "Password must contain uppercase letters, lowercase letters and numbers."
+msgstr "Password must contain uppercase letters, lowercase letters and numbers."
+
+# 
+msgid "Confirm New Password"
+msgstr "Neues Passwort bestätigen"
+
+# 
+msgid "Confirm password"
+msgstr "Passwort bestätigen"
+
+# 
+msgid "Passwords don't match"
+msgstr "Passwörter stimmen nicht überein"
+
+# 
+msgid "First Name"
+msgstr "Vorname"
+
+#
+msgid "First name"
+msgstr "Vorname"
+
+# 
+msgid "Last Name"
+msgstr "Nachname"
+
+#
+msgid "Last name"
+msgstr "Nachname"
+
+# 
+msgid "Birth date"
+msgstr "Geburtsdatum"
+
+# 
+msgid "Email"
+msgstr "E-Mail"
+
+# 
+msgid "Country"
+msgstr "Land"
+
+# 
+msgid "City"
+msgstr "Ort"
+
+# 
+msgid "Address"
+msgstr "Adresse"
+
+# 
+msgid "E-mail"
+msgstr "E-Mail"
+
+# 
+msgid "message_1119"
+msgstr "Nachricht_1119"
+
+# 
+msgid "Deposit limits allow you to limit the amount of funds you can deposit into the account. The amount can be chosen over a daily, weekly or monthly period. The deposit limit will allow you to restrict the amount of money entering your account, before betting takes place."
+msgstr "Mithilfe von Einzahlungslimits können Sie die Höhe der Einzahlungen auf Ihr Konto begrenzen. Der Betrag kann für einen Tages-, Wochen-oder Monatszeitraum festgelegt werden. Das Einzahlungslimit erlaubt es Ihnen, die Höhe des Einzahlungsbetrages auf Ihr Konto vor dem Wettabschluss zu begrenzen."
+
+# 
+msgid "Enter amount"
+msgstr "Betrag eingeben"
+
+# 
+msgid "Day"
+msgstr "Tag"
+
+# 
+msgid "Week"
+msgstr "Woche"
+
+# 
+msgid "Month"
+msgstr "Monat"
+
+# 
+msgid "Please note that you'll be able to increase your limits only after seven days from your 1st request."
+msgstr "Please note that you'll be able to increase your limits only after seven days from your 1st request."
+
+# 
+msgid "You can exclude online for a minimum period of six months, once the six months has expired your account will be reactivated again."
+msgstr "Sie können sich online für einen Mindestzeitraum von sechs Monaten auszuschließen. Nach Ablauf dieser Zeitspanne wird Ihr Konto wieder aktiviert."
+
+# 
+msgid "Please note that you'll be able to decrease the self-exclusion period only after seven days from your 1st request."
+msgstr "Please note that you'll be able to decrease the self-exclusion period only after seven days from your 1st request."
+
+# 
+msgid "Self exclusion of six month period"
+msgstr "Selbstausschluss für einen Zeitraum von sechs Monaten"
+
+# 
+msgid "Self exclusion of a one year period"
+msgstr "Selbstausschluss für einen Zeitraum von einem Jahr"
+
+# 
+msgid "Messages"
+msgstr "Nachrichten"
+
+# 
+msgid "Inbox"
+msgstr "Posteingang"
+
+# 
+msgid "Sent messages"
+msgstr "Gesendete Nachrichten"
+
+# 
+msgid "New message"
+msgstr "Neue Nachricht"
+
+# 
+msgid "Subject"
+msgstr "Betreff"
+
+# 
+msgid "Message"
+msgstr "Nachricht"
+
+# 
+msgid "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "Pool:"
+msgstr "Verbund:"
+
+# 
+msgid "Rules"
+msgstr "Bestimmungen"
+
+# 
+msgid "W1"
+msgstr "W1"
+
+# 
+msgid "W2"
+msgstr "W2"
+
+# 
+msgid "Options:"
+msgstr "Optionen:"
+
+# 
+msgid "Minimal Bet Amount:"
+msgstr "Mindestbetrag:"
+
+# 
+msgid "0"
+msgstr "0"
+
+# 
+msgid "Random Choice"
+msgstr "Zufällige Auswahl"
+
+# 
+msgid "Favourite Choice"
+msgstr "Favoriten"
+
+# 
+msgid "Place bets!"
+msgstr "Wetten platzieren!"
+
+# 
+msgid "To place your bet, please"
+msgstr "Um Ihre Wetten zu platzieren, müssen Sie sich zunächst"
+
+# 
+msgid "sign in"
+msgstr "anmelden"
+
+# 
+msgid "or"
+msgstr "oder"
+
+# 
+msgid "register"
+msgstr "registrieren"
+
+# 
+msgid "Free Bet"
+msgstr "Free Bet"
+
+# 
+msgid "freebet_info"
+msgstr "freebet_info"
+
+# 
+msgid "backgammon_requirements_windows"
+msgstr "backgammon_requirements_windows"
+
+# 
+msgid "backgammon_download_description_windows"
+msgstr "backgammon_download_description_windows"
+
+# 
+msgid "Use your"
+msgstr "Use your"
+
+# 
+msgid "skills"
+msgstr "skills"
+
+# 
+msgid "100%"
+msgstr "100%"
+
+# 
+msgid "MORE!"
+msgstr "MORE!"
+
+# 
+msgid "Register Now"
+msgstr "Register Now"
+
+# 
+msgid "know more..."
+msgstr "know more..."
+
+# 
+msgid "Get more"
+msgstr "Get more"
+
+# 
+msgid "Read More"
+msgstr "Read More"
+
+# 
+msgid "Share"
+msgstr "Teilen"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome   "
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome   "
+
+# 
+msgid "Your file successfully uploaded "
+msgstr "Your file successfully uploaded "
+
+# 
+msgid " There was an error during file upload, please try again. "
+msgstr " There was an error during file upload, please try again. "
+
+# 
+msgid "Loading"
+msgstr "Laden"
+
+# 
+msgid "Current Rank"
+msgstr "Current Rank"
+
+# 
+msgid "ID"
+msgstr "ID"
+
+# 
+msgid "Previous Rank"
+msgstr "Previous Rank"
+
+# 
+msgid "Currency"
+msgstr "Währung"
+
+# 
+msgid "Fee"
+msgstr "Fee"
+
+# 
+msgid "Process Time"
+msgstr "Process Time"
+
+# 
+msgid "Min"
+msgstr "Min"
+
+# 
+msgid "Info"
+msgstr "Info"
+
+# 
+msgid "Free"
+msgstr "Free"
+
+# 
+msgid "Instant"
+msgstr "Instant"
+
+# 
+msgid "Additional information"
+msgstr "Additional information"
+
+# 
+msgid "DAILY COUPON"
+msgstr "DAILY COUPON"
+
+# 
+msgid "Pick: "
+msgstr "Pick: "
+
+# 
+msgid "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+msgstr "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+
+# 
+msgid "This week's winners"
+msgstr "Gewinner der Woche"
+
+# 
+msgid "My tickets"
+msgstr "Meine Tickets"
+
+# 
+msgid "You have no tickets"
+msgstr "Sie haben keine Tickets"
+
+# 
+msgid "Live Casino Page is currently closed for"
+msgstr "Live Casino Page is currently closed for"
+
+# 
+msgid "maintenance."
+msgstr "maintenance."
+
+# 
+msgid "We will be back soon with more and better features. Thank you for your patience."
+msgstr "We will be back soon with more and better features. Thank you for your patience."
+
+# 
+msgid "Click here to see other games."
+msgstr "Click here to see other games."
+
+# 
+msgid "Offline"
+msgstr "Offline"
+
+# 
+msgid "Every Week JACKPOT 500.000$"
+msgstr "Every Week JACKPOT 500.000$"
+
+# 
+msgid "Show more"
+msgstr "Show more"
+
+# 
+msgid "Live Keno"
+msgstr "Live Keno"
+
+# 
+msgid "Live Draw 6 of 49"
+msgstr "Live Draw 6 of 49"
+
+# 
+msgid "Quarter"
+msgstr "Viertel"
+
+# 
+msgid "Video not available yet"
+msgstr "Video not available yet"
+
+# 
+msgid "You need to be logged in to be able to play video."
+msgstr "Sie müssen für Videospiele angemeldet sein."
+
+# 
+msgid "You need to have non-zero balance to be able to play video."
+msgstr "Sie müssen für Videospiele einen positiven Kontostand haben."
+
+# 
+msgid "Detach"
+msgstr "Trennen"
+
+# 
+msgid "End"
+msgstr "Ende"
+
+# 
+msgid "Inning"
+msgstr "Innings"
+
+# 
+msgid "First Quarter"
+msgstr "Erstes Viertel"
+
+# 
+msgid "First Quarter Ended"
+msgstr "Erstes Viertel beendet"
+
+# 
+msgid "Second Quarter"
+msgstr "Zweites Viertel"
+
+# 
+msgid "Second Quarter Ended"
+msgstr "Zweites Viertel beendet"
+
+# 
+msgid "Third Quarter"
+msgstr "Drittes Viertel"
+
+# 
+msgid "Third Quarter Ended"
+msgstr "Drittes Viertel beendet"
+
+# 
+msgid "Fourth Quarter"
+msgstr "Viertes Viertel"
+
+# 
+msgid "Fourth Quarter Ended"
+msgstr "Viertes Viertel beendet"
+
+# 
+msgid "Overtime"
+msgstr "Verlängerung"
+
+# 
+msgid "Overtime Ended"
+msgstr "Verlängerung beendet"
+
+# 
+msgid "Foul"
+msgstr "Foul"
+
+# 
+msgid "Free Throw"
+msgstr "Freiwurf"
+
+# 
+msgid "Free 1-Point Throw"
+msgstr "Freiwurf 1-Punkt"
+
+# 
+msgid "Free 2-Point Throw"
+msgstr "Freiwurf 2-Punkte"
+
+# 
+msgid "Free 3-Point Throw"
+msgstr "Freiwurf 3-Punkte"
+
+# 
+msgid "Missed Free Throw"
+msgstr "Vergebener Freiwurf"
+
+# 
+msgid "Attack"
+msgstr "Angriff"
+
+# 
+msgid "One Point"
+msgstr "Ein Punkt"
+
+# 
+msgid "Two Points"
+msgstr "Zwei Punkte"
+
+# 
+msgid "Three Points"
+msgstr "Drei Punkte"
+
+# 
+msgid "Timeout"
+msgstr "Timeout"
+
+# 
+msgid "Finished"
+msgstr "Beendet"
+
+# 
+msgid "Point"
+msgstr "Punkt"
+
+# 
+msgid "Fault"
+msgstr "Fehler"
+
+# 
+msgid "First Set"
+msgstr "Erster Satz"
+
+# 
+msgid "Second Set"
+msgstr "Zweiter Satz"
+
+# 
+msgid "Third Set"
+msgstr "Dritter Satz"
+
+# 
+msgid "Fourth Set"
+msgstr "Vierter Satz"
+
+# 
+msgid "Fifth Set"
+msgstr "Fünfter Satz"
+
+# 
+msgid "Dangerous Attack"
+msgstr "Gefährliche Attacke"
+
+# 
+msgid "Shot on target"
+msgstr "Torschuss"
+
+# 
+msgid "Shot off target"
+msgstr "Torschuss"
+
+# 
+msgid "Corner kick"
+msgstr "Eckstoß"
+
+# 
+msgid "Yellow card"
+msgstr "Gelbe Karte"
+
+# 
+msgid "Red card"
+msgstr "Rote Karte"
+
+# 
+msgid "Period"
+msgstr "Zeitraum"
+
+# 
+msgid "Game"
+msgstr "Spiel"
+
+# 
+msgid "Ace"
+msgstr "Ass"
+
+# 
+msgid "Service Fault"
+msgstr "Aufschlagfehler"
+
+# 
+msgid "Double Fault"
+msgstr "Doppelfehler"
+
+# 
+msgid "Injury Break"
+msgstr "Verletzungspause"
+
+# 
+msgid "Rain Delay"
+msgstr "Verzögerung wegen Regen"
+
+# 
+msgid "Aces"
+msgstr "Asse"
+
+# 
+msgid "Double Faults"
+msgstr "Doppelfehler"
+
+# 
+msgid "Corner"
+msgstr "Ecke"
+
+# 
+msgid "Yellow Card"
+msgstr "Gelbe Karte"
+
+# 
+msgid "Extra Time Half Time"
+msgstr "Halbzeit der Verlängerung"
+
+# 
+msgid "Not Started"
+msgstr "Nicht begonnen."
+
+# 
+msgid "Offside"
+msgstr "Abseits"
+
+# 
+msgid "Goal"
+msgstr "Tor"
+
+# 
+msgid "Pre Extra Half"
+msgstr "Pre:- Nachspielzeit 1. Hälfte"
+
+# 
+msgid "Throw In"
+msgstr "Einwurf"
+
+# 
+msgid "Goal Kick"
+msgstr "Abstoß"
+
+# 
+msgid "Substitution"
+msgstr "Auswechslung"
+
+# 
+msgid "Extra Time First Half"
+msgstr "Erste Halbzeit der Verlängerung"
+
+# 
+msgid "Second Half"
+msgstr "Zweite Halbzeit"
+
+# 
+msgid "Half Time"
+msgstr "Halbzeit"
+
+# 
+msgid "Ball Safe"
+msgstr "Ball sicher"
+
+# 
+msgid "Free Kick"
+msgstr "Freistoß"
+
+# 
+msgid "Extra Time Second Half"
+msgstr "Zweite Halbzeit der Verlängerung"
+
+# 
+msgid "Red Card"
+msgstr "Rote Karte"
+
+# 
+msgid "First Half"
+msgstr "Erste Halbzeit"
+
+# 
+msgid "Penalty"
+msgstr "Elfmeter"
+
+# 
+msgid "First time score"
+msgstr "Erstes erzieltes Tor"
+
+# 
+msgid "HT"
+msgstr "Halbzeit"
+
+# 
+msgid "yellow cards"
+msgstr "Gelbe Karten"
+
+# 
+msgid "red cards"
+msgstr "Rote Karten"
+
+# 
+msgid "corners"
+msgstr "Ecken"
+
+# 
+msgid "penalties"
+msgstr "Elfmeter"
+
+# 
+msgid "Sound"
+msgstr "Sound"
+
+# 
+msgid "Frame"
+msgstr "Frame"
+
+# 
+msgid "Race Type"
+msgstr "Race Type"
+
+# 
+msgid "Select a Sport"
+msgstr "Wählen Sie eine Sportart"
+
+# 
+msgid "Next Event"
+msgstr "Next Event"
+
+# 
+msgid "Events from different groups can be combined in combined bets"
+msgstr "Events from different groups can be combined in combined bets"
+
+# 
+msgid "Horse"
+msgstr "Horse"
+
+# 
+msgid "Greyhound"
+msgstr "Greyhound"
+
+# 
+msgid "Jockey"
+msgstr "Jockey"
+
+# 
+msgid "Cash-out available"
+msgstr "Cash-out available"
+
+# 
+msgid "№"
+msgstr "№"
+
+# 
+msgid "sport news"
+msgstr "Sportnachrichten"
+
+# 
+msgid "Change statistics mode"
+msgstr "Change statistics mode"
+
+# 
+msgid "Show / Hide statistics"
+msgstr "Show / Hide statistics"
+
+# 
+msgid "Use this selector to switch between Live and Pre-match games"
+msgstr "Verwenden Sie diesen Selektor, um zwischen Live-Begegnungen und noch anstehenden Spielen (Pre-Match) umzuschalten"
+
+# 
+msgid "click to switch to pre-match"
+msgstr "Klicken, um zu Pre-Match-Spielen umzuschalten"
+
+# 
+msgid "live"
+msgstr "Live"
+
+# 
+msgid "click to swicth to Live games"
+msgstr "Klicken, um zu Live-Begegnungen umzuschalten"
+
+# 
+msgid "Switch to"
+msgstr "Umschalten zu"
+
+# 
+msgid "Select sport"
+msgstr "Wählen Sie eine Sportart"
+
+# 
+msgid "Remove All from Favorites"
+msgstr "Remove All from Favorites"
+
+# 
+msgid "Remove from My Games"
+msgstr "Remove from My Games"
+
+# 
+msgid "Add to My Games"
+msgstr "Zu meinen Spielen hinzufügen"
+
+# 
+msgid "Phone only market"
+msgstr "Phone only market"
+
+# 
+msgid "To place a bet, please call"
+msgstr "To place a bet, please call"
+
+# 
+msgid "statistic"
+msgstr "Statistik"
+
+# 
+msgid "There may be a Rule 4 on this Race"
+msgstr "There may be a Rule 4 on this Race"
+
+# 
+msgid "Win Only"
+msgstr "Win Only"
+
+# 
+msgid "show more"
+msgstr "Mehr anzeigen"
+
+# 
+msgid "show"
+msgstr "Anzeigen"
+
+# 
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+
+# 
+msgid "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+msgstr "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+
+# 
+msgid "Today at"
+msgstr "Today at"
+
+# 
+msgid "Course"
+msgstr "Course"
+
+# 
+msgid "Winner"
+msgstr "Winner"
+
+# 
+msgid "Handicap"
+msgstr "Handicap"
+
+# 
+msgid "Tie"
+msgstr "Tie"
+
+# 
+msgid "Odds"
+msgstr "Odds"
+
+# 
+msgid "Full Time"
+msgstr "Full Time"
+
+# 
+msgid "1st Goal"
+msgstr "1st Goal"
+
+# 
+msgid "Last Goal"
+msgstr "Last Goal"
+
+# 
+msgid "None"
+msgstr "Keine"
+
+# 
+msgid "ODD"
+msgstr "ODD"
+
+# 
+msgid "EVEN"
+msgstr "EVEN"
+
+# 
+msgid "Full Time 1X2"
+msgstr "Full Time 1X2"
+
+# 
+msgid "Half Time 1X2"
+msgstr "Half Time 1X2"
+
+# 
+msgid "Order by Time"
+msgstr "Order by Time"
+
+# 
+msgid "Back"
+msgstr "Back"
+
+# 
+msgid "HongKong"
+msgstr "HongKong"
+
+# 
+msgid "Malay"
+msgstr "Malay"
+
+# 
+msgid "Indo"
+msgstr "Indo"
+
+# 
+msgid "Date Filter"
+msgstr "Date Filter"
+
+# 
+msgid "Select competition"
+msgstr "Select competition"
+
+# 
+msgid "Event View"
+msgstr "Event View"
+
+# 
+msgid "Live Overview"
+msgstr "Live Overview"
+
+# 
+msgid "Live MultiView"
+msgstr "Live MultiView"
+
+# 
+msgid "Live Calendar"
+msgstr "Live Calendar"
+
+# 
+msgid "Statistics"
+msgstr "Statistics"
+
+# 
+msgid "Toggle inner scrolling"
+msgstr "Toggle inner scrolling"
+
+# 
+msgid "My games"
+msgstr "Meine Spiele"
+
+# 
+msgid "My bets"
+msgstr "Meine Wetten"
+
+# 
+msgid "Time format"
+msgstr "Time format"
+
+# 
+msgid "12 hours"
+msgstr "12 Stunden"
+
+# 
+msgid "24 hours"
+msgstr "24 Stunden"
+
+# 
+msgid "Sportsbook layout:"
+msgstr "Sportsbook layout:"
+
+# 
+msgid "Modern"
+msgstr "Modern"
+
+# 
+msgid "Classic"
+msgstr "Classic"
+
+# 
+msgid "Asian"
+msgstr "Asian"
+
+# 
+msgid "Betting"
+msgstr "Betting"
+
+# 
+msgid "Booking"
+msgstr "Booking"
+
+# 
+msgid "bet slip"
+msgstr "Wettschein"
+
+# 
+msgid "Betting options"
+msgstr "Wettoptionen"
+
+# 
+msgid "Automatically accept price changes"
+msgstr "Quotenänderungen automatisch akzeptieren"
+
+# 
+msgid "Higher odds"
+msgstr "Höhere Quoten"
+
+# 
+msgid "Any odds"
+msgstr "Alle Gewinnquoten"
+
+# 
+msgid "Quick bet"
+msgstr "Schnellwette"
+
+# 
+msgid "Your bet is accepted."
+msgstr "Your bet is accepted."
+
+# 
+msgid "To select a bet, please click on any odd."
+msgstr "Um eine Wette auszuwählen, klicken Sie bitte auf eine Quote."
+
+# 
+msgid "Click on any odd to place a bet."
+msgstr "Zum Wetten eine Quote anklicken."
+
+# 
+msgid "Single only"
+msgstr "Nur Einzelwette"
+
+# 
+msgid "Event Locked"
+msgstr "Veranstaltung gesperrt"
+
+# 
+msgid "This event is not available now"
+msgstr "Diese Veranstaltung ist momentan nicht verfügbar"
+
+# 
+msgid "This pick cannot be combined with:"
+msgstr "Diese Auswahl kann nicht kombiniert werden mit:"
+
+# 
+msgid "delete"
+msgstr "Löschen"
+
+# 
+msgid " Pick: "
+msgstr "Auswahl:"
+
+# 
+msgid "Unit Stake"
+msgstr "Unit Stake"
+
+# 
+msgid "Stake..."
+msgstr "Wetteinsatz ...."
+
+# 
+msgid "Repeat for all"
+msgstr "Für alle wiederholen"
+
+# 
+msgid "Win:"
+msgstr "Gewinn:"
+
+# 
+msgid "Superbet"
+msgstr "Superbet"
+
+# 
+msgid "Superbet is turned ON"
+msgstr "Superbet is turned ON"
+
+# 
+msgid "SuperBet is a new offer that allows requesting a Max Bet Limit Increase for selected sporting events."
+msgstr "SuperBet is a new offer that allows requesting a Max Bet Limit Increase for selected sporting events."
+
+# 
+msgid "Booking ID:"
+msgstr "Booking ID:"
+
+# 
+msgid "Stake amount"
+msgstr "Stake amount"
+
+# 
+msgid "Possible win:"
+msgstr "Gewinnchance:"
+
+# 
+msgid "Bonus:"
+msgstr "Bonus:"
+
+# 
+msgid "Total win:"
+msgstr "Gesamtgewinn:"
+
+# 
+msgid "Invalid stake amount entered"
+msgstr "Ungültiger Wetteinsatz"
+
+# 
+msgid "Please enter stake amount"
+msgstr "Bitte einen Wetteinsatz eingeben"
+
+# 
+msgid "Insufficient balance"
+msgstr "Unzureichendes Guthaben"
+
+# 
+msgid "You have to accept changes to be able to place bets"
+msgstr "Sie müssen die Änderungen akzeptieren, um Wetten platzieren zu können"
+
+# 
+msgid "Get bet ID"
+msgstr "Get bet ID"
+
+# 
+msgid "Add more events to be able to place bet"
+msgstr "Zur Platzierung einer Wette weitere Veranstaltungen hinzufügen"
+
+# 
+msgid "There are locked events"
+msgstr "Gesperrte Veranstaltungen vorhanden"
+
+# 
+msgid "Incompatible events"
+msgstr "Veranstaltungen nicht kompatibel"
+
+# 
+msgid "There are deleted events"
+msgstr "Veranstaltungen teilweise gestrichen"
+
+# 
+msgid "Market base for some events have changed"
+msgstr "Veränderte Marktbasis für einige Veranstaltungen"
+
+# 
+msgid "Single Only Events"
+msgstr "Veranstaltungen nur für Einzelwetten"
+
+# 
+msgid "Prices for some events have changed"
+msgstr "Veränderte Quoten für einige Veranstaltungen"
+
+# 
+msgid "Multi-selection mode"
+msgstr "Multi-selection mode"
+
+# 
+msgid "Disable regions"
+msgstr "Disable regions"
+
+# 
+msgid "With video"
+msgstr "Mit Video"
+
+# 
+msgid "Daily coupon"
+msgstr "Daily coupon"
+
+# 
+msgid "For upcoming races please look in Live betting"
+msgstr "For upcoming races please look in Live betting"
+
+# 
+msgid "Selected games"
+msgstr "Selected games"
+
+# 
+msgid "Clear All"
+msgstr "Alles löschen"
+
+# 
+msgid "Trainer/Jockey"
+msgstr "Trainer/Jockey"
+
+# 
+msgid "Age"
+msgstr "Age"
+
+# 
+msgid "Weight"
+msgstr "Weight"
+
+# 
+msgid "Form"
+msgstr "Form"
+
+# 
+msgid "We are not accepting bets on this event at the moment."
+msgstr "We are not accepting bets on this event at the moment."
+
+# 
+msgid "Clear"
+msgstr "Clear"
+
+# 
+msgid "Payment Requests Withdrawal"
+msgstr "Payment Requests Withdrawal"
+
+# 
+msgid "Confirm"
+msgstr "Bestätigen"
+
+# 
+msgid "1. The minimum withdrawal amount 10,000 KRW."
+msgstr "1. The minimum withdrawal amount 10,000 KRW."
+
+# 
+msgid "2. Withdrawal can only be made from registered accounts."
+msgstr "2. Withdrawal can only be made from registered accounts."
+
+# 
+msgid "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+msgstr "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+
+# 
+msgid "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+msgstr "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+
+# 
+msgid "5. If you want a quick withdrawal, please use the above time away."
+msgstr "5. If you want a quick withdrawal, please use the above time away."
+
+# 
+msgid "Payment Requests Deposit"
+msgstr "Payment Requests Deposit"
+
+# 
+msgid "1. The minimum deposit amount is 10,000 KRW."
+msgstr "1. The minimum deposit amount is 10,000 KRW."
+
+# 
+msgid "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+msgstr "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+
+# 
+msgid "3. Please always check deposit bank account from time to time."
+msgstr "3. Please always check deposit bank account from time to time."
+
+# 
+msgid "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+msgstr "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+
+# 
+msgid "SKILL GAMES"
+msgstr "GESCHICKLICHKEITSSPIELE"
+
+# 
+msgid "DOWNLOAD"
+msgstr "HERUNTERLADEN"
+
+# 
+msgid "logo"
+msgstr "Logo"
+
+# 
+msgid "back to top"
+msgstr "Zurück nach oben"
+
+# 
+msgid "Number Drawn Today"
+msgstr "Number Drawn Today"
+
+# 
+msgid "Get Started"
+msgstr "Get Started"
+
+# 
+msgid "Phone"
+msgstr "Phone"
+
+# 
+msgid "Ticket Number"
+msgstr "Ticket Number"
+
+# 
+msgid "Tournaments"
+msgstr "Turniere"
+
+# 
+msgid "Poker Leaderboard"
+msgstr "Poker Leaderboard"
+
+# 
+msgid "Show All"
+msgstr "Show All"
+
+# 
+msgid "FIFA WORLD CUP"
+msgstr "FIFA FUSSBALL-WELTMEISTERSCHAFT"
+
+# 
+msgid "years"
+msgstr "Jahre"
+
+# 
+msgid "months"
+msgstr "Monate"
+
+# 
+msgid "days"
+msgstr "Tage"
+
+# 
+msgid "hours"
+msgstr "Stunden"
+
+# 
+msgid "minutes"
+msgstr "Minuten"
+
+# 
+msgid "seconds"
+msgstr "Sekunden"
+
+# 
+msgid "Select a Sport "
+msgstr "Wählen Sie eine Sportart"
+
+# 
+msgid "Place A bet!"
+msgstr "Wette platzieren!"
+
+# 
+msgid "Poker Tournament"
+msgstr "Poker-Turnier"
+
+# 
+msgid "Biggest tournament of this year."
+msgstr "Größtes Turnier dieses Jahres."
+
+# 
+msgid "Bet now!"
+msgstr "Jetzt wetten!"
+
+# 
+msgid "Live now"
+msgstr "Jetzt Live"
+
+# 
+msgid "Live news"
+msgstr "Neuigkeiten Live"
+
+# 
+msgid "All news"
+msgstr "All news"
+
+# 
+msgid "Eastern"
+msgstr "Eastern"
+
+# 
+msgid "OGWIL"
+msgstr "OGWIL"
+
+# 
+msgid "Don't show this again."
+msgstr "Don't show this again."
+
+# 
+msgid "Event sounds:"
+msgstr "Event sounds:"
+
+# 
+msgid "On"
+msgstr "Ein"
+
+# 
+msgid "Off"
+msgstr "Aus"
+
+# 
+msgid "Hide:"
+msgstr "Hide:"
+
+# 
+msgid "Choose color scheme:"
+msgstr "Choose color scheme:"
+
+# 
+msgid "FAQ"
+msgstr "FAQ"
+
+# 
+msgid "My messages"
+msgstr "Meine Nachrichten"
+
+# 
+msgid "Log Out"
+msgstr "Ausloggen"
+
+# 
+msgid "deposit_info_skrill_1tap"
+msgstr "deposit_info_skrill_1tap"
+
+# 
+msgid "deposit_info_skrill"
+msgstr "Einzahlung_Info_Skrill"
+
+# 
+msgid "withdraw_info_skrill"
+msgstr "Auszahlung_Info_Skrill"
+
+# 
+msgid "deposit_info_webmoney"
+msgstr "Einzahlung_Info_Webmoney"
+
+# 
+msgid "withdraw_info_webmoney"
+msgstr "Auszahlung_Info_Webmoney"
+
+# 
+msgid "Purse"
+msgstr "Geldbörse"
+
+# 
+msgid "deposit_info_qiwi"
+msgstr "Einzahlung_Info_Qiwi"
+
+# 
+msgid "withdraw_info_qiwi"
+msgstr "Auszahlung_Info_Qiwi"
+
+# 
+msgid "Wallet id"
+msgstr "Kennung Geldbörse"
+
+# 
+msgid "deposit_info_neteller"
+msgstr "Einzahlung_Info_Neteller"
+
+# 
+msgid "withdraw_info_neteller"
+msgstr "Auszahlung_Info_Neteller"
+
+# 
+msgid "Account Id"
+msgstr "Konto-Kennung"
+
+# 
+msgid "Secure Id"
+msgstr "Secure ID"
+
+# 
+msgid "deposit_info_moneta"
+msgstr "Einzahlung_Info_Moneta"
+
+# 
+msgid "withdraw_info_moneta"
+msgstr "Auszahlung_Info_Moneta"
+
+# 
+msgid "deposit_info_ecocard"
+msgstr "Einzahlung_Info_Ecocard"
+
+# 
+msgid "withdraw_info_ecocard"
+msgstr "Auszahlung_Info_Ecocard"
+
+# 
+msgid "deposit_info_ukash"
+msgstr "Einzahlung_Info_Ukash"
+
+# 
+msgid "withdraw_info_ukash"
+msgstr "Auszahlung_Info_Ukash"
+
+# 
+msgid "deposit_info_cash"
+msgstr "Einzahlung_Info_Cash"
+
+# 
+msgid "deposit_info_bitcoin"
+msgstr "deposit_info_bitcoin"
+
+# 
+msgid "deposit_info_cashbill"
+msgstr "deposit_info_cashbill"
+
+# 
+msgid "deposit_info_arca"
+msgstr "Einzahlung_Info_Arca"
+
+# 
+msgid "withdraw_info_arca"
+msgstr "Auszahlung_Info_Arca"
+
+# 
+msgid "Last name/surname, name, middle name"
+msgstr "Nachname, Vorname, zweiter Vorname"
+
+# 
+msgid "deposit_info_edram"
+msgstr "Einzahlung_Info_Edram"
+
+# 
+msgid "withdraw_info_edram"
+msgstr "Auszahlung_Info_Edram"
+
+# 
+msgid "withdraw_info_cash"
+msgstr "Auszahlung_Info_Cash"
+
+# 
+msgid "deposit_info_telcell"
+msgstr "Einzahlung_Info_Telcell"
+
+# 
+msgid "deposit_info_tandem"
+msgstr "Einzahlung_Info_Tandem"
+
+# 
+msgid "deposit_info_btabank"
+msgstr "Einzahlung_Info_Btabank"
+
+# 
+msgid "deposit_info_mobidram"
+msgstr "Einzahlung_Info_Mobidram"
+
+# 
+msgid "deposit_info_paytopay"
+msgstr "Einzahlung_Info_Paytopay"
+
+# 
+msgid "withdraw_info_topoker"
+msgstr "Auszahlung_Info_Topoker"
+
+# 
+msgid "deposit_info_card"
+msgstr "Einzahlung_Info_Card"
+
+# 
+msgid "PinCode"
+msgstr "Pin-Code"
+
+# 
+msgid "x_card_num"
+msgstr "x_card_num"
+
+# 
+msgid "x_card_code"
+msgstr "x_card_code"
+
+# 
+msgid "x_exp_date_yy"
+msgstr "x_exp_date_yy"
+
+# 
+msgid "withdraw_info_astropay"
+msgstr "withdraw_info_astropay"
+
+# 
+msgid "Credit Card Number"
+msgstr "Credit Card Number"
+
+# 
+msgid "Expiration Year"
+msgstr "Expiration Year"
+
+# 
+msgid "Expiration Month"
+msgstr "Expiration Month"
+
+# 
+msgid "Card Holder Name"
+msgstr "Card Holder Name"
+
+# 
+msgid "Card Number"
+msgstr "Card Number"
+
+# 
+msgid "Card code"
+msgstr "Card code"
+
+# 
+msgid "Expiry date (mm)"
+msgstr "Expiry date (mm)"
+
+# 
+msgid "Expiry date (yyyy)"
+msgstr "Expiry date (yyyy)"
+
+# 
+msgid "deposit_info_wirecard"
+msgstr "deposit_info_wirecard"
+
+# 
+msgid "CardNumber"
+msgstr "CardNumber"
+
+# 
+msgid "CardHolderName"
+msgstr "CardHolderName"
+
+# 
+msgid "ExpirationYear"
+msgstr "ExpirationYear"
+
+# 
+msgid "ExpirationMonth"
+msgstr "ExpirationMonth"
+
+# 
+msgid "Cvc2"
+msgstr "Cvc2"
+
+# 
+msgid "deposit_info_bankform"
+msgstr "deposit_info_bankform"
+
+# 
+msgid "IBAN"
+msgstr "IBAN"
+
+# 
+msgid "SWIFT"
+msgstr "SWIFT"
+
+# 
+msgid "withdraw_info_bankform"
+msgstr "withdraw_info_bankform"
+
+# 
+msgid "deposit_info_moneysafe"
+msgstr "deposit_info_moneysafe"
+
+# 
+msgid "Code"
+msgstr "Code"
+
+# 
+msgid "withdraw_info_tovivaropet"
+msgstr "Auszahlung_Info_tovivaropet"
+
+# 
+msgid "deposit_info_eblontransfer"
+msgstr "deposit_info_eblontransfer"
+
+# 
+msgid "withdraw_info_eblontransfer"
+msgstr "withdraw_info_eblontransfer"
+
+# 
+msgid "CustomerID"
+msgstr "CustomerID"
+
+# 
+msgid "casino_auth_error"
+msgstr "We're experiencing temporary difficulties. Please try a little later."
+
+# 
+msgid "Sorry, this game cannot be opened in multi-view mode"
+msgstr "Sorry, this game cannot be opened in multi-view mode"
+
+# 
+msgid "This Game Is Already Opened In Multi Game View. Please Choose Another Game."
+msgstr "This Game Is Already Opened In Multi Game View. Please Choose Another Game."
+
+# 
+msgid "It Is Possible To Play Only One Game Of The Same Provider In Multi Game View. Please Choose Another Game."
+msgstr "It Is Possible To Play Only One Game Of The Same Provider In Multi Game View. Please Choose Another Game."
+
+# 
+msgid "Please close one of the games for adding new one"
+msgstr "Please close one of the games for adding new one"
+
+# 
+msgid "The game is not available"
+msgstr "The game is not available"
+
+# 
+msgid "Home"
+msgstr "Startseite"
+
+# 
+msgid "message_OK"
+msgstr "Nachricht_OK"
+
+# 
+msgid "Virtual sports"
+msgstr "Virtual sports"
+
+# 
+msgid "More sports"
+msgstr "More sports"
+
+# 
+msgid "Popular competitions"
+msgstr "Popular competitions"
+
+# 
+msgid "Your Facebook account is already linked to another existing user."
+msgstr "Your Facebook account is already linked to another existing user."
+
+# 
+msgid "Unknown error"
+msgstr "Unbekannter Fehler"
+
+# 
+msgid "Come play on "
+msgstr "Come play on "
+
+# 
+msgid "Password changed"
+msgstr "Passwort geändert"
+
+# 
+msgid "Personal information updated."
+msgstr "Persönliche Daten aktualisiert"
+
+# 
+msgid "Invalid password."
+msgstr "Ungültiges Passwort"
+
+# 
+msgid "Deposit limits set."
+msgstr "Einzahlungslimits gesetzt"
+
+# 
+msgid "Self-Exclusion period set."
+msgstr "Selbstausschlussfrist gesetzt"
+
+# 
+msgid "New Bets"
+msgstr "Neue Wetten"
+
+# 
+msgid "Winning Bets"
+msgstr "Gewinnwetten"
+
+# 
+msgid "Returned Bet"
+msgstr "Ausgezahlte Wetten"
+
+# 
+msgid "Card Deposit"
+msgstr "Card Deposit"
+
+# 
+msgid "Bonus Bet"
+msgstr "Bonuswette"
+
+# 
+msgid "Commission"
+msgstr "Provision"
+
+# 
+msgid "Withdrawal"
+msgstr "Auszahlung"
+
+# 
+msgid "Correction"
+msgstr "Korrektur"
+
+# 
+msgid "Deposit by payment system"
+msgstr "Einzahlung durch Zahlungsverfahren"
+
+# 
+msgid "Withdrawal request"
+msgstr "Auszahlungsanweisung"
+
+# 
+msgid "Authorized Withdrawal"
+msgstr "Autorisierte Auszahlung"
+
+# 
+msgid "Withdrawal denied"
+msgstr "Auszahlung abgelehnt"
+
+# 
+msgid "Withdrawal paid"
+msgstr "Auszahlung durchgeführt"
+
+# 
+msgid "Pool Bet"
+msgstr "Pool-Wette"
+
+# 
+msgid "Pool Bet Win"
+msgstr "Gewinn aus Pool-Wette"
+
+# 
+msgid "Pool Bet Return"
+msgstr "Rückzahlung aus Pool-Wette"
+
+# 
+msgid "In the process of revision"
+msgstr "In the process of revision"
+
+# 
+msgid "Removed for recalculation"
+msgstr "Removed for recalculation"
+
+# 
+msgid "Free Bet Bonus received"
+msgstr "Free Bet Bonus received"
+
+# 
+msgid "Wagering Bonus received"
+msgstr "Wagering Bonus received"
+
+# 
+msgid "Transfer from Gaming Wallet"
+msgstr "Transfer from Gaming Wallet"
+
+# 
+msgid "Transfer to Gaming Wallet"
+msgstr "Transfer to Gaming Wallet"
+
+# 
+msgid "Declined Superbet"
+msgstr "Declined Superbet"
+
+# 
+msgid "Bet on hold"
+msgstr "Bet on hold"
+
+# 
+msgid "Bet cashout"
+msgstr "Bet cashout"
+
+# 
+msgid "Fair"
+msgstr "Reell"
+
+# 
+msgid "Fair Win"
+msgstr "Reelle Gewinne"
+
+# 
+msgid "Fair Return"
+msgstr "Reelle Rückzahlungen"
+
+# 
+msgid "Tip"
+msgstr "Tip"
+
+# 
+msgid "Error"
+msgstr "Fehler"
+
+# 
+msgid "Your E-mail Has been confirmed"
+msgstr "Your E-mail Has been confirmed"
+
+# 
+msgid "You account has been locked. Please try again later !"
+msgstr "You account has been locked. Please try again later !"
+
+# 
+msgid "Invalid email"
+msgstr "Invalid email"
+
+# 
+msgid "Upcoming"
+msgstr "Demnächst"
+
+# 
+msgid "Popular"
+msgstr "Popular"
+
+# 
+msgid "Favorite games"
+msgstr "Favorite games"
+
+# 
+msgid "Unsupported service"
+msgstr "Dienst nicht unterstützt "
+
+# 
+msgid "Currency unsupported"
+msgstr "Währung nicht unterstützt"
+
+# 
+msgid "Amount is less than minimum allowed"
+msgstr "Betrag unterschreitet den Mindestbetrag"
+
+# 
+msgid "Amount is greater than maximum allowed"
+msgstr "Betrag überschreitet den Höchstbetrag"
+
+# 
+msgid "Entered payee information is not correct."
+msgstr "Eingegebene Informationen zum Zahlungsempfänger sind nicht korrekt."
+
+# 
+msgid "Entered payer information is not correct."
+msgstr "Eingegebene Informationen zum Einzahler sind nicht korrekt."
+
+# 
+msgid "Internal service fault"
+msgstr "Interner Fehler"
+
+# 
+msgid "Withdraw request blocked."
+msgstr "Auszahlungsanweisung gesperrt"
+
+# 
+msgid "User link blocked, please contact support."
+msgstr "Benutzer-Link gesperrt, bitte wenden Sie sich an den Betreuungsservice"
+
+# 
+msgid "Day limit reached. Please try later."
+msgstr "Day limit reached. Please try later."
+
+# 
+msgid "Withdraw request is already in progress"
+msgstr "Auszahlungsanweisung ist bereits in Bearbeitung"
+
+# 
+msgid "Withdrawal was successful."
+msgstr "Auszahlungsanweisung war erfolgreich"
+
+# 
+msgid "Withdraw failed."
+msgstr "Auszahlung fehlgeschlagen"
+
+# 
+msgid "There was an error processing your request."
+msgstr "Bei der Verarbeitung Ihrer Anweisung ist ein Fehler aufgetreten."
+
+# 
+msgid "Withdrawal was successful"
+msgstr "Auszahlungsanweisung war erfolgreich"
+
+# 
+msgid "Deposit was successful."
+msgstr "Einzahlung erfolgreich ausgeführt"
+
+# 
+msgid "Deposit failed."
+msgstr "Einzahlung fehlgeschlagen"
+
+# 
+msgid "Your transfer is successfully completed"
+msgstr "Ihre Überweisung wurde erfolgreich abgeschlossen"
+
+# 
+msgid "Internal Error"
+msgstr "Interner Fehler"
+
+# 
+msgid "Invalid RFID card"
+msgstr "Invalid RFID card"
+
+# 
+msgid "Invalid Password"
+msgstr "Invalid Password"
+
+# 
+msgid "Please put your RFID card on card reader"
+msgstr "Please put your RFID card on card reader"
+
+# 
+msgid "LiveCalendar"
+msgstr "LiveCalendar"
+
+# 
+msgid "Favorites"
+msgstr "Favorites"
+
+# 
+msgid "Live calendar"
+msgstr "Live calendar"
+
+# 
+msgid "Virtual Betting"
+msgstr "Virtuelle Wetten"
+
+# 
+msgid "Keno"
+msgstr "Keno"
+
+# 
+msgid "Connection lost. Reconnecting."
+msgstr "Verbindung unterbrochen. Verbindung wird wiederhergestellt."
+
+# 
+msgid "Connection restored"
+msgstr "Verbindung wiederhergestellt"
+
+# 
+msgid "In progress"
+msgstr "In Bearbeitung"
+
+# 
+msgid "Blocked"
+msgstr "Gesperrt"
+
+# 
+msgid "Calculating wins"
+msgstr "Berechnung des Gewinns"
+
+# 
+msgid "Closed"
+msgstr "Geschlossen"
+
+# 
+msgid "Wrong phone number"
+msgstr "Wrong phone number"
+
+# 
+msgid "Invalid verification code"
+msgstr "Invalid verification code"
+
+# 
+msgid "Code has been sent, please check your mobile phone"
+msgstr "Code has been sent, please check your mobile phone"
+
+# 
+msgid "APPROVED BET"
+msgstr "APPROVED BET"
+
+# 
+msgid "YOUR BET HAS BEEN APPROVED"
+msgstr "YOUR BET HAS BEEN APPROVED"
+
+# 
+msgid "DECLINED BET"
+msgstr "DECLINED BET"
+
+# 
+msgid "YOUR BET HAS BEEN DECLINED"
+msgstr "YOUR BET HAS BEEN DECLINED"
+
+# 
+msgid "Message sent"
+msgstr "Nachricht versendet"
+
+# 
+msgid "Cannot play this video in your region."
+msgstr "Abspielen dieses Videos in Ihrer Region nicht möglich"
+
+# 
+msgid "Cannot play video stream.Sorry."
+msgstr "Abspielen dieses Video-Streams leider nicht möglich"
+
+# 
+msgid "Done"
+msgstr "Ausgeführt"
+
+# 
+msgid "Next"
+msgstr "Nächste"
+
+# 
+msgid "Previous"
+msgstr "Vorherige"
+
+# 
+msgid "Skip"
+msgstr "Überspringen"
+
+# 
+msgid "Press Ctrl + C to copy link address to clipboard"
+msgstr "Drücken Sie Strg C, um die Link-Adresse in die Zwischenablage zu kopieren"
+
+# 
+msgid "Feedback"
+msgstr "Feedback"
+
+# 
+msgid "Live Lottery"
+msgstr "Live Lottery"
+
+# 
+msgid "Download Beta version"
+msgstr "Download Beta version"
+
+# 
+msgid "Armenian"
+msgstr "Armenian"
+
+# 
+msgid "online"
+msgstr "online"
+
+# 
+msgid "Championship"
+msgstr "Championship"
+
+# 
+msgid "season"
+msgstr "season"
+
+# 
+msgid "choose your os"
+msgstr "choose your os"
+
+# 
+msgid "poker_requirements_linux"
+msgstr "poker_requirements_linux"
+
+# 
+msgid "poker_download_description_linux"
+msgstr "poker_download_description_linux"
+
+# 
+msgid "3 Steps To start the game"
+msgstr "3 Steps To start the game"
+
+# 
+msgid "Start"
+msgstr "Start"
+
+# 
+msgid "Download and Install"
+msgstr "Download and Install"
+
+# 
+msgid "Register your account"
+msgstr "Register your account"
+
+# 
+msgid "Start to Play"
+msgstr "Start to Play"
+
+# 
+msgid "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+msgstr "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+
+# 
+msgid "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+msgstr "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+
+# 
+msgid "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+msgstr "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+
+# 
+msgid "Note:"
+msgstr "Note:"
+
+# 
+msgid "You can change the layout of the sportsbook in the settings."
+msgstr "You can change the layout of the sportsbook in the settings."
+
+# 
+msgid "Please note:"
+msgstr "Hinweis:"
+
+# 
+msgid "If previous deposit limits are increased, you must wait 24 hours until changes take effect."
+msgstr "Wenn Sie frühere Einzahlungslimits erhöhen, müssen Sie 24 Stunden warten, bis die Änderungen wirksam werden."
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome "
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome "
+
+# 
+msgid "Turn on sound from settings"
+msgstr "Turn on sound from settings"
+
+# 
+msgid "Popular games"
+msgstr "Popular games"
+
+# 
+msgid "Leaderboard"
+msgstr "Leaderboard"
+
+# 
+msgid "Come play on"
+msgstr "Come play on"
+
+# 
+msgid "Enter number"
+msgstr "Enter number"
+
+# 
+msgid "Points:"
+msgstr "Points:"
+
+# 
+msgid "Account"
+msgstr "Konto"
+
+# 
+msgid "Quarters"
+msgstr "Quarters"
+
+# 
+msgid "Innings"
+msgstr "Innings"
+
+# 
+msgid "Periods"
+msgstr "Periods"
+
+# 
+msgid "Sets"
+msgstr "Sets"
+
+# 
+msgid "Play Now"
+msgstr "Play Now"
+
+# 
+msgid "AOC"
+msgstr "AOC"
+
+# 
+msgid "Free Quiz"
+msgstr "Free Quiz"
+
+# 
+msgid "Promotions"
+msgstr "Promotions"
+
+# 
+msgid "Life tournament"
+msgstr "Life tournament"
+
+# 
+msgid "for our users"
+msgstr "for our users"
+
+# 
+msgid "system "
+msgstr "system "
+
+# 
+msgid "Middle"
+msgstr "Zweiter Vorname"
+
+# 
+msgid "Jan"
+msgstr "Jan."
+
+# 
+msgid "Feb"
+msgstr "Febr."
+
+# 
+msgid "Mar"
+msgstr "März"
+
+# 
+msgid "Apr"
+msgstr "Apr."
+
+# 
+msgid "May"
+msgstr "Mai"
+
+# 
+msgid "Jun"
+msgstr "Juni"
+
+# 
+msgid "Jul"
+msgstr "Juli"
+
+# 
+msgid "Aug"
+msgstr "Aug."
+
+# 
+msgid "Sep"
+msgstr "Sept."
+
+# 
+msgid "Oct"
+msgstr "Okt."
+
+# 
+msgid "Nov"
+msgstr "Nov."
+
+# 
+msgid "Dec"
+msgstr "Dez."
+
+# 
+msgid "Gender "
+msgstr "Gender "
+
+# 
+msgid "This field can contain only digits and letters"
+msgstr "This field can contain only digits and letters"
+
+# 
+msgid "Username "
+msgstr "Username "
+
+# 
+msgid "Password is too short"
+msgstr "Password is too short"
+
+# 
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+# 
+msgid "Registration on this site is not permitted in selected country."
+msgstr "Die Registrierung auf dieser Seite ist in dem ausgewählten Land nicht gestattet."
+
+# 
+msgid "You can register here:"
+msgstr "Hier können Sie sich registrieren:"
+
+# 
+msgid "Country code is not correct"
+msgstr "Country code is not correct"
+
+# 
+msgid "Failed to send sms"
+msgstr "Failed to send sms"
+
+# 
+msgid "Field can contain only digits"
+msgstr "Field can contain only digits"
+
+# 
+msgid "SMS Code"
+msgstr "SMS Code"
+
+# 
+msgid "Promo code"
+msgstr "Aktions-Code"
+
+# 
+msgid "Security question"
+msgstr "Security question"
+
+# 
+msgid "Security answer"
+msgstr "Security answer"
+
+# 
+msgid "I would like to receive information about bonuses and new offers via email."
+msgstr "I would like to receive information about bonuses and new offers via email."
+
+# 
+msgid "I would like to receive information about bonuses and new offers via SMS"
+msgstr "I would like to receive information about bonuses and new offers via SMS"
+
+# 
+msgid "Register also for poker."
+msgstr "Registrieren Sie sich auch für Poker."
+
+# 
+msgid "Video roundups"
+msgstr "Video-Zusammenfassungen"
+
+# 
+msgid "Popular bets"
+msgstr "Beliebte Wetten"
+
+# 
+msgid "Use your "
+msgstr "Use your "
+
+# 
+msgid "Deberc"
+msgstr "Deberc"
+
+# 
+msgid "deposit_info_yandex"
+msgstr "deposit_info_yandex"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome"
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome"
+
+# 
+msgid "I would like to subscribe for email updates and offers from this site."
+msgstr "Ich möchte E-Mail-Updates und Angebote von dieser Seite abonnieren."
+
+# 
+msgid "What was the name of your first pet?"
+msgstr "What was the name of your first pet?"
+
+# 
+msgid "What age were you when you went to school?"
+msgstr "What age were you when you went to school?"
+
+# 
+msgid "What was the name of the city you were born in?"
+msgstr "What was the name of the city you were born in?"
+
+# 
+msgid "What was then number of your school?"
+msgstr "What was then number of your school?"
+
+# 
+msgid "What was then name of your first love?"
+msgstr "What was then name of your first love?"
+
+# 
+msgid "What was the make and model of your first car?"
+msgstr "What was the make and model of your first car?"
+
+# 
+msgid "deposit_info_centili"
+msgstr "Einzahlung_Info_Centili"
+
+# 
+msgid "BET_APPROVED_TITLE"
+msgstr "BET_APPROVED_TITLE"
+
+# 
+msgid "BET_DECLINED_TITLE"
+msgstr "BET_DECLINED_TITLE"
+
+# 
+msgid "BET_DECLINED_MESSAGE"
+msgstr "BET_DECLINED_MESSAGE"
+
+# 
+msgid "Horse Age"
+msgstr "Horse Age"
+
+# 
+msgid "Jockey Weight"
+msgstr "Jockey Weight"
+
+# 
+msgid "Trainer/Jokey"
+msgstr "Trainer/Jokey"
+
+# 
+msgid "Coming soon"
+msgstr "Coming soon"
+
+# 
+msgid "You have exited website, but your page on odnoklassniki.ru is still active."
+msgstr "You have exited website, but your page on odnoklassniki.ru is still active."
+
+# 
+msgid "Game is temporarily locked"
+msgstr "Game is temporarily locked"
+
+# 
+msgid "Ranking table"
+msgstr "Ranking table"
+
+# 
+msgid "Continue"
+msgstr "Continue"
+
+# 
+msgid "Coating"
+msgstr "Coating"
+
+# 
+msgid "Hide Balance"
+msgstr "Hide Balance"
+
+# 
+msgid "Show Balance"
+msgstr "Show Balance"
+
+# 
+msgid "Show Username"
+msgstr "Show Username"
+
+# 
+msgid "Hide Username"
+msgstr "Hide Username"
+
+# 
+msgid "Hide statistics"
+msgstr "Hide statistics"
+
+# 
+msgid "Show statistics"
+msgstr "Show statistics"
+
+# 
+msgid "Profile"
+msgstr "Profile"
+
+# 
+msgid "username"
+msgstr "username"
+
+# 
+msgid "balance"
+msgstr "balance"
+
+# 
+msgid "help"
+msgstr "Hilfe"
+
+# 
+msgid "single"
+msgstr "Einzel"
+
+# 
+msgid "Live Dealer"
+msgstr "Live Dealer"
+
+# 
+msgid "Invite"
+msgstr "Invite"
+
+# 
+msgid "Sign up with your Facebook account"
+msgstr "Sign up with your Facebook account"
+
+# 
+msgid "Username(in case you'll want to login without facebook)"
+msgstr "Username(in case you'll want to login without facebook)"
+
+# 
+msgid "withdraw_info_wirecard"
+msgstr "withdraw_info_wirecard"
+
+# 
+msgid "Turf"
+msgstr "Turf"
+
+# 
+msgid "Dirt"
+msgstr "Dirt"
+
+# 
+msgid "Polytrack"
+msgstr "Polytrack"
+
+# 
+msgid "yards"
+msgstr "yards"
+
+# 
+msgid "Sound:"
+msgstr "Ton:"
+
+# 
+msgid "Part of bet placed from bonus."
+msgstr "Part of bet placed from bonus."
+
+# 
+msgid "Live chat / FAQ"
+msgstr "Live chat / FAQ"
+
+# 
+msgid "id:"
+msgstr "Kennung"
+
+# 
+msgid "DEMO MODE"
+msgstr "Demo-Modus"
+
+# 
+msgid "Exchange"
+msgstr "Austausch"
+
+# 
+msgid "Duplicate product"
+msgstr "Doppeltes Produkt"
+
+# 
+msgid "Wrong Password"
+msgstr "Falsches Kennwort"
+
+# 
+msgid "Wrong Amount"
+msgstr "Falscher Betrag"
+
+# 
+msgid "Product not allowed"
+msgstr "Produkt nicht zulässig"
+
+# 
+msgid "Upccomming events"
+msgstr "Kommende Veranstaltungen"
+
+# 
+msgid "Add to BetSlip"
+msgstr "Dem Wettschein hinzufügen"
+
+# 
+msgid "deposit_info_megapay"
+msgstr "Einzahlung_Info_Megapay"
+
+# 
+msgid "deposit_info_osmp"
+msgstr "Einzahlung_Info_Osmp"
+
+# 
+msgid "Canceled"
+msgstr "Storniert"
+
+# 
+msgid "Depost Amount"
+msgstr "Einzahlungsbetrag"
+
+# 
+msgid "Active"
+msgstr "Aktiv"
+
+# 
+msgid "Fixed"
+msgstr "Vereinbart"
+
+# 
+msgid "Payed"
+msgstr "Einbezahlt"
+
+# 
+msgid "will start in"
+msgstr "startet in"
+
+# 
+msgid "Frames"
+msgstr "Frames"
+
+# 
+msgid "Last update:"
+msgstr "Letzte Aktualisierung:"
+
+# 
+msgid "OnePoint"
+msgstr "Ein Punkt"
+
+# 
+msgid "TwoPoints"
+msgstr "Zwei Punkte"
+
+# 
+msgid "ThreePoints"
+msgstr "Drei Punkte"
+
+# 
+msgid "0 Half"
+msgstr "Halbzeit 0"
+
+# 
+msgid "1st Half"
+msgstr "1. Halbzeit "
+
+# 
+msgid "2nd Half"
+msgstr "2. Halbzeit "
+
+# 
+msgid "Additional Time1"
+msgstr "Nachspielzeit 1"
+
+# 
+msgid "Additional Time2"
+msgstr "Nachspielzeit 2"
+
+# 
+msgid "Waiting"
+msgstr "Warten"
+
+# 
+msgid "Round"
+msgstr "Runde"
+
+# 
+msgid "Round 0"
+msgstr "Runde 0"
+
+# 
+msgid "Round 1"
+msgstr "Runde 1"
+
+# 
+msgid "Round 2"
+msgstr "Runde 2"
+
+# 
+msgid "Round 3"
+msgstr "Runde 3"
+
+# 
+msgid "Round 4"
+msgstr "Runde 4"
+
+# 
+msgid "Round 5"
+msgstr "Runde 5"
+
+# 
+msgid "Round 6"
+msgstr "Runde 6"
+
+# 
+msgid "Round 7"
+msgstr "Runde 7"
+
+# 
+msgid "Round 8"
+msgstr "Runde 8"
+
+# 
+msgid "Round 9"
+msgstr "Runde 9"
+
+# 
+msgid "Round 10"
+msgstr "Runde 10"
+
+# 
+msgid "Round 11"
+msgstr "Runde 11"
+
+# 
+msgid "Round 12"
+msgstr "Runde 12"
+
+# 
+msgid "Set 0"
+msgstr "Satz 0"
+
+# 
+msgid "Set 1"
+msgstr "Satz 1"
+
+# 
+msgid "Set 2"
+msgstr "Satz 2"
+
+# 
+msgid "Set 3"
+msgstr "Satz 3"
+
+# 
+msgid "Set 4"
+msgstr "Satz 4"
+
+# 
+msgid "Set 5"
+msgstr "Satz 5"
+
+# 
+msgid "Set 6"
+msgstr "Satz 6"
+
+# 
+msgid "Set 7"
+msgstr "Satz 7"
+
+# 
+msgid "Set 8"
+msgstr "Satz 8"
+
+# 
+msgid "Set 9"
+msgstr "Satz 9"
+
+# 
+msgid "Set 10"
+msgstr "Satz 10"
+
+# 
+msgid "Period 0"
+msgstr "Drittel 0"
+
+# 
+msgid "Period 1"
+msgstr "1. Drittel"
+
+# 
+msgid "Period 2"
+msgstr "2. Drittel"
+
+# 
+msgid "Period 3"
+msgstr "3. Drittel"
+
+# 
+msgid "Quarter 0"
+msgstr "Viertel 0"
+
+# 
+msgid "Quarter 1"
+msgstr "1. Viertel"
+
+# 
+msgid "Quarter 2"
+msgstr "2. Viertel"
+
+# 
+msgid "Quarter 3"
+msgstr "3. Viertel"
+
+# 
+msgid "Quarter 4"
+msgstr "4. Viertel"
+
+# 
+msgid "Inning 0"
+msgstr "Innings 0"
+
+# 
+msgid "1st Inning"
+msgstr "1. Inning"
+
+# 
+msgid "2nd Inning"
+msgstr "2. Inning"
+
+# 
+msgid "3rd Inning"
+msgstr "3. Inning"
+
+# 
+msgid "4th Inning"
+msgstr "4. Inning"
+
+# 
+msgid "5th Inning"
+msgstr "5. Inning"
+
+# 
+msgid "6th Inning"
+msgstr "6. Inning"
+
+# 
+msgid "7th Inning"
+msgstr "7. Inning"
+
+# 
+msgid "8th Inning"
+msgstr "8. Inning"
+
+# 
+msgid "9th Inning"
+msgstr "9. Inning"
+
+# 
+msgid "10th Inning"
+msgstr "10. Inning"
+
+# 
+msgid "11th Inning"
+msgstr "11. Inning"
+
+# 
+msgid "12th Inning"
+msgstr "12. Inning"
+
+# 
+msgid "13th Inning"
+msgstr "13. Inning"
+
+# 
+msgid "14th Inning"
+msgstr "14. Inning"
+
+# 
+msgid "15th Inning"
+msgstr "15. Inning"
+
+# 
+msgid "16th Inning"
+msgstr "16. Inning"
+
+# 
+msgid "17th Inning"
+msgstr "17. Inning"
+
+# 
+msgid "18th Inning"
+msgstr "18. Inning"
+
+# 
+msgid "19th Inning"
+msgstr "19. Inning"
+
+# 
+msgid "20th Inning"
+msgstr "20. Inning"
+
+# 
+msgid "21th Inning"
+msgstr "21. Inning"
+
+# 
+msgid "22th Inning"
+msgstr "22. Inning"
+
+# 
+msgid "23th Inning"
+msgstr "23. Inning"
+
+# 
+msgid "24th Inning"
+msgstr "24. Inning"
+
+# 
+msgid "25th Inning"
+msgstr "25. Inning"
+
+# 
+msgid "Time 0"
+msgstr "Zeit 0"
+
+# 
+msgid "Time 1"
+msgstr "Zeit 1"
+
+# 
+msgid "Time 2"
+msgstr "Zeit 2"
+
+# 
+msgid "Frame 0"
+msgstr "Frame 0"
+
+# 
+msgid "Frame 1"
+msgstr "Frame 1"
+
+# 
+msgid "Frame 2"
+msgstr "Frame 2"
+
+# 
+msgid "Frame 3"
+msgstr "Frame 3"
+
+# 
+msgid "Frame 4"
+msgstr "Frame 4"
+
+# 
+msgid "Frame 5"
+msgstr "Frame 5"
+
+# 
+msgid "Frame 6"
+msgstr "Frame 6"
+
+# 
+msgid "Frame 7"
+msgstr "Frame 7"
+
+# 
+msgid "Frame 8"
+msgstr "Frame 8"
+
+# 
+msgid "Frame 9"
+msgstr "Frame 9"
+
+# 
+msgid "Frame 10"
+msgstr "Frame 10"
+
+# 
+msgid "Frame 11"
+msgstr "Frame 11"
+
+# 
+msgid "Frame 12"
+msgstr "Frame 12"
+
+# 
+msgid "Frame 13"
+msgstr "Frame 13"
+
+# 
+msgid "Frame 14"
+msgstr "Frame 14"
+
+# 
+msgid "Frame 15"
+msgstr "Frame 15"
+
+# 
+msgid "Frame 16"
+msgstr "Frame 16"
+
+# 
+msgid "Frame 17"
+msgstr "Frame 17"
+
+# 
+msgid "Frame 18"
+msgstr "Frame 18"
+
+# 
+msgid "Frame 19"
+msgstr "Frame 19"
+
+# 
+msgid "Frame 20"
+msgstr "Frame 20"
+
+# 
+msgid "Frame 21"
+msgstr "Frame 21"
+
+# 
+msgid "Frame 22"
+msgstr "Frame 22"
+
+# 
+msgid "Frame 23"
+msgstr "Frame 23"
+
+# 
+msgid "Frame 24"
+msgstr "Frame 24"
+
+# 
+msgid "Frame 25"
+msgstr "Frame 25"
+
+# 
+msgid "Frame 26"
+msgstr "Frame 26"
+
+# 
+msgid "Frame 27"
+msgstr "Frame 27"
+
+# 
+msgid "Frame 28"
+msgstr "Frame 28"
+
+# 
+msgid "Frame 29"
+msgstr "Frame 29"
+
+# 
+msgid "Frame 30"
+msgstr "Frame 30"
+
+# 
+msgid "Frame 31"
+msgstr "Frame 31"
+
+# 
+msgid "Frame 32"
+msgstr "Frame 32"
+
+# 
+msgid "Frame 33"
+msgstr "Frame 33"
+
+# 
+msgid "Frame 34"
+msgstr "Frame 34"
+
+# 
+msgid "Frame 35"
+msgstr "Frame 35"
+
+# 
+msgid "Frame 36"
+msgstr "Frame 36"
+
+# 
+msgid "Frame 37"
+msgstr "Frame 37"
+
+# 
+msgid "Frame 38"
+msgstr "Frame 38"
+
+# 
+msgid "Frame 39"
+msgstr "Frame 39"
+
+# 
+msgid "Period 4"
+msgstr "4. Spielphase"
+
+# 
+msgid "Period 5"
+msgstr "5. Spielphase"
+
+# 
+msgid "Period 6"
+msgstr "6. Spielphase"
+
+# 
+msgid "Game 0"
+msgstr "Spiel 0"
+
+# 
+msgid "Game 1"
+msgstr "Spiel 1"
+
+# 
+msgid "Game 2"
+msgstr "Spiel 2"
+
+# 
+msgid "Game 3"
+msgstr "Spiel 3"
+
+# 
+msgid "Game 4"
+msgstr "Spiel 4"
+
+# 
+msgid "Game 5"
+msgstr "Spiel 5"
+
+# 
+msgid "Set 11"
+msgstr "Satz 11"
+
+# 
+msgid "Set 12"
+msgstr "Satz 12"
+
+# 
+msgid "Set 13"
+msgstr "Satz 13"
+
+# 
+msgid "Set 14"
+msgstr "Satz 14"
+
+# 
+msgid "Set 15"
+msgstr "Satz 15"
+
+# 
+msgid "Set 16"
+msgstr "Satz 16"
+
+# 
+msgid "Set 17"
+msgstr "Satz 17"
+
+# 
+msgid "Set 18"
+msgstr "Satz 18"
+
+# 
+msgid "Set 19"
+msgstr "Satz 19"
+
+# 
+msgid "Set 20"
+msgstr "Satz 20"
+
+# 
+msgid "Events"
+msgstr "Veranstaltungen"
+
+# 
+msgid "SHOW"
+msgstr "SHOW"
+
+# 
+msgid "In-Play"
+msgstr "im Gange"
+
+# 
+msgid "Id"
+msgstr "Kennung"
+
+# 
+msgid "To place your bet, please log in"
+msgstr "Um Ihre Wetten zu platzieren, müssen Sie sich zunächst einloggen"
+
+# 
+msgid "Win % 1 st Service"
+msgstr "Gewonnener 1. Aufschlag in Prozent"
+
+# 
+msgid "Break Point Conversions"
+msgstr "Break-Punkt-Umwandlung"
+
+# 
+msgid "Your bet is not accepted"
+msgstr "Ihre Wette wird nicht akzeptiert"
+
+# 
+msgid "TransferProduct:\nERROR_LOW_BALANCE"
+msgstr "TransferProduct:\nERROR_LOW_BALANCE"
+
+# 
+msgid "this field is required"
+msgstr "Dieses Feld ist obligatorisch"
+
+# 
+msgid "Invalid payee"
+msgstr "Ungültiger Zahlungsempfänger"
+
+# 
+msgid "Invalid payer"
+msgstr "Ungültiger Einzahler"
+
+# 
+msgid "ok"
+msgstr "O.K."
+
+# 
+msgid "Email Address or Username"
+msgstr "E-Mail-Adresse oder Benutzername"
+
+# 
+msgid "Terms &amp; Conditions"
+msgstr "Allgemeine Geschäftsbedingungen"
+
+# 
+msgid "TransferProductRROR_LOW_BALANCE"
+msgstr "TransferProductRROR_LOW_BALANCE"
+
+# 
+msgid "FEATURED GAMES"
+msgstr "Aktuelle Spiele"
+
+# 
+msgid "Welcome"
+msgstr "Willkommen"
+
+# 
+msgid "Join us now!"
+msgstr "Registrieren Sie sich jetzt!"
+
+# 
+msgid "Cashier"
+msgstr "Kassier"
+
+# 
+msgid "new"
+msgstr "Neu"
+
+# 
+msgid "Not a valid password"
+msgstr "Kein gültiges Kennwort"
+
+# 
+msgid "Available/Withdrawable"
+msgstr "Verfügbar/Auszahlbar"
+
+# 
+msgid "bet id:"
+msgstr "Wettkennung"
+
+# 
+msgid "automatically accept price changes"
+msgstr "Quotenänderungen automatisch akzeptieren"
+
+# 
+msgid "incompatible events"
+msgstr "Veranstaltungen nicht kompatibel"
+
+# 
+msgid "there are deleted events"
+msgstr "Veranstaltungen teilweise gestrichen"
+
+# 
+msgid "prices for some events have changed"
+msgstr "Veränderte Quoten für einige Veranstaltungen"
+
+# 
+msgid "Accept changes"
+msgstr "Änderungen akzeptieren"
+
+# 
+msgid "You need to sign in to be able to place bets"
+msgstr "Sie müssen sich anmelden, um Wetten platzieren zu können"
+
+# 
+msgid "Invalid recipient"
+msgstr "Ungültiger Empfänger"
+
+# 
+msgid "deposit_info_mastercard"
+msgstr "Einzahlung_Info_Mastercard"
+
+# 
+msgid "withdraw_info_mastercard"
+msgstr "Auszahlung_Info_Mastercard"
+
+# 
+msgid "label_card_number"
+msgstr "Label_Karte_Nummer"
+
+# 
+msgid "deposit_info_visa"
+msgstr "Einzahlung_Info_Visa"
+
+# 
+msgid "withdraw_info_visa"
+msgstr "Auszahlung_Info_Visa"
+
+# 
+msgid "deposit_info_paypal"
+msgstr "Einzahlung_Info_Paypal"
+
+# 
+msgid "withdraw_info_paypal"
+msgstr "Auszahlung_Info_Paypal"
+
+# 
+msgid "Select one"
+msgstr "Einen auswählen"
+
+# 
+msgid "Deposit Amount (USD)"
+msgstr "Einzahlungsbetrag (USD)"
+
+# 
+msgid "Attach"
+msgstr "Anhängen"
+
+# 
+msgid "Middle Name"
+msgstr "Zweiter Vorname"
+
+#
+msgid "Middle name"
+msgstr "Zweiter Vorname"
+
+# 
+msgid "prevew"
+msgstr "Vorschau"
+
+# 
+msgid "Full Name"
+msgstr "Vollständiger Name"
+
+# 
+msgid "Select your country"
+msgstr "Wählen Sie Ihr Land aus"
+
+# 
+msgid "Select your currency"
+msgstr "Wählen Sie Ihre Währung"
+
+# 
+msgid "Enter the text here"
+msgstr "Text hier eingeben"
+
+# 
+msgid "I would like to subbscribe for email updates and offeres from VBET."
+msgstr "Ich möchte E-Mail-Updates und Angebote von VBET abonnieren."
+
+# 
+msgid "message_ONHOLD"
+msgstr "Nachricht_GEHALTEN"
+
+# 
+msgid "message_CHANGE_ODD"
+msgstr "Nachricht_ÄNDERUNG_QUOTE"
+
+# 
+msgid "message_EVENT_LOCKED"
+msgstr "Nachricht_VERANSTALTUNG_GESPERRT"
+
+# 
+msgid "message_LIMIT_ERROR"
+msgstr "Nachricht_LIMIT_FEHLER"
+
+# 
+msgid "message_GAME_STARTED"
+msgstr "Nachricht_SPIEL_BEGONNEN"
+
+# 
+msgid "message_1000"
+msgstr "Nachricht_1000"
+
+# 
+msgid "message_1001"
+msgstr "Nachricht_1001"
+
+# 
+msgid "message_1003"
+msgstr "Nachricht_1003"
+
+# 
+msgid "message_1004"
+msgstr "Nachricht_1004"
+
+# 
+msgid "message_1006"
+msgstr "Nachricht_1006"
+
+# 
+msgid "message_1008"
+msgstr "Nachricht_1008"
+
+# 
+msgid "message_1009"
+msgstr "Nachricht_1009"
+
+# 
+msgid "message_1099"
+msgstr "Nachricht_1099"
+
+# 
+msgid "message_1100"
+msgstr "Nachricht_1100"
+
+# 
+msgid "message_1102"
+msgstr "Nachricht_1102"
+
+# 
+msgid "message_1103"
+msgstr "Nachricht_1103"
+
+# 
+msgid "message_1104"
+msgstr "Nachricht_1104"
+
+# 
+msgid "message_1105"
+msgstr "Nachricht_1105"
+
+# 
+msgid "message_1106"
+msgstr "Nachricht_1106"
+
+# 
+msgid "message_1107"
+msgstr "Nachricht_1107"
+
+# 
+msgid "message_1108"
+msgstr "Nachricht_1108"
+
+# 
+msgid "message_1109"
+msgstr "Nachricht_1109"
+
+# 
+msgid "message_1112"
+msgstr "Nachricht_1112"
+
+# 
+msgid "message_1113"
+msgstr "Nachricht_1113"
+
+# 
+msgid "message_1114"
+msgstr "Nachricht_1114"
+
+# 
+msgid "message_1115"
+msgstr "Nachricht_1115"
+
+# 
+msgid "message_1116"
+msgstr "Nachricht_1116"
+
+# 
+msgid "message_1117"
+msgstr "Nachricht_1117"
+
+# 
+msgid "message_1118"
+msgstr "Nachricht_1118"
+
+# 
+msgid "message_1150"
+msgstr "Nachricht_1150"
+
+# 
+msgid "message_1200"
+msgstr "Nachricht_1200"
+
+# 
+msgid "message_1300"
+msgstr "Nachricht_1300"
+
+# 
+msgid "message_1400"
+msgstr "Nachricht_1400"
+
+# 
+msgid "message_1510"
+msgstr "Nachricht_1510"
+
+# 
+msgid "message_1500"
+msgstr "Nachricht_1500"
+
+# 
+msgid "message_1550"
+msgstr "Nachricht_1550"
+
+# 
+msgid "message_1560"
+msgstr "Nachricht_1560"
+
+# 
+msgid "message_1600"
+msgstr "Nachricht_1600"
+
+# 
+msgid "message_1700"
+msgstr "Nachricht_1700"
+
+# 
+msgid "message_1800"
+msgstr "Nachricht_1800"
+
+# 
+msgid "message_1900"
+msgstr "Nachricht_1900"
+
+# 
+msgid "message_1910"
+msgstr "Nachricht_1910"
+
+# 
+msgid "message_2000"
+msgstr "Nachricht_2000"
+
+# 
+msgid "message_2100"
+msgstr "Nachricht_2100"
+
+# 
+msgid "message_2200"
+msgstr "Nachricht_2200"
+
+# 
+msgid "message_2300"
+msgstr "Nachricht_2300"
+
+# 
+msgid "message_2400"
+msgstr "Nachricht_2400"
+
+# 
+msgid "message_2403"
+msgstr "Nachricht_2403"
+
+# 
+msgid "Sex"
+msgstr "Geschlecht"
+
+# 
+msgid "Bermudas"
+msgstr "Bermudas"
+
+# 
+msgid "Butane"
+msgstr "Bhutan"
+
+# 
+msgid "East Timor"
+msgstr "Osttimor"
+
+# 
+msgid "Papua - New Guinea"
+msgstr "Papua-Neuguinea"
+
+# 
+msgid "South Africa"
+msgstr "Südafrika"
+
+# 
+msgid "St. Lucia"
+msgstr "St. Lucia"
+
+# 
+msgid "Surinam"
+msgstr "Surinam"
+
+# 
+msgid "Tongo"
+msgstr "Tonga"
+
+# 
+msgid "The Cayman Islands"
+msgstr "Cayman-Inseln"
+
+# 
+msgid "The Central African Republic"
+msgstr "Zentralafrikanische Republik"
+
+# 
+msgid "The Cook Islands"
+msgstr "Cook-Inseln"
+
+# 
+msgid "The Democratic Republic of the Congo"
+msgstr "Demokratische Republik Kongo"
+
+# 
+msgid "Sent Messages"
+msgstr "Gesendete Nachrichten"
+
+# 
+msgid "New Message"
+msgstr "Neue Nachricht"
+
+# 
+msgid "Clear Bet Slip to activate Qiuck Bet"
+msgstr "Wettschein löschen um QuickBet-Wette zu aktivieren"
+
+# 
+msgid "Other"
+msgstr "Sonstige"
+
+# 
+msgid "There is no downloadable client for your operating system"
+msgstr "Es gibt keinen herunterladbaren Client für Ihr Betriebssystem"
+
+# 
+msgid "message_1110"
+msgstr "Nachricht_1110"
+
+# 
+msgid "message_2406"
+msgstr "Nachricht_2406"
+
+# 
+msgid "Reset"
+msgstr "Reset"
+
+# 
+msgid "Switch to "
+msgstr "Umschalten zu"
+
+# 
+msgid "Conditional bet"
+msgstr "Bedingte Wette"
+
+# 
+msgid "Odd..."
+msgstr "Quote .."
+
+# 
+msgid "Score:"
+msgstr "Ergebnis:"
+
+# 
+msgid "3D  Slots"
+msgstr "3D-Spielautomaten"
+
+# 
+msgid "Film Slot"
+msgstr "Video-Spielautomat"
+
+# 
+msgid "Instant Win"
+msgstr "Sofortgewinn"
+
+# 
+msgid "Table Games"
+msgstr "Tischspiele"
+
+# 
+msgid "Top Slots"
+msgstr "Top-Spielautomaten"
+
+# 
+msgid "TvGames"
+msgstr "TvGames"
+
+# 
+msgid "Video Poker"
+msgstr "Video-Poker"
+
+# 
+msgid "Other Games"
+msgstr "Andere Spiele"
+
+# 
+msgid "Progressive"
+msgstr "Progressive"
+
+# 
+msgid "Add more events to be able to place bet "
+msgstr "Zur Platzierung einer Wette weitere Veranstaltungen hinzufügen"
+
+# 
+msgid "Depost Amount (USD)"
+msgstr "Einzahlungsbetrag (USD)"
+
+# 
+msgid "1 hours"
+msgstr "1 Stunde"
+
+# 
+msgid "2 hours"
+msgstr "2 Stunden"
+
+# 
+msgid "3 hours"
+msgstr "3 hours"
+
+# 
+msgid "5 hours"
+msgstr "5 Stunden"
+
+# 
+msgid "6 hours"
+msgstr "6 Stunden"
+
+# 
+msgid "48 hours"
+msgstr "48 Stunden"
+
+# 
+msgid "72 hours"
+msgstr "72 hours"
+
+# 
+msgid "User age is under minimum allowed."
+msgstr "Benutzer hat Mindestalter noch nicht erreicht"
+
+# 
+msgid "Please close {1} game(s) to change view"
+msgstr "Please close {1} game(s) to change view"
+
+# 
+msgid "One Game View"
+msgstr "One Game View"
+
+# 
+msgid "Two Games View"
+msgstr "Two Games View"
+
+# 
+msgid "Four Games View"
+msgstr "Four Games View"
+
+# 
+msgid "Open In Pop-Up Window"
+msgstr "Open In Pop-Up Window"
+
+# 
+msgid "Add a Game"
+msgstr "Add a Game"
+
+# 
+msgid "Durak"
+msgstr "Durak"
+
+# 
+msgid "Preferans"
+msgstr "Preferans"
+
+# 
+msgid "Domino"
+msgstr "Domino"
+
+# 
+msgid "Sea Battle"
+msgstr "Sea Battle"
+
+# 
+msgid "Refresh"
+msgstr "Refresh"
+
+# 
+msgid "multiple"
+msgstr "multiple"
+
+# 
+msgid "livecasino_101_1"
+msgstr "livecasino_101_1"
+
+# 
+msgid "livecasino_101_2"
+msgstr "livecasino_101_2"
+
+# 
+msgid "livecasino_101_3"
+msgstr "livecasino_101_3"
+
+# 
+msgid "livecasino_101_4"
+msgstr "livecasino_101_4"
+
+# 
+msgid "livecasino_102"
+msgstr "livecasino_102"
+
+# 
+msgid "livecasino_103"
+msgstr "livecasino_103"
+
+# 
+msgid "livecasino_104"
+msgstr "livecasino_104"
+
+# 
+msgid "AllWeather"
+msgstr "AllWeather"
+
+# 
+msgid "N_H_Flat"
+msgstr "N_H_Flat"
+
+# 
+msgid "Game Balance:"
+msgstr "Game Balance:"
+
+# 
+msgid " Horse"
+msgstr " Horse"
+
+# 
+msgid " Jockey"
+msgstr " Jockey"
+
+# 
+msgid " Jockey Weight"
+msgstr " Jockey Weight"
+
+# 
+msgid "Name *"
+msgstr "Name *"
+
+# 
+msgid "Birth date *"
+msgstr "Birth date *"
+
+# 
+msgid "Gender *"
+msgstr "Gender *"
+
+# 
+msgid "Passport Number *"
+msgstr "Passport Number *"
+
+# 
+msgid "Username *"
+msgstr "Username *"
+
+# 
+msgid "Password *"
+msgstr "Password *"
+
+# 
+msgid "Confirm Password *"
+msgstr "Confirm Password *"
+
+# 
+msgid "Email Address *"
+msgstr "Email Address *"
+
+# 
+msgid "Country *"
+msgstr "Country *"
+
+# 
+msgid "City *"
+msgstr "City *"
+
+# 
+msgid "Address *"
+msgstr "Address *"
+
+# 
+msgid "Contact number *"
+msgstr "Contact number *"
+
+# 
+msgid "Currency *"
+msgstr "Currency *"
+
+# 
+msgid "SMS Code *"
+msgstr "SMS Code *"
+
+# 
+msgid " 0"
+msgstr " 0"
+
+# 
+msgid "47 hours"
+msgstr "47 hours"
+
+# 
+msgid "We are not accepting bets on this game at the moment."
+msgstr "We are not accepting bets on this game at the moment."
+
+# 
+msgid "Lottery Games"
+msgstr "Lottery Games"
+
+# 
+msgid "MiniGames"
+msgstr "Mini Games"
+
+# 
+msgid "Casual Games"
+msgstr "Casual Games"
+
+# 
+msgid "Classic Slots"
+msgstr "Classic Slots"
+
+# 
+msgid "VideoSlots"
+msgstr "Video Slots"
+
+# 
+msgid "10.000 E GTD tournament"
+msgstr "5000 E GTD tournament"
+
+# 
+msgid "5.371.400 AMD GTD tournament"
+msgstr "2.685.000 AMD GTD tournament"
+
+# 
+msgid "All OS"
+msgstr "All OS"
+
+# 
+msgid "Your Booking is ready !"
+msgstr "Your Booking is ready !"
+
+# 
+msgid "Make a Deposit"
+msgstr "Make a Deposit"
+
+# 
+msgid "  Modern"
+msgstr "  Modern"
+
+# 
+msgid " Classic"
+msgstr " Classic"
+
+# 
+msgid " Asian"
+msgstr " Asian"
+
+# 
+msgid " Eastern"
+msgstr " Eastern"
+
+# 
+msgid "Event details"
+msgstr "Event details"
+
+# 
+msgid "5.950.000 AMD GTD tournament"
+msgstr "5.950.000 AMD GTD tournament"
+
+# 
+msgid "tell me more"
+msgstr "tell me more"
+
+# 
+msgid "What was the number of your school?"
+msgstr "What was the number of your school?"
+
+# 
+msgid "What was the name of your first love?"
+msgstr "What was the name of your first love?"
+
+# 
+msgid "message_1026"
+msgstr "You can make a new superbet only after the existing one is completed."
+
+# 
+msgid "Confirmed"
+msgstr "Confirmed"
+
+# 
+msgid "Scratch Games"
+msgstr "Scratch Games"
+
+# 
+msgid "Jackpot Slot"
+msgstr "Jackpot Slot"
+
+# 
+msgid "Password should contain at least 8 characters"
+msgstr "Password should contain at least 8 characters"
+
+# 
+msgid "Password should contain at least 8 characters."
+msgstr "Password should contain at least 8 characters."
+
+# 
+msgid "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "backgammon"
+msgstr "backgammon"
+
+# 
+msgid "Top 10 sports"
+msgstr "Top 10 sports"
+
+# 
+msgid "Your request is accepted."
+msgstr "Your request is accepted."
+
+# 
+msgid "Your request is declined."
+msgstr "Your request is declined."
+
+# 
+msgid "Join Now"
+msgstr "Join Now"
+
+# 
+msgid "VGS"
+msgstr "BetConstruct"
+
+# 
+msgid "NET"
+msgstr "NetEnt"
+
+# 
+msgid "MGS"
+msgstr "Microgaming"
+
+# 
+msgid "EZG"
+msgstr "Ezugi"
+
+# 
+msgid "Cash-out Temporary unavailable"
+msgstr "Cash-out Temporary unavailable"
+
+# 
+msgid "This field cannot be edited."
+msgstr "This field cannot be edited."
+
+# 
+msgid "Pin/Unpin"
+msgstr "Pin/Unpin"
+
+# 
+msgid "Thank you for choosing Vivaro.<br/>Our Live Chat support is at your disposal  24 hours a day."
+msgstr "Thank you for choosing Vivaro.<br/>Our Live Chat support is at your disposal  24 hours a day."
+
+# 
+msgid "Live Roulette"
+msgstr "Live Roulette"
+
+# 
+msgid "Live BlackJack"
+msgstr "Live BlackJack"
+
+# 
+msgid "Live Baccarat"
+msgstr "Live Baccarat"
+
+# 
+msgid "Live Bet on Poker"
+msgstr "Live Bet on Poker"
+
+# 
+msgid "Welcome to Vivarobet"
+msgstr "Welcome to Vivarobet"
+
+# 
+msgid "Your Booking ID is:"
+msgstr "Your Booking ID is:"
+
+# 
+msgid "Dear valued customer"
+msgstr "Dear valued customer"
+
+# 
+msgid "<p>You have entered the Vivaro Betting website. This company provides services to clients within territory of the republic of Armenia.</p><p>We suggest you redirect to Vbet.com, the site meant for international players.</p>"
+msgstr "<p>You have entered the Vivaro Betting website. This company provides services to clients within territory of the republic of Armenia.</p><p>We suggest you redirect to Vbet.com, the site meant for international players.</p>"
+
+# 
+msgid "Stay on VivaroBet.am"
+msgstr "Stay on VivaroBet.am"
+
+# 
+msgid "Redirect to Vbet.com"
+msgstr "Redirect to Vbet.com"
+
+# 
+msgid "Total Goals"
+msgstr "Total Goals"
+
+# 
+msgid "FUTURE"
+msgstr "FUTURE"
+
+# 
+msgid "LIVE"
+msgstr "LIVE"
+
+# 
+msgid "TODAY"
+msgstr "TODAY"
+
+# 
+msgid "message_1510_sb"
+msgstr "message_1510_sb"
+
+# 
+msgid "Your superbet ({1}) request is accepted"
+msgstr "Your superbet ({1}) request is accepted"
+
+# 
+msgid "Your superbet ({1}) request is declined"
+msgstr "Your superbet ({1}) request is declined"
+
+# 
+msgid "Email/Account Id "
+msgstr "Email/Account Id "
+
+# 
+msgid "Secure Id/Authentication code"
+msgstr "Secure Id/Authentication code"
+
+# 
+msgid "Please select a bet-shop from the list."
+msgstr "Please select a bet-shop from the list."
+
+# 
+msgid "Live Bet on Baccarat"
+msgstr "Live Bet on Baccarat"
+
+# 
+msgid "id:Â "
+msgstr "id:Â "
+
+# 
+msgid "â"
+msgstr "â"
+
+#
+msgid "Live Casino"
+msgstr "Live Casino"
+
+#
+msgid "Every week Jackpot"
+msgstr "Every week Jackpot"
+
+#
+msgid "points"
+msgstr "points"
+
+#
+msgid "Don`t show again"
+msgstr "Don`t show again"
+
+#
+msgid "Show more"
+msgstr "Show more"

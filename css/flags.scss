@@ -1,0 +1,10 @@
+$flag-spacing:10px;
+@import "sport_icons/*.png";
+@include all-flag-sprites;
+p.flag {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+}

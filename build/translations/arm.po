@@ -1,0 +1,6388 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "OK"
+msgstr "Լավ"
+
+# 
+msgid "Yes"
+msgstr "Այո"
+
+# 
+msgid "No"
+msgstr "Ոչ"
+
+# 
+msgid "Live"
+msgstr "Live"
+
+# 
+msgid "pre-match"
+msgstr "pre-match"
+
+# 
+msgid "No games found"
+msgstr "Չկան համապատասխան խաղեր"
+
+# 
+msgid "Games"
+msgstr "Խաղեր"
+
+# 
+msgid "all"
+msgstr "Բոլորը"
+
+# 
+msgid "Print coupon"
+msgstr "Տպել տոմսը"
+
+# 
+msgid "Today"
+msgstr "Այսօր"
+
+# 
+msgid "Tomorrow"
+msgstr "Վաղը"
+
+# 
+msgid "1x2_1"
+msgstr "1x2_1"
+
+# 
+msgid "1x2_X"
+msgstr "1x2_X"
+
+# 
+msgid "1x2_2"
+msgstr "1x2_2"
+
+# 
+msgid "More"
+msgstr "Ավելին"
+
+# 
+msgid "Sorry the game which you chose doesn't have the type of play for fun"
+msgstr "Ձեր ընտրած խաղը չունի հաճույքի համար խաղալու տարբերակ"
+
+# 
+msgid "Transfer"
+msgstr "Փոխանցում"
+
+# 
+msgid "Enter"
+msgstr "Մուտքագրեք"
+
+# 
+msgid "Withdraw from game"
+msgstr "Դեպի հիմնական հաշիվ"
+
+# 
+msgid "Deposit to game"
+msgstr "Դեպի խաղային հաշիվ"
+
+# 
+msgid "Game Balance: "
+msgstr "Game Balance: "
+
+# 
+msgid "Error occured"
+msgstr "Տեղի է ունեցել սխալ"
+
+# 
+msgid "more"
+msgstr "Ավելին"
+
+# 
+msgid "Select a Category"
+msgstr "Ընտրեք  տեսակը"
+
+# 
+msgid "Select region"
+msgstr "Ընտրել տարածաշրջանը"
+
+# 
+msgid "All Providers"
+msgstr "Բոլորը"
+
+# 
+msgid "left arrow"
+msgstr "Ձախ սլաք"
+
+# 
+msgid "right arrow"
+msgstr "Աջ սլաք"
+
+# 
+msgid "Popular Games"
+msgstr "Տարածված խաղեր"
+
+# 
+msgid "play now"
+msgstr "Խաղալ հիմա"
+
+# 
+msgid "PLAY FOR FUN"
+msgstr "Խաղալ անվճար"
+
+# 
+msgid "TOP SLOTS"
+msgstr " Լավագույն Խաղեր"
+
+# 
+msgid "VIEW"
+msgstr "ԴԻՏԵԼ"
+
+# 
+msgid "Load more"
+msgstr "Բեռնել ավելին"
+
+# 
+msgid "Casino games"
+msgstr "Կազինո խաղեր"
+
+# 
+msgid "Live casino"
+msgstr "Live կազինո"
+
+# 
+msgid "Skill games"
+msgstr "Սքիլ խաղեր"
+
+# 
+msgid "Virtual games"
+msgstr "Վիրտուալ խաղեր"
+
+# 
+msgid "All Multi View Games"
+msgstr "Բազմակի ռեժիմով բոլոր խաղերը"
+
+# 
+msgid "Search"
+msgstr "Որոնել"
+
+# 
+msgid "Powered by"
+msgstr "Ստեղծված է"
+
+# 
+msgid "All rights reserved."
+msgstr "Բոլոր իրավունքները պաշտպանված են"
+
+# 
+msgid "Mobile version"
+msgstr "Mobile version"
+
+# 
+msgid "Previous version"
+msgstr "Old Vivaro"
+
+# 
+msgid "Previous Flash version"
+msgstr "Flash տարբերակ"
+
+# 
+msgid "Points Calculator"
+msgstr "Միավորների հաշվիչ"
+
+# 
+msgid "Buy-in"
+msgstr "Buy-in"
+
+# 
+msgid "Entrants"
+msgstr "Մասնակիցներ"
+
+# 
+msgid "Position"
+msgstr "Դիրք"
+
+# 
+msgid "Points"
+msgstr "Միավորներ"
+
+# 
+msgid "Play now!"
+msgstr "Խաղալ հիմա"
+
+# 
+msgid "Download"
+msgstr "Բեռնել"
+
+# 
+msgid "How to Play"
+msgstr "Կանոններ"
+
+# 
+msgid "Tournament List"
+msgstr "Մրցաշարերի Ցանկ"
+
+# 
+msgid "Windows XP or higher"
+msgstr "Windows XP կամ ավելի բարձր"
+
+# 
+msgid "poker_requirements_windows"
+msgstr "Օպերացիոն համակարգի նվազագույն պահանջներ<br>Windows XP / Vista / Windows 7<br>Pentium 4-3 GHz (կամ դրան փոխարինող CPU)<br>1 GB system RAM<br>Լայնաշերտ ինտերնետ կապ"
+
+# 
+msgid "poker_download_description_windows"
+msgstr "<ol><li>Դուք տեսնում եք  պատուհան : Սեղմեք  Run  կոճակին :</li><li>Ներբեռնումը ավարտվելուց  հետո  հնարավոր է  պահանջվի ստուգել հրատարակչին</li><li>Սեղմեք  Run  կոճակին ևս մեկ անգամ</li><li>Հաջորդ պատուհանում սեղմեք  Next  կոճակին ծրագրային ապահովումներն իրականացնելու համար</li><li>Ներբեռնումն ավարտելուց հետո, Դուք կտեսնեք Vivaro կոճակը  աշխատասեղանի վրա</li><li>Կրկնակի սեղմեք կոճակի վրա Vivaro պոկերի սենյակը մուտք գործելու համար</li></ol>"
+
+# 
+msgid "Mac OS 9 or higher"
+msgstr "Mac OS 9 կամ ավելի բարձր"
+
+# 
+msgid "poker_requirements_mac"
+msgstr "Օպերացիոն համակարգի նվազագույն պահանջներ<br>Mac® OS 9 կամ բարձր<br>Intel® Processor<br>300MB  առկա HD<br>1 GB system RAM<br>Լայնաշերտ ինտերնետ կապ<br>1024X720 նվազագույն ցուցադրում"
+
+# 
+msgid "poker_download_description_mac"
+msgstr "<ol><li>Բեռնեք  ծրագիրը</li><li>Սեղմեք երկու անգամ և առանձնացրեք Ծրագիրը</li><li>Տեղափոխեք առանձնացված ֆայլը  Ծրագրեր բաժին</li><li>Սեղմեք  ներբեռնված ֆայլի վրա գործընթացը սկսելու համար</li></ol>"
+
+# 
+msgid "Android version 4.0 or higher"
+msgstr "Android 4.0 կամ ավելի բարձր"
+
+# 
+msgid "poker_requirements_android"
+msgstr "Օպերացիոն համակարգի նվազագույն պահանջներ`<br>Տեղակայեք Adobe Air (կարող եք բեռնել <a href=https://play.google.com/store/apps/details?id=com.adobe.air&hl=en target=_blank>այստեղ</a>)<br>Android տարբերակ 4.0-ը  կամ ավելին<br>3G կամ WiFi կապ"
+
+# 
+msgid "poker_download_description_android"
+msgstr "<ol><li>Նախքան բեռնումը, համակարգային կարգավորումներից ընտրեք  Անվտանգություն>Սարքի կարգավորում>Թույլատրել  անհայտ աղբյուրը</li><li>Տեղադրեք Adobe Air`  ծրագիրն ճիշտ աշխատեցնելու համար</li><li>Եթե պայմանները բավարարված են,  սեղմեք կոճակին և  ներբեռնեք  հավելվածը</li><li>Ներբեռնումից  հետո ծրագիրը կտեղադրվի ավտոմատ կերպով</li><li>Սեղմեք ծրագրի կոճակին և վայելեք այն</li></ol>"
+
+# 
+msgid "Best Promotions"
+msgstr "Լավագույն պրոմո ակցիաները"
+
+# 
+msgid "Download Windows client"
+msgstr "Բեռնել Windows-ի համար "
+
+# 
+msgid "desktop"
+msgstr "Desktop"
+
+# 
+msgid "Download MacOS client"
+msgstr "Բեռնել MacOS-ի համար"
+
+# 
+msgid "iPhone"
+msgstr "ԱյՖոն"
+
+# 
+msgid "Instant Play"
+msgstr "Ակնթարթային խաղ"
+
+# 
+msgid "android"
+msgstr "անդրոիդ"
+
+# 
+msgid "Download Linux client"
+msgstr "Բեռնել Linux-ի համար"
+
+# 
+msgid "linux"
+msgstr "լինուքս"
+
+# 
+msgid "Register"
+msgstr "Գրանցվել"
+
+# 
+msgid "Play"
+msgstr "Խաղալ"
+
+# 
+msgid "loading..."
+msgstr "Բեռնում..."
+
+# 
+msgid "Page not found"
+msgstr "էջը գտնված չէ"
+
+# 
+msgid "Results Centre"
+msgstr "Արդյունքներ"
+
+# 
+msgid "Sport"
+msgstr "Սպորտ"
+
+# 
+msgid "Region"
+msgstr "Շրջան"
+
+# 
+msgid "Competition"
+msgstr "Միջոցառում"
+
+# 
+msgid "Date"
+msgstr "Ամսաթիվ"
+
+# 
+msgid "Event"
+msgstr "Իրադարձություն"
+
+# 
+msgid "Score"
+msgstr "Հաշիվ"
+
+# 
+msgid "No Results"
+msgstr "Անարդյունք"
+
+# 
+msgid "Today's Resluts"
+msgstr "Այսօրվա արդյունքները"
+
+# 
+msgid "You need to login to access this page."
+msgstr "Դուք պետք է մուտք գործեք այս էջը դիտելու համար։"
+
+# 
+msgid "Recent Bets"
+msgstr "Վերջին խաղադրույքները"
+
+# 
+msgid "Bet History"
+msgstr "Խաղադրույքների պատմություն"
+
+# 
+msgid "Casino Bet History"
+msgstr "ԿԱԶԻՆՈՅԻ ԽԱՂԱԴՐՈՒՅՔՆԵՐԻ ՊԱՏՄՈՒԹՅՈՒՆ"
+
+# 
+msgid "Wallet"
+msgstr "Քսակ"
+
+# 
+msgid "History"
+msgstr "Պատմություն"
+
+# 
+msgid "Renew"
+msgstr "Renew"
+
+# 
+msgid "Deposit"
+msgstr "Լիցքավորում"
+
+# 
+msgid "Withdraw"
+msgstr "Վճարում"
+
+# 
+msgid "Sports"
+msgstr "Սպորտի տեսակներ"
+
+# 
+msgid "Casino"
+msgstr "Կազինո"
+
+# 
+msgid "Upcoming games"
+msgstr "Կայանալիք խաղեր"
+
+# 
+msgid "News"
+msgstr "Նորություններ"
+
+# 
+msgid "Videos"
+msgstr "Տեսագրություններ"
+
+# 
+msgid "Results"
+msgstr "Արդյունքներ"
+
+# 
+msgid "Sport center"
+msgstr "Սպորտի կենտրոն"
+
+# 
+msgid "Calendar"
+msgstr "Օրացույց"
+
+# 
+msgid "close"
+msgstr "Փակել"
+
+# 
+msgid "Input Password"
+msgstr "Input Password"
+
+# 
+msgid "Hello, we'd love to hear your thoughts."
+msgstr "Մենք ուրախ կլինենք ստանալ Ձեր կարծիքը:"
+
+# 
+msgid "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+msgstr "Այժմ, եթե Դուք ունեք որևէ հարց, կարծիք կամ առաջարկ, խնդրում ենք մուտքագրել  այն ստորև գտնվող պատուհանում և սեղմել «Ուղարկել»:"
+
+# 
+msgid "Email Address"
+msgstr "Էլ. հասցե"
+
+# 
+msgid "Enter your email address"
+msgstr "Մուտքագրեք Ձեր էլ. հասցեն"
+
+# 
+msgid "Please enter a valid email address"
+msgstr "Մուտքագրեք ճիշտ էլ. հասցե"
+
+# 
+msgid "Your message"
+msgstr "Ձեր հաղորդագրությունը"
+
+# 
+msgid "Send"
+msgstr "Ուղարկել"
+
+# 
+msgid "Your message has been sent."
+msgstr "Ձեր հաղորդագրությունը ուղարկված է:"
+
+# 
+msgid "Cash-out"
+msgstr "Քեշ աութ"
+
+# 
+msgid "Cash-out done."
+msgstr "Քեշ աութն ավարտված է:"
+
+# 
+msgid "Error occured."
+msgstr "Տեղի է ունեցել սխալ:"
+
+# 
+msgid "Cash-out for selected bet is not available."
+msgstr "Cash-out for selected bet is not available."
+
+# 
+msgid "Pick:"
+msgstr "Ընտրություն`"
+
+# 
+msgid "Price has changed"
+msgstr "Price has changed"
+
+# 
+msgid "Amount"
+msgstr "Գումար"
+
+# 
+msgid "Ok"
+msgstr "Լավ"
+
+# 
+msgid "Cancel"
+msgstr "Cancel"
+
+# 
+msgid "Blitz Survey"
+msgstr "Բլից հարցում"
+
+# 
+msgid "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+msgstr "Մեզ հետաքրքրում է, թե ներքոնշյալ խաղերից որոնց եք տիրապետում (կարող եք նշել մինչև 5 խաղ)"
+
+# 
+msgid "Chinese Poker"
+msgstr "Չինական Պոկեր"
+
+# 
+msgid "Live Casino"
+msgstr "Live Casino"
+
+# 
+msgid "Poker"
+msgstr "Պոկեր"
+
+# 
+msgid "Backgammon"
+msgstr "Նարդի"
+
+# 
+msgid "Belote"
+msgstr "Բլոտ"
+
+# 
+msgid "None of these"
+msgstr "Ոչ մեկին"
+
+# 
+msgid "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+msgstr "Շնորհակալություն հարցմանը մասնակցելու համար: VivaroBet-ը գնահատում է ձեր հետաքրքրվածությունը մեր խաղերում:"
+
+# 
+msgid "Submit"
+msgstr "ՈՒղարկել"
+
+# 
+msgid "Your balance is low"
+msgstr "Your balance is low"
+
+# 
+msgid "Renew to get more."
+msgstr "Renew to get more."
+
+# 
+msgid "SuperBet Counter Offer"
+msgstr "Սուպերբեթի Հանդիպական Առաջարկ"
+
+# 
+msgid "Bet Details"
+msgstr "Խաղադրույքի Մանրամասներ"
+
+# 
+msgid "Offer Details"
+msgstr "Առաջարկի Մանրամասներ"
+
+# 
+msgid "Odds:"
+msgstr "Գործակից`"
+
+# 
+msgid "Amount:"
+msgstr "Գումար՝"
+
+# 
+msgid "Remaining time:"
+msgstr "Remaining time:"
+
+# 
+msgid "Accept"
+msgstr "Ընդունել"
+
+# 
+msgid "Decline"
+msgstr "Մերժել"
+
+# 
+msgid "competition or a team..."
+msgstr "մրցաշար կամ թիմ..."
+
+# 
+msgid "Search a competition or a team..."
+msgstr "Որոնել մրցաշար կամ թիմ"
+
+# 
+msgid "Search results"
+msgstr "Որոնման արդյունքները"
+
+# 
+msgid "no results"
+msgstr "Արդյունք չկա"
+
+# 
+msgid "Search a casino game..."
+msgstr "Որոնել կազինոյի խաղ"
+
+# 
+msgid "Play now"
+msgstr "Խաղալ հիմա"
+
+# 
+msgid "brain"
+msgstr "խելքը"
+
+# 
+msgid "All downloads"
+msgstr "Բոլորը"
+
+# 
+msgid "Windows"
+msgstr "Windows"
+
+# 
+msgid "Mac OS"
+msgstr "Mac OS"
+
+# 
+msgid "Linux"
+msgstr "Linux"
+
+# 
+msgid "Android"
+msgstr "Android"
+
+# 
+msgid "Tell me more"
+msgstr "Ավելին"
+
+# 
+msgid "View on map"
+msgstr "Դիտել քարտեզի վրա"
+
+# 
+msgid "Contact us"
+msgstr "Հետադարձ կապ"
+
+# 
+msgid "Hide Map"
+msgstr "Փակել քարտեզը"
+
+# 
+msgid "Winners"
+msgstr "Հաղթողներ"
+
+# 
+msgid "There are no winners yet"
+msgstr "Հաղթողներ դեռևս չկան։"
+
+# 
+msgid "No data"
+msgstr "Տվյալներ չկան"
+
+# 
+msgid "Name"
+msgstr "Անուն"
+
+# 
+msgid "ON THE WAY"
+msgstr "Ճանապարհ"
+
+# 
+msgid "TO VICTORY!"
+msgstr "Դեպի հաղթանակ"
+
+# 
+msgid "Sign in"
+msgstr "Մուտք"
+
+# 
+msgid "Forgot your password?"
+msgstr "Մոռացե՞լ եք գաղտնաբառը"
+
+# 
+msgid "Join"
+msgstr "Միացեք"
+
+# 
+msgid "Bet"
+msgstr "Խաղացեք"
+
+# 
+msgid "Win"
+msgstr "Հաղթեք"
+
+# 
+msgid "Print"
+msgstr "Print"
+
+# 
+msgid "Type your new password"
+msgstr "Type your new password"
+
+# 
+msgid "Password"
+msgstr "Գաղտնաբառ"
+
+# 
+msgid "Please type your new password"
+msgstr "Please type your new password"
+
+# 
+msgid "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+
+# 
+msgid "Repeat Password"
+msgstr "Repeat Password"
+
+# 
+msgid "Please type your new password again"
+msgstr "Please type your new password again"
+
+# 
+msgid "Passwords are different"
+msgstr "Passwords are different"
+
+# 
+msgid "Your password has been changed."
+msgstr "Your password has been changed."
+
+# 
+msgid "Password reset failed."
+msgstr "Գաղտնաբառի վերականգնումը չհաջողվեց:"
+
+# 
+msgid "Username or email invalid"
+msgstr "Մուտքանունը կամ էլ. փոստի հասցեն սխալ են"
+
+# 
+msgid "Draw number"
+msgstr "Խաղարկություն"
+
+# 
+msgid "End date"
+msgstr "Ավարտ"
+
+# 
+msgid "State"
+msgstr "Ստատուս"
+
+# 
+msgid "Jackpot"
+msgstr "Ջեքփոթ"
+
+# 
+msgid "Pool"
+msgstr "Փուլ"
+
+# 
+msgid "Prize fund"
+msgstr "Մրց. ֆոնդ"
+
+# 
+msgid "Tickets / Variants"
+msgstr "Տոմսեր / Տարբերակներ"
+
+# 
+msgid "Current Draw"
+msgstr "Ընթացիկ"
+
+# 
+msgid "Draw"
+msgstr "Խաղարկություն"
+
+# 
+msgid "Result"
+msgstr "Արդյունք"
+
+# 
+msgid "Bookmakers probability / bets amount (in %)"
+msgstr "Արդյունքը (%-ով) ըստ բուքմեյքերների/խաղադրույքների"
+
+# 
+msgid "min."
+msgstr "մին."
+
+# 
+msgid "Tickets"
+msgstr "Տոմսեր"
+
+# 
+msgid "Variants"
+msgstr "Տարբերակներ"
+
+# 
+msgid "Winners (var.)"
+msgstr "Շահում (տարբ)"
+
+# 
+msgid "Win sum"
+msgstr "Շահում (գումար)"
+
+# 
+msgid "Win coef"
+msgstr "Շահումի գործ."
+
+# 
+msgid "All draws"
+msgstr "Խաղարկություն"
+
+# 
+msgid "All bets"
+msgstr "Բոլոր դրույքները"
+
+# 
+msgid "You need to confirm the agreements."
+msgstr "Դուք պետք է հաստատեք համաձայնությունը:"
+
+# 
+msgid "I agree to all"
+msgstr "Համաձայն եմ բոլոր"
+
+# 
+msgid "Terms & Conditions"
+msgstr "Պայմաններ և Դրույթներ"
+
+# 
+msgid "You can read our Terms and Conditions by clicking corresponding links in page footer."
+msgstr "Մեր Պայմաններին և Դրույթներին կարող եք ծանոթանալ սեղմելով էջի ներքևի համապատասխան հղումը:"
+
+# 
+msgid "and I am over 18 years of age and have read and accepted the general terms and conditions."
+msgstr "Իմ 18 տարեկանը լրացել է:"
+
+# 
+msgid "and I am over 21 years of age and have read and accepted the general terms and conditions."
+msgstr "Իմ 21 տարեկանը լրացել է:"
+
+# 
+msgid "Registration complete."
+msgstr "Գրանցումը հաջողությամբ ավարտվեց"
+
+# 
+msgid "Please check your email."
+msgstr "Խնդրում ենք ստուգել Ձեր էլ. հասցեն"
+
+# 
+msgid "Registration failed due to technical error."
+msgstr "Գրանցումը չհաջողվեց տեխնիկական սխալի պատճառով:"
+
+# 
+msgid "Please try again later."
+msgstr "Փորձեք կրկին մի փոքր ուշ:"
+
+# 
+msgid "Australia"
+msgstr "Ավստրալիա"
+
+# 
+msgid "Andorra"
+msgstr "Անդորրա"
+
+# 
+msgid "UAE"
+msgstr "ԱՄԷ"
+
+# 
+msgid "Afghanistan"
+msgstr "Աֆղանստան"
+
+# 
+msgid "Antigua and Barbuda"
+msgstr "Անտիգուա և Բարբուդա"
+
+# 
+msgid "Albania"
+msgstr "Ալբանիա"
+
+# 
+msgid "Armenia"
+msgstr "Հայաստան"
+
+# 
+msgid "Angola"
+msgstr "Անգոլա"
+
+# 
+msgid "Argentina"
+msgstr "Արգենտինա"
+
+# 
+msgid "American Samoa"
+msgstr "Ամերիկյան Սամոա"
+
+# 
+msgid "Austria"
+msgstr "Ավստրիա"
+
+# 
+msgid "Aruba"
+msgstr "Արուբա"
+
+# 
+msgid "Azerbaijan"
+msgstr "Ադրբեջան"
+
+# 
+msgid "Bosnia and Herzegovina"
+msgstr "Բոսնիա և Հերցեգովինա"
+
+# 
+msgid "Barbados"
+msgstr "Բարբադոս"
+
+# 
+msgid "Bangladesh"
+msgstr "Բանգլադեշ"
+
+# 
+msgid "Belgium"
+msgstr "Բելգիա"
+
+# 
+msgid "Burkina Faso"
+msgstr "Բուրկինա Ֆասո"
+
+# 
+msgid "Bulgaria"
+msgstr "Բուլղարիա"
+
+# 
+msgid "Bahrain"
+msgstr "Բահրեյն"
+
+# 
+msgid "Burundi"
+msgstr "Բուրունդի"
+
+# 
+msgid "Benin"
+msgstr "Բենին"
+
+# 
+msgid "Bermuda"
+msgstr "Բերմուդյան կղզիներ"
+
+# 
+msgid "Brunei"
+msgstr "Բրունեյ"
+
+# 
+msgid "Bolivia"
+msgstr "Բոլիվիա"
+
+# 
+msgid "Brazil"
+msgstr "Բրազիլիա"
+
+# 
+msgid "Bahamas"
+msgstr "Բահամյան կղզիներ"
+
+# 
+msgid "Bhutan"
+msgstr "Բութան"
+
+# 
+msgid "Botswana"
+msgstr "Բոտսվանա"
+
+# 
+msgid "Belarus"
+msgstr "Բելառուս"
+
+# 
+msgid "Belize"
+msgstr "Բելիզ"
+
+# 
+msgid "Canada"
+msgstr "Կանադա"
+
+# 
+msgid "Democratic Republic of the Congo"
+msgstr "Կոնգոյի Դեմոկրատական Հանրապետություն"
+
+# 
+msgid "Central African Republic"
+msgstr "Կենտրոնաաֆրիկյան Հանրապետություն"
+
+# 
+msgid "Republic of the Congo"
+msgstr "Կոնգոյի Հանրապետություն"
+
+# 
+msgid "Switzerland"
+msgstr "Շվեյցարիա"
+
+# 
+msgid "Cote d'Ivoire"
+msgstr "Կոտ դ'Իվուար"
+
+# 
+msgid "Cook Islands"
+msgstr "Կուկի կղզիներ"
+
+# 
+msgid "Chile"
+msgstr "Չիլի"
+
+# 
+msgid "Cameroon"
+msgstr "Կամերուն"
+
+# 
+msgid "China"
+msgstr "Չինաստան"
+
+# 
+msgid "Colombia"
+msgstr "Կոլումբիա"
+
+# 
+msgid "Costa Rica"
+msgstr "Կոստա Ռիկա"
+
+# 
+msgid "Cuba"
+msgstr "Կուբա"
+
+# 
+msgid "Cape Verde"
+msgstr "Կաբո-Վերդե"
+
+# 
+msgid "Cyprus"
+msgstr "Կիպրոս"
+
+# 
+msgid "Czech Republic"
+msgstr "Չեխիա"
+
+# 
+msgid "Germany"
+msgstr "Գերմանիա"
+
+# 
+msgid "Djibouti"
+msgstr "Ջիբութի"
+
+# 
+msgid "Denmark"
+msgstr "Դանիա"
+
+# 
+msgid "Dominica"
+msgstr "Դոմինիկա"
+
+# 
+msgid "Dominican Republic"
+msgstr "Դոմինիկյան Հանրապետություն"
+
+# 
+msgid "Algeria"
+msgstr "Ալժիր"
+
+# 
+msgid "Ecuador"
+msgstr "Էկվադոր"
+
+# 
+msgid "Estonia"
+msgstr "Էստոնիա"
+
+# 
+msgid "Egypt"
+msgstr "Եգիպտոս"
+
+# 
+msgid "Eritrea"
+msgstr "Էրիթրեա"
+
+# 
+msgid "Spain"
+msgstr "Իսպանիա"
+
+# 
+msgid "Ethiopia"
+msgstr "Եթովպիա"
+
+# 
+msgid "Finland"
+msgstr "Ֆինլանդիա"
+
+# 
+msgid "Fiji"
+msgstr "Ֆիջի"
+
+# 
+msgid "Federated States of Micronesia"
+msgstr "Միկրոնեզիայի Դաշնային Նահանգներ"
+
+# 
+msgid "Faroe Islands"
+msgstr "Ֆարերյան կղզիներ"
+
+# 
+msgid "France"
+msgstr "Ֆրանսիա"
+
+# 
+msgid "Gabon"
+msgstr "Գաբոն"
+
+# 
+msgid "Great Britain"
+msgstr "Մեծ Բրիտանիա"
+
+# 
+msgid "Grenada"
+msgstr "Գրենադա"
+
+# 
+msgid "Georgia"
+msgstr "Վրաստան"
+
+# 
+msgid "Ghana"
+msgstr "Գանա"
+
+# 
+msgid "Gambia"
+msgstr "Գամբիա"
+
+# 
+msgid "Guinea"
+msgstr "Գվինեա"
+
+# 
+msgid "Equatorial Guinea"
+msgstr "Հասարակածային Գվինեա"
+
+# 
+msgid "Greece"
+msgstr "Հունաստան"
+
+# 
+msgid "Guatemala"
+msgstr "Գվատեմալա"
+
+# 
+msgid "Guam"
+msgstr "Գուամ"
+
+# 
+msgid "Guinea-Bissau"
+msgstr "Գվինեա Բիսաու"
+
+# 
+msgid "Guyana"
+msgstr "Գայանա"
+
+# 
+msgid "Hong Kong"
+msgstr "Հոնկոնգ"
+
+# 
+msgid "Honduras"
+msgstr "Հոնդուրաս"
+
+# 
+msgid "Croatia"
+msgstr "Խորվաթիա"
+
+# 
+msgid "Republic of Haiti"
+msgstr "Հաիթիի Հանրապետություն"
+
+# 
+msgid "Hungary"
+msgstr "Հունգարիա"
+
+# 
+msgid "Indonesia"
+msgstr "Ինդոնեզիա"
+
+# 
+msgid "Ireland"
+msgstr "Իռլանդիա"
+
+# 
+msgid "Israel"
+msgstr "Իսրայել"
+
+# 
+msgid "India"
+msgstr "Հնդկաստան"
+
+# 
+msgid "Iraq"
+msgstr "Իրաք"
+
+# 
+msgid "Iran"
+msgstr "Իրան"
+
+# 
+msgid "Iceland"
+msgstr "Իսլանդիա"
+
+# 
+msgid "Italy"
+msgstr "Իտալիա"
+
+# 
+msgid "Jamaica"
+msgstr "Ջամայկա"
+
+# 
+msgid "Jordan"
+msgstr "Հորդանան"
+
+# 
+msgid "Japan"
+msgstr "Ճապոնիա"
+
+# 
+msgid "Kenya"
+msgstr "Քենիա"
+
+# 
+msgid "Kyrgyzstan"
+msgstr "Ղրղզստան"
+
+# 
+msgid "Cambodia"
+msgstr "Կամբոջա"
+
+# 
+msgid "Kiribati"
+msgstr "Կիրիբատի"
+
+# 
+msgid "Comoros"
+msgstr "Կոմորյան Կղզիներ"
+
+# 
+msgid "Saint Kitts and Nevis"
+msgstr "Սենթ Քիթս և Նևիս"
+
+# 
+msgid "DPRK"
+msgstr "ԿԱԴՀ"
+
+# 
+msgid "South Korea"
+msgstr "Հվ. Կորեա"
+
+# 
+msgid "Kuwait"
+msgstr "Քուվեյթ"
+
+# 
+msgid "Cayman Islands"
+msgstr "Կայմանյան կղզիներ"
+
+# 
+msgid "Kazakhstan"
+msgstr "Ղազախստան"
+
+# 
+msgid "Laos"
+msgstr "Լաոս"
+
+# 
+msgid "Lebanon"
+msgstr "Լիբանան"
+
+# 
+msgid "Saint Lucia"
+msgstr "Սենթ Լյուսիա"
+
+# 
+msgid "Liechtenstein"
+msgstr "Լիխտենշտեյն"
+
+# 
+msgid "Sri Lanka"
+msgstr "Շրի Լանկա"
+
+# 
+msgid "Liberia"
+msgstr "Լիբերիա"
+
+# 
+msgid "Lesotho"
+msgstr "Լեսոթո"
+
+# 
+msgid "Lithuania"
+msgstr "Լիտվա"
+
+# 
+msgid "Luxemburg"
+msgstr "Լյուքսեմբուրգ"
+
+# 
+msgid "Latvia"
+msgstr "Լատվիա"
+
+# 
+msgid "Libya"
+msgstr "Լիբիա"
+
+# 
+msgid "Morocco"
+msgstr "Մարոկկո"
+
+# 
+msgid "Monaco"
+msgstr "Մոնակո"
+
+# 
+msgid "Moldavia"
+msgstr "Մոլդովա"
+
+# 
+msgid "Montenegro"
+msgstr "Մոնտենեգրո"
+
+# 
+msgid "Madagascar"
+msgstr "Մադագասկար"
+
+# 
+msgid "Macedonia"
+msgstr "Մակեդոնիա"
+
+# 
+msgid "Mali"
+msgstr "Մալի"
+
+# 
+msgid "Myanmar"
+msgstr "Մյանմա"
+
+# 
+msgid "Mongolia"
+msgstr "Մոնղոլիա"
+
+# 
+msgid "Mauritania"
+msgstr "Մավրիտանիա"
+
+# 
+msgid "Malta"
+msgstr "Մալթա"
+
+# 
+msgid "Mauritius"
+msgstr "Մավրիկիոս"
+
+# 
+msgid "Maldives"
+msgstr "Մալդիվներ"
+
+# 
+msgid "Malawi"
+msgstr "Մալավի"
+
+# 
+msgid "Mexico"
+msgstr "Մեքսիկա"
+
+# 
+msgid "Malaysia"
+msgstr "Մալազիա"
+
+# 
+msgid "Mozambique"
+msgstr "Մոզամբիկ"
+
+# 
+msgid "Namibia"
+msgstr "Նամիբիա"
+
+# 
+msgid "Niger"
+msgstr "Նիգեր"
+
+# 
+msgid "Nigeria"
+msgstr "Նիգերիա"
+
+# 
+msgid "Nicaragua"
+msgstr "Նիկարագուա"
+
+# 
+msgid "Netherlands"
+msgstr "Նիդերլանդներ"
+
+# 
+msgid "Norway"
+msgstr "Նորվեգիա"
+
+# 
+msgid "Nepal"
+msgstr "Նեպալ"
+
+# 
+msgid "Nauru"
+msgstr "Նաուրու"
+
+# 
+msgid "New Zealand"
+msgstr "Նոր Զելանդիա"
+
+# 
+msgid "Oman"
+msgstr "Օման"
+
+# 
+msgid "Panama"
+msgstr "Պանամա"
+
+# 
+msgid "Peru"
+msgstr "Պերու"
+
+# 
+msgid "Papua New Guinea"
+msgstr "Պապուա Նոր Գվինեա"
+
+# 
+msgid "Philippines"
+msgstr "Ֆիլիպիններ"
+
+# 
+msgid "Pakistan"
+msgstr "Պակիստան"
+
+# 
+msgid "Poland"
+msgstr "Լեհաստան"
+
+# 
+msgid "Puerto Rico"
+msgstr "Պուերտո-Ռիկո"
+
+# 
+msgid "Palestine"
+msgstr "Պաղեստին"
+
+# 
+msgid "Portugal"
+msgstr "Պորտուգալիա"
+
+# 
+msgid "Palau"
+msgstr "Պալաու"
+
+# 
+msgid "Paraguay"
+msgstr "Պարագվայ"
+
+# 
+msgid "Qatar"
+msgstr "Քաթար"
+
+# 
+msgid "Romania"
+msgstr "Ռումինիա"
+
+# 
+msgid "Serbia"
+msgstr "Սերբիա"
+
+# 
+msgid "Russia"
+msgstr "Ռուսաստան"
+
+# 
+msgid "Rwanda"
+msgstr "Ռուանդա"
+
+# 
+msgid "Saudi Arabia"
+msgstr "Սաուդյան Արաբիա"
+
+# 
+msgid "Solomon Islands"
+msgstr "Սողոմոնյան կղզիներ"
+
+# 
+msgid "Seychelles"
+msgstr "Սեյշելյան կղզիներ"
+
+# 
+msgid "Sudan"
+msgstr "Սուդան"
+
+# 
+msgid "Sweden"
+msgstr "Շվեդիա"
+
+# 
+msgid "Singapore"
+msgstr "Սինգապուր"
+
+# 
+msgid "Slovenia"
+msgstr "Սլովենիա"
+
+# 
+msgid "Slovakia"
+msgstr "Սլովակիա"
+
+# 
+msgid "Sierra Leone"
+msgstr "Սիերա Լեոնե"
+
+# 
+msgid "San Marino"
+msgstr "Սան Մարինո"
+
+# 
+msgid "Senegal"
+msgstr "Սենեգալ"
+
+# 
+msgid "Somalia"
+msgstr "Սոմալի"
+
+# 
+msgid "Republic of Suriname"
+msgstr "Սուրինամ"
+
+# 
+msgid "Sao Tome and Principe"
+msgstr "Սան Տոմե և Պրինսիպի"
+
+# 
+msgid "Salvador"
+msgstr "Սալվադոր"
+
+# 
+msgid "Syria"
+msgstr "Սիրիա"
+
+# 
+msgid "Swaziland"
+msgstr "Սվազիլենդ"
+
+# 
+msgid "Chad"
+msgstr "Չադ"
+
+# 
+msgid "Togo"
+msgstr "Տոգո"
+
+# 
+msgid "Thailand"
+msgstr "Թաիլանդ"
+
+# 
+msgid "Tadjikistan"
+msgstr "Տաջիկստան"
+
+# 
+msgid "Timor-Leste"
+msgstr "Արևելյան Թիմոր"
+
+# 
+msgid "Turkmenistan"
+msgstr "Թուրքմենստան"
+
+# 
+msgid "Tunisia"
+msgstr "Թունիս"
+
+# 
+msgid "Tonga"
+msgstr "Տոնգա"
+
+# 
+msgid "Turkey"
+msgstr "Թուրքիա"
+
+# 
+msgid "Trinidad and Tobago"
+msgstr "Տրինիդադ և Տոբագո"
+
+# 
+msgid "Tuvalu"
+msgstr "Թուվալու"
+
+# 
+msgid "Taiwan"
+msgstr "Թայվան"
+
+# 
+msgid "Tanzania"
+msgstr "Տանզանիա"
+
+# 
+msgid "Ukraine"
+msgstr "Ուկրաինա"
+
+# 
+msgid "Uganda"
+msgstr "Ուգանդա"
+
+# 
+msgid "United States"
+msgstr "Ամերիկայի Միացյալ Նահանգներ"
+
+# 
+msgid "Uruguay"
+msgstr "Ուրուգվայ"
+
+# 
+msgid "Uzbekistan"
+msgstr "Ուզբեկստան"
+
+# 
+msgid "Saint Vincent and the Grenadines"
+msgstr "Սենթ Վինսենթ և Գրենադիններ"
+
+# 
+msgid "Venezuela"
+msgstr "Վենեսուելա"
+
+# 
+msgid "British Virgin Islands"
+msgstr "Բրիտանական Վիրջինյան կղզիներ"
+
+# 
+msgid "United States Virgin Islands"
+msgstr "Վիրջինյան կղզիներ (ԱՄՆ)"
+
+# 
+msgid "Vietnam"
+msgstr "Վիետնամ"
+
+# 
+msgid "Vanuatu"
+msgstr "Վանուատու"
+
+# 
+msgid "Samoa"
+msgstr "Սամոա"
+
+# 
+msgid "Yemen"
+msgstr "Եմեն"
+
+# 
+msgid "Republic of South Africa"
+msgstr "Հարավաֆրիկյան Հանրապետություն"
+
+# 
+msgid "Zambia"
+msgstr "Զամբիա"
+
+# 
+msgid "Zimbabwe"
+msgstr "Զիմբաբվե"
+
+# 
+msgid "Contact Support"
+msgstr "Առցանց օգնություն"
+
+# 
+msgid "Live Chat"
+msgstr "Առցանց օգնություն"
+
+# 
+msgid "Live Agent"
+msgstr "Live Agent"
+
+# 
+msgid "Login with Facebook"
+msgstr "Մտնել Facebook-ով"
+
+# 
+msgid "Sign in with Odnoklassniki"
+msgstr "Մտնել Odnoklassniki-ով"
+
+# 
+msgid "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+msgstr "Facebook-ով մտնելու համար նախ պետք է գրանցվեք։"
+
+# 
+msgid "If you want to be able to login with your Odnoklassniki account you need to first Sign up with Odnoklassniki account."
+msgstr "Odnoklassniki-ով մտնելու համար նախ պետք է գրանցվեք։"
+
+# 
+msgid "Username"
+msgstr "Մուտքաբառ"
+
+# 
+msgid "Your login"
+msgstr "Ձեր մուտքաբառը"
+
+# 
+msgid "Enter your password"
+msgstr "Մուտքագրեք Ձեր գաղտնաբառը"
+
+# 
+msgid "SMS verification code"
+msgstr "SMS verification code"
+
+# 
+msgid "Enter verification code"
+msgstr "Enter verification code"
+
+# 
+msgid "Invalid username or password."
+msgstr "Սխալ մուտքանուն կամ գաղտնաբառ:"
+
+# 
+msgid "Create an account"
+msgstr "Գրանցվել"
+
+# 
+msgid "Time Period"
+msgstr "Ժամանակաշրջան"
+
+# 
+msgid "All Casino Transactions"
+msgstr "Կազինոյի բոլոր գործարքները"
+
+# 
+msgid "id: "
+msgstr "id: "
+
+# 
+msgid "next"
+msgstr "Հաջորդ"
+
+# 
+msgid "prev"
+msgstr "նախորդ"
+
+# 
+msgid "Deposit to main wallet"
+msgstr "Փոխանցում դեպի հիմնական հաշիվ:"
+
+# 
+msgid "Select a payment method"
+msgstr "Ընտրեք վճարային համակարգը:"
+
+# 
+msgid "Please confirm money transfer"
+msgstr "Հաստատեք փոխանցումը"
+
+# 
+msgid "Amount: "
+msgstr "Գումարը՝ "
+
+# 
+msgid "Status:"
+msgstr "Ստատուս՝"
+
+# 
+msgid "Unknown"
+msgstr "Անհայտ"
+
+# 
+msgid "Success"
+msgstr "Success"
+
+# 
+msgid "Pending"
+msgstr "Pending"
+
+# 
+msgid "Failure"
+msgstr "Failure"
+
+# 
+msgid "Deposit Amount"
+msgstr "Վճարվող գումարը"
+
+# 
+msgid "Payment complete"
+msgstr "Վճարումը կատարված է"
+
+# 
+msgid "enter amount here"
+msgstr "Մուտքագրեք գումարը"
+
+# 
+msgid "Status"
+msgstr "Ստատուս"
+
+# 
+msgid "Withdraw from main wallet"
+msgstr "Ելք հիմնական դրամապանակից"
+
+# 
+msgid "Select withdraw method"
+msgstr "Ընտրել գումարի հանման տարբերակ"
+
+# 
+msgid "User ID"
+msgstr "User ID"
+
+# 
+msgid "Withdraw Amount"
+msgstr "Ելքի գումար"
+
+# 
+msgid "available:"
+msgstr "հասանելի է՝"
+
+# 
+msgid "Please, upload your passport scan or passport photo to ease your further withdrawals."
+msgstr "Խնդրում ենք վերբեռնել Ձեր անձնագրի էլեկտրոնային պատճեն կամ լուսանկարը Ձեր գումարների վճարման հետագա պարզեցման համար:"
+
+# 
+msgid "Verify Account"
+msgstr "Հաշվի հաստատում"
+
+# 
+msgid "Payment Method"
+msgstr "Վճարային միջոց"
+
+# 
+msgid "Time"
+msgstr "ժամանակ"
+
+# 
+msgid "Your currency is"
+msgstr "Ձեր արտարժույթն է"
+
+# 
+msgid "Balance"
+msgstr "Մնացորդ"
+
+# 
+msgid "Total"
+msgstr "Ընդհանուր"
+
+# 
+msgid "Main"
+msgstr "Հիմնական"
+
+# 
+msgid "If your balance less, top up your balance now."
+msgstr "Եթե հաշվեկշռի գումարը բավարար չէ, լիցքավորեք այն"
+
+# 
+msgid "From"
+msgstr "Որտեղից"
+
+# 
+msgid "To"
+msgstr "Որտեղ"
+
+# 
+msgid "Max"
+msgstr "Առավելագույն"
+
+# 
+msgid "Wait..."
+msgstr "Սպասեք..."
+
+# 
+msgid "Bonus"
+msgstr "Բոնուս"
+
+# 
+msgid "Pool Betting"
+msgstr "Տոտալիզատոր"
+
+# 
+msgid "Use points to win"
+msgstr "Use points to win"
+
+# 
+msgid "Use Points"
+msgstr "Օգտագործել միավորները"
+
+# 
+msgid "Points left"
+msgstr "Points left"
+
+# 
+msgid "To win iphone 6"
+msgstr "To win iphone 6"
+
+# 
+msgid "Play games"
+msgstr "Play games"
+
+# 
+msgid "Go to shop"
+msgstr "Go to shop"
+
+# 
+msgid "Main Bonus"
+msgstr "Main Bonus"
+
+# 
+msgid "Casino Bonus"
+msgstr "Casino Bonus"
+
+# 
+msgid "Transactions"
+msgstr "Գործարքներ"
+
+# 
+msgid "All Transactions"
+msgstr "Բոլոր գործարքները"
+
+# 
+msgid "Categories"
+msgstr "Տեսակներ"
+
+# 
+msgid "Financials"
+msgstr "Ֆինանսական"
+
+# 
+msgid "Fantasy Sports"
+msgstr "Ֆենտեզի"
+
+# 
+msgid "Ogwil"
+msgstr "Ogwil"
+
+# 
+msgid "Live games"
+msgstr "Լայվ խաղեր"
+
+# 
+msgid "All games"
+msgstr "Բոլոր խաղերը"
+
+# 
+msgid "Roulette"
+msgstr "Ռուլետ"
+
+# 
+msgid "BlackJack"
+msgstr "Բլեք Ջեք"
+
+# 
+msgid "Bet on Poker"
+msgstr "Խաղադրույքներ պոկերի վրա"
+
+# 
+msgid "Baccarat"
+msgstr "Բակարա"
+
+# 
+msgid "Please try later or contact support."
+msgstr "Խնդրում ենք փորձել մի փոքր ուշ կամ կապնվել մեզ հետ:"
+
+# 
+msgid "All Bets"
+msgstr "Բոլոր խաղադրույքները"
+
+# 
+msgid "unsettled"
+msgstr "չվճռված"
+
+# 
+msgid "lost"
+msgstr "պարտված"
+
+# 
+msgid "returned"
+msgstr "վերադարձված"
+
+# 
+msgid "Won"
+msgstr "Շահած"
+
+# 
+msgid "Set"
+msgstr "Սեթ"
+
+# 
+msgid "Prize"
+msgstr "Մրցանակ"
+
+# 
+msgid "Distance"
+msgstr "Երկարություն"
+
+# 
+msgid "Surface"
+msgstr "Մակերես"
+
+# 
+msgid "Game start:"
+msgstr "Խաղի սկիզբ՝"
+
+# 
+msgid "You don't have favourite games. To add some, click the star icon near the game name."
+msgstr "Եթե չունեք նախընտրելի խաղեր, ապա ավելացնելու համար սեղմեք  աստղիկի վրա, որը գտնվում է խաղի անվան մոտ"
+
+# 
+msgid "Bet Type"
+msgstr "Խաղադրույքի տեսակ"
+
+# 
+msgid "All"
+msgstr "Բոլորը"
+
+# 
+msgid "Single"
+msgstr "Օրդինար"
+
+# 
+msgid "express"
+msgstr "Էքսպրես"
+
+# 
+msgid "system"
+msgstr "Համակարգ"
+
+# 
+msgid "chain"
+msgstr "Շղթա"
+
+# 
+msgid "Outcome"
+msgstr "Արդյունք"
+
+# 
+msgid "Unsettled"
+msgstr "Չհաշվարկված"
+
+# 
+msgid "Lost"
+msgstr "Պարտված"
+
+# 
+msgid "Returned"
+msgstr "Վերադարձված"
+
+# 
+msgid "Cashed out"
+msgstr "Կանխիկացված է"
+
+# 
+msgid "Pick"
+msgstr "Ընտրություն"
+
+# 
+msgid "Bet placed from bonus."
+msgstr "Խաղադրույքը կատարված է բոնուսի հաշվից։"
+
+# 
+msgid "On Hold"
+msgstr "On Hold"
+
+# 
+msgid "Declined"
+msgstr "Մերժված"
+
+# 
+msgid "Sign up with Odnoklassniki"
+msgstr "Գրանցվել Odnoklassniki-ով"
+
+# 
+msgid "Sign up with Facebook"
+msgstr "Գրանցվել Facebook-ով"
+
+# 
+msgid "User details:"
+msgstr "Ձեր տվյալները՝"
+
+# 
+msgid "Enter here"
+msgstr "Մուտքագրել"
+
+# 
+msgid "This field is required"
+msgstr "Այս դաշտը անպայման է լրացնել"
+
+# 
+msgid "This email already exists in our database, please enter another"
+msgstr "Այս էլեկտրոնային հասցեն արդեն օգտագործված է, ընտրեք ուրիշը"
+
+# 
+msgid "First"
+msgstr "Անուն"
+
+# 
+msgid "Please enter a valid first name"
+msgstr "Մուտքագրեք ճիշտ անուն"
+
+# 
+msgid "Last"
+msgstr "Ազգանուն"
+
+# 
+msgid "Please enter a valid last name"
+msgstr "Մուտքագրեք ճիշտ ազգանուն"
+
+# 
+msgid "Gender"
+msgstr "Սեռ"
+
+# 
+msgid "Male"
+msgstr "Արական"
+
+# 
+msgid "Female"
+msgstr "Իգական"
+
+# 
+msgid "Passport Number"
+msgstr "Անձնագրի համար"
+
+# 
+msgid "Passport Number is already registered for another account"
+msgstr "Անձնագրի համարը արդեն գրանցված է այլ հաշվում"
+
+# 
+msgid "Contact number"
+msgstr "Կոնտակտային համար"
+
+# 
+msgid "Number"
+msgstr "Համար"
+
+# 
+msgid "Invalid phone number"
+msgstr "Սխալ հեռախոսի համար"
+
+# 
+msgid "Duplicate phone number"
+msgstr "Այս հեռախոսի համարը արդեն գրանցված է"
+
+# 
+msgid "Verify phone number by sms"
+msgstr "Հաստատեք Ձեր հեռախոսի համարը sms-ի միջոցով"
+
+# 
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "Do you plan to sign in with login/password as well?"
+
+# 
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+msgstr "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+
+# 
+msgid "Some games will still require you to sign in using username/password."
+msgstr "Some games will still require you to sign in using username/password."
+
+# 
+msgid "Sorry, this username has been used already"
+msgstr "Այս մուտքանունը արդեն օգտագործված է"
+
+# 
+msgid "Password cannot be same as login"
+msgstr "Գաղտնաբառը չի կարող համընկնել մուտքաբառի հետ"
+
+# 
+msgid "Must be at least 6 characters"
+msgstr "Պետք է բաղկացած լինի ամենաքիչը 6 նիշից"
+
+# 
+msgid "Repeat password"
+msgstr "Կրկնեք գաղտնաբառը"
+
+# 
+msgid "passwords don't match"
+msgstr "Գաղտնաբառերը չեն համընկնում"
+
+# 
+msgid "Start playing now."
+msgstr "Սկսեք խաղալ."
+
+# 
+msgid "You have"
+msgstr "Դուք ունեք"
+
+# 
+msgid "Reset password"
+msgstr "Վերականգնել գաղտնաբառը"
+
+# 
+msgid "Enter your username"
+msgstr "Մուտքագրեք Ձեր մուտքաբառը"
+
+# 
+msgid "Please enter a valid username"
+msgstr "Մուտքագրեք ճիշտ մուտքաբառ"
+
+# 
+msgid "Password reset complete."
+msgstr "Գաղտնաբառը ուղարկված է Ձեր էլեկտրոնային փոստի հասցեին:"
+
+# 
+msgid "Express"
+msgstr "Էքսպրես"
+
+# 
+msgid "System"
+msgstr "Համակարգ"
+
+# 
+msgid "Chain"
+msgstr "Շղթա"
+
+# 
+msgid "UNSETTLED"
+msgstr "Չհաշվարկած"
+
+# 
+msgid "UNSETTLED "
+msgstr "Չվճռված "
+
+# 
+msgid "Won:"
+msgstr "Շահած"
+
+# 
+msgid "Potential win:"
+msgstr "Հավանական շահում"
+
+# 
+msgid "Settings"
+msgstr "Կարգավորումներ"
+
+# 
+msgid "Personal Details"
+msgstr "Անձնական տվյալներ"
+
+# 
+msgid "Change Password"
+msgstr "Փոխել գաղտնաբառը"
+
+# 
+msgid "Self-Exclusion"
+msgstr "Ինքնաարգելափակում"
+
+# 
+msgid "Deposit Limits"
+msgstr "Հաշվեկշռի լիցքավորման սահմանափակում"
+
+# 
+msgid "Preferences"
+msgstr "Նախընտրանքներ"
+
+# 
+msgid "Change language"
+msgstr "Փոխել լեզուն"
+
+# 
+msgid "Odds in"
+msgstr "Գործակիցներ"
+
+# 
+msgid "Decimal"
+msgstr "Տասնորդական"
+
+# 
+msgid "Fractional"
+msgstr "Կոտորակային"
+
+# 
+msgid "American"
+msgstr "Ամերիկյան"
+
+# 
+msgid "Save"
+msgstr "Հիշել"
+
+# 
+msgid "Current Password"
+msgstr "Ներկայիս գաղտնաբառը"
+
+# 
+msgid "Password incorrect"
+msgstr "Գաղտնաբառը սխալ է"
+
+# 
+msgid "New Password"
+msgstr "Նոր գաղտնաբառ"
+
+# 
+msgid "Must be at least 8 characters"
+msgstr "Must be at least 8 characters"
+
+# 
+msgid "Password must contain uppercase letters, lowercase letters and numbers."
+msgstr "Password must contain uppercase letters, lowercase letters and numbers."
+
+# 
+msgid "Confirm New Password"
+msgstr "Կրկնեք նոր գաղտնաբառը"
+
+# 
+msgid "Confirm password"
+msgstr "Հաստատել գաղտնաբառը"
+
+# 
+msgid "Passwords don't match"
+msgstr "Գաղտնաբառերը չեն համընկնում"
+
+# 
+msgid "First Name"
+msgstr "Անուն"
+
+#
+msgid "First name"
+msgstr "Անուն"
+
+# 
+msgid "Last Name"
+msgstr "Ազգանուն"
+
+#
+msgid "Last name"
+msgstr "Ազգանուն"
+
+# 
+msgid "Birth date"
+msgstr "Ծննդյան ամսաթիվ"
+
+# 
+msgid "Email"
+msgstr "Էլ. փոստ"
+
+# 
+msgid "Country"
+msgstr "Երկիր"
+
+# 
+msgid "City"
+msgstr "Քաղաք"
+
+# 
+msgid "Address"
+msgstr "Հասցե"
+
+# 
+msgid "E-mail"
+msgstr "Էլ. հասցե"
+
+# 
+msgid "message_1119"
+msgstr "Կրկնվող էլ. հասցե"
+
+# 
+msgid "Deposit limits allow you to limit the amount of funds you can deposit into the account. The amount can be chosen over a daily, weekly or monthly period. The deposit limit will allow you to restrict the amount of money entering your account, before betting takes place."
+msgstr "Հաշվեկշռի լիցքավորման սահմանափակումը թույլ է տալիս Ձեզ սահմանափակել լիցքավորման գումարը: Հաշիվը կարելի է սահմանափակել մեկ օրյա, շաբաթական կամ ամսական կտրվածքով: Սա հնարավորություն է տալիս կառավարել հաշվեկշռի գումարը, նախքան խաղադրույք կատարելը:"
+
+# 
+msgid "Enter amount"
+msgstr "Մուտքագրեք գումարը"
+
+# 
+msgid "Day"
+msgstr "Օր"
+
+# 
+msgid "Week"
+msgstr "Շաբաթ"
+
+# 
+msgid "Month"
+msgstr "Ամիս"
+
+# 
+msgid "Please note that you'll be able to increase your limits only after seven days from your 1st request."
+msgstr "Խնդրում ենք հաշվի առնել, որ Դուք կարող եք մեծացնել Ձեր սահմանաչափերը առաջին դիմումից միայն 7 օր հետո:"
+
+# 
+msgid "You can exclude online for a minimum period of six months, once the six months has expired your account will be reactivated again."
+msgstr "Դուք կարող եք արգելափակել Ձեր հաշիվը առցանց նվազագույնը վեցամսյա ժամկետով, վեց ամիսը լրանալուն պես, Ձեր հաշիվը կրկին կակտիվանա:"
+
+# 
+msgid "Please note that you'll be able to decrease the self-exclusion period only after seven days from your 1st request."
+msgstr "Խնդրում ենք հաշվի առնել, որ Դուք կարող եք կրճատել Ձեր ինքնաբացարկի շրջանը առաջին դիմումից միայն 7 օր հետո:"
+
+# 
+msgid "Self exclusion of six month period"
+msgstr "Ինքնաարգելափակում 6 ամսով"
+
+# 
+msgid "Self exclusion of a one year period"
+msgstr "Ինքնաարգելափակում 1 տարով"
+
+# 
+msgid "Messages"
+msgstr "Հաղորդագրություններ"
+
+# 
+msgid "Inbox"
+msgstr "Մուտքային"
+
+# 
+msgid "Sent messages"
+msgstr "Ուղարկված"
+
+# 
+msgid "New message"
+msgstr "Նոր հաղորդագրություն"
+
+# 
+msgid "Subject"
+msgstr "Թեմա"
+
+# 
+msgid "Message"
+msgstr "Հաղորդագրություն"
+
+# 
+msgid "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Գաղտնաբառը պետք է պարունակի մեծատառ և փոքրատառ անգլերեն տառեր, առնվազն մեկ թիվ և լինի առանց միջակայքերի"
+
+# 
+msgid "Pool:"
+msgstr "Փուլ՝"
+
+# 
+msgid "Rules"
+msgstr "Կանոններ"
+
+# 
+msgid "W1"
+msgstr "Հ1"
+
+# 
+msgid "W2"
+msgstr "Հ2"
+
+# 
+msgid "Options:"
+msgstr "Տարբերակներ`"
+
+# 
+msgid "Minimal Bet Amount:"
+msgstr "Նվազագույն խաղադրույքի գումար`"
+
+# 
+msgid "0"
+msgstr "0"
+
+# 
+msgid "Random Choice"
+msgstr "Պատահական ընտրություն"
+
+# 
+msgid "Favourite Choice"
+msgstr "Հավանական ընտրություն"
+
+# 
+msgid "Place bets!"
+msgstr "Կատարել խաղադրույքներ!"
+
+# 
+msgid "To place your bet, please"
+msgstr "Խաղադրույք կատարելու համար"
+
+# 
+msgid "sign in"
+msgstr "մուտք գործեք"
+
+# 
+msgid "or"
+msgstr "կամ"
+
+# 
+msgid "register"
+msgstr "գրանցվեք"
+
+# 
+msgid "Free Bet"
+msgstr "Անվճար վիկտորինա"
+
+# 
+msgid "freebet_info"
+msgstr "Վիվառոբեթ բուքմեյքերական ընկերությունը իր հաճախորդների ուշադրությանն է ներկայացնում ամենօրյա անվճար վիկտորինա:<br />Հաճախորդներին կառաջարկվի 6, 8 և 10 իրադարձությունից կազմված էքսպրես խաղադրույքի 3 տարբերակ:Եթե հաճախորդը 6 իրադարձությունից 6-ը ճիշտ գուշակի, շահումը կկազմի 7000 դրամ, 8 իրադարձությունից 8-ը` 15.000 դրամ, իսկ 10-ից 10-ի դեպքում` 20.000 դրամ:Շահած գումարը կփոխանցվի հաճախորդի հաշվեհամարին էքսպրես խաղադրույքի 3 տարբերակներում ընդգրկված բոլոր իրադարձությունների ավարտից հետո 5 օրվա ընթացքում:<br />Եթե էքսպրեսի տվյալ տարբերակում ներառված որոշ իրադարձություններ չկայանան, ապա վիկտորինան կհամարվի պարտված:<br />Յուրաքանչյուր հաճախորդ օրական կարող է միայն մեկ անգամ էքսպրեսի առանձին տարբերակի վրա խաղադրույք կատարել:"
+
+# 
+msgid "backgammon_requirements_windows"
+msgstr "Մինիմալ պահանջներ՝<br>ՕՀ - WinXP և բարձր, CPU: Pentium 4 կամ բարձր<br>Մին. օպեր. հիշ՝ 512MB, Անհրաժետ հիշ.՝ 100MB."
+
+# 
+msgid "backgammon_download_description_windows"
+msgstr "Ծրագիրը օգտագործելու համար պետք է բեռնեք այն կայքից: 2 Անգամ սեղմեք բեռնած ֆայլի վրա և սեղմելով Next տեղադրեք ծրագիրը Ձեր համակարգչում: Տեղադրման վերջին քայլում սեղմեք Finish կոճակը:"
+
+# 
+msgid "Use your"
+msgstr "Օգտագործիր քո"
+
+# 
+msgid "skills"
+msgstr "հմտությունները"
+
+# 
+msgid "100%"
+msgstr "100%"
+
+# 
+msgid "MORE!"
+msgstr "ԱՎԵԼ"
+
+# 
+msgid "Register Now"
+msgstr "Գրանցվեք հիմա"
+
+# 
+msgid "know more..."
+msgstr "Իմանալ ավելին..."
+
+# 
+msgid "Get more"
+msgstr "Get more"
+
+# 
+msgid "Read More"
+msgstr "Կարդալ ավելին"
+
+# 
+msgid "Share"
+msgstr "Տարածել"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome   "
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome   "
+
+# 
+msgid "Your file successfully uploaded "
+msgstr "Your file successfully uploaded "
+
+# 
+msgid " There was an error during file upload, please try again. "
+msgstr " There was an error during file upload, please try again. "
+
+# 
+msgid "Loading"
+msgstr "Բեռնվում է"
+
+# 
+msgid "Current Rank"
+msgstr "Ընթացիկ վարկանիշ"
+
+# 
+msgid "ID"
+msgstr "ID"
+
+# 
+msgid "Previous Rank"
+msgstr "Նախորդ վարկանիշ"
+
+# 
+msgid "Currency"
+msgstr "Արտարժույթ"
+
+# 
+msgid "Fee"
+msgstr "Վճար"
+
+# 
+msgid "Process Time"
+msgstr "Մշակման ժամանակ"
+
+# 
+msgid "Min"
+msgstr "Նվազագույն"
+
+# 
+msgid "Info"
+msgstr "Տեղեկություն"
+
+# 
+msgid "Free"
+msgstr "Անվճար"
+
+# 
+msgid "Instant"
+msgstr "Ակնթարթային"
+
+# 
+msgid "Additional information"
+msgstr "Տեղեկատվություն"
+
+# 
+msgid "DAILY COUPON"
+msgstr "DAILY COUPON"
+
+# 
+msgid "Pick: "
+msgstr "Pick: "
+
+# 
+msgid "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+msgstr "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+
+# 
+msgid "This week's winners"
+msgstr "Այս շաբաթվա հաղթողները"
+
+# 
+msgid "My tickets"
+msgstr "Իմ տոմսերը"
+
+# 
+msgid "You have no tickets"
+msgstr "Դուք չունեք տոմսեր"
+
+# 
+msgid "Live Casino Page is currently closed for"
+msgstr "Այս պահին Live Կազինոն անհասանելի է: "
+
+# 
+msgid "maintenance."
+msgstr "Տարվում են տեխնիկական աշխատանքներ:"
+
+# 
+msgid "We will be back soon with more and better features. Thank you for your patience."
+msgstr " Շուտով այն կրկին հասանելի կլինի: Շնորհակալություն Ձեր համբերության համար:"
+
+# 
+msgid "Click here to see other games."
+msgstr "Սեղմեք այստեղ այլ խաղեր դիտելու համար:"
+
+# 
+msgid "Offline"
+msgstr "Offline"
+
+# 
+msgid "Every Week JACKPOT 500.000$"
+msgstr "Every Week JACKPOT 500.000$"
+
+# 
+msgid "Show more"
+msgstr "Show more"
+
+# 
+msgid "Live Keno"
+msgstr "Live Կենո"
+
+# 
+msgid "Live Draw 6 of 49"
+msgstr "Live Խաղարկություն"
+
+# 
+msgid "Quarter"
+msgstr "Քառորդ"
+
+# 
+msgid "Video not available yet"
+msgstr "Տեսանյութը դեռ հասանելի չէ:"
+
+# 
+msgid "You need to be logged in to be able to play video."
+msgstr "Դուք պետք է մուտք գործեք վիդեո դիտելու համար"
+
+# 
+msgid "You need to have non-zero balance to be able to play video."
+msgstr "Դուք պետք է ունենաք ոչ զրոյական բալանս տեսանյութը նայելու հնարավորություն ունենալու համար։"
+
+# 
+msgid "Detach"
+msgstr "Առանձնացնել"
+
+# 
+msgid "End"
+msgstr "End"
+
+# 
+msgid "Inning"
+msgstr "ինինգ"
+
+# 
+msgid "First Quarter"
+msgstr "Առաջին քառորդ"
+
+# 
+msgid "First Quarter Ended"
+msgstr "Առաջին քառորդն ավարտված է"
+
+# 
+msgid "Second Quarter"
+msgstr "Երկրորդ քառորդ"
+
+# 
+msgid "Second Quarter Ended"
+msgstr "Երկրորդ քառորդն ավարտված է"
+
+# 
+msgid "Third Quarter"
+msgstr "Երրորդ քառորդ"
+
+# 
+msgid "Third Quarter Ended"
+msgstr "Երրորդ քառորդն ավարտված է"
+
+# 
+msgid "Fourth Quarter"
+msgstr "Չորրորդ քառորդ"
+
+# 
+msgid "Fourth Quarter Ended"
+msgstr "Չորրորդ քառորդն ավարտված է"
+
+# 
+msgid "Overtime"
+msgstr "Ավելացված ժամանակ"
+
+# 
+msgid "Overtime Ended"
+msgstr "Ավելացված ժամանակի ավարտ"
+
+# 
+msgid "Foul"
+msgstr "Կանոնների խախտում"
+
+# 
+msgid "Free Throw"
+msgstr "Տուգանային նետում"
+
+# 
+msgid "Free 1-Point Throw"
+msgstr "մեկ միավորային տուգանային նետում"
+
+# 
+msgid "Free 2-Point Throw"
+msgstr "երկու միավորային տուգանային նետում"
+
+# 
+msgid "Free 3-Point Throw"
+msgstr "երեք միավորային տուգանային նետում"
+
+# 
+msgid "Missed Free Throw"
+msgstr "բաց թողնված տուգանային նետում"
+
+# 
+msgid "Attack"
+msgstr "Գրոհ"
+
+# 
+msgid "One Point"
+msgstr "Մեկ միավոր"
+
+# 
+msgid "Two Points"
+msgstr "Երկու միավոր"
+
+# 
+msgid "Three Points"
+msgstr "Երեք միավոր"
+
+# 
+msgid "Timeout"
+msgstr "Տայմաութ"
+
+# 
+msgid "Finished"
+msgstr "Ավարտված է"
+
+# 
+msgid "Point"
+msgstr "Միավոր"
+
+# 
+msgid "Fault"
+msgstr "Խախտում"
+
+# 
+msgid "First Set"
+msgstr "Առաջին սեթ"
+
+# 
+msgid "Second Set"
+msgstr "Երկրորդ սեթ"
+
+# 
+msgid "Third Set"
+msgstr "Երրորդ սեթ"
+
+# 
+msgid "Fourth Set"
+msgstr "Չորրորդ սեթ"
+
+# 
+msgid "Fifth Set"
+msgstr "Հինգերորդ սեթ"
+
+# 
+msgid "Dangerous Attack"
+msgstr "Վտանգավոր գրոհ"
+
+# 
+msgid "Shot on target"
+msgstr "Հարված դարպասին"
+
+# 
+msgid "Shot off target"
+msgstr "Հարված դարպասից դուրս"
+
+# 
+msgid "Corner kick"
+msgstr "Անկյունային հարված"
+
+# 
+msgid "Yellow card"
+msgstr "Դեղին քարտ"
+
+# 
+msgid "Red card"
+msgstr "Կարմիր քարտ"
+
+# 
+msgid "Period"
+msgstr "ժամանակաշրջան"
+
+# 
+msgid "Game"
+msgstr "Գեյմ"
+
+# 
+msgid "Ace"
+msgstr "Էյս"
+
+# 
+msgid "Service Fault"
+msgstr "Մատուցման խախտում"
+
+# 
+msgid "Double Fault"
+msgstr "Կրկնակի  խախտում"
+
+# 
+msgid "Injury Break"
+msgstr "Բժշկական տայմաութ"
+
+# 
+msgid "Rain Delay"
+msgstr "Հետաձգում անձրևի պատճառով"
+
+# 
+msgid "Aces"
+msgstr "Էյսեր"
+
+# 
+msgid "Double Faults"
+msgstr "Կրկնակի խախտում"
+
+# 
+msgid "Corner"
+msgstr "Անկյուն"
+
+# 
+msgid "Yellow Card"
+msgstr "Դեղին քարտ"
+
+# 
+msgid "Extra Time Half Time"
+msgstr "Ընդմիջման լրացուցիչ ժամանակ"
+
+# 
+msgid "Not Started"
+msgstr "Չսկսված"
+
+# 
+msgid "Offside"
+msgstr "Խաղից դուրս վիճակ"
+
+# 
+msgid "Goal"
+msgstr "Գոլ"
+
+# 
+msgid "Pre Extra Half"
+msgstr "Լրացուցիչ խաղակեսից առաջ"
+
+# 
+msgid "Throw In"
+msgstr "Նետում եզրից"
+
+# 
+msgid "Goal Kick"
+msgstr "Հարված դարպասից"
+
+# 
+msgid "Substitution"
+msgstr "Փոխանակում"
+
+# 
+msgid "Extra Time First Half"
+msgstr "Առաջին խաղակեսի լրացուցիչ ժամանակ"
+
+# 
+msgid "Second Half"
+msgstr "Երկրորդ խաղակես"
+
+# 
+msgid "Half Time"
+msgstr "Ընդմիջում"
+
+# 
+msgid "Ball Safe"
+msgstr "Գնդակը անվտանգ վիճակում"
+
+# 
+msgid "Free Kick"
+msgstr "Ազատ հարված"
+
+# 
+msgid "Extra Time Second Half"
+msgstr "Երկրորդ խաղակեսի լրացուցիչ ժամանակ"
+
+# 
+msgid "Red Card"
+msgstr "Կարմիր քարտ"
+
+# 
+msgid "First Half"
+msgstr "Առաջին խաղակես"
+
+# 
+msgid "Penalty"
+msgstr "11մետրանոց"
+
+# 
+msgid "First time score"
+msgstr "Առաջին խաղակեսի հաշիվ"
+
+# 
+msgid "HT"
+msgstr "HT"
+
+# 
+msgid "yellow cards"
+msgstr "Դեղին քարտեր"
+
+# 
+msgid "red cards"
+msgstr "Կարմիր քարտեր"
+
+# 
+msgid "corners"
+msgstr "Անկյունայիններ"
+
+# 
+msgid "penalties"
+msgstr "Տուգանային հարվածներ"
+
+# 
+msgid "Sound"
+msgstr "Ձայներ"
+
+# 
+msgid "Frame"
+msgstr "Ֆրեյմ"
+
+# 
+msgid "Race Type"
+msgstr "Մրցման Տիպ"
+
+# 
+msgid "Select a Sport"
+msgstr "Ընտրել սպորտի տեսակը"
+
+# 
+msgid "Next Event"
+msgstr "Next Event"
+
+# 
+msgid "Events from different groups can be combined in combined bets"
+msgstr "Տարբեր խմբերի իրադարձությունները կարող են միավորվել միախմբված խաղադրույքներում:"
+
+# 
+msgid "Horse"
+msgstr "Ձի"
+
+# 
+msgid "Greyhound"
+msgstr "Greyhound"
+
+# 
+msgid "Jockey"
+msgstr "Ժոկեյ"
+
+# 
+msgid "Cash-out available"
+msgstr "Քեշաութը հնարավոր է"
+
+# 
+msgid "№"
+msgstr "№"
+
+# 
+msgid "sport news"
+msgstr "Նորություններ"
+
+# 
+msgid "Change statistics mode"
+msgstr "Փոխել վիճակագրության ռեժիմը"
+
+# 
+msgid "Show / Hide statistics"
+msgstr "Ցույց տալ / Թաքցնել վիճակագրությունը"
+
+# 
+msgid "Use this selector to switch between Live and Pre-match games"
+msgstr "օգտագործեք այս կոճակը Live կամ Pre-match խաղերի միջև"
+
+# 
+msgid "click to switch to pre-match"
+msgstr "Սեղմեք այստեղ pre-match խաղերի ցուցակին անցնելու համար"
+
+# 
+msgid "live"
+msgstr "live"
+
+# 
+msgid "click to swicth to Live games"
+msgstr "Սեղմեք այստեղ Live խաղերի ցուցակին անցնելու համար"
+
+# 
+msgid "Switch to"
+msgstr "Անցնել"
+
+# 
+msgid "Select sport"
+msgstr "Ընտրել սպորտաձևը"
+
+# 
+msgid "Remove All from Favorites"
+msgstr "Հանել բոլոր խաղերը իմ խաղերի ցուցակից"
+
+# 
+msgid "Remove from My Games"
+msgstr "Հանել «Իմ խաղերի» ցուցակից"
+
+# 
+msgid "Add to My Games"
+msgstr "Ավելացնել իմ խաղերին"
+
+# 
+msgid "Phone only market"
+msgstr "Phone only market"
+
+# 
+msgid "To place a bet, please call"
+msgstr "To place a bet, please call"
+
+# 
+msgid "statistic"
+msgstr "Վիճակագրություն"
+
+# 
+msgid "There may be a Rule 4 on this Race"
+msgstr "Այս մրցարշավների դեպքում կարող է գործել նաև 4-րդ կանոն"
+
+# 
+msgid "Win Only"
+msgstr "Win Only"
+
+# 
+msgid "show more"
+msgstr "Ցուցադրել ավելին"
+
+# 
+msgid "show"
+msgstr "ցուցադրել"
+
+# 
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "Լայվ խաղադրույքներում ցուցադրված ժամանակն ընդամենն ինդիկատոր է: Ընկերությունը չի կրում որևէ պատասխանատվություն ցուցադրված տեղեկությունների, օրինակ՝ հաշիվների և ժամանակի ճշգրտության կամ թարմության համար:"
+
+# 
+msgid "Create and enjoy betting on your own Live Multi view by selecting events from the left hand navigation menu."
+msgstr "Ստեղծեք և վայելեք Ձեր Live խաղերի ցանկը<br>ընտրելով խաղերը ձախ կողմի մենյուից։"
+
+# 
+msgid "Today at"
+msgstr "Today at"
+
+# 
+msgid "Course"
+msgstr "Course"
+
+# 
+msgid "Winner"
+msgstr "Հաղթող"
+
+# 
+msgid "Handicap"
+msgstr "Հենդիքեփ"
+
+# 
+msgid "Tie"
+msgstr "Ոչ ոքի"
+
+# 
+msgid "Odds"
+msgstr "Odds"
+
+# 
+msgid "Full Time"
+msgstr "Full Time"
+
+# 
+msgid "1st Goal"
+msgstr "1st Goal"
+
+# 
+msgid "Last Goal"
+msgstr "Last Goal"
+
+# 
+msgid "None"
+msgstr "Երբեք"
+
+# 
+msgid "ODD"
+msgstr "ODD"
+
+# 
+msgid "EVEN"
+msgstr "EVEN"
+
+# 
+msgid "Full Time 1X2"
+msgstr "Full Time 1X2"
+
+# 
+msgid "Half Time 1X2"
+msgstr "Half Time 1X2"
+
+# 
+msgid "Order by Time"
+msgstr "Order by Time"
+
+# 
+msgid "Back"
+msgstr "Back"
+
+# 
+msgid "HongKong"
+msgstr "Հոնկոնգյան"
+
+#
+msgid "Hongkong"
+msgstr "Հոնկոնգյան"
+
+# 
+msgid "Malay"
+msgstr "Մալայական"
+
+# 
+msgid "Indo"
+msgstr "Հնդկական"
+
+# 
+msgid "Date Filter"
+msgstr "Տվյալների ֆիլտր"
+
+# 
+msgid "Select competition"
+msgstr "Ընտրեք միջոցառում"
+
+# 
+msgid "Event View"
+msgstr "Հիմնական"
+
+# 
+msgid "Live Overview"
+msgstr "Live ցանկ"
+
+# 
+msgid "Live MultiView"
+msgstr "Live MultiView"
+
+# 
+msgid "Live Calendar"
+msgstr "Live Օրացույց"
+
+# 
+msgid "Statistics"
+msgstr "Վիճակագրություն"
+
+# 
+msgid "Toggle inner scrolling"
+msgstr "Անջատել / Միացնել ներքին սքրոլը"
+
+# 
+msgid "My games"
+msgstr "Իմ խաղերը"
+
+# 
+msgid "My bets"
+msgstr "Պատմություն"
+
+# 
+msgid "Time format"
+msgstr "Time format"
+
+# 
+msgid "12 hours"
+msgstr "12 ժամ"
+
+# 
+msgid "24 hours"
+msgstr "24 ժամ"
+
+# 
+msgid "Sportsbook layout:"
+msgstr "Sportsbook-ի տեսքը՝"
+
+# 
+msgid "Modern"
+msgstr "Մոդեռն"
+
+# 
+msgid "Classic"
+msgstr "Դասական"
+
+# 
+msgid "Asian"
+msgstr "Ասիական"
+
+# 
+msgid "Betting"
+msgstr "Betting"
+
+# 
+msgid "Booking"
+msgstr "Booking"
+
+# 
+msgid "bet slip"
+msgstr "կտրոն"
+
+# 
+msgid "Betting options"
+msgstr "Նախընտրանքներ"
+
+# 
+msgid "Automatically accept price changes"
+msgstr "Ավտոմատ ընդունել գործակիցների փոփոխությունները"
+
+# 
+msgid "Higher odds"
+msgstr "Բարձր գործակիցներ"
+
+# 
+msgid "Any odds"
+msgstr "Ցանկացած գործակիցներ"
+
+# 
+msgid "Quick bet"
+msgstr "Արագ խաղադրույք"
+
+# 
+msgid "Your bet is accepted."
+msgstr "Ձեր խաղադրույքն ընդունված է:"
+
+# 
+msgid "To select a bet, please click on any odd."
+msgstr "խաղադրույքն ընտրելու համար, խնդրում ենք սեղմել  ցանկացած գործակցի վրա"
+
+# 
+msgid "Click on any odd to place a bet."
+msgstr "Սեղմեք ցանկացած գործակցի վրա խաղադրույք կատարելու համար:"
+
+# 
+msgid "Single only"
+msgstr "Միայն օրդինար"
+
+# 
+msgid "Event Locked"
+msgstr "Իրադարձությունը արգելափակված է"
+
+# 
+msgid "This event is not available now"
+msgstr "այս իրադարձությունը հասանելի չէ տվյալ պահին"
+
+# 
+msgid "This pick cannot be combined with:"
+msgstr "ընտրված խաղադրույքը չի կարող համատեղվել հետևյալի հետ՝"
+
+# 
+msgid "delete"
+msgstr "Ջնջել"
+
+# 
+msgid " Pick: "
+msgstr " Ընտրություն` "
+
+# 
+msgid "Unit Stake"
+msgstr "Unit Stake"
+
+# 
+msgid "Stake..."
+msgstr "Դրույք"
+
+# 
+msgid "Repeat for all"
+msgstr "Կրկնել բոլորի համար"
+
+# 
+msgid "Win:"
+msgstr "Շահում`"
+
+# 
+msgid "Superbet"
+msgstr "Սուպերբեթ"
+
+# 
+msgid "Superbet is turned ON"
+msgstr "Սուպերբեթն ակտիվացված է"
+
+# 
+msgid "SuperBet is a new offer that allows requesting a Max Bet Limit Increase for selected sporting events."
+msgstr "Սուպերբեթը նոր հնարավորություն է, որի միջոցով կարող եք առաջարկել խաղադրույք առանց գումարային սահմանափակման:"
+
+# 
+msgid "Booking ID:"
+msgstr "Booking ID:"
+
+# 
+msgid "Stake amount"
+msgstr "Խաղադրույք"
+
+# 
+msgid "Possible win:"
+msgstr "Հնարավոր շահում`"
+
+# 
+msgid "Bonus:"
+msgstr "Էքսպրես բոնուս:"
+
+# 
+msgid "Total win:"
+msgstr "Ընդհանուր շահում`"
+
+# 
+msgid "Invalid stake amount entered"
+msgstr "Անընդունելի խաղադրույքի գումար"
+
+# 
+msgid "Please enter stake amount"
+msgstr "Խնդում ենք մուտքագրել խաղագումար"
+
+# 
+msgid "Insufficient balance"
+msgstr "Բալանսն անբավարար է"
+
+# 
+msgid "You have to accept changes to be able to place bets"
+msgstr "Դուք պետք է հաստատեք փոփոխությունները, որպեսզի կարողանաք խաղադրույք կատարել"
+
+# 
+msgid "Get bet ID"
+msgstr "Get bet ID"
+
+# 
+msgid "Add more events to be able to place bet"
+msgstr "Ավելացրեք իրադարձություններ խաղադրույք կատարելու համար"
+
+# 
+msgid "There are locked events"
+msgstr "Որոշ իրադարձություններ արգելափակված են"
+
+# 
+msgid "Incompatible events"
+msgstr "Անհամատեղելի իրադարձություններ"
+
+# 
+msgid "There are deleted events"
+msgstr "Կան ջնջված իրադարձություններ"
+
+# 
+msgid "Market base for some events have changed"
+msgstr "Իրադարձության բազիսը փոխվել է"
+
+# 
+msgid "Single Only Events"
+msgstr "Միայն օրդինար իրադարձություններ"
+
+# 
+msgid "Prices for some events have changed"
+msgstr "Որոշ իրադարձությունների գործակիցները փոխվել են"
+
+# 
+msgid "Multi-selection mode"
+msgstr "Բազմատարբերակ ռեժիմ"
+
+# 
+msgid "Disable regions"
+msgstr "Խմբավորել ըստ տարածաշրջանների"
+
+# 
+msgid "With video"
+msgstr "Տեսանյութով"
+
+# 
+msgid "Daily coupon"
+msgstr "Ամենօրյա տոմս"
+
+# 
+msgid "For upcoming races please look in Live betting"
+msgstr "For upcoming races please look in Live betting"
+
+# 
+msgid "Selected games"
+msgstr "Ընտրված խաղեր"
+
+# 
+msgid "Clear All"
+msgstr "Մաքրել բոլորը"
+
+# 
+msgid "Trainer/Jockey"
+msgstr "Trainer/Jockey"
+
+# 
+msgid "Age"
+msgstr "Age"
+
+# 
+msgid "Weight"
+msgstr "Weight"
+
+# 
+msgid "Form"
+msgstr "Form"
+
+# 
+msgid "We are not accepting bets on this event at the moment."
+msgstr "Տվյալ պահին այս իրադարձության համար խաղադրույքներ չեն ընդունվում։"
+
+# 
+msgid "Clear"
+msgstr "Clear"
+
+# 
+msgid "Payment Requests Withdrawal"
+msgstr "Payment Requests Withdrawal"
+
+# 
+msgid "Confirm"
+msgstr "Հաստատել"
+
+# 
+msgid "1. The minimum withdrawal amount 10,000 KRW."
+msgstr "1. The minimum withdrawal amount 10,000 KRW."
+
+# 
+msgid "2. Withdrawal can only be made from registered accounts."
+msgstr "2. Withdrawal can only be made from registered accounts."
+
+# 
+msgid "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+msgstr "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+
+# 
+msgid "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+msgstr "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+
+# 
+msgid "5. If you want a quick withdrawal, please use the above time away."
+msgstr "5. If you want a quick withdrawal, please use the above time away."
+
+# 
+msgid "Payment Requests Deposit"
+msgstr "Payment Requests Deposit"
+
+# 
+msgid "1. The minimum deposit amount is 10,000 KRW."
+msgstr "1. The minimum deposit amount is 10,000 KRW."
+
+# 
+msgid "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+msgstr "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+
+# 
+msgid "3. Please always check deposit bank account from time to time."
+msgstr "3. Please always check deposit bank account from time to time."
+
+# 
+msgid "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+msgstr "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+
+# 
+msgid "SKILL GAMES"
+msgstr "Խաղեր "
+
+# 
+msgid "DOWNLOAD"
+msgstr "ԲԵՌՆԵԼ"
+
+# 
+msgid "logo"
+msgstr "Պատկերանիշ"
+
+# 
+msgid "back to top"
+msgstr "Դեպի սկիզբ"
+
+# 
+msgid "Number Drawn Today"
+msgstr "Number Drawn Today"
+
+# 
+msgid "Get Started"
+msgstr "Get Started"
+
+# 
+msgid "Phone"
+msgstr "Phone"
+
+# 
+msgid "Ticket Number"
+msgstr "Ticket Number"
+
+# 
+msgid "Tournaments"
+msgstr "Մրցաշարեր"
+
+# 
+msgid "Poker Leaderboard"
+msgstr "Պոկերի Առաջատարներ"
+
+# 
+msgid "Show All"
+msgstr "Ավելին"
+
+# 
+msgid "FIFA WORLD CUP"
+msgstr "FIFA գավաթ"
+
+# 
+msgid "years"
+msgstr "տարի"
+
+# 
+msgid "months"
+msgstr "ամիս"
+
+# 
+msgid "days"
+msgstr "օր"
+
+# 
+msgid "hours"
+msgstr "ժամ"
+
+# 
+msgid "minutes"
+msgstr "րոպե"
+
+# 
+msgid "seconds"
+msgstr "վայրկյան"
+
+# 
+msgid "Select a Sport "
+msgstr "Ընտրել սպորտաձևը"
+
+# 
+msgid "Place A bet!"
+msgstr "Կատարել խաղադրույք"
+
+# 
+msgid "Poker Tournament"
+msgstr "Պոկերի մրցաշար"
+
+# 
+msgid "Biggest tournament of this year."
+msgstr "Տարվա ամենամեծ մրցաշարը"
+
+# 
+msgid "Bet now!"
+msgstr "Խաղադրույք կատարիր հիմա"
+
+# 
+msgid "Live now"
+msgstr "Live հիմա"
+
+# 
+msgid "Live news"
+msgstr "Live նորություններ"
+
+# 
+msgid "All news"
+msgstr "Բոլոր նորությունները"
+
+# 
+msgid "Eastern"
+msgstr "Eastern"
+
+# 
+msgid "OGWIL"
+msgstr "OGWIL"
+
+# 
+msgid "Don't show this again."
+msgstr "Ցույց չտալ մյուս անգամ։"
+
+# 
+msgid "Event sounds:"
+msgstr "Իրադարձությունների ձայները՝"
+
+# 
+msgid "On"
+msgstr "Միացնել"
+
+# 
+msgid "Off"
+msgstr "Անջատել"
+
+# 
+msgid "Hide:"
+msgstr "Թաքցնել:"
+
+# 
+msgid "Choose color scheme:"
+msgstr "Choose color scheme:"
+
+# 
+msgid "FAQ"
+msgstr "FAQ"
+
+# 
+msgid "My messages"
+msgstr "Իմ հաղորդագրությունները"
+
+# 
+msgid "Log Out"
+msgstr "Դուրս գալ համակարգից"
+
+# 
+msgid "deposit_info_skrill_1tap"
+msgstr "<b>Skrill 1-Tap</b>-ը Skrill-ի հարմարավետ ծառայությունն է, որի միջոցով օգտատերերը կարող են կատարել փոքր փոխանցումներ՝ առանց ամեն անգամ էլ. հասցեն ու գաղտնաբառը ներմուծելու: <br /> <br /> Համակարգն աշխատում է եվրոյով և ամերիկյան դոլարով:<br /> Գումարն անմիջապես կփոխանցվի Ձեր Vbet հաշվին: <br /> Վճարման այս եղանակից օգտվելու համար չի գանձվում գումար:<br /> Փոխանցումները չունեն առավելագույն և/կամ նվազագույն արժեք: <br /> <br /> Skrill 1-Tap-ով Ձեր Vbet հաշվի վրա գումար տեղադրելու համար ուղղակի սեղմեք «Լիցքավորել» կոճակին և փոխանցվելիք գումարի չափը: <br /> Ծրագիրը Ձեզ կուղորդի Skrill-ի էջ փոխանցումն ավարտին հասցնելու համար:<br /> Խնդրում ենք հաշվի առնել, որ Ձեզ հարկավոր է ներմուծել Ձեր էլ. հասցեն միայն Skrill 1-Tap-ով առաջին փոխանցման համար: Առաջին անգամից հետո Ձեր հաշվի տվյալներն ավտոմատ կերպով կճանաչվեն Skrill-ի համակարգի կողմից:"
+
+# 
+msgid "deposit_info_skrill"
+msgstr "<p>Skrill համակարգը համարվում է դրամային փոխանցումներ ուղարկելու և ստանալու անվտանգ, հարմար և մատչելի միջոց ամբողջ աշխարհով մեկ: Հնարավոր արտարժույթներ՝ ԱՄՆ և Եվրո: Դրամային միջոցները անմիջապես փոխանցվում են Ձեր Vbet հաշվին: Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում:  Փոխամցումների նվազագույն արժեքն է 5, առավելագույն արժեքի սահմանում չկա:  Որպեսզի Skrill համակարգի միջոցով Ձեր Vbet հաշվին փոխանցեք դրամային միջոցներ հարկավոր է պարզապես սեղմել «Լիցքավորում» վահանակը ՝ Skrill համակարգում գրանցված էլեկտրոնային փոստը և փոխանցման համար ցանկալի գումարի չափը մուտքագրելուց հետո: Դուք կվերահղվեք Skrill համակարգ գործարքն ավարտելու համար:</p>"
+
+# 
+msgid "withdraw_info_skrill"
+msgstr "Սքրիլն ամբողջ աշխարհում փող փոխանցելու և ստանալու ապահով, հարմար և մատչելի ճանապարհ է: <br>Սպասարկվող տարադրամներից են եվրոն և ԱՄՆ դոլարը: <br>Դրամը կփոխանցվի Ձեր Vbet հաշվից 24 ժամի ընթացքում: <br>Վճարման այս տարբերակից օգտվելու համար չի գանձվում որևէ գումար:<br>Փոխանցումները չունեն նվազագույն կամ առավելագույն մեծություն: <br>Սքրիլով Ձեր Vbet հաշվից գումար վերցնելու համար ուղղակի ներմուծեք ձեր անուն-ազգանունը, Սքրիլով գրանցված Ձեր էլ. փոստի հասցեն՝ ստորև նշելով գումարը, որն ուզում եք փոխանցել: Այնուհետև սեղմեք «Մուտքագրել» կոճակին, որպեսզի մտնեք Սքրիլի էջը փոխանցումն ավարտին հասցնելու համար:"
+
+# 
+msgid "deposit_info_webmoney"
+msgstr "<p>WebMoney էլեկտրոնային հաշվարկային համակարգը հնարավորություն է տալիս ինտերնետից օգտվողներին իրականացնել անվտանգ դրամային փոխանցումներ իրական ժամանակում: Հնարավոր արտարժույթներ՝ ԱՄՆ, Եվրո, ՌԴ և UAH:  Դրամային միջոցները անմիջապես փոխանցվում են Ձեր Vbet հաշվին: Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում: Փոխանցումները չունեն նվազագույն կամ առավելագույն սահմանաչափ:  WebMoney համակարգով Ձեր Vbet հաշվին դրամային միջոցներ փոխանցելու համար ցանկալի գումարի չափը մուտքագրելուց հետո սեղմեք «Լիցքավորում» վահանակը: Այնուհետև, Դուք կվերահղվեք WebMoney համակարգ գործարքն ավարտելու համար:  Խնդրում ենք նկատի ունենալ, որ դուք պետք է ունենաք WebMoney E, R կամ Z դրամապանակ:</p>"
+
+# 
+msgid "withdraw_info_webmoney"
+msgstr "<p>WebMoney էլեկտրոնային հաշվարկային համակարգը հնարավորություն է տալիս ինտերնետից օգտվողներին իրականացնել անվտանգ դրամային փոխանցումներ իրական ժամանակում: Հնարավոր արտարժույթներ՝ ԱՄՆ, Եվրո, ՌԴ և UAH: Դրամային միջոցները կփոխանցվեն Ձեր Vbet հաշվից 72 ժամվա ընթացքում : Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում: Փոխանցումները չունեն նվազագույն կամ առավելագույն սահմանում:  WebMoney համակարգով Ձեր Vbet հաշվից գումարի հետ վերադարձ կատարելու համար, սեղմեք «Ելք» վահանակը ՝ Ձեր ցանկալի գումարի չափը, WebMoney համակարգում գրանցված Ձեր ամբողջական անունը և դրամապանակի համարը մուտքագրելուց հետո: Խնդրում ենք նկատի ունենալ, որ դուք պետք է ունենաք WebMoney E, R կամ Z դրամապանակ:</p>"
+
+# 
+msgid "Purse"
+msgstr "Դրամապանակ"
+
+# 
+msgid "deposit_info_qiwi"
+msgstr "<p>QIWI համակարգն իրենից ներկայացնում է թվային դրամապանակ, որը կարելի է օգտագործել մի շարք մեթոդներով դրամային միջոցներ ուղարկելու և ստանալու համար:  Այն թույլ է տալիս յուրաքանչյուր օգտվողին ընտրել իր համար առավել հարմար և նախընտրելի դրամային փոխանցման մեթոդը:   Հնարավոր արտարժույթներ՝ ԱՄՆ, Եվրո և ՌԴ:Դրամային միջոցները կփոխանցվեն Ձեր Vbet հաշվին 24 ժամվա ընթացքում: Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում:Փոխանցումները չունեն նվազագույն կամ առավելագույն սահմանում: Որպեսզի QIWI համակարգի միջոցով Ձեր Vbet հաշվին փոխանցեք դրամային միջոցներ հարկավոր է պարզապես սեղմել «Լիցքավորում» վահանակը՝ QIWI համակարգում գրանցված հեռախոսահամարը և փոխանցման համար ցանկալի գումարի չափը մուտքագրելուց հետո:  Դուք կվերահղվեք QIWI համակարգ գործարքն ավարտելու համար:</p>"
+
+# 
+msgid "withdraw_info_qiwi"
+msgstr "<p>QIWI համակարգն իրենից ներկայացնում է թվային դրամապանակ, որը կարելի է օգտագործել մի շարք մեթոդներով դրամային միջոցներ ուղարկելու և ստանալու համար:  Այն թույլ է տալիս յուրաքանչյուր օգտվողին ընտրել իր համար առավել հարմար և նախընտրելի դրամային փոխանցման մեթոդը:  Հնարավոր արտարժույթներ՝ ԱՄՆ, Եվրո և ՌԴ:Դրամային միջոցները կփոխանցվեն Ձեր Vbet հաշվից 24 ժամվա ընթացքում : Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում: Փոխանցումները չունեն նվազագույն սահմանաչափ, իսկ առավելագույն սահմանաչափն է՝ 300 եվրո:QIWI համակարգով Ձեր Vbet հաշվից գումարի հետ վերադարձ կատարելու համար, սեղմեք «Ելք» վահանակը ՝ Ձեր ցանկալի գումարի չափը և QIWI դրամապանակի համարը մուտքագրելուց հետո: Դուք կվերահղվեք QIWI համակարգ գործարքն ավարտելու համար:</p>"
+
+# 
+msgid "Wallet id"
+msgstr "Դրամապանակի համար"
+
+# 
+msgid "deposit_info_neteller"
+msgstr "<p>Neteller համակարգը հնարավորություն է տալիս օգտվողներին կատարել անվտանգ էլեկտրոնային վճարումներ:  Այն առաջարկում է ակնթարթային դրամային փոխանցումներ կատարելու և հետ կանչելու այնպիսի համակարգ, որին վստահում են միլիոնավորներն ամբողջ աշխարհում:  Հնարավոր արտարժույթներ՝ ԱՄՆ, Եվրո և ՌԴ:  Դրամային միջոցները անմիջապես փոխանցվում են Ձեր Vbet հաշվին:  Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում:  Փոխանցումները չունեն նվազագույն կամ առավելագույն սահմանում:  Որպեսզի Neteller համակարգի միջոցով Ձեր Vbet հաշվին փոխանցեք դրամային միջոցներ հարկավոր է պարզապես սեղմել «Լիցքավորում» վահանակը ՝ Ձեր Neteller հաշվեհամարը, Պաշտպանիչ ID-ն և փոխանցման համար ցանկալի գումարի չափը մուտքագրելուց հետո:  Դուք կվերահղվեք Neteller համակարգ գործարքն ավարտելու համար: Խնդրում ենք նկատի ունենալ, որ Neteller և Vbet հաշիվներում գրանցված էլեկտրոնային փոստի Ձեր հասցեները պետք է լինեն նույնը, որպեսզի գործարքն ընդունվի:</p>"
+
+# 
+msgid "withdraw_info_neteller"
+msgstr "<p>Neteller համակարգը հնարավորություն է տալիս օգտվողներին կատարել անվտանգ էլեկտրոնային վճարումներ:  Այն առաջարկում է ակնթարթային դրամային միջոցներ փոխանցելու և հետ կանչելու այնպիսի համակարգ, որին վստահում են միլիոնավորներն ամբողջ աշխարհում:  Հնարավոր արտարժույթներ՝ ԱՄՆ, Եվրո և ՌԴ:  Դրամային միջոցները կփոխանցվեն Ձեր Vbet հաշվից 24 ժամվա ընթացքում :  Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում:  Փոխանցումները չունեն նվազագույն կամ առավելագույն սահմանում:  Neteller համակարգով Ձեր Vbet հաշվից գումարի հետ վերադարձ կատարելու համար, սեղմեք «Ելք» վահանակը ՝ Ձեր ցանկալի գումարի չափը և հաշվեհամարը մուտքագրելուց հետո:</p>"
+
+# 
+msgid "Account Id"
+msgstr "Հաշվի իդենտիֆիկացիոն համար"
+
+# 
+msgid "Secure Id"
+msgstr "Պաշտպանիչ ID"
+
+# 
+msgid "deposit_info_moneta"
+msgstr "<p>Moneta.ru վճարային համակարգը ստեղծվել է Ռուսաստանում:  Այն ինտերնետ օգտվողներին տրամադրում է հնարավորություն անվտանգ և ակնթարթային դրամային գործարքներ կատարելու համար:  Հնարավոր արտարժույթներ՝ ԱՄՆ, Եվրո և ՌԴ: Դրամային միջոցները կփոխանցվեն Ձեր Vbet հաշվին 24 ժամվա ընթացքում:  Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում: Փոխանցումները չունեն նվազագույն կամ առավելագույն սահմանում:  Որպեսզի Moneta.ru համակարգի միջոցով Ձեր Vbet հաշվին փոխանցեք դրամային միջոցներ հարկավոր է պարզապես սեղմել «Լիցքավորում» վահանակը՝ Moneta.ru համակարգում գրանցված էլեկտրոնային փոստը և փոխանցման համար ցանկալի գումարի չափը մուտքագրելուց հետո:  Դուք կվերահղվեք Moneta.ru համակարգ գործարքն ավարտելու համար:</p>"
+
+# 
+msgid "withdraw_info_moneta"
+msgstr "<p>Moneta.ru վճարային համակարգը ստեղծվել է Ռուսաստանում:  Այն ինտերնետ օգտվողներին տրամադրում է հնարավորություն անվտանգ և ակնթարթային դրամային գործարքներ կատարելու համար:  Հնարավոր արտարժույթներ՝ ԱՄՆ, Եվրո և ՌԴ: Դրամային միջոցները կփոխանցվեն Ձեր Vbet հաշվից 12 ժամվա ընթացքում :Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում: Փոխանցումները չունեն նվազագույն կամ առավելագույն սահմանում:   Moneta.ru համակարգով Ձեր Vbet հաշվից գումարի հետ վերադարձ կատարելու համար, սեղմեք «Ելք» վահանակը ՝ Ձեր ցանկալի գումարի չափը, ամբողջական անունը, Skrill համակարգում գրանցված էլեկտրոնային փոստի հասցեն և Ձեր դրամապանակի համարը մուտքագրելուց հետո:  Դուք կվերահղվեք Moneta.ru համակարգ գործարքն ավարտելու համար:</p>"
+
+# 
+msgid "deposit_info_ecocard"
+msgstr "<span>EcoPayz համաշխարհային վճարային համակարգը առաջարկում է ակնթարթային անվտանգ և հարմարավետ վճարման ծառայություններ հաճախորդների և կազմակերպությունների համար ամբողջ աշխարհով մեկ: <br></span>&nbsp;<span>Հնարավոր արտարժույթներ՝ ԱՄՆ, Եվրո և ՌԴ:<br></span><span>Դրամային միջոցները անմիջապես փոխանցվում են &nbsp;Ձեր Vbet հաշվին:<br></span><span>Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում:<br></span><span>Փոխանցումները չունեն նվազագույն կամ առավելագույն սահմանում:</span>&nbsp;<br><span>EcoPayz <span>համակարգով&nbsp; </span>Ձեր Vbet հաշվին դրամային միջոցներ փոխանցելու համար, Ձեր ցանկալի գումարի չափը մուտքագրելուց հետո սեղմեք «Լիցքավորում»&nbsp; վահանակը: <br></span><span>Դուք կվերահղվեք EcoPayz համակարգ գործարքն ավարտելու համար:</span><span>&nbsp;</span>"
+
+# 
+msgid "withdraw_info_ecocard"
+msgstr "<br>&nbsp;<span>EcoPayz համաշխարհային վճարային համակարգը առաջարկում է ակնթարթային անվտանգ և հարմարավետ վճարման ծառայություններ հաճախորդների և կազմակերպությունների համար ամբողջ աշխարհով մեկ:<br></span>&nbsp;<span>Հնարավոր արտարժույթներ՝ ԱՄՆ, Եվրո և ՌԴ:<br></span><span>Դրամային միջոցները կփոխանցվեն Ձեր Vbet հաշվից 24 ժամվա ընթացքում :<br></span><span>Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում:<br></span><span>Փոխանցումները չունեն նվազագույն կամ առավելագույն սահմանում:<br></span><span>EcoPayz<span> համակարգով&nbsp; </span>Ձեր Vbet հաշվից գումարի հետ վերադարձ կատարելու համար, սեղմեք «Ելք»&nbsp; վահանակը ՝ Ձեր ցանկալի գումարի չափը, ամբողջական անունը և &nbsp;&nbsp;հաշվեհամարը մուտքագրելուց հետո<span>:<br></span></span><span>Դուք կվերահղվեք EcoPayz համակարգ գործարքն ավարտելու համար:</span>&nbsp;"
+
+# 
+msgid "deposit_info_ukash"
+msgstr "<p>Ukash համակարգը ստեղծվել է նրա համար, որպեսզի հաճախորդներին տրամադրի հեշտ, անվտանգ և ապահով մեթոդ՝ կանխիկ գումարով առցանց վճարումներ կատարու համար:  Հնարավոր արտարժույթներ՝ ԱՄՆ և Եվրո : Դրամային միջոցները անմիջապես փոխանցվում են Ձեր Vbet հաշվին: Տվյալ վճարման եղանակը օգտագործելու համար հավելյալ վճար չի պահանջվում:  Փոխանցումները չունեն նվազագույն կամ առավելագույն սահմանում:  Ukash համակարգով Ձեր Vbet հաշվին դրամային միջոցներ փոխանցելու համար, Ձեր ցանկալի գումարի չափը մուտքագրելուց հետո սեղմեք « հաստատել » վահանակը:  Դուք կվերահղվեք Ukash համակարգ, որտեղ պետք է մուտքագրեք Ձեր Ukash Voucher-ի տվյալները՝ գործարքն ավարտելու համար: </p>"
+
+# 
+msgid "withdraw_info_ukash"
+msgstr "withdraw_info_ukash"
+
+# 
+msgid "deposit_info_cash"
+msgstr "<p>Գումար մուտքագրելիս անհրաժեշտ է գանձապահին ասել\"VIVAROBET\"-ի Ձեր հաշվեհամարը, որը Դուք ստանում եք մեր կայքում գրանցվելիս:</p><p>Բաղրամյան 1, Անդրանիկի 73/5, Կոմիտասի 60 և Ն.Զարյան նրբ. 1, տուն 9 հասցեներում կարող եք լիցքավորել Ձեր հաշվեհամարը և ստանալ շահումները շուրջօրյա` առանց հանգստյան օրերի: Մնացած գրասենյակներում կարող եք լիցքավորել Ձեր հաշվեհամարը և ստանալ շահումները ժ. 14:00 - 23:00:</p><p>Գրասենյակների հասցեները, որտեղ Դուք կարող եք կանխիկ գումար մուտքագրել:</p>"
+
+# 
+msgid "deposit_info_bitcoin"
+msgstr "deposit_info_bitcoin"
+
+# 
+msgid "deposit_info_cashbill"
+msgstr "deposit_info_cashbill"
+
+# 
+msgid "deposit_info_arca"
+msgstr "«Արմենիան Քարդ» ՓԲԸ-ը հիմնադրվել է ՀՀ կենտրոնական բանկի և տաս առևտրային բանկերի կողմից 2000 թ-ի. մարտին Հայաստանի բանկային ոլորտում նոր վճարահաշվարկային համակարգի ներդրման և զարգացման նպատակով:<br>Ընկերությունը մատուցում է ծառայությունների փաթեթ, որը հնարավորություն է տալիս բանկերին թողարկել և սպասարկել ArCa, MasterCard, VISA քարտեր, ինչպես նաև սպասարկել American Express քարտեր՝ օգտվելով պրոցեսինգային կենտրոնի ժամանակակից տեխնիկական, տեխնոլոգիական և ծրագրային հնարավորություններից, ինչպես նաև ընկերության մասնագիտական օժանդակությունից:<br>Ընկերությունը հանդիսանում է`<ul><li>MasterCard Europe միջազգային վճարային համակարգի լիիրավ անդամ և պրոցեսինգային ծառայություններ մատուցող կենտրոն (Member Service Provider)</li><li>VISA համակարգի համար պրոցեսինգային ծառայություններ մատուցող կենտրոն (Third Party Processor)</li><li>American Express համակարգի համար պրոցեսինգային ծառայություններ մատուցող կենտրոն (Third Party Processor)</li></ul>"
+
+# 
+msgid "withdraw_info_arca"
+msgstr "Վճարման համար պատվիրված գումարը փոխանցվում է Ձեր կողմից նշված հայկական բանկերի ArCa, Visa և Master քարտերի վրա, որոնք գրանցված են Ձեր անունով:<br>Վճարման իրականացման ժամկետը 24 ժամ է:<br>Տվյալ համակարգի անկայուն աշխատանքի պատճառով գումարի փոխանցման ուշացումը կարող է գերազանցել մեր կողմից նշված ժամկետը:<br>Վճարման նվազագույն գումարը <b>500</b> դրամ է:<br>Ամենօրյա վճարման առավելագույն գումարը <b>200 000</b> դրամ է:<br>Այս մեթոդով վճարում իրականացնելու դեպքում կոմիսիոն վճար չի գանձվում:"
+
+# 
+msgid "Last name/surname, name, middle name"
+msgstr "Ա.Ա.Հ."
+
+# 
+msgid "deposit_info_edram"
+msgstr "<a href=\"http://www.edram.am/\">IDram</a>-ն ինտերնետում վճարային համակարգ է: Վճարում իրականացնելու համար պետք է գրանցված լինել IDram համակարգում: IDram-ը չի պահանջում հավելյալ ծրագրերի բեռնավորում: Հատուկ էջում Դուք կարող եք անհրաժեշտ գումարի չափով հաշիվ ներկայացնել և գրանցել այն IDram համակարգում: Դրանից հետո նույն էջում պետք է ստուգել բացված հաշվի կարգավիճակը: Եթե այն վճարված է, Ձեր խաղային հաշիվը լիցքավորվում է փոխանցված գումարով: Համակարգում գումար մուտքագրելու համար \"ՀայՓոստ\" կապի բաժանմունքից պետք է գնել IDram քարտ: Աշխատանքի կանոններին կարելի է ծանոթանալ <a href=\"http://www.edram.am/\">www.edram.am</a> կայքում:<br>Այս մեթոդով վճարում իրականացնելիս կոմիսիոն վճար չի գանձվում:"
+
+# 
+msgid "withdraw_info_edram"
+msgstr "Վճարման համար պատվիրված գումարը փոխանցվում է Ձեր կողմից նշված <a href=\"http://www.edram.am/\">EDram</a> հաշվեհամարին, որը գրանցված է Ձեր անունով:Վճարման իրականացման ժամկետը 12 ժամ է:Այս մեթոդով վճարում իրականացնելու դեպքում կոմիսիոն գանձում չի կատարվում:"
+
+# 
+msgid "withdraw_info_cash"
+msgstr "<p>Շահումները կարող եք ստանալ խաղադրույքների ընդունման գրասենյակներից հարցումը կատարելու նույն կամ հաջորդ օրը: Գումարը ստանալու համար պարտավոր եք ներկայացնել Ձեր անձնագիրը: Շահում ստանալու պատվերն ուժի մեջ է 3 օր: Եթե Դուք չկարողանաք ստանալ շահումն այդ ժամանակահատվածում, հարցումը չեղյալ կհամարվի, իսկ պատվիրված գումարը հետ կնստի խաղային հաշվեհամարին: Հարցման նվազագույն գումարը սահմանված չէ: Շահում ստանալու այս եղանակը լրացուցիչ ծախսեր չի նախատեսում:</p><p>Բաղրամյան 1, Անդրանիկի 73/5, Ամիրյան 18/2ա հասցեներով կարող եք ստանալ Ձեր շահումները 11:00 -ից մինչև 23:00-ն: Մյուս գրասենյակներում շահումները կարող եք ստանալ ժամը 14:00-ից 23:00-ն:</p><p>Կանխիկ դրամ կարող եք ստանալ VIVAROBET-ի հետևյալ գրասենյակներում.</p>"
+
+# 
+msgid "deposit_info_telcell"
+msgstr "Հաճախորդներին ժամանակակից, վստահելի և հարմար վճարային ծառայությամբ ապահովելն անչափ կարևոր է \"VIVAROBET\" ընկերության համար: Այդ պատճառով \"VIVAROBET\" ընկերությունը միացել է <a href=\"http://www.telcell.am/\">Telcell</a> համակարգին:<br>«ԹԵԼ-ՍԵԼ» ՓԲԸ Հայաստանի վճարումների ընդունման շուկայում աշխատում է 2007 թ-ի օգոստոս ամսից: Ներկայիս Telcell-ի պրոցեսինգային կենտրոնին միացված են ավելի քան 300 վճարումների ընդունման կետեր, որոնց միջոցով կարելի է կատարել վճարումներ` հօգուտ տեղային բջջային օպերատորների, մարել կրեդիտորական պարտքեր, կատարել կոմունալ վճարումներ, վճարել ինտերնետի համար և այլն: Հետագայում նախատեսվում է համակարգի ընդլայնում:<br>Ընկերությունը շուկայում աշխատում է Telcell ապրանքանիշով: Telcell` ակնթարթային վճարումների օպերատոր:<br>Այս մեթոդով վճարում կատարելու դեպքում կոմիսիոն գանձում չի կատարվում:"
+
+# 
+msgid "deposit_info_tandem"
+msgstr "<b>Տանդեմ Փեյմինթս ՍՊԸ-ն</b>, հիմնադրված 2007 թվականին, զբաղվում է ավտոմատ վճարային համակարգերի տեղադրմամբ, տարածմամբ և ապահովմամբ: Մեր ընկերության վճարային տերմինալները բջջային հեռախոսների, կոմունալ ծառայությունների, ինտերնետի, հաշիվների լիցքավորման և այլ վճարումների արագ, հուսալի և հարմար միջոցներ են: Մեր տերմինալները մշտական կապի մեջ են պրոցեսինգի կենտրոնի հետ, որն ապահովում է փոխանցումների մշակման մեծ արագություն և տերմինալների շուրջօրյա մոնիթորինգ: Տանդեմ Փեյմինթս ընկերության տերմինալների ծրագրային ապահովումը մշակված է ՀՀ &Ccedil;Սմարթ-Տեխ&Egrave; ՍՊԸ-ի կողմից, որն ունի էլեկտրոնային վճարային համակարգերի մշակման մեծ փորձ, որոնցից են Արկա Պորտալը և E-card համակարգը: Այս հանգամանքը հնարավորություն է տալիս մշտապես կատարելագործել վճարային տերմինալների համակարգը, ինչպես նաև արագ ներդնել տարբեր նորամուծություններ:<br/> <b>Մեր հիմնական առավելություններն են.<ul><li>Մենք աշխատում ենք առանց կոմիսիոն գանձումների,(0%)</li><li>Մեր տերմինալները հնարավորություն են տալիս բաշխել ներդրված գումարը տարբեր ծառայությունների միջև: (Այս կետերի մասին մանրամասն` &quot;Օգտագործողների համար&quot; էջում):</li></ul></b> Մեր օպերատորներն աշխատում են շուրջօրյա և միշտ պատրաստ են պատասխանել մեր կայքին վերաբերող հարցերին:"
+
+# 
+msgid "deposit_info_btabank"
+msgstr "Հաճախորդներին ժամանակակից, վստահելի և հարմար վճարային ծառայությամբ ապահովելն անչափ կարևոր է VIVAROBET ընկերության համար:<br>Այսուհետ VIVAROBET-ի Ձեր հաշիվը կարող եք լիցքավորել նաև «ԲՏԱ ԲԱՆԿ»-ի միջոցով:<br>«ԲՏԱ ԲԱՆԿ» ՓԲԸ գործում է Հայաստանի Հանրապետության Կենտրոնական Բանկի կողմից տրված թիվ 31 լիցենզիայի հիման վրա:<br>«ԲՏԱ ԲԱՆԿ»-ի միջոցով կարող եք կատարել կոմունալ, ֆիքսված և բջջային հեռախոսակապերի, էլեկտրոնային դրամապանակների վճարումներ:"
+
+# 
+msgid "deposit_info_mobidram"
+msgstr " Եթե ունեք հաշիվ ՄոբիԴրամ վճարային համակարգում, ապա այսուհետ կարող ես Վիվառո-ի հաշվի առցանց լիցքավորում կատարել MobiDram-ի միջոցով: Լիցքավորելու համար <<Լիցքավորում>> բաժնում պետք ընտրեք MobiDram համակարգը և մուտքագրելով համապատասխան տվյալները կատարել լիցքավորում:<br>Գումարը ամբողջությամբ նստում է Ձեր հաշվին:"
+
+# 
+msgid "deposit_info_paytopay"
+msgstr "Եթե ունես հաշիվ ՄոբիԴրամ վճարային համակարգում, ապա այսուհետ կարող ես Վիվառո-ի հաշվի լիցքավորում կատարել, ուղարկելով SMS 1009 կարճ համարին հետևյալ տեքստով՝ GUMAR, Vivaro ID (օրինակ՝ 5000, 1234567):<br>Լիցքավորման նվազագույն գումարը կազմում է 1000 ՀՀ դրամ: Գումարը ամբողջությամբ նստում է Ձեր հաշվին:"
+
+# 
+msgid "withdraw_info_topoker"
+msgstr "Եթե ունեք VivaroPoker-ի հաշիվ, կարող եք այստեղից գումար փոխանցել Ձեր VivaroPoker-ի հաշվին։ Դրա համար մուտքագրեք Ձեր VivaroPoker-ի մուտքանունն ու գաղտնաբառը(միայն առաջին անգամ) և Ձեր նշած գումարը կփոխանցվի Ձեր VivaroPoker-ի հաշվին։"
+
+# 
+msgid "deposit_info_card"
+msgstr "deposit_info_card"
+
+# 
+msgid "PinCode"
+msgstr "Փին կոդ"
+
+# 
+msgid "x_card_num"
+msgstr "x_card_num"
+
+# 
+msgid "x_card_code"
+msgstr "x_card_code"
+
+# 
+msgid "x_exp_date_yy"
+msgstr "x_exp_date_yy"
+
+# 
+msgid "withdraw_info_astropay"
+msgstr "withdraw_info_astropay"
+
+# 
+msgid "Credit Card Number"
+msgstr "Credit Card Number"
+
+# 
+msgid "Expiration Year"
+msgstr "Expiration Year"
+
+# 
+msgid "Expiration Month"
+msgstr "Expiration Month"
+
+# 
+msgid "Card Holder Name"
+msgstr "Card Holder Name"
+
+# 
+msgid "Card Number"
+msgstr "Քարտի համար"
+
+#
+msgid "Card number"
+msgstr "Քարտի համար"
+
+# 
+msgid "Card code"
+msgstr "Քարտի կոդ"
+
+# 
+msgid "Expiry date (mm)"
+msgstr "Վավերական է մինչև (ամիս)"
+
+# 
+msgid "Expiry date (yyyy)"
+msgstr "Վավերական է մինչև (տարի)"
+
+# 
+msgid "deposit_info_wirecard"
+msgstr "<p>«Wirecard»-ը՝  անվտանգ, հարմար և արագ միջոց է ձեր Vbet հաշիվը վերալիցքավորելու համար՝ վարկային քարտի օգնությամբ: Հնարավոր փոխարժույթներն են՝ EUR, USD, RUB, UAH:           Դրամական միջոցներն անմիջապես կփոխանցվեն Ձեր Vbet հաշվին: Այս միջոցի օգտագործումը չի պահանջում հավելավճար:         «Wirecard»-ի միջոցով ձեր Vbet հաշվին միջոցներ ավելացնելու համար բավարար է լրացնել պահանջվող դաշտերը և սեղմել՝ «դեպոզիտ» կոճակը:</p>"
+
+# 
+msgid "CardNumber"
+msgstr "Քարտի համար"
+
+# 
+msgid "CardHolderName"
+msgstr "Քարտապանի Անուն"
+
+# 
+msgid "ExpirationYear"
+msgstr "Վավեր․ (տարի)"
+
+# 
+msgid "ExpirationMonth"
+msgstr "Վավեր․ (ամիս)"
+
+# 
+msgid "Cvc2"
+msgstr "CVC2"
+
+# 
+msgid "deposit_info_bankform"
+msgstr "deposit_info_bankform"
+
+# 
+msgid "IBAN"
+msgstr "IBAN"
+
+# 
+msgid "SWIFT"
+msgstr "SWIFT"
+
+# 
+msgid "withdraw_info_bankform"
+msgstr "withdraw_info_bankform"
+
+# 
+msgid "deposit_info_moneysafe"
+msgstr "deposit_info_moneysafe"
+
+# 
+msgid "Code"
+msgstr "Կոդ"
+
+# 
+msgid "withdraw_info_tovivaropet"
+msgstr "Եթե ունեք Vivarobet հաշիվ, կարող եք այստեղից գումար փոխանցել Ձեր Vivarobet հաշվին։ Դրա համար մուտքագրեք Ձեր Vivarobet մուտքանունն ու գաղտնաբառը(միայն առաջին անգամ) և Ձեր նշած գումարը կփոխանցվի Ձեր Vivarobet հաշվին։"
+
+# 
+msgid "deposit_info_eblontransfer"
+msgstr "deposit_info_eblontransfer"
+
+# 
+msgid "withdraw_info_eblontransfer"
+msgstr "withdraw_info_eblontransfer"
+
+# 
+msgid "CustomerID"
+msgstr "CustomerID"
+
+# 
+msgid "casino_auth_error"
+msgstr "Մենք ունենք ժամանակավոր դժվարություններ։ Խնդրում ենք փորձել մի փոքր ուշ։"
+
+# 
+msgid "Sorry, this game cannot be opened in multi-view mode"
+msgstr "Ցավոք, այս խաղը չի բացվում բազմէկրան տարբերակով"
+
+# 
+msgid "This Game Is Already Opened In Multi Game View. Please Choose Another Game."
+msgstr "Այս խաղն արդեն բացված է բազմակի ռեժիմում: Խնդրում ենք ընտրել այլ խաղ:"
+
+# 
+msgid "It Is Possible To Play Only One Game Of The Same Provider In Multi Game View. Please Choose Another Game."
+msgstr "Բազմակի ռեժիմով հնարավոր է խաղալ նույն մատակարարի միայն մեկ խաղ: Խնդրում ենք ընտրել այլ խաղ:"
+
+# 
+msgid "Please close one of the games for adding new one"
+msgstr "Խնդրում ենք փակել խաղերից մեկը մյուսն ավելացնելու համար"
+
+# 
+msgid "The game is not available"
+msgstr "The game is not available"
+
+# 
+msgid "Home"
+msgstr "Սկիզբ"
+
+# 
+msgid "message_OK"
+msgstr "Ընդունված է"
+
+# 
+msgid "Virtual sports"
+msgstr "Վիրտուալ սպորտաձևեր"
+
+# 
+msgid "More sports"
+msgstr "Այլ մարզատեսակներ"
+
+# 
+msgid "Popular competitions"
+msgstr "Սիրված մրցումներ"
+
+# 
+msgid "Your Facebook account is already linked to another existing user."
+msgstr "Your Facebook account is already linked to another existing user."
+
+# 
+msgid "Unknown error"
+msgstr "Սխալ"
+
+# 
+msgid "Come play on "
+msgstr "Come play on "
+
+# 
+msgid "Password changed"
+msgstr "Գաղտնաբառը փոխվել է"
+
+# 
+msgid "Personal information updated."
+msgstr "Անձնական տվյալները փոփոխված են:"
+
+# 
+msgid "Invalid password."
+msgstr "Սխալ գաղտնաբառ:"
+
+# 
+msgid "Deposit limits set."
+msgstr "Հաշվեկշռի լիցքավորման սահմանապակումը ակտիվացված է:"
+
+# 
+msgid "Self-Exclusion period set."
+msgstr "Ինքնաարգելափակումն ակտիվացված է:"
+
+# 
+msgid "New Bets"
+msgstr "Նոր խաղադրույքներ"
+
+# 
+msgid "Winning Bets"
+msgstr "Հաղթող խաղադրույքներ"
+
+# 
+msgid "Returned Bet"
+msgstr "Վերադարձված խաղադրույքներ"
+
+# 
+msgid "Card Deposit"
+msgstr "Լիցքավորում քարտով"
+
+# 
+msgid "Bonus Bet"
+msgstr "Բոնուսային խաղադրույքներ"
+
+# 
+msgid "Commission"
+msgstr "Միջնորդավճար"
+
+# 
+msgid "Withdrawal"
+msgstr "Կանխիկացում"
+
+# 
+msgid "Correction"
+msgstr "Ուղղումներ"
+
+# 
+msgid "Deposit by payment system"
+msgstr "Լիցքավորում վճարային համակարգով"
+
+# 
+msgid "Withdrawal request"
+msgstr "Կանխիկացման հարցում"
+
+# 
+msgid "Authorized Withdrawal"
+msgstr "Թույլատրված կանխիկացում"
+
+# 
+msgid "Withdrawal denied"
+msgstr "Չեղարկված կանխիկացում"
+
+# 
+msgid "Withdrawal paid"
+msgstr "Վճարված կանխիկացում"
+
+# 
+msgid "Pool Bet"
+msgstr "Տոտալիզատոր"
+
+# 
+msgid "Pool Bet Win"
+msgstr "Տոտալիզատորի խաղադրույքի շահում"
+
+# 
+msgid "Pool Bet Return"
+msgstr "Տոտալիզատորի խաղադրույքի վերադարձ"
+
+# 
+msgid "In the process of revision"
+msgstr "Վերանայման ընթացքում"
+
+# 
+msgid "Removed for recalculation"
+msgstr "Դեբետագրված՝ վերահաշվարկի համար"
+
+# 
+msgid "Free Bet Bonus received"
+msgstr "Պարգևագումար խաղադրույքներ կատարելու համար"
+
+# 
+msgid "Wagering Bonus received"
+msgstr "Պարգևագումար խաղարկելու պայմաններով"
+
+# 
+msgid "Transfer from Gaming Wallet"
+msgstr "Փոխանցում խաղային քսակից"
+
+# 
+msgid "Transfer to Gaming Wallet"
+msgstr "Փոխանցում խաղային քսակ"
+
+# 
+msgid "Declined Superbet"
+msgstr "Մերժված Սուպերբեթ"
+
+# 
+msgid "Bet on hold"
+msgstr "Bet on hold"
+
+# 
+msgid "Bet cashout"
+msgstr "Խաղադրույքի կանխիկացում"
+
+# 
+msgid "Fair"
+msgstr "Արդար"
+
+# 
+msgid "Fair Win"
+msgstr "Արդար հաղթանակ"
+
+# 
+msgid "Fair Return"
+msgstr "խաղադրույքի արդար վերադարձ"
+
+# 
+msgid "Tip"
+msgstr "Tip"
+
+# 
+msgid "Error"
+msgstr "Սխալ"
+
+# 
+msgid "Your E-mail Has been confirmed"
+msgstr "Your E-mail Has been confirmed"
+
+# 
+msgid "You account has been locked. Please try again later !"
+msgstr "You account has been locked. Please try again later !"
+
+# 
+msgid "Invalid email"
+msgstr "Invalid email"
+
+# 
+msgid "Upcoming"
+msgstr "Գալիք"
+
+# 
+msgid "Popular"
+msgstr "Popular"
+
+# 
+msgid "Favorite games"
+msgstr "Իմ խաղերը"
+
+# 
+msgid "Unsupported service"
+msgstr "Նման ծառայություն չկա"
+
+# 
+msgid "Currency unsupported"
+msgstr "Այս փոխանցումը չի կարող իրականացվել Ձեր արժույթով"
+
+# 
+msgid "Amount is less than minimum allowed"
+msgstr "Գումարը նվազագույն թույլատրելիից քիչ է"
+
+# 
+msgid "Amount is greater than maximum allowed"
+msgstr "Գումարը առավելագույն թույլատրելիից ավել է"
+
+# 
+msgid "Entered payee information is not correct."
+msgstr "Մուտքագրված ստացողի մասին տեղեկությունները սխալ են:"
+
+# 
+msgid "Entered payer information is not correct."
+msgstr "Մուտքագրված վճարողի մասին տեղեկությունները սխալ են․"
+
+# 
+msgid "Internal service fault"
+msgstr "Համակարգի ներքին սխալ"
+
+# 
+msgid "Withdraw request blocked."
+msgstr "Վճարումն արգելափակված է։"
+
+# 
+msgid "User link blocked, please contact support."
+msgstr "Կապված օգտատերն արգելափակված է, կապնվեք մեզ հետ։"
+
+# 
+msgid "Day limit reached. Please try later."
+msgstr "Օրվա լիմիտը սպառված է։ Փորձեք ավելի ուշ։"
+
+# 
+msgid "Withdraw request is already in progress"
+msgstr "Հանելու հայցը ընթացքի մեջ է"
+
+# 
+msgid "Withdrawal was successful."
+msgstr "Վճարումը կարատված է:"
+
+# 
+msgid "Withdraw failed."
+msgstr "Վճարումը չհաջողվեց:"
+
+# 
+msgid "There was an error processing your request."
+msgstr "Ձեր հարցումը կատարելիս տեղի է ունեցել սխալ:"
+
+# 
+msgid "Withdrawal was successful"
+msgstr "Վճարումը կարատված է:"
+
+# 
+msgid "Deposit was successful."
+msgstr "Լիցքավորումը կատարվել է:"
+
+# 
+msgid "Deposit failed."
+msgstr "Լիցքավորումը չհաջողվեց:"
+
+# 
+msgid "Your transfer is successfully completed"
+msgstr "Փոխանցումը կատարված է"
+
+# 
+msgid "Internal Error"
+msgstr "Ներքին սխալ"
+
+# 
+msgid "Invalid RFID card"
+msgstr "Invalid RFID card"
+
+# 
+msgid "Invalid Password"
+msgstr "Invalid Password"
+
+# 
+msgid "Please put your RFID card on card reader"
+msgstr "Please put your RFID card on card reader"
+
+# 
+msgid "LiveCalendar"
+msgstr "LiveCalendar"
+
+# 
+msgid "Favorites"
+msgstr "Իմ Խաղերը"
+
+# 
+msgid "Live calendar"
+msgstr "Live օրացույց"
+
+# 
+msgid "Virtual Betting"
+msgstr "Վիրտուալ Խաղադրույք"
+
+# 
+msgid "Keno"
+msgstr "Keno"
+
+# 
+msgid "Connection lost. Reconnecting."
+msgstr "Կապն ընդհատված է։ Փորձում ենք վերականգնել:"
+
+# 
+msgid "Connection restored"
+msgstr "Կապը վերականգնված է"
+
+# 
+msgid "In progress"
+msgstr "Բաց"
+
+# 
+msgid "Blocked"
+msgstr "Blocked"
+
+# 
+msgid "Calculating wins"
+msgstr "Հաշվարկվող"
+
+# 
+msgid "Closed"
+msgstr "Փակ"
+
+# 
+msgid "Wrong phone number"
+msgstr "Wrong phone number"
+
+# 
+msgid "Invalid verification code"
+msgstr "Invalid verification code"
+
+# 
+msgid "Code has been sent, please check your mobile phone"
+msgstr "Code has been sent, please check your mobile phone"
+
+# 
+msgid "APPROVED BET"
+msgstr "ԸՆԴՈՒՆՎԱԾ ԽԱՂԱԴՐՈՒՅՔ"
+
+# 
+msgid "YOUR BET HAS BEEN APPROVED"
+msgstr "ՁԵՐ ԽԱՂԱԴՐՈՒՅՔՆ ԸՆԴՈՒՆՎԱԾ է:"
+
+# 
+msgid "DECLINED BET"
+msgstr "ՄԵՐԺՎԱԾ ԽԱՂԱԴՐՈՒՅՔ"
+
+# 
+msgid "YOUR BET HAS BEEN DECLINED"
+msgstr "ՁԵՐ ԽԱՂԱԴՐՈՒՅՔԸ ՄԵՐԺՎԱԾ է:"
+
+# 
+msgid "Message sent"
+msgstr "Հաղորդագրությունն ուղարկված է"
+
+# 
+msgid "Cannot play this video in your region."
+msgstr "Տվյալ տեսանյութը հնարավոր չէ ցուցադրել Ձեր տարածաշրջանում"
+
+# 
+msgid "Cannot play video stream.Sorry."
+msgstr "Տվյալ տեսանյութը հնարավոր չէ ցուցադրել"
+
+# 
+msgid "Done"
+msgstr "Կատարված է"
+
+# 
+msgid "Next"
+msgstr "Հաջորդ"
+
+# 
+msgid "Previous"
+msgstr "Նախորդ"
+
+# 
+msgid "Skip"
+msgstr "Բաց թողնել"
+
+# 
+msgid "Press Ctrl + C to copy link address to clipboard"
+msgstr "Սեղմեք Ctrl + C հղումը պահելու համար"
+
+# 
+msgid "Feedback"
+msgstr "Feedback"
+
+# 
+msgid "Live Lottery"
+msgstr "Live Լոտո"
+
+# 
+msgid "Download Beta version"
+msgstr "Բեռնել"
+
+# 
+msgid "Armenian"
+msgstr "Համահայկական"
+
+# 
+msgid "online"
+msgstr "առցանց"
+
+# 
+msgid "Championship"
+msgstr "մրցաշար"
+
+# 
+msgid "season"
+msgstr "սեզոն"
+
+# 
+msgid "choose your os"
+msgstr "Ընտրեք Ձեր համակարգը"
+
+# 
+msgid "poker_requirements_linux"
+msgstr " "
+
+# 
+msgid "poker_download_description_linux"
+msgstr " "
+
+# 
+msgid "3 Steps To start the game"
+msgstr "<b>3 քայլ</b> խաղը սկսելու համար"
+
+# 
+msgid "Start"
+msgstr "Սկսել"
+
+# 
+msgid "Download and Install"
+msgstr "Ներբեռնում և տեղադրում"
+
+# 
+msgid "Register your account"
+msgstr "Գրանցեք Ձեր հաշիվը"
+
+# 
+msgid "Start to Play"
+msgstr "Սկսեք խաղալ"
+
+# 
+msgid "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+msgstr "Սեղմեք ներբեռնվող ֆայլի վրա, որպեսզի սկսվի տեղադրման գործընթացը:<br>Հետևեք քայլերին, որպեսզի կարողանաք ավարտին հասցնել տեղադրումը և օգտագործել ծրագրային ապահովումը:"
+
+# 
+msgid "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+msgstr "Սեղմեք գրանցվել կոճակը, որը գտնվում է մուտքանուն պատուհանում, որպեսզի գրանցեք Ձեր հաշիվը:<br>Եթե արդեն գրանցվել եք, մուտքագրեք Ձեր անձնական տվյալները և մուտքանունը:"
+
+# 
+msgid "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+msgstr "Վայելեք պոկերը մեր պոկերի սենյակում:<br>Հարցերի և առաջարկների համար կապ հաստատեք աջակցման բաժնի հետ:"
+
+# 
+msgid "Note:"
+msgstr "Ուշադրություն՝"
+
+# 
+msgid "You can change the layout of the sportsbook in the settings."
+msgstr "Դուք կարող եք փոխել Sportsbook-ի տեսքը կարգավորումների մենյույում"
+
+# 
+msgid "Please note:"
+msgstr "Հուշում`"
+
+# 
+msgid "If previous deposit limits are increased, you must wait 24 hours until changes take effect."
+msgstr "Եթե ​​նախորդ հաշվեկշռի լիցքավորման  սահմանափակումները ավելացվում են, պետք է սպասել 24 ժամ  փոփոխությունների ուժի մեջ մտնելու համար:"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome "
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome "
+
+# 
+msgid "Turn on sound from settings"
+msgstr "Turn on sound from settings"
+
+# 
+msgid "Popular games"
+msgstr "Popular games"
+
+# 
+msgid "Leaderboard"
+msgstr "Leaderboard"
+
+# 
+msgid "Come play on"
+msgstr "Come play on"
+
+# 
+msgid "Enter number"
+msgstr "Մուտքագրել համարը"
+
+# 
+msgid "Points:"
+msgstr "Միավորներ՝"
+
+# 
+msgid "Account"
+msgstr "Հաշիվ"
+
+# 
+msgid "Quarters"
+msgstr "Քառորդներ"
+
+# 
+msgid "Innings"
+msgstr "Իննինգներ"
+
+# 
+msgid "Periods"
+msgstr "ժամանակաշրջաններ"
+
+# 
+msgid "Sets"
+msgstr "Սեթեր"
+
+# 
+msgid "Play Now"
+msgstr "Play Now"
+
+# 
+msgid "AOC"
+msgstr "AOC"
+
+# 
+msgid "Free Quiz"
+msgstr "Վիկտորինա"
+
+# 
+msgid "Promotions"
+msgstr "Պրոմո"
+
+# 
+msgid "Life tournament"
+msgstr "Ռեալ մրցաշար"
+
+# 
+msgid "for our users"
+msgstr "կայքի խաղացողների համար"
+
+# 
+msgid "system "
+msgstr "system "
+
+# 
+msgid "Middle"
+msgstr "Հայրանուն"
+
+# 
+msgid "Jan"
+msgstr "Հուն"
+
+# 
+msgid "Feb"
+msgstr "Փետ"
+
+# 
+msgid "Mar"
+msgstr "Մար"
+
+# 
+msgid "Apr"
+msgstr "Ապր"
+
+# 
+msgid "May"
+msgstr "Մայ"
+
+# 
+msgid "Jun"
+msgstr "Հուն"
+
+# 
+msgid "Jul"
+msgstr "Հուլ"
+
+# 
+msgid "Aug"
+msgstr "Օգոս"
+
+# 
+msgid "Sep"
+msgstr "Սեպ"
+
+# 
+msgid "Oct"
+msgstr "Հոկ"
+
+# 
+msgid "Nov"
+msgstr "Նոյ"
+
+# 
+msgid "Dec"
+msgstr "Դեկ"
+
+# 
+msgid "Gender "
+msgstr "Gender "
+
+# 
+msgid "This field can contain only digits and letters"
+msgstr "Այս դաշտում կարող են լինել միայն թվեր և անգլերեն տառեր:"
+
+# 
+msgid "Username "
+msgstr "Username "
+
+# 
+msgid "Password is too short"
+msgstr "Password is too short"
+
+# 
+msgid "Confirm Password"
+msgstr "Հաստատել գաղտնաբառը"
+
+# 
+msgid "Registration on this site is not permitted in selected country."
+msgstr "Ձեր նշած երկրում հնարավոր չէ գրանցվել այս կայքում:"
+
+# 
+msgid "You can register here:"
+msgstr "Կարող եք գրանցվել այստեղ`"
+
+# 
+msgid "Country code is not correct"
+msgstr "Երկրի կոդը սխալ է"
+
+# 
+msgid "Failed to send sms"
+msgstr "Failed to send sms"
+
+# 
+msgid "Field can contain only digits"
+msgstr "Կարող է ընդունել միայն թվեր"
+
+# 
+msgid "SMS Code"
+msgstr "SMS կոդ"
+
+# 
+msgid "Promo code"
+msgstr "Պրոմո ծածկագիր"
+
+# 
+msgid "Security question"
+msgstr "Անվտանգության հարց"
+
+# 
+msgid "Security answer"
+msgstr "Անվտանգության պատասխան"
+
+# 
+msgid "I would like to receive information about bonuses and new offers via email."
+msgstr "Ես կնախընտրեի տեղեկացվել ընթացիկ բոնուսների կամ նոր առաջարկների մասին էլեկտրոնային հաղորդագրության միջոցով։"
+
+# 
+msgid "I would like to receive information about bonuses and new offers via SMS"
+msgstr "Ես կնախընտրեի տեղեկացվել ընթացիկ բոնուսների կամ նոր առաջարկների մասին SMS հաղորդագրության միջոցով։"
+
+# 
+msgid "Register also for poker."
+msgstr "Գրանցվել նաև Պոկերի համար։"
+
+# 
+msgid "Video roundups"
+msgstr "Տեսագրության ամփոփում"
+
+# 
+msgid "Popular bets"
+msgstr "Տարածված խաղադրույքներ"
+
+# 
+msgid "Use your "
+msgstr "Օգտագործիր քո  "
+
+# 
+msgid "Deberc"
+msgstr "Դեբերց"
+
+# 
+msgid "deposit_info_yandex"
+msgstr "<p>«Յանդեքս.փողեր»-ը՝ էլեկտրոնային վճարման համակարգի տեսակ է, որը՝ Յանդեքս ընկերության ամենահայտնի սերվերներից մեկն է ՝ ինտերնետում ռուսական ամենամեծ պորտալի և ռուսալեզու մասի առաջատար որոնման համակարգը: «Յանդեքս.փողեր» վճարային համակարգի միջոցով հնարավոր է իրականացնել գնումներ օնլայն խանութներից, կատարել ներդրումներ բարեգործական ֆոնդերում, իրականացնել կապի ծառայությունների վճարներ և շատ ավելին: Այս վճարման համակարգի վերաբերյալ ավելի մանրամասն տեղեկությունների և հնարավորությունների համար Դուք կարող եք այցելել money.yandex.ru կայքէջը:</p>"
+
+# 
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome"
+msgstr "Your browser doesn't support file uploading, Please update or use Google Chrome"
+
+# 
+msgid "I would like to subscribe for email updates and offers from this site."
+msgstr "Ես ուզում  եմ բաժանորդագրվել այս կայքի թարմացումներին և առաջարկներին:"
+
+# 
+msgid "What was the name of your first pet?"
+msgstr "Ինչպե՞ս էր Ձեր առաջին տնային կենդանու անունը:"
+
+# 
+msgid "What age were you when you went to school?"
+msgstr "Ո՞ր տարիքում եք առաջին անգամ գնացել դպրոց:"
+
+# 
+msgid "What was the name of the city you were born in?"
+msgstr "Ո՞ր քաղաքում եք ծնվել:"
+
+# 
+msgid "What was then number of your school?"
+msgstr "Ո՞րն էր Ձեր դպրոցի համարը։"
+
+# 
+msgid "What was then name of your first love?"
+msgstr "Ի՞նչ էր Ձեր առաջին սիրո անունը։"
+
+# 
+msgid "What was the make and model of your first car?"
+msgstr "Ձեր առաջին մեքենան ի՞նչ մակնիշի է եղել:"
+
+# 
+msgid "deposit_info_centili"
+msgstr "Բջջային վճարում- Ծառայություն է բջջային կապի բաժանորդների համար, որը թույլ է տալիս տարբեր ծառայությունների համար վճարել բջջային հեռախոսահամարի հաշվից: Բջջային վճարումը կարելի է կատարել ռուբլիով: Գործարքն իրականացնելու համար կայքում լրացրեք վճարման ձևը՝ նշելով գումարի չափն ու ձեր հեռախոսահամարը: Դուք կստանաք հաղորդագրություն, որում գրված կլինի ձեր բալանսից որոշակի գումարի գանձման մասին: Վճարման հաստատման համար հարկավոր է ուղարկել համապատասխան գումարով պատասխան հաղորդագրություն:<br><br>Ուշադրություն դարձրեք՝<br><br>1 Տվյալ պահին ծառայությունը հասանելի է միայն ռուսական բիլայնի բաժանորդներին:<br>2 Վճարումը կատարելուց հետո ձեր հաշվեկշիռը պետք է լինի 50 ռուբլուց ոչ պակաս:<br>3 Միջնորդավճարը 8% է:"
+
+# 
+msgid "BET_APPROVED_TITLE"
+msgstr "ԸՆԴՈՒՆՎԱԾ ԽԱՂԱԴՐՈՒՅՔ"
+
+# 
+msgid "BET_DECLINED_TITLE"
+msgstr "BET_DECLINED_TITLE"
+
+# 
+msgid "BET_DECLINED_MESSAGE"
+msgstr "ВАША СТАВКА ОТКЛОНЕНА."
+
+# 
+msgid "Horse Age"
+msgstr "Ձիու տարիքը"
+
+# 
+msgid "Jockey Weight"
+msgstr "Ժոկեյի քաշը"
+
+# 
+msgid "Trainer/Jokey"
+msgstr "Trainer/Jokey"
+
+# 
+msgid "Coming soon"
+msgstr "Coming soon"
+
+# 
+msgid "You have exited website, but your page on odnoklassniki.ru is still active."
+msgstr "Դուք դուրս եք եկել  կայքից, սակայն odnoklassniki.ru սոցիալական կայքում Ձեր էջը դեռ ակտիվ է:"
+
+# 
+msgid "Game is temporarily locked"
+msgstr "Խաղը ժամանակավորապես արգելափակված է"
+
+# 
+msgid "Ranking table"
+msgstr "վարկանշային աղյուսակ"
+
+# 
+msgid "Continue"
+msgstr "Շարունակել"
+
+# 
+msgid "Coating"
+msgstr "Coating"
+
+# 
+msgid "Hide Balance"
+msgstr "Թաքցնել մնացորդը"
+
+# 
+msgid "Show Balance"
+msgstr "Ցույց տալ մնացորդը"
+
+# 
+msgid "Show Username"
+msgstr "Ցույց տալ Մուտքանունը"
+
+# 
+msgid "Hide Username"
+msgstr "Թաքցնել Մուտքանունը"
+
+# 
+msgid "Hide statistics"
+msgstr "Թաքցնել վիճակագրությունը"
+
+# 
+msgid "Show statistics"
+msgstr "Ցույց տալ վիճակագրությունը"
+
+# 
+msgid "Profile"
+msgstr "Պրոֆիլ"
+
+# 
+msgid "username"
+msgstr "Անուն"
+
+# 
+msgid "balance"
+msgstr "Հաշվեկշիռ"
+
+# 
+msgid "help"
+msgstr "Օգնություն"
+
+# 
+msgid "single"
+msgstr "Օրդինար"
+
+# 
+msgid "Live Dealer"
+msgstr "Live Դիլեր"
+
+# 
+msgid "Invite"
+msgstr "Invite"
+
+# 
+msgid "Sign up with your Facebook account"
+msgstr "Sign up with your Facebook account"
+
+# 
+msgid "Username(in case you'll want to login without facebook)"
+msgstr "Username(in case you'll want to login without facebook)"
+
+# 
+msgid "withdraw_info_wirecard"
+msgstr "withdraw_info_wirecard"
+
+# 
+msgid "Turf"
+msgstr "Տորֆ"
+
+# 
+msgid "Dirt"
+msgstr "Dirt"
+
+# 
+msgid "Polytrack"
+msgstr "Polytrack"
+
+# 
+msgid "yards"
+msgstr "յարդ"
+
+# 
+msgid "Sound:"
+msgstr "Ձայներ"
+
+# 
+msgid "Part of bet placed from bonus."
+msgstr "Խաղադրույքի մի մասը արված է բոնուսի հաշվից։"
+
+# 
+msgid "Live chat / FAQ"
+msgstr "Live chat / FAQ"
+
+# 
+msgid "id:"
+msgstr "id:"
+
+# 
+msgid "DEMO MODE"
+msgstr "ԴԵՄՈ ՏԱՐԲԵՐԱԿ"
+
+# 
+msgid "Exchange"
+msgstr "Փոխանակում"
+
+# 
+msgid "Duplicate product"
+msgstr "Փոխանցման համար պետք է ընտրել տարբեր ստացող և ընդունող"
+
+# 
+msgid "Wrong Password"
+msgstr "Սխալ գաղտնաբառ"
+
+# 
+msgid "Wrong Amount"
+msgstr "Սխալ գումար"
+
+# 
+msgid "Product not allowed"
+msgstr "Product not allowed"
+
+# 
+msgid "Upccomming events"
+msgstr "Սպասվելիք իրադարձություններ"
+
+# 
+msgid "Add to BetSlip"
+msgstr "Ավելացնել խաղատոմսի մեջ"
+
+# 
+msgid "deposit_info_megapay"
+msgstr "<p><b> Մեգա Պանտերա</b> ՍՊԸ-ն վճարա-հաշվարկային կազմակերպություն է, որը Հայաստանում ներկայացնում է <b>MegaPay</b> վճարային համակարգը: Համակարգն աշխատում է վճարային տերմինալների միջոցով: Վճարային տերմինալների միջոցով կարելի է վճարել ինչպես բջջային, այնպես էլ ֆիքսված կապի, գազի, էլեկտրոէներգիայի, ջրի, կոմերցիոն հեռուստատեսության, Ինտերնետի, IP հեռախոսակապի, <b>VIVAROBET</b> -ի և այլնի համար: «MegaPay» վճարային տերմինալներն անձնական հաշիվները հեշտ և արագ վճարելու համար նախատեսված ամենաժամանակակից միջոցներից են : Հաճախորդների հետ ինտերակտիվ երկխոսության այս միջոցները դյուրին և հասանելի են դարձնում ֆինանսական գործողությունների անցկացման գործընթացը, նախատեսված են օգտագործողների լայն շրջանակների համար և հնարավորություն են տալիս կարճ ժամանակահատվածում սպասարկել մաքսիմալ քանակով հաճախորդների: Յուրաքանչյուր ոք կարող է վճարել իր անձնական հաշիվները տերմինալի միջոցով. բավական է հետևել էկրանին երևացող տեքստային և գրաֆիկական ցուցումներին: Հատուկ հրահանգների կարիք չկա: Վճարման գործընթացը կատարվում է իրական ժամանակի ռեժիմում սենսորային էկրանին մատի թեթև հպումով, և արդյունքը պատրաստ է:</p><p><b>MegaPay</b> համակարգի միջոցով իրականացվող բոլոր վճարումների համար կոմիսիոն գումար չի գանձվում - <span class=\"CRed\"><strong>0 %</strong></span>.</p><p><b>MegaPay</b> վճարային համակարգն օպտիմալ ֆինանսական և տեխնոլոգիական որոշում է, իսկ վճարային տերմինալը հարմարությունն է զուգակցված մատչելիության հետ:</p><p><b>Մեգա Պանտերա</b> ընկերությունը մշակել է հուսալի ծրագրային ապահովում, որը մշտապես կատարելագործվում է:Մոնիթորինգի խումբն անընդհատ հետևում է տերմինալների աշխատանքին, որպեսզի նվազագույնի հասցնի հնարավոր խնդիրները:</p><p>Ցանկացած բիզնեսի հաջողության գրավականը գոհ հաճախորդներն են: Եվ <b>Մեգա Պանտերա</b> ընկերությունն, առաջնորդվելով այս լոզունգով,անընդհատ կատարելագործում է <b>MegaPay</b> վճարային համակարգը, բարձրացնում է տերմինալների աշխատանքի մակարդակը, աշխատում է հաճախորդների հետ call-center-ի միջոցով:</p>"
+
+# 
+msgid "deposit_info_osmp"
+msgstr "<p>«ԱՎՄՀ» (Ակնթարթային վճարումների միասնական համակարգ)ՍՊԸ ռուսական ՓԲԸ «ОСМП» ներկայացուցիչն է Հայաստանում, որը հիմնադրվել է 2007 թվականի սեպտեմբերի 7-ին:<br>Արտոնագիր Կենտրոնական Բանկից` ՀՀ № 9 տրված 2008թ.-ի ապրիլի 22-ին(Վճարային համակարգ): Արտոնագիր Կենտրոնական Բանկից` ՀՀ № 5 տրված 2008թ.-ի ապրիլի 22-ին(Վճարումների պրոցեսինգ և քլիրինգ): <br>Համակարգը կազմակերպում է վճարումների ընդունում հետևյալ ծառայությունների համար.<br>- բջջային կապ («Բիլայն», «Վիվասել-ՄՏՍ»)<br>- ֆիքսված կապ<br>- բուքմեյքերական ընկերություններ (VIVAROBET)<br>- վճարային համակարգեր (EDram) <br>- IP-հեռախոսակապ («Կարգին կապ» - վճարողը ստանում է վեցանիշ համարով հատուկ կտրոն, որը թույլ է տալիս միջազգային հեռախոսազանգեր կատարել վճարողի հեռախոսահամարից` առանց PIN-ծածկագրի:) – <strong>Նորություն</strong>. <br>- կոմունալ ծառայություններ (ՀայՌուսԳազԱրտ) – <strong>Նորություն:</strong></p><p>01.12.08-ի դրությամբ համակարգում աշխատում է 28 վճարային տերմինալներ, որոնք տեղակայված են Երևանի և Աշտարակի տարբեր շրջաններում:<br>Ռուսական ՓԲԸ «ОСМП»-ն հիմնադրվել է 2004 թվականին և այսօր տնօրինում է վճարների ընդունման կետեր Ռուսաստանի բոլոր շրջաններում: Բացի Հայաստանից վճարային համակարգերը գործում են նաև Վրաստանում, Ղազախստանում, Տաջիկստանում, Ուզբեկստանում, Ուկրաինայում, Մոլդովայում և Բելառուսում:</p>"
+
+# 
+msgid "Canceled"
+msgstr "Չեղարկված"
+
+# 
+msgid "Depost Amount"
+msgstr "Depost Amount"
+
+# 
+msgid "Active"
+msgstr "Ակտիվ"
+
+# 
+msgid "Fixed"
+msgstr "Fixed"
+
+# 
+msgid "Payed"
+msgstr "Վճարված"
+
+# 
+msgid "will start in"
+msgstr "սկզբին մնում է`"
+
+# 
+msgid "Frames"
+msgstr "Frames"
+
+# 
+msgid "Last update:"
+msgstr "Տվյալները`"
+
+# 
+msgid "OnePoint"
+msgstr "Մեկ միավոր"
+
+# 
+msgid "TwoPoints"
+msgstr "Երկու միավոր"
+
+# 
+msgid "ThreePoints"
+msgstr "Երեք միավոր"
+
+# 
+msgid "0 Half"
+msgstr "0 Խաղակես"
+
+# 
+msgid "1st Half"
+msgstr "1-ին խաղակես"
+
+# 
+msgid "2nd Half"
+msgstr "2-րդ խաղակես"
+
+# 
+msgid "Additional Time1"
+msgstr "Լրացուցիչ ժամանակ 1"
+
+# 
+msgid "Additional Time2"
+msgstr "Լրացուցիչ ժամանակ 2"
+
+# 
+msgid "Waiting"
+msgstr "Սպասում"
+
+# 
+msgid "Round"
+msgstr "Փուլ"
+
+# 
+msgid "Round 0"
+msgstr "Փուլ 0"
+
+# 
+msgid "Round 1"
+msgstr "Փուլ 1"
+
+# 
+msgid "Round 2"
+msgstr "Փուլ 2"
+
+# 
+msgid "Round 3"
+msgstr "Փուլ 3"
+
+# 
+msgid "Round 4"
+msgstr "Փուլ 4"
+
+# 
+msgid "Round 5"
+msgstr "Փուլ 5"
+
+# 
+msgid "Round 6"
+msgstr "Փուլ 6"
+
+# 
+msgid "Round 7"
+msgstr "Փուլ 7"
+
+# 
+msgid "Round 8"
+msgstr "Փուլ 8"
+
+# 
+msgid "Round 9"
+msgstr "Փուլ 9"
+
+# 
+msgid "Round 10"
+msgstr "Փուլ 10"
+
+# 
+msgid "Round 11"
+msgstr "Փուլ 11"
+
+# 
+msgid "Round 12"
+msgstr "Փուլ 12"
+
+# 
+msgid "Set 0"
+msgstr "Սեթ 0"
+
+# 
+msgid "Set 1"
+msgstr "1-ին սեթ"
+
+# 
+msgid "Set 2"
+msgstr "2-րդ Սեթ"
+
+# 
+msgid "Set 3"
+msgstr "3-րդ Սեթ"
+
+# 
+msgid "Set 4"
+msgstr "4-րդ Սեթ"
+
+# 
+msgid "Set 5"
+msgstr "5-րդ Սեթ"
+
+# 
+msgid "Set 6"
+msgstr "6-րդ Սեթ"
+
+# 
+msgid "Set 7"
+msgstr "7-րդ Սեթ"
+
+# 
+msgid "Set 8"
+msgstr "8-րդ Սեթ"
+
+# 
+msgid "Set 9"
+msgstr "9-րդ Սեթ"
+
+# 
+msgid "Set 10"
+msgstr "10-րդ Սեթ"
+
+# 
+msgid "Period 0"
+msgstr "ժամանակաշրջան 0"
+
+# 
+msgid "Period 1"
+msgstr "ժամանակաշրջան 1"
+
+# 
+msgid "Period 2"
+msgstr "ժամանակաշրջան 2"
+
+# 
+msgid "Period 3"
+msgstr "ժամանակաշրջան 3"
+
+# 
+msgid "Quarter 0"
+msgstr "0 Քառորդ"
+
+# 
+msgid "Quarter 1"
+msgstr "1-ին քառորդ"
+
+# 
+msgid "Quarter 2"
+msgstr "2-րդ քառորդ"
+
+# 
+msgid "Quarter 3"
+msgstr "3-րդ քառորդ"
+
+# 
+msgid "Quarter 4"
+msgstr "4-րդ քառորդ"
+
+# 
+msgid "Inning 0"
+msgstr "ինինգ 0"
+
+# 
+msgid "1st Inning"
+msgstr "1-ին ինինգ"
+
+# 
+msgid "2nd Inning"
+msgstr "2-րդ ինինգ"
+
+# 
+msgid "3rd Inning"
+msgstr "3-րդ ինինգ"
+
+# 
+msgid "4th Inning"
+msgstr "4-րդ ինինգ"
+
+# 
+msgid "5th Inning"
+msgstr "5-րդ ինինգ"
+
+# 
+msgid "6th Inning"
+msgstr "6-րդ ինինգ"
+
+# 
+msgid "7th Inning"
+msgstr "7-րդ ինինգ"
+
+# 
+msgid "8th Inning"
+msgstr "8-րդ ինինգ"
+
+# 
+msgid "9th Inning"
+msgstr "9-րդ ինինգ"
+
+# 
+msgid "10th Inning"
+msgstr "10-րդ ինինգ"
+
+# 
+msgid "11th Inning"
+msgstr "11-րդ ինինգ"
+
+# 
+msgid "12th Inning"
+msgstr "12-րդ ինինգ"
+
+# 
+msgid "13th Inning"
+msgstr "13-րդ ինինգ"
+
+# 
+msgid "14th Inning"
+msgstr "14-րդ ինինգ"
+
+# 
+msgid "15th Inning"
+msgstr "15-րդ ինինգ"
+
+# 
+msgid "16th Inning"
+msgstr "16-րդ ինինգ"
+
+# 
+msgid "17th Inning"
+msgstr "17-րդ ինինգ"
+
+# 
+msgid "18th Inning"
+msgstr "18-րդ ինինգ"
+
+# 
+msgid "19th Inning"
+msgstr "19-րդ ինինգ"
+
+# 
+msgid "20th Inning"
+msgstr "20-րդ ինինգ"
+
+# 
+msgid "21th Inning"
+msgstr "21-րդ ինինգ"
+
+# 
+msgid "22th Inning"
+msgstr "22-րդ ինինգ"
+
+# 
+msgid "23th Inning"
+msgstr "23-րդ ինինգ"
+
+# 
+msgid "24th Inning"
+msgstr "24-րդ ինինգ"
+
+# 
+msgid "25th Inning"
+msgstr "25-րդ ինինգ"
+
+# 
+msgid "Time 0"
+msgstr "ժամանակ 0"
+
+# 
+msgid "Time 1"
+msgstr "ժամանակ 1"
+
+# 
+msgid "Time 2"
+msgstr "ժամանակ 2"
+
+# 
+msgid "Frame 0"
+msgstr "0 ֆրեյմ"
+
+# 
+msgid "Frame 1"
+msgstr "1-ին ֆրեյմ"
+
+# 
+msgid "Frame 2"
+msgstr "2-րդ ֆրեյմ"
+
+# 
+msgid "Frame 3"
+msgstr "3-րդ ֆրեյմ"
+
+# 
+msgid "Frame 4"
+msgstr "4-րդ ֆրեյմ"
+
+# 
+msgid "Frame 5"
+msgstr "5-րդ ֆրեյմ"
+
+# 
+msgid "Frame 6"
+msgstr "6-րդ ֆրեյմ"
+
+# 
+msgid "Frame 7"
+msgstr "7-րդ ֆրեյմ"
+
+# 
+msgid "Frame 8"
+msgstr "8-րդ ֆրեյմ"
+
+# 
+msgid "Frame 9"
+msgstr "9-րդ ֆրեյմ"
+
+# 
+msgid "Frame 10"
+msgstr "10-րդ ֆրեյմ"
+
+# 
+msgid "Frame 11"
+msgstr "11-րդ ֆրեյմ"
+
+# 
+msgid "Frame 12"
+msgstr "12-րդ ֆրեյմ"
+
+# 
+msgid "Frame 13"
+msgstr "13-րդ ֆրեյմ"
+
+# 
+msgid "Frame 14"
+msgstr "14-րդ ֆրեյմ"
+
+# 
+msgid "Frame 15"
+msgstr "15-րդ ֆրեյմ"
+
+# 
+msgid "Frame 16"
+msgstr "16-րդ ֆրեյմ"
+
+# 
+msgid "Frame 17"
+msgstr "17-րդ ֆրեյմ"
+
+# 
+msgid "Frame 18"
+msgstr "18-րդ ֆրեյմ"
+
+# 
+msgid "Frame 19"
+msgstr "19-րդ ֆրեյմ"
+
+# 
+msgid "Frame 20"
+msgstr "20-րդ ֆրեյմ"
+
+# 
+msgid "Frame 21"
+msgstr "21-րդ ֆրեյմ"
+
+# 
+msgid "Frame 22"
+msgstr "22-րդ ֆրեյմ"
+
+# 
+msgid "Frame 23"
+msgstr "23-րդ ֆրեյմ"
+
+# 
+msgid "Frame 24"
+msgstr "24-րդ ֆրեյմ"
+
+# 
+msgid "Frame 25"
+msgstr "25-րդ ֆրեյմ"
+
+# 
+msgid "Frame 26"
+msgstr "26-րդ ֆրեյմ"
+
+# 
+msgid "Frame 27"
+msgstr "27-րդ ֆրեյմ"
+
+# 
+msgid "Frame 28"
+msgstr "28-րդ ֆրեյմ"
+
+# 
+msgid "Frame 29"
+msgstr "29-րդ ֆրեյմ"
+
+# 
+msgid "Frame 30"
+msgstr "30-րդ ֆրեյմ"
+
+# 
+msgid "Frame 31"
+msgstr "31-րդ ֆրեյմ"
+
+# 
+msgid "Frame 32"
+msgstr "32-րդ ֆրեյմ"
+
+# 
+msgid "Frame 33"
+msgstr "33-րդ ֆրեյմ"
+
+# 
+msgid "Frame 34"
+msgstr "34-րդ ֆրեյմ"
+
+# 
+msgid "Frame 35"
+msgstr "36-րդ ֆրեյմ"
+
+# 
+msgid "Frame 36"
+msgstr "37-րդ ֆրեյմ"
+
+# 
+msgid "Frame 37"
+msgstr "38-րդ ֆրեյմ"
+
+# 
+msgid "Frame 38"
+msgstr "39-րդ ֆրեյմ"
+
+# 
+msgid "Frame 39"
+msgstr "39-րդ ֆրեյմ"
+
+# 
+msgid "Period 4"
+msgstr "ժամանակաշրջան 4"
+
+# 
+msgid "Period 5"
+msgstr "ժամանակաշրջան 5"
+
+# 
+msgid "Period 6"
+msgstr "ժամանակաշրջան 6"
+
+# 
+msgid "Game 0"
+msgstr "0 Գեյմ"
+
+# 
+msgid "Game 1"
+msgstr "1-ին Գեյմ"
+
+# 
+msgid "Game 2"
+msgstr "2-րդ Գեյմ"
+
+# 
+msgid "Game 3"
+msgstr "3-րդ Գեյմ"
+
+# 
+msgid "Game 4"
+msgstr "4-րդ Գեյմ"
+
+# 
+msgid "Game 5"
+msgstr "4-րդ Գեյմ"
+
+# 
+msgid "Set 11"
+msgstr "11-րդ սեթ"
+
+# 
+msgid "Set 12"
+msgstr "12-րդ սեթ"
+
+# 
+msgid "Set 13"
+msgstr "13-րդ սեթ"
+
+# 
+msgid "Set 14"
+msgstr "14-րդ սեթ"
+
+# 
+msgid "Set 15"
+msgstr "15-րդ սեթ"
+
+# 
+msgid "Set 16"
+msgstr "16-րդ սեթ"
+
+# 
+msgid "Set 17"
+msgstr "17-րդ սեթ"
+
+# 
+msgid "Set 18"
+msgstr "18-րդ սեթ"
+
+# 
+msgid "Set 19"
+msgstr "19-րդ սեթ"
+
+# 
+msgid "Set 20"
+msgstr "20-րդ սեթ"
+
+# 
+msgid "Events"
+msgstr "Իրադարձություններ"
+
+# 
+msgid "SHOW"
+msgstr "Բացել"
+
+# 
+msgid "In-Play"
+msgstr "In-Play"
+
+# 
+msgid "Id"
+msgstr "Id"
+
+# 
+msgid "To place your bet, please log in"
+msgstr "Խաղադրույք կատարելու համար մուտք գործեք"
+
+# 
+msgid "Win % 1 st Service"
+msgstr "Առաջին մատուցման հաղթանակի տոկոսը"
+
+# 
+msgid "Break Point Conversions"
+msgstr "Break Point Conversions"
+
+# 
+msgid "Your bet is not accepted"
+msgstr "Ձեր խաղադրույքը չի ընդունվել"
+
+# 
+msgid "TransferProduct:\nERROR_LOW_BALANCE"
+msgstr "TransferProduct:\nERROR_LOW_BALANCE"
+
+# 
+msgid "this field is required"
+msgstr "այս դաշտը անպայման է"
+
+# 
+msgid "Invalid payee"
+msgstr "Սխալ ստացող"
+
+# 
+msgid "Invalid payer"
+msgstr "Սխալ վճարող"
+
+# 
+msgid "ok"
+msgstr "Լավ"
+
+# 
+msgid "Email Address or Username"
+msgstr "Էլ. հասցե կամ մուտքաբառ"
+
+# 
+msgid "Terms &amp; Conditions"
+msgstr "Պայմաններին և Դրույթներին,"
+
+# 
+msgid "TransferProductRROR_LOW_BALANCE"
+msgstr "Ձեր հաշվեկշիռը բավարար չէ այս գործողությունը կատարելու համար"
+
+# 
+msgid "FEATURED GAMES"
+msgstr "Առաջարկվող խաղեր"
+
+# 
+msgid "Welcome"
+msgstr "Բարի գալուստ"
+
+# 
+msgid "Join us now!"
+msgstr "Միացեք մեզ հիմա"
+
+# 
+msgid "Cashier"
+msgstr "Cashier"
+
+# 
+msgid "new"
+msgstr "Նոր"
+
+# 
+msgid "Not a valid password"
+msgstr "Անընդունելի գաղտնաբառ"
+
+# 
+msgid "Available/Withdrawable"
+msgstr "Հասանելի"
+
+# 
+msgid "bet id:"
+msgstr "խաղադրույքի ID"
+
+# 
+msgid "automatically accept price changes"
+msgstr "խաղադրույքների ավտոմատ ընդունումը կախված գործակիցի փոփոխությունից"
+
+# 
+msgid "incompatible events"
+msgstr "անհամատեղելի իրադարձություններ"
+
+# 
+msgid "there are deleted events"
+msgstr "Ջնջված իրադարձություններ"
+
+# 
+msgid "prices for some events have changed"
+msgstr "Որոշ իրադարձությունների գործակիցները փոփոխված են"
+
+# 
+msgid "Accept changes"
+msgstr "Ընդունել փոփոխությունները"
+
+# 
+msgid "You need to sign in to be able to place bets"
+msgstr "Խաղադրույք կատարելու համար պետք է մուտք գործեք"
+
+# 
+msgid "Invalid recipient"
+msgstr "Սխալ ստացող"
+
+# 
+msgid "deposit_info_mastercard"
+msgstr "deposit_info_mastercard"
+
+# 
+msgid "withdraw_info_mastercard"
+msgstr "withdraw_info_mastercard"
+
+# 
+msgid "label_card_number"
+msgstr "label_card_number"
+
+# 
+msgid "deposit_info_visa"
+msgstr "deposit_info_visa"
+
+# 
+msgid "withdraw_info_visa"
+msgstr "withdraw_info_visa"
+
+# 
+msgid "deposit_info_paypal"
+msgstr "deposit_info_paypal"
+
+# 
+msgid "withdraw_info_paypal"
+msgstr "withdraw_info_paypal"
+
+# 
+msgid "Select one"
+msgstr "Ընտրել որևէ մեկը"
+
+# 
+msgid "Deposit Amount (USD)"
+msgstr "Լիցքավորման չափ (USD)"
+
+# 
+msgid "Attach"
+msgstr "Կցել"
+
+# 
+msgid "Middle Name"
+msgstr "Հայրանուն"
+
+#
+msgid "Middle name"
+msgstr "Հայրանուն"
+
+# 
+msgid "prevew"
+msgstr "Դիտում"
+
+# 
+msgid "Full Name"
+msgstr "Ամբողջական անուն"
+
+# 
+msgid "Select your country"
+msgstr "Ընտրեք Ձեր երկիրը"
+
+# 
+msgid "Select your currency"
+msgstr "Ընտրեք Ձեր արտարժույթը"
+
+# 
+msgid "Enter the text here"
+msgstr "Մուտքագրել տեքստը"
+
+# 
+msgid "I would like to subbscribe for email updates and offeres from VBET."
+msgstr "Կցանկանայի Vbet-ից ստանալ առաջարկներ և թարմացումներ փոստային հաղորդագրության տեսքով"
+
+# 
+msgid "message_ONHOLD"
+msgstr "Սպասում է հաստատման"
+
+# 
+msgid "message_CHANGE_ODD"
+msgstr "Տեղի է ունեցել գործակցի փոփոխություն"
+
+# 
+msgid "message_EVENT_LOCKED"
+msgstr "Իրադարձությունն արգելափակված է"
+
+# 
+msgid "message_LIMIT_ERROR"
+msgstr "Տեղի է ունեցել գործակցի ուղղում"
+
+# 
+msgid "message_GAME_STARTED"
+msgstr "Խաղը սկսվել է"
+
+# 
+msgid "message_1000"
+msgstr "Ներքին սխալ"
+
+# 
+msgid "message_1001"
+msgstr "Փաստ առանց որևէ հիմնավորման/զրոյական արժեք"
+
+# 
+msgid "message_1003"
+msgstr "Սխալ մուտքանուն/գաղտնաբառ"
+
+# 
+msgid "message_1004"
+msgstr "Օգտատերն արգելափակված է"
+
+# 
+msgid "message_1006"
+msgstr "Գաղտնաբառի սխալ"
+
+# 
+msgid "message_1008"
+msgstr "Մուտք դեպի էջ հնարավոր չէ, մինչդեռ Դուք չեք ակտիվացրել Ձեր հաշվեհամարը Ձեր էլ. հասցեից։"
+
+# 
+msgid "message_1009"
+msgstr "Հաստատման կոդ գոյություն չունի"
+
+# 
+msgid "message_1099"
+msgstr "Միանշանակ շահութաբեր խաղադրույքի բացառում (վիլկա)"
+
+# 
+msgid "message_1100"
+msgstr "Խաղն արդեն սկսվել է"
+
+# 
+msgid "message_1102"
+msgstr "Խաղի սկսվելու ժամանակն արդեն անցել է"
+
+# 
+msgid "message_1103"
+msgstr "Խաղադրույքը փոփոխելու ժամանակն անցել է"
+
+# 
+msgid "message_1104"
+msgstr "Խաղադրույքի գումարը վճարված է"
+
+# 
+msgid "message_1105"
+msgstr "Խաղադրույքի կարգավիճակը որոշված չէ, հաշվարկված չէ"
+
+# 
+msgid "message_1106"
+msgstr "Պարտված խաղադրույք"
+
+# 
+msgid "message_1107"
+msgstr "Խաղադրույքն առցանց է"
+
+# 
+msgid "message_1108"
+msgstr "Գործակցի սխալ արժեք"
+
+# 
+msgid "message_1109"
+msgstr "Խաղադրույքի սխալ գումար"
+
+# 
+msgid "message_1112"
+msgstr "Հարցումն արդեն վճարված է։"
+
+# 
+msgid "message_1113"
+msgstr "հաղորդագրություն_1113"
+
+# 
+msgid "message_1114"
+msgstr "Քարտի լոտն արգելափակված է"
+
+# 
+msgid "message_1115"
+msgstr "Քարտն արգելափակված է"
+
+# 
+msgid "message_1116"
+msgstr "Քարտն ակտիվացված է"
+
+# 
+msgid "message_1117"
+msgstr "Սխալ մուտքանուն կամ էլ. հասցե"
+
+# 
+msgid "message_1118"
+msgstr "Կրկնվող մուտքանուն"
+
+# 
+msgid "message_1150"
+msgstr "Դուք դեռ չեք կարող խաղադրույք նշված իրադարձության վրա"
+
+# 
+msgid "message_1200"
+msgstr "Սխալ արժեքի բացառում"
+
+# 
+msgid "message_1300"
+msgstr "Կրկնակի արժեքի բացառում"
+
+# 
+msgid "message_1400"
+msgstr "Կրկնակի իրադարձության բացառում"
+
+# 
+msgid "message_1510"
+msgstr "Խաղադրույքի գումարը գերազանցում է Ձեր այս պահի սահմանաչափը։"
+
+# 
+msgid "message_1500"
+msgstr "Գումարը գերազանցում է թույլատրված  առավելագույնը"
+
+# 
+msgid "message_1550"
+msgstr "Գումարը գերազանցում է թույլատրված  առավելագույնը"
+
+# 
+msgid "message_1560"
+msgstr "Գումարը թույլատրված նվազագույնից քիչ է"
+
+# 
+msgid "message_1600"
+msgstr "Գործակցի ուղղում է կատարվում"
+
+# 
+msgid "message_1700"
+msgstr "Սխալ մուտքի բացառում"
+
+# 
+msgid "message_1800"
+msgstr "Գործակիցները փոխվել են"
+
+# 
+msgid "message_1900"
+msgstr "Իրադարձությունները կարող են ներառվել միայն էքսպրեսի մեջ"
+
+# 
+msgid "message_1910"
+msgstr "Իրադարձությունները կարող են ներառվել միայն օրդինարի մեջ"
+
+# 
+msgid "message_2000"
+msgstr "Գործակիցների սահմանափակման բացառում"
+
+# 
+msgid "message_2100"
+msgstr "Վճարման սահմանափակման բացառում"
+
+# 
+msgid "message_2200"
+msgstr "Հաճախորդի լիմիտի բացառում"
+
+# 
+msgid "message_2300"
+msgstr "Գրասենյակի լիմիտի բացառում"
+
+# 
+msgid "message_2400"
+msgstr "Հաճախորդի բալանսը անբավարար է"
+
+# 
+msgid "message_2403"
+msgstr "Հաճախորդն ակտիվ հարցում ունի"
+
+# 
+msgid "Sex"
+msgstr "Սեռ"
+
+# 
+msgid "Bermudas"
+msgstr "Բերմուդյան կղզիներ"
+
+# 
+msgid "Butane"
+msgstr "Բութան"
+
+# 
+msgid "East Timor"
+msgstr "Արևելյան Տիմոր"
+
+# 
+msgid "Papua - New Guinea"
+msgstr "Պապուա Նոր Գվինեա"
+
+# 
+msgid "South Africa"
+msgstr "Հարավային Աֆրիկա"
+
+# 
+msgid "St. Lucia"
+msgstr "Սուրբ Լուչիա"
+
+# 
+msgid "Surinam"
+msgstr "Սուրինամ"
+
+# 
+msgid "Tongo"
+msgstr "Տոնգո"
+
+# 
+msgid "The Cayman Islands"
+msgstr "Կայմանյան կղզիներ"
+
+# 
+msgid "The Central African Republic"
+msgstr "Կենտրոնական Աֆրիկյան հանրապետություն"
+
+# 
+msgid "The Cook Islands"
+msgstr "Կուկի կղզիներ"
+
+# 
+msgid "The Democratic Republic of the Congo"
+msgstr "Կոնգոյի Դեմոկրատական Հանրապետություն"
+
+# 
+msgid "Sent Messages"
+msgstr "Ուղարկված"
+
+# 
+msgid "New Message"
+msgstr "Նոր հաղորդագրություն"
+
+# 
+msgid "Clear Bet Slip to activate Qiuck Bet"
+msgstr "Qiuck Bet-ը ակտիվացնելու համար հեռացրեք առկա իրադարձությունները"
+
+# 
+msgid "Other"
+msgstr "Այլ"
+
+# 
+msgid "There is no downloadable client for your operating system"
+msgstr "Մենք չունենք Ձեր օպերացիոն համագարգի համար բեռնելի ծրագիր"
+
+# 
+msgid "message_1110"
+msgstr "Ավանդի սահմանաչափը սահմանվել է խաղացողի կողմից (ինքնասահմանափակում)"
+
+# 
+msgid "message_2406"
+msgstr "Խաղացողը ինքնուրույն բացառել է խաղադրույքներ կատարելու հնարավորությունը․"
+
+# 
+msgid "Reset"
+msgstr "Վերականգնել"
+
+# 
+msgid "Switch to "
+msgstr "Անցնել "
+
+# 
+msgid "Conditional bet"
+msgstr "Պայմանական դրույք"
+
+# 
+msgid "Odd..."
+msgstr "Odd..."
+
+# 
+msgid "Score:"
+msgstr "Հաշիվ՝"
+
+# 
+msgid "3D  Slots"
+msgstr "3D Սլոտեր"
+
+# 
+msgid "Film Slot"
+msgstr "Ֆիլմ Սլոտ"
+
+# 
+msgid "Instant Win"
+msgstr "Ակնթարթային Շահում"
+
+# 
+msgid "Table Games"
+msgstr "Սեղանի Խաղեր"
+
+# 
+msgid "Top Slots"
+msgstr "Լավագույն Խաղեր"
+
+# 
+msgid "TvGames"
+msgstr "TvGames"
+
+# 
+msgid "Video Poker"
+msgstr "Վիդեո Պոկեր"
+
+# 
+msgid "Other Games"
+msgstr "Այլ Խաղեր"
+
+# 
+msgid "Progressive"
+msgstr "Պրոգրեսիվ Սլոտեր"
+
+# 
+msgid "Add more events to be able to place bet "
+msgstr "Add more events to be able to place bet "
+
+# 
+msgid "Depost Amount (USD)"
+msgstr "Depost Amount (USD)"
+
+# 
+msgid "1 hours"
+msgstr "1 ժամ"
+
+# 
+msgid "2 hours"
+msgstr "2 ժամ"
+
+# 
+msgid "3 hours"
+msgstr "3 ժամ"
+
+# 
+msgid "5 hours"
+msgstr "5 ժամ"
+
+# 
+msgid "6 hours"
+msgstr "6 ժամ"
+
+# 
+msgid "48 hours"
+msgstr "48 ժամ"
+
+# 
+msgid "72 hours"
+msgstr "72 ժամ"
+
+# 
+msgid "User age is under minimum allowed."
+msgstr "Տարիքը թույլատրվածից ցածր է։"
+
+# 
+msgid "Please close {1} game(s) to change view"
+msgstr "Խնդրում ենք փակել {1} խաղը (խաղերը) պատկերը փոխելու համար"
+
+# 
+msgid "One Game View"
+msgstr "Մեկ խաղի ռեժիմ"
+
+# 
+msgid "Two Games View"
+msgstr "Երկու խաղի ռեժիմ"
+
+# 
+msgid "Four Games View"
+msgstr "Չորս խաղի ռեժիմ"
+
+# 
+msgid "Open In Pop-Up Window"
+msgstr "Բացել ելնող պատուհանով"
+
+# 
+msgid "Add a Game"
+msgstr "Ավելացնել խաղ"
+
+# 
+msgid "Durak"
+msgstr "Durak"
+
+# 
+msgid "Preferans"
+msgstr "Preferans"
+
+# 
+msgid "Domino"
+msgstr "Դոմինո"
+
+# 
+msgid "Sea Battle"
+msgstr "Sea Battle"
+
+# 
+msgid "Refresh"
+msgstr "Թարմացնել"
+
+# 
+msgid "multiple"
+msgstr "Էքսպրես"
+
+# 
+msgid "livecasino_101_1"
+msgstr "Live BlackJack A"
+
+# 
+msgid "livecasino_101_2"
+msgstr "Live BlackJack B"
+
+# 
+msgid "livecasino_101_3"
+msgstr "Live BlackJack C"
+
+# 
+msgid "livecasino_101_4"
+msgstr "Live BlackJack D"
+
+# 
+msgid "livecasino_102"
+msgstr "Live Roulette"
+
+# 
+msgid "livecasino_103"
+msgstr "Live Baccarat"
+
+# 
+msgid "livecasino_104"
+msgstr "Live Bet on Poker"
+
+# 
+msgid "AllWeather"
+msgstr "AllWeather"
+
+# 
+msgid "N_H_Flat"
+msgstr "N_H_Flat"
+
+# 
+msgid "Game Balance:"
+msgstr "Խաղային հաշվեկշիռ:"
+
+# 
+msgid " Horse"
+msgstr " Horse"
+
+# 
+msgid " Jockey"
+msgstr " Jockey"
+
+# 
+msgid " Jockey Weight"
+msgstr " Jockey Weight"
+
+# 
+msgid "Name *"
+msgstr "Name *"
+
+# 
+msgid "Birth date *"
+msgstr "Birth date *"
+
+# 
+msgid "Gender *"
+msgstr "Gender *"
+
+# 
+msgid "Passport Number *"
+msgstr "Passport Number *"
+
+# 
+msgid "Username *"
+msgstr "Username *"
+
+# 
+msgid "Password *"
+msgstr "Գաղտնաբառ *"
+
+# 
+msgid "Confirm Password *"
+msgstr "Confirm Password *"
+
+# 
+msgid "Email Address *"
+msgstr "Email հասցե *"
+
+# 
+msgid "Country *"
+msgstr "Երկիր *"
+
+# 
+msgid "City *"
+msgstr "Քաղաք *"
+
+# 
+msgid "Address *"
+msgstr "Հասցե *"
+
+# 
+msgid "Contact number *"
+msgstr "Contact number *"
+
+# 
+msgid "Currency *"
+msgstr "Արժույթ *"
+
+# 
+msgid "SMS Code *"
+msgstr "SMS Code *"
+
+# 
+msgid " 0"
+msgstr " 0"
+
+# 
+msgid "47 hours"
+msgstr "47 ժամ"
+
+# 
+msgid "We are not accepting bets on this game at the moment."
+msgstr "Տվյալ պահին այս ծաղի համար խաղադրույքներ չեն ընդունվում։"
+
+# 
+msgid "Lottery Games"
+msgstr "Լոտո Խաղեր"
+
+# 
+msgid "MiniGames"
+msgstr "Մինի Խաղեր"
+
+# 
+msgid "Casual Games"
+msgstr "Սովորական խաղեր"
+
+# 
+msgid "Classic Slots"
+msgstr "Դասական սլոթեր"
+
+# 
+msgid "VideoSlots"
+msgstr "Վիդեո սլոթեր"
+
+# 
+msgid "10.000 E GTD tournament"
+msgstr "5000 E մրցանակային ֆոնդով մրցաշար"
+
+# 
+msgid "5.371.400 AMD GTD tournament"
+msgstr "2.685.000 AMD GTD tournament"
+
+# 
+msgid "All OS"
+msgstr "All OS"
+
+# 
+msgid "Your Booking is ready !"
+msgstr "Your Booking is ready !"
+
+# 
+msgid "Make a Deposit"
+msgstr "Make a Deposit"
+
+# 
+msgid "  Modern"
+msgstr "  Modern"
+
+# 
+msgid " Classic"
+msgstr " Classic"
+
+# 
+msgid " Asian"
+msgstr " Asian"
+
+# 
+msgid " Eastern"
+msgstr " Eastern"
+
+# 
+msgid "Event details"
+msgstr "Event details"
+
+# 
+msgid "5.950.000 AMD GTD tournament"
+msgstr "2.685.000 Դրամ մրցանակային ֆոնդով մրցաշար"
+
+# 
+msgid "tell me more"
+msgstr "tell me more"
+
+# 
+msgid "What was the number of your school?"
+msgstr "Ո՞ր դպրոցում եք սովորել:"
+
+# 
+msgid "What was the name of your first love?"
+msgstr "Ինչպե՞ս էր Ձեր առաջին սիրո անունը:"
+
+# 
+msgid "message_1026"
+msgstr "Դուք կարող եք կատարել նոր սուպերբեթ միայն նախորդը ավարտելուց հետո:"
+
+# 
+msgid "Confirmed"
+msgstr "Confirmed"
+
+# 
+msgid "Scratch Games"
+msgstr "Սկրետչ խաղեր"
+
+# 
+msgid "Jackpot Slot"
+msgstr "Jackpot Slot"
+
+# 
+msgid "Password should contain at least 8 characters"
+msgstr "Գաղտնաբառը պետք է պարունակի առնվազն 8 նիշ"
+
+# 
+msgid "Password should contain at least 8 characters."
+msgstr "Գաղտնաբառը պետք է պարունակի առնվազն 8 նիշ։"
+
+# 
+msgid "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Գաղտնաբառը պետք է պարունակի առնվազն 8 նիշ, մեծատառ և փոքրատառ անգլերեն տառեր, առնվազն մեկ թիվ և չպարունակի բացատներ։"
+
+# 
+msgid "backgammon"
+msgstr "նարդի"
+
+# 
+msgid "Top 10 sports"
+msgstr "Թոփ 10 սպորտաձևեր"
+
+# 
+msgid "Your request is accepted."
+msgstr "Ձեր դիմումն ընդունված է"
+
+# 
+msgid "Your request is declined."
+msgstr "Ձեր դիմումը մերժված է"
+
+# 
+msgid "Join Now"
+msgstr "Join Now"
+
+# 
+msgid "VGS"
+msgstr "BetConstruct"
+
+# 
+msgid "NET"
+msgstr "NetEnt"
+
+# 
+msgid "MGS"
+msgstr "Microgaming"
+
+# 
+msgid "EZG"
+msgstr "Ezugi"
+
+# 
+msgid "Cash-out Temporary unavailable"
+msgstr "Քեշ աութը ժամանակավորապես անհասանելի է"
+
+# 
+msgid "This field cannot be edited."
+msgstr "Տվյալ դաշտը չի կարող փոփոխվել"
+
+# 
+msgid "Pin/Unpin"
+msgstr "Ամրացնել/Հանել"
+
+# 
+msgid "Thank you for choosing Vivaro.<br/>Our Live Chat support is at your disposal  24 hours a day."
+msgstr "Շնորհակալություն, որ ընտրել եք Vivaro-ն:<br/>Մենք 24 ժամ պատրաստ ենք աջակցել Ձեզ Live Chat համակարգի միջոցով:"
+
+# 
+msgid "Live Roulette"
+msgstr "Live Ռուլետկա"
+
+# 
+msgid "Live BlackJack"
+msgstr "Live Բլեքջեք"
+
+# 
+msgid "Live Baccarat"
+msgstr "Live Բակարատ"
+
+# 
+msgid "Live Bet on Poker"
+msgstr "Live Բեթ Օն Պոկեր"
+
+# 
+msgid "Welcome to Vivarobet"
+msgstr "Բարի գալուստ Vivarobet"
+
+# 
+msgid "Your Booking ID is:"
+msgstr "Ձեր ամրագրման համարն է՝"
+
+# 
+msgid "Dear valued customer"
+msgstr "Հարգելի հաճախորդ"
+
+# 
+msgid "<p>You have entered the Vivaro Betting website. This company provides services to clients within territory of the republic of Armenia.</p><p>We suggest you redirect to Vbet.com, the site meant for international players.</p>"
+msgstr "<p>Դուք մուտք եք գործել Վիվառոյի խաղադրույքների կայք: Վիվառոն տրամադրում է ծառայություններ Հայաստանի Հանրապետության տարածքում գտնվող հաճախորդներին:</p><p>Առաջարկում ենք Ձեզ տեղափոխվել միջազգային խաղացողների համար նախատեսված Vbet.com կայքը:</p>"
+
+# 
+msgid "Stay on VivaroBet.am"
+msgstr "Մնալ VivaroBet.am կայքում "
+
+# 
+msgid "Redirect to Vbet.com"
+msgstr "Տեղափոխվել Vbet.com"
+
+# 
+msgid "Total Goals"
+msgstr "Ընդհանուր Գոլեր"
+
+# 
+msgid "FUTURE"
+msgstr "ԱՊԱԳԱ"
+
+# 
+msgid "LIVE"
+msgstr "ԼԱՅՎ"
+
+# 
+msgid "TODAY"
+msgstr "ԱՅՍՕՐ"
+
+# 
+msgid "message_1510_sb"
+msgstr "Խաղադրույքի գումարը գերազանցում է Ձեր այս պահի սահմանաչափը։ Խնդրում ենք օգտագործել Սուպերբեթ տարբերակը։"
+
+# 
+msgid "Your superbet ({1}) request is accepted"
+msgstr "Ձեր Սուպերբեթի ({1}) դիմումն ընդունված է"
+
+# 
+msgid "Your superbet ({1}) request is declined"
+msgstr "Ձեր Սուպերբեթի ({1}) դիմումը մերժված է"
+
+# 
+msgid "Email/Account Id "
+msgstr "Էլ. փոստի/Հաշվի իդենտիֆիկացիոն համար "
+
+# 
+msgid "Secure Id/Authentication code"
+msgstr "Անվտանգության իդենտիֆիկացիոն համար"
+
+# 
+msgid "Please select a bet-shop from the list."
+msgstr "Ցուցակում ընտրեք բուքմեյքերական գրասենյակը"
+
+# 
+msgid "Live Bet on Baccarat"
+msgstr "Live Բեթ Օն Բակարատ"
+
+# 
+msgid "id:Â "
+msgstr "id:Â "
+
+# 
+msgid "â"
+msgstr "â"
+
+#
+msgid "Rules"
+msgstr "Կանոններ"
+
+#
+msgid "Available"
+msgstr "Հասանելի"
+
+#
+msgid "equivalent"
+msgstr "համարժեք"
+
+#
+msgid "Live Casino"
+msgstr "Live Խաղասրահ"
+
+#
+msgid "Every week Jackpot"
+msgstr "Շաբաթական Ջեքփոթ"
+
+#
+msgid "points"
+msgstr "միավորներ"
+
+#
+msgid "Don`t show again"
+msgstr "Այլևս ցույց չտալ"
+
+#
+msgid "Show more"
+msgstr "Մանրամասնել"

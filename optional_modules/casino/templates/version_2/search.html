@@ -1,0 +1,26 @@
+<form ng-controller="casinoNewSearchCtrl" ng-show=" $location.path() == '/casino/'">
+    <div class="block-search">
+        <input ng-blur="searchEnable = false" ng-focus="searchEnable = true" ng-class="{'enabled': searchEnable || searchCommand.length}"  name="" type="text" placeholder="SEARCH" title="Search a casino game..." ng-model="searchCommand" ng-keypress="searchEnter($event)" trans>
+        <span ng-click="deleteValue();searchEnable = false" ng-show="searchCommand.length" href="#" class="icon-delete"></span>
+        <!-- casino result search-->
+        <div ng-show="showSearchCommandResults && searchEnable" class="arrow-sport"></div>
+        <div class="search-results-container" ng-show="showSearchCommandResults && searchCommand.length" state-flag-var="showSearchCommandResults" broadcast-on-close="search.ResultsClosed" class-on-scroll="search-results-container-scroll,search-results-container" >
+            <div class="search-results-inner casino">
+                <h3 trans>Search results</h3>
+                <div id="casino-result-search" keyboard-navigation result-id-prefix="search-result-casino-" select-result-by-id-func="selectCasinoGameFromSearchResults" results-ids="searchCommandResultGameIds" selected-result-id="selectedSearchCommandResultId" show-results-flag="showSearchCommandResults">
+                    <div mb-scrollbar>
+                        <div ng-repeat="game in searchCommandResults">
+                            <dl ng-class="{'active': selectedSearchCommandResultId === game.id}" ng-click="openGame(game, 'real'); $event.stopPropagation();" id="search-result-casino-{{ game.id }}">
+                                <dt><span style="background-image:url({{game.icon_2}})"></span>
+                                <dd>
+                                    <div>{{ game.name }}</div>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="search-no-results" ng-show="!(searchCommandResults|count)" trans>no results</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

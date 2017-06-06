@@ -1,0 +1,11 @@
+<div class="bet-settings-container" ng-class="{'active': $parent.showBetSettings}" ng-show="$parent.betSlip.mode === 'betting' && !$parent.betSlip.superbetSelector">
+    <div class="settings-icon-bet" ng-click="$parent.showBetSettings=!$parent.showBetSettings; $parent.newsDependBetSetting()"><span class="set-icon icon-ic_settings_24px" title="Settings" trans=""></span><p trans>Betting options</p></div>
+    <div class="betslip-options">
+
+        <span trans>Automatically accept price changes</span><br />
+        <label><input type="radio" ng-model="$parent.acceptPriceChanges" value="0" ng-disabled="$parent.isBetsInProgress" ng-click="$parent.showBetSettings=!$parent.showBetSettings"><span trans>None</span></label>
+        <label><input type="radio" ng-model="$parent.acceptPriceChanges" value="1" ng-disabled="$parent.isBetsInProgress" ng-click="$parent.showBetSettings=!$parent.showBetSettings"><span trans>Higher odds</span></label>
+        <label><input type="radio" ng-model="$parent.acceptPriceChanges" value="2" ng-disabled="$parent.isBetsInProgress" ng-click="$parent.showBetSettings=!$parent.showBetSettings"><span trans>Any odds</span></label>
+    </div>
+
+</div>

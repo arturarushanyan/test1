@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "Canlı bahisler kısmında gösterilen saat bir göstergedir. Firmanın skorlar ve süre gibi gösterilen bilgilerin doğruluğu ve güncelliği konusunda hiç bir sorumluluğu yoktur."
+
+# 
+msgid "History"
+msgstr "HESAP ÖZETİ"
+
+# 
+msgid "Withdraw"
+msgstr "PARA ÇEKME"
+
+# 
+msgid "Reset password"
+msgstr "ŞİFRE YENİLEME"
+
+# 
+msgid "Reset"
+msgstr "GÖNDER"

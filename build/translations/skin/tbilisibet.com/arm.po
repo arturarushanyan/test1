@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 
+msgid "Search a casino game..."
+msgstr "Փնտրել խաղը"
+
+# 
+msgid "play now"
+msgstr "play"
+
+# 
+msgid "CardsLast4digits"
+msgstr "Քարտի վերջին 4 թվերը"
+
+# 
+msgid "IdentificationNumber"
+msgstr "Անձնագրի համարը"
+
+# 
+msgid "CardNumber"
+msgstr "Քարտի համարը"
+
+# 
+msgid "purse"
+msgstr "Դրամապանակ"
+
+# 
+msgid "privateID"
+msgstr "Անձնագրի համարը"
+
+# 
+msgid "name"
+msgstr "Անուն ազգանուն"
+
+# 
+msgid "On Hold"
+msgstr "չհաշվարկված"

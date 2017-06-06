@@ -1,0 +1,6247 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Hrvatski\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: mk\n"
+"X-Generator: Poedit 1.8.2\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+
+#
+msgid "OK"
+msgstr "ВО РЕД"
+
+#
+msgid "Yes"
+msgstr "Да"
+
+#
+msgid "No"
+msgstr "Не"
+
+#
+msgid "Live"
+msgstr "Во живо"
+
+#
+msgid "pre-match"
+msgstr "пред натпреварот"
+
+#
+msgid "No games found"
+msgstr "Играта не е пронајдена"
+
+#
+msgid "Games"
+msgstr "Игри"
+
+#
+msgid "all"
+msgstr "Сите"
+
+#
+msgid "Print coupon"
+msgstr "печатење Талони"
+
+#
+msgid "Today"
+msgstr "Денес"
+
+#
+msgid "Tomorrow"
+msgstr "утре"
+
+#
+msgid "1x2_1"
+msgstr "1"
+
+#
+msgid "1x2_X"
+msgstr "X"
+
+#
+msgid "1x2_2"
+msgstr "2"
+
+#
+msgid "More"
+msgstr "Повеќе"
+
+#
+msgid "Sorry the game which you chose doesn't have the type of play for fun"
+msgstr "Жал, игра не за забава"
+
+#
+msgid "Transfer"
+msgstr "пренос"
+
+#
+msgid "Enter"
+msgstr "влез"
+
+#
+msgid "Withdraw from game"
+msgstr "се повлече од игра"
+
+#
+msgid "Deposit to game"
+msgstr "Депозит да се игра"
+
+#
+msgid "Game Balance: "
+msgstr "Игра Биланс"
+
+#
+msgid "Error occured"
+msgstr "Се случи грешка"
+
+#
+msgid "more"
+msgstr "Повеќе"
+
+#
+msgid "Select a Category"
+msgstr "Изберете категорија"
+
+#
+msgid "Select region"
+msgstr "изберете регион"
+
+#
+msgid "All Providers"
+msgstr "сите сервери"
+
+#
+msgid "left arrow"
+msgstr "левата стрелка"
+
+#
+msgid "right arrow"
+msgstr "десна стрелка"
+
+#
+msgid "Popular Games"
+msgstr "Популарни Игри"
+
+#
+msgid "play now"
+msgstr "играј сега"
+
+#
+msgid "PLAY FOR FUN"
+msgstr "Играат за забава"
+
+#
+msgid "TOP SLOTS"
+msgstr "TOP SLOTS"
+
+#
+msgid "VIEW"
+msgstr "Погледни"
+
+#
+msgid "Load more"
+msgstr "Оптоварување повеќе"
+
+#
+msgid "Casino games"
+msgstr "Казино игри"
+
+#
+msgid "Live casino"
+msgstr "Казино во живо"
+
+#
+msgid "Live Lottery"
+msgstr "Лотарија во живо"
+
+#
+msgid "Skill games"
+msgstr "вештина игри"
+
+#
+msgid "Virtual games"
+msgstr "Виртуелнe игри"
+
+#
+msgid "All Multi View Games"
+msgstr "Сите Мулти Види Игри"
+
+#
+msgid "Search"
+msgstr "Барај"
+
+#
+msgid "Powered by"
+msgstr "Powered by"
+
+#
+msgid "All rights reserved."
+msgstr "Сите права се задржани."
+
+#
+msgid "Mobile version"
+msgstr "Мобилна верзија"
+
+#
+msgid "Previous version"
+msgstr "Претходната верзија"
+
+#
+msgid "Previous Flash version"
+msgstr "Претходна флеш верзија"
+
+#
+msgid "Points Calculator"
+msgstr "Поени Калкулатор"
+
+#
+msgid "Buy-in"
+msgstr "Купи-во"
+
+#
+msgid "Entrants"
+msgstr "Учесниците"
+
+#
+msgid "Position"
+msgstr "Позиција"
+
+#
+msgid "Points"
+msgstr "кредити"
+
+#
+msgid "Download"
+msgstr "Преземи"
+
+#
+msgid "Download Beta version"
+msgstr "Преземи бета верзија"
+
+#
+msgid "Play now"
+msgstr "играј сега"
+
+#
+msgid "10.000 E GTD tournament"
+msgstr "5000 E GTD tournament"
+
+#
+msgid "5.371.400 AMD GTD tournament"
+msgstr "2.660.000 AMD GTD tournament"
+
+#
+msgid "Play now!"
+msgstr "играј сега!"
+
+#
+msgid "choose your os"
+msgstr "изберете OS"
+
+#
+msgid "All OS"
+msgstr "сите OS"
+
+#
+msgid "All downloads"
+msgstr "Сите преземања"
+
+#
+msgid "Windows"
+msgstr "Windows"
+
+#
+msgid "poker_requirements_windows"
+msgstr "Minimum system requirements:<br>Windows XP / Vista / Windows 7<br>Pentium 4 with 3 GHz (or compatible CPU)<br>1 GB system RAM<br>Broadband Internet connection<br>"
+
+#
+msgid "poker_download_description_windows"
+msgstr "<ol><li>A window will appear. Press Run.</li><li>Once downloading has finished, you may be asked to verify the publisher.</li><li>Press \"Run\" again.</li><li>At the next window, to install the software click Next.</li><li>Once the installation is finished, you can find our Vivaro Poker icon on your desktop.</li><li>Double-click the icon to start the Vivaro cardroom.</li></ol>"
+
+#
+msgid "Mac OS"
+msgstr "Mac OS"
+
+#
+msgid "poker_requirements_mac"
+msgstr "Minimum system requirements:<br>Mac® OS 9 or higher <br>Intel® Processor<br>300MB available HD space<br>1 GB system RAM<br>Broadband Internet connection<br>1024X720 minimum display resolution"
+
+#
+msgid "poker_download_description_mac"
+msgstr "<ol><li>Download Application bundle</li><li>Extract Application bundle by double clicking</li><li>Move extracted Application bundle to Programs</li><li>Click Application bundle in Programs to start</li></ol>"
+
+#
+msgid "Linux"
+msgstr "Linux"
+
+#
+msgid "poker_requirements_linux"
+msgstr "poker_requirements_linux"
+
+#
+msgid "poker_download_description_linux"
+msgstr "poker_download_description_linux"
+
+#
+msgid "Android"
+msgstr "Android"
+
+#
+msgid "poker_requirements_android"
+msgstr "Minimum System Requirements:<br>Installed version of Adobe Air (can be downloaded <a href=https://play.google.com/store/apps/details?id=com.adobe.air&hl=en target=_blank>here</a>)<br>Android version 4.0 or higher<br>3G or Wifi Connection<br>"
+
+#
+msgid "poker_download_description_android"
+msgstr "<ol> <li> Пред да го преземете, системските поставувања, изберете Безбедност> Уред> Дозволи непознати извори. </ li> <li> Да се обезбеди правилно функционирање на Adobe Air треба да бидат инсталирани. </ li> <li> Ако условите се задоволителни , можете да почнете со кликнување на апликацијата за преземање. </ li> <li> по успешното преземање, софтверот ќе се инсталира автоматски. </ li> <li> по инсталацијата, стартувате програмата со кликнување на иконата на програмата. </ li> </ ol>"
+
+#
+msgid "3 Steps To start the game"
+msgstr "<b> 3 чекори </ b> за да ја започнете играта"
+
+#
+msgid "Register"
+msgstr "Регистрирајте Се Сега"
+
+#
+msgid "Play"
+msgstr "Пушти"
+
+#
+msgid "Start"
+msgstr "Почеток"
+
+#
+msgid "Download and Install"
+msgstr "Превземи и инсталирај"
+
+#
+msgid "Register your account"
+msgstr "Влези за да го вашиот профил"
+
+#
+msgid "Start to Play"
+msgstr "почнете да играте"
+
+#
+msgid "Click on the downloaded file to start installation process. Follow the steps to complete installation and run the software."
+msgstr "Кликнете на преземената датотека за да започне процесот на инсталација. Следете ги следниве чекори за да ја завршите инсталацијата и да ја стартувате софтверот."
+
+#
+msgid "Click on the Register button in the login window to register your account. If you have already registered, enter your credentials and login."
+msgstr "Кликнете на копчето за регистар во прозорецот за најава за да се регистрирате за вашата сметка. Ако веќе сте регистрирани, внесете ги вашите податоци и најава."
+
+#
+msgid "Enjoy playing in our poker room. For inquiries and suggestions please contact Live Support."
+msgstr "Уживајте во игра во нашата покер соба. За прашања и препораки, ве молиме контактирајте го тимот на живо."
+
+#
+msgid "Download Windows client"
+msgstr "Превземи Windows клиентот"
+
+#
+msgid "desktop"
+msgstr "десктоп"
+
+#
+msgid "Download MacOS client"
+msgstr "Преземете MacOS клиент"
+
+#
+msgid "iPhone"
+msgstr "iPhone"
+
+#
+msgid "Instant Play"
+msgstr "Инстант Игра"
+
+#
+msgid "android"
+msgstr "Андроид"
+
+#
+msgid "Download Linux client"
+msgstr "Преземете Linux клиент"
+
+#
+msgid "linux"
+msgstr "linux"
+
+#
+msgid "loading..."
+msgstr "Се вчитува ..."
+
+#
+msgid "Page not found"
+msgstr "Страницата не е пронајдена"
+
+#
+msgid "Sport"
+msgstr "Спорт"
+
+#
+msgid "Region"
+msgstr "Регионот"
+
+#
+msgid "Competition"
+msgstr "Конкуренцијата"
+
+#
+msgid "Date"
+msgstr "Датум"
+
+#
+msgid "Event"
+msgstr "настан"
+
+#
+msgid "Score"
+msgstr "Резултат"
+
+#
+msgid "No Results"
+msgstr "Не се пронајдени"
+
+#
+msgid "Today's Resluts"
+msgstr "денешните резултати"
+
+#
+msgid "You need to login to access this page."
+msgstr "Треба да се најавите за да пристапите на оваа страница."
+
+#
+msgid "Recent Bets"
+msgstr "Последни Влоговите"
+
+#
+msgid "Bet History"
+msgstr "историја обложување"
+
+#
+msgid "Casino Bet History"
+msgstr "историја Казино обложувањеcasino"
+
+#
+msgid "Wallet"
+msgstr "Паричникот"
+
+#
+msgid "History"
+msgstr "Историја"
+
+#
+msgid "Renew"
+msgstr "Обнови"
+
+#
+msgid "Deposit"
+msgstr "Депозит"
+
+#
+msgid "Withdraw"
+msgstr "Повлече"
+
+#
+msgid "Sports"
+msgstr "Спорт"
+
+#
+msgid "Casino"
+msgstr "Казино"
+
+#
+msgid "Upcoming games"
+msgstr "претстојните игри"
+
+#
+msgid "News"
+msgstr "Вести"
+
+#
+msgid "Videos"
+msgstr "Видеа"
+
+#
+msgid "Results"
+msgstr "Резултати"
+
+#
+msgid "Sport center"
+msgstr "Спортски центар"
+
+#
+msgid "Calendar"
+msgstr "Календар"
+
+#
+msgid "close"
+msgstr "во близина"
+
+#
+msgid "Input Password"
+msgstr "внесете лозинка"
+
+#
+msgid "Hello, we'd love to hear your thoughts."
+msgstr "Здраво, ние сакаме да го слушнеме вашето мислење"
+
+#
+msgid "Now, if you have any questions, comments or suggestions, please enter your feedback in the box below and then press Send."
+msgstr "Ако имате било какви прашања, коментари или предлози, Внесете го вашето мислење подолу и притиснете Испрати."
+
+#
+msgid "Email Address"
+msgstr " е-мејл адреса"
+
+#
+msgid "Enter your email address"
+msgstr "Внесете ја вашата е-мејл адреса"
+
+#
+msgid "Please enter a valid email address"
+msgstr "Ве молиме внесете валидна е-мејл адреса"
+
+#
+msgid "Your message"
+msgstr "Вашата порака"
+
+#
+msgid "Send"
+msgstr "Испрати"
+
+#
+msgid "Your message has been sent."
+msgstr "Вашата порака е испратена."
+
+#
+msgid "Cash-out"
+msgstr "плаќање"
+
+#
+msgid "Cash-out done."
+msgstr "плаќање завршен"
+
+#
+msgid "Error occured."
+msgstr "Се случи грешка."
+
+#
+msgid "Cash-out for selected bet is not available."
+msgstr "плаќање не е на располагање."
+
+#
+msgid "Pick:"
+msgstr "изберете:"
+
+#
+msgid "Price has changed"
+msgstr "Цената се смени"
+
+#
+msgid "Amount"
+msgstr "Износ"
+
+#
+msgid "Ok"
+msgstr "ВО РЕД"
+
+#
+msgid "Cancel"
+msgstr "Откажи"
+
+#
+msgid "Blitz Survey"
+msgstr "Блиц Анкета"
+
+#
+msgid "We are interested to know which of the below-mentioned games you know to play (you can check up to 5 products):"
+msgstr "која од следниве игри да знаете игра (Можете да изберете до 5 игри):"
+
+#
+msgid "Chinese Poker"
+msgstr "Кинески покер"
+
+#
+msgid "Live Casino"
+msgstr "Казино во живо"
+
+#
+msgid "Poker"
+msgstr "Покер"
+
+#
+msgid "Backgammon"
+msgstr "Backgammon"
+
+#
+msgid "Belote"
+msgstr "бела"
+
+#
+msgid "None of these"
+msgstr "Ниту еден од овие"
+
+#
+msgid "Thank you for participating in our survey. VivaroBet appreciates your interest in our products."
+msgstr "Ви благодариме за учество во нашата анкета. Bet52 цени Вашиот интерес за нашите производи."
+
+#
+msgid "Submit"
+msgstr "Поднесе"
+
+#
+msgid "Your balance is low"
+msgstr "Биланс на вашиот е ниска"
+
+#
+msgid "Renew to get more."
+msgstr "Обнови да добиете повеќе."
+
+#
+msgid "SuperBet Counter Offer"
+msgstr "SuperBet Контра понуда"
+
+#
+msgid "Bet Details"
+msgstr "детали за обложување"
+
+#
+msgid "Offer Details"
+msgstr "детали на понудата"
+
+#
+msgid "Odds:"
+msgstr "Коефициенти:"
+
+#
+msgid "Amount:"
+msgstr "Износот:"
+
+#
+msgid "Remaining time:"
+msgstr "Преостанато време:"
+
+#
+msgid "Accept"
+msgstr "Прифати"
+
+#
+msgid "Decline"
+msgstr "Одби"
+
+#
+msgid "competition or a team..."
+msgstr "натпревар или тим ..."
+
+#
+msgid "Search a competition or a team..."
+msgstr "Барај натпревар или тим ..."
+
+#
+msgid "Search results"
+msgstr "Резултати од пребарувањето"
+
+#
+msgid "no results"
+msgstr "Не се пронајдени"
+
+#
+msgid "Search a casino game..."
+msgstr "Барај казино игра ..."
+
+#
+msgid "Best Promotions"
+msgstr "Најдобрите промоции"
+
+#
+msgid "brain"
+msgstr "мозокот"
+
+#
+msgid "Tell me more"
+msgstr "Кажи ми нешто повеќе"
+
+#
+msgid "View on map"
+msgstr "Поглед на мапа"
+
+#
+msgid "Contact us"
+msgstr "Контактирајте не"
+
+#
+msgid "Hide Map"
+msgstr "Сокриј мапа"
+
+#
+msgid "Winners"
+msgstr "Победниците"
+
+#
+msgid "There are no winners yet"
+msgstr "Нема победници уште"
+
+#
+msgid "No data"
+msgstr "Нема податоци"
+
+#
+msgid "Name"
+msgstr "име"
+
+#
+msgid "ON THE WAY"
+msgstr "НА ПАТ"
+
+#
+msgid "TO VICTORY!"
+msgstr "До победа!"
+
+#
+msgid "Sign in"
+msgstr "Пријавете се"
+
+#
+msgid "Forgot your password?"
+msgstr "Ја Заборавивте Лозинката?"
+
+#
+msgid "Join"
+msgstr "Вклучи се"
+
+#
+msgid "Bet"
+msgstr "Залог"
+
+#
+msgid "Win"
+msgstr "Победа"
+
+#
+msgid "Print"
+msgstr "Печати"
+
+#
+msgid "Type your new password"
+msgstr "Напишете ја вашата нова лозинка"
+
+#
+msgid "Password"
+msgstr "Лозинка"
+
+#
+msgid "Please type your new password"
+msgstr "Ве молиме внесете ја вашата нова лозинка"
+
+#
+msgid "Password must be larger than 8 characters, should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Лозинката мора да биде поголема од 8 карактери, треба да содржи горниот и мали англиски букви, најмалку една цифра и без празни места."
+
+#
+msgid "Repeat Password"
+msgstr "Повторете лозинка"
+
+#
+msgid "Please type your new password again"
+msgstr "Ве молиме внесете ја вашата нова лозинка повторно"
+
+#
+msgid "Passwords are different"
+msgstr "Лозинките се разликуваат"
+
+#
+msgid "Your password has been changed."
+msgstr "Вашата лозинка е променета."
+
+#
+msgid "Password reset failed."
+msgstr "Ресетирање на Лозинка успеа."
+
+#
+msgid "Draw number"
+msgstr "победничките броеви"
+
+#
+msgid "End date"
+msgstr "Дата на завршување"
+
+#
+msgid "State"
+msgstr "Држава"
+
+#
+msgid "Jackpot"
+msgstr "Џекпот"
+
+#
+msgid "Pool"
+msgstr "Pool"
+
+#
+msgid "Prize fund"
+msgstr "Наградниот фонд"
+
+#
+msgid "Tickets / Variants"
+msgstr "Ким / Варијанти"
+
+#
+msgid "Current Draw"
+msgstr "Тековната Страница"
+
+#
+msgid "Draw"
+msgstr "Подготви"
+
+#
+msgid "Result"
+msgstr "Резултат"
+
+#
+msgid "Bookmakers probability / bets amount (in %)"
+msgstr "Букмејкерите веројатноста / облози износ (во%)"
+
+#
+msgid "min."
+msgstr "мин."
+
+#
+msgid "Tickets"
+msgstr "Билети"
+
+#
+msgid "Variants"
+msgstr "Варијанти"
+
+#
+msgid "Winners (var.)"
+msgstr "Победници (var.)"
+
+#
+msgid "Win sum"
+msgstr "обща сума"
+
+#
+msgid "Win coef"
+msgstr "Победа coef"
+
+#
+msgid "All draws"
+msgstr "Сите црпи"
+
+#
+msgid "All bets"
+msgstr "Сите облози"
+
+#
+msgid "You need to confirm the agreements."
+msgstr "Што треба да се потврди договори."
+
+#
+msgid "I agree to all"
+msgstr "Се согласувам"
+
+#
+msgid "Terms & Conditions"
+msgstr "Правила и услови"
+
+#
+msgid "You can read our Terms and Conditions by clicking corresponding links in page footer."
+msgstr "Можете да прочитате нашата Услови и правила со кликнување на соодветните линкови во подножје на страницата."
+
+#
+msgid "and I am over 18 years of age and have read and accepted the general terms and conditions."
+msgstr "и јас сум повеќе од 18 години и се прочита и прифати општите услови и условите."
+
+#
+msgid "and I am over 21 years of age and have read and accepted the general terms and conditions."
+msgstr "и јас сум повеќе од 21 години и се прочита и прифати општите услови и условите."
+
+#
+msgid "Registration complete."
+msgstr "Регистрација завршена."
+
+#
+msgid "Please check your email."
+msgstr "Ве молиме проверете ја вашата е-мејл."
+
+#
+msgid "Registration failed due to technical error."
+msgstr "Регистрирањето не успеа поради техничка грешка."
+
+#
+msgid "Please try again later."
+msgstr "Ве молиме обидете се повторно подоцна."
+
+#
+msgid "Australia"
+msgstr "Австралија"
+
+#
+msgid "Andorra"
+msgstr "Андора"
+
+#
+msgid "UAE"
+msgstr "Обединетите Арапски Емирати"
+
+#
+msgid "Afghanistan"
+msgstr "Авганистан"
+
+#
+msgid "Antigua and Barbuda"
+msgstr "Antigva and Barbuda"
+
+#
+msgid "Albania"
+msgstr "Албанија"
+
+#
+msgid "Armenia"
+msgstr "Ерменија"
+
+#
+msgid "Angola"
+msgstr "Ангола"
+
+#
+msgid "Argentina"
+msgstr "Аргентина"
+
+#
+msgid "American Samoa"
+msgstr "Американска Самоа"
+
+#
+msgid "Austria"
+msgstr "Austrija"
+
+#
+msgid "Aruba"
+msgstr "Аруба"
+
+#
+msgid "Azerbaijan"
+msgstr "Азербејџан"
+
+#
+msgid "Bosnia and Herzegovina"
+msgstr "Босна и Херцеговина"
+
+#
+msgid "Barbados"
+msgstr "Барбадос"
+
+#
+msgid "Bangladesh"
+msgstr "Бангладеш"
+
+#
+msgid "Belgium"
+msgstr "Белгија"
+
+#
+msgid "Burkina Faso"
+msgstr "Буркина Фасо"
+
+#
+msgid "Bulgaria"
+msgstr "Бугарија"
+
+#
+msgid "Bahrain"
+msgstr "Бахреин"
+
+#
+msgid "Burundi"
+msgstr "Бурунди"
+
+#
+msgid "Benin"
+msgstr "Бенин"
+
+#
+msgid "Bermuda"
+msgstr "Бермуда"
+
+#
+msgid "Brunei"
+msgstr "Брунеј"
+
+#
+msgid "Bolivia"
+msgstr "Боливија"
+
+#
+msgid "Brazil"
+msgstr "Бразил"
+
+#
+msgid "Bahamas"
+msgstr "Бахами"
+
+#
+msgid "Bhutan"
+msgstr "Бутан"
+
+#
+msgid "Botswana"
+msgstr "Боцвана"
+
+#
+msgid "Belarus"
+msgstr "Белорусија"
+
+#
+msgid "Belize"
+msgstr "Белизе"
+
+#
+msgid "Canada"
+msgstr "Канада"
+
+#
+msgid "Democratic Republic of the Congo"
+msgstr "Демократска Република Конго"
+
+#
+msgid "Central African Republic"
+msgstr "Централна Африканска Република"
+
+#
+msgid "Republic of the Congo"
+msgstr "Република Конго"
+
+#
+msgid "Switzerland"
+msgstr "Швајцарија"
+
+#
+msgid "Cote d'Ivoire"
+msgstr "Брегот на Слоновата Коска"
+
+#
+msgid "Cook Islands"
+msgstr "Кукови Острови"
+
+#
+msgid "Chile"
+msgstr "Чиле"
+
+#
+msgid "Cameroon"
+msgstr "Камерун"
+
+#
+msgid "China"
+msgstr "Кина"
+
+#
+msgid "Colombia"
+msgstr "Колумбија"
+
+#
+msgid "Costa Rica"
+msgstr "Костарика"
+
+#
+msgid "Cuba"
+msgstr "Куба"
+
+#
+msgid "Cape Verde"
+msgstr "Кејп Верде"
+
+#
+msgid "Cyprus"
+msgstr "Кипар"
+
+#
+msgid "Czech Republic"
+msgstr "Република Чешка"
+
+#
+msgid "Germany"
+msgstr "Германија"
+
+#
+msgid "Djibouti"
+msgstr "Џибути"
+
+#
+msgid "Denmark"
+msgstr "Данска"
+
+#
+msgid "Dominica"
+msgstr "Доминика"
+
+#
+msgid "Dominican Republic"
+msgstr "Доминиканска Република"
+
+#
+msgid "Algeria"
+msgstr "Алжир"
+
+#
+msgid "Ecuador"
+msgstr "Еквадор"
+
+#
+msgid "Estonia"
+msgstr "Естонија"
+
+#
+msgid "Egypt"
+msgstr "Египет"
+
+#
+msgid "Eritrea"
+msgstr "Еритреја"
+
+#
+msgid "Spain"
+msgstr "Шпанија"
+
+#
+msgid "Ethiopia"
+msgstr "Етиопија"
+
+#
+msgid "Finland"
+msgstr "Финска"
+
+#
+msgid "Fiji"
+msgstr "Фиџи"
+
+#
+msgid "Federated States of Micronesia"
+msgstr "Федерални Држави на Микронезија"
+
+#
+msgid "Faroe Islands"
+msgstr "Фарски Острови"
+
+#
+msgid "France"
+msgstr "Франција"
+
+#
+msgid "Gabon"
+msgstr "Габон"
+
+#
+msgid "Great Britain"
+msgstr "Велика Британија"
+
+#
+msgid "Grenada"
+msgstr "Гренада"
+
+#
+msgid "Georgia"
+msgstr "Џорџија"
+
+#
+msgid "Ghana"
+msgstr "Гана"
+
+#
+msgid "Gambia"
+msgstr "Гамбија"
+
+#
+msgid "Guinea"
+msgstr "Гвинеја"
+
+#
+msgid "Equatorial Guinea"
+msgstr "Екваторска Гвинеја"
+
+#
+msgid "Greece"
+msgstr "Грција"
+
+#
+msgid "Guatemala"
+msgstr "Гватемала"
+
+#
+msgid "Guam"
+msgstr "Гуам"
+
+#
+msgid "Guinea-Bissau"
+msgstr "Гвинеја-Бисау"
+
+#
+msgid "Guyana"
+msgstr "Гвајана"
+
+#
+msgid "Hong Kong"
+msgstr "Хонгконг"
+
+#
+msgid "Honduras"
+msgstr "Хондурас"
+
+#
+msgid "Croatia"
+msgstr "Хрватска"
+
+#
+msgid "Republic of Haiti"
+msgstr "Република Хаити"
+
+#
+msgid "Hungary"
+msgstr "Унгарија"
+
+#
+msgid "Indonesia"
+msgstr "Индонезија"
+
+#
+msgid "Ireland"
+msgstr "Ирска"
+
+#
+msgid "Israel"
+msgstr "Израел"
+
+#
+msgid "India"
+msgstr "Индија"
+
+#
+msgid "Iraq"
+msgstr "Ирак"
+
+#
+msgid "Iran"
+msgstr "Иран"
+
+#
+msgid "Iceland"
+msgstr "Исланд"
+
+#
+msgid "Italy"
+msgstr "Италија"
+
+#
+msgid "Jamaica"
+msgstr "Јамајка"
+
+#
+msgid "Jordan"
+msgstr "Јордан"
+
+#
+msgid "Japan"
+msgstr "Јапонија"
+
+#
+msgid "Kenya"
+msgstr "Кенија"
+
+#
+msgid "Kyrgyzstan"
+msgstr "Киргистан"
+
+#
+msgid "Cambodia"
+msgstr "Камбоџа"
+
+#
+msgid "Kiribati"
+msgstr "Кирибати"
+
+#
+msgid "Comoros"
+msgstr "Комори"
+
+#
+msgid "Saint Kitts and Nevis"
+msgstr "Свети Китс и Невис"
+
+#
+msgid "DPRK"
+msgstr "Северна Кореја"
+
+#
+msgid "South Korea"
+msgstr "Јужна Кореја"
+
+#
+msgid "Kuwait"
+msgstr "Кувајт"
+
+#
+msgid "Cayman Islands"
+msgstr "Кајмански Острови"
+
+#
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+#
+msgid "Laos"
+msgstr "Лаос"
+
+#
+msgid "Lebanon"
+msgstr "Либан"
+
+#
+msgid "Saint Lucia"
+msgstr "Света Луција"
+
+#
+msgid "Liechtenstein"
+msgstr "Лихтенштајн"
+
+#
+msgid "Sri Lanka"
+msgstr "Шри Ланка"
+
+#
+msgid "Liberia"
+msgstr "Либерија"
+
+#
+msgid "Lesotho"
+msgstr "Лесото"
+
+#
+msgid "Lithuania"
+msgstr "Литванија"
+
+#
+msgid "Luxemburg"
+msgstr "Луксембург"
+
+#
+msgid "Latvia"
+msgstr "Латвија"
+
+#
+msgid "Libya"
+msgstr "Либија"
+
+#
+msgid "Morocco"
+msgstr "Мароко"
+
+#
+msgid "Monaco"
+msgstr "Монако"
+
+#
+msgid "Moldavia"
+msgstr "Молдавија"
+
+#
+msgid "Montenegro"
+msgstr "Црна Гора"
+
+#
+msgid "Madagascar"
+msgstr "Мадагаскар"
+
+#
+msgid "Macedonia"
+msgstr "Македонија"
+
+#
+msgid "Mali"
+msgstr "Mali"
+
+#
+msgid "Myanmar"
+msgstr "мјанмарски"
+
+#
+msgid "Mongolia"
+msgstr "Монголија"
+
+#
+msgid "Mauritania"
+msgstr "Мавританија"
+
+#
+msgid "Malta"
+msgstr "Малта"
+
+#
+msgid "Mauritius"
+msgstr "Маврициус"
+
+#
+msgid "Maldives"
+msgstr "Малдиви"
+
+#
+msgid "Malawi"
+msgstr "Малави"
+
+#
+msgid "Mexico"
+msgstr "Мексико"
+
+#
+msgid "Malaysia"
+msgstr "Малезија"
+
+#
+msgid "Mozambique"
+msgstr "Мозамбик"
+
+#
+msgid "Namibia"
+msgstr "Намибија"
+
+#
+msgid "Niger"
+msgstr "Нигер"
+
+#
+msgid "Nigeria"
+msgstr "Нигерија"
+
+#
+msgid "Nicaragua"
+msgstr "Никарагва"
+
+#
+msgid "Netherlands"
+msgstr "Холандија"
+
+#
+msgid "Norway"
+msgstr "Норвешка"
+
+#
+msgid "Nepal"
+msgstr "Непал"
+
+#
+msgid "Nauru"
+msgstr "Науру"
+
+#
+msgid "New Zealand"
+msgstr "Нов Зеланд"
+
+#
+msgid "Oman"
+msgstr "Оман"
+
+#
+msgid "Panama"
+msgstr "Панама"
+
+#
+msgid "Peru"
+msgstr "Перу"
+
+#
+msgid "Papua New Guinea"
+msgstr "Papua - New Guinea"
+
+#
+msgid "Philippines"
+msgstr "Филипини"
+
+#
+msgid "Pakistan"
+msgstr "Пакистан"
+
+#
+msgid "Poland"
+msgstr "Полска"
+
+#
+msgid "Puerto Rico"
+msgstr "Порто Рико"
+
+#
+msgid "Palestine"
+msgstr "Палестина"
+
+#
+msgid "Portugal"
+msgstr "Португалија"
+
+#
+msgid "Palau"
+msgstr "Палау"
+
+#
+msgid "Paraguay"
+msgstr "Парагвај"
+
+#
+msgid "Qatar"
+msgstr "Катар"
+
+#
+msgid "Romania"
+msgstr "Романија"
+
+#
+msgid "Serbia"
+msgstr "србија"
+
+#
+msgid "Russia"
+msgstr "Русија"
+
+#
+msgid "Rwanda"
+msgstr "Руанда"
+
+#
+msgid "Saudi Arabia"
+msgstr "Саудиска Арабија"
+
+#
+msgid "Solomon Islands"
+msgstr "Соломонови Острови"
+
+#
+msgid "Seychelles"
+msgstr "Сејшелите"
+
+#
+msgid "Sudan"
+msgstr "Судан"
+
+#
+msgid "Sweden"
+msgstr "Шведска"
+
+#
+msgid "Singapore"
+msgstr "Сингапур"
+
+#
+msgid "Slovenia"
+msgstr "Словенија"
+
+#
+msgid "Slovakia"
+msgstr "Словачка"
+
+#
+msgid "Sierra Leone"
+msgstr "Сиера Леоне"
+
+#
+msgid "San Marino"
+msgstr "Сан Марино"
+
+#
+msgid "Senegal"
+msgstr "Сенегал"
+
+#
+msgid "Somalia"
+msgstr "Сомалија"
+
+#
+msgid "Republic of Suriname"
+msgstr "Република Суринам"
+
+#
+msgid "Sao Tome and Principe"
+msgstr "Сао Томе и Принципе"
+
+#
+msgid "Salvador"
+msgstr "Салвадор"
+
+#
+msgid "Syria"
+msgstr "Сирија"
+
+#
+msgid "Swaziland"
+msgstr "Свазиленд"
+
+#
+msgid "Chad"
+msgstr "Чад"
+
+#
+msgid "Togo"
+msgstr "Того"
+
+#
+msgid "Thailand"
+msgstr "Тајланд"
+
+#
+msgid "Tadjikistan"
+msgstr "Tadjikistan"
+
+#
+msgid "Timor-Leste"
+msgstr "Источен Тимор"
+
+#
+msgid "Turkmenistan"
+msgstr "Туркменистан"
+
+#
+msgid "Tunisia"
+msgstr "Тунис"
+
+#
+msgid "Tonga"
+msgstr "Тонга"
+
+#
+msgid "Turkey"
+msgstr "Турција"
+
+#
+msgid "Trinidad and Tobago"
+msgstr "Тринидад и Тобаго"
+
+#
+msgid "Tuvalu"
+msgstr "Тувалу"
+
+#
+msgid "Taiwan"
+msgstr "Тајван"
+
+#
+msgid "Tanzania"
+msgstr "Танзанија"
+
+#
+msgid "Ukraine"
+msgstr "Украина"
+
+#
+msgid "Uganda"
+msgstr "Уганда"
+
+#
+msgid "United States"
+msgstr "Соединетите Американски Држави"
+
+#
+msgid "Uruguay"
+msgstr "Уругвај"
+
+#
+msgid "Uzbekistan"
+msgstr "Узбекистан"
+
+#
+msgid "Saint Vincent and the Grenadines"
+msgstr "Свети Винсент и Гренадини"
+
+#
+msgid "Venezuela"
+msgstr "Венецуела"
+
+#
+msgid "British Virgin Islands"
+msgstr "Британски Девствени Острови"
+
+#
+msgid "United States Virgin Islands"
+msgstr "Американски Девствени Острови"
+
+#
+msgid "Vietnam"
+msgstr "Виетнам"
+
+#
+msgid "Vanuatu"
+msgstr "Вануату"
+
+#
+msgid "Samoa"
+msgstr "Самоа"
+
+#
+msgid "Yemen"
+msgstr "Teman"
+
+#
+msgid "Republic of South Africa"
+msgstr "Република Јужна Африка"
+
+#
+msgid "Zambia"
+msgstr "Замбија"
+
+#
+msgid "Zimbabwe"
+msgstr "Зимбабве"
+
+#
+msgid "Contact Support"
+msgstr "Контакт Поддршка"
+
+#
+msgid "Live Chat"
+msgstr "Разговор во живо"
+
+#
+msgid "Live Agent"
+msgstr "Во живо Агент"
+
+#
+msgid "Login with Facebook"
+msgstr "Пријавете се со Фејсбук"
+
+#
+msgid "Sign in with Odnoklassniki"
+msgstr "Пријавете се со Odnoklassniki"
+
+#
+msgid "If you want to be able to login with your Facebook account you need to first Sign up with Facebook account."
+msgstr "Ако сакате да бидат во можност да се најавите со вашиот Фејсбук профил, мора прво да Пријавете се со Фејсбук профил."
+
+#
+msgid "If you want to be able to login with your Odnoklassniki account you need to first Sign up with Odnoklassniki account."
+msgstr "Ако сакате да бидат во можност да се најавите со вашиот профил Odnoklassniki мора прво да Пријавете се со Odnoklassniki профил."
+
+#
+msgid "Username"
+msgstr "Корисничко Име"
+
+#
+msgid "Your login"
+msgstr "Вашата најава"
+
+#
+msgid "Enter your password"
+msgstr "Внесете Лозинка"
+
+#
+msgid "SMS verification code"
+msgstr "SMS верификационен код"
+
+#
+msgid "Enter verification code"
+msgstr "Внесете го кодот за верификација"
+
+#
+msgid "Invalid username or password."
+msgstr "Неправилно корисничко име или лозинка."
+
+#
+msgid "Create an account"
+msgstr "Креирај сметка"
+
+#
+msgid "Time Period"
+msgstr "Временски период"
+
+#
+msgid "All Casino Transactions"
+msgstr "Сите Казино Трансакции"
+
+#
+msgid "id: "
+msgstr "id: "
+
+#
+msgid "next"
+msgstr "Следно"
+
+#
+msgid "prev"
+msgstr "Претходна"
+
+#
+msgid "Deposit to main wallet"
+msgstr "Депозит до главна паричник"
+
+#
+msgid "Select a payment method"
+msgstr "Изберете начин на плаќање"
+
+#
+msgid "Please confirm money transfer"
+msgstr "Ве молиме потврдете трансфер на пари"
+
+#
+msgid "Amount: "
+msgstr "Износот:"
+
+#
+msgid "Status:"
+msgstr "Статус:"
+
+#
+msgid "Unknown"
+msgstr "Непознато"
+
+#
+msgid "Success"
+msgstr "Успешно"
+
+#
+msgid "Pending"
+msgstr "Во очекување "
+
+#
+msgid "Failure"
+msgstr "Неуспех"
+
+#
+msgid "Deposit Amount"
+msgstr "Износ депозит"
+
+#
+msgid "Payment complete"
+msgstr "Плаќање целосна"
+
+#
+msgid "enter amount here"
+msgstr "внесете го износот тука"
+
+#
+msgid "Status"
+msgstr "Статус"
+
+#
+msgid "Withdraw from main wallet"
+msgstr "Се повлече од главните паричник"
+
+#
+msgid "Select withdraw method"
+msgstr "Изберете ја повлече метод"
+
+#
+msgid "User ID"
+msgstr "ID на корисникот"
+
+#
+msgid "Please, upload your passport scan or passport photo to ease your further withdrawals."
+msgstr "Ве молиме обидете се повторно да платите или одете на вашиот профил."
+
+#
+msgid "Verify Account"
+msgstr "Потврди профил"
+
+#
+msgid "Withdraw Amount"
+msgstr "Повлече Износ"
+
+#
+msgid "available:"
+msgstr "Достапни"
+
+#
+msgid "Payment Method"
+msgstr "Начин на плаќање:"
+
+#
+msgid "Time"
+msgstr "Време"
+
+#
+msgid "Your currency is"
+msgstr "Вашата валута е"
+
+#
+msgid "Balance"
+msgstr "Биланс"
+
+#
+msgid "Total"
+msgstr "Вкупно"
+
+#
+msgid "Main"
+msgstr "Главните"
+
+#
+msgid "If your balance less, top up your balance now."
+msgstr "Ако салдото помалку, дотурете својата рамнотежа сега."
+
+#
+msgid "From"
+msgstr "Од"
+
+#
+msgid "To"
+msgstr "Да"
+
+#
+msgid "Max"
+msgstr "Макс"
+
+#
+msgid "Wait..."
+msgstr "Чекај ..."
+
+#
+msgid "Bonus"
+msgstr "Бонус"
+
+#
+msgid "Go to shop"
+msgstr "Оди до продавница"
+
+#
+msgid "Main Bonus"
+msgstr "Главната бонус"
+
+#
+msgid "Casino Bonus"
+msgstr "Казино бонус"
+
+#
+msgid "Transactions"
+msgstr "Трансакции"
+
+#
+msgid "All Transactions"
+msgstr "Сите трансакции"
+
+#
+msgid "Categories"
+msgstr "Категории"
+
+#
+msgid "Financials"
+msgstr "Финансии"
+
+#
+msgid "Fantasy Sports"
+msgstr "Фантазија Спорт"
+
+#
+msgid "Ogwil"
+msgstr "Ogwil"
+
+#
+msgid "Live games"
+msgstr "Натпревари во живо"
+
+#
+msgid "All games"
+msgstr "Сите игри"
+
+#
+msgid "Roulette"
+msgstr "Рулет"
+
+#
+msgid "BlackJack"
+msgstr "BlackJack"
+
+#
+msgid "Bet on Poker"
+msgstr "Залог на покер"
+
+#
+msgid "Baccarat"
+msgstr "Baccarat"
+
+#
+msgid "Please try later or contact support."
+msgstr "Ве молиме обидете се подоцна или контактирајте поддршка."
+
+#
+msgid "All Bets"
+msgstr "Сите облози"
+
+#
+msgid "unsettled"
+msgstr "нерешениот"
+
+#
+msgid "lost"
+msgstr "изгубени"
+
+#
+msgid "returned"
+msgstr "врати"
+
+#
+msgid "Won"
+msgstr "Вон"
+
+#
+msgid "Set"
+msgstr "Поставете"
+
+#
+msgid "Prize"
+msgstr "Награда"
+
+#
+msgid "Distance"
+msgstr "Растојание"
+
+#
+msgid "Surface"
+msgstr "Површинска"
+
+#
+msgid "Game start:"
+msgstr "Почетокот на играта:"
+
+#
+msgid "You don't have favourite games. To add some, click the star icon near the game name."
+msgstr "Вие не треба омилени игри. За да додадете некои, кликнете на иконата ѕвезда во близина на името на играта."
+
+#
+msgid "Bet Type"
+msgstr "Бет Тип"
+
+#
+msgid "All"
+msgstr "Сите"
+
+#
+msgid "Single"
+msgstr "Сам"
+
+#
+msgid "express"
+msgstr "изразуваат"
+
+#
+msgid "system"
+msgstr "Систем"
+
+#
+msgid "chain"
+msgstr "синџирот"
+
+#
+msgid "Outcome"
+msgstr "Резултат"
+
+#
+msgid "Unsettled"
+msgstr "Нерешениот"
+
+#
+msgid "Lost"
+msgstr "Си ја заборавивте"
+
+#
+msgid "Returned"
+msgstr "Врати"
+
+#
+msgid "Cashed out"
+msgstr "Наплатија од"
+
+#
+msgid "Pool Betting"
+msgstr "Pool Betting"
+
+#
+msgid "Pick"
+msgstr "изберете:"
+
+#
+msgid "Bet placed from bonus."
+msgstr "Залог поставени од бонус."
+
+#
+msgid "On Hold"
+msgstr "На чекање"
+
+#
+msgid "Declined"
+msgstr "Одби"
+
+#
+msgid "Sign up with Odnoklassniki"
+msgstr "Пријавете се со Odnoklassniki"
+
+#
+msgid "Sign up with Facebook"
+msgstr "Најави се со Facebook"
+
+#
+msgid "User details:"
+msgstr "Корисникот детали:"
+
+#
+msgid "Enter here"
+msgstr "Внесете ја тука"
+
+#
+msgid "This field is required"
+msgstr "Ова поле е задолжително"
+
+#
+msgid "This email already exists in our database, please enter another"
+msgstr "Оваа е-мејл веќе постои во нашата база на податоци, ве молиме внесете друг"
+
+#
+msgid "First"
+msgstr "Прва"
+
+#
+msgid "Please enter a valid first name"
+msgstr "Ве молиме внесете валидна е првото име"
+
+#
+msgid "Last"
+msgstr "презиме"
+
+#
+msgid "Please enter a valid last name"
+msgstr "Ве молиме внесете валидна презиме"
+
+#
+msgid "Gender"
+msgstr "Пол"
+
+#
+msgid "Male"
+msgstr "Машко"
+
+#
+msgid "Female"
+msgstr "Женско"
+
+#
+msgid "Passport Number"
+msgstr "Број на пасош"
+
+#
+msgid "Passport Number is already registered for another account"
+msgstr "Број на пасош веќе е регистриран за друга сметка"
+
+#
+msgid "Contact number"
+msgstr "Контакт број"
+
+#
+msgid "Number"
+msgstr "Број"
+
+#
+msgid "Invalid phone number"
+msgstr "Невалиден телефонски број"
+
+#
+msgid "Duplicate phone number"
+msgstr "Дупликат телефонски број"
+
+#
+msgid "Verify phone number by sms"
+msgstr "Потврди телефонски број преку SMS"
+
+#
+msgid "Do you plan to sign in with login/password as well?"
+msgstr "Дали планирате да се регистрирате со најава / лозинка, како?"
+
+#
+msgid "If you plan to sign in not using social networks login in the future you need to provide username/password. Otherwise it will be automatically generated for you and you will receive it by email. You're not required to use your username/password if you plan to use social networks login every time."
+msgstr "Ако планирате да го потпише во кои не користат социјални мрежи логин во иднина треба да обезбеди корисничко име / лозинка. Во спротивно, ќе се генерира автоматски за вас и ќе го добиете преку е-маил. Вие не сте обврзани да го користите вашето корисничко име / лозинка ако планирате да ги користат социјалните мрежи за да се најавите во секое време."
+
+#
+msgid "Some games will still require you to sign in using username/password."
+msgstr "Некои игри се уште ќе бара од вас да се регистрирате за користење на корисничко име / лозинка."
+
+#
+msgid "Sorry, this username has been used already"
+msgstr "За жал, ова корисничко име веќе се користи"
+
+#
+msgid "Password cannot be same as login"
+msgstr "Стара лозинка не може да биде ист како најава"
+
+#
+msgid "Must be at least 6 characters"
+msgstr "Мора да биде најмалку 6 карактери"
+
+#
+msgid "Repeat password"
+msgstr "Повторете лозинка"
+
+#
+msgid "passwords don't match"
+msgstr "Лозинките не се совпаѓаат"
+
+#
+msgid "Start playing now."
+msgstr "Start playing now."
+
+#
+msgid "You have"
+msgstr "Имате"
+
+#
+msgid "Reset password"
+msgstr "Ресетирај ја мојата лозинка"
+
+#
+msgid "Enter your username"
+msgstr "Внесете Корисничко Име"
+
+#
+msgid "Please enter a valid username"
+msgstr "Ве молиме внесете корисничко име"
+
+#
+msgid "Password reset complete."
+msgstr "Лозинка Ресетирај завршена."
+
+#
+msgid "Express"
+msgstr "Изрази се"
+
+#
+msgid "System"
+msgstr "Систем"
+
+#
+msgid "Chain"
+msgstr "синџирот"
+
+#
+msgid "UNSETTLED"
+msgstr "нерешениот"
+
+#
+msgid "UNSETTLED "
+msgstr "нерешениот"
+
+#
+msgid "Won:"
+msgstr "Вон"
+
+#
+msgid "Potential win:"
+msgstr "Потенцијал победа:"
+
+#
+msgid "Settings"
+msgstr "Поставки"
+
+#
+msgid "Personal Details"
+msgstr "Лични податоци"
+
+#
+msgid "Change Password"
+msgstr "Промена на лозинка"
+
+#
+msgid "Self-Exclusion"
+msgstr "Авто-исклучување"
+
+#
+msgid "Deposit Limits"
+msgstr "Граници депозит"
+
+#
+msgid "Preferences"
+msgstr "Нагодувања"
+
+#
+msgid "Change language"
+msgstr "Промена на јазик"
+
+#
+msgid "Odds in"
+msgstr "Коефициенти:"
+
+#
+msgid "Decimal"
+msgstr "Децималниот"
+
+#
+msgid "Fractional"
+msgstr "Дробни"
+
+#
+msgid "American"
+msgstr "Американската"
+
+#
+msgid "Save"
+msgstr "Зачувај"
+
+#
+msgid "Current Password"
+msgstr "Тековна лозинка"
+
+#
+msgid "Password incorrect"
+msgstr "Лозинка неточни"
+
+#
+msgid "New Password"
+msgstr "Нова лозинка"
+
+#
+msgid "Must be at least 8 characters"
+msgstr "Мора да биде најмалку 8 карактери"
+
+#
+msgid "Password must contain uppercase letters, lowercase letters and numbers."
+msgstr "Лозинката мора да содржи големи букви, мали букви и броеви."
+
+#
+msgid "Confirm New Password"
+msgstr "Потврди нова лозинка"
+
+#
+msgid "Confirm password"
+msgstr "Потврди нова лозинка"
+
+#
+msgid "Passwords don't match"
+msgstr "Лозинките не се совпаѓаат"
+
+#
+msgid "First Name"
+msgstr "Име"
+
+#
+msgid "First name"
+msgstr "Име"
+
+#
+msgid "Last Name"
+msgstr "Презиме"
+
+#
+msgid "Last name"
+msgstr "Презиме"
+
+#
+msgid "Birth date"
+msgstr "Дата на раѓање"
+
+#
+msgid "Email"
+msgstr "Е-Пошта"
+
+#
+msgid "Country"
+msgstr "Земја"
+
+#
+msgid "City"
+msgstr "Град"
+
+#
+msgid "Address"
+msgstr "Адреса"
+
+#
+msgid "E-mail"
+msgstr "Е-пошта"
+
+#
+msgid "message_1119"
+msgstr "Duplicate EMail"
+
+#
+msgid "Deposit limits allow you to limit the amount of funds you can deposit into the account. The amount can be chosen over a daily, weekly or monthly period. The deposit limit will allow you to restrict the amount of money entering your account, before betting takes place."
+msgstr "Граници депозит ви овозможи да го ограничи износот на средства може да се депонира во предвид. Износот можат да бидат избрани во текот на еден дневен, неделен или месечен период. Ограничување на депозит ќе ви овозможи да го ограничи износот на пари кои влегуваат на вашиот профил, пред обложување се одвива."
+
+#
+msgid "Enter amount"
+msgstr "Внесете го износот"
+
+#
+msgid "Day"
+msgstr "Ден"
+
+#
+msgid "Week"
+msgstr "Седмица"
+
+#
+msgid "Month"
+msgstr "Месец"
+
+#
+msgid "Please note that you'll be able to increase your limits only after seven days from your 1st request."
+msgstr "Ве молиме имајте во предвид дека ќе бидете во можност да се зголеми вашиот граници само по седум дена од вашиот 1. барање."
+
+#
+msgid "You can exclude online for a minimum period of six months, once the six months has expired your account will be reactivated again."
+msgstr "Можете да ги оневозможите на интернет, за минимален период од шест месеци, откако шест месеци е истечен вашата сметка ќе биде реактивира."
+
+#
+msgid "Please note that you'll be able to decrease the self-exclusion period only after seven days from your 1st request."
+msgstr "Ве молиме имајте во предвид дека Вие ќе бидете во можност да се намали периодот на авто-изземање само по седум дена од вашиот 1. барање."
+
+#
+msgid "Self exclusion of six month period"
+msgstr "Авто исклучување на шест месеци"
+
+#
+msgid "Self exclusion of a one year period"
+msgstr "Авто исклучување на период од една година"
+
+#
+msgid "Messages"
+msgstr "Пораки"
+
+#
+msgid "Inbox"
+msgstr "Електронско писмо"
+
+#
+msgid "Sent messages"
+msgstr "Испратени пораки"
+
+#
+msgid "New message"
+msgstr "Нова порака"
+
+#
+msgid "Subject"
+msgstr "Субјект"
+
+#
+msgid "Message"
+msgstr "Порака"
+
+#
+msgid "Password should contain upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Лозинката треба да sadržavativelika и мали букви, најмалку една цифра и нема простор."
+
+#
+msgid "Pool:"
+msgstr "Pool:"
+
+#
+msgid "Rules"
+msgstr "Правила"
+
+#
+msgid "W1"
+msgstr "W1"
+
+#
+msgid "W2"
+msgstr "W2"
+
+#
+msgid "Options:"
+msgstr "Опции:"
+
+#
+msgid "Minimal Bet Amount:"
+msgstr "Минимална удри Големина:"
+
+#
+msgid "Use Points"
+msgstr "Употреба Поени"
+
+#
+msgid "0"
+msgstr "0"
+
+#
+msgid "Random Choice"
+msgstr "Случаен избор"
+
+#
+msgid "Favourite Choice"
+msgstr "Омилени избор"
+
+#
+msgid "Place bets!"
+msgstr "Залагаш!"
+
+#
+msgid "To place your bet, please"
+msgstr "За да поставите вашата залог, ве молиме"
+
+#
+msgid "sign in"
+msgstr "пријавете се"
+
+#
+msgid "or"
+msgstr "или"
+
+#
+msgid "register"
+msgstr "Регистрација"
+
+#
+msgid "Free Bet"
+msgstr "Бесплатен залог"
+
+#
+msgid "freebet_info"
+msgstr "Bet52 обложување компанија нуди на своите клиенти бесплатни квиз. <br /> Купувачите ќе бидат понудени 3 видови на изразување, која содржи 6, 8 или 10 настани. Ако клиентот нагаѓања правилно 6 од 6 настани и победничката сума ќе биде 7000 AMD, 8 од 8 настани на исплата ќе биде 15 илјади AMD, и ако ви се погоди 10 од 10 настани плата ќе биде 20.000 AMD. Победа износ ќе биде префрлен на клиентот & rsquo; сметката во рок од 5 дена по завршувањето на сите настани се вклучени во сите 3 изразуваат облози <br /> Ако постојат настани, кои не се случија во оваа варијанта на изразување, на квизот. ќе бидат изгубени. <br /> секој клиент може секојдневно да експресен залог на секоја варијанта само еднаш."
+
+#
+msgid "backgammon_requirements_windows"
+msgstr "Minimal Requirments:<br>OS: WinXP or higher. CPU: Pentium 4 and higher.<br>Minimal RAM - 512MB. HDD- 100MB."
+
+#
+msgid "backgammon_download_description_windows"
+msgstr "Ве молиме преземете апликација од веб страната, а потоа работи преземената датотека. Комплетна инсталација туркање копчето Следно. На последниот чекор им помогнам на Finish. Откако ќе заврши инсталацијата лансирање инсталиран датотека."
+
+#
+msgid "Use your"
+msgstr "Користете го вашиот"
+
+#
+msgid "skills"
+msgstr "вештини"
+
+#
+msgid "100%"
+msgstr "100%"
+
+#
+msgid "MORE!"
+msgstr "Повеќе..."
+
+#
+msgid "Register Now"
+msgstr "Регистрирајте Се Сега"
+
+#
+msgid "know more..."
+msgstr "Дознајте повеќе ..."
+
+#
+msgid "Get more"
+msgstr "Добиете повеќе"
+
+#
+msgid "Read More"
+msgstr "прочитајте повеќе"
+
+#
+msgid "Share"
+msgstr "Сподели"
+
+#
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome   "
+msgstr "Вашиот пребарувач не поддржува качувањето, Ве молиме да се ажурира или да користите Google Chrome"
+
+#
+msgid "Your file successfully uploaded "
+msgstr "Вашата датотека успешно подигнати"
+
+#
+msgid " There was an error during file upload, please try again. "
+msgstr "Имаше грешка при прикачување на датотеки, ве молиме пробајте повторно."
+
+#
+msgid "Loading"
+msgstr "Се вчитува"
+
+#
+msgid "Current Rank"
+msgstr "Тековни ранг"
+
+#
+msgid "ID"
+msgstr "ID"
+
+#
+msgid "Previous Rank"
+msgstr "Претходната ранг"
+
+#
+msgid "Currency"
+msgstr "Валута"
+
+#
+msgid "Fee"
+msgstr "Провизија"
+
+#
+msgid "Process Time"
+msgstr "Процесот Време"
+
+#
+msgid "Min"
+msgstr "мин."
+
+#
+msgid "Info"
+msgstr "Информации"
+
+#
+msgid "Free"
+msgstr "Бесплатно"
+
+#
+msgid "Instant"
+msgstr "Инстант"
+
+#
+msgid "Additional information"
+msgstr "Дополнителни информации"
+
+#
+msgid "DAILY COUPON"
+msgstr "ДНЕВНИ забава"
+
+#
+msgid "Pick: "
+msgstr "изберете:"
+
+#
+msgid "This booking number does not determine the the  final odds of the betslip but only the exact selections of the bet. The odds of the betslip can constantly change and may only be confirmed by the cashier after the final acceptance of the bet."
+msgstr "Овој број резервација не се утврди конечниот шансите на betslip но само точниот избор на залог. Шансите на betslip можат постојано да се промени и може да се потврди од страна на благајната по конечното прифаќање на залог."
+
+#
+msgid "This week's winners"
+msgstr "Победниците оваа недела"
+
+#
+msgid "My tickets"
+msgstr "Мојот билети"
+
+#
+msgid "You have no tickets"
+msgstr "Немате билети"
+
+#
+msgid "Live Casino Page is currently closed for"
+msgstr "Во живо Казино Page во моментов е затворен"
+
+#
+msgid "maintenance."
+msgstr "одржување."
+
+#
+msgid "We will be back soon with more and better features. Thank you for your patience."
+msgstr "Ние ќе се врати наскоро со повеќе и подобри карактеристики. Ви благодариме за вашето трпение."
+
+#
+msgid "Click here to see other games."
+msgstr "Кликни тука за да се види други игри."
+
+#
+msgid "Offline"
+msgstr "Исклучен"
+
+#
+msgid "Every Week JACKPOT 500.000$"
+msgstr "Секоја недела JACKPOT 500.000 $"
+
+#
+msgid "Show more"
+msgstr "Покажи повеќе"
+
+#
+msgid "Live Keno"
+msgstr "Во живо Keno"
+
+#
+msgid "Live Draw 6 of 49"
+msgstr "Во живо Нацртајте 6 од 49"
+
+#
+msgid "Quarter"
+msgstr "Четвртина"
+
+#
+msgid "Video not available yet"
+msgstr "Видео уште не се достапни"
+
+#
+msgid "You need to be logged in to be able to play video."
+msgstr "Вие треба да бидете најавени за да бидат во можност да игра видео."
+
+#
+msgid "You need to have non-zero balance to be able to play video."
+msgstr "Вие треба да имаат не-нула баланс за да се биде во можност да игра видео."
+
+#
+msgid "Detach"
+msgstr "Откачи"
+
+#
+msgid "End"
+msgstr "Крајот"
+
+#
+msgid "Inning"
+msgstr "Inning"
+
+#
+msgid "First Quarter"
+msgstr "Првиот квартал"
+
+#
+msgid "First Quarter Ended"
+msgstr "Прва четвртина заврши"
+
+#
+msgid "Second Quarter"
+msgstr "Вториот квартал"
+
+#
+msgid "Second Quarter Ended"
+msgstr "Втората четвртина заврши"
+
+#
+msgid "Third Quarter"
+msgstr "Третиот квартал"
+
+#
+msgid "Third Quarter Ended"
+msgstr "Третиот квартал завршува на"
+
+#
+msgid "Fourth Quarter"
+msgstr "Четвртиот квартал"
+
+#
+msgid "Fourth Quarter Ended"
+msgstr "Четвртата четвртина заврши"
+
+#
+msgid "Overtime"
+msgstr "Прекувремена работа"
+
+#
+msgid "Overtime Ended"
+msgstr "Прекувремена работа што завршува на"
+
+#
+msgid "Foul"
+msgstr "Фаул"
+
+#
+msgid "Free Throw"
+msgstr "Слободно фрлање"
+
+#
+msgid "Free 1-Point Throw"
+msgstr "Слободен 1 точка Фрли"
+
+#
+msgid "Free 2-Point Throw"
+msgstr "Слободен 2-точка Фрли"
+
+#
+msgid "Free 3-Point Throw"
+msgstr "Слободен 3-точка Фрли"
+
+#
+msgid "Missed Free Throw"
+msgstr "Пропушти слободно фрлање"
+
+#
+msgid "Attack"
+msgstr "Напад"
+
+#
+msgid "One Point"
+msgstr "Еден Точка"
+
+#
+msgid "Two Points"
+msgstr "Две точки"
+
+#
+msgid "Three Points"
+msgstr "Три точки"
+
+#
+msgid "Timeout"
+msgstr "Истек на време"
+
+#
+msgid "Finished"
+msgstr "Заврши"
+
+#
+msgid "Point"
+msgstr "Точка"
+
+#
+msgid "Fault"
+msgstr "Дефект"
+
+#
+msgid "First Set"
+msgstr "Првиот сет"
+
+#
+msgid "Second Set"
+msgstr "Вториот сет"
+
+#
+msgid "Third Set"
+msgstr "Третиот сет"
+
+#
+msgid "Fourth Set"
+msgstr "Четвртиот сет"
+
+#
+msgid "Fifth Set"
+msgstr "Петтиот сет"
+
+#
+msgid "Dangerous Attack"
+msgstr "Опасен напад"
+
+#
+msgid "Shot on target"
+msgstr "Снимен на цел"
+
+#
+msgid "Shot off target"
+msgstr "Топката цел"
+
+#
+msgid "Corner kick"
+msgstr "Изведениот корнер"
+
+#
+msgid "Yellow card"
+msgstr "Жолт картон"
+
+#
+msgid "Red card"
+msgstr "Црвен картон"
+
+#
+msgid "Period"
+msgstr "Период"
+
+#
+msgid "Game"
+msgstr "Игра"
+
+#
+msgid "Ace"
+msgstr "Аце"
+
+#
+msgid "Service Fault"
+msgstr "Услуга Дефект"
+
+#
+msgid "Double Fault"
+msgstr "Двојна грешка"
+
+#
+msgid "Injury Break"
+msgstr "Повреда Break"
+
+#
+msgid "Rain Delay"
+msgstr "Дожд губеа"
+
+#
+msgid "Aces"
+msgstr "Аса"
+
+#
+msgid "Double Faults"
+msgstr "Двојни сервис-грешки"
+
+#
+msgid "Corner"
+msgstr "Агол"
+
+#
+msgid "Yellow Card"
+msgstr "Жолт картон"
+
+#
+msgid "Extra Time Half Time"
+msgstr "Дополнително време полувреме"
+
+#
+msgid "Not Started"
+msgstr "Не е стартуван"
+
+#
+msgid "Offside"
+msgstr "Офсајд"
+
+#
+msgid "Goal"
+msgstr "Цел"
+
+#
+msgid "Pre Extra Half"
+msgstr "Пред Екстра Половина"
+
+#
+msgid "Throw In"
+msgstr "Фрли во"
+
+#
+msgid "Goal Kick"
+msgstr "Гол аут"
+
+#
+msgid "Substitution"
+msgstr "Замена"
+
+#
+msgid "Extra Time First Half"
+msgstr "Дополнително време за првата половина"
+
+#
+msgid "Second Half"
+msgstr "Второ полувреме"
+
+#
+msgid "Half Time"
+msgstr "Половина Време"
+
+#
+msgid "Ball Safe"
+msgstr "Топката безбедно"
+
+#
+msgid "Free Kick"
+msgstr "Слободен удар"
+
+#
+msgid "Extra Time Second Half"
+msgstr "Дополнително време Второ полувреме"
+
+#
+msgid "Red Card"
+msgstr "Црвен картон"
+
+#
+msgid "First Half"
+msgstr "Првата половина"
+
+#
+msgid "Penalty"
+msgstr "Казна"
+
+#
+msgid "First time score"
+msgstr "Прв пат резултат"
+
+#
+msgid "HT"
+msgstr "HT"
+
+#
+msgid "yellow cards"
+msgstr "жолти картони"
+
+#
+msgid "red cards"
+msgstr "црвени картони"
+
+#
+msgid "corners"
+msgstr "ќошиња"
+
+#
+msgid "penalties"
+msgstr "казни"
+
+#
+msgid "Sound"
+msgstr "Звучи"
+
+#
+msgid "Frame"
+msgstr "Frame"
+
+#
+msgid "Race Type"
+msgstr "Трка Тип"
+
+#
+msgid "Select a Sport"
+msgstr "Изберете Спорт"
+
+#
+msgid "Next Event"
+msgstr "Следниот настан"
+
+#
+msgid "Events from different groups can be combined in combined bets"
+msgstr "Настани од различни групи да можат да се комбинираат во комбинирана облози"
+
+#
+msgid "Horse"
+msgstr "Коњ"
+
+#
+msgid "Greyhound"
+msgstr "Greyhound"
+
+#
+msgid "Jockey"
+msgstr "Џокеј"
+
+#
+msgid "№"
+msgstr "№"
+
+#
+msgid "sport news"
+msgstr "спортски вести"
+
+#
+msgid "Change statistics mode"
+msgstr "Промена статистика режим"
+
+#
+msgid "Use this selector to switch between Live and Pre-match games"
+msgstr "Користете го ова за селектор да се префрлате помеѓу живо и пред мечот игри"
+
+#
+msgid "click to switch to pre-match"
+msgstr "кликни за да се префрлат на пред-натпревар"
+
+#
+msgid "live"
+msgstr "Во живо"
+
+#
+msgid "click to swicth to Live games"
+msgstr "кликни за да се swicth на натпревари во живо"
+
+#
+msgid "Switch to"
+msgstr "Префрли се на"
+
+#
+msgid "Select sport"
+msgstr "Изберете спорт"
+
+#
+msgid "Remove All from Favorites"
+msgstr "Отстрани ги сите од Омилени"
+
+#
+msgid "Remove from My Games"
+msgstr "Отстрани од моите игри"
+
+#
+msgid "Add to My Games"
+msgstr "Додади во мојата Игри"
+
+#
+msgid "Phone only market"
+msgstr "Само телефон на пазарот"
+
+#
+msgid "To place a bet, please call"
+msgstr "Да се ​​постави залог, ве молиме јавете се"
+
+#
+msgid "statistic"
+msgstr "статистика"
+
+#
+msgid "There may be a Rule 4 on this Race"
+msgstr "Може да има правило 4 на овој Трка"
+
+#
+msgid "Win Only"
+msgstr "Само победа"
+
+#
+msgid "Cash-out available"
+msgstr "Пари-out достапни"
+
+#
+msgid "show more"
+msgstr "покажуваат повеќе"
+
+#
+msgid "show"
+msgstr "покажува"
+
+#
+msgid "The time display shown within live betting serves as an indicator. The company takes no responsibility for the correctness and currentness of the displayed information like score or time."
+msgstr "Приказ на времето прикажано во живо обложување служи како индикатор. Компанијата не превзема никаква одговорност за точноста и currentness на прикажаните информации, како резултат или време."
+
+#
+msgid "Today at"
+msgstr "Денес во"
+
+#
+msgid "Course"
+msgstr "Се разбира"
+
+#
+msgid "Winner"
+msgstr "Победникот"
+
+#
+msgid "Handicap"
+msgstr "Хендикеп"
+
+#
+msgid "Tie"
+msgstr "вратоврска"
+
+#
+msgid "Odds"
+msgstr "Коефициенти"
+
+#
+msgid "Full Time"
+msgstr "Полно работно време"
+
+#
+msgid "1st Goal"
+msgstr "1. Цел"
+
+#
+msgid "Last Goal"
+msgstr "Последните Цел"
+
+#
+msgid "None"
+msgstr "Никој"
+
+#
+msgid "ODD"
+msgstr "ODD"
+
+#
+msgid "EVEN"
+msgstr "ДУРИ"
+
+#
+msgid "Full Time 1X2"
+msgstr "Полно работно време 1x2"
+
+#
+msgid "Half Time 1X2"
+msgstr "Половина Време 1x2"
+
+#
+msgid "Order by Time"
+msgstr "Цел од страна на Time"
+
+#
+msgid "Back"
+msgstr "Назад"
+
+#
+msgid "HongKong"
+msgstr "Хонгконг"
+
+#
+msgid "Hongkong"
+msgstr "Хонгконг"
+
+#
+msgid "Malay"
+msgstr "Малезиски"
+
+#
+msgid "Indo"
+msgstr "Индо"
+
+#
+msgid "Date Filter"
+msgstr "Датум на филтер"
+
+#
+msgid "Select competition"
+msgstr "Изберете конкуренција"
+
+#
+msgid "Live Calendar"
+msgstr "Во живо Календар"
+
+#
+msgid "Statistics"
+msgstr "Статистика"
+
+#
+msgid "My games"
+msgstr "Моите игри"
+
+#
+msgid "My bets"
+msgstr "Обложив"
+
+#
+msgid "Time format"
+msgstr "Форматот на времето"
+
+#
+msgid "12 hours"
+msgstr "12 часа"
+
+#
+msgid "24 hours"
+msgstr "24 часа"
+
+#
+msgid "Sportsbook layout:"
+msgstr "Распоред Спорт:"
+
+#
+msgid "Modern"
+msgstr "Модерни"
+
+#
+msgid "Classic"
+msgstr "Класичен"
+
+#
+msgid "Asian"
+msgstr "Азија"
+
+#
+msgid "Betting"
+msgstr "Обложување"
+
+#
+msgid "Booking"
+msgstr "Резервација"
+
+#
+msgid "bet slip"
+msgstr "залог лизга"
+
+#
+msgid "Betting options"
+msgstr "Опции за обложување"
+
+#
+msgid "Automatically accept price changes"
+msgstr "Автоматски да прифати промени на цените"
+
+#
+msgid "Higher odds"
+msgstr "Higher odds"
+
+#
+msgid "Any odds"
+msgstr "Секое коефициенти"
+
+#
+msgid "Quick bet"
+msgstr "Брз залог"
+
+#
+msgid "Your bet is accepted."
+msgstr "Залог е прифатен."
+
+#
+msgid "Your Booking is ready !"
+msgstr "Вашата резервација е подготвен!"
+
+#
+msgid "To select a bet, please click on any odd."
+msgstr "За да изберете залог, кликнете на било чудно."
+
+#
+msgid "Click on any odd to place a bet."
+msgstr "Кликнете на која било чудно да се постави залог."
+
+#
+msgid "Single only"
+msgstr "Само еден"
+
+#
+msgid "Event Locked"
+msgstr "Заклучена тема настан"
+
+#
+msgid "This event is not available now"
+msgstr "недостапно"
+
+#
+msgid "This pick cannot be combined with:"
+msgstr "Ова пик не може да се комбинира со:"
+
+#
+msgid "delete"
+msgstr "бришење"
+
+#
+msgid " Pick: "
+msgstr "Трансферот:"
+
+#
+msgid "Unit Stake"
+msgstr "Единица Фургон"
+
+#
+msgid "Stake..."
+msgstr "Од акциите ..."
+
+#
+msgid "Repeat for all"
+msgstr "Повторете го истото за сите"
+
+#
+msgid "Win:"
+msgstr "лице"
+
+#
+msgid "Superbet"
+msgstr "Superbet"
+
+#
+msgid "Superbet is turned ON"
+msgstr "Superbet се активира"
+
+#
+msgid "SuperBet is a new offer that allows requesting a Max Bet Limit Increase for selected sporting events."
+msgstr "SuperBet е нова понуда, која им овозможува бара Макс удри Ограничување Зголемување за избраните спортски настани."
+
+#
+msgid "Booking ID:"
+msgstr "Резервација проект:"
+
+#
+msgid "Stake amount"
+msgstr "Удел износ"
+
+#
+msgid "Possible win:"
+msgstr "Можни победа:"
+
+#
+msgid "Bonus:"
+msgstr "Бонус:"
+
+#
+msgid "Total win:"
+msgstr "Вкупно победа:"
+
+#
+msgid "Invalid stake amount entered"
+msgstr "Невалиден удел износ влегол"
+
+#
+msgid "Please enter stake amount"
+msgstr "Ве молиме внесете удел износ"
+
+#
+msgid "Insufficient balance"
+msgstr "Недоволна рамнотежа"
+
+#
+msgid "You have to accept changes to be able to place bets"
+msgstr "Мора да прифати промени за да биде во можност да поставите облози"
+
+#
+msgid "Get bet ID"
+msgstr "Земете залог проект"
+
+#
+msgid "Add more events to be able to place bet"
+msgstr "Додади повеќе настани ќе биде во можност да поставите залог"
+
+#
+msgid "There are locked events"
+msgstr "Таму се заклучени настани"
+
+#
+msgid "Incompatible events"
+msgstr "Некомпатибилните настани"
+
+#
+msgid "There are deleted events"
+msgstr "Постојат избришани настани"
+
+#
+msgid "Market base for some events have changed"
+msgstr "Пазар база за некои настани се менуваат"
+
+#
+msgid "Make a Deposit"
+msgstr "Направи депозит"
+
+#
+msgid "Single Only Events"
+msgstr "Само еден Настани"
+
+#
+msgid "Prices for some events have changed"
+msgstr "Цени за некои настани се менуваат"
+
+#
+msgid "Toggle inner scrolling"
+msgstr "Вклучи внатрешниот лизгање"
+
+#
+msgid "Multi-selection mode"
+msgstr "Режим мулти-избор"
+
+#
+msgid "Disable regions"
+msgstr "Оневозможи региони"
+
+#
+msgid "With video"
+msgstr "Со видео"
+
+#
+msgid "Daily coupon"
+msgstr "Дневен забава"
+
+#
+msgid "For upcoming races please look in Live betting"
+msgstr "За претстојните трки ве молиме погледнете во обложување во живо"
+
+#
+msgid "Selected games"
+msgstr "Избрани игри"
+
+#
+msgid "Clear All"
+msgstr "Избришете ги сите"
+
+#
+msgid "Trainer/Jockey"
+msgstr "Тренер / Jockey"
+
+#
+msgid "Age"
+msgstr "Години"
+
+#
+msgid "Weight"
+msgstr "Тежина"
+
+#
+msgid "Form"
+msgstr "Форма"
+
+#
+msgid "We are not accepting bets on this event at the moment."
+msgstr "Ние не се прифаќа облози на овој настан во моментот."
+
+#
+msgid "Clear"
+msgstr "Ведро"
+
+#
+msgid "Payment Requests Withdrawal"
+msgstr "Барањата за плаќање Повлекување"
+
+#
+msgid "Confirm"
+msgstr "Потврди"
+
+#
+msgid "1. The minimum withdrawal amount 10,000 KRW."
+msgstr "1. Минималната повлекување износ од 10.000 KRW."
+
+#
+msgid "2. Withdrawal can only be made from registered accounts."
+msgstr "2. повлекување може да се направи само од регистрирани сметки."
+
+#
+msgid "3. NBA, basketball Korea, South Korea Volleyball ended after the withdrawal takes about one hour."
+msgstr "3. НБА, кошарка Кореја, Јужна Кореја одбојка заврши по повлекувањето трае околу еден час."
+
+#
+msgid "4. After three days of each month cash back debit payments will be given which will take approximately two hours."
+msgstr "4. По три дена од секој месец пари ќе бидат вратени дебитна плаќања што ќе трае околу два часа."
+
+#
+msgid "5. If you want a quick withdrawal, please use the above time away."
+msgstr "5. Ако сакате брзо повлекување, Ве молиме да ги користат горенаведените време, далеку."
+
+#
+msgid "Payment Requests Deposit"
+msgstr "Барањата за плаќање депозит"
+
+#
+msgid "1. The minimum deposit amount is 10,000 KRW."
+msgstr "1. минималниот износ на депозит е 10.000 KRW."
+
+#
+msgid "2. Enter the amount you wish to deposit, then select the account you wish to deposit and press to 'Deposit' button."
+msgstr "2. Внесете го износот што сакате да се депонира, потоа одберете ја сметката што сакате да се депонира и притиснете на копчето \"Депозит\"."
+
+#
+msgid "3. Please always check deposit bank account from time to time."
+msgstr "3. Ве молиме секогаш проверете депозит банкарска сметка од време на време."
+
+#
+msgid "4. 30 minutes after the deposit account confirmation your money should be in your account, please re-apply when 30 minutes are over."
+msgstr "4. 30 минути по потврда на депозитната сметка вашите пари треба да биде во вашиот профил, ве молиме повторно да се применува кога во 30 минута се завршени."
+
+#
+msgid "SKILL GAMES"
+msgstr "Вештина игри"
+
+#
+msgid "DOWNLOAD"
+msgstr "СИМНЕТЕ"
+
+#
+msgid "logo"
+msgstr "логото"
+
+#
+msgid "back to top"
+msgstr "Вратете се на почетокот"
+
+#
+msgid "Number Drawn Today"
+msgstr "Број Извлечени Денес"
+
+#
+msgid "Get Started"
+msgstr "Да започнеме"
+
+#
+msgid "Phone"
+msgstr "Телефон"
+
+#
+msgid "Ticket Number"
+msgstr "Билет број"
+
+#
+msgid "Tournaments"
+msgstr "Турнири"
+
+#
+msgid "Poker Leaderboard"
+msgstr "Покер табла"
+
+#
+msgid "Show All"
+msgstr "Прикажи ги сите"
+
+#
+msgid "FIFA WORLD CUP"
+msgstr "ФИФА Светско Првенство"
+
+#
+msgid "years"
+msgstr "Година"
+
+#
+msgid "months"
+msgstr "месеци"
+
+#
+msgid "days"
+msgstr "денови"
+
+#
+msgid "hours"
+msgstr "часа"
+
+#
+msgid "minutes"
+msgstr "минути"
+
+#
+msgid "seconds"
+msgstr "секунди"
+
+#
+msgid "Select a Sport "
+msgstr "Изберете Спорт"
+
+#
+msgid "Place A bet!"
+msgstr "Се постави залог!"
+
+#
+msgid "Poker Tournament"
+msgstr "Покер турнир"
+
+#
+msgid "Biggest tournament of this year."
+msgstr "Најголемиот турнир на оваа година."
+
+#
+msgid "Bet now!"
+msgstr "Залог сега!"
+
+#
+msgid "Live now"
+msgstr "Во живо сега"
+
+#
+msgid "Live news"
+msgstr "Вести во живо"
+
+#
+msgid "All news"
+msgstr "Сите вести"
+
+#
+msgid "  Modern"
+msgstr "Модерни"
+
+#
+msgid " Classic"
+msgstr "Класичен"
+
+#
+msgid " Asian"
+msgstr "Азија"
+
+#
+msgid " Eastern"
+msgstr "Источна"
+
+#
+msgid "OGWIL"
+msgstr "OGWIL"
+
+#
+msgid "Don't show this again."
+msgstr "Не ја прикажувај повторно."
+
+#
+msgid "Event sounds:"
+msgstr "Звучи настан:"
+
+#
+msgid "On"
+msgstr "на"
+
+#
+msgid "Off"
+msgstr "Off"
+
+#
+msgid "Hide:"
+msgstr "Сокриј:"
+
+#
+msgid "Choose color scheme:"
+msgstr "Изберете шема на бои:"
+
+#
+msgid "FAQ"
+msgstr "Најчесто поставувани прашања"
+
+#
+msgid "My messages"
+msgstr "Моите пораки"
+
+#
+msgid "Log Out"
+msgstr "Одјавите"
+
+#
+msgid "deposit_info_skrill_1tap"
+msgstr "<b> Skrill 1 Допрете </ b> е удобен услуга Skrill е дека овозможува на корисниците да се направи мал трансфери лесно, без потреба да секогаш повторно да влезат во e-mail адреса и лозинка. <br /> <br /> Поддржано валути вклучуваат евра и американски долари. <br /> Средствата ќе бидат префрлени на вашата сметка веднаш Vbet. <br /> не се плаќа за користење на овој начин на исплата. <br /> минимум за трансфери е 5, максималната е 1000. <br /> <br /> За да депонира средства во вашиот профил користејќи Vbet Skrill 1 Допрете, едноставно притиснете \"Депозит\" да влезат во износ сакаш да ја пренесеш подолу . Вие ќе бидете пренасочени на Skrill да ја заврши својата трансакција. <br /> Ве молиме имајте во предвид дека вие само треба да внесете ја вашата e-mail адреса за вашиот прв трансакција Skrill 1 Допрете ја иконата. По прв пат, информации за Вашата сметка ќе бидат признати автоматски од системот Skrill."
+
+#
+msgid "deposit_info_skrill"
+msgstr "<p> Skrill е безбеден, удобен и достапен начин да се праќаат и примаат пари низ целиот свет. Поддржано валути вклучуваат ЕУР и УСД. Средствата ќе бидат префрлени на вашата сметка веднаш. </ P> <p> Не се плаќа за користење на овој начин на исплата. </ P> <p> Минималната вредност за трансфери е 5 и нема максималната вредност. </ P> <p> За да депонира средства во вашиот профил користејќи Vbet Skrill, едноставно притиснете депозит по влегувањето адреса на е-пошта регистрирани со Skrill и она што сакате да ја префрлите подолу. Вие ќе бидете пренасочени на Skrill да ја заврши својата трансакција. </ P>"
+
+#
+msgid "withdraw_info_skrill"
+msgstr "<p> Skrill е безбеден, удобен и достапен начин да се праќаат и примаат пари низ целиот свет. Поддржано валути вклучуваат ЕУР и УСД. Средствата ќе бидат префрлени на вашата сметка веднаш. </ P> <p> Не се плаќа за користење на овој начин на исплата. </ P> <p> Минималната вредност за трансфери е 5 и нема максималната вредност. </ P> <p> За да депонира средства во вашиот профил користејќи Bet52 Skrill, едноставно притиснете депозит по влегувањето адреса на е-пошта регистрирани со Skrill и она што сакате да ја префрлите подолу. Вие ќе бидете пренасочени на Skrill да ја заврши својата трансакција. </ P>"
+
+#
+msgid "deposit_info_webmoney"
+msgstr "<p> WebMoney е систем на глобалната населба овозможувајќи им на корисниците на интернет да спроведе безбедно трансфер на пари во реално време. Поддржано валути вклучуваат евра, се фаќа, UAH и УСД. Средствата ќе бидат префрлени на вашата сметка веднаш. Не се плаќа за користење на овој начин на исплата. </ P> <p> Трансфери Don `t имаат минимум и / или максималната вредност. Да депонираат средства во вашиот профил користејќи Bet52 WebMoney, едноставно притиснете депозит по влегувањето во износ сакаш да ја пренесеш подолу. Вие ќе бидете пренасочени на WebMoney да ја заврши својата трансакција. Ве молиме имајте предвид дека мора да имате паричник на WebMoney Е, R или Z. </ P>"
+
+#
+msgid "withdraw_info_webmoney"
+msgstr "<p> WebMoney е систем на глобалната населба овозможувајќи им на корисниците на интернет да спроведе безбедно трансфер на пари во реално време. Поддржано валути вклучуваат евра, се фаќа, UAH и УСД. Средствата ќе бидат префрлени од вашата сметка во рок од 72 часа. Не се плаќа за користење на овој начин на исплата. Трансфери Don `t имаат минимум и / или максималната вредност. Да се повлече средствата од вашиот профил користејќи Bet52 WebMoney, едноставно притиснете wirhdraw по влегувањето вашето име и презиме како регистрирани со WebMoney, вашиот паричник број и она што сакате да ја префрлите подолу. Ве молиме имајте предвид дека мора да имате паричник на WebMoney Е, R или Z. </ P>"
+
+#
+msgid "Purse"
+msgstr "Purse"
+
+#
+msgid "deposit_info_qiwi"
+msgstr "<p> QIWI е дигитален паричник кој може да се користи за да се праќаат и примаат пари со широк спектар на методи овозможуваат за секој корисник да се избере она што е најзгодно и подобро. Поддржано валути вклучуваат евра, се фаќа и американски долари. Средствата ќе бидат префрлени на вашата сметка во рок од 24 часа. </ P> <p> Не се плаќа за користење на овој начин на исплата. </ P> <p> Трансфери Don `t имаат минимум и / или максималната вредност. Да депонираат средства во вашиот профил користејќи QIWI, едноставно притиснете депозит по влегувањето во телефонскиот број регистрирани со QIWI и она што сакате да ја префрлите подолу. Вие ќе бидете пренасочени на QIWI да ја заврши својата трансакција. </ P>"
+
+#
+msgid "withdraw_info_qiwi"
+msgstr "<p> QIWI е дигитален паричник кој може да се користи за да се праќаат и примаат пари со широк спектар на методи овозможуваат за секој корисник да се избере она што е најзгодно и подобро. </ p> <p> Поддржано валути вклучуваат евра, се фаќа и американски долари. Средствата ќе бидат префрлени од вашата сметка во рок од 24 часа. Не се плаќа за користење на овој начин на исплата. Трансфери Don `t имаат минимална вредност, а максималната вредност е 300 евра. Да се повлече средствата од вашиот профил користејќи QIWI, едноставно притиснете повлече по внесувањето на вашите QIWI Паричник број и она што сакате да ја префрлите подолу. Вие ќе бидете пренасочени на QIWI да ја заврши својата трансакција. </ P>"
+
+#
+msgid "Wallet id"
+msgstr "Wallet id"
+
+#
+msgid "deposit_info_neteller"
+msgstr "<p> Neteller дава на корисниците можност да се направи безбедна онлајн плаќања со систем нудат инстант депозити, повлекувања и исплати доверени од страна на милиони во целиот свет. Поддржано валути вклучуваат долари, евра и се фаќа. Средствата ќе бидат префрлени на вашата сметка Bet52 веднаш. Не се плаќа за користење на овој начин на исплата. Трансфери Don `t имаат минимум и / или максималната вредност. Да депонираат средства во вашиот профил користејќи Vbet Neteller, едноставно притиснете депозит по влегувањето вашиот број Neteller сметка, безбедна проект и она што сакате да ја префрлите подолу. Вие ќе бидете пренасочени на Neteller да ја заврши својата трансакција. Ве молиме имајте во предвид дека адреса на е-пошта е регистрирано за вашата сметка Neteller мора да одговара на адреса на е-пошта е регистрирано за вашата сметка Bet52 за вашата трансакција треба да биде прифатен. </ P>"
+
+#
+msgid "withdraw_info_neteller"
+msgstr "<p> Neteller дава на корисниците можност да се направи безбедна онлајн плаќања со систем нудат инстант депозити, повлекувања и исплати доверени од страна на милиони во целиот свет. </ p> <p> Поддржано валути вклучуваат долари, евра и се фаќа. Средствата ќе бидат префрлени од вашиот профил Vbet во рок од 24 часа. Не се плаќа за користење на овој начин на исплата. Трансфери Don `t имаат минимум и / или максималната вредност. </ P> <p> За да се повлече средствата од вашиот профил Bet52 користење Neteller, едноставно притиснете повлече по внесувањето на бројот на вашата сметка и она што сакате да ја префрлите подолу. </ p>"
+
+#
+msgid "Account Id"
+msgstr "Account Id"
+
+#
+msgid "Secure Id"
+msgstr "Secure Id"
+
+#
+msgid "deposit_info_moneta"
+msgstr "<p> Moneta.ru е систем за плаќање со седиште во Русија за да им обезбеди на интернет корисниците со способноста да се осигура и инстант трансакциите. </ p> <p> Поддржано валути вклучуваат евра, се фаќа и американски долари. Средствата ќе бидат префрлени од вашиот профил Vbet во рок од 24 часа. Не се плаќа за користење на овој начин на исплата. Трансфери Don `t имаат минимум и / или максималната вредност. Да депонира средства од вашата сметка Vbet користење Moneta.Ru, едноставно притиснете на депозитот по внеси она што сакаш да ја пренесеш подолу. Вие ќе бидете пренасочени на Moneta.Ru да ја заврши својата трансакција. </ p>"
+
+#
+msgid "withdraw_info_moneta"
+msgstr "<p> EcoPayz е глобален исплата решенија нудат инстант безбеден и удобен платежни услуги на клиентите и бизниси од целиот свет. <br/> Поддржано валути вклучуваат евра, се фаќа и американски долари. <br/> Средствата ќе бидат префрлени на вашата сметка Vbet веднаш. <br/> не се плаќа за користење на овој начин на исплата. <br/> Трансфери Don `t имаат минимум и / или максималната вредност. <br/> да депонира средства во вашиот профил Vbet користење ecoPayz, едноставно притиснете депозит по влегувањето во износ сакаш да ја пренесеш подолу. Вие ќе бидете пренасочени на ecoPayz да ја заврши својата трансакција. </ P>"
+
+#
+msgid "deposit_info_ecocard"
+msgstr "<p> EcoPayz е глобален исплата решенија нудат инстант безбеден и удобен платежни услуги на клиентите и бизниси од целиот свет. <br/> Поддржано валути вклучуваат евра, се фаќа и американски долари. <br/> Средствата ќе бидат префрлени на вашата сметка Vbet веднаш. <br/> не се плаќа за користење на овој начин на исплата. <br/> Трансфери Don `t имаат минимум и / или максималната вредност. <br/> да депонира средства во вашиот профил Vbet користење ecoPayz, едноставно притиснете депозит по влегувањето во износ сакаш да ја пренесеш подолу. Вие ќе бидете пренасочени на ecoPayz да ја заврши својата трансакција. </ P>"
+
+#
+msgid "withdraw_info_ecocard"
+msgstr "<p> ecoPayz е глобален исплата решенија нудат инстант безбеден и удобен платежни услуги на клиентите и бизниси од целиот свет. <br/> Поддржано валути вклучуваат евра, се фаќа и американски долари. <br/> Средствата ќе бидат префрлени од вашиот Vbet во рамките на 24 часа. <br/> не се плаќа за користење на овој начин на исплата. <br/> Трансфери Don `t имаат минимум и / или максималната вредност. <br/> да се повлече средствата од вашиот профил Vbet користење ecoPayz, едноставно прес повлече по влегувањето твоето полно име, бројот на вашата сметка и она што сакате да ја префрлите подолу. Вие ќе бидете пренасочени на ecoPayz да ја заврши својата трансакција. </ P>"
+
+#
+msgid "deposit_info_ukash"
+msgstr "<p> Ukash е создаден за да им даде на корисниците лесен, безбеден и приватни метод да се направи онлајн плаќања со користење готовина. Поддржано валути вклучуваат ЕУР и УСД. Средствата ќе бидат префрлени на вашата сметка Vbet веднаш. Не се плаќа за користење на овој начин на исплата. Трансфери Don `t имаат минимум и / или максималната вредност. Да депонираат средства во вашиот профил користејќи Bet52 Ukash, едноставно притиснете ги достават по влегувањето во износ сакаш да ја пренесеш подолу. Вие ќе бидете пренасочени на Ukash каде што мора да ги внесете своите податоци Ukash Ваучер да ја заврши својата трансакција. </ P>"
+
+#
+msgid "withdraw_info_ukash"
+msgstr "withdraw_info_ukash"
+
+#
+msgid "deposit_info_cash"
+msgstr "<p> За да депонира пари ќе треба да му кажете на bookmaker-касиерот вашиот број Bet52 сметка која можете беа доделени по регистрацијата на нашата веб страница. </ p> <p> Во Baghramyan 1, Андраник 73/5, Комитите 60 и N.Zaryan sidestreet 1 ч. 9 можете да го надополнува вашата игра сметка и да ја добиете вашата победа 24/7. Во други канцеларии обложување може да го надополнува вашата игра сметка и ја добиете вашата победа од 14:00 до 23:00 часот. </ P> <p> На адресите на канцелариите обложување каде што ќе може да депонираат пари пари. </ P>"
+
+#
+msgid "deposit_info_bitcoin"
+msgstr "deposit_info_bitcoin"
+
+#
+msgid "deposit_info_cashbill"
+msgstr "CashBill е систем на глобалната населба овозможува на интернет корисниците да спроведе безбедно трансфер на пари во реално време. Средствата ќе бидат префрлени на вашата сметка веднаш. Не се плаќа за користење на овој начин на исплата. Трансфери немаат минимални и / или максималната вредност. Да депонираат средства во вашиот профил користејќи CashBill, едноставно притиснете депозит по влегувањето вашата најава и она што сакате да ја префрлите подолу. Вие ќе бидете пренасочени на CashBill да ја заврши својата трансакција. Ве молиме имајте предвид дека мора да имаат банкарска сметка во PLN валута да го користите овој начин на исплата."
+
+#
+msgid "deposit_info_arca"
+msgstr "& Quot; ерменскиот картичка и Quot; ЗАО е основана од страна на Централната банка на RA и 10 комерцијални банки март 2000 за воспоставување и развој на нови банкарски систем на плаќање во Ерменија. Компанијата предвидува сет на услуги кои им овозможува на банките да издаде и служат Arca, MasterCard, VISA картички, исто така, да им служи на ерменскиот Express картички со користење на современи технички, технолошки и софтвер можности на центарот за преработка со користење, исто така, специјализирана поддршка на компанијата. Компанијата е: <ul> <li> полноправна членка на меѓународниот систем за плаќање на Мастеркард Европа и Центарот за обезбедување на обработка на услуги (член Service Provider) </ li> <li> Центар, за да се обезбеди за обработка на услуги за визниот систем (трета партија процесор) </ li> <li> центар, за да се обезбеди за обработка на услуги за системот на American Express (трета страна процесор) </ li> </ ul>"
+
+#
+msgid "withdraw_info_arca"
+msgstr "Нарачаните сума е префрлен во ARCA ерменскиот банките, MasterCard, VISA картички што ги спомна, која е регистрирана во вашето име. IDIVIDI термин со цел извршување е 24 часа. IDIVIDI: Поради нестабилна работа на системот, доцнење трансфер може да надминува одредено време. IDIVIDI: минималната сума за повлекување е <b> 500 </ b> драм. IDIVIDI: максималниот износ за повлекување на <b> 200.000 </ b> драм дневно. IDIVIDI: Не комисии се обвинети за овој начин на исплата."
+
+#
+msgid "Last name/surname, name, middle name"
+msgstr "Последните име / презиме, име, средно име"
+
+#
+msgid "deposit_info_edram"
+msgstr "<a href=\"http://www.idram.am/\"> IDram </a> е на платниот систем на интернет. За реализација на плаќање е потребно да се регистрира во IDram систем. IDram систем не бара ставање на дополнителна програма. На специјална страница, можете да се изложуваат на себе си сметка за потребната сума и да ја плати во IDram систем. После тоа, потребно е да се провери статусот на сметка изложени на истата страница. Ако тоа е платена, вашата игра сметка ќе биде надополнет со преведената сума. За внесување на пари во системот потребно е да се купи а IDram картичка преку филијали на & Quot; ArmPost & Quot; комуникација. Можно е да се запознаат со правилата на системот на веб-сајтот <a href=\"http://www.idram.am/\"> www.idram.am </a>. Нема трошоци за овој начин на исплата."
+
+#
+msgid "withdraw_info_edram"
+msgstr "Вашата исплата цел ќе бидат префрлени на вашата сметка <a href=\"http://www.idram.am/\"> iDram </a> која е регистрирана во вашето име. Извршување рок на ред е 12 часа. Со овој начин на исплата не се плаќаат провизија."
+
+#
+msgid "withdraw_info_cash"
+msgstr "<p> Можете да добиете сума нареди во канцелариите на обложување на истиот или наредниот ден од денот на регистрација на истрага. Вие треба да ги презентираат вашиот пасош да ја добиете вашата победа. Редоследот е валидна во рок од 3 дена. Ако не можете да примате победничката сума во текот на овој период, истрагата ќе бидат откажани, нарачаните сума ќе се врати на сметка на играта. Минималниот износ на нарачката не е ограничен. Нема дополнителни трошоци за овој начин на исплата. </ P> <p> Во Baghramyan 1, Андраник 73/5, Amiryan 18 / 2а можете да добиете вашите добивки од 11:00 до 23:00 часот. Во други канцеларии обложување можете да добиете вашите добивки од 14:00 до 23:00 </ p> <p> Можете да прими готови пари во износ од следниве гранки на Bet52:. </ P>"
+
+#
+msgid "deposit_info_telcell"
+msgstr "Тоа е многу важно за & Quot; Bet52 & Quot; компанија за да им обезбеди на своите корисници со модерен, сигурен и лесен за платен промет. Затоа и Quot; Bet52 & Quot; Компанијата е вклучена во системот <a href=\"http://www.telcell.am/\"> TelCell </a>."
+
+#
+msgid "deposit_info_tandem"
+msgstr "<B> Тандем Плаќање <br> ДОО </ b>, Тандем Плаќање ДОО е основана во 2007 година практики амбиент, дистрибуција и поддршка на автоматизиран систем на плаќање. Терминали на плаќање понудени од страна на нашата компанија се гарантира брз, удобен и сигурниот начин на исплата, плаќање за јавните комунални претпријатија, Интернет, надополнување на сметки и др софтвер на Тандем Плаќање & Otilde; и терминали е развиен во RA од Smart-Техника ДОО која има големо искуство во развојот на различни системи на е-плаќања како што Arca порталот и системот на Е-картичка банките. Овој факт дава можност за континуирано подобрување на системот на плаќање терминали, да се изврши и применуваат различни иновации во системот <br> <i> <b> Наша примарна предности се:. </ B> </ i> <br> < br> <b> Ние работиме без провизија (0%) </ b> <br> <b> Нашите терминали овозможи да се дистрибуираат уплатениот износ на пари помеѓу различните типови на услуги. </ b> <b> </ b > <b> (Можете да добиете подетални информации за овие предмети на & Quot; за корисници и Quot; страница). </ b> <br> Нашите оператори работат со дваесет и четири часа и секогаш сме подготвени да одговорат на вашите сите прашања во врска со нашиот систем."
+
+#
+msgid "deposit_info_btabank"
+msgstr "Тоа е од капитално значење за Bet52 да им обезбеди на своите клиенти со до-to-date, сигурен и удобно плаќање услуги. IDIVIDI: Можете да отсега ќе Пополни вашето сметка Bet52 преку БТА банка. IDIVIDI: БТА банка АД функции врз основа на лиценца N31, обезбедени од страна на Народна банка на Република Ерменија. IDIVIDI: преку БТА банка АД можете да плаќаат за фиксни и мобилни мрежи, јавниот сервис и дигиталните паричници."
+
+#
+msgid "deposit_info_mobidram"
+msgstr "Ако имате сметка MobiDram од сега па натаму можете да ја надополниш твојата Vivaro сметка преку интернет MobiDram. По најавите треба да кликнете на копчето \"Депозит\", а потоа изберете MobiDram. Таму треба да се пополни во соодветните полиња со податоци и потврда на плаќањето. IDIVIDI: Целата сума ќе бидат префрлени на вашата сметка."
+
+#
+msgid "deposit_info_paytopay"
+msgstr "Ако имате сметка MobiDram од сега па натаму можете да ја надополниш твојата Vivaro сметка со испраќање на СМС порака на краток број 1009 се спомене износот и Vivaro проект сакате да ја надополниш. На пример: 5000, 1234567. <br> Минималниот износ за дотурете е 1000 AMD. Целата сума ќе бидат префрлени на вашата сметка"
+
+#
+msgid "withdraw_info_topoker"
+msgstr "Ако имате сметка Bet52, можете да ја пренесеш пари за тоа. Ве молиме внесете ја вашата Bet52 корисничко име и лозинка (ќе биде побарано само за прв пат) и избран износ ќе бидат префрлени на <b> Вашата </ b> Bet52 сметка"
+
+#
+msgid "deposit_info_card"
+msgstr "deposit_info_card"
+
+#
+msgid "PinCode"
+msgstr "PIN кодот"
+
+#
+msgid "x_card_num"
+msgstr "x_card_num"
+
+#
+msgid "x_card_code"
+msgstr "x_card_code"
+
+#
+msgid "x_exp_date_yy"
+msgstr "x_exp_date_yy"
+
+#
+msgid "withdraw_info_astropay"
+msgstr "withdraw_info_astropay"
+
+#
+msgid "Card Number"
+msgstr "Број картичка"
+
+#
+msgid "Card number"
+msgstr "Број картичка"
+
+#
+msgid "Card code"
+msgstr "Код картичка"
+
+#
+msgid "Expiry date (mm)"
+msgstr "Датумот на истекување (мм)"
+
+#
+msgid "Expiry date (yyyy)"
+msgstr "Датумот на истекување (YYYY)"
+
+#
+msgid "deposit_info_wirecard"
+msgstr "WireCard е безбеден, удобен и брз начин да депонираат средства во вашиот Bet52 сметка со кредитна картичка. Поддржани валути се: EUR, USD, се фаќа, и UAH. Средствата ќе бидат префрлени на вашата сметка Vbet веднаш. Не се плаќа со користење на овој начин на исплата. Да депонираат средства во вашиот профил користејќи Bet52 WireCard, едноставно пополнете сите задолжителни полиња и притиснете на копчето \"депозит\"."
+
+#
+msgid "CardNumber"
+msgstr "Број картичка"
+
+#
+msgid "CardHolderName"
+msgstr "Картичка носителот Име"
+
+#
+msgid "ExpirationYear"
+msgstr "истекот Година"
+
+#
+msgid "ExpirationMonth"
+msgstr "истекот месец"
+
+#
+msgid "Cvc2"
+msgstr "CVC2"
+
+#
+msgid "deposit_info_bankform"
+msgstr "deposit_info_bankform"
+
+#
+msgid "IBAN"
+msgstr "IBAN"
+
+#
+msgid "SWIFT"
+msgstr "SWIFT"
+
+#
+msgid "withdraw_info_bankform"
+msgstr "withdraw_info_bankform"
+
+#
+msgid "deposit_info_moneysafe"
+msgstr "deposit_info_moneysafe"
+
+#
+msgid "Code"
+msgstr "Код"
+
+#
+msgid "withdraw_info_tovivaropet"
+msgstr "Ако имате сметка Bet52, можете да ја пренесеш пари за тоа. Ве молиме внесете ја вашатаBet52 корисничко име и лозинка (ќе биде побарано само за прв пат) и избран износ ќе бидат префрлени на <b> Вашата </ b> Bet52 сметка"
+
+#
+msgid "deposit_info_eblontransfer"
+msgstr "deposit_info_eblontransfer"
+
+#
+msgid "withdraw_info_eblontransfer"
+msgstr "withdraw_info_eblontransfer"
+
+#
+msgid "CustomerID"
+msgstr "CustomerID"
+
+#
+msgid "Sorry, this game cannot be opened in multi-view mode"
+msgstr "За жал, оваа игра не може да се отвори во мулти-режим на прегледување"
+
+#
+msgid "This Game Is Already Opened In Multi Game View. Please Choose Another Game."
+msgstr "Оваа игра е веќе отворена во мулти игра View. Ве молиме изберете една игра."
+
+#
+msgid "It Is Possible To Play Only One Game Of The Same Provider In Multi Game View. Please Choose Another Game."
+msgstr "Можно е да се игра само еден натпревар од истиот провајдер во мулти игра View. Ве молиме изберете една игра."
+
+#
+msgid "Please close one of the games for adding new one"
+msgstr "Ве молиме да се затвори една од игрите за додавање нов"
+
+#
+msgid "The game is not available"
+msgstr "Играта не е на располагање"
+
+#
+msgid "Home"
+msgstr "Почетна"
+
+#
+msgid "message_OK"
+msgstr "прифатени"
+
+#
+msgid "Virtual sports"
+msgstr "Виртуелна спортови"
+
+#
+msgid "More sports"
+msgstr "Повеќе спортови"
+
+#
+msgid "Popular competitions"
+msgstr "Популарни натпревари"
+
+#
+msgid "Your Facebook account is already linked to another existing user."
+msgstr "Вашиот Фејсбук профил е веќе поврзан со друг постоечки корисник."
+
+#
+msgid "Unknown error"
+msgstr "Неидентификувана грешка"
+
+#
+msgid "Come play on "
+msgstr "Ајде да играат на"
+
+#
+msgid "Password changed"
+msgstr "Лозинка промени"
+
+#
+msgid "Personal information updated."
+msgstr "Лични податоци ажурирани."
+
+#
+msgid "Invalid password."
+msgstr "Невалидно лозинка."
+
+#
+msgid "Deposit limits set."
+msgstr "Се постави лимит на депозити."
+
+#
+msgid "Self-Exclusion period set."
+msgstr "Авто-исклучување на рокот."
+
+#
+msgid "New Bets"
+msgstr "Нов Влоговите"
+
+#
+msgid "Winning Bets"
+msgstr "Победнички Влоговите"
+
+#
+msgid "Returned Bet"
+msgstr "Врати Бет"
+
+#
+msgid "Card Deposit"
+msgstr "Депозит картичка"
+
+#
+msgid "Bonus Bet"
+msgstr "Бонус Бет"
+
+#
+msgid "Commission"
+msgstr "Комисијата"
+
+#
+msgid "Withdrawal"
+msgstr "Повлекување"
+
+#
+msgid "Correction"
+msgstr "Исправка"
+
+#
+msgid "Deposit by payment system"
+msgstr "Депозит од страна на платниот систем"
+
+#
+msgid "Withdrawal request"
+msgstr "Повлекување барање"
+
+#
+msgid "Authorized Withdrawal"
+msgstr "Овластени Повлекување"
+
+#
+msgid "Withdrawal denied"
+msgstr "Повлекување негираше"
+
+#
+msgid "Withdrawal paid"
+msgstr "Повлекување платени"
+
+#
+msgid "Pool Bet"
+msgstr "Pool Bet"
+
+#
+msgid "Pool Bet Win"
+msgstr "Базен удри Победа"
+
+#
+msgid "Pool Bet Return"
+msgstr "Базен Бет Враќање"
+
+#
+msgid "In the process of revision"
+msgstr "Во процесот на ревизија"
+
+#
+msgid "Removed for recalculation"
+msgstr "Отстранет за повторната пресметка"
+
+#
+msgid "Free Bet Bonus received"
+msgstr "Бесплатен залог бонус доби"
+
+#
+msgid "Wagering Bonus received"
+msgstr "Wagering бонус доби"
+
+#
+msgid "Transfer from Gaming Wallet"
+msgstr "Трансфер од Gaming Паричник"
+
+#
+msgid "Transfer to Gaming Wallet"
+msgstr "Трансфер до Gaming Паричник"
+
+#
+msgid "Declined Superbet"
+msgstr "Одби Superbet"
+
+#
+msgid "Bet on hold"
+msgstr "Залог на чекање"
+
+#
+msgid "Bet cashout"
+msgstr "Залог cashout"
+
+#
+msgid "Fair"
+msgstr "Фер"
+
+#
+msgid "Fair Win"
+msgstr "Фер Победа"
+
+#
+msgid "Fair Return"
+msgstr "Праведен надомест"
+
+#
+msgid "Tip"
+msgstr "Совет"
+
+#
+msgid "Error"
+msgstr "Грешка"
+
+#
+msgid "Your E-mail Has been confirmed"
+msgstr "Е потврдено Вашиот E-mail"
+
+#
+msgid "You account has been locked. Please try again later !"
+msgstr "Вашата сметка е заклучена. Ве молиме обидете се повторно подоцна!"
+
+#
+msgid "Username or email invalid"
+msgstr "Корисничко име или е-пошта е валиден"
+
+#
+msgid "Invalid email"
+msgstr "Валиден е-маил"
+
+#
+msgid "Upcoming"
+msgstr "Претстојните"
+
+#
+msgid "Popular"
+msgstr "Популарни теми"
+
+#
+msgid "Favorite games"
+msgstr "Омилени"
+
+#
+msgid "Unsupported service"
+msgstr "Неподдржан услуги"
+
+#
+msgid "Currency unsupported"
+msgstr "Овој трансфер не е поддржана за вашата валута"
+
+#
+msgid "Amount is less than minimum allowed"
+msgstr "Износ е помалку од минимум дозволено"
+
+#
+msgid "Amount is greater than maximum allowed"
+msgstr "Износ е поголем од максимално дозволените"
+
+#
+msgid "Entered payee information is not correct."
+msgstr "Внесен информации налогопримачот не е точно."
+
+#
+msgid "Entered payer information is not correct."
+msgstr "Внесен информации обврзник не е точно."
+
+#
+msgid "Internal service fault"
+msgstr "Грешка внатрешна служба"
+
+#
+msgid "Withdraw request blocked."
+msgstr "Повлече барањето блокиран."
+
+#
+msgid "User link blocked, please contact support."
+msgstr "Корисникот линк блокирана, ве молиме контактирајте поддршка."
+
+#
+msgid "Day limit reached. Please try later."
+msgstr "Ограничување ден постигне. Ве молиме обидете се подоцна."
+
+#
+msgid "Withdraw request is already in progress"
+msgstr "Повлече барањето е веќе во тек"
+
+#
+msgid "Withdrawal was successful."
+msgstr "Повлекувањето беше успешна."
+
+#
+msgid "Withdraw failed."
+msgstr "Повлече успеа."
+
+#
+msgid "There was an error processing your request."
+msgstr "Се појави грешка при реализација на вашето барање."
+
+#
+msgid "Withdrawal was successful"
+msgstr "Повлекувањето беше успешна"
+
+#
+msgid "Deposit was successful."
+msgstr "Депозит бил успешен."
+
+#
+msgid "Deposit failed."
+msgstr "Депозит не успеа."
+
+#
+msgid "Your transfer is successfully completed"
+msgstr "Вашиот трансфер е успешно завршен"
+
+#
+msgid "Internal Error"
+msgstr "Внатрешна грешка"
+
+#
+msgid "Invalid RFID card"
+msgstr "Невалиден RFID картичка"
+
+#
+msgid "Invalid Password"
+msgstr "Невалиден Лозинка"
+
+#
+msgid "Please put your RFID card on card reader"
+msgstr "Поставете ги Вашите RFID картичка читач на картички"
+
+#
+msgid "LiveCalendar"
+msgstr "LiveCalendar"
+
+#
+msgid "Live calendar"
+msgstr "Во живо календар"
+
+#
+msgid "Virtual Betting"
+msgstr "Виртуелна Betting"
+
+#
+msgid "Keno"
+msgstr "Keno"
+
+#
+msgid "Connection lost. Reconnecting."
+msgstr "Врската е изгубена. Повторно се поврзувам."
+
+#
+msgid "Connection restored"
+msgstr "Врати конекција"
+
+#
+msgid "In progress"
+msgstr "Во тек"
+
+#
+msgid "Blocked"
+msgstr "Блокирани"
+
+#
+msgid "Calculating wins"
+msgstr "Пресметување победи"
+
+#
+msgid "Closed"
+msgstr "Затворено"
+
+#
+msgid "Wrong phone number"
+msgstr "Погрешен телефонски број"
+
+#
+msgid "Invalid verification code"
+msgstr "Невалиден верификационен код"
+
+#
+msgid "Code has been sent, please check your mobile phone"
+msgstr "Кодот е испратена, ве молиме проверете на вашиот мобилен телефон"
+
+#
+msgid "APPROVED BET"
+msgstr "ОДОБРЕНИ BET"
+
+#
+msgid "YOUR BET HAS BEEN APPROVED"
+msgstr "Залог е одобрен"
+
+#
+msgid "DECLINED BET"
+msgstr "Се намали ставката"
+
+#
+msgid "YOUR BET HAS BEEN DECLINED"
+msgstr "Удри изнесуваше порекне"
+
+#
+msgid "Message sent"
+msgstr "Пораката испратена"
+
+#
+msgid "Cannot play this video in your region."
+msgstr "Не може да се игра оваа видео во вашиот регион."
+
+#
+msgid "Cannot play video stream.Sorry."
+msgstr "Не може да игра видео stream.Sorry."
+
+#
+msgid "Done"
+msgstr "речиси"
+
+#
+msgid "Next"
+msgstr "Следна"
+
+#
+msgid "Previous"
+msgstr "Претходната"
+
+#
+msgid "Skip"
+msgstr "Скокни"
+
+#
+msgid "Press Ctrl + C to copy link address to clipboard"
+msgstr "Притиснете Ctrl   C за да ги копирате линкот адреса на таблата со исечоци"
+
+#
+msgid "Feedback"
+msgstr "Повратна информација"
+
+#
+msgid "Event details"
+msgstr "Детали за настанот"
+
+#
+msgid "5.950.000 AMD GTD tournament"
+msgstr "5.950.000 AMD ГДД турнир"
+
+#
+msgid "Turn on sound from settings"
+msgstr "Вклучете звук од поставките"
+
+#
+msgid "Eastern"
+msgstr "Источна"
+
+#
+msgid "Armenian"
+msgstr "Ерменскиот"
+
+#
+msgid "online"
+msgstr "онлајн"
+
+#
+msgid "Championship"
+msgstr "Првенство"
+
+#
+msgid "season"
+msgstr "сезона"
+
+#
+msgid "Note:"
+msgstr "Забелешка:"
+
+#
+msgid "You can change the layout of the sportsbook in the settings."
+msgstr "Можете да го промените изгледот на залози во прилагодувањата."
+
+#
+msgid "Please note:"
+msgstr "Ве молиме запомнете:"
+
+#
+msgid "If previous deposit limits are increased, you must wait 24 hours until changes take effect."
+msgstr "Ако претходната граници депозит се зголеми, ќе мора да чекаат 24 часа, додека промени во сила."
+
+#
+msgid "tell me more"
+msgstr "ми кажете нешто повеќе"
+
+#
+msgid "Popular games"
+msgstr "Популарни игри"
+
+#
+msgid "Enter number"
+msgstr "Внесете број"
+
+#
+msgid "Points:"
+msgstr "Точки:"
+
+#
+msgid "Account"
+msgstr "Корисник"
+
+#
+msgid "Quarters"
+msgstr "Четвртини"
+
+#
+msgid "Innings"
+msgstr "Innings"
+
+#
+msgid "Periods"
+msgstr "Периоди"
+
+#
+msgid "Sets"
+msgstr "Сетови"
+
+#
+msgid "Play Now"
+msgstr "играј сега"
+
+#
+msgid "AOC"
+msgstr "AOC"
+
+#
+msgid "Free Quiz"
+msgstr "Слободен Квиз"
+
+#
+msgid "Promotions"
+msgstr "Промоции"
+
+#
+msgid "Life tournament"
+msgstr "Живот турнир"
+
+#
+msgid "for our users"
+msgstr "за нашите корисници"
+
+#
+msgid "system "
+msgstr "Систем"
+
+#
+msgid "Middle"
+msgstr "Среден век"
+
+#
+msgid "Jan"
+msgstr "Јан"
+
+#
+msgid "Feb"
+msgstr "Февруари"
+
+#
+msgid "Mar"
+msgstr "Март"
+
+#
+msgid "Apr"
+msgstr "Април"
+
+#
+msgid "May"
+msgstr "мај"
+
+#
+msgid "Jun"
+msgstr "Јуни"
+
+#
+msgid "Jul"
+msgstr "Јули"
+
+#
+msgid "Aug"
+msgstr "Август"
+
+#
+msgid "Sep"
+msgstr "Септември"
+
+#
+msgid "Oct"
+msgstr "Октомври"
+
+#
+msgid "Nov"
+msgstr "Ноември"
+
+#
+msgid "Dec"
+msgstr "Декември"
+
+#
+msgid "Gender "
+msgstr "Пол"
+
+#
+msgid "This field can contain only digits and letters"
+msgstr "Ова поле може да содржи само бројки и букви"
+
+#
+msgid "Username "
+msgstr "Корисничко Име"
+
+#
+msgid "Password is too short"
+msgstr "Лозинка е прекратка"
+
+#
+msgid "Confirm Password"
+msgstr "Потврди нова лозинка"
+
+#
+msgid "Registration on this site is not permitted in selected country."
+msgstr "Регистрација на овој сајт не е дозволено во избраната држава."
+
+#
+msgid "You can register here:"
+msgstr "Можете да се регистрирате тука:"
+
+#
+msgid "Country code is not correct"
+msgstr "Земја код не е точно"
+
+#
+msgid "Failed to send sms"
+msgstr "Не успеа да испрати смс"
+
+#
+msgid "Field can contain only digits"
+msgstr "Поле може да содржи само бројки"
+
+#
+msgid "SMS Code"
+msgstr "SMS законик"
+
+#
+msgid "Promo code"
+msgstr "Промо код"
+
+#
+msgid "Security question"
+msgstr "Безбедносно Прашање"
+
+#
+msgid "Security answer"
+msgstr "Одговорот безбедност"
+
+#
+msgid "I would like to receive information about bonuses and new offers via email."
+msgstr "Јас би сакал да добие информации за бонуси и нови понуди преку e-mail."
+
+#
+msgid "I would like to receive information about bonuses and new offers via SMS"
+msgstr "Јас би сакал да добие информации за бонуси и нови понуди преку СМС"
+
+#
+msgid "Register also for poker."
+msgstr "Зачлени се, исто така, за покер."
+
+#
+msgid "Video roundups"
+msgstr "Видео roundups"
+
+#
+msgid "Popular bets"
+msgstr "Популарни облози"
+
+#
+msgid "Use your "
+msgstr "Користете го вашиот"
+
+#
+msgid "Deberc"
+msgstr "Deberc"
+
+#
+msgid "deposit_info_yandex"
+msgstr "<p> \"Yandex.Money\" -elektronski sustav plaćanja, jedan od najpopularnjih servisa \"Yandex\" kompanije, koji je Ruski najveći portal i vodeći sistem pretraživanja u Ruskom djelu Interneta. \"Yandex.Money\" sustav plaćanja pomaže vam pri online kupovini, doprinosu dobrotvornim fondovima, plaćanju za komunikacijske usluge i više. Za više informacija i mogućnosti o \"Yandex.Money\" sustavu plaćanja, posjetite money.yandex.ru website. </p>"
+
+#
+msgid "Your browser doesn't support file uploading, Please update or use Google Chrome"
+msgstr "Вашиот пребарувач не поддржува качувањето, Ве молиме да се ажурира или да користите Google Chrome"
+
+#
+msgid "I would like to subscribe for email updates and offers from this site."
+msgstr "Јас би сакал да се претплатите на е-мејл ажурирања и понуди од овој сајт."
+
+#
+msgid "What was the name of your first pet?"
+msgstr "Што е името на првиот вашето домашно милениче?"
+
+#
+msgid "What age were you when you went to school?"
+msgstr "На која возраст сте биле кога ќе отиде на училиште?"
+
+#
+msgid "What was the name of the city you were born in?"
+msgstr "Што беше името на градот сте родени во?"
+
+#
+msgid "What was the number of your school?"
+msgstr "Што е бројот на вашето училиште?"
+
+#
+msgid "What was the name of your first love?"
+msgstr "Што беше името на својата прва љубов?"
+
+#
+msgid "What was the make and model of your first car?"
+msgstr "Што е марка и модел на вашиот прв автомобил?"
+
+#
+msgid "deposit_info_centili"
+msgstr "Mobile Payment - Možete jednostavno platiti telefonom u bilo kojem trenutku. Iznos se automatski nadodava na vaš mobilni račun ili se oduzima s vašeg prepaid računa, tako da ne trebate kreditnu karticu ili bankovni račun. Jednostavno platite putem mobitela i uživajte! Valute podržane - RUB. Da napravite polog na Vbet molimo unesite iznos i vaš mobilni broj. Primiti ćete SMS s pitanjem da pšotvrdite plaćanje odgovarajući na njega specifičnim brojem. Nakon potvrde da je plaćanje završeno.<br><br>Pročitajte sljedeće:<br>1. TSustav plaćanja je samo za BeelineRuske kupce.<br>2. Nakon plaćanj abi trebalo biti minimalno 50 RUB na vašem mobilnom računu.<br>3.Provizija za polog je 8%  "
+
+#
+msgid "BET_APPROVED_TITLE"
+msgstr "одобрени облози"
+
+#
+msgid "BET_DECLINED_TITLE"
+msgstr "отфрлија облози"
+
+#
+msgid "BET_DECLINED_MESSAGE"
+msgstr "залог е одбиена"
+
+#
+msgid "Horse Age"
+msgstr "Коњ Години"
+
+#
+msgid "Jockey Weight"
+msgstr "Џокеј Тежина"
+
+#
+msgid "Trainer/Jokey"
+msgstr "Тренер / jokey"
+
+#
+msgid "Coming soon"
+msgstr "Наскоро"
+
+#
+msgid "You have exited website, but your page on odnoklassniki.ru is still active."
+msgstr "Вие заминал веб-сајт, но вашата страница на odnoklassniki.ru се уште е активен."
+
+#
+msgid "Game is temporarily locked"
+msgstr "Играта е привремено затворени"
+
+#
+msgid "Ranking table"
+msgstr "Пласман маса"
+
+#
+msgid "Continue"
+msgstr "Продолжи"
+
+#
+msgid "Coating"
+msgstr "слој"
+
+#
+msgid "Hide Balance"
+msgstr "Сокриј Биланс"
+
+#
+msgid "Show Balance"
+msgstr "Прикажи Биланс"
+
+#
+msgid "Show Username"
+msgstr "Прикажи Корисничко име"
+
+#
+msgid "Hide Username"
+msgstr "Сокриј име"
+
+#
+msgid "Hide statistics"
+msgstr "Сокриј статистика"
+
+#
+msgid "Show statistics"
+msgstr "Прикажи статистика"
+
+#
+msgid "Show / Hide statistics"
+msgstr "Show / Hide statistics"
+
+#
+msgid "Profile"
+msgstr "Профил"
+
+#
+msgid "username"
+msgstr "Корисничко Име"
+
+#
+msgid "balance"
+msgstr "Биланс"
+
+#
+msgid "help"
+msgstr "Помош!"
+
+#
+msgid "single"
+msgstr "Сам"
+
+#
+msgid "Live Dealer"
+msgstr "Живо дилер"
+
+#
+msgid "Invite"
+msgstr "Покани"
+
+#
+msgid "Sign up with your Facebook account"
+msgstr "Пријавете се со вашиот Фејсбук профил"
+
+#
+msgid "Username(in case you'll want to login without facebook)"
+msgstr "Корисничко име (во случај вие ќе сакате да се најавите без фејсбук)"
+
+#
+msgid "withdraw_info_wirecard"
+msgstr "withdraw_info_wirecard"
+
+#
+msgid "Turf"
+msgstr "Тревници"
+
+#
+msgid "Dirt"
+msgstr "Нечистотија"
+
+#
+msgid "Polytrack"
+msgstr "Polytrack"
+
+#
+msgid "yards"
+msgstr "дворови"
+
+#
+msgid "Sound:"
+msgstr "Звучи"
+
+#
+msgid "Part of bet placed from bonus."
+msgstr "Дел од залог поставени од бонус."
+
+#
+msgid "Live chat / FAQ"
+msgstr "Разговор во живо / FAQ"
+
+#
+msgid "id:"
+msgstr "id:"
+
+#
+msgid "DEMO MODE"
+msgstr "Демо режим"
+
+#
+msgid "Exchange"
+msgstr "Размена"
+
+#
+msgid "Duplicate product"
+msgstr "Дупликат производ"
+
+#
+msgid "Wrong Password"
+msgstr "Погрешна лозинка"
+
+#
+msgid "Wrong Amount"
+msgstr "Погрешен Износ"
+
+#
+msgid "Product not allowed"
+msgstr "Производот не е дозволено"
+
+#
+msgid "Upccomming events"
+msgstr "Upccomming настани"
+
+#
+msgid "Add to BetSlip"
+msgstr "Додади во кошница"
+
+#
+msgid "deposit_info_megapay"
+msgstr "<p><b>\"Mega Panther\" LLC</b>je organizacija plaćanja koja predstavlja<b>MegaPay</b>.Sistem djelje preko terminala plaćanja. Preko terminala plaćanja možete platiti fiksnu i mobilnu telefoniju, gorivo, vodu, struju, Internet, IP-telefoniju, komercijalnu TV, <b>Vivarobet</b>,&nbsp;and etc. Terminali plaćanja su najmoderniji način plaćanja vaših računa brzo i lako.Zbog ovih modernih metoda gradnje dijaloga s klijentom proces financijskih operacija postaje pristupačan, lagan i daje mogućnost usluživanja maksimalnog broja ljudi u kratkom vremenskom periodu. Nema potrebe za specijalnim objašnjenima za korištenje ovih terminala. Svatko može djelovati putem terminala;dovoljno je pratiti tekst i slikovne prikaze na ekranu.</p><p>Sva plaćanja se provode u online načinu rada jednostavnim pritiskom na ekran. Za sve vste plaćanja međutim <b>MegaPay</b> provizija se ne prikuplja – <span class=\"CRed\"><strong>0 %</strong></span>.</p><p>Sustav plaćanja <b>MegaPay</b> je optimalno i tehnološko rješenje, a terminal plaćanja znači ugodnost skupa sa dostupnošću.<br></p><p>Mega Panther <b>LLC</b> je stvorio siguran softver koji je trenutno poboljšan za terminale. Naša skupina za praćenje konstantno promatra terminale da umanji moguće pogreške.</p><p>Pola uspijeha svakog posla je zadovoljan klijent.Vođeni sloganom <b>Mega Panther LLC</b> se stalno poboljšava <b>MegaPay</b> sustav plaćanja,povećava efikasnost terminala plaćanja,radi s klijentima preko ujedinjenih centrala poziva. Kao rezultat, dan za danom raste ne samo količina ponuđenih servisa,već i broj zadovoljnih i vjernih klijenata.</p>"
+
+#
+msgid "deposit_info_osmp"
+msgstr "<p>\"OSMP\" LLC (Ujedinjeni sustav instant plaćanja) - Armenijsko predstavništvo Ruskog \"OSMP\" CJSC koje je pokrenuto u rujnu, 2007.<br>RA Central Bank’s № 9 license from April 22, 2008 (payment system). RA Central Bank’s № 5 license from April 22, 2008 (processing and clearing of payments)<br>The System organizes acceptance of payments for the following services: <br>- mobile connection: Beeline, VivaCell-MTS;<br>- fixed connection;<br>- bookmaker offices (Vivarobet)<br>- payment systems (EDram) <br>- VoIP service (Kargin kap) – <strong>New</strong>. <br>- gaz service (ArmRusgazprom) – <strong>New.</strong></p><p>As of 01.12.08, 28 payment terminals located in various districts of Yerevan and Ashtarak are functioning in the system. <br>Russian \"OSMP\" CJSC was founded in 2004. It possesses payment acceptance points in all regions of Russia. Aside from Armenia, the Company’s payment systems function in Georgia, Kazakhstan, Tajikistan, Uzbekistan, Ukraine, Moldova, Belarus. </p>"
+
+#
+msgid "Canceled"
+msgstr "Откажани"
+
+#
+msgid "Depost Amount"
+msgstr "Depost Износ"
+
+#
+msgid "Active"
+msgstr "Активни"
+
+#
+msgid "Fixed"
+msgstr "Фиксно"
+
+#
+msgid "Payed"
+msgstr "Платени"
+
+#
+msgid "will start in"
+msgstr "ќе започне во"
+
+#
+msgid "Frames"
+msgstr "Рамки"
+
+#
+msgid "Last update:"
+msgstr "Последна промена:"
+
+#
+msgid "OnePoint"
+msgstr "OnePoint"
+
+#
+msgid "TwoPoints"
+msgstr "TwoPoints"
+
+#
+msgid "ThreePoints"
+msgstr "ThreePoints"
+
+#
+msgid "0 Half"
+msgstr "0 Половина"
+
+#
+msgid "1st Half"
+msgstr "1-ва половина"
+
+#
+msgid "2nd Half"
+msgstr "2 Половина"
+
+#
+msgid "Additional Time1"
+msgstr "Дополнителни Time1"
+
+#
+msgid "Additional Time2"
+msgstr "Дополнителни Time2"
+
+#
+msgid "Waiting"
+msgstr "Чекајќи"
+
+#
+msgid "Round"
+msgstr "Круг"
+
+#
+msgid "Round 0"
+msgstr "Круг 0"
+
+#
+msgid "Round 1"
+msgstr "Круг 1"
+
+#
+msgid "Round 2"
+msgstr "2 круг"
+
+#
+msgid "Round 3"
+msgstr "3 круг"
+
+#
+msgid "Round 4"
+msgstr "4 круг"
+
+#
+msgid "Round 5"
+msgstr "5 круг"
+
+#
+msgid "Round 6"
+msgstr "6 круг"
+
+#
+msgid "Round 7"
+msgstr "7 круг"
+
+#
+msgid "Round 8"
+msgstr "8 круг"
+
+#
+msgid "Round 9"
+msgstr "9 Круг "
+
+#
+msgid "Round 10"
+msgstr "10 круг"
+
+#
+msgid "Round 11"
+msgstr "11 круг"
+
+#
+msgid "Round 12"
+msgstr "12 круг"
+
+#
+msgid "Set 0"
+msgstr "сет 0"
+
+#
+msgid "Set 1"
+msgstr "сет 1"
+
+#
+msgid "Set 2"
+msgstr "сет 2"
+
+#
+msgid "Set 3"
+msgstr "сет 3"
+
+#
+msgid "Set 4"
+msgstr "сет 4"
+
+#
+msgid "Set 5"
+msgstr "сет 5"
+
+#
+msgid "Set 6"
+msgstr "сет 6"
+
+#
+msgid "Set 7"
+msgstr "сет 7"
+
+#
+msgid "Set 8"
+msgstr "сет 8"
+
+#
+msgid "Set 9"
+msgstr "сет 9"
+
+#
+msgid "Set 10"
+msgstr "сет 10"
+
+#
+msgid "Period 0"
+msgstr "Период 0"
+
+#
+msgid "Period 1"
+msgstr "Период 1"
+
+#
+msgid "Period 2"
+msgstr "Период 2"
+
+#
+msgid "Period 3"
+msgstr "Период 3"
+
+#
+msgid "Quarter 0"
+msgstr "Четвртина 0"
+
+#
+msgid "Quarter 1"
+msgstr "Четвртина 1"
+
+#
+msgid "Quarter 2"
+msgstr "Четвртина 2"
+
+#
+msgid "Quarter 3"
+msgstr "Четвртина 3"
+
+#
+msgid "Quarter 4"
+msgstr "Четвртина 4"
+
+#
+msgid "Inning 0"
+msgstr "0 Коментари"
+
+#
+msgid "1st Inning"
+msgstr "1st Inning"
+
+#
+msgid "2nd Inning"
+msgstr "2nd Inning"
+
+#
+msgid "3rd Inning"
+msgstr "3rd Inning"
+
+#
+msgid "4th Inning"
+msgstr "4th Inning"
+
+#
+msgid "5th Inning"
+msgstr "5th Inning"
+
+#
+msgid "6th Inning"
+msgstr "6th Inning"
+
+#
+msgid "7th Inning"
+msgstr "7th Inning"
+
+#
+msgid "8th Inning"
+msgstr "8th Inning"
+
+#
+msgid "9th Inning"
+msgstr "9th Inning"
+
+#
+msgid "10th Inning"
+msgstr "10th Inning"
+
+#
+msgid "11th Inning"
+msgstr "11th Inning"
+
+#
+msgid "12th Inning"
+msgstr "12th Inning"
+
+#
+msgid "13th Inning"
+msgstr "13th Inning"
+
+#
+msgid "14th Inning"
+msgstr "14th Inning"
+
+#
+msgid "15th Inning"
+msgstr "15th Inning"
+
+#
+msgid "16th Inning"
+msgstr "16th Inning"
+
+#
+msgid "17th Inning"
+msgstr "17th Inning"
+
+#
+msgid "18th Inning"
+msgstr "18th Inning"
+
+#
+msgid "19th Inning"
+msgstr "19th Inning"
+
+#
+msgid "20th Inning"
+msgstr "20th Inning"
+
+#
+msgid "21th Inning"
+msgstr "21th Inning"
+
+#
+msgid "22th Inning"
+msgstr "22th Inning"
+
+#
+msgid "23th Inning"
+msgstr "23th Inning"
+
+#
+msgid "24th Inning"
+msgstr "24th Inning"
+
+#
+msgid "25th Inning"
+msgstr "25th Inning"
+
+#
+msgid "Time 0"
+msgstr "Time 0"
+
+#
+msgid "Time 1"
+msgstr "1st Time"
+
+#
+msgid "Time 2"
+msgstr "2nd Time"
+
+#
+msgid "Frame 0"
+msgstr "Frame 0"
+
+#
+msgid "Frame 1"
+msgstr "1st Frame"
+
+#
+msgid "Frame 2"
+msgstr "2nd Frame"
+
+#
+msgid "Frame 3"
+msgstr "3rd Frame"
+
+#
+msgid "Frame 4"
+msgstr "4th Frame"
+
+#
+msgid "Frame 5"
+msgstr "5th Frame"
+
+#
+msgid "Frame 6"
+msgstr "6th Frame"
+
+#
+msgid "Frame 7"
+msgstr "7th Frame"
+
+#
+msgid "Frame 8"
+msgstr "8th Frame"
+
+#
+msgid "Frame 9"
+msgstr "9th Frame"
+
+#
+msgid "Frame 10"
+msgstr "10th Frame"
+
+#
+msgid "Frame 11"
+msgstr "11th Frame"
+
+#
+msgid "Frame 12"
+msgstr "12th Frame"
+
+#
+msgid "Frame 13"
+msgstr "13th Frame"
+
+#
+msgid "Frame 14"
+msgstr "14th Frame"
+
+#
+msgid "Frame 15"
+msgstr "15th Frame"
+
+#
+msgid "Frame 16"
+msgstr "16th Frame"
+
+#
+msgid "Frame 17"
+msgstr "17th Frame"
+
+#
+msgid "Frame 18"
+msgstr "18th Frame"
+
+#
+msgid "Frame 19"
+msgstr "19th Frame"
+
+#
+msgid "Frame 20"
+msgstr "20th Frame"
+
+#
+msgid "Frame 21"
+msgstr "21th Frame"
+
+#
+msgid "Frame 22"
+msgstr "22th Frame"
+
+#
+msgid "Frame 23"
+msgstr "23th Frame"
+
+#
+msgid "Frame 24"
+msgstr "24th Frame"
+
+#
+msgid "Frame 25"
+msgstr "25th Frame"
+
+#
+msgid "Frame 26"
+msgstr "26th Frame"
+
+#
+msgid "Frame 27"
+msgstr "27th Frame"
+
+#
+msgid "Frame 28"
+msgstr "28th Frame"
+
+#
+msgid "Frame 29"
+msgstr "29th Frame"
+
+#
+msgid "Frame 30"
+msgstr "30th Frame"
+
+#
+msgid "Frame 31"
+msgstr "31st Frame"
+
+#
+msgid "Frame 32"
+msgstr "32nd Frame"
+
+#
+msgid "Frame 33"
+msgstr "33rd Frame"
+
+#
+msgid "Frame 34"
+msgstr "34th Frame"
+
+#
+msgid "Frame 35"
+msgstr "35th Frame"
+
+#
+msgid "Frame 36"
+msgstr "36th Frame"
+
+#
+msgid "Frame 37"
+msgstr "37th Frame"
+
+#
+msgid "Frame 38"
+msgstr "38th Frame"
+
+#
+msgid "Frame 39"
+msgstr "39th Frame"
+
+#
+msgid "Period 4"
+msgstr "Период 4"
+
+#
+msgid "Period 5"
+msgstr "Период 5"
+
+#
+msgid "Period 6"
+msgstr "Период 6"
+
+#
+msgid "Game 0"
+msgstr "Игра 0"
+
+#
+msgid "Game 1"
+msgstr "Игра 1"
+
+#
+msgid "Game 2"
+msgstr "Игра 2"
+
+#
+msgid "Game 3"
+msgstr "Игра 3"
+
+#
+msgid "Game 4"
+msgstr "Игра 4"
+
+#
+msgid "Game 5"
+msgstr "Игра 5"
+
+#
+msgid "Set 11"
+msgstr "сет 11"
+
+#
+msgid "Set 12"
+msgstr "сет 12"
+
+#
+msgid "Set 13"
+msgstr "сет 13"
+
+#
+msgid "Set 14"
+msgstr "сет 14"
+
+#
+msgid "Set 15"
+msgstr "сет 15"
+
+#
+msgid "Set 16"
+msgstr "сет 16"
+
+#
+msgid "Set 17"
+msgstr "сет 17"
+
+#
+msgid "Set 18"
+msgstr "сет 18"
+
+#
+msgid "Set 19"
+msgstr "сет 19"
+
+#
+msgid "Set 20"
+msgstr "сет 20"
+
+#
+msgid "Events"
+msgstr "Настани"
+
+#
+msgid "SHOW"
+msgstr "ЕМИСИЈА"
+
+#
+msgid "In-Play"
+msgstr "In-Play"
+
+#
+msgid "Id"
+msgstr "Id"
+
+#
+msgid "To place your bet, please log in"
+msgstr "Да поставите вашата залог, ве молиме логирајте во"
+
+#
+msgid "Win % 1 st Service"
+msgstr "Победа% 1-ви служба"
+
+#
+msgid "Break Point Conversions"
+msgstr "Брејк конверзии"
+
+#
+msgid "Your bet is not accepted"
+msgstr "Залог не е прифатена"
+
+#
+msgid ""
+"TransferProduct:\n"
+"ERROR_LOW_BALANCE"
+msgstr "TransferProduct: ERROR_LOW_BALANCE"
+
+#
+msgid "this field is required"
+msgstr "Ова поле е задолжително"
+
+#
+msgid "Invalid payee"
+msgstr "Невалиден налогопримачот"
+
+#
+msgid "Invalid payer"
+msgstr "Невалиден обврзник"
+
+#
+msgid "ok"
+msgstr "ВО РЕД"
+
+#
+msgid "Email Address or Username"
+msgstr "E-mail адреса или корисничко име"
+
+#
+msgid "Terms &amp; Conditions"
+msgstr "Услови на употреба"
+
+#
+msgid "TransferProductRROR_LOW_BALANCE"
+msgstr "TransferProductRROR_LOW_BALANCE"
+
+#
+msgid "FEATURED GAMES"
+msgstr "Избрана Игри"
+
+#
+msgid "Welcome"
+msgstr "Добре дојдовте!"
+
+#
+msgid "Join us now!"
+msgstr "Придружете ни се сега!"
+
+#
+msgid "Cashier"
+msgstr "касиер"
+
+#
+msgid "new"
+msgstr "нови"
+
+#
+msgid "Not a valid password"
+msgstr "Не е валидна лозинка"
+
+#
+msgid "Available/Withdrawable"
+msgstr "Достапни / Withdrawable"
+
+#
+msgid "bet id:"
+msgstr "bet id:"
+
+#
+msgid "automatically accept price changes"
+msgstr "автоматски да прифати промени на цените"
+
+#
+msgid "incompatible events"
+msgstr "некомпатибилни настани"
+
+#
+msgid "there are deleted events"
+msgstr "постојат избришани настани"
+
+#
+msgid "prices for some events have changed"
+msgstr "цени за некои настани се менуваат"
+
+#
+msgid "Accept changes"
+msgstr "Прифати промени"
+
+#
+msgid "You need to sign in to be able to place bets"
+msgstr "Вие треба да се најавите за да биде во можност да поставите облози"
+
+#
+msgid "Invalid recipient"
+msgstr "Невалиден примачот"
+
+#
+msgid "deposit_info_mastercard"
+msgstr "deposit_info_mastercard"
+
+#
+msgid "withdraw_info_mastercard"
+msgstr "withdraw_info_mastercard"
+
+#
+msgid "label_card_number"
+msgstr "label_card_number"
+
+#
+msgid "deposit_info_visa"
+msgstr "deposit_info_visa"
+
+#
+msgid "withdraw_info_visa"
+msgstr "withdraw_info_visa"
+
+#
+msgid "deposit_info_paypal"
+msgstr "deposit_info_paypal"
+
+#
+msgid "withdraw_info_paypal"
+msgstr "withdraw_info_paypal"
+
+#
+msgid "Select one"
+msgstr "Одберете една"
+
+#
+msgid "Deposit Amount (USD)"
+msgstr "Депозит Износ (УСД)"
+
+#
+msgid "Attach"
+msgstr "Закачи"
+
+#
+msgid "Middle Name"
+msgstr "Татково име"
+
+#
+msgid "Middle name"
+msgstr "Татково име"
+
+#
+msgid "prevew"
+msgstr "преглед"
+
+#
+msgid "Full Name"
+msgstr "Полно име"
+
+#
+msgid "Select your country"
+msgstr "Изберете ја вашата земја"
+
+#
+msgid "Select your currency"
+msgstr "Изберете ја вашата валута"
+
+#
+msgid "Enter the text here"
+msgstr "Внесете го текстот тука"
+
+#
+msgid "I would like to subbscribe for email updates and offeres from VBET."
+msgstr "Јас би сакал да subbscribe за е-мејл ажурирања и offeres од Bet52."
+
+#
+msgid "message_ONHOLD"
+msgstr "eчека потврда"
+
+#
+msgid "message_CHANGE_ODD"
+msgstr "Шансите се менуваат"
+
+#
+msgid "message_EVENT_LOCKED"
+msgstr "Овој настан е заклучен"
+
+#
+msgid "message_LIMIT_ERROR"
+msgstr "Има корекции во Outlook"
+
+#
+msgid "message_GAME_STARTED"
+msgstr "Играта е започната"
+
+#
+msgid "message_1000"
+msgstr "внатрешна грешка"
+
+#
+msgid "message_1001"
+msgstr "нула вредност за аргументот"
+
+#
+msgid "message_1003"
+msgstr "нула вредност за argument / лозинка"
+
+#
+msgid "message_1004"
+msgstr "Корисникот е блокиран"
+
+#
+msgid "message_1006"
+msgstr "грешка лозинка"
+
+#
+msgid "message_1008"
+msgstr "Logging in the page is not possible,since you have not acctivated your account from ypur e-mail."
+
+#
+msgid "message_1009"
+msgstr "Таквите кодот за верификација не постои."
+
+#
+msgid "message_1026"
+msgstr "Можете да направите нови superbet само откако постојниот е завршена."
+
+#
+msgid "message_1099"
+msgstr "вилушка исклучок"
+
+#
+msgid "message_1100"
+msgstr "Играта е веќе почнаа"
+
+#
+msgid "message_1102"
+msgstr "Игра starttime е веќе минато"
+
+#
+msgid "message_1103"
+msgstr "Време уредување најпаметно ти е веќе минато"
+
+#
+msgid "message_1104"
+msgstr "Залог е платена"
+
+#
+msgid "message_1105"
+msgstr "Статус залог не е фиксна"
+
+#
+msgid "message_1106"
+msgstr "изгуби облог"
+
+#
+msgid "message_1107"
+msgstr "онлајн облози"
+
+#
+msgid "message_1108"
+msgstr "Погрешна вредноста за коефициент"
+
+#
+msgid "message_1109"
+msgstr "Погрешна вредноста за сума"
+
+#
+msgid "message_1112"
+msgstr "Барањето е веќе платени!"
+
+#
+msgid "message_1113"
+msgstr "Барањето е веќе зачувано!"
+
+#
+msgid "message_1114"
+msgstr "Картичка Лот блокиран!"
+
+#
+msgid "message_1115"
+msgstr "Картичка блокиран!"
+
+#
+msgid "message_1116"
+msgstr "Картичка активиран!"
+
+#
+msgid "message_1117"
+msgstr "Погрешен најава или Е-пошта"
+
+#
+msgid "message_1118"
+msgstr "дупликат Најави"
+
+#
+msgid "message_1150"
+msgstr "Вие се уште не им е дозволено да се обложи на одреден настан уште"
+
+#
+msgid "message_1200"
+msgstr "Погрешна вредноста исклучок"
+
+#
+msgid "message_1300"
+msgstr "Двојна вредност исклучок"
+
+#
+msgid "message_1400"
+msgstr "Двоен настан исклучок"
+
+#
+msgid "message_1510"
+msgstr "ограничување исклучок"
+
+#
+msgid "message_1500"
+msgstr "Удел надминува максималната дозволена граница"
+
+#
+msgid "message_1550"
+msgstr "Сумата ја надминува максималната дозволена граница"
+
+#
+msgid "message_1560"
+msgstr "Сумата е помала од минималната дозволена граница"
+
+#
+msgid "message_1600"
+msgstr "Корекција на коефициенти е во тек."
+
+#
+msgid "message_1700"
+msgstr "Погрешен исклучок пристап"
+
+#
+msgid "message_1800"
+msgstr "Шансите се смени"
+
+#
+msgid "message_1900"
+msgstr "Настаните можат да бидат вклучени само во повеќе тип на залог"
+
+#
+msgid "message_1910"
+msgstr "Настаните можат да бидат вклучени само во вид ordinar на залог"
+
+#
+msgid "message_2000"
+msgstr "Коефициенти ограничување исклучок"
+
+#
+msgid "message_2100"
+msgstr "Плаќање ограничување исклучок"
+
+#
+msgid "message_2200"
+msgstr "Ограничување клиент исклучок"
+
+#
+msgid "message_2300"
+msgstr "Канцеларија граница исклучок"
+
+#
+msgid "message_2400"
+msgstr "недоволна рамнотежа"
+
+#
+msgid "message_2403"
+msgstr "Постојат активни барања за овој клиент"
+
+#
+msgid "Sex"
+msgstr "Пол"
+
+#
+msgid "Bermudas"
+msgstr "Бермуди"
+
+#
+msgid "Butane"
+msgstr "Бутан"
+
+#
+msgid "East Timor"
+msgstr "Источен Тимор"
+
+#
+msgid "Papua - New Guinea"
+msgstr "Папуа - Нова Гвинеја"
+
+#
+msgid "South Africa"
+msgstr "Јужна Африка"
+
+#
+msgid "St. Lucia"
+msgstr "Сент Лусија"
+
+#
+msgid "Surinam"
+msgstr "Суринам"
+
+#
+msgid "Tongo"
+msgstr "Тонго"
+
+#
+msgid "The Cayman Islands"
+msgstr "Кајмански Острови"
+
+#
+msgid "The Central African Republic"
+msgstr "Централната Африканска Република"
+
+#
+msgid "The Cook Islands"
+msgstr "Кукови Острови"
+
+#
+msgid "The Democratic Republic of the Congo"
+msgstr "Демократска Република Конго"
+
+#
+msgid "Sent Messages"
+msgstr "Испрати пораки"
+
+#
+msgid "New Message"
+msgstr "Нова порака"
+
+#
+msgid "Clear Bet Slip to activate Qiuck Bet"
+msgstr "очисти лизга активирате Брзи залог"
+
+#
+msgid "Other"
+msgstr "Друго"
+
+#
+msgid "There is no downloadable client for your operating system"
+msgstr "Не постои можност за превземање клиент за вашиот оперативен систем"
+
+#
+msgid "message_1110"
+msgstr "очисти лизга активирате Брзи залог (самоограничување)"
+
+#
+msgid "message_2406"
+msgstr "Themself играч само-исклучени од можноста да се постави залог"
+
+#
+msgid "Reset"
+msgstr "Ресетирај"
+
+#
+msgid "Switch to "
+msgstr "Префрли се на"
+
+#
+msgid "Conditional bet"
+msgstr "Условна залог"
+
+#
+msgid "Odd..."
+msgstr "Чуден ..."
+
+#
+msgid "Score:"
+msgstr "Поени:"
+
+#
+msgid "3D  Slots"
+msgstr "3D слотови"
+
+#
+msgid "Film Slot"
+msgstr "Слот за филмот"
+
+#
+msgid "Instant Win"
+msgstr "Инстант Win"
+
+#
+msgid "Table Games"
+msgstr "Табела Игри"
+
+#
+msgid "Top Slots"
+msgstr "Top Slots"
+
+#
+msgid "TvGames"
+msgstr "TvGames"
+
+#
+msgid "Video Poker"
+msgstr "Видео покер"
+
+#
+msgid "Other Games"
+msgstr "Други игри"
+
+#
+msgid "Progressive"
+msgstr "Прогресивна"
+
+#
+msgid "Add more events to be able to place bet "
+msgstr "Додади повеќе настани ќе биде во можност да поставите залог"
+
+#
+msgid "Depost Amount (USD)"
+msgstr "Depost Износ (УСД)"
+
+#
+msgid "1 hours"
+msgstr "1 часови"
+
+#
+msgid "2 hours"
+msgstr "2 часа"
+
+#
+msgid "3 hours"
+msgstr "3 часа"
+
+#
+msgid "5 hours"
+msgstr "5 часа"
+
+#
+msgid "6 hours"
+msgstr "6 часа"
+
+#
+msgid "48 hours"
+msgstr "48 часа"
+
+#
+msgid "72 hours"
+msgstr "72 часа"
+
+#
+msgid "User age is under minimum allowed."
+msgstr "Корисникот старост е под минимум дозволено."
+
+#
+msgid "Please close {1} game(s) to change view"
+msgstr "Ве молиме затворете {1} игра (а) за да го смените изгледот"
+
+#
+msgid "One Game View"
+msgstr "Еден Игра Преглед"
+
+#
+msgid "Two Games View"
+msgstr "Две Игри Преглед"
+
+#
+msgid "Four Games View"
+msgstr "Четири Игри Преглед"
+
+#
+msgid "Open In Pop-Up Window"
+msgstr "Отвори во прозорецот pop-up"
+
+#
+msgid "Add a Game"
+msgstr "Додадете игра"
+
+#
+msgid "Durak"
+msgstr "Durak"
+
+#
+msgid "Preferans"
+msgstr "Preferans"
+
+#
+msgid "Domino"
+msgstr "Домино"
+
+#
+msgid "Sea Battle"
+msgstr "Поморската битка"
+
+#
+msgid "Refresh"
+msgstr "Обнови"
+
+#
+msgid "multiple"
+msgstr "повеќе"
+
+#
+msgid "livecasino_101_1"
+msgstr "Live BlackJack A"
+
+#
+msgid "livecasino_101_2"
+msgstr "Live BlackJack B"
+
+#
+msgid "livecasino_101_3"
+msgstr "Live BlackJack C"
+
+#
+msgid "livecasino_101_4"
+msgstr "Live BlackJack D"
+
+#
+msgid "livecasino_102"
+msgstr "Live Roulette"
+
+#
+msgid "livecasino_103"
+msgstr "Live Baccarat"
+
+#
+msgid "livecasino_104"
+msgstr "Live Bet on Poker"
+
+#
+msgid "AllWeather"
+msgstr "All Weather"
+
+#
+msgid "N_H_Flat"
+msgstr "NH Flat"
+
+#
+msgid "Game Balance:"
+msgstr "Игра Биланс:"
+
+#
+msgid " Horse"
+msgstr "Коњ"
+
+#
+msgid " Jockey"
+msgstr "Џокеј"
+
+#
+msgid " Jockey Weight"
+msgstr "Џокеј Тежина"
+
+#
+msgid "Name *"
+msgstr "Име *"
+
+#
+msgid "Birth date *"
+msgstr "Дата на раѓање *"
+
+#
+msgid "Gender *"
+msgstr "Пол *"
+
+#
+msgid "Passport Number *"
+msgstr "Број на пасош *"
+
+#
+msgid "Username *"
+msgstr "Корисничко име *"
+
+#
+msgid "Password *"
+msgstr "Лозинка *"
+
+#
+msgid "Confirm Password *"
+msgstr "Потврди Лозинка *"
+
+#
+msgid "Email Address *"
+msgstr "Емаил Адреса *"
+
+#
+msgid "Country *"
+msgstr "Земја *"
+
+#
+msgid "City *"
+msgstr "Град *"
+
+#
+msgid "Address *"
+msgstr "Адреса *"
+
+#
+msgid "Contact number *"
+msgstr "Број за контакт *"
+
+#
+msgid "Currency *"
+msgstr "Валута *"
+
+#
+msgid "SMS Code *"
+msgstr "SMS кодот *"
+
+#
+msgid " 0"
+msgstr " 0"
+
+#
+msgid "47 hours"
+msgstr "47 часа"
+
+#
+msgid "Confirmed"
+msgstr "Потврди"
+
+#
+msgid "We are not accepting bets on this game at the moment."
+msgstr "Ние не се прифаќа облози на оваа игра во моментот."
+
+#
+msgid "Leaderboard"
+msgstr "Табла"
+
+#
+msgid "Scratch Games"
+msgstr "Нула Игри"
+
+#
+msgid "Jackpot Slot"
+msgstr "Джакпот слот"
+
+#
+msgid "Password should contain at least 8 characters"
+msgstr "Лозинка треба да содржи најмалку 8 карактери"
+
+#
+msgid "Password should contain at least 8 characters."
+msgstr "Лозинка треба да содржи најмалку 8 карактери."
+
+#
+msgid "Password should contain at least 8 characters, upper and lower-case English letters, at least one digit and no spaces."
+msgstr "Лозинка треба да содржи најмалку 8 карактери, горните и долните случај англиски букви, најмалку една цифра и без празни места."
+
+#
+msgid "backgammon"
+msgstr "backgammon"
+
+#
+msgid "Top 10 sports"
+msgstr "Топ 10 спортови"
+
+#
+msgid "Your request is accepted."
+msgstr "Вашето барање е прифатено."
+
+#
+msgid "Your request is declined."
+msgstr "Вашето барање е поништен."
+
+#
+msgid "What was then number of your school?"
+msgstr "Она што беше тогаш бројот на вашето училиште?"
+
+#
+msgid "Join Now"
+msgstr "Приклучи се сега"
+
+#
+msgid "VGS"
+msgstr "BetConstruct"
+
+#
+msgid "NET"
+msgstr "NetEnt"
+
+#
+msgid "MGS"
+msgstr "Microgaming"
+
+#
+msgid "EZG"
+msgstr "Ezugi"
+
+#
+msgid "Cash-out Temporary unavailable"
+msgstr "Готовина надвор Привремено недостапен"
+
+#
+msgid "This field cannot be edited."
+msgstr "Ова поле не може да се уредува."
+
+#
+msgid "Pin/Unpin"
+msgstr "Игла / неистакнат"
+
+#
+msgid "Thank you for choosing Vivaro.<br/>Our Live Chat support is at your disposal  24 hours a day."
+msgstr "Ви благодариме за изборот Bet52. <br/> Нашиот разговор во живо за поддршка е на располагање 24 часа на ден."
+
+#
+msgid "What was then name of your first love?"
+msgstr "Она што тогаш беше името на својата прва љубов?"
+
+#
+msgid "Live Roulette"
+msgstr "Во живо рулет"
+
+#
+msgid "Live BlackJack"
+msgstr "Во живо BlackJack"
+
+#
+msgid "Live Baccarat"
+msgstr "Во живо Baccarat"
+
+#
+msgid "Live Bet on Poker"
+msgstr "Во живо Залог на покер"
+
+#
+msgid "How to Play"
+msgstr "How to Play"
+
+#
+msgid "Tournament List"
+msgstr "Tournament List"
+
+#
+msgid "Windows XP or higher"
+msgstr "Windows XP or higher"
+
+#
+msgid "Mac OS 9 or higher"
+msgstr "Mac OS 9 or higher"
+
+#
+msgid "Android version 4.0 or higher"
+msgstr "Android version 4.0 or higher"
+
+#
+msgid "Lottery Games"
+msgstr "Lottery Games"
+
+#
+msgid "MiniGames"
+msgstr "Mini Games"
+
+#
+msgid "Casual Games"
+msgstr "Casual Games"
+
+#
+msgid "Classic Slots"
+msgstr "Classic Slots"
+
+#
+msgid "VideoSlots"
+msgstr "Video Slots"
+
+#
+msgid "casino_auth_error"
+msgstr "We're experiencing temporary difficulties. Please try a little later."
+
+#
+msgid "Live Casino"
+msgstr "Live Casino"
+
+#
+msgid "Every week Jackpot"
+msgstr "Every week Jackpot"
+
+#
+msgid "points"
+msgstr "points"
+
+#
+msgid "Don`t show again"
+msgstr "Don`t show again"
+
+#
+msgid "Show more"
+msgstr "Show more"

@@ -1,0 +1,7 @@
+<div class="contain-fantasy eastern-view-t" ng-if="$location.path()==='/sb/' || ($location.path()==='/sport/' && conf.sportsLayout === 'external')" ng-controller="sportsbookCtrl"
+     ng-init="loadExternalSportsbook()">
+    <vbet-loader class="page-center" ng-show="sportsbookLoading"></vbet-loader>
+    <div style="display: table-row;height: 100%;width: 100%;">
+        <div id="BetConstructObject"></div>
+    </div>
+</div>

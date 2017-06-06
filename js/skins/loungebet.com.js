@@ -676,8 +676,8 @@ VBET5.constant('SkinConfig', {
         allowManualSuperBet: false
     },
     'swarm': {
-        url: [{ url: "https://swarm-spring-cloud.betconstruct.com"}],
-        websocket: [{ url: "wss://swarm-spring-cloud.betconstruct.com"}]
+        url: [{url: "https://swarm-spring.betcoswarm.com/"}],
+        websocket: [{url: "wss://us-swarm-spring.betconstruct.com/"}]
         //url: [{ url: "http://10.25.57.125:8088"}],
         //websocket: [{ url: "ws://10.25.57.125:8088"}]
     },

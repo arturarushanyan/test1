@@ -3,6 +3,18 @@
  *
  */
 
+/*
+ *  Questions
+ *
+ *  1. Promo code validation
+ *  2. Animation of
+ *  2.1 Info tooltip toggle
+ *  2.2 Password colorfoul bar
+ *  3. Visibility and layers of tooltips
+ *  4. When tooltips must be visible and when hidden
+ *
+ * */
+
 /* global Loungebet5 */
 VBET5.constant('SkinConfig', {
     additionalModules: ['exchange', 'casino', 'comboView'],
@@ -27,10 +39,8 @@ VBET5.constant('SkinConfig', {
         },
         site_name: "Loungebet",
         skin: 'loungebet.com',
-        stagingpoker:true,
         htmlMetaTags: '<meta name="google-site-verification" content="N9XPR6flqy0jsrw7dTqwnxt5I_lMXOER_Tykg1o13G8"/>',
         enableHpBannerInsteadLiveGame: true,
-        videoResizeButton: false,
         geoIPLangSwitch: true,
         enableToWinInfoInWallet: false,
         resultMenuOrdering: [844, 848, 850, 852, 858],
@@ -74,13 +84,12 @@ VBET5.constant('SkinConfig', {
             {
                 alias: "dashboard",
                 displayName: "Dashboard",
-                enabled: false
+                enabled: true
             },
             {
                 alias: "overview",
                 displayName: "Live Overview",
                 enabledConfig: "liveOverviewEnabled",
-                exceptViews: "modern, euro2016"
             },
             {
                 alias: "multiview",
@@ -303,7 +312,7 @@ VBET5.constant('SkinConfig', {
         //    arm: 'https://inplay.loungebet.com/inplay/?language=hy'
         //},
         oldVersionLink: false,
-        menuOrder: ['sport', 'live',  'casino', 'livedealer', 'poker'],
+        menuOrder: ['sport', 'live',  'casino', 'livedealer', 'pker'],
         menuItems: [
             // {
             //title: "Promotions", link: "#/promos/", cssclass: ''
@@ -323,12 +332,12 @@ VBET5.constant('SkinConfig', {
         personalDetails: {
             readOnlyFields: ['user_id', 'email', 'affiliate_id'],
             editableFields: ['gender', 'first_name', 'sur_name', 'birth_date', 'country_code', 'city', 'address', 'phone_number', 'doc_number'],
-            requiredEditableFields: ['country_code', 'city', 'birth_date', 'first_name', 'sur_name', 'doc_number', 'gender']
+            requiredEditableFields: ['country_code', 'city', 'birth_date', 'first_name', 'sur_name', 'gender']
         },
         convertCurrencyName: {
             MBT: 'mBTC'
         },
-        availableCurrencies: ['EUR', 'USD','BRL','MBTC'],
+        availableCurrencies: ['EUR', 'USD','BRL','MBT'],
         //facebookUrl: "https://www.facebook.com/Loungebetcom",
         //googlePlusUrl: "https://plus.google.com/u/1/+Loungebetlivebetting/",
         //youtubeUrl: "https://www.youtube.com/user/VIVARObetting",
@@ -374,7 +383,7 @@ VBET5.constant('SkinConfig', {
     },
     customTemplates: ["footer.html", "slider/recentbets.html", "header/main.html"],
 
-     regConfig: {
+    regConfig: {
         step1: [
             {
                 "title": "Username",
@@ -460,198 +469,200 @@ VBET5.constant('SkinConfig', {
             }
 
         ],
-        /*step2: {
-            "leftCol": [
-                {
-                    "title": "First Name",
-                    "name": "first_name",
-                    "type": "text",
-                    "required": true,
-                    "placeholder": "Enter here",
-                    "classes": "form-text first-n",
-                    "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[^0-9\\[\\]\\\\`~!@#$%^&*()_+={};:<>|./?,\"'-\\s]+$/"}, {"capitaliseinput": ""}],
-                    "validation": [{"name": "required", "message": "This field is required"}, {"name": "pattern", "message": "Please enter a valid  name: only letters - no space, no digits and/or symbols"}]
-                },
-                {
-                    "title": "Last Name",
-                    "name": "last_name",
-                    "placeholder": "Enter here",
-                    "type": "text",
-                    "required": true,
-                    "classes": "form-text first-n",
-                    "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[^0-9\\[\\]\\\\`~!@#$%^&*()_+={};:<>|./?,\"'-\\s]+$/"}, {"capitaliseinput": ""}],
-                    "validation": [{"name": "required", "message": "This field is required"}, {"name": "pattern", "message": "Please enter a valid  last name: only letters - no space, no digits and/or symbols"}]
-                }, {
-                    "title": "Date of Birth",
-                    "name": "birth_day",
-                    "type": "select",
-                    "required": true,
-                    "classes": "select-block mini first",
-                    "customAttrs": [{"required": "required"}, {"ng-options": "d for d in days"}, {"day-selector": ""}, {"month-model": "registrationData.birth_month"}, {"year-model": "registrationData.birth_year"}, {"options": "days"}, {"ng-change": "calculateAge()"}],
-                    "validation": [{"name": "required", "message": "This field is required"}]
-                }, {
-                    "title": "",
-                    "name": "birth_month",
-                    "type": "select",
-                    "required": true,
-                    "classes": "select-block mini",
-                    "customAttrs": [{"required": "required"}, {"ng-change": "calculateAge()"}],
-                    "optionsData": "<option ng-repeat=\"month in monthNames\" value=\"{{month.val}}\">{{month.name| translate}}</option>",
-                    "validation": [{"name": "required", "message": "This field is required"}]
-                }, {
-                    "title": "",
-                    "name": "birth_year",
-                    "type": "select",
-                    "required": true,
-                    "classes": "select-block mini",
-                    "customAttrs": [{"required": "required"}, {"ng-options": "y for y in registrationData.years track by y"}, {"ng-change": "calculateAge()"}],
-                    "onChange": ["calculateAge"],
-                    "validation": [{"name": "required", "message": "This field is required"}],
-                    "customValidation": "<div class=\"city-form-block\" ng-class=\"{error: userAge < 18}\"> <div class=\"form-error-text\"> <div class=\"error-icon-f\"></div><p trans ng-show=\"userAge < 18 \">Registration on this site is not permitted for people under 18.</p></div>"
-                },{
-                    "title": "Country",
-                    "name": "country_id",
-                    "type": "select",
-                    "required": true,
-                    "classes": "city-form-block new",
-                    "customAttrs": [{"ng-include": "getTemplate(\"templates/slider/countries.html\")"}, {"ng-init": "preFillRegionalData()"}, {"ng-change": "checkIfCountryIsRestricted();"}],
-                    "customValidation": "<div class=\"city-form-block\" ng-class=\"{error: countryIsRestricted}\"> <div class=\"form-error-text\"> <div class=\"error-icon-f\"></div><p trans ng-show=\"countryIsRestricted\">Registration on this site is not permitted in selected country.</p><p ng-show=\"altUrl4RestrictedCountry\"><span trans>You can register here:</span> <a href=\"{{altUrl4RestrictedCountry}}\">{{altUrl4RestrictedCountry}}</a></p></div>"
-                }, {
-                    "title": "City",
-                    "name": "city",
-                    "placeholder": "Enter here",
-                    "type": "text",
-                    "required": true,
-                    "classes": "form-text registration-form-city city",
-                    "customAttrs": [{"required": "required"}],
-                    "validation": [{"name": "required", "message": "This field is required"}]
-                },
-                {
-                    "title": "Gender",
-                    "name": "gender",
-                    "type": "select",
-                    "required": true,
-                    "classes": "select-block big",
-                    "customAttrs": [{"ng-pattern": "/^[M,F]$/"}, {"ng-change": "calculateAge()"}],
-                    "optionsData": "<option ng-repeat=\"gender in genders\" value=\"{{gender.val}}\">{{gender.name| translate}}</option>",
-                    "validation": []
-                },
-                {
-                    "title": "Currency",
-                    "name": "currency_name",
-                    "type": "select",
-                    "required": true,
-                    "classes": "select-block big",
-                    "customAttrs": [{"ng-options": "c for c in  conf.availableCurrencies track by c"}, {"ng-value": "c"}, {"ng-disabled": "currencyDisabled"}],
-                    "validation": []
-                }
-            ],
-            rightCol: [
-                {
-                    "title": "Contact number",
-                    "name": "phone_code",
-                    "type": "text",
-                    "required": true,
-                    "classes": "form-text phone-code",
-                    "customAttrs": [{"country-code-validate": ""}, {"deValidate": ""}, {"ng-maxlength": "5"}, {"required": "required"}, {"prevent-input": "[^0-9]+"}],
-                    "validation": [{"name": "countryCode", "message": "Country code is not correct"}, {
-                        "name": "required",
-                        "message": "Country code is not correct"
-                    }]
-                },
-                {
-                    "title": "",
-                    "name": "phone_number",
-                    "type": "text",
-                    "required": true,
-                    "placeholder": "Enter number",
-                    "hasCustomHtml": true,
-                    "classes": "reg-form-input-number phone_number",
-                    "customAttrs": [{"ng-pattern": "/^[0-9 ]+$/"}, {"required": "required"}, {"prevent-input": "[^0-9]+"}],
-                    "validation": [{"name": "invalid", "message": "Invalid phone number"}, {
-                        "name": "duplicate",
-                        "message": "Duplicate phone number"
-                    }, {"name": "failedsms", "message": "Failed to send sms"}, {
-                        "name": "required",
-                        "message": "This field is required"
-                    }, {"name": "pattern", "message": "Please, enter valid phone number: only digits are allowed - no spaces, letters and/or symbols"}]
-                },
-                {
-                    "title": "CPF",
-                    "name": "doc_number_1",
-                    "type": "text",
-                    "required": true,
-                    "classes": "",
-                    "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
-                    "validation": [{ "name": "required", "message": "This field is required"}]
-                }, {
-                    "title": "",
-                    "name": "doc_number_2",
-                    "type": "text",
-                    "required": true,
-                    "classes": "",
-                    "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
-                    "validation": [{ "name": "required", "message": "This field is required"}]
-                }, {
-                    "title": "",
-                    "name": "doc_number_3",
-                    "type": "text",
-                    "required": true,
-                    "classes": "",
-                    "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
-                    "validation": [{ "name": "required", "message": "This field is required"}]
-                }, {
-                    "title": "",
-                    "name": "doc_number_4",
-                    "type": "text",
-                    "required": true,
-                    "classes": "",
-                    "customAttrs": [{"required": "required"}, {"maxlength": "2"}, {"prevent-input": "[^0-9]+"}],
-                    "validation": [{ "name": "required", "message": "This field is required"}]
-                },
-                {
-                    "title": "Security question",
-                    "name": "security_question",
-                    "type": "select",
-                    "required": true,
-                    "classes": "select-block big",
-                    "customAttrs": [{"required": "required"}],
-                    "optionsData": "<option ng-repeat=\"q in conf.registration.securityQuestion.questions track by $index\" value=\"{{q| translate}}\">{{q| translate}}</option>",
-                    "validation": [{"name": "required", "message": "This field is required"}]
-                }, {
-                    "title": "Security answer",
-                    "name": "security_answer",
-                    "type": "text",
-                    "required": true,
-                    "placeholder": "Enter here",
-                    "classes": "form-text",
-                    "customAttrs": [{"required": "required"}],
-                    "validation": [{"name": "required", "message": "This field is required"}]
-                }, {
-                    "title": "Promo code",
-                    "name": "promo_code",
-                    "type": "text",
-                    "required": false,
-                    "placeholder": "Enter here",
-                    "classes": "form-text",
-                    "customAttrs": [{"ng-disabled": "hasPromoCode"}],
-                    "validation": []
-                }
-                /*
-                 ,
-                 {
-                 "title": "Please enter the text shown on image",
-                 "name": "captcha_text",
-                 "type": "captcha",
-                 "placeholder": "",
-                 "required": true,
-                 "classes": "form-text",
-                 "customAttrs": [{"required": "required"}],
-                 "validation": [{"name": "required", "message": "This field is required"}, {"name": "notmatching", "message": "Text you've entered doesn't match text on image."}]
-                 }
-
-            ]
-        }*/
+        /* step2: {
+         "leftCol": [
+         {
+         "title": "First Name",
+         "name": "first_name",
+         "type": "text",
+         "required": false,
+         "placeholder": "Enter here",
+         "classes": "form-text first-n",
+         "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[^0-9\\[\\]\\\\`~!@#$%^&*()_+={};:<>|./?,\"'-\\s]+$/"}, {"capitaliseinput": ""}],
+         "validation": [{"name": "required", "message": "This field is required"}, {"name": "pattern", "message": "Please enter a valid  name: only letters - no space, no digits and/or symbols"}]
+         },
+         {
+         "title": "Last Name",
+         "name": "last_name",
+         "placeholder": "Enter here",
+         "type": "text",
+         "required": false,
+         "classes": "form-text first-n",
+         "customAttrs": [{"required": "required"}, {"ng-pattern": "/^[^0-9\\[\\]\\\\`~!@#$%^&*()_+={};:<>|./?,\"'-\\s]+$/"}, {"capitaliseinput": ""}],
+         "validation": [{"name": "required", "message": "This field is required"}, {"name": "pattern", "message": "Please enter a valid  last name: only letters - no space, no digits and/or symbols"}]
+         }, {
+         "title": "Date of Birth",
+         "name": "birth_day",
+         "type": "select",
+         "required": false,
+         "classes": "select-block mini first",
+         "customAttrs": [{"required": "required"}, {"ng-options": "d for d in days"}, {"day-selector": ""}, {"month-model": "registrationData.birth_month"}, {"year-model": "registrationData.birth_year"}, {"options": "days"}, {"ng-change": "calculateAge()"}],
+         "validation": [{"name": "required", "message": "This field is required"}]
+         }, {
+         "title": "",
+         "name": "birth_month",
+         "type": "select",
+         "required": false,
+         "classes": "select-block mini",
+         "customAttrs": [{"required": "required"}, {"ng-change": "calculateAge()"}],
+         "optionsData": "<option ng-repeat=\"month in monthNames\" value=\"{{month.val}}\">{{month.name| translate}}</option>",
+         "validation": [{"name": "required", "message": "This field is required"}]
+         }, {
+         "title": "",
+         "name": "birth_year",
+         "type": "select",
+         "required": false,
+         "classes": "select-block mini",
+         "customAttrs": [{"required": "required"}, {"ng-options": "y for y in registrationData.years track by y"}, {"ng-change": "calculateAge()"}],
+         "onChange": ["calculateAge"],
+         "validation": [{"name": "required", "message": "For registration you must be at least 18 years old."}],
+         "customValidation": "<div class=\"city-form-block\" ng-class=\"{error: userAge < 18}\"> <div class=\"form-error-text\"> <div class=\"error-icon-f\"></div><p trans ng-show=\"userAge < 18 \">Registration on this site is not permitted for people under 18.</p></div>"
+         },{
+         "title": "Country",
+         "name": "country_id",
+         "type": "select",
+         "required": false,
+         "classes": "city-form-block new",
+         "customAttrs": [{"ng-include": "getTemplate(\"templates/slider/countries.html\")"}, {"ng-init": "preFillRegionalData()"}, {"ng-change": "checkIfCountryIsRestricted();"}],
+         "customValidation": "<div class=\"city-form-block\" ng-class=\"{error: countryIsRestricted}\"> <div class=\"form-error-text\"> <div class=\"error-icon-f\"></div><p trans ng-show=\"countryIsRestricted\">Registration on this site is not permitted in selected country.</p><p ng-show=\"altUrl4RestrictedCountry\"><span trans>You can register here:</span> <a href=\"{{altUrl4RestrictedCountry}}\">{{altUrl4RestrictedCountry}}</a></p></div>"
+         }, {
+         "title": "City",
+         "name": "city",
+         "placeholder": "Enter here",
+         "type": "text",
+         "required": false,
+         "classes": "form-text registration-form-city city",
+         "customAttrs": [{"required": "required"}],
+         "validation": [{"name": "required", "message": "This field is required"}]
+         },
+         {
+         "title": "Gender",
+         "name": "gender",
+         "type": "select",
+         "required": false,
+         "classes": "select-block big",
+         "customAttrs": [{"ng-pattern": "/^[M,F]$/"}, {"ng-change": "calculateAge()"}],
+         "optionsData": "<option ng-repeat=\"gender in genders\" value=\"{{gender.val}}\">{{gender.name| translate}}</option>",
+         "validation": []
+         },
+         {
+         "title": "Currency",
+         "name": "currency_name",
+         "type": "select",
+         "required": true,
+         "classes": "select-block big",
+         "customAttrs": [{"ng-options": "c for c in  conf.availableCurrencies track by c"}, {"ng-value": "c"}, {"ng-disabled": "currencyDisabled"}],
+         "validation": []
+         }
+         ],
+         rightCol: [
+         {
+         "title": "Contact number",
+         "name": "phone_code",
+         "type": "text",
+         "required": false,
+         "classes": "form-text phone-code",
+         "customAttrs": [{"country-code-validate": ""}, {"deValidate": ""}, {"ng-maxlength": "5"}, {"required": "required"}, {"prevent-input": "[^0-9]+"}],
+         "validation": [{"name": "countryCode", "message": "Country code is not correct"}, {
+         "name": "required",
+         "message": "Country code is not correct"
+         }]
+         },
+         {
+         "title": "",
+         "name": "phone_number",
+         "type": "text",
+         "required": false,
+         "placeholder": "Enter number",
+         "hasCustomHtml": true,
+         "classes": "reg-form-input-number phone_number",
+         "customAttrs": [{"ng-pattern": "/^[0-9 ]+$/"}, {"required": "required"}, {"prevent-input": "[^0-9]+"}],
+         "validation": [{"name": "invalid", "message": "Invalid phone number"}, {
+         "name": "duplicate",
+         "message": "Duplicate phone number"
+         }, {"name": "failedsms", "message": "Failed to send sms"}, {
+         "name": "required",
+         "message": "This field is required"
+         }, {"name": "pattern", "message": "Please, enter valid phone number: only digits are allowed - no spaces, letters and/or symbols"}]
+         },
+         {
+         "title": "CPF",
+         "name": "doc_number_1",
+         "type": "text",
+         "required": false,
+         "classes": "",
+         "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
+         "validation": [{ "name": "required", "message": "This field is required"}]
+         },
+         {
+         "title": "",
+         "name": "doc_number_2",
+         "type": "text",
+         "required": false,
+         "classes": "",
+         "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
+         "validation": [{ "name": "required", "message": "This field is required"}]
+         },
+         {
+         "title": "",
+         "name": "doc_number_3",
+         "type": "text",
+         "required": false,
+         "classes": "",
+         "customAttrs": [{"required": "required"}, {"maxlength": "3"}, {"prevent-input": "[^0-9]+"}],
+         "validation": [{ "name": "required", "message": "This field is required"}]
+         },
+         {
+         "title": "",
+         "name": "doc_number_4",
+         "type": "text",
+         "required": false,
+         "classes": "",
+         "customAttrs": [{"required": "required"}, {"maxlength": "2"}, {"prevent-input": "[^0-9]+"}],
+         "validation": [{ "name": "required", "message": "This field is required"}]
+         },
+         {
+         "title": "Security question",
+         "name": "security_question",
+         "type": "select",
+         "required": false,
+         "classes": "select-block big",
+         "customAttrs": [{"required": "required"}],
+         "optionsData": "<option ng-repeat=\"q in conf.registration.securityQuestion.questions track by $index\" value=\"{{q| translate}}\">{{q| translate}}</option>",
+         "validation": [{"name": "required", "message": "This field is required"}]
+         },
+         {
+         "title": "Security answer",
+         "name": "security_answer",
+         "type": "text",
+         "required": false,
+         "placeholder": "Enter here",
+         "classes": "form-text",
+         "customAttrs": [{"required": "required"}],
+         "validation": [{"name": "required", "message": "This field is required"}]
+         },
+         {
+         "title": "Promo code",
+         "name": "promo_code",
+         "type": "text",
+         "required": false,
+         "placeholder": "Enter here",
+         "classes": "form-text",
+         "customAttrs": [{"ng-disabled": "hasPromoCode"}],
+         "validation": []
+         },
+         {
+         "title": "Please enter the text shown on image",
+         "name": "captcha_text",
+         "type": "captcha",
+         "placeholder": "",
+         "required": true,
+         "classes": "form-text",
+         "customAttrs": [{"required": "required"}],
+         "validation": [{"name": "required", "message": "This field is required"}, {"name": "notmatching", "message": "Text you've entered doesn't match text on image."}]
+         }
+         ]
+         }*/
     },
 
     'env': {
@@ -665,8 +676,8 @@ VBET5.constant('SkinConfig', {
         allowManualSuperBet: false
     },
     'swarm': {
-        url: [{ url: "https://swarm-spring-cloud.betconstruct.com"}],
-        websocket: [{ url: "wss://swarm-spring-cloud.betconstruct.com"}]
+        url: [{url: "https://swarm-spring.betcoswarm.com/"}],
+        websocket: [{url: "wss://us-swarm-spring.betconstruct.com/"}]
         //url: [{ url: "http://10.25.57.125:8088"}],
         //websocket: [{ url: "ws://10.25.57.125:8088"}]
     },
@@ -743,7 +754,8 @@ CASINO.constant('SkinCConfig', {
         },
         filterByProvider: ['EVL','TLC','IGG'],
         showAllGamesOnHomepage: true,
-        favourtieGamesCategoryEnabled: true
+        favourtieGamesCategoryEnabled: true,
+        specialsCategoryEnabled: true
     },
     login: {
         url: '/global/partners/rml.php'

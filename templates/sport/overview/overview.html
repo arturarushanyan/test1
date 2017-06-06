@@ -1,9 +1,9 @@
 <!--Overview-->
 <div class="all-inplay-wrapper" ng-repeat="sports in [favoriteGames, allSports] track by $index" ng-show="sports[0].competitions.length">
     <div
-        class="inplay-game-wrapper {{sport.alias}}"
-        ng-repeat="sport in sports track by sport.id"
-        ng-class="{'closed': states.sport[sport.id].collapsed, 'pointer-events-none': isSportCollapsed[sport.id]}"
+            class="inplay-game-wrapper {{sport.alias}}"
+            ng-repeat="sport in sports track by sport.id"
+            ng-class="{'closed': states.sport[sport.id].collapsed, 'pointer-events-none': isSportCollapsed[sport.id]}"
     >
 
         <div class="title-sport-inplay overview-{{sport.alias}}" ng-click="states.sport[sport.id].collapsed = !states.sport[sport.id].collapsed">
@@ -11,7 +11,8 @@
             <p ng-bind="sport.name"></p>
             <div class="arrow-toggle-inplay"></div>
         </div>
-        <div class="all-info-game-inplay-container" ng-repeat="competition in sport.competitions track by competition.id" ng-show="competition.games.length">
+        <div class="jesht" ng-repeat="sports in [allSports] track by competition">
+            <div class="all-info-game-inplay-container" ng-repeat="competition in sport.competitions track by competition.id" ng-show="competition.games.length">
             <div class="mini-wrapper-info-inplay" ng-class="{'closed': states.competition[sport.id + competition.id].collapsed}">
                 <div class="overview-championship-info" ng-click="states.competition[sport.id + competition.id].collapsed = !states.competition[sport.id + competition.id].collapsed">
                     <div class="arrow-toggle-inplay" ng-class="{favorites: sport.name === 'Favorites'}"></div>
@@ -19,12 +20,12 @@
 
                     <h4 ng-class="{'favorites overview-{{competition.sport.name}}': sport.name === 'Favorites'}" >
                         <span ng-bind="competition.sport.name" ng-show="!sport.id" class="fav-name-overview-b-sport"></span>
-                        <span class="championship-name-country-overview">
-                            <b class="flag-overview flag-{{competition.region.alias}}"></b>
-                            <i ng-bind="competition.name"></i>
-                        </span>
                     </h4>
                 </div>
+                <span class="championship-name-country-overview" ng-show="sport.name === 'Favorites'">
+                            <b class="flag-overview flag-{{competition.region.alias}}"></b>
+                            <i ng-bind="competition.name"></i>
+                </span>
                 <div class="overview-game-info" ng-class="{'blocked': (!(game.events_count || game.markets_count) || game.is_blocked)}" ng-repeat="game in competition.games track by game.id">
                     <div class="overview-name-column">
                         <div class="green-time">
@@ -88,6 +89,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </div>

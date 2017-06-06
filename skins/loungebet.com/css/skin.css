@@ -46831,7 +46831,7 @@ top-game-block {
 .classic-view-column-v3 {
     box-sizing: border-box;
     position: relative;
-    display: table-cell;
+    display: table-cell !important;
     width: 100%;
     height: 100%;
     border-top: 5px solid transparent;
@@ -46862,6 +46862,10 @@ top-game-block {
     padding: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
+}
+
+.center-column-v3.dashboard{
+    border-right: 0;
 }
 
 .scroll-ff-view {
@@ -48507,7 +48511,7 @@ top-game-block {
 }
 
 .flag-view-v3.dashboard-upcoming {
-    left: 18px;
+    left: 10px;
 }
 
 .region-item-v3 > p {
@@ -49624,6 +49628,7 @@ top-game-block {
     top: 0;
     font: 16px/40px icomoon;
     border-right: 1px solid #c2c5b8;
+    box-sizing: border-box;
 }
 
 .favorite-icon-market-v3.active:before,
@@ -49795,7 +49800,7 @@ top-game-block {
 }
 
 .prematch-list-view-v3 .events-list-view-v3 > ul.column-3 > li:nth-child(3) {
-    border-right: 1px solid #e6e5dc;
+    border-right: 1px solid #c5c2b7;
 }
 
 .single-events-b-v3 {
@@ -49830,10 +49835,14 @@ top-game-block {
     /*position: absolute;*/
     /*right: 10px;*/
     /*top: 0;*/
-    font: 10px/40px icomoon;
+    font: 10px/36px icomoon;
     font-style: normal;
     content: "\e68f";
     color: #7c8292;
+}
+
+.single-events-b-v3.dashboard.upcoming.blocked:before{
+    font: 10px/40px icomoon;
 }
 
 .single-events-b-v3.blocked .mini-box-market-info-v3 > span {
@@ -49963,6 +49972,10 @@ top-game-block {
     color: #b6862e;
 }
 
+.single-events-b-v3.dashboard .mini-box-market-info-v3 > span{
+    font: 13px/36px Ubuntu, Arial, Helvetica, sans-serif;
+}
+
 .mini-box-market-info-v3 > span > b {
     box-sizing: border-box;
     position: relative;
@@ -49978,12 +49991,12 @@ top-game-block {
 
 .factor-top:before, .factor-bottom:before {
     box-sizing: border-box;
-    font: 12px/28px icomoon;
+    font: 12px/36px icomoon;
     position: absolute;
     left: -12px;
     top: 0;
     content: "\e66d";
-    color: #04e914;
+    color: #62af81;
     animation: arrow-blick-v3 300ms ease;
     transform: translate3d(0, 0, 0);
 }
@@ -50410,7 +50423,7 @@ top-game-block {
     width: 100%;
     max-height: 30000px;
     animation: region-open-animate-b 500ms ease-in-out;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 0 5px;
 }
 
@@ -50470,10 +50483,10 @@ top-game-block {
 }
 
 .title-championship-v3.dashboard-upcoming {
-    padding: 0 40px;
+    padding: 0 35px;
     margin: 0;
-    border-left: 1px solid #c2c5b7;
-    border-right: 1px solid #c2c5b7;
+    border-left: 1px solid #c5c2b7;
+    border-right: 1px solid #c5c2b7;
 }
 
 .prematch-list-view-v3.prematch .title-championship-v3 {
@@ -50774,7 +50787,10 @@ top-game-block {
     left: 0;
     top: 0;
     height: 100%;
-    padding-left: 10px;
+    width: 42px;
+    padding-left: 4px;
+    text-align: center;
+    border-right: 1px solid #c5c2b7;
 }
 
 .time-game-v3-pm {
@@ -50788,9 +50804,8 @@ top-game-block {
 
 .time-game-v3 > span {
     box-sizing: border-box;
-    color: #7c8292;
-    font: 11px/42px Ubuntu, Arial, Helvetica, sans-serif;
-    float: left;
+    color: #303838;
+    font: 13px/42px Ubuntu, Arial, Helvetica, sans-serif;
 }
 
 .time-game-v3-pm > span {
@@ -50838,7 +50853,7 @@ top-game-block {
     box-sizing: border-box;
     float: left;
     width: calc(100% - 180px);
-    border-right: 1px solid #e6e5dc;
+    border-right: 1px solid #c5c2b7;
 }
 
 .pematch-single-game-info-2column {
@@ -50983,11 +50998,13 @@ top-game-block {
 .game-icons-view-list-v3 {
     box-sizing: border-box;
     display: table-cell;
-    padding: 0;
-    left: 6px;
+    padding: 0 0 0 3px;
+    left: 0;
     position: absolute;
     vertical-align: top;
     z-index: -5;
+    width: 42px;
+    border-right: 1px solid #c5c2b7;
 
 }
 
@@ -51070,6 +51087,7 @@ top-game-block {
 .single-events-b-v3.blocked {
     pointer-events: none;
     text-align: center;
+    background: #fffef6 !important;
 }
 
 .right-column-v3 .game-video-container p {
@@ -53129,6 +53147,7 @@ top-game-block {
 
 .live-column-title-v3 > h2 > span {
     background: #a61f67;
+    text-transform: capitalize;
 }
 
 .upcoming-column-title-v3 > h2 > span:before,
@@ -53151,7 +53170,7 @@ top-game-block {
     top: 0;
     font: 12px/36px icomoon;
     text-align: center;
-    color: #757a8a;
+    color: #c1c4cd;
 }
 
 .d-arrow-icon-v3:before {
@@ -53554,12 +53573,12 @@ top-game-block {
     float: left;
     width: 100%;
     color: #303838;
-    font: 11px/24px Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
+    font: 13px/25px Ubuntu, Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    padding: 0 26px;
+    padding: 0 30px;
 }
 
 .title-competition-dashboard-v3 > .arrow-view-v3,
@@ -53687,7 +53706,7 @@ top-game-block {
 .single-sport-box-v3 .sport-name-up-game-v3 > .arrow-view-left:before {
     box-sizing: border-box;
     content: "\e671";
-    color: #c1c4cd;
+    color: #fffef6;
 }
 
 .single-sport-box-v3.sport-closed > .sport-name-up-game-v3 > .arrow-view-v3:before,
@@ -53698,7 +53717,7 @@ top-game-block {
 
 .single-sport-box-v3.sport-closed > .sport-name-up-game-v3:hover > .arrow-view-v3:before,
 .single-sport-box-v3.sport-closed > .sport-name-up-game-v3:hover > .arrow-view-left:before {
-    color: #c1c4cd;
+    color: #fffef6;
 }
 
 .single-sport-box-v3.sport-closed {
@@ -53772,6 +53791,10 @@ top-game-block {
 .single-sport-box-v3 .flag-view-v3 {
     box-sizing: border-box;
     top: 6px;
+}
+
+.single-sport-box-v3 .flag-view-v3.flag-World, .single-sport-box-v3 .flag-view-v3.flag-2969{
+    top: 4px;
 }
 
 .single-sport-box-v3 .mini-title-box-gameview-v3 {
@@ -59197,7 +59220,7 @@ div.slider-image-wrapper-b {
     color: #fff;
 }
 
-.single-events-b-v3:hover > .mini-box-market-info-v3 > span {
+.single-events-b-v3:hover > .mini-box-market-info-v3 > span, .single-events-b-v3:hover > .mini-box-market-info-v3 > span > b:before {
     color: #fff;
 }
 
@@ -59425,8 +59448,8 @@ div.slider-image-wrapper-b {
 .title-championship-v3 > p {
     box-sizing: border-box;
     color: #303838;
-    font: 11px/24px Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
+    font: 13px/24px Ubuntu, Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
     float: left;
     width: 100%;
     white-space: nowrap;
@@ -59496,6 +59519,10 @@ div.slider-image-wrapper-b {
     margin: 0;
     height: 30px;
     border-bottom: 1px solid #c5c2b7;
+}
+
+.market-name-d-v3.dashboard{
+    height: 22px;
 }
 
 .all-markets-favorite-d-v3 {
@@ -59804,9 +59831,6 @@ div.slider-image-wrapper-b {
     background: #d0d0d0;
 }
 
-.factor-bottom:before, .factor-top:before {
-    color: #62af81;
-}
 
 .factor-bottom-new:before, .factor-top-new:before {
     color: #62af81;
@@ -59820,7 +59844,6 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 }
 
 .live-game-container .game-info .unpin-button {
-
     background: #468966;
     color: #468966;
 }
@@ -59880,6 +59903,9 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 
 .live-column-title-v3, .upcoming-column-title-v3 {
     background: #105b63;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .live-column-title-v3 .upcoming-icon-v3 {
@@ -59890,6 +59916,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 .upcoming-column-title-v3 > h2 > span {
     background: #105b63;
     padding: 0;
+    text-transform: capitalize;
 }
 
 .upcoming-icon-v3 {
@@ -59917,7 +59944,7 @@ view-v3 .game-score-multiset ul.title li, .statistic-view-v3 .live-game-containe
 }
 
 .icon-wrapper-b-v3:before {
-    color: #ffffff;
+    color: #c1c4cd;
 }
 
 .betslip-name-row-v3 > h3 {
@@ -70759,7 +70786,7 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 
 .single-events-b-v3.dashboard.no-hover{
     text-align: center;
-    font: 17px/28px Ubuntu,sans-serif;
+    font: 17px/36px Ubuntu,sans-serif;
 }
 
 .single-events-b-v3.active, .single-events-b-v3.active:hover, .single-events-b-v3.live-services.active, .single-events-b-v3.live-services.active:hover {
@@ -71211,10 +71238,11 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 
 .odds-1x2.dashboard, .odds-12.dashboard{
     width: 100%;
+    height: 22px;
 }
 
 .marked-event-header > div.dashboard >span{
-    font: 10px/30px Ubuntu, Arial, Helvetica, sans-serif;
+    font: 10px/22px Ubuntu, Arial, Helvetica, sans-serif;
 }
 
 .events-list-view-v3.live-services > ul > li.market0{
@@ -71266,8 +71294,8 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 .marked-event-header.dashboard-upcoming{
     background: #f2f2e8;
     height: 21px;
-    border-left: 1px solid #c2c5b7;
-    border-right: 1px solid #c2c5b7;
+    border-left: 1px solid #c5c2b7;
+    border-right: 1px solid #c5c2b7;
 }
 
 .marked-event-header.dashboard-upcoming > .title-left > span:first-child{
@@ -71307,5 +71335,6 @@ form.registration-form .register-steps-b .form-error-text, form.registration-for
 
 .single-events-b-v3.dashboard{
     border-top: 0;
+    height: 36px;
 }
 /*dashboard row*/

@@ -162,7 +162,7 @@
 .flag-Somalia { background: url('../images/flags.png?20160607111144') no-repeat -317px -28px; width: 16px; height: 13px; }
 .flag-SouthAfrica { background: url('../images/flags.png?20160607111144') no-repeat -317px -51px; width: 16px; height: 13px; }
 .flag-SouthAmerica { background: url('../images/flags.png?20160607111144') no-repeat -265px -339px; width: 16px; height: 16px; }
-.flag-SouthKorea { background: url('../images/flags.png?20160607111144') no-repeat -317px -100px; width: 16px; height: 16px; }
+.flag-SouthKorea, .flag-South.Korea { background: url('../images/flags.png?20160607111144') no-repeat -317px -100px; width: 16px; height: 16px; }
 .flag-SouthSudan { background: url('../images/flags.png?20160607111144') no-repeat -317px -126px; width: 16px; height: 13px; }
 .flag-Spain, .flag-545  { background: url('../images/flags.png?20160607111144') no-repeat -317px -149px; width: 16px; height: 13px; }
 .flag-SriLanka { background: url('../images/flags.png?20160607111144') no-repeat -317px -172px; width: 16px; height: 16px; }

@@ -17,12 +17,12 @@
                 </div>
             </div>
         </div>
-        <div class="d-arrow-icon-v3" ng-click="toggleSports()" ng-class="{'closed-all' : collapsedAll}"></div>
+        <div class="d-arrow-icon-v3" ng-click="toggleSports()" ng-class="{'closed-all' : !collapsedAll}"></div>
     </div>
     <div class="single-sport-contain">
         <div class="sport-title-view-up-v3"></div>
         <div class="upcpming-game-contain-v3">
-            <div class="prematch-game-view-contain-v3">
+            <div class="prematch-game-view-contain-v3" mb-scrollbar="scrollbar('vertical', false)" style="height: 100%;float: none;">
                 <div class="single-sport-box-v3"
                      ng-repeat="sport in liveGameViewData track by $index"
                      ng-show="liveGameViewData.length"
@@ -39,7 +39,6 @@
                             <div class="title-championship-v3 dashboard-upcoming" ng-click="competition.collapsed=!competition.collapsed;toggleItem(competition); $event.stopPropagation();" ng-class="{'competition-closed': competition.collapsed}">
                                 <div class="flag-view-v3 flag-{{region.alias}} dashboard-upcoming"></div>
                                 <p><span>{{competition.name}}</span></p>
-                                <div class="arrow-view-v3"></div>
                             </div>
                             <div class="clear"></div>
                             <!--header start-->
@@ -96,7 +95,7 @@
                                         <div class="events-list-view-v3 dashboard-upcoming">
                                             <ul class="column-{{sportP1P2Alias.indexOf(sport.alias) > -1 ? 2 : 3}}" ng-class="{'two-odds': sportP1P2Alias.indexOf(sport.alias) > -1 }">
                                                 <li>
-                                                    <div class="single-events-b-v3 dashboard {{(game.events.P1.price === 1 || game.is_blocked) ? 'blocked' : ''}}"
+                                                    <div class="single-events-b-v3 upcoming dashboard {{(game.events.P1.price === 1 || game.is_blocked) ? 'blocked' : ''}}"
                                                          ng-click="bet(game.events.P1, game); $event.stopPropagation();"
                                                          ng-class="{'active': isEventInBetSlip(game.events.P1), 'blocked': (game.events.P1.price === 1 || game.is_blocked)}">
                                                         <div class="mini-box-market-info-v3">
@@ -105,7 +104,7 @@
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <div class="single-events-b-v3 dashboard {{(game.events.X.price === 1 || game.is_blocked) ? 'blocked' : ''}}"
+                                                    <div class="single-events-b-v3 upcoming dashboard {{(game.events.X.price === 1 || game.is_blocked) ? 'blocked' : ''}}"
                                                          ng-hide="sportP1P2Alias.indexOf(sport.alias) > -1"
                                                          ng-click="bet(game.events.X, game); $event.stopPropagation();"
                                                          ng-class="{'active': isEventInBetSlip(game.events.X), 'blocked': (game.events.X.price === 1 || game.is_blocked)}">
@@ -115,7 +114,7 @@
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <div class="single-events-b-v3 dashboard {{(game.events.P2.price === 1 || game.is_blocked) ? 'blocked' : ''}}" ng-click="bet(game.events.P2, game); $event.stopPropagation();"
+                                                    <div class="single-events-b-v3 upcoming dashboard {{(game.events.P2.price === 1 || game.is_blocked) ? 'blocked' : ''}}" ng-click="bet(game.events.P2, game); $event.stopPropagation();"
                                                          ng-class="{'active': isEventInBetSlip(game.events.P2), 'blocked': (game.events.P2.price === 1 || game.is_blocked)}">
                                                         <div class="mini-box-market-info-v3">
                                                             <span class="price{{game.events.P2.price_change}}"><b>{{game.events.P2.price ? (game.events.P2.price | oddConvert:$root.env.oddFormat) : "-"}}</b></span>

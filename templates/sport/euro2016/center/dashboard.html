@@ -1,7 +1,7 @@
-<div class="dashboard-view-v3" ng-controller="euro2016DashboardMainController">
+<div class="ng-cloak dashboard-view-v3" ng-controller="euro2016DashboardMainController">
     <!--Live games column dashboard-->
     <div class="live-events-column-v3"  ng-controller="euro2016DashboardCenterController">
-        <div mb-scrollbar="scrollbar('vertical', false)" style="height: 100%;">
+        <div>
             <div class="live-games-list-d-v3" >
                 <div class="live-column-title-v3">
                     <div class="upcoming-icon-v3"></div>
@@ -10,7 +10,7 @@
                     </h2>
                     <div class="d-arrow-icon-v3"  ng-click="toggleSports()" ng-class="{'closed-all' : !expandedAll}"></div>
                 </div>
-                <div class="all-live-games-list-d-v3" >
+                <div class="all-live-games-list-d-v3" mb-scrollbar="scrollbar('vertical', false)" style="height: 100%;float: none">
                     <div class="live-games-column-dasboard-v3">
                         <div class="single-sport-box-v3 {{sportBlock[sport.id].expanded ? '' : 'sport-closed'}}"
                              ng-repeat="sport in centerViewLiveData track by sport.id"
@@ -71,7 +71,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="market-info-view-d-v3">
-                                                        <div class="market-name-d-v3">
+                                                        <div class="market-name-d-v3 dashboard">
                                                             <!--header start-->
                                                             <div class="marked-event-header">
                                                                 <div class="odds-1x2 dashboard floating-element" ng-show="!(sportP1P2Alias.indexOf(sport.alias) > -1)">
@@ -152,8 +152,7 @@
     </div>
     <!--Live games column dashboard END-->
     <!--upcoming games column dashboard END-->
-    <div class="live-events-column-v3" mb-scrollbar="scrollbar('vertical', false)"  >
-
+    <div class="live-events-column-v3">
         <game-widget sport-tabs-quantity="15" game-widget-type="'upcoming'" game-widget-title="'Upcoming games'" template-path="templates/sport/euro2016/center/upcoming-games.html"></game-widget>
     </div>
     <!--upcoming games column dashboard END-->

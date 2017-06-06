@@ -11,8 +11,8 @@ VBET5.controller('euro2016DashboardCenterController', ['$rootScope', '$scope', '
     var updateCentralLiveViewWithExpandedRegion = updateCentralViewWithExpandedRegionFactory('centerViewLiveData');
     var updateCentralPrematchViewWithExpandedRegion = updateCentralViewWithExpandedRegionFactory('centerViewPrematchData');
     var updateCentralPrematchViewWithExpandedRegionForLiveToday = updateCentralViewWithExpandedRegionFactory('centerViewPrematchData', updateLinkedGames);
-    var firstTimeLoaded = false;
-    //adding sport basketball to show only P1P2
+
+    //adding sport basketball and other sports to show only P1P2
     $scope.sportP1P2Alias = ['Dota2', 'CounterStrike', 'Tennis', 'TableTennis', 'Volleyball', 'Golf', 'Snooker', 'Mma', 'LeagueOfLegends', 'StarCraft2', 'WorldOfTanks', 'Basketball', 'Badminton', 'Baseball','EBasketball', 'BeachVolleyball', 'AustralianFootball']; //sport aliases which haven't X (only P1 P2)
 
     ;

@@ -9,11 +9,6 @@ angular.module('vbet5.betting').controller('euro2016DashboardMainController', ['
 
     TimeoutWrapper = TimeoutWrapper($scope);
 
-    $rootScope.date = new moment();
-
-    console.log("DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
-    console.log($rootScope.date);
-
     angular.extend(this, $controller('classicViewCenterController', {
         $rootScope: $rootScope,
         $scope: $scope
